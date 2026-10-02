@@ -1,0 +1,221 @@
+[
+  {
+    "id": "B01",
+    "group": "abstention_control",
+    "category": "追加確認・挨拶",
+    "source": "おはよう",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "おはよう",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "おはよう",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "おはよう",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "おはよう",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B02",
+    "group": "abstention_control",
+    "category": "追加確認・疑問",
+    "source": "明日の集合場所はどこ？",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "明日の集合場所はどこ？",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "明日の集合場所はどこ？",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "明日の集合場所はどこ？",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "明日の集合場所はどこ？",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B03",
+    "group": "abstention_control",
+    "category": "追加確認・引用だけ",
+    "source": "「明日は行けません」",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "「明日は行けません」",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "「明日は行けません」",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "「明日は行けません」",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": null,
+          "displayed": [],
+          "fallback": {
+            "text": "「明日は行けません」",
+            "reason": "unsupported_relation"
+          },
+          "shortfallReason": "unsupported_relation",
+          "poolCount": 0,
+          "poolConstructionCount": 0,
+          "verifiedCount": 0,
+          "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    ]
+  }
+]

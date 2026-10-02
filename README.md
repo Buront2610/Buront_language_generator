@@ -8,13 +8,14 @@
 
 - 本文変換・原文寄り・既知構文の応用に対応
 - 怒りの頂点、強い悲しみ、既に時間切れの3系統は、形態素・係り受けと原文スロットから構文を生成
+- 明示された理由（`〜からだ`）、文頭の逆接（`しかし`、濃いめのみ）、冒頭の謙遜と直後の限定された完了行為にも対応。前後の原文を再照合し、原因・称賛・出来事は創作しません
 - 例: `私の怒りが頂点に達しました。` → `俺の怒りが有頂天になった`
 - 人物、数値、引用、否定、推量、条件などを保持。不確かな構文は無理に変換しません
 - 新作生成、名言を作るモード、自由な展開は未対応です。画面では選択不可、APIでは `unsupported_generation_mode` を返します
 - S/Qは人手評価モデルを学習するまで `null`。検証通過は、自然さ・面白さ・文体品質の保証ではありません
 - 特定系列を選んだときは、その系列に確認できる出典だけを使用します。出典不足時に他系列を黙って補いません
 
-詳しい修正範囲と残件は [2026-10-02の実装記録](docs/construction-repair-20261002.md) を参照してください。
+詳しい修正範囲と残件は [一般文・長文の追加改善](docs/grounded-discourse-20261002.md) と [最初の構文実装記録](docs/construction-repair-20261002.md) を参照してください。
 
 ## セットアップと起動
 
@@ -69,6 +70,8 @@ npm run build:assets
 - `apps/server/index.ts`: Fastify APIと静的配信
 - `packages/core/grammar-scope.ts`: 命題ごとの形態・否定・推量・引用・条件の範囲
 - `packages/core/constructions.ts`: 登録構文の束縛、生成、独立再照合
+- `packages/core/discourse-constructions.ts`: 原文の理由・逆接・謙遜と周辺文脈の再束縛
+- `packages/core/bounded-search.ts`: 固定版MiniSearchと同じ順位・スコアを保つ省メモリ検索
 - `packages/core/rewrite.ts` / `rewrite-validation.ts`: 既存の有限編集と検証
 - `packages/core/engine.ts` / `evaluation.ts`: 候補プールと多様性選択
 - `packages/core/semantic.ts`: 全候補の最終検証と再選択

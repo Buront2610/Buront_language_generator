@@ -1,15 +1,19 @@
 import type { Candidate, Check, DocumentIR, QuotePlan, OutputSpan } from '../contracts';
-import { hash, slice, sourceDocument } from './source';
+import { hash, slice, outputProtectedValues } from './source';
 import { discourseLabels, factsIn, planNarrative, planIntent, roleOf, equivalentEvent } from './planning';
 import { validateSurface, validateDiscourse, type SeriesProfile } from './series';
 import { validateRewrite } from './rewrite-validation';
 import { validateConstruction } from './constructions';
 import { validateRhetoric } from './rhetoric-validation';
 export function realize(plan: QuotePlan, ir?: DocumentIR) {
-  let text = ''; const spans: OutputSpan[] = [];
+  let text = '', length = 0; const spans: OutputSpan[] = [];
   for (const node of plan.nodes) {
-    const start = [...text].length; text += node.text;
-    if (node.text) spans.push({ span: { start, end: [...text].length }, nodeId: node.id,
+    const start = length;
+    // Preserve cumulative scalar counting even for a malformed plan splitting
+    // a surrogate pair between nodes (later validation still rejects it).
+    const joinedPair = /[\uD800-\uDBFF]$/.test(text) && /^[\uDC00-\uDFFF]/.test(node.text);
+    text += node.text; length += [...node.text].length - Number(joinedPair);
+    if (node.text) spans.push({ span: { start, end: length }, nodeId: node.id,
       origin: node.type === 'FactClause' ? ir && node.sourceSpan && slice(ir.source.raw, node.sourceSpan) !== node.text ? 'paraphrase' : 'source_fact' : node.type === 'Reference' ? 'direct_quote' : 'rhetoric', sourceSpan: node.sourceSpan, factIds: node.factIds, evidenceIds: node.evidenceIds });
   }
   return { text, spans };
@@ -23,7 +27,7 @@ export function validateCandidate(ir: DocumentIR, plan: QuotePlan, text: string,
     if (!node.sourceSpan) return true;
     const original = slice(ir.source.raw, node.sourceSpan);
     if (original === node.text) return false;
-    const signature = (value: string) => sourceDocument(value).protectedValues.map(item => [item.kind, item.raw, item.role, item.comparator ?? null]);
+    const signature = (value: string) => outputProtectedValues(value).map(item => [item.kind, item.raw, item.role, item.comparator ?? null]);
     try { return hash(signature(original)) !== hash(signature(node.text)); }
     catch { return true; }
   });
@@ -41,7 +45,8 @@ export function validateCandidate(ir: DocumentIR, plan: QuotePlan, text: string,
     && facts.every(node => !!node.sourceSpan && hash(node.factIds) === hash(factsIn(ir, node.sourceSpan).map(fact => fact.id)) && node.mention === 'primary');
   const validIntent = !plan.intentPlan || hash(plan.intentPlan) === hash(planIntent(ir)) && plan.intent === plan.intentPlan.act;
   const supportedNodes = new Set(plan.nodes.map(node => node.id)).size === plan.nodes.length && plan.nodes.every(node => ['FactClause', 'RhetoricalClause', 'Connective', 'Reference', 'QuoteBoundary'].includes(node.type));
-  const partition = spans.every((span, i) => span.span.start === (i ? spans[i - 1].span.end : 0) && span.span.end > span.span.start && span.span.end <= [...text].length) && spans.at(-1)?.span.end === [...text].length;
+  const textLength = [...text].length;
+  const partition = spans.every((span, i) => span.span.start === (i ? spans[i - 1].span.end : 0) && span.span.end > span.span.start && span.span.end <= textLength) && spans.at(-1)?.span.end === textLength;
   const reconstructed = realize(plan, ir);
   const rhetoric = plan.nodes.filter(node => node.type === 'RhetoricalClause');
   // allowedRhetoric remains for old internal callers. The compiler's allowlist

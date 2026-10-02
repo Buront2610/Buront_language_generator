@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-02",
+  "baselineCommit": "c7631aeab30d962ef0ccb55c1e97f289da47e632",
+  "baselineTree": "eb563c45ad531f386f65e5ef1d73cdf5a1f6509d",
+  "build": {
+    "schemaVersion": 1,
+    "sourceHash": "f7768acb4768ee7727fdf6b1f968509062bc9f33bb93fb39232bec2f1966a89e",
+    "toolCommit": "c7631aeab30d962ef0ccb55c1e97f289da47e632",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "compiledCoreHash": "e210cd2fc37968da1d4c7dbd13528a61b61fa61f1ec17971590ba0d5ca6038c9",
+  "productionDatasetId": "0fd001528a59d2fe9b35d63310acba66cc6fa65de362f1f17044ea81fc89b1f8",
+  "checks": {
+    "npm test": {
+      "status": "passed",
+      "tests": 286,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0,
+      "includes": [
+        "engine build",
+        "generated schemas",
+        "web build"
+      ]
+    },
+    "npm run typecheck": "passed",
+    "npm run build:assets": "passed",
+    "npm run diagnose": "passed",
+    "git diff --check": "passed"
+  },
+  "independentReview": {
+    "cases": 47,
+    "rejectedEditMutations": 253,
+    "rejectedProvenanceMutations": 15,
+    "replayAndLockFamilies": 5,
+    "exactNativeRetrievalComparisons": 200,
+    "outstandingBlockers": []
+  },
+  "ordinaryEvaluation": {
+    "reusedOrdinaryCases": 16,
+    "improvedFramingCases": [
+      "N03",
+      "N04",
+      "N05"
+    ],
+    "unchangedTextAndOrder": 13,
+    "S": null,
+    "Q": null,
+    "controlledAndProductionRunsPerSet": 70,
+    "allProductionDisplayedTextsAndOrderMatchControlled": true
+  },
+  "limits": [
+    "Narrow registered transformations; no general literary-quality guarantee",
+    "Temporal case-particle 午後三時からだからな remains eligible and can sound repetitive",
+    "Only two reconstructed long API workloads measured once; no universal 30-second guarantee",
+    "API Node+Python resident memory remains about 1.26–1.37GiB in measured cases",
+    "MiniSearch adapter depends on pinned 7.2.0 private executor",
+    "No browser interaction or Windows execution in this verification",
+    "Untrained S/Q and unsupported creative modes remain unchanged"
+  ],
+  "artifacts": {
+    "artifacts/grounded-discourse-20261002/tests.txt": "0c2ff3fcfd6b0efec96da3c4c036f096a5234f05f56a5564bd3fb5fe768e80ae",
+    "artifacts/grounded-discourse-20261002/typecheck.txt": "bff3db7daa1ba3d7e79b527f42215deaf8a5725dade09d3be63729963ad1b159",
+    "artifacts/grounded-discourse-20261002/build-assets.txt": "972e5381b49c1e2b1eae65c4030363451bb64c62cc875e000ebbdc11303cf9d0",
+    "artifacts/grounded-discourse-20261002/diagnose.txt": "7caf184761db8fedeb6251654c909fc7bfff3e9dcb9e191bf8092d701557c1f8",
+    "artifacts/grounded-discourse-20261002/independent-review.json": "83022331b0254003b2ed83fcf4c1121363813d3c620ac697c09b69b99b52636c",
+    "artifacts/grounded-discourse-20261002/comparison-summary.json": "0ac8589f7dce7b8cc5132c8e47a368f21cace79097b73ec8686a38d9d90c24c2",
+    "artifacts/near-limit-20261002/benchmark.json": "277f09de68a7460474eba6e962073b7964328562b6a8c2520d6a4d2a1da3076d",
+    "artifacts/near-limit-20261002/workloads.json": "5c875481eece565347a9a6af61996d9e893f3e1747c5b96a15b4363f30d153e1"
+  }
+}

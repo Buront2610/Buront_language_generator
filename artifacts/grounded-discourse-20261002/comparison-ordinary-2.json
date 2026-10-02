@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "N04",
+    "group": "ordinary",
+    "category": "反論と根拠",
+    "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。まず小さく試すべきだと思う。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "9d0ae407dd17339af7cb4b7c",
+          "displayed": [
+            {
+              "id": "9d0ae407dd17339af7cb4b7c",
+              "text": "その案には賛成できないからな\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "8747a612f8019337d8c3c47e",
+              "text": "その案には賛成できない\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "bf940017f79c7dc791f4424b725f216206238458b152c38c9c99357e476002b7"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "d7419800d45261ed1fcf456f",
+          "displayed": [
+            {
+              "id": "d7419800d45261ed1fcf456f",
+              "text": "その案には賛成できないからな\n何故なら費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-reason-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-reason",
+                  "from": "費用が高いだけでなく、準備に一週間もかかるからだ",
+                  "to": "何故なら費用が高いだけでなく、準備に一週間もかかるからだ"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "8747a612f8019337d8c3c47e",
+              "text": "その案には賛成できない\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "9d0ae407dd17339af7cb4b7c",
+              "text": "その案には賛成できないからな\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 2,
+          "verifiedCount": 4,
+          "selectionHash": "5d83630fcf0a54eb2048f74d024391715f8ad7d6ead03231af3740f5d6830210"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "9d0ae407dd17339af7cb4b7c",
+          "displayed": [
+            {
+              "id": "9d0ae407dd17339af7cb4b7c",
+              "text": "その案には賛成できないからな\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "8747a612f8019337d8c3c47e",
+              "text": "その案には賛成できない\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "bf940017f79c7dc791f4424b725f216206238458b152c38c9c99357e476002b7"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "d7419800d45261ed1fcf456f",
+          "displayed": [
+            {
+              "id": "d7419800d45261ed1fcf456f",
+              "text": "その案には賛成できないからな\n何故なら費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-reason-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-reason",
+                  "from": "費用が高いだけでなく、準備に一週間もかかるからだ",
+                  "to": "何故なら費用が高いだけでなく、準備に一週間もかかるからだ"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "8747a612f8019337d8c3c47e",
+              "text": "その案には賛成できない\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "9d0ae407dd17339af7cb4b7c",
+              "text": "その案には賛成できないからな\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 2,
+          "verifiedCount": 4,
+          "selectionHash": "5d83630fcf0a54eb2048f74d024391715f8ad7d6ead03231af3740f5d6830210"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N05",
+    "group": "ordinary",
+    "category": "謙遜を伴う達成",
+    "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "6c6e7cb2b2e95af09a481f5d",
+          "displayed": [
+            {
+              "id": "6c6e7cb2b2e95af09a481f5d",
+              "text": "大したことはしていないからな\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a053a26a2e1d75cad036a228",
+              "text": "大したことはしていない\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "8d7cf6b284f68ef40540eb55be7376bac8a52852465105d4ff8379335e52eb61"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "ec298bc7917a36fe16a843aa",
+          "displayed": [
+            {
+              "id": "ec298bc7917a36fe16a843aa",
+              "text": "それほどでもない\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "CONSTRUCTION",
+              "family": "modest-achievement-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "modest-achievement",
+                  "from": "大したことはしていない",
+                  "to": "それほどでもない"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6c6e7cb2b2e95af09a481f5d",
+              "text": "大したことはしていないからな\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a053a26a2e1d75cad036a228",
+              "text": "大したことはしていない\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 1,
+          "verifiedCount": 3,
+          "selectionHash": "62a1f120cc41c1057bb7a7da8425e4a74c87fa4429c52bb8fac1d025a11f1788"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "6c6e7cb2b2e95af09a481f5d",
+          "displayed": [
+            {
+              "id": "6c6e7cb2b2e95af09a481f5d",
+              "text": "大したことはしていないからな\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a053a26a2e1d75cad036a228",
+              "text": "大したことはしていない\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "8d7cf6b284f68ef40540eb55be7376bac8a52852465105d4ff8379335e52eb61"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "ec298bc7917a36fe16a843aa",
+          "displayed": [
+            {
+              "id": "ec298bc7917a36fe16a843aa",
+              "text": "それほどでもない\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "CONSTRUCTION",
+              "family": "modest-achievement-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "modest-achievement",
+                  "from": "大したことはしていない",
+                  "to": "それほどでもない"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6c6e7cb2b2e95af09a481f5d",
+              "text": "大したことはしていないからな\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a053a26a2e1d75cad036a228",
+              "text": "大したことはしていない\n故障の原因を見つけて止まっていた機械を動かしただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 1,
+          "verifiedCount": 3,
+          "selectionHash": "62a1f120cc41c1057bb7a7da8425e4a74c87fa4429c52bb8fac1d025a11f1788"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N06",
+    "group": "ordinary",
+    "category": "感謝と対人関係",
+    "source": "忙しいのに手伝ってくれてありがとう。おかげで予定より早く作業が終わった。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "965b1975ecbf9464028df15e",
+          "displayed": [
+            {
+              "id": "965b1975ecbf9464028df15e",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わった",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c1e292e23d6b82ce72461b06",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わったからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f555c85d65edd0be406b5b8e3b6acc404904947f01463ecb087a21e9d0add6a8"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "965b1975ecbf9464028df15e",
+          "displayed": [
+            {
+              "id": "965b1975ecbf9464028df15e",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わった",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c1e292e23d6b82ce72461b06",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わったからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f555c85d65edd0be406b5b8e3b6acc404904947f01463ecb087a21e9d0add6a8"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "965b1975ecbf9464028df15e",
+          "displayed": [
+            {
+              "id": "965b1975ecbf9464028df15e",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わった",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c1e292e23d6b82ce72461b06",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わったからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f555c85d65edd0be406b5b8e3b6acc404904947f01463ecb087a21e9d0add6a8"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "965b1975ecbf9464028df15e",
+          "displayed": [
+            {
+              "id": "965b1975ecbf9464028df15e",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わった",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c1e292e23d6b82ce72461b06",
+              "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わったからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f555c85d65edd0be406b5b8e3b6acc404904947f01463ecb087a21e9d0add6a8"
+        }
+      }
+    ]
+  }
+]

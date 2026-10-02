@@ -243,7 +243,7 @@ async function main() {
   if (evidence.equivalence.some(row => row.compared && !row.equal)) process.exitCode = 1;
 }
 
-if (process.argv[2] === '--worker') {
+if (require.main === module && process.argv[2] === '--worker') {
   worker(read(process.argv[3])).then(result => process.send?.({ type: 'result', result }), error => process.send?.({ type: 'result', result: { status: 'error', error: error.message } }));
 } else if (require.main === module) main().catch(error => { console.error(error); process.exitCode = 1; });
 

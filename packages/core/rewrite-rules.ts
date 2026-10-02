@@ -1,6 +1,6 @@
 import type { DocumentIR, Span } from '../contracts';
 import { overlaps, slice } from './source';
-import { propositionScopes, scopesForSpan, permitsAssertiveScope, insideEnclosure, type PropositionScope } from './grammar-scope';
+import { propositionScopes, scopesForSpan, permitsAssertiveScope, insideEnclosure, hasInflection, type PropositionScope } from './grammar-scope';
 
 // These are adaptations of attested constructions, not quotations or proof of
 // authorship. Each rule names the exact archived sentence used when reading it.
@@ -113,6 +113,10 @@ function permitsRewriteInScopes(ir: DocumentIR, unit: Span, span: Span, rule: Re
     if (!/^[。！!]?\s*$/u.test(after) || grammaticalScopes.length !== 1 || ir.topicOnly) return false;
     const scope = grammaticalScopes[0];
     const local = scope.tokens.map(token => token.text).join('');
+    // Explanatory 〜からだ already closes a causal construction. Appending
+    // another assertive からな would produce 〜からだからな (or duplicate its
+    // past/negative continuation). Plain inflection changes remain available.
+    if (rule.mode === 'insistence' && hasExplanatoryCausalTail(ir, scope, span)) return false;
     // Any replacement that changes conjugation must begin on a morpheme
     // boundary. 話します and 許します do not contain the する auxiliary します.
     if (rule.to.replace(/からな$/u, '') !== rule.from && !['いです', 'かった'].includes(rule.from) && tokens[0].span.start !== span.start) return false;
@@ -137,6 +141,20 @@ function permitsRewriteInScopes(ir: DocumentIR, unit: Span, span: Span, rule: Re
     if (/んだが|からな|べき|ほしい|欲しい|なさい|ださい|ください/u.test(local)) return false;
   }
   return true;
+}
+
+function hasExplanatoryCausalTail(ir: DocumentIR, scope: PropositionScope, span: Span): boolean {
+  return scope.associated.some(marker => marker.text === 'から' && marker.lemma === 'から' && marker.pos === 'SCONJ' && marker.dep === 'mark'
+    && scope.associated.some(copula => copula.pos === 'AUX' && ['だ', 'です'].includes(copula.lemma)
+      && hasInflection(copula, copula.lemma === 'だ' ? '助動詞-ダ' : '助動詞-デス')
+      && ['aux', 'cop', 'fixed'].includes(copula.dep) && (copula.head === marker.head || copula.head === marker.id)
+      && marker.span.end <= copula.span.start && copula.span.start <= span.start
+      && /^\s*$/u.test(slice(ir.source.raw, { start: marker.span.end, end: copula.span.start }))
+      // GiNZA links both copula and から to the same predicate; negative/past
+      // auxiliaries can be fixed dependents of that copula. Require this local
+      // grammatical chain, not a substring or a causal clause elsewhere.
+      && scope.tokens.filter(token => overlaps(token.span, { start: copula.span.start, end: span.end }))
+        .every(token => token.pos === 'SPACE' || scope.associated.includes(token))));
 }
 
 function permitsPunctuation(ir: DocumentIR, span: Span, rule: RewriteRule): boolean {

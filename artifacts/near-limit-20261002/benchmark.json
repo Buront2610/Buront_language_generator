@@ -1,0 +1,1800 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-02T04:46:57.513Z",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "cpu": "AMD EPYC 9V74 80-Core Processor"
+  },
+  "baseline": "c7631aeab30d962ef0ccb55c1e97f289da47e632",
+  "fixedCoreHash": "e210cd2fc37968da1d4c7dbd13528a61b61fa61f1ec17971590ba0d5ca6038c9",
+  "workspace": "/tmp/buront-near-limit-w4YzSZ",
+  "assetsHash": "bf91fe4135d4827b644980eb15ff0c6c1de59bdcd9c26fc8b260b1f87b02a09d",
+  "baseHash": "338b4e05d748400dffc41cfeca61193e2211f8a065b05316854a9da60deaa866",
+  "method": {
+    "engine": "Fresh child process, one five-character warmup; parser/import/index warmup excluded. maxRss includes process initialization; default V8 heap unless explicitly labeled 4096MiB.",
+    "equality": "Same frozen assets, request and full-input analysis. Full candidate pool includes plans, spans, evidence, all novelty fields and scores. Expected real-limit correction only changes false V-quantity rejection and consequent presentation.",
+    "synthetic": "Five-character real-analysis tile with remapped IDs/heads/spans/sentence boundaries; NOT a real full-input parse.",
+    "prose": "Authored multi-paragraph factual passage repeated intact to near 5,000; not a representative-user performance guarantee.",
+    "api": "Production Fastify injection + Coordinator + Python parser + worker + independent bounded semantic proof; default 30,000ms coordinator deadline. Bounded rewrites are independently rechecked, not output-reparsed. Node RSS includes worker; combined peak samples Node+Python every25ms. Startup separately reported."
+  },
+  "workloads": {
+    "file": "workloads.json",
+    "sha256": "5c875481eece565347a9a6af61996d9e893f3e1747c5b96a15b4363f30d153e1"
+  },
+  "parser": [
+    {
+      "workload": "repeated",
+      "sourceScalars": 5000,
+      "status": "ok",
+      "startupMs": 1138.301,
+      "parserMs": 3987.494,
+      "tokens": 4000,
+      "sentences": 1,
+      "analysisHash": "54164af90fefc0e9a002363f24be153f6def5d15fdf6137a81eb045b02b5e6ff",
+      "runtime": {
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+      },
+      "workerWallMs": 5322.714
+    },
+    {
+      "workload": "prose",
+      "sourceScalars": 4928,
+      "status": "ok",
+      "startupMs": 1149.961,
+      "parserMs": 2810.995,
+      "tokens": 3360,
+      "sentences": 337,
+      "analysisHash": "ecaa7eb4e08d726f704caf3873403832ef808f1515c05c55df41de9a1a551be4",
+      "runtime": {
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+      },
+      "workerWallMs": 4144.867
+    }
+  ],
+  "engine": [
+    {
+      "workload": "synthetic1200",
+      "build": "fixed",
+      "status": "ok",
+      "generationMs": 1877.325,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 572039168,
+      "memory": {
+        "rss": 572039168,
+        "heapTotal": 248778752,
+        "heapUsed": 121967296,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 1200,
+      "tokens": 960,
+      "sentences": 240,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "c552ef661fa68ba55f8271c842572d8df6361624815c3fb9e7ec4b38647b9ed6",
+      "irHash": "e47a0863dc935277e49b51ae3e884fbf1292dee4ad2a303acdfe704f3d2aaf4e",
+      "poolLanguageHash": "935e55c491f0708c7d056ed939fc648b20fcc2e8f1ac53573df80049d3e65931",
+      "candidates": [
+        {
+          "outputScalars": 1680,
+          "nodes": 240,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 1440,
+          "nodes": 240,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 1443,
+          "nodes": 240,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 3997.814
+    },
+    {
+      "workload": "synthetic1200",
+      "build": "baseline",
+      "status": "ok",
+      "generationMs": 4813.574,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 1758531584,
+      "memory": {
+        "rss": 1758531584,
+        "heapTotal": 684445696,
+        "heapUsed": 562046840,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 1200,
+      "tokens": 960,
+      "sentences": 240,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "c552ef661fa68ba55f8271c842572d8df6361624815c3fb9e7ec4b38647b9ed6",
+      "irHash": "e47a0863dc935277e49b51ae3e884fbf1292dee4ad2a303acdfe704f3d2aaf4e",
+      "poolLanguageHash": "935e55c491f0708c7d056ed939fc648b20fcc2e8f1ac53573df80049d3e65931",
+      "candidates": [
+        {
+          "outputScalars": 1680,
+          "nodes": 240,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 1440,
+          "nodes": 240,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 1443,
+          "nodes": 240,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 6848.068
+    },
+    {
+      "workload": "synthetic5000",
+      "build": "fixed",
+      "status": "ok",
+      "generationMs": 16310.978,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 657702912,
+      "memory": {
+        "rss": 641970176,
+        "heapTotal": 311533568,
+        "heapUsed": 222603744,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 5000,
+      "tokens": 4000,
+      "sentences": 1000,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "db687dab0bca4e6733e0efb208af384afc5cd97da095646e2dc383760e4af102",
+      "irHash": "953fd92334383b8c6a4d2780e67a9971b5bf79becc6617eb3446be8e3f3daee5",
+      "poolLanguageHash": "0a54ad963c62b1527cde0159d69058da6deaa372206131adfaf11c3e0c8749c9",
+      "candidates": [
+        {
+          "outputScalars": 7000,
+          "nodes": 1000,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 6000,
+          "nodes": 1000,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 6003,
+          "nodes": 1000,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 18679.32
+    },
+    {
+      "workload": "synthetic5000",
+      "build": "baseline",
+      "status": "error",
+      "code": null,
+      "signal": "SIGABRT",
+      "workerWallMs": 23554.78,
+      "stderr": "\n<--- Last few GCs --->\n\n[101:0x250a0000]    22863 ms: Scavenge (interleaved) 2020.4 (2029.9) -> 2019.9 (2052.2) MB, pooled: 0 MB, 14.05 / 0.00 ms  (average mu = 0.185, current mu = 0.121) allocation failure; \n[101:0x250a0000]    23456 ms: Mark-Compact (reduce) 2020.2 (2052.2) -> 2020.2 (2022.7) MB, pooled: 0 MB, 539.98 / 0.00 ms  (+ 12.8 ms in 4 steps since start of marking, biggest step 5.1 ms, walltime since start of marking 557 ms) (average mu = 0.180, curr\nFATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory\n----- Native stack trace -----\n\n 1: 0x75356c node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 2: 0xc52cd0  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 3: 0xc52dbf  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 4: 0xef6695  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 5: 0xef66c2  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 6: 0xef69ba  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 7: 0xf076ba  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 8: 0xf0ba60  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n 9: 0x199e0d1  [/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node]\n"
+    },
+    {
+      "workload": "synthetic5000",
+      "build": "baseline-large-heap",
+      "status": "ok",
+      "generationMs": 29722.15,
+      "environment": {
+        "heapLimitBytes": 4496293888,
+        "execArgv": [
+          "--max-old-space-size=4096"
+        ]
+      },
+      "maxRssBytes": 3586187264,
+      "memory": {
+        "rss": 3570454528,
+        "heapTotal": 2224287744,
+        "heapUsed": 2097491440,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 5000,
+      "tokens": 4000,
+      "sentences": 1000,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "db687dab0bca4e6733e0efb208af384afc5cd97da095646e2dc383760e4af102",
+      "irHash": "953fd92334383b8c6a4d2780e67a9971b5bf79becc6617eb3446be8e3f3daee5",
+      "poolLanguageHash": "0a54ad963c62b1527cde0159d69058da6deaa372206131adfaf11c3e0c8749c9",
+      "candidates": [
+        {
+          "outputScalars": 7000,
+          "nodes": 1000,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 6000,
+          "nodes": 1000,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 6003,
+          "nodes": 1000,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 31963.756
+    },
+    {
+      "workload": "repeated",
+      "build": "fixed",
+      "status": "ok",
+      "generationMs": 11931.774,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 599941120,
+      "memory": {
+        "rss": 600072192,
+        "heapTotal": 264577024,
+        "heapUsed": 138748816,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 5000,
+      "tokens": 4000,
+      "sentences": 1,
+      "selectedCount": 2,
+      "poolCount": 2,
+      "shortfallReason": "candidate_shortage",
+      "semanticHash": "852d9ecb75a0225ee00780c1420a0f69831f123cea01b5864d91eadde5ee8140",
+      "irHash": "61b8bfc79a49276c837a661b14a91243df4181765176fb1463e707846c6c4b96",
+      "poolLanguageHash": "613f79cd4b146a243765e5683127a36e7bcdabadf3505e0edd340723d3e2a102",
+      "candidates": [
+        {
+          "outputScalars": 5002,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 5003,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 14141.454
+    },
+    {
+      "workload": "repeated",
+      "build": "baseline",
+      "status": "ok",
+      "generationMs": 24572.662,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 2385965056,
+      "memory": {
+        "rss": 2353324032,
+        "heapTotal": 256647168,
+        "heapUsed": 126752136,
+        "external": 3883170,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 5000,
+      "tokens": 4000,
+      "sentences": 1,
+      "selectedCount": 0,
+      "poolCount": 2,
+      "shortfallReason": "no_valid_candidate",
+      "semanticHash": "a88d55f37428b70b8f5c54b3f7e26fd0b1b860a68fbaac214907080e5eebc699",
+      "irHash": "61b8bfc79a49276c837a661b14a91243df4181765176fb1463e707846c6c4b96",
+      "poolLanguageHash": "613f79cd4b146a243765e5683127a36e7bcdabadf3505e0edd340723d3e2a102",
+      "candidates": [
+        {
+          "outputScalars": 5002,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "fail"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "rejected"
+        },
+        {
+          "outputScalars": 5003,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "fail"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "rejected"
+        }
+      ],
+      "workerWallMs": 26590.539
+    },
+    {
+      "workload": "prose",
+      "build": "fixed",
+      "status": "ok",
+      "generationMs": 5294.557,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 589651968,
+      "memory": {
+        "rss": 589651968,
+        "heapTotal": 266682368,
+        "heapUsed": 141069880,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 4928,
+      "tokens": 3360,
+      "sentences": 337,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "a1b1158219f4f8035c7b383975364917d1cce7c184cbcacb8be507c359437190",
+      "irHash": "b9d0ed5daddd436e755d84f6e20c364b6f0a462613acb44ecef22dc8526878e6",
+      "poolLanguageHash": "8d3acb69231df843b2152d99e097fa94fc9c286e2507d028b9cd0ce66b65c4f0",
+      "candidates": [
+        {
+          "outputScalars": 4816,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4814,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4817,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 7425.766
+    },
+    {
+      "workload": "prose",
+      "build": "baseline",
+      "status": "ok",
+      "generationMs": 9032.343,
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 1792053248,
+      "memory": {
+        "rss": 1785769984,
+        "heapTotal": 838692864,
+        "heapUsed": 744857088,
+        "external": 3885930,
+        "arrayBuffers": 146735
+      },
+      "sourceScalars": 4928,
+      "tokens": 3360,
+      "sentences": 337,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "a1b1158219f4f8035c7b383975364917d1cce7c184cbcacb8be507c359437190",
+      "irHash": "b9d0ed5daddd436e755d84f6e20c364b6f0a462613acb44ecef22dc8526878e6",
+      "poolLanguageHash": "8d3acb69231df843b2152d99e097fa94fc9c286e2507d028b9cd0ce66b65c4f0",
+      "candidates": [
+        {
+          "outputScalars": 4816,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4814,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4817,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "workerWallMs": 11035.176
+    }
+  ],
+  "api": [
+    {
+      "workload": "repeated",
+      "sourceScalars": 5000,
+      "status": "completed",
+      "startupMs": 2395.564,
+      "apiWallMs": 17454.189,
+      "coordinatorMs": 17415,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 12566.186
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 833.262
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 5000,
+          "ms": 4011.88
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 750227456,
+      "peakPythonRssBytes": 724709376,
+      "peakCombinedRssBytes": 1474936832,
+      "selectedCount": 2,
+      "poolCount": 2,
+      "shortfallReason": "candidate_shortage",
+      "semanticHash": "809ed65aae878e19c4711472aac41f8a01b8ef7cc96d2a5771a45739b55fa608",
+      "irHash": "61b8bfc79a49276c837a661b14a91243df4181765176fb1463e707846c6c4b96",
+      "poolLanguageHash": "302599876edc6e184c681a093dabae7a3fdf95e3b53edf31da78d3d555f047c4",
+      "candidates": [
+        {
+          "outputScalars": 5002,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 5003,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "0ef41d64792d5de136745f49",
+          "10cf2ad3bc8feabe810058fc"
+        ],
+        "selectionHash": "540add9092ce7d93889a46f93d41e51ae9d549ef4bec247a32c213f5a6d0fb4e"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "workerWallMs": 20117.371,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "apiAssetsHash": "463b0ed3428a54f467d59974cf0cf6cd933bfaf6ab868b334755a8795dd075d5",
+      "apiDatasetId": "fbf590e9bee33f09c6310595e8568d881ab2f4f3984cf82f1c0a7ee9d303aa67",
+      "declaredEngineVersion": "d57d9925bb7dfb1da7c8232c81d2b14df889b18134fcff65a4a3ac34093d0ba3"
+    },
+    {
+      "workload": "prose",
+      "sourceScalars": 4928,
+      "status": "completed",
+      "startupMs": 2168.414,
+      "apiWallMs": 8227.523,
+      "coordinatorMs": 8189,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 5044.778
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 394.443
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 4928,
+          "ms": 2746.633
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 663298048,
+      "peakPythonRssBytes": 688717824,
+      "peakCombinedRssBytes": 1352015872,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "134f7eb3c334e797496ed32f7b8e8cfb3f3965f8198621e512c89f0b9361af4d",
+      "irHash": "b9d0ed5daddd436e755d84f6e20c364b6f0a462613acb44ecef22dc8526878e6",
+      "poolLanguageHash": "8e102e751f0a21cf7570b9c651df8b9c1ac911bb64430781453c2ec24b8c3270",
+      "candidates": [
+        {
+          "outputScalars": 4817,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4816,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4814,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "d130c2d8badfe62cbb07bb8b",
+          "2830cbed63a3c99fdd48a941",
+          "6926fe30ea972eff77986c35"
+        ],
+        "selectionHash": "f33c0ea6a6ad9f711271873d3acf0b5ed2e1fbc12ad88b4ceae2d07cb6644a22"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "workerWallMs": 10688.904,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "apiAssetsHash": "463b0ed3428a54f467d59974cf0cf6cd933bfaf6ab868b334755a8795dd075d5",
+      "apiDatasetId": "fbf590e9bee33f09c6310595e8568d881ab2f4f3984cf82f1c0a7ee9d303aa67",
+      "declaredEngineVersion": "d57d9925bb7dfb1da7c8232c81d2b14df889b18134fcff65a4a3ac34093d0ba3"
+    }
+  ],
+  "equality": [
+    {
+      "workload": "synthetic1200",
+      "exactSemanticResult": true,
+      "poolLanguageAndNoveltyEqual": true,
+      "checkDifferences": [],
+      "expectedQuantityCorrectionOnly": false
+    },
+    {
+      "workload": "synthetic5000",
+      "exactSemanticResult": true,
+      "poolLanguageAndNoveltyEqual": true,
+      "checkDifferences": [],
+      "expectedQuantityCorrectionOnly": false
+    },
+    {
+      "workload": "repeated",
+      "exactSemanticResult": false,
+      "poolLanguageAndNoveltyEqual": true,
+      "checkDifferences": [
+        {
+          "candidate": 0,
+          "changes": [
+            "V-quantity"
+          ]
+        },
+        {
+          "candidate": 1,
+          "changes": [
+            "V-quantity"
+          ]
+        }
+      ],
+      "expectedQuantityCorrectionOnly": true
+    },
+    {
+      "workload": "prose",
+      "exactSemanticResult": true,
+      "poolLanguageAndNoveltyEqual": true,
+      "checkDifferences": [],
+      "expectedQuantityCorrectionOnly": false
+    }
+  ],
+  "passed": true,
+  "apiRuntimeBuildInfo": {
+    "schemaVersion": 1,
+    "sourceHash": "d57d9925bb7dfb1da7c8232c81d2b14df889b18134fcff65a4a3ac34093d0ba3",
+    "toolCommit": "c7631aeab30d962ef0ccb55c1e97f289da47e632",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  }
+}
