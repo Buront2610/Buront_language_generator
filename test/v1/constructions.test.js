@@ -4,11 +4,12 @@ const assert = require('node:assert/strict');
 const { PythonClient } = require('../../dist/packages/runtime/python-client');
 const { compileAssets } = require('../../dist/packages/core/assets');
 const { generate } = require('../../dist/packages/core/engine');
-const { validateConstruction, constructionRegistry } = require('../../dist/packages/core/constructions');
+const { validateConstruction, constructionRegistry, makeConstructionPlans } = require('../../dist/packages/core/constructions');
 const { realize, validateCandidate, verification } = require('../../dist/packages/core/validator');
 const { verifyGeneratedResult } = require('../../dist/packages/runtime/semantic-verification');
 const { replayGeneration } = require('../../dist/packages/core/replay');
 const { hash } = require('../../dist/packages/core/source');
+const constructionFixtures = ['punctuation', 'safeguards', 'idempotence'].flatMap(kind => require(`../fixtures/ginza-construction-${kind}.json`).cases);
 let python, assets, references;
 const request = (source, extra = {}) => ({ source, task: 'rewrite', contextMode: 'faithful', noveltyMode: 'blend', intensity: 2, series: 'all', backend: 'structured', clientRevision: 0, seed: 'construction-regression', ...extra });
 const cache = new Map();
@@ -19,6 +20,11 @@ async function run(source, extra = {}) {
   return generate(request(source, extra), cache.get(source), assets);
 }
 const constructed = result => result.candidatePool.filter(candidate => candidate.plan.construction);
+async function liveAndCaptured(source) {
+  const fixture = constructionFixtures.find(row => row.source === source);
+  assert.ok(fixture, `Missing real construction fixture: ${source}`);
+  return [await run(source), generate(request(source), fixture.analysis, assets)];
+}
 
 test('anger construction binds emotion, peak, participant and inflection rather than matching one phrase', async () => {
   for (const [source, expected] of [
@@ -57,6 +63,76 @@ test('registered sadness and expiry preserve explicit degree, state, experiencer
     assert.ok(constructed(result).some(candidate => candidate.text === expected), source);
     assert.ok(constructed(result).every(candidate => validateConstruction(result.ir, candidate.plan, references)));
   }
+});
+
+test('live and captured GiNZA assertions accept safe terminal punctuation sequences and newlines', async () => {
+  for (const [body, expected] of [
+    ['怒りが頂点に達した', '怒りが有頂天になった'],
+    ['とても悲しかった', '深い悲しみに包まれた'],
+    ['すでに時間切れだ', '時既に時間切れだ'],
+  ]) for (const ending of ['！', '！！', '!', '!!', '！！\n', '!!\n', '。\n']) {
+    const source = body + ending;
+    for (const result of await liveAndCaptured(source)) {
+      const candidates = constructed(result);
+      assert.ok(candidates.some(candidate => candidate.text === expected + ending.replace('。', '')), JSON.stringify(source));
+      assert.ok(candidates.every(candidate => validateConstruction(result.ir, candidate.plan, references)), JSON.stringify(source));
+      assert.ok(candidates.every(candidate => candidate.plan.construction.edits[0].from === body), JSON.stringify(source));
+    }
+  }
+});
+
+test('repeated punctuation does not bypass question, quotation, conditional or modality protections', async () => {
+  for (const source of [
+    '怒りが頂点に達した！？', '怒りが頂点に達した?!', '怒りが頂点に達した！！？',
+    '「怒りが頂点に達した！！」', '（怒りが頂点に達した！！）', '怒りが頂点に達したら帰る！！',
+    '怒りが頂点に達したかもしれない！！', 'とても悲しかったら帰る!!', 'とても悲しいらしい！！',
+    'すでに時間切れだ！？', '「すでに時間切れだ！！」', 'すでに時間切れだったら帰る!!', 'もう時間切れかもしれない！！',
+  ]) for (const result of await liveAndCaptured(source)) {
+    assert.equal(constructed(result).length, 0, source);
+  }
+});
+
+test('time-expired is idempotent under a real GiNZA output-to-input round trip', async () => {
+  const first = await run('すでに時間切れだ。'), original = constructed(first).find(candidate => candidate.text === '時既に時間切れだ');
+  assert.ok(original);
+  for (const source of [original.text, original.text + '。', '時既に時間切れだった。', '時 既に時間切れだ。']) {
+    for (const result of await liveAndCaptured(source)) {
+      assert.equal(constructed(result).length, 0, source);
+      assert.ok(result.candidatePool.every(candidate => !/時\s*時既に/u.test(candidate.text)), source);
+    }
+  }
+});
+
+test('an existing time-expired construction only blocks its own local span', async () => {
+  for (const source of ['時既に時間切れだ。既に時間切れだ。', '既に時間切れだ。時既に時間切れだ。']) {
+    for (const result of await liveAndCaptured(source)) {
+      const candidates = constructed(result);
+      assert.ok(candidates.length, source);
+      assert.ok(candidates.some(candidate => candidate.text === '時既に時間切れだ\n時既に時間切れだ'), source);
+      for (const candidate of candidates) {
+        assert.equal(candidate.plan.construction.edits.length, 1, source);
+        assert.equal(candidate.plan.construction.edits[0].sourceSpan.start, source.startsWith('時') ? 9 : 0, source);
+        assert.equal(candidate.text.match(/時既に時間切れだ/gu).length, 2, source);
+        assert.ok(!candidate.text.includes('時時'), source);
+        assert.ok(validateConstruction(result.ir, candidate.plan, references), source);
+      }
+    }
+  }
+});
+
+test('independent construction validation rejects an otherwise matching duplicate-time edit', async () => {
+  const source = '時既に時間切れだ。', result = await run(source), weakened = structuredClone(result.ir);
+  // This deliberately broken dependency emulates the old binder ignoring 時.
+  // The control below proves rejection is not due to an inconsistent plan/render.
+  const prefix = weakened.tokens.find(token => token.text === '時');
+  prefix.head = prefix.id;
+  const plan = makeConstructionPlans(weakened, request(source), assets, [])[0];
+  assert.ok(plan);
+  assert.equal(validateConstruction(weakened, plan, references), true);
+  assert.equal(validateConstruction(result.ir, plan, references), false);
+  const output = realize(plan, result.ir);
+  assert.ok(output.text.includes('時時既に時間切れだ'));
+  assert.notEqual(verification(validateCandidate(result.ir, plan, output.text, output.spans, new Set(references.keys()), undefined, references, assets.seriesProfiles)), 'passed');
 });
 
 test('negative, hypothetical, uncertain, reported, quoted and prospective propositions abstain', async () => {

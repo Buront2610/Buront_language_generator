@@ -1,6 +1,6 @@
 import type { DocumentIR, Span } from '../contracts';
 import { overlaps, slice } from './source';
-import { propositionScopes, scopesForSpan, permitsAssertiveScope, insideEnclosure } from './grammar-scope';
+import { propositionScopes, scopesForSpan, permitsAssertiveScope, insideEnclosure, type PropositionScope } from './grammar-scope';
 
 // These are adaptations of attested constructions, not quotations or proof of
 // authorship. Each rule names the exact archived sentence used when reading it.
@@ -72,14 +72,27 @@ const withdrawnLexicalRuleIds = new Set(['fuinki', 'zei-in', 'anger-peak', 'ange
 export const rewriteRules: readonly RewriteRule[] = rules.filter(rule => !withdrawnLexicalRuleIds.has(rule.id));
 export const rewriteRuleById = new Map(rewriteRules.map(rule => [rule.id, rule]));
 
+// A short-lived guard owns its derived scopes for one synchronous planning or
+// verification pass. Nothing is stored on the IR, returned in the plan, or kept
+// globally. A verifier must create its own guard from the original input.
+export function createRewritePermission(ir: DocumentIR): (unit: Span, span: Span, rule: RewriteRule) => boolean {
+  const scopes = propositionScopes(ir.source, ir);
+  return (unit, span, rule) => permitsRewriteInScopes(ir, unit, span, rule, scopes);
+}
+
+// Standalone callers retain the same independent validation behavior.
 export function permitsRewrite(ir: DocumentIR, unit: Span, span: Span, rule: RewriteRule): boolean {
+  return createRewritePermission(ir)(unit, span, rule);
+}
+
+function permitsRewriteInScopes(ir: DocumentIR, unit: Span, span: Span, rule: RewriteRule, scopes: PropositionScope[]): boolean {
   if (span.start < unit.start || span.end > unit.end || slice(ir.source.raw, span) !== rule.from) return false;
   if ([...ir.source.opaqueSpans, ...ir.source.protectedValues.map(value => value.span)].some(protectedSpan => overlaps(span, protectedSpan))) return false;
   if (insideEnclosure(ir.source.raw, span.start)) return false;
   if (rule.kind === 'punctuation') return permitsPunctuation(ir, span, rule);
   const tokens = ir.tokens.filter(token => overlaps(token.span, span));
   if (!tokens.length || tokens.some(token => /固有名詞/u.test(token.tag))) return false;
-  const grammaticalScopes = scopesForSpan(propositionScopes(ir.source, ir), span);
+  const grammaticalScopes = scopesForSpan(scopes, span);
   // A separate reported/uncertain clause must not suppress a safe narrator
   // clause in the same sentence. Token ownership, not overlapping hulls, decides.
   if (!grammaticalScopes.length || grammaticalScopes.some(scope => !permitsAssertiveScope(scope))) return false;

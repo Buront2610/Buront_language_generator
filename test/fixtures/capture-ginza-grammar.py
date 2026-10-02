@@ -38,23 +38,46 @@ SOURCES = [
     '私は怒りが頂点に達した。', '太郎の怒りが頂点に達しました。', '怒りが頂点に達する。',
     '私はとても悲しかった。', '太郎は大変悲しい。', 'すでに時間切れだ。', 'もう時間切れだった。',
 ]
+CONSTRUCTION_PUNCTUATION = [
+    # Complete assertions may end in repeated exclamations or a newline.
+    *[body + ending for body in ['怒りが頂点に達した', 'とても悲しかった', 'すでに時間切れだ']
+      for ending in ['！', '！！', '!', '!!', '！！\n', '!!\n', '。\n']],
+]
+CONSTRUCTION_SAFEGUARDS = [
+    '怒りが頂点に達した！？', '怒りが頂点に達した?!', '怒りが頂点に達した！！？',
+    '「怒りが頂点に達した！！」', '（怒りが頂点に達した！！）', '怒りが頂点に達したら帰る！！',
+    '怒りが頂点に達したかもしれない！！', 'とても悲しかったら帰る!!', 'とても悲しいらしい！！',
+    'すでに時間切れだ！？', '「すでに時間切れだ！！」', 'すでに時間切れだったら帰る!!', 'もう時間切れかもしれない！！',
+]
+CONSTRUCTION_IDEMPOTENCE = [
+    # Capture both sides of an actual conversion, plus independently eligible clauses.
+    '時既に時間切れだ', '時既に時間切れだ。', '時既に時間切れだった。', '時 既に時間切れだ。',
+    '時既に時間切れだ。既に時間切れだ。', '既に時間切れだ。時既に時間切れだ。',
+]
+CAPTURES = [
+    ('ginza-grammar-scope.json', SOURCES, 2),
+    ('ginza-construction-punctuation.json', CONSTRUCTION_PUNCTUATION, None),
+    ('ginza-construction-safeguards.json', CONSTRUCTION_SAFEGUARDS, None),
+    ('ginza-construction-idempotence.json', CONSTRUCTION_IDEMPOTENCE, None),
+]
 
 def main():
     process = subprocess.Popen([sys.executable, str(ROOT / 'services/japanese-analysis/service.py')], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding='utf-8')
     try:
         ready = json.loads(process.stdout.readline())
         assert ready['ok'], ready
-        cases = []
-        for index, source in enumerate(SOURCES):
-            process.stdin.write(json.dumps({'protocolVersion': 1, 'requestId': str(index), 'operation': 'analyze', 'payload': {'source': source}, 'deadline': time.time() * 1000 + 30000}, ensure_ascii=False) + '\n')
-            process.stdin.flush()
-            frame = json.loads(process.stdout.readline())
-            assert frame['ok'], frame
-            cases.append({'source': source, 'analysis': frame['result']})
-        result = {'provenance': {'producer': 'services/japanese-analysis/service.py', 'captureScript': 'test/fixtures/capture-ginza-grammar.py', 'versions': ready['result']['versions'], 'pythonVersion': platform.python_version(), 'description': 'Unedited real GiNZA responses, captured through the production JSONL interface'}, 'cases': cases}
-        destination = ROOT / 'test/fixtures/ginza-grammar-scope.json'
-        destination.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        print(f'Captured {len(cases)} real analyses in {destination.relative_to(ROOT)}')
+        for filename, sources, indent in CAPTURES:
+            cases = []
+            for index, source in enumerate(sources):
+                process.stdin.write(json.dumps({'protocolVersion': 1, 'requestId': str(index), 'operation': 'analyze', 'payload': {'source': source}, 'deadline': time.time() * 1000 + 30000}, ensure_ascii=False) + '\n')
+                process.stdin.flush()
+                frame = json.loads(process.stdout.readline())
+                assert frame['ok'], frame
+                cases.append({'source': source, 'analysis': frame['result']})
+            result = {'provenance': {'producer': 'services/japanese-analysis/service.py', 'captureScript': 'test/fixtures/capture-ginza-grammar.py', 'versions': ready['result']['versions'], 'pythonVersion': platform.python_version(), 'description': 'Unedited real GiNZA responses, captured through the production JSONL interface'}, 'cases': cases}
+            destination = ROOT / 'test/fixtures' / filename
+            destination.write_text(json.dumps(result, ensure_ascii=False, indent=indent) + '\n', encoding='utf-8')
+            print(f'Captured {len(cases)} real analyses in {destination.relative_to(ROOT)}')
     finally:
         process.terminate()
         process.wait(timeout=5)

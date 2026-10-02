@@ -43,7 +43,7 @@ function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: 
     const after = slice(ir.source.raw, { start: end, end: node.sourceSpan.end });
     // This first registry supports complete assertions only; negatives, embedded
     // clauses, speculation and requests are left unchanged instead of guessed.
-    if (!/^[。！!]?\s*$/u.test(after)) continue;
+    if (!/^[。！!]*\s*$/u.test(after)) continue;
     let id: string | undefined, span: Span | undefined, to = '', bindings: ConstructionBinding[] = [];
     if (predicate.lemma === '達する') {
       const emotion = children.find(token => token.dep === 'nsubj' && token.lemma === '怒り');
@@ -74,6 +74,9 @@ function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: 
     } else if (predicate.lemma === '時間切れ') {
       const time = children.find(token => token.dep === 'advmod' && ['すでに', '既に', 'もう'].includes(token.text));
       if (!time) continue;
+      // GiNZA parses the already-realized 時 and 既に as separate siblings.
+      // Guard this adjacent local construction, not another clause's wording.
+      if (time.text === '既に' && children.some(token => token.text === '時' && node.sourceSpan!.start <= token.span.start && token.span.end <= time.span.start && /^\s*$/u.test(slice(ir.source.raw, { start: token.span.end, end: time.span.start })))) continue;
       span = { start: time.span.start, end };
       const match = /^(?:すでに|既に|もう)時間切れ(です|だ|でした|だった)?$/u.exec(slice(ir.source.raw, span));
       if (!match) continue;
