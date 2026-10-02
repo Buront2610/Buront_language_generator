@@ -1,14 +1,18 @@
 import { hash } from '../core/source';
 import { similarity } from '../core/evaluation';
 import { outputFeatures, featureVersion } from '../core/output-features';
-export type Example = { id: string; text: string; postId: string; threadId: string; family: string };
+export type Example = { id: string; text: string; postId: string; threadId: string; family: string; quoteGroupId?: string; variantGroupId?: string; leakageGroupId?: string; sourcePostIds?: string[]; leakagePostIds?: string[] };
 export function splitBeforeGeneration(examples: Example[]) {
   const parent = examples.map((_, i) => i);
   const find = (i: number): number => parent[i] === i ? i : (parent[i] = find(parent[i]));
   const unite = (a: number, b: number) => { parent[find(a)] = find(b); };
   const memberships = new Map<string, number>();
   for (let i = 0; i < examples.length; i++) {
-    for (const [kind, value] of Object.entries({ post: examples[i].postId, thread: examples[i].threadId, family: examples[i].family })) {
+    const example = examples[i];
+    const links = Object.entries({ post: example.postId, thread: example.threadId, family: example.family,
+      quote: example.quoteGroupId, variant: example.variantGroupId, leakage: example.leakageGroupId });
+    links.push(...[...(example.sourcePostIds ?? []), ...(example.leakagePostIds ?? [])].map(postId => ['post', postId] as [string, string]));
+    for (const [kind, value] of links) {
       if (!value) continue; const key = `${kind}:${value}`, previous = memberships.get(key);
       if (previous !== undefined) unite(i, previous); else memberships.set(key, i);
     }
@@ -18,7 +22,7 @@ export function splitBeforeGeneration(examples: Example[]) {
   examples.forEach((example, i) => { const id = find(i); groups.set(id, [...(groups.get(id) ?? []), example.id]); });
   const allocations = new Map<number, { group: string; split: string }>();
   for (const [id, members] of groups) { const group = hash(members.sort()), bucket = parseInt(group.slice(0, 8), 16) % 10; allocations.set(id, { group, split: bucket < 7 ? 'train' : bucket < 9 ? 'validation' : 'test' }); }
-  return { schemaVersion: 1, sourceHash: hash(examples), method: 'connected-post-thread-near-duplicate-family-before-generation-v1',
+  return { schemaVersion: 1, sourceHash: hash(examples), method: 'connected-post-thread-quote-variant-leakage-near-duplicate-family-before-generation-v2',
     groups: groups.size, examples: examples.map((example, i) => ({ ...example, ...allocations.get(find(i))! })), frozenBeforeGeneration: true };
 }
 export function blindPairs(source: string, outputs: { text: string; method: string; features: Record<string, number> }[], group: string, split: string) {

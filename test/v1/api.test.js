@@ -25,6 +25,22 @@ test('T-22 only built web files; Host/Origin/token/session boundaries', async ()
   assert.equal((await app.inject({ url: '/api/v1/status', headers: { ...headers, cookie: otherHeaders.cookie } })).statusCode, 401);
   const response = await app.inject({ url: '/', headers }); assert.equal(response.statusCode, 200); assert.match(response.headers['content-security-policy'], /frame-ancestors 'none'/);
 });
+test('Capabilities and admission consistently reject unsupported generation settings', async () => {
+  const status = (await app.inject({ url: '/api/v1/status', headers })).json();
+  const response = await app.inject({ url: '/api/v1/capabilities', headers });
+  assert.equal(response.statusCode, 200);
+  assert.deepEqual(response.json(), status.capabilities);
+  assert.equal(status.capabilities.creativeGeneration, false);
+  assert.equal(status.capabilities.generationModes.invent, false);
+  assert.equal(status.capabilities.tasks.quote, false);
+  assert.equal(status.capabilities.contextModes.full, false);
+  assert.equal((await app.inject({ url: '/api/v1/capabilities' })).statusCode, 401);
+  for (const extra of [{ noveltyMode: 'invent' }, { task: 'quote' }, { contextMode: 'full' }]) {
+    const refused = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: { ...request(), ...extra } });
+    assert.equal(refused.statusCode, 422); assert.equal(refused.json().error, 'unsupported_generation_mode');
+    assert.equal(refused.json().jobId, undefined);
+  }
+});
 test('M4 API separates invalid input, capacity and unavailable capability', async () => {
   for (const body of [{}, request(' '), { ...request(), intensity: '2' }, { ...request(), arbitrary: true }]) assert.equal((await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: body })).statusCode, 400);
   assert.equal((await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: { ...request(), backend: 'model' } })).statusCode, 503);
@@ -36,7 +52,7 @@ test('T-12/19 generation result has revision, selected ID, replay, matching span
   const accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: request() }); assert.equal(accepted.statusCode, 202, accepted.body);
   assert.equal((await app.inject({ url: `/api/v1/generations/${accepted.json().jobId}`, headers: otherHeaders })).statusCode, 404);
   completed = await poll(accepted.json().jobId); assert.equal(completed.state, 'completed', JSON.stringify(completed));
-  assert.equal(completed.clientRevision, 7); const result = completed.result; assert.equal(result.candidates.length, 2); assert.ok(result.candidates.find(candidate => candidate.id === result.selectedCandidateId)); assert.ok(result.analysisId);
+  assert.equal(completed.clientRevision, 7); const result = completed.result; assert.equal('candidatePool' in result, false); assert.equal(result.candidates.length, 2); assert.ok(result.candidates.find(candidate => candidate.id === result.selectedCandidateId)); assert.ok(result.analysisId);
   const cancelled = await app.inject({ method: 'DELETE', url: `/api/v1/generations/${completed.jobId}`, headers }); assert.equal(cancelled.json().state, 'completed');
 });
 test('Partial regeneration authenticates analysis and validates locked plan conflicts', async () => {
@@ -66,6 +82,79 @@ test('M3 API completes bounded body proof and preserves its signed partial repla
   const Ajv2020 = require('ajv/dist/2020').default, { GenerationResultSchema } = require('../../dist/packages/contracts/results');
   const validate = new Ajv2020({ strict: true }).compile(GenerationResultSchema);
   assert.ok(validate(partial.result), JSON.stringify(validate.errors));
+});
+
+test('Construction locks reject changed operators synchronously and retain proofs on HTTP round trip', async () => {
+  const accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: request('怒りが頂点に達した。') });
+  assert.equal(accepted.statusCode, 202, accepted.body);
+  const job = await poll(accepted.json().jobId); assert.equal(job.state, 'completed', JSON.stringify(job));
+  const candidate = job.result.candidates.find(item => item.plan.construction);
+  assert.ok(candidate, 'A registered-construction candidate must be available for the lock test');
+  const node = candidate.plan.nodes.find(item => item.type === 'FactClause');
+  const body = { analysisId: job.result.analysisId, candidateId: candidate.id, lockedNodeIds: [node.id], seed: 'construction-http-lock', clientRevision: 7 };
+  const before = coordinator.jobs.size;
+  for (const operator of ['REWRITE', 'OP-01']) {
+    const conflict = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: { ...body, operator } });
+    assert.equal(conflict.statusCode, 409, conflict.body);
+    assert.equal(conflict.json().error, 'LOCK_CONFLICT'); assert.equal(conflict.json().jobId, undefined);
+  }
+  assert.equal(coordinator.jobs.size, before, 'A conflict must not enqueue a job');
+  for (const operator of [undefined, 'CONSTRUCTION']) {
+    const regenerated = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: { ...body, ...(operator ? { operator } : {}) } });
+    assert.equal(regenerated.statusCode, 202, regenerated.body);
+    const partial = await poll(regenerated.json().jobId); assert.equal(partial.state, 'completed', JSON.stringify(partial));
+    assert.ok(partial.result.candidates.length);
+    assert.equal('candidatePool' in partial.result, false);
+    for (const next of partial.result.candidates) {
+      assert.ok(next.plan.construction); assert.equal(next.plan.rewrite, undefined);
+      assert.equal(next.plan.nodes.find(item => item.id === node.id).text, node.text);
+      assert.ok(next.checks.some(check => check.code === 'S-bounded-construction' && check.status === 'pass'));
+    }
+  }
+});
+
+test('Locked series changes check retained evidence and allow compatible changes', async () => {
+  async function construction(source) {
+    const accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: request(source) });
+    assert.equal(accepted.statusCode, 202, accepted.body);
+    const job = await poll(accepted.json().jobId); assert.equal(job.state, 'completed', JSON.stringify(job));
+    const candidate = job.result.candidates.find(item => item.plan.construction);
+    assert.ok(candidate, source); return { job, candidate };
+  }
+  const incompatible = await construction('私はとても悲しかった。');
+  const locked = incompatible.candidate.plan.nodes[0];
+  assert.ok(locked.evidenceIds.some(id => !coordinator.assets.evidence.find(item => item.id === id).series.includes('katuru')));
+  const before = coordinator.jobs.size;
+  const rejected = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: {
+    analysisId: incompatible.job.result.analysisId, candidateId: incompatible.candidate.id, lockedNodeIds: [locked.id], series: 'katuru', seed: 'series-conflict', clientRevision: 7,
+  } });
+  assert.equal(rejected.statusCode, 409, rejected.body); assert.equal(rejected.json().error, 'LOCK_CONFLICT');
+  assert.equal(coordinator.jobs.size, before);
+  for (const source of ['とても悲しかった', '私が確認した。とても悲しかった']) {
+    const { job, candidate } = await construction(source);
+    const node = candidate.plan.nodes.find(item => item.text.includes('深い悲しみ'));
+    assert.ok(node); assert.ok(node.evidenceIds.every(id => coordinator.assets.evidence.find(item => item.id === id).series.includes('katuru')));
+    const accepted = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: {
+      analysisId: job.result.analysisId, candidateId: candidate.id, lockedNodeIds: [node.id], series: 'katuru', seed: 'series-compatible', clientRevision: 7,
+    } });
+    assert.equal(accepted.statusCode, 202, accepted.body);
+    const partial = await poll(accepted.json().jobId); assert.equal(partial.state, 'completed', JSON.stringify(partial));
+    assert.ok(partial.result.candidates.length, source);
+    for (const next of partial.result.candidates) {
+      assert.equal(next.plan.nodes.find(item => item.id === node.id).text, node.text);
+      assert.equal(next.plan.construction.seriesId, 'katuru');
+      assert.ok(next.evidence.every(evidence => coordinator.assets.evidence.find(item => item.id === evidence.id).series.includes('katuru')));
+    }
+  }
+});
+
+test('Legacy HTTP conversion returns verified construction candidates without the internal pool', async () => {
+  const response = await app.inject({ method: 'POST', url: '/api/convert', headers, payload: { text: '怒りが頂点に達した。', level: 2, seed: 'construction-legacy' } });
+  assert.equal(response.statusCode, 200, response.body);
+  const result = response.json(); assert.equal('candidatePool' in result, false);
+  assert.ok(result.candidates.length > 0 && result.candidates.length <= 3);
+  assert.ok(result.candidates.some(candidate => candidate.plan.construction && candidate.checks.some(check => check.code === 'S-bounded-construction' && check.status === 'pass')));
+  assert.ok(result.suggestions.every(candidate => candidate.verificationStatus === 'passed'));
 });
 
 test('T-20 cancellation during source analysis cannot publish a late completed result', async () => {

@@ -66,10 +66,10 @@ test('Node schema rejects coercion, extras, duplicate IDs, invalid focus, empty 
 test('Python validates the same exported Draft 2020-12 schema type boundaries', () => {
   const rows = [request('😀'.repeat(5000)), request('猫', { intensity: '2' }), request('猫', { extra: true }), request('猫', { customRules: [null] })];
   const script = "import sys,json,jsonschema;d=json.load(sys.stdin);v=jsonschema.Draft202012Validator(d['schema']);print(json.dumps([v.is_valid(x) for x in d['rows']]))";
-  const result = spawnSync(path.resolve('.venv/Scripts/python.exe'), ['-c', script], { input: JSON.stringify({ schema: GenerationSchema, rows }), encoding: 'utf8', windowsHide: true, env: { ...process.env, PYTHONUTF8: '1' } });
+  const result = spawnSync(process.env.BURONT_PYTHON || path.resolve('.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python'), ['-c', script], { input: JSON.stringify({ schema: GenerationSchema, rows }), encoding: 'utf8', windowsHide: true, env: { ...process.env, PYTHONUTF8: '1' } });
   assert.equal(result.status, 0, result.stderr); assert.deepEqual(JSON.parse(result.stdout), [true, false, false, false]);
   const { GenerationResultSchema } = require('../../dist/packages/contracts/results');
-  const output = spawnSync(path.resolve('.venv/Scripts/python.exe'), ['-c', script], { input: JSON.stringify({ schema: GenerationResultSchema, rows: [baseline, { ...baseline, candidates: Array.from({ length: 4 }, (_, index) => baseline.candidates[index % baseline.candidates.length]) }] }), encoding: 'utf8', windowsHide: true, env: { ...process.env, PYTHONUTF8: '1' } });
+  const output = spawnSync(process.env.BURONT_PYTHON || path.resolve('.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python'), ['-c', script], { input: JSON.stringify({ schema: GenerationResultSchema, rows: [baseline, { ...baseline, candidates: Array.from({ length: 4 }, (_, index) => baseline.candidates[index % baseline.candidates.length]) }] }), encoding: 'utf8', windowsHide: true, env: { ...process.env, PYTHONUTF8: '1' } });
   assert.equal(output.status, 0, output.stderr); assert.deepEqual(JSON.parse(output.stdout), [true, false]);
 });
 test('T-07 independent fact scopes keep achievement, unresolved and prospective distinct', () => {
@@ -168,8 +168,8 @@ test('Register changes retain negative tense, quoted text and URL originals', as
   assert.ok(result.candidates.length > 0);
   for (const candidate of result.candidates) { assert.ok(/^担当者が状況を確認(?:しました|した(?:からな)?)$/u.test(candidate.text)); assert.equal(candidate.spans[0].origin, 'paraphrase'); }
 });
-test('Full mode retains source order and every fact span without appended rhetoric', () => {
-  const result = generate(request(baseline.ir.source.raw, { contextMode: 'full' }), analysis, assets);
+test('Faithful mode retains source order and every fact span without appended rhetoric', () => {
+  const result = generate(request(baseline.ir.source.raw), analysis, assets);
   assert.ok(result.candidates.length > 0);
   for (const candidate of result.candidates) {
     assert.ok(candidate.text.startsWith(candidate.plan.nodes[0].text));
@@ -181,11 +181,14 @@ test('Full mode retains source order and every fact span without appended rhetor
     assert.ok(candidate.checks.every(check => check.status === 'pass'));
   }
 });
-test('Quote focus does not borrow a topic from an omitted fact', async () => {
-  const source = '田中が修理した。今日は寒い。', start = [...'田中が修理した。'].length;
-  const result = generate(request(source, { task: 'quote', focusSpans: [{ start, end: [...source].length }] }), await python.analyze(source), assets);
-  assert.ok(result.candidates.length > 0); assert.deepEqual(result.ir.omittedSpans, [{ start: 0, end: start }]);
-  for (const candidate of result.candidates) { assert.ok(candidate.text.includes('寒い')); assert.ok(!candidate.text.includes('修理')); }
+test('Unsupported quote/full/invent modes return explicit capability failure without plans', async () => {
+  const source = '田中が修理した。今日は寒い。', parsed = await python.analyze(source);
+  for (const extra of [{ task: 'quote', focusSpans: [{ start: 8, end: [...source].length }] }, { contextMode: 'full' }, { noveltyMode: 'invent' }]) {
+    const result = generate(request(source, extra), parsed, assets);
+    assert.deepEqual(result.candidates, []); assert.deepEqual(result.reviewCandidates, []);
+    assert.equal(result.shortfallReason, 'unsupported_generation_mode');
+    assert.equal(result.fallback.text, source); assert.equal(result.replayManifest.generated, 0);
+  }
 });
 test('Canonical permits adaptations; untransformable topics and invent mode abstain', async () => {
   const source='ナイト', analysis=await python.analyze(source);

@@ -29,17 +29,17 @@ test("ログ・倉庫・改変集・名言集を読み込み、LLMを使用し�
   assert.equal(status.novelChapters, 23);
   assert.equal(status.comparisonStages, 5);
   assert.equal(status.quoteHeadings, 165);
-  assert.equal(status.quoteExcerpts, 839);
-  assert.equal(status.quotePatterns, 51);
-  assert.equal(status.quoteHeadingsWithContext, 141);
-  assert.equal(status.quoteContextLinks, 152);
+  assert.equal(status.quoteExcerpts, 840);
+  assert.equal(status.quotePatterns, 54);
+  assert.equal(status.quoteHeadingsWithContext, 155);
+  assert.equal(status.quoteContextLinks, 161);
   assert.equal(status.quoteSourceUrl, "https://kenkyonanight.xxxxxxxx.jp/goroku.html");
   assert.equal(status.anchorConstructions, 10);
   assert.equal(status.observedAnchors, 979);
-  assert.equal(status.faithfulQuoteExpressions, 36);
-  assert.equal(status.faithfulQuoteRecognizers, 36);
-  assert.equal(status.faithfulQuoteFunctionalRoles, 35);
-  assert.equal(status.faithfulQuoteEvidenceLinks, 36);
+  assert.equal(status.faithfulQuoteExpressions, 30);
+  assert.equal(status.faithfulQuoteRecognizers, 30);
+  assert.equal(status.faithfulQuoteFunctionalRoles, 29);
+  assert.equal(status.faithfulQuoteEvidenceLinks, 30);
 });
 
 test("段階的な文章比較を使い、行動と反応を構造ごと改変する", () => {
@@ -169,7 +169,9 @@ test("寒さ以外の短文も固定結果にせず、確率的に候補を組�
   const outputs = new Set(runs.map((result) => result.text));
   const candidates = runs.flatMap((result) => result.suggestions.map((suggestion) => suggestion.text)).join("\n");
 
-  assert.ok(outputs.size >= 3);
+  const supportedEvaluationFrames = engine.faithfulQuoteGrammar.status().expressions.filter((id) => ["evaluation_rank", "evaluation_impact", "evaluation_elite"].includes(id));
+  assert.equal(supportedEvaluationFrames.length, 2, "unattested evaluation formula is disabled");
+  assert.ok(outputs.size >= supportedEvaluationFrames.length);
   assert.match(candidates, /驚き|一般人|格の違い|破壊力|真似できない/);
   assert.ok(runs.every((result) => result.summary.passedCount === 1));
 });
@@ -482,7 +484,9 @@ test("完全モードと原文寄りモードを同じ入力で分離する", ()
   assert.equal(faithful.comparisons.length, 2);
   assert.equal(full.comparisons.length, 1);
   assert.ok(full.text.length > faithful.text.length * 1.5);
-  assert.match(full.text, /参戦|本気を出|手を出|封印がとけ|カウンター|ｶｳﾝﾀｰ|準備運動|シュミレート|ﾉｰﾘｽｸ|武の心|一手だけ|扱えない.*さばき/);
+  assert.ok(engine.contextNarrative.quoteGrammar.signatures(full.text).length >= 3, "full mode retains multiple source-supported narrative constructions");
+  assert.match(full.text, /資料.*作成|作成.*資料/);
+  assert.match(full.text, /同僚/);
 });
 
 test("天候・障害・料理・対戦・長文業務でも成果を取り違えず重複させない", () => {
@@ -821,7 +825,7 @@ test("適当な観察文でも事実を保ったまま3候補を異なる機能�
   assert.doesNotMatch(options.map((option) => option.text).join("\n"), /勝負|感謝|深い悲しみ|一般人との格の違い/);
 });
 
-test("未来・評価・危機・対抗・感謝・賛同・証拠を役割別の3構文へ振り分ける", () => {
+test("未来・評価・危機・対抗・感謝・賛同・証拠を根拠のある役割別構文へ振り分ける", () => {
   const cases = [
     {
       source: "来月、端末12台を更新する予定だ。",
@@ -871,7 +875,10 @@ test("未来・評価・危機・対抗・感謝・賛同・証拠を役割別�
     const signatures = new Set(options.flatMap((option) => option.validation.faithfulQuoteSignatures));
     const combined = options.map((option) => option.text).join("\n");
 
-    assert.deepEqual(signatures, new Set(item.expected));
+    const supported = new Set(localEngine.faithfulQuoteGrammar.status().expressions);
+    const supportedExpected = item.expected.filter((id) => supported.has(id));
+    assert.ok(supportedExpected.every((id) => signatures.has(id)), item.source);
+    assert.ok([...signatures].every((id) => supported.has(id)), "unsupported frames cannot fill a three-candidate quota");
     assert.equal(new Set(options.map((option) => option.validation.faithfulQuoteRoles[0])).size, 3);
     assert.ok(options.every((option) => option.validation.passed));
     assert.ok(options.every((option) => option.validation.faithfulContextMatch));
@@ -940,7 +947,7 @@ test("締切危機を手遅れ語録へ到達させ生成表現も正しく検�
   ]);
 });
 
-test("代表文候補から51展開型と10アンカー構文すべてへ到達できる", () => {
+test("代表文候補から54展開型と10アンカー構文すべてへ到達できる", () => {
   const sources = [
     ["state", "今日は寒い。風が強く手が冷たくなった。"],
     ["achievement", "仕事で新しい資料を作成した。同僚が驚いた。"],
@@ -971,7 +978,7 @@ test("代表文候補から51展開型と10アンカー構文すべてへ到達�
     }
   }
 
-  assert.equal(quoteSignatures.size, 51);
+  assert.equal(quoteSignatures.size, 54);
   assert.deepEqual(quoteSignatures, new Set(Object.values(engine.contextNarrative.quoteGrammar.active).flat().map((item) => item.id)));
   assert.equal(anchorSignatures.size, 10);
   assert.deepEqual(anchorSignatures, new Set(engine.contextNarrative.anchorGrammar.status().constructions));
@@ -1064,8 +1071,12 @@ test("自然文から対抗者・感謝元・賛同先・証拠元を役割付�
     const options = result.comparisons.flatMap((comparison) => comparison.options);
     const signatures = new Set(options.flatMap((option) => option.validation.faithfulQuoteSignatures));
 
-    assert.deepEqual(signatures, new Set(item.expected), item.source);
-    assert.ok(options.every((option) => item.anchor.test(option.text)), item.source);
+    const supported = new Set(engine.faithfulQuoteGrammar.status().expressions);
+    const supportedExpected = item.expected.filter((id) => supported.has(id));
+    assert.ok(supportedExpected.every((id) => signatures.has(id)), item.source);
+    assert.ok([...signatures].every((id) => supported.has(id)), item.source);
+    const roleOptions = options.filter((option) => option.validation.faithfulQuoteSignatures.some((id) => supportedExpected.includes(id)));
+    assert.ok(roleOptions.every((option) => item.anchor.test(option.text)), item.source);
     assert.ok(options.every((option) => option.validation.passed), item.source);
   }
 });

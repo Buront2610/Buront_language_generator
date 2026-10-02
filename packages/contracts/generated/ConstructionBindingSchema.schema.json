@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "slot",
+    "span",
+    "text",
+    "tokenIds"
+  ],
+  "properties": {
+    "slot": {
+      "anyOf": [
+        {
+          "const": "emotion",
+          "type": "string"
+        },
+        {
+          "const": "degree",
+          "type": "string"
+        },
+        {
+          "const": "predicate",
+          "type": "string"
+        },
+        {
+          "const": "marker",
+          "type": "string"
+        },
+        {
+          "const": "experiencer",
+          "type": "string"
+        },
+        {
+          "const": "state",
+          "type": "string"
+        },
+        {
+          "const": "time",
+          "type": "string"
+        }
+      ]
+    },
+    "span": {
+      "additionalProperties": false,
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "end": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      }
+    },
+    "text": {
+      "type": "string"
+    },
+    "tokenIds": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+✔ T-22 only built web files; Host/Origin/token/session boundaries (1961.307943ms)
+✔ Capabilities and admission consistently reject unsupported generation settings (6.093597ms)
+✔ M4 API separates invalid input, capacity and unavailable capability (3.773598ms)
+✔ T-12/19 generation result has revision, selected ID, replay, matching spans and no private access (105.265593ms)
+✔ Partial regeneration authenticates analysis and validates locked plan conflicts (56.250239ms)
+✔ M3 API completes bounded body proof and preserves its signed partial replay (496.278663ms)
+✔ Construction locks reject changed operators synchronously and retain proofs on HTTP round trip (218.146319ms)
+✔ Locked series changes check retained evidence and allow compatible changes (386.874532ms)
+✔ Legacy HTTP conversion returns verified construction candidates without the internal pool (44.568176ms)
+✔ T-20 cancellation during source analysis cannot publish a late completed result (56.183981ms)
+✔ T-20 queued/running cancellation and completion have a single terminal state (108.599636ms)
+✔ T-21 finite queue and one running request per session; status stays responsive (147.758359ms)
+✔ Only explicit preferences are stored; blind comparisons omit source method/rank/scores (4.842024ms)
+✔ A3 HTTP body dictionary requests remain reviewable and unapplied (1412.229811ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14080.757106

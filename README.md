@@ -1,69 +1,80 @@
-# ブロント語変換機
+# Buront_language_generator / ブロント語変換機
 
-通常の日本語から複数のブロント語候補を作り、実ログとの文章比較と検証を通して採用文を選ぶローカルWebアプリ
+通常の日本語を、実ログに出典を持つ有限変換と登録済み構文でブロント語へ変換するローカルWebアプリです。入力の解析、候補生成、内容保持の検証を行い、通過した候補を最大3件表示します。通常の生成で外部LLMへ入力を送信しません。
 
-## 起動方法
+リポジトリ: https://github.com/Buront2610/Buront_language_generator
 
-Windowsでは `start.bat` をダブルクリックしてください。ブラウザで `http://127.0.0.1:4173` が開かれます。
+## 現在の対応範囲
 
-コマンドから起動する場合:
+- 本文変換・原文寄り・既知構文の応用に対応
+- 怒りの頂点、強い悲しみ、既に時間切れの3系統は、形態素・係り受けと原文スロットから構文を生成
+- 例: `私の怒りが頂点に達しました。` → `俺の怒りが有頂天になった`
+- 人物、数値、引用、否定、推量、条件などを保持。不確かな構文は無理に変換しません
+- 新作生成、名言を作るモード、自由な展開は未対応です。画面では選択不可、APIでは `unsupported_generation_mode` を返します
+- S/Qは人手評価モデルを学習するまで `null`。検証通過は、自然さ・面白さ・文体品質の保証ではありません
+- 特定系列を選んだときは、その系列に確認できる出典だけを使用します。出典不足時に他系列を黙って補いません
+
+詳しい修正範囲と残件は [2026-10-02の実装記録](docs/construction-repair-20261002.md) を参照してください。
+
+## セットアップと起動
+
+Node.js **24系**、Python **3.11系**とGiNZAの固定依存が必要です。初回導入はネットワーク接続が必要ですが、導入後の通常起動・変換はローカルで動作します。
+
+WindowsではNode.js 24とuvを用意して、リポジトリのルートで次を実行します。
 
 ```powershell
+.\setup.ps1
 npm start
 ```
 
-全文コーパスを利用するため、`index.html` の直接起動ではなくローカルサーバーから起動してください。
+セットアップ後は `start.bat` からも起動できます。URLは `http://127.0.0.1:4173` です。
 
-## テスト
+macOS/Linuxでの手動セットアップ:
 
-Node.js 18以上で実行できます。通常の実行とテストに外部パッケージは不要です。
-
-```powershell
-npm test
+```sh
+npm ci
+uv venv --python 3.11.15 .venv
+uv pip install --python .venv/bin/python --require-hashes -r services/japanese-analysis/requirements.lock.txt
+npm run build
+npm run build:assets
+npm run diagnose
+npm start
 ```
+
+既存のPython環境を使う場合は `BURONT_PYTHON` にその実行ファイルを指定できます。`index.html` の直接起動は現行アプリの起動方法ではありません。
+
+## 検証
+
+```sh
+npm test
+npm run typecheck
+npm run diagnose
+```
+
+`npm test` はエンジンとWeb画面をビルドしてから、旧方式の回帰テストと現行方式のAPI・GiNZA・意味保持・改ざん検査を実行します。実際のGiNZA解析を保存したfixtureによる回帰テストも含みます。
 
 ## コーパスの再構築
 
-手元ログとログ倉庫を再照合する場合:
-
-```powershell
+```sh
 npm run build:corpus
-```
-
-別のログを使う場合はパスを引数に渡せます。
-
-```powershell
-node scripts/prepare-corpora.js "C:\path\to\burontlog.txt"
-```
-
-改変集の統計を再構築する開発用スクリプトは `scripts/analyze-novel.js` です。これは本文をブラウザで取得して統計化する工程だけPlaywrightを使用します。生成後の変換器はPlaywrightを必要としません。
-
-名言集を再取得して分類する場合:
-
-```powershell
 npm run build:quotes
+npm run build:assets
 ```
 
-## ファイル構成
+`build:quotes` は元サイトのShift_JIS HTMLを取得し、見出し、強調範囲、完全な行、対応投稿を分けて保存します。取得時刻・URL・原バイトのSHA-256も記録します。別の手元ログは `node scripts/prepare-corpora.js "path/to/burontlog.txt"` で指定できます。原文の権利確認は別途必要です。
 
-- `lib/corpus-engine.js`: 検索、候補生成、比較、検証
-- `lib/text-analysis.js`: 文分割、特徴抽出、n-gram
-- `lib/vector-space.js`: TF-IDF疎ベクトル、転置索引、コサイン検索、系列重心・近傍分類
-- `lib/quote-grammar.js`: 名言集由来の展開型と反復検出
-- `lib/grammar/context-model.js`: 入力事実、出来事型、参照対象の役割抽出
-- `lib/grammar/anchor-grammar.js`: 10種のアンカー構文の条件判定、対象選択、表層化
-- `lib/grammar/anchor-frames.js`: 感謝、賛同、証拠提示を段落へ組み込む構成器
-- `lib/grammar/observation-frames.js`: 中立観察と評価を観察自慢へ再構成する専用構成器
-- `lib/grammar/faithful-quote-grammar.js`: 原文寄りモード用の機能別構文、使用条件、検出
-- `lib/era-profiles.js`: 倉庫9系列の部分コーパス、特徴量、n-gram、表記対応
-- `lib/grammar/era-grammar.js`: 系列ごとの談話構文、検出、系列内根拠照合
-- `lib/grammar/phrase-constructions.js`: 原ログで観測した構文台帳
-- `lib/grammar/random-utils.js`: 重みづけしない抽選とシャッフル
-- `data/log-corpus.json`: 構造化した実ログ
-- `data/quote-corpus.json`: 名言集の見出し、強調語録、分類
-- `data/style-model.json`: 実ログと段階比較から作った文体モデル
-- `data/novel-model.json`: 長文改変の統計モデル
-- `data/archive-series.json`: 倉庫9系列の出典URL、本文一致投稿ID、取得元ハッシュ
-- `app.js`: 画面操作と比較結果の表示
-- `server.js`: ローカルAPIと静的ファイル配信
-- `test/`: コーパス、意味保持、変換、独立オラクル、負例検証の自動テスト
+## 現行の主要ファイル
+
+- `apps/web/src/main.tsx`: React画面
+- `apps/server/index.ts`: Fastify APIと静的配信
+- `packages/core/grammar-scope.ts`: 命題ごとの形態・否定・推量・引用・条件の範囲
+- `packages/core/constructions.ts`: 登録構文の束縛、生成、独立再照合
+- `packages/core/rewrite.ts` / `rewrite-validation.ts`: 既存の有限編集と検証
+- `packages/core/engine.ts` / `evaluation.ts`: 候補プールと多様性選択
+- `packages/core/semantic.ts`: 全候補の最終検証と再選択
+- `packages/contracts/`: TypeScript型とJSON Schema
+- `services/japanese-analysis/`: ローカルGiNZAサービス
+- `data/`: 実ログ、語録、系列情報
+- `test/`: 回帰・API・改ざん・出典・再現性テスト
+
+`lib/`、ルートの `app.js` と `index.html` は旧方式の比較・回帰用です。過去の資料は `docs/` に保存していますが、当時のテスト件数や対応範囲を現行版の実績として扱わないでください。

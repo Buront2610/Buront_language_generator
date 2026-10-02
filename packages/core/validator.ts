@@ -3,6 +3,7 @@ import { hash, slice, sourceDocument } from './source';
 import { discourseLabels, factsIn, planNarrative, planIntent, roleOf, equivalentEvent } from './planning';
 import { validateSurface, validateDiscourse, type SeriesProfile } from './series';
 import { validateRewrite } from './rewrite-validation';
+import { validateConstruction } from './constructions';
 import { validateRhetoric } from './rhetoric-validation';
 export function realize(plan: QuotePlan, ir?: DocumentIR) {
   let text = ''; const spans: OutputSpan[] = [];
@@ -16,6 +17,7 @@ export function realize(plan: QuotePlan, ir?: DocumentIR) {
 export function validateCandidate(ir: DocumentIR, plan: QuotePlan, text: string, spans: OutputSpan[], evidenceIds: Set<string>, allowedRhetoric = new Set<string>(), references = new Map<string, string>(), profiles: SeriesProfile[] = []): Check[] {
   const check = (code: string, status: Check['status'], explanation: string): Check => ({ code, status, explanation, required: true, factIds: ir.facts.map(fact => fact.id), checkerVersion: 'literal-event-and-relation-proof-v2' });
   const rewriteValid = !!plan.rewrite && validateRewrite(ir, plan, references) && !!plan.narrative && plan.narrative.strategy === 'source_order';
+  const constructionValid = !!plan.construction && validateConstruction(ir, plan, references) && !!plan.narrative && plan.narrative.strategy === 'source_order';
   const facts = plan.nodes.filter(node => node.type === 'FactClause');
   const protectedMismatch = facts.some(node => {
     if (!node.sourceSpan) return true;
@@ -25,7 +27,7 @@ export function validateCandidate(ir: DocumentIR, plan: QuotePlan, text: string,
     try { return hash(signature(original)) !== hash(signature(node.text)); }
     catch { return true; }
   });
-  const exactFacts = facts.every(node => node.sourceSpan && (rewriteValid || equivalentEvent(ir, node.sourceSpan, node.text)) && spans.some(span => span.nodeId === node.id && slice(text, span.span) === node.text));
+  const exactFacts = facts.every(node => node.sourceSpan && (rewriteValid || constructionValid || equivalentEvent(ir, node.sourceSpan, node.text)) && spans.some(span => span.nodeId === node.id && slice(text, span.span) === node.text));
   const orderedFacts = [...facts].sort((a, b) => (a.sourceSpan?.start ?? -1) - (b.sourceSpan?.start ?? -1));
   let factIndex = 0;
   const coverage = ir.adoptedSpans.every(adopted => {
@@ -55,14 +57,15 @@ export function validateCandidate(ir: DocumentIR, plan: QuotePlan, text: string,
     return narrative?.strategy === 'status_order' && next?.type === 'FactClause' && !!next.sourceSpan && node.text === discourseLabels[roleOf(ir, next.sourceSpan)];
   }) && plan.nodes.filter(node => node.type === 'QuoteBoundary').every(node => ['「', '」'].includes(node.text));
   const meaning = validateRhetoric(ir, plan);
-  const safeRhetoric = rewriteValid || safeQuotes && rhetoric.length === 0 || meaning.valid && rhetoric.every(node => node.evidenceIds.length > 0 && node.evidenceIds.every(id => evidenceIds.has(id))) && !!plan.surface && !!plan.rhetoric && validateDiscourse(plan.rhetoric, profiles.find(profile => profile.id === plan.surface!.seriesId));
+  const safeRhetoric = rewriteValid || constructionValid || safeQuotes && rhetoric.length === 0 || meaning.valid && rhetoric.every(node => node.evidenceIds.length > 0 && node.evidenceIds.every(id => evidenceIds.has(id))) && !!plan.surface && !!plan.rhetoric && validateDiscourse(plan.rhetoric, profiles.find(profile => profile.id === plan.surface!.seriesId));
   const provenance = reconstructed.text === text && hash(reconstructed.spans) === hash(spans);
   const checks = [check('V-span', partition && provenance && supportedNodes ? 'pass' : 'fail', '出力全体の範囲分割・対応するAST型・一意なnode IDからの再構築を照合'), check('V-coverage', coverage ? 'pass' : 'fail', '採用対象の原文範囲が一度ずつ現れ、欠落も事実の二重記載もないことを照合')];
   const surfaceValid = !plan.surface || validateSurface(plan.surface, plan.nodes.find(node => node.id === 'main-quote')?.text ?? '', profiles, references);
   checks.push(check('V-plan', validNarrative && validIntent && surfaceValid ? 'pass' : 'fail', '原文から構成順・節の役割・焦点を再計算し、系列構文の出典と外枠を照合'));
   checks.push(check('V-quantity', protectedMismatch ? 'fail' : exactFacts && coverage ? 'pass' : 'unknown', '原値・符号・比較条件・単位・出現順・役割を事実節ごとに独立抽出して照合'));
   for (const code of ['V-roles', 'V-polarity', 'V-temporal', 'V-attribution']) checks.push(check(code, exactFacts && coverage ? 'pass' : 'unknown', '原文一致・限定変換と適用条件の照合。文体の自然さと任意の言い換えの意味同値性は保証しない'));
-  checks.push(check('V-rhetoric', safeRhetoric && safeConnectives && provenance ? 'pass' : 'fail', rewriteValid ? '本文の各変更を、原文範囲・有限規則・適用条件・出典と照合。比喩や出来事の追加なし。' : safeQuotes ? '出典と一致する別文の引用を照合' : meaning.explanation));
+  checks.push(check('V-rhetoric', safeRhetoric && safeConnectives && provenance ? 'pass' : 'fail', constructionValid ? '登録済み意味構文の原文スロット・意味特徴・適用条件・出典と活用を再計算。未記載の出来事を追加しない。' : rewriteValid ? '本文の各変更を、原文範囲・有限規則・適用条件・出典と照合。比喩や出来事の追加なし。' : safeQuotes ? '出典と一致する別文の引用を照合' : meaning.explanation));
+  if (plan.construction) checks.push(check('V-construction', constructionValid ? 'pass' : 'fail', '閉じた構文台帳から束縛と表層文を独立再計算し、語彙編集も原文から再構築して照合'));
   if (plan.rewrite) checks.push(check('V-rewrite', rewriteValid ? 'pass' : 'fail', '出典付き本文変換の編集履歴を原文から再構築して照合'));
   if (plan.rhetoricEdits?.length) checks.push(check('V-dictionary', meaning.dictionary, meaning.explanation));
   return checks;

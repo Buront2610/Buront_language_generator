@@ -1,0 +1,148 @@
+{
+  "previousSource": {
+    "url": "https://kenkyonanight.xxxxxxxx.jp/goroku.html",
+    "title": "名言集っぽいの",
+    "encoding": "Shift_JIS",
+    "bytes": 238943,
+    "sha256": "a6df656487b9fe7f8b78c39632319c124bdcd06baa0262650420b7eb4bbefecf"
+  },
+  "currentSource": {
+    "url": "https://kenkyonanight.xxxxxxxx.jp/goroku.html",
+    "title": "名言集っぽいの",
+    "encoding": "shift_jis",
+    "bytes": 240539,
+    "sha256": "4e00cf7d842150db81c65525a10fb3bb9a78e9d7666e791ac4f7c403deaa8adf",
+    "decodedSha256": "27845d84e81697f1009c2dd9f3a3644a49309eae76d2a051700aa2102ff6755c",
+    "originalLogSha256": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8"
+  },
+  "previousCounts": {
+    "headings": 165,
+    "excerpts": 839,
+    "headingsWithContext": 141,
+    "contextLinks": 152,
+    "families": {
+      "general": 692,
+      "anger": 40,
+      "power": 39,
+      "surprise": 9,
+      "evidence": 25,
+      "comparison": 19,
+      "humility": 15,
+      "instruction": 23,
+      "denial": 14,
+      "lament": 27,
+      "warning": 56,
+      "prediction": 8,
+      "victory": 84
+    }
+  },
+  "currentCounts": {
+    "headings": 165,
+    "excerpts": 840,
+    "headingsWithContext": 155,
+    "contextLinks": 161,
+    "quoteGroups": 846,
+    "sourcePosts": 487,
+    "pagePosts": 401,
+    "excludedLegends": 3,
+    "ambiguousHeadings": 3,
+    "families": {
+      "general": 686,
+      "anger": 31,
+      "power": 45,
+      "surprise": 9,
+      "evidence": 24,
+      "comparison": 19,
+      "humility": 15,
+      "instruction": 24,
+      "denial": 15,
+      "lament": 28,
+      "warning": 59,
+      "prediction": 10,
+      "victory": 86,
+      "gratitude": 3
+    }
+  },
+  "retainedOldNonLegendExcerpts": 837,
+  "excludedOldTexts": [
+    "赤字・・試験にでるのは確定的に明らか",
+    "太字・・試験に高確率で確実に一番出題される"
+  ],
+  "originalLogPosts": 2452,
+  "originalLogSentences": 9591,
+  "originalLogUnchanged": true,
+  "unmatchedPagePosts": [
+    {
+      "id": "page_post_234",
+      "header": "238 名前：既にその名前は使われています[] 投稿日：2006/08/04(金) 14:16:00.49 ID:DasHkH7x [2/12]"
+    },
+    {
+      "id": "page_post_396",
+      "header": "589 名前：水先案名無い人[sage] 投稿日：2008/10/16(木) 06:46:09 ID:ZxkT+3go0 [1/25]"
+    }
+  ],
+  "ambiguousPagePosts": [],
+  "ambiguousHeadings": [
+    {
+      "id": "heading_019",
+      "text": "それほどでもない",
+      "candidateCount": 6,
+      "selectedCount": 4
+    },
+    {
+      "id": "heading_028",
+      "text": "ダークパワー",
+      "candidateCount": 2,
+      "selectedCount": 2
+    },
+    {
+      "id": "heading_152",
+      "text": "○○美",
+      "candidateCount": 6,
+      "selectedCount": 3
+    }
+  ],
+  "shortHeadings": [
+    {
+      "id": "heading_020",
+      "text": "名誉既存",
+      "status": "matched",
+      "sourcePostIds": [
+        "post_01324_223ef1746a6ae259"
+      ]
+    },
+    {
+      "id": "heading_077",
+      "text": "烏合の民",
+      "status": "matched",
+      "sourcePostIds": [
+        "post_01937_37e5bc59e725883d"
+      ]
+    },
+    {
+      "id": "heading_080",
+      "text": "真骨董",
+      "status": "matched",
+      "sourcePostIds": [
+        "post_01890_81e3ffd84d538205"
+      ]
+    },
+    {
+      "id": "heading_152",
+      "text": "○○美",
+      "status": "ambiguous",
+      "sourcePostIds": []
+    }
+  ],
+  "confidentLinkedOriginals": 400,
+  "rawHtmlRedistributed": false,
+  "legacyDisabledFrames": [
+    "fact_assertion",
+    "future_certainty",
+    "gratitude_extended",
+    "agreement_reason",
+    "evaluation_elite",
+    "evaluation_outclassed"
+  ],
+  "legacyDisableReason": "Exact emitted formula 確定的に明らか is absent from original logs and actual quotes; only removed legend contained it"
+}

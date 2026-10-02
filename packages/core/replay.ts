@@ -3,6 +3,7 @@ import { validateRequest } from '../contracts';
 import type { Assets } from './assets';
 import { generate } from './engine';
 import { hash } from './source';
+import { finishSemanticVerification } from './semantic';
 
 // Exported plans are untrusted. Rebuild each parent and select an actually
 // validated candidate before its nodes are allowed into a regeneration.
@@ -18,6 +19,10 @@ export function replayGeneration(manifest: Record<string, any>, analysis: Analys
   if (regeneration) {
     if (!regeneration.parent || regeneration.parent.inputHash !== manifest.inputHash) throw new Error('REPLAY_PARENT_REQUIRED');
     const parent = replayGeneration(regeneration.parent, analysis, assets, depth + 1);
+    // Locks refer to the final accepted parent, never its provisional top three.
+    // The active finite pipelines need no output reparse; a future free-form
+    // path requiring fresh analysis fails closed instead of trusting the export.
+    finishSemanticVerification(parent, {});
     lockedPlan = parent.candidates.find(candidate => candidate.id === regeneration.candidateId)?.plan;
     if (!lockedPlan || hash(lockedPlan) !== hash(regeneration.lockedPlan)) throw new Error('REPLAY_LOCK_MISMATCH');
     if (!Array.isArray(regeneration.lockedNodeIds) || regeneration.lockedNodeIds.length > 100 || regeneration.lockedNodeIds.some((id: string) => !lockedPlan!.nodes.some(node => node.id === id))) throw new Error('REPLAY_LOCK_MISMATCH');

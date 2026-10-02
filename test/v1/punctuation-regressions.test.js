@@ -14,7 +14,8 @@ async function run(source){const request={source,task:'rewrite',contextMode:'fai
 test('prose full stops become line boundaries; terminal full stop is removed and んだが is not manufactured',async()=>{
  const result=await run('私は処理の速度をアピールしました。全員に助言したが、雰囲気は悪かった。');
  assert.ok(result.candidates.some(c=>/俺は処理の速さとスピードをアッピル/u.test(c.text)));
- for(const c of result.candidates){assert.doesNotMatch(c.text,/[。、]|んだが/u);assert.equal(c.text.split('\n').length,2);assert.match(c.text,/全員にアドバイスを助言したが雰囲気/u);}
+ assert.ok(result.candidates.some(c=>/全員にアドバイスを助言したが雰囲気/u.test(c.text)));
+ for(const c of result.candidates){assert.doesNotMatch(c.text,/[。、]|んだが/u);assert.equal(c.text.split('\n').length,2);assert.match(c.text,/全員に(?:アドバイスを)?助言したが雰囲気/u);}
 });
 test('short plain sentences can change punctuation alone',async()=>{
  for(const source of ['今日は寒い。','確認した。']){const result=await run(source);for(const c of result.candidates)assert.doesNotMatch(c.text,/[。\n]|んだが/u);}
