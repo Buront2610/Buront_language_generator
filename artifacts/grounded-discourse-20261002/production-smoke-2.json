@@ -1,0 +1,1240 @@
+[
+  {
+    "id": "N07",
+    "group": "ordinary",
+    "source": "この箱を一緒に運んでもらえますか。重いので、二人で持ったほうが安全です。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "775a9237564230ac735f4dcd",
+        "displayed": [
+          {
+            "id": "775a9237564230ac735f4dcd",
+            "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だ",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "ending-plain-10",
+                "from": "です",
+                "to": "だ"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "0b6d457c5b863854bdc9d669",
+            "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全です",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "54aebd02668eb169f1b731c7",
+            "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だからな",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+ending-insistence-10+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "ending-insistence-10",
+                "from": "です",
+                "to": "だからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 3,
+        "poolConstructionCount": 0,
+        "verifiedCount": 3,
+        "selectionHash": "417bbfbca5f2dcb159957a3f6c5a1e2124dc1f61e668faba656e01f8fc73be48"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "775a9237564230ac735f4dcd",
+        "displayed": [
+          {
+            "id": "775a9237564230ac735f4dcd",
+            "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だ",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "ending-plain-10",
+                "from": "です",
+                "to": "だ"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "0b6d457c5b863854bdc9d669",
+            "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全です",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "54aebd02668eb169f1b731c7",
+            "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だからな",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+ending-insistence-10+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "ending-insistence-10",
+                "from": "です",
+                "to": "だからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 3,
+        "poolConstructionCount": 0,
+        "verifiedCount": 3,
+        "selectionHash": "417bbfbca5f2dcb159957a3f6c5a1e2124dc1f61e668faba656e01f8fc73be48"
+      }
+    ]
+  },
+  {
+    "id": "N08",
+    "group": "ordinary",
+    "source": "夕方の川沿いは静かだった。水面に街の明かりが映り、遠くで犬が一度だけ鳴いた。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "b7802c0f326bcf918f450f91",
+        "displayed": [
+          {
+            "id": "b7802c0f326bcf918f450f91",
+            "text": "夕方の川沿いは静かだったからな\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+            "operator": "REWRITE",
+            "family": "ending-insistence-19+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-19",
+                "from": "だった",
+                "to": "だったからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "0cf9909096a842a6ba47e835",
+            "text": "夕方の川沿いは静かだった\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "07b127c67e4d36d6d2e599a5fca794c204c3b3c57d88a87e838d92cc8d776d80"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "b7802c0f326bcf918f450f91",
+        "displayed": [
+          {
+            "id": "b7802c0f326bcf918f450f91",
+            "text": "夕方の川沿いは静かだったからな\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+            "operator": "REWRITE",
+            "family": "ending-insistence-19+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-19",
+                "from": "だった",
+                "to": "だったからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "0cf9909096a842a6ba47e835",
+            "text": "夕方の川沿いは静かだった\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "07b127c67e4d36d6d2e599a5fca794c204c3b3c57d88a87e838d92cc8d776d80"
+      }
+    ]
+  },
+  {
+    "id": "N09",
+    "group": "ordinary",
+    "source": "店員に二度説明したのに注文が違っていたので、私は少し腹を立てた。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "e7fa0820f3e677c160268434",
+        "displayed": [
+          {
+            "id": "e7fa0820f3e677c160268434",
+            "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てたからな",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+ending-insistence-21+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "c945e93bf9dfc03b2f70fd85",
+            "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てた",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "4a20fbbd1bb781825884e2d7c9042287f444118d99fb3423196f5ecaccf47a28"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "e7fa0820f3e677c160268434",
+        "displayed": [
+          {
+            "id": "e7fa0820f3e677c160268434",
+            "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てたからな",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+ending-insistence-21+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "c945e93bf9dfc03b2f70fd85",
+            "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てた",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "4a20fbbd1bb781825884e2d7c9042287f444118d99fb3423196f5ecaccf47a28"
+      }
+    ]
+  },
+  {
+    "id": "N10",
+    "group": "ordinary",
+    "source": "私は友人の引っ越しがとても寂しかった。それでも、新しい町で元気に暮らしてほしいと思った。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "5d9d428a221363d43117aaa0",
+        "displayed": [
+          {
+            "id": "5d9d428a221363d43117aaa0",
+            "text": "俺は友人の引っ越しがとても寂しかったからな\nそれでも新しい町で元気に暮らしてほしいと思った",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-17",
+                "from": "かった",
+                "to": "かったからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "75e6a0b2b83b84f1da8f5786",
+            "text": "俺は友人の引っ越しがとても寂しかった\nそれでも新しい町で元気に暮らしてほしいと思った",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "96c246cbc8c6125d1aec26d41781a55b67bc760811610435521a3a93d7d7832b"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "5d9d428a221363d43117aaa0",
+        "displayed": [
+          {
+            "id": "5d9d428a221363d43117aaa0",
+            "text": "俺は友人の引っ越しがとても寂しかったからな\nそれでも新しい町で元気に暮らしてほしいと思った",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-17",
+                "from": "かった",
+                "to": "かったからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "75e6a0b2b83b84f1da8f5786",
+            "text": "俺は友人の引っ越しがとても寂しかった\nそれでも新しい町で元気に暮らしてほしいと思った",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "96c246cbc8c6125d1aec26d41781a55b67bc760811610435521a3a93d7d7832b"
+      }
+    ]
+  },
+  {
+    "id": "N11",
+    "group": "ordinary",
+    "source": "もし明日雨が降ったら、試合は中止になるかもしれない。まだ決まったわけではないので、道具は片付けないでほしい。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "7662c8307b88e6ed76c88bf7",
+        "displayed": [
+          {
+            "id": "7662c8307b88e6ed76c88bf7",
+            "text": "もし明日雨が降ったら、試合は中止になるかもしれない\nまだ決まったわけではないので、道具は片付けないでほしい",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 1,
+        "poolConstructionCount": 0,
+        "verifiedCount": 1,
+        "selectionHash": "f7b8d0dc4cb065bd3cd579b2581e0679ca2a6bfc28dbd441049b4dfa7d827161"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "7662c8307b88e6ed76c88bf7",
+        "displayed": [
+          {
+            "id": "7662c8307b88e6ed76c88bf7",
+            "text": "もし明日雨が降ったら、試合は中止になるかもしれない\nまだ決まったわけではないので、道具は片付けないでほしい",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 1,
+        "poolConstructionCount": 0,
+        "verifiedCount": 1,
+        "selectionHash": "f7b8d0dc4cb065bd3cd579b2581e0679ca2a6bfc28dbd441049b4dfa7d827161"
+      }
+    ]
+  },
+  {
+    "id": "N12",
+    "group": "ordinary",
+    "source": "田中は「今回は私の負けだ」と言った。私は「次は一緒に練習しよう」と答えた。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "b6d1aa37d5d8d4fe72e04966",
+        "displayed": [
+          {
+            "id": "b6d1aa37d5d8d4fe72e04966",
+            "text": "田中は「今回は私の負けだ」と言った\n俺は「次は一緒に練習しよう」と答えたからな",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+narrator-watashi+ending-insistence-21+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "40250c11e22e6a3547c8f007",
+            "text": "田中は「今回は私の負けだ」と言った\n俺は「次は一緒に練習しよう」と答えた",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "a092a4a011dd10b079d1579b6f22c6af6ba4af6c48d6723fd6ff25d6eeae109f"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "b6d1aa37d5d8d4fe72e04966",
+        "displayed": [
+          {
+            "id": "b6d1aa37d5d8d4fe72e04966",
+            "text": "田中は「今回は私の負けだ」と言った\n俺は「次は一緒に練習しよう」と答えたからな",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+narrator-watashi+ending-insistence-21+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "40250c11e22e6a3547c8f007",
+            "text": "田中は「今回は私の負けだ」と言った\n俺は「次は一緒に練習しよう」と答えた",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "a092a4a011dd10b079d1579b6f22c6af6ba4af6c48d6723fd6ff25d6eeae109f"
+      }
+    ]
+  },
+  {
+    "id": "N13",
+    "group": "ordinary",
+    "source": "この方法で本当に間に合うのだろうか。途中で失敗したときの手順も確認しておきたい。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "232e4ebd7753aec04726ce18",
+        "displayed": [
+          {
+            "id": "232e4ebd7753aec04726ce18",
+            "text": "この方法で本当に間に合うのだろうか\n途中で失敗したときの手順も確認しておきたい",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 1,
+        "poolConstructionCount": 0,
+        "verifiedCount": 1,
+        "selectionHash": "f95a06a02a6093f871c3afc6c685e795c9e47e6a1d7ddc19b6919a9a7deaa126"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "232e4ebd7753aec04726ce18",
+        "displayed": [
+          {
+            "id": "232e4ebd7753aec04726ce18",
+            "text": "この方法で本当に間に合うのだろうか\n途中で失敗したときの手順も確認しておきたい",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 1,
+        "poolConstructionCount": 0,
+        "verifiedCount": 1,
+        "selectionHash": "f95a06a02a6093f871c3afc6c685e795c9e47e6a1d7ddc19b6919a9a7deaa126"
+      }
+    ]
+  },
+  {
+    "id": "N14",
+    "group": "ordinary",
+    "source": "この傘は軽くて丈夫だ。値段は少し高かったが、毎日使うものなので満足している。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "95c4994d45a537d28d8e433f",
+        "displayed": [
+          {
+            "id": "95c4994d45a537d28d8e433f",
+            "text": "この傘は軽くて丈夫だからな\n値段は少し高かったが毎日使うものなので満足している",
+            "operator": "REWRITE",
+            "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-11",
+                "from": "だ",
+                "to": "だからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "71421e387daecacf324dbd39",
+            "text": "この傘は軽くて丈夫だ\n値段は少し高かったが毎日使うものなので満足している",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "0d5fb5c340402652a8a60e5ba3a7d640c3a0833810910adbafbb8b5ccda34235"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "95c4994d45a537d28d8e433f",
+        "displayed": [
+          {
+            "id": "95c4994d45a537d28d8e433f",
+            "text": "この傘は軽くて丈夫だからな\n値段は少し高かったが毎日使うものなので満足している",
+            "operator": "REWRITE",
+            "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-11",
+                "from": "だ",
+                "to": "だからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "71421e387daecacf324dbd39",
+            "text": "この傘は軽くて丈夫だ\n値段は少し高かったが毎日使うものなので満足している",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "0d5fb5c340402652a8a60e5ba3a7d640c3a0833810910adbafbb8b5ccda34235"
+      }
+    ]
+  }
+]

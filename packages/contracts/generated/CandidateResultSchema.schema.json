@@ -825,6 +825,30 @@
                             {
                               "const": "time",
                               "type": "string"
+                            },
+                            {
+                              "const": "claim",
+                              "type": "string"
+                            },
+                            {
+                              "const": "reason",
+                              "type": "string"
+                            },
+                            {
+                              "const": "antecedent",
+                              "type": "string"
+                            },
+                            {
+                              "const": "contrast",
+                              "type": "string"
+                            },
+                            {
+                              "const": "modesty",
+                              "type": "string"
+                            },
+                            {
+                              "const": "achievement",
+                              "type": "string"
                             }
                           ]
                         },

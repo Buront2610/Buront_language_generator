@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "T10",
+    "group": "targeted_regression",
+    "category": "未達の謙遜",
+    "source": "大したことはしていない。故障の原因はまだ見つけていない。機械を動かしたわけでもない。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+          "displayed": [
+            {
+              "id": "cfe3255dfe8c8e35c1c4327f",
+              "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "b8aa5139233ccef6adfe04f0",
+              "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+          "displayed": [
+            {
+              "id": "cfe3255dfe8c8e35c1c4327f",
+              "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "b8aa5139233ccef6adfe04f0",
+              "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+          "displayed": [
+            {
+              "id": "cfe3255dfe8c8e35c1c4327f",
+              "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "b8aa5139233ccef6adfe04f0",
+              "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+          "displayed": [
+            {
+              "id": "cfe3255dfe8c8e35c1c4327f",
+              "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "b8aa5139233ccef6adfe04f0",
+              "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+        }
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "group": "targeted_regression",
+    "category": "他者の謙遜",
+    "source": "田中は大したことはしていないと言った。彼が故障の原因を見つけて、止まっていた機械を動かした。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+          "displayed": [
+            {
+              "id": "9a14b4de805af22815dcb3cd",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "2ba22e83f2968697649b310e",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+          "displayed": [
+            {
+              "id": "9a14b4de805af22815dcb3cd",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "2ba22e83f2968697649b310e",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+          "displayed": [
+            {
+              "id": "9a14b4de805af22815dcb3cd",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "2ba22e83f2968697649b310e",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+          "displayed": [
+            {
+              "id": "9a14b4de805af22815dcb3cd",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "2ba22e83f2968697649b310e",
+              "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+        }
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "group": "targeted_regression",
+    "category": "逆接と否定評価",
+    "source": "このかばんは小さくて軽い。値段は少し高かったが、使いにくいので満足していない。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "b1897aacd7daf5a378ac20ec",
+          "displayed": [
+            {
+              "id": "b1897aacd7daf5a378ac20ec",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c933d01217e9bcab9794b404",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "fc43d525d202d6ab0b6f84bdbe08cbe6aa32f74283b541e0eeaf46b229d4d692"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "b1897aacd7daf5a378ac20ec",
+          "displayed": [
+            {
+              "id": "b1897aacd7daf5a378ac20ec",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c933d01217e9bcab9794b404",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "fc43d525d202d6ab0b6f84bdbe08cbe6aa32f74283b541e0eeaf46b229d4d692"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "b1897aacd7daf5a378ac20ec",
+          "displayed": [
+            {
+              "id": "b1897aacd7daf5a378ac20ec",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c933d01217e9bcab9794b404",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "fc43d525d202d6ab0b6f84bdbe08cbe6aa32f74283b541e0eeaf46b229d4d692"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "b1897aacd7daf5a378ac20ec",
+          "displayed": [
+            {
+              "id": "b1897aacd7daf5a378ac20ec",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c933d01217e9bcab9794b404",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "fc43d525d202d6ab0b6f84bdbe08cbe6aa32f74283b541e0eeaf46b229d4d692"
+        }
+      }
+    ]
+  }
+]

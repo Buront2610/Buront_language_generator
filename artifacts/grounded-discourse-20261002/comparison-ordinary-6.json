@@ -1,0 +1,391 @@
+[
+  {
+    "id": "N16",
+    "group": "ordinary",
+    "category": "喜びと今後の行動",
+    "source": "試験に合格したと聞いて、とても嬉しかった。今日は家族と夕食を食べて、明日からまた勉強を続けるつもりだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "e5662db79029578a303c48ef",
+          "displayed": [
+            {
+              "id": "e5662db79029578a303c48ef",
+              "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d562667fd1f3f9b05b939c35",
+              "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "7ba507b2f703ae455d1ddd1acebd6f7e0a231ab52fecce58c3b5a77f95c1c6e5"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "e5662db79029578a303c48ef",
+          "displayed": [
+            {
+              "id": "e5662db79029578a303c48ef",
+              "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d562667fd1f3f9b05b939c35",
+              "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "7ba507b2f703ae455d1ddd1acebd6f7e0a231ab52fecce58c3b5a77f95c1c6e5"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "e5662db79029578a303c48ef",
+          "displayed": [
+            {
+              "id": "e5662db79029578a303c48ef",
+              "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d562667fd1f3f9b05b939c35",
+              "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "7ba507b2f703ae455d1ddd1acebd6f7e0a231ab52fecce58c3b5a77f95c1c6e5"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "e5662db79029578a303c48ef",
+          "displayed": [
+            {
+              "id": "e5662db79029578a303c48ef",
+              "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d562667fd1f3f9b05b939c35",
+              "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+              "operator": "REWRITE",
+              "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "7ba507b2f703ae455d1ddd1acebd6f7e0a231ab52fecce58c3b5a77f95c1c6e5"
+        }
+      }
+    ]
+  }
+]

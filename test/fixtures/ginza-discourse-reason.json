@@ -1,0 +1,667 @@
+{
+  "capturedAt": "2026-10-02T04:46:15.696Z",
+  "command": "node scripts/capture-discourse-fixtures.js",
+  "cases": [
+    {
+      "source": "電車のほうがよいと思う。安いからだ。",
+      "analysis": {
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+        "tokens": [
+          {
+            "id": 0,
+            "text": "電車",
+            "lemma": "電車",
+            "reading": "デンシャ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "nmod",
+            "head": 2,
+            "span": {
+              "start": 0,
+              "end": 2
+            },
+            "morphology": [
+              "Reading=デンシャ"
+            ]
+          },
+          {
+            "id": 1,
+            "text": "の",
+            "lemma": "の",
+            "reading": "ノ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 0,
+            "span": {
+              "start": 2,
+              "end": 3
+            },
+            "morphology": [
+              "Reading=ノ"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "ほう",
+            "lemma": "ほう",
+            "reading": "ホウ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "nsubj",
+            "head": 4,
+            "span": {
+              "start": 3,
+              "end": 5
+            },
+            "morphology": [
+              "Reading=ホウ"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "が",
+            "lemma": "が",
+            "reading": "ガ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 2,
+            "span": {
+              "start": 5,
+              "end": 6
+            },
+            "morphology": [
+              "Reading=ガ"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "よい",
+            "lemma": "よい",
+            "reading": "ヨイ",
+            "pos": "ADJ",
+            "tag": "形容詞-非自立可能",
+            "dep": "ccomp",
+            "head": 6,
+            "span": {
+              "start": 6,
+              "end": 8
+            },
+            "morphology": [
+              "Inflection=形容詞;終止形-一般",
+              "Reading=ヨイ"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "と",
+            "lemma": "と",
+            "reading": "ト",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 4,
+            "span": {
+              "start": 8,
+              "end": 9
+            },
+            "morphology": [
+              "Reading=ト"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "思う",
+            "lemma": "思う",
+            "reading": "オモウ",
+            "pos": "VERB",
+            "tag": "動詞-一般",
+            "dep": "ROOT",
+            "head": 6,
+            "span": {
+              "start": 9,
+              "end": 11
+            },
+            "morphology": [
+              "Inflection=五段-ワア行;終止形-一般",
+              "Reading=オモウ"
+            ]
+          },
+          {
+            "id": 7,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 6,
+            "span": {
+              "start": 11,
+              "end": 12
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          },
+          {
+            "id": 8,
+            "text": "安い",
+            "lemma": "安い",
+            "reading": "ヤスイ",
+            "pos": "ADJ",
+            "tag": "形容詞-一般",
+            "dep": "ROOT",
+            "head": 8,
+            "span": {
+              "start": 12,
+              "end": 14
+            },
+            "morphology": [
+              "Inflection=形容詞;終止形-一般",
+              "Reading=ヤスイ"
+            ]
+          },
+          {
+            "id": 9,
+            "text": "から",
+            "lemma": "から",
+            "reading": "カラ",
+            "pos": "SCONJ",
+            "tag": "助詞-接続助詞",
+            "dep": "mark",
+            "head": 8,
+            "span": {
+              "start": 14,
+              "end": 16
+            },
+            "morphology": [
+              "Reading=カラ"
+            ]
+          },
+          {
+            "id": 10,
+            "text": "だ",
+            "lemma": "だ",
+            "reading": "ダ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 8,
+            "span": {
+              "start": 16,
+              "end": 17
+            },
+            "morphology": [
+              "Inflection=助動詞-ダ;終止形-一般",
+              "Reading=ダ"
+            ]
+          },
+          {
+            "id": 11,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 8,
+            "span": {
+              "start": 17,
+              "end": 18
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          }
+        ],
+        "sentences": [
+          {
+            "start": 0,
+            "end": 12
+          },
+          {
+            "start": 12,
+            "end": 18
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。",
+      "analysis": {
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+        "tokens": [
+          {
+            "id": 0,
+            "text": "その",
+            "lemma": "その",
+            "reading": "ソノ",
+            "pos": "DET",
+            "tag": "連体詞",
+            "dep": "det",
+            "head": 1,
+            "span": {
+              "start": 0,
+              "end": 2
+            },
+            "morphology": [
+              "Reading=ソノ"
+            ]
+          },
+          {
+            "id": 1,
+            "text": "案",
+            "lemma": "案",
+            "reading": "アン",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "obl",
+            "head": 4,
+            "span": {
+              "start": 2,
+              "end": 3
+            },
+            "morphology": [
+              "Reading=アン"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "に",
+            "lemma": "に",
+            "reading": "ニ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 1,
+            "span": {
+              "start": 3,
+              "end": 4
+            },
+            "morphology": [
+              "Reading=ニ"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "は",
+            "lemma": "は",
+            "reading": "ハ",
+            "pos": "ADP",
+            "tag": "助詞-係助詞",
+            "dep": "case",
+            "head": 1,
+            "span": {
+              "start": 4,
+              "end": 5
+            },
+            "morphology": [
+              "Reading=ハ"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "賛成",
+            "lemma": "賛成",
+            "reading": "サンセイ",
+            "pos": "VERB",
+            "tag": "名詞-普通名詞-サ変可能",
+            "dep": "ROOT",
+            "head": 4,
+            "span": {
+              "start": 5,
+              "end": 7
+            },
+            "morphology": [
+              "Reading=サンセイ"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "でき",
+            "lemma": "できる",
+            "reading": "デキ",
+            "pos": "AUX",
+            "tag": "動詞-非自立可能",
+            "dep": "aux",
+            "head": 4,
+            "span": {
+              "start": 7,
+              "end": 9
+            },
+            "morphology": [
+              "Inflection=上一段-カ行;未然形-一般",
+              "Reading=デキ"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "ない",
+            "lemma": "ない",
+            "reading": "ナイ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 4,
+            "span": {
+              "start": 9,
+              "end": 11
+            },
+            "morphology": [
+              "Inflection=助動詞-ナイ;終止形-一般",
+              "Reading=ナイ"
+            ]
+          },
+          {
+            "id": 7,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 4,
+            "span": {
+              "start": 11,
+              "end": 12
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          },
+          {
+            "id": 8,
+            "text": "費用",
+            "lemma": "費用",
+            "reading": "ヒヨウ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "nsubj",
+            "head": 10,
+            "span": {
+              "start": 12,
+              "end": 14
+            },
+            "morphology": [
+              "Reading=ヒヨウ"
+            ]
+          },
+          {
+            "id": 9,
+            "text": "が",
+            "lemma": "が",
+            "reading": "ガ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 8,
+            "span": {
+              "start": 14,
+              "end": 15
+            },
+            "morphology": [
+              "Reading=ガ"
+            ]
+          },
+          {
+            "id": 10,
+            "text": "高い",
+            "lemma": "高い",
+            "reading": "タカイ",
+            "pos": "ADJ",
+            "tag": "形容詞-一般",
+            "dep": "advcl",
+            "head": 20,
+            "span": {
+              "start": 15,
+              "end": 17
+            },
+            "morphology": [
+              "Inflection=形容詞;連体形-一般",
+              "Reading=タカイ"
+            ]
+          },
+          {
+            "id": 11,
+            "text": "だけ",
+            "lemma": "だけ",
+            "reading": "ダケ",
+            "pos": "ADP",
+            "tag": "助詞-副助詞",
+            "dep": "case",
+            "head": 10,
+            "span": {
+              "start": 17,
+              "end": 19
+            },
+            "morphology": [
+              "Reading=ダケ"
+            ]
+          },
+          {
+            "id": 12,
+            "text": "で",
+            "lemma": "だ",
+            "reading": "デ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "fixed",
+            "head": 11,
+            "span": {
+              "start": 19,
+              "end": 20
+            },
+            "morphology": [
+              "Inflection=助動詞-ダ;連用形-一般",
+              "Reading=デ"
+            ]
+          },
+          {
+            "id": 13,
+            "text": "なく",
+            "lemma": "ない",
+            "reading": "ナク",
+            "pos": "AUX",
+            "tag": "形容詞-非自立可能",
+            "dep": "fixed",
+            "head": 11,
+            "span": {
+              "start": 20,
+              "end": 22
+            },
+            "morphology": [
+              "Inflection=形容詞;連用形-一般",
+              "Reading=ナク"
+            ]
+          },
+          {
+            "id": 14,
+            "text": "、",
+            "lemma": "、",
+            "reading": "、",
+            "pos": "PUNCT",
+            "tag": "補助記号-読点",
+            "dep": "punct",
+            "head": 10,
+            "span": {
+              "start": 22,
+              "end": 23
+            },
+            "morphology": [
+              "Reading=、"
+            ]
+          },
+          {
+            "id": 15,
+            "text": "準備",
+            "lemma": "準備",
+            "reading": "ジュンビ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-サ変可能",
+            "dep": "obl",
+            "head": 20,
+            "span": {
+              "start": 23,
+              "end": 25
+            },
+            "morphology": [
+              "Reading=ジュンビ"
+            ]
+          },
+          {
+            "id": 16,
+            "text": "に",
+            "lemma": "に",
+            "reading": "ニ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 15,
+            "span": {
+              "start": 25,
+              "end": 26
+            },
+            "morphology": [
+              "Reading=ニ"
+            ]
+          },
+          {
+            "id": 17,
+            "text": "一",
+            "lemma": "一",
+            "reading": "イチ",
+            "pos": "NUM",
+            "tag": "名詞-数詞",
+            "dep": "nummod",
+            "head": 18,
+            "span": {
+              "start": 26,
+              "end": 27
+            },
+            "morphology": [
+              "Reading=イチ"
+            ]
+          },
+          {
+            "id": 18,
+            "text": "週間",
+            "lemma": "週間",
+            "reading": "シュウカン",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-助数詞可能",
+            "dep": "nsubj",
+            "head": 20,
+            "span": {
+              "start": 27,
+              "end": 29
+            },
+            "morphology": [
+              "Reading=シュウカン"
+            ]
+          },
+          {
+            "id": 19,
+            "text": "も",
+            "lemma": "も",
+            "reading": "モ",
+            "pos": "ADP",
+            "tag": "助詞-係助詞",
+            "dep": "case",
+            "head": 18,
+            "span": {
+              "start": 29,
+              "end": 30
+            },
+            "morphology": [
+              "Reading=モ"
+            ]
+          },
+          {
+            "id": 20,
+            "text": "かかる",
+            "lemma": "かかる",
+            "reading": "カカル",
+            "pos": "VERB",
+            "tag": "動詞-非自立可能",
+            "dep": "ROOT",
+            "head": 20,
+            "span": {
+              "start": 30,
+              "end": 33
+            },
+            "morphology": [
+              "Inflection=五段-ラ行;終止形-一般",
+              "Reading=カカル"
+            ]
+          },
+          {
+            "id": 21,
+            "text": "から",
+            "lemma": "から",
+            "reading": "カラ",
+            "pos": "SCONJ",
+            "tag": "助詞-接続助詞",
+            "dep": "mark",
+            "head": 20,
+            "span": {
+              "start": 33,
+              "end": 35
+            },
+            "morphology": [
+              "Reading=カラ"
+            ]
+          },
+          {
+            "id": 22,
+            "text": "だ",
+            "lemma": "だ",
+            "reading": "ダ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 20,
+            "span": {
+              "start": 35,
+              "end": 36
+            },
+            "morphology": [
+              "Inflection=助動詞-ダ;終止形-一般",
+              "Reading=ダ"
+            ]
+          },
+          {
+            "id": 23,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 20,
+            "span": {
+              "start": 36,
+              "end": 37
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          }
+        ],
+        "sentences": [
+          {
+            "start": 0,
+            "end": 12
+          },
+          {
+            "start": 12,
+            "end": 37
+          }
+        ],
+        "warnings": []
+      }
+    }
+  ]
+}

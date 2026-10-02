@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> buront-language-generator@1.0.0-experimental.3 build:assets
+> node dist/scripts/v1/build-assets.js
+
+{"datasetId":"0fd001528a59d2fe9b35d63310acba66cc6fa65de362f1f17044ea81fc89b1f8","path":"/workspace/shared/Buront_language_generator/.runtime/assets/0fd001528a59d2fe9b35d63310acba66cc6fa65de362f1f17044ea81fc89b1f8.json","evidence":10596,"lexicon":19,"rights":"unverified-local-only"}

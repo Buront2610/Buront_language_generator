@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "N01",
+    "group": "ordinary",
+    "category": "日常の手順",
+    "source": "私は朝七時に起きて、駅まで歩いた。電車は五分遅れていたが、会議には間に合った。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "399affcc105ac64e4d076b57",
+          "displayed": [
+            {
+              "id": "399affcc105ac64e4d076b57",
+              "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6ebd196f402e27736c6dea8c",
+              "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "399affcc105ac64e4d076b57",
+          "displayed": [
+            {
+              "id": "399affcc105ac64e4d076b57",
+              "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6ebd196f402e27736c6dea8c",
+              "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "399affcc105ac64e4d076b57",
+          "displayed": [
+            {
+              "id": "399affcc105ac64e4d076b57",
+              "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6ebd196f402e27736c6dea8c",
+              "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "399affcc105ac64e4d076b57",
+          "displayed": [
+            {
+              "id": "399affcc105ac64e4d076b57",
+              "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "ending-insistence-21",
+                  "from": "た",
+                  "to": "たからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6ebd196f402e27736c6dea8c",
+              "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N02",
+    "group": "ordinary",
+    "category": "業務連絡と数値",
+    "source": "明日の会議は午後三時からです。資料を二部ずつ持ってきてください。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+          "displayed": [
+            {
+              "id": "9c7ae61698efacab1177d9f1",
+              "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-10",
+                  "from": "です",
+                  "to": "だからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a290370e3454c684254aa62a",
+              "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "671cf10c40024b42c0b589bc",
+              "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-plain-10",
+                  "from": "です",
+                  "to": "だ"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 0,
+          "verifiedCount": 3,
+          "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+          "displayed": [
+            {
+              "id": "9c7ae61698efacab1177d9f1",
+              "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-10",
+                  "from": "です",
+                  "to": "だからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a290370e3454c684254aa62a",
+              "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "671cf10c40024b42c0b589bc",
+              "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-plain-10",
+                  "from": "です",
+                  "to": "だ"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 0,
+          "verifiedCount": 3,
+          "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+          "displayed": [
+            {
+              "id": "9c7ae61698efacab1177d9f1",
+              "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-10",
+                  "from": "です",
+                  "to": "だからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a290370e3454c684254aa62a",
+              "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "671cf10c40024b42c0b589bc",
+              "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-plain-10",
+                  "from": "です",
+                  "to": "だ"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 0,
+          "verifiedCount": 3,
+          "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+          "displayed": [
+            {
+              "id": "9c7ae61698efacab1177d9f1",
+              "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-10",
+                  "from": "です",
+                  "to": "だからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a290370e3454c684254aa62a",
+              "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "671cf10c40024b42c0b589bc",
+              "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+              "operator": "REWRITE",
+              "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-plain-10",
+                  "from": "です",
+                  "to": "だ"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 0,
+          "verifiedCount": 3,
+          "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N03",
+    "group": "ordinary",
+    "category": "根拠を伴う比較",
+    "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "c3addbdc141da1e5c610f8f7",
+          "displayed": [
+            {
+              "id": "c3addbdc141da1e5c610f8f7",
+              "text": "車より電車で行くほうがよいと思う\n駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6de4899639b1ab5a17ff8e76",
+              "text": "車より電車で行くほうがよいと思う\n駐車場を探す必要がなく、到着時刻も読みやすいからだからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+ending-insistence-11+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "ending-insistence-11",
+                  "from": "だ",
+                  "to": "だからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "04d9c04e355d4e172f8eeecb024919ed08cdff3c1531813c8c7b3491a6f8a398"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "c6bad843e2d6537054ddd039",
+          "displayed": [
+            {
+              "id": "c6bad843e2d6537054ddd039",
+              "text": "車より電車で行くほうがよいと思う\n何故なら駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-reason-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-reason",
+                  "from": "駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+                  "to": "何故なら駐車場を探す必要がなく、到着時刻も読みやすいからだ"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c3addbdc141da1e5c610f8f7",
+              "text": "車より電車で行くほうがよいと思う\n駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 1,
+          "verifiedCount": 2,
+          "selectionHash": "8c156886bb278f16537403aba0bc41931858055e3b7ab1944fa5f5890b645011"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "c3addbdc141da1e5c610f8f7",
+          "displayed": [
+            {
+              "id": "c3addbdc141da1e5c610f8f7",
+              "text": "車より電車で行くほうがよいと思う\n駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6de4899639b1ab5a17ff8e76",
+              "text": "車より電車で行くほうがよいと思う\n駐車場を探す必要がなく、到着時刻も読みやすいからだからな",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+ending-insistence-11+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "ending-insistence-11",
+                  "from": "だ",
+                  "to": "だからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "04d9c04e355d4e172f8eeecb024919ed08cdff3c1531813c8c7b3491a6f8a398"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "c6bad843e2d6537054ddd039",
+          "displayed": [
+            {
+              "id": "c6bad843e2d6537054ddd039",
+              "text": "車より電車で行くほうがよいと思う\n何故なら駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-reason-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-reason",
+                  "from": "駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+                  "to": "何故なら駐車場を探す必要がなく、到着時刻も読みやすいからだ"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c3addbdc141da1e5c610f8f7",
+              "text": "車より電車で行くほうがよいと思う\n駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 1,
+          "verifiedCount": 2,
+          "selectionHash": "8c156886bb278f16537403aba0bc41931858055e3b7ab1944fa5f5890b645011"
+        }
+      }
+    ]
+  }
+]

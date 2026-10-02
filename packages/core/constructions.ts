@@ -4,6 +4,7 @@ import { hash, overlaps, slice } from './source';
 import { planIntent, planNarrative } from './planning';
 import { renderEdits, validateRewrite } from './rewrite-validation';
 import { insideEnclosure, permitsAssertiveScope, propositionScopes, type PropositionScope } from './grammar-scope';
+import { createDiscourseBinder, discourseConstructionRegistry } from './discourse-constructions';
 
 // Registered semantic transformations, not general paraphrase or invented quotes.
 // Slot binding, grammatical scope and every preserved feature are recomputed from
@@ -15,6 +16,7 @@ export const constructionRegistry = [
     slots: ['degree', 'emotion', 'predicate', 'experiencer'], semanticDelta: 'explicit high sadness -> enveloping sadness state', preserves: ['experiencer', 'tense', 'polarity', 'attribution', 'realization'] },
   { id: 'time-expired', version: 1, series: ['gg'], family: 'already-expired', level: 2, evidenceId: 'post_01944_f7cb32dab8e25e5a_7155', needle: '時既に時間切れ',
     slots: ['time', 'state', 'predicate'], semanticDelta: 'explicit already-expired state -> attested temporal doubling', preserves: ['tense', 'polarity', 'attribution', 'realization', 'arguments'] },
+  ...discourseConstructionRegistry,
 ] as const;
 const registry = new Map<string, typeof constructionRegistry[number]>(constructionRegistry.map(item => [item.id, item]));
 export const constructionFamily = (edits: ConstructionEdit[]) => [...new Set(edits.map(edit => registry.get(edit.constructionId)?.family ?? 'unknown'))].join('+');
@@ -32,9 +34,9 @@ function assertivePredicate(ir: DocumentIR, fact: Fact, node: PlanNode, scopes: 
   return predicate;
 }
 
-function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: PropositionScope[]): ConstructionEdit[] {
+function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: PropositionScope[], discourse: ReturnType<typeof createDiscourseBinder>): ConstructionEdit[] {
   if (!node.sourceSpan || intensity < 2) return [];
-  const result: ConstructionEdit[] = [];
+  const result: ConstructionEdit[] = discourse(node, intensity);
   for (const fact of ir.facts.filter(fact => node.factIds.includes(fact.id))) {
     const predicate = assertivePredicate(ir, fact, node, scopes); if (!predicate) continue;
     const children = ir.tokens.filter(token => token.head === predicate.id && token.id !== predicate.id);
@@ -101,8 +103,8 @@ export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest
   const empty: QuotePlan = { id: '', intent: intentPlan.act, intentPlan, narrative, mainOperator: 'CONSTRUCTION', auxiliaryOperators: [], family: '', mapping: { source: 'adopted-source', target: 'registered-semantic-constructions', relation: 'bounded-construction' }, backTranslation: '', evidenceIds: [], forbiddenEffects: intentPlan.forbiddenEffects,
     nodes: narrative.units.map((unit, i) => ({ id: `fact-node-${i}`, type: 'FactClause', text: slice(ir.source.raw, unit.sourceSpan), sourceSpan: unit.sourceSpan, factIds: unit.factIds, evidenceIds: [], mention: 'primary' })), experimental: true };
   const evidence = new Map(assets.evidence.map(item => [item.id, item]));
-  const scopes = propositionScopes(ir.source, ir);
-  const edits = empty.nodes.flatMap(node => bindForNode(ir, node, request.intensity, scopes)).filter(edit => {
+  const scopes = propositionScopes(ir.source, ir), discourse = createDiscourseBinder(ir, scopes);
+  const edits = empty.nodes.flatMap(node => bindForNode(ir, node, request.intensity, scopes, discourse)).filter(edit => {
     const item = registry.get(edit.constructionId)!, source = evidence.get(item.evidenceId);
     return source?.sourceType === 'original_post' && source.text.includes(item.needle) && (request.series === 'all' || (item.series as readonly string[]).includes(request.series) && source.series.includes(request.series));
   });
@@ -119,7 +121,7 @@ export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest
     const text = plan.nodes.map(node => node.text).join(''); if (seen.has(text)) continue;
     seen.add(text); plan.family = constructionFamily(edits);
     plan.evidenceIds = uniqueEvidence(combined);
-    plan.backTranslation = '原文の感情・明示された強度・期限状態をスロットへ束縛し、登録済み構文に実現。主体・否定・時制・引用・予定を補わず、不確かな節は変換しない。';
+    plan.backTranslation = '原文の感情・明示された強度・期限状態と、明示された理由・逆接・限定達成に伴う謙遜をスロットへ束縛し、登録済み構文に実現。文脈を原文から再照合し、主体・否定・時制・引用・予定・原因・称賛を補わない。';
     plan.id = hash(plan).slice(0, 24); plans.push(plan);
   }
   return plans;
@@ -138,10 +140,10 @@ export function validateConstruction(ir: DocumentIR, plan: QuotePlan, references
     const unit = narrative.units[index];
     return node.id !== `fact-node-${index}` || node.mention !== 'primary' || hash(node.sourceSpan) !== hash(unit.sourceSpan) || hash(node.factIds) !== hash(unit.factIds);
   })) return false;
-  const combined = allEdits(plan), scopes = propositionScopes(ir.source, ir);
+  const combined = allEdits(plan), scopes = propositionScopes(ir.source, ir), discourse = createDiscourseBinder(ir, scopes);
   if (combined.some((edit, i) => i > 0 && overlaps(edit.sourceSpan, combined[i - 1].sourceSpan))) return false;
   for (const node of plan.nodes) {
-    const changes = combined.filter(edit => edit.nodeId === node.id), expected = bindForNode(ir, node, program.intensity, scopes);
+    const changes = combined.filter(edit => edit.nodeId === node.id), expected = bindForNode(ir, node, program.intensity, scopes, discourse);
     for (const edit of program.edits.filter(edit => edit.nodeId === node.id)) {
       const item = registry.get(edit.constructionId);
       if (!item || program.seriesId !== 'all' && !(item.series as readonly string[]).includes(program.seriesId) || !expected.some(value => hash(value) === hash(edit)) || references && !references.get(item.evidenceId)?.includes(item.needle)) return false;
