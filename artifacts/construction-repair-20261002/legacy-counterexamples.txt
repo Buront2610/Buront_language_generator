@@ -1,0 +1,122 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> buront-language-generator@1.0.0-experimental.3 audit:m0
+> node scripts/audit-design-counterexamples.js
+
+{
+  "runtime": "v24.19.0",
+  "fixtureCount": 10,
+  "unresolved": [],
+  "results": [
+    {
+      "id": "T-01-money",
+      "requirement": "T-01",
+      "source": "100円を支払った。",
+      "candidate": "1100円を支払ったのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-01-count",
+      "requirement": "T-01",
+      "source": "3個を購入した。",
+      "candidate": "13個を購入したのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-02-sign",
+      "requirement": "T-02",
+      "source": "気温は-5度だった。",
+      "candidate": "気温は5度だったのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-02-role",
+      "requirement": "T-02",
+      "source": "100円を300円に変更した。",
+      "candidate": "300円を100円に変更したのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-03-roles",
+      "requirement": "T-03",
+      "source": "田中が佐藤を助けた。",
+      "candidate": "佐藤が田中を助けたのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-04-scope",
+      "requirement": "T-04",
+      "source": "田中は承認した。佐藤は承認していない。",
+      "candidate": "田中は承認していない。佐藤は承認した。",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-05-nouns",
+      "requirement": "T-05",
+      "source": "猫が魚を食べた。",
+      "candidate": "犬が肉を食べたのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-06-completion",
+      "requirement": "T-06",
+      "source": "サーバーは復旧していません。",
+      "candidate": "サーバーは復旧したのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-07-mixed",
+      "requirement": "T-07",
+      "source": "田中がAを復旧した。Bは停止中で、私は明日確認する。",
+      "candidate": "田中がAとBを復旧し、私は確認を終えた。",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    },
+    {
+      "id": "T-08-attribution",
+      "requirement": "T-08",
+      "source": "田中が確認したと佐藤が言った。",
+      "candidate": "田中が確認したのは確定的に明らか",
+      "expected": "rejected",
+      "implemented": true,
+      "faithful": "rejected",
+      "full": "rejected",
+      "matches": true
+    }
+  ]
+}

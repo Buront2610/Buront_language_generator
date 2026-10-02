@@ -8,6 +8,8 @@ import type { GenerationRequest, Preference } from '../../packages/contracts';
 import type { HistoryEntry } from '../../packages/core/evaluation';
 import { features, rhetoricalCore, featureVersion } from '../../packages/core/evaluation';
 import { hash } from '../../packages/core/source';
+import { generationCapabilities, unsupportedGenerationMode } from '../../packages/core/capabilities';
+import { lockedEvidenceCompatible } from '../../packages/core/lock-compatibility';
 import { publicFile } from '../../packages/runtime/public-files';
 import { reviewRoutes } from '../../packages/runtime/review-routes';
 
@@ -52,12 +54,13 @@ export async function createApp(options: { root?: string; deadlineMs?: number } 
     sessions.set(session.id, session); reply.header('Set-Cookie', `buront_session=${session.id}; HttpOnly; SameSite=Strict; Path=/; Max-Age=1800`);
     return { token: session.token, expiresIn: 1800 };
   });
-  const status = () => ({ ready: coordinator.ready && coordinator.python.available, startupError, capabilities: { structured: coordinator.ready && coordinator.python.available, model: false, semanticSearch: false, learnedStyle: !!coordinator.assets.evaluators?.S, learnedQuoteability: !!coordinator.assets.evaluators?.Q, partialRegeneration: true },
+  const status = () => ({ ready: coordinator.ready && coordinator.python.available, startupError, capabilities: { ...generationCapabilities(), structured: coordinator.ready && coordinator.python.available, model: false, semanticSearch: false, learnedStyle: !!coordinator.assets.evaluators?.S, learnedQuoteability: !!coordinator.assets.evaluators?.Q, partialRegeneration: true },
     versions: { datasetId: coordinator.assets.datasetId, parser: coordinator.python.versions, engine: 'structured-v1' }, limits: { sourceScalars: 5000, bodyBytes: 80000, queue: 8, sessionRunning: 1, deadlineMs: 30000, resultCount: 20, ttlMinutes: 30 }, series: coordinator.assets.series, experimental: true });
   app.get('/api/v1/status', status); app.get('/api/status', status);
+  app.get('/api/v1/capabilities', () => status().capabilities);
   reviewRoutes(app, root);
   const enqueue = (session: Session, body: any, reply: any, options = {}) => {
-    try { validateRequest(body); const job = coordinator.enqueue(session.id, body, session.history.filter(item => item.task === body.task && item.series === body.series && item.mode === body.noveltyMode), options); reply.code(202); return coordinator.view(job); }
+    try { validateRequest(body); if (unsupportedGenerationMode(body)) return reply.code(422).send({ error: 'unsupported_generation_mode', capabilities: status().capabilities }); const job = coordinator.enqueue(session.id, body, session.history.filter(item => item.task === body.task && item.series === body.series && item.mode === body.noveltyMode), options); reply.code(202); return coordinator.view(job); }
     catch (error) { const message = (error as Error).message; return reply.code(message === 'QUEUE_FULL' ? 429 : message === 'CAPABILITY_UNAVAILABLE' ? 503 : 400).send({ error: message.split(':')[0] }); }
   };
   app.post('/api/v1/generations', async (request, reply) => enqueue(sessionFor(request)!, request.body, reply));
@@ -71,7 +74,9 @@ export async function createApp(options: { root?: string; deadlineMs?: number } 
     if (!job || !coordinator.verifyAnalysis(job, body.analysisId)) return reply.code(409).send({ error: 'ANALYSIS_EXPIRED_OR_ASSET_CHANGED' });
     const candidate = job.result!.candidates.find(candidate => candidate.id === body.candidateId);
     if (!candidate || body.lockedNodeIds.some((id: string) => !candidate.plan.nodes.some(node => node.id === id))) return reply.code(409).send({ error: 'LOCK_CONFLICT' });
-    if ((body.lockedNodeIds.includes('main-quote') || candidate.plan.rewrite && body.lockedNodeIds.length) && body.operator && body.operator !== candidate.plan.mainOperator) return reply.code(409).send({ error: 'LOCK_CONFLICT' });
+    // Mirror the engine's plan-independent lock rule before queue admission.
+    if (body.lockedNodeIds.length && body.operator && body.operator !== candidate.plan.mainOperator) return reply.code(409).send({ error: 'LOCK_CONFLICT' });
+    if (!lockedEvidenceCompatible(candidate.plan, body.lockedNodeIds, body.series ?? job.request.series, coordinator.assets)) return reply.code(409).send({ error: 'LOCK_CONFLICT' });
     if (Number(job.result!.replayManifest.replayDepth ?? 0) >= 19) return reply.code(409).send({ error: 'REPLAY_DEPTH_LIMIT' });
     return enqueue(session, { ...job.request, seed: body.seed, series: body.series ?? job.request.series, clientRevision: body.clientRevision }, reply, { lockedPlan: candidate.plan, lockedNodeIds: body.lockedNodeIds, operator: body.operator, replayParent: job.result!.replayManifest, parentCandidateId: candidate.id });
   });

@@ -1,0 +1,19 @@
+✔ Capabilities explicitly distinguish finite adaptation from unsupported creative modes (1.291267ms)
+✔ Selection preserves local construction families despite very long unchanged background (12.887923ms)
+✔ Punctuation and narrator variants cannot manufacture diversity (0.575339ms)
+✔ Diversity considers construction family then operators before wording (0.897535ms)
+✔ Seed is deterministic, input-order independent, and only changes equal eligible alternatives (12.547166ms)
+✔ Independent verification promotes every remaining eligible candidate before final three cap (5.635763ms)
+✔ Independent reparse collects text from pool members outside provisional results (0.850026ms)
+✔ No unverified, rejected, low-quality, or adaptation-only invent alternatives fill slots (0.20965ms)
+✔ Duplicate candidate IDs cannot discard a valid proof before independent verification (0.837407ms)
+✔ Construction programs cannot obtain the finite-rewrite semantic bypass (0.536733ms)
+✔ New construction family wins over a redundant higher-level construction variant (0.315416ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 124.466549

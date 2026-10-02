@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "sourceHash": "fcc74e14041931bcd44ad1563662088b9cf63f4125a285e54ba8415fe17c0a0f",
-  "toolCommit": "4c883d6feb1fd3ae76ea71515742b2f2100c7785",
+  "sourceHash": "d87b605957d07029e7096e2ad26573ab4b70ef689ea50349d237153cc43e3f67",
+  "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+  "workingTreeDirty": true,
   "runtime": "node24-python3.11",
   "safetyContract": "v1"
 }

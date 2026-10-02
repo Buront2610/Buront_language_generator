@@ -1,0 +1,84 @@
+{
+  "source": "私は最強だ",
+  "analysis": {
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+    "tokens": [
+      {
+        "id": 0,
+        "text": "私",
+        "lemma": "私",
+        "reading": "ワタクシ",
+        "pos": "PRON",
+        "tag": "代名詞",
+        "dep": "nsubj",
+        "head": 2,
+        "span": {
+          "start": 0,
+          "end": 1
+        },
+        "morphology": [
+          "Reading=ワタクシ"
+        ]
+      },
+      {
+        "id": 1,
+        "text": "は",
+        "lemma": "は",
+        "reading": "ハ",
+        "pos": "ADP",
+        "tag": "助詞-係助詞",
+        "dep": "case",
+        "head": 0,
+        "span": {
+          "start": 1,
+          "end": 2
+        },
+        "morphology": [
+          "Reading=ハ"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "最強",
+        "lemma": "最強",
+        "reading": "サイキョウ",
+        "pos": "ADJ",
+        "tag": "名詞-普通名詞-一般",
+        "dep": "ROOT",
+        "head": 2,
+        "span": {
+          "start": 2,
+          "end": 4
+        },
+        "morphology": [
+          "Reading=サイキョウ"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "だ",
+        "lemma": "だ",
+        "reading": "ダ",
+        "pos": "AUX",
+        "tag": "助動詞",
+        "dep": "cop",
+        "head": 2,
+        "span": {
+          "start": 4,
+          "end": 5
+        },
+        "morphology": [
+          "Inflection=助動詞-ダ;終止形-一般",
+          "Reading=ダ"
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 5
+      }
+    ],
+    "warnings": []
+  }
+}

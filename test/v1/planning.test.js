@@ -49,7 +49,7 @@ test('M3 explicit anchors retain numeric target, utterance, use and fact binding
 
 test('M3 independent sentences get a stable status order and exactly one primary fact mention', async () => {
   const text = '私は明日確認する。佐藤は修理していない。田中が復旧した。', analysis = await analyze(text);
-  const result = generate(request(text, { contextMode: 'full' }), analysis, assets);
+  const result = generate(request(text), analysis, assets);
   const plans = makePlans(result.ir, request(text, { contextMode: 'full' }), assets);
   const narrative = plans.find(plan => plan.narrative.strategy === 'status_order').narrative;
   assert.deepEqual(narrative.units.map(unit => unit.role), ['prospect', 'unresolved', 'achievement']);

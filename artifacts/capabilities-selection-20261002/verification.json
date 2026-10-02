@@ -1,0 +1,55 @@
+{
+  "scope": "Capability honesty, verified candidate-pool selection, construction proof integration, and UI labeling",
+  "implemented": [
+    "GET /api/v1/capabilities shares its capability object with status",
+    "HTTP generation rejects invent/quote/full with 422 unsupported_generation_mode",
+    "UI disables unsupported controls and explains limited adaptation support",
+    "All internal candidates, including shared-ID plans and provisional non-winners, reach final independent verification",
+    "Final selection promotes surviving alternatives, caps at three, and removes candidatePool",
+    "Closed registered-construction proof is separate from finite rewrite and rejects mixed programs",
+    "Response text and output spans must match the verified plan realization",
+    "Diversity uses registered family, operator combinations, local changed wording, then whole text; cosmetic punctuation/pronouns are normalized",
+    "Seed breaks equivalent eligible ties only; untrained S/Q remain null",
+    "Any locked supported plan rejects a changed operator synchronously with HTTP 409 before enqueue",
+    "Server and engine share the immutable-evidence series compatibility guard for retained nodes; incompatible series changes return HTTP 409 before enqueue"
+  ],
+  "verification": {
+    "engine_and_web_build": "passed",
+    "typescript_core_and_web": "passed",
+    "focused_selection_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "api_tests": {
+      "passed": 14,
+      "failed": 0
+    },
+    "git_diff_check": "passed"
+  },
+  "visual_qa": {
+    "status": "blocked",
+    "screenshots": [],
+    "attempts": [
+      "Installed Chromium launch: socket() Operation not permitted, including escalated retry",
+      "Supported cloud-browser navigation to localhost: ERR_BLOCKED_BY_CLIENT"
+    ],
+    "not_claimed": [
+      "rendered desktop/mobile layout",
+      "interactive repeated-click or stale-response UI behavior"
+    ]
+  },
+  "related_automated_coverage": [
+    "API cancellation/late completion",
+    "partial regeneration",
+    "session/auth boundaries",
+    "shared status/capability contract",
+    "promotion after provisional top three fail",
+    "no candidate-pool API leakage",
+    "construction locks reject REWRITE/OP-01 before queue admission",
+    "construction lock round trips with omitted/explicit CONSTRUCTION operator",
+    "legacy HTTP conversion carries verified constructions without internal pool",
+    "incompatible locked-series change rejected without queued job",
+    "compatible construction series change accepted",
+    "foreign-series evidence on unlocked nodes does not block regeneration"
+  ]
+}

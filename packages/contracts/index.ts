@@ -24,7 +24,7 @@ export const PreferenceSchema = Type.Object({
 export const RegenerationSchema = Type.Object({
   analysisId: Type.String({ maxLength: 200 }), candidateId: Type.String({ maxLength: 64 }),
   lockedNodeIds: Type.Array(Type.String({ maxLength: 64 }), { maxItems: 100 }),
-  seed: Type.String({ maxLength: 128 }), operator: Type.Optional(Type.String({ pattern: '^(OP-(0[1-9]|10)|REWRITE)$' })),
+  seed: Type.String({ maxLength: 128 }), operator: Type.Optional(Type.String({ pattern: '^(OP-(0[1-9]|10)|REWRITE|CONSTRUCTION)$' })),
   series: Type.Optional(Series), clientRevision: Type.Integer({ minimum: 0 }),
 }, { additionalProperties: false });
 export const AnalysisSchema = Type.Object({
@@ -79,9 +79,12 @@ export type RhetoricProgram = { version: 1; factId: string; relation: RhetoricRe
 export type RhetoricEdit = { sourceSpan: Span; outputSpan: Span; ruleId: string; from: string; to: string };
 export type RewriteEdit = { nodeId: string; sourceSpan: Span; ruleId: string; from: string; to: string; evidenceIds: string[] };
 export type RewriteProgram = { version: 1; seriesId: string; intensity: number; edits: RewriteEdit[] };
+export type ConstructionBinding = { slot: 'emotion' | 'degree' | 'predicate' | 'marker' | 'experiencer' | 'state' | 'time'; span: Span; text: string; tokenIds: number[] };
+export type ConstructionEdit = { nodeId: string; sourceSpan: Span; constructionId: string; constructionVersion: 1; realizationId: string; factId: string; from: string; to: string; evidenceIds: string[]; bindings: ConstructionBinding[]; features: Pick<Fact, 'polarity' | 'tense' | 'realization' | 'completion' | 'attribution' | 'voice'> };
+export type ConstructionProgram = { version: 1; seriesId: string; intensity: number; edits: ConstructionEdit[]; lexicalEdits: RewriteEdit[] };
 export type PlanNode = { id: string; type: 'FactClause' | 'ProtectedLiteral' | 'RhetoricalClause' | 'Connective' | 'QuoteBoundary' | 'Reference'; text: string; sourceSpan?: Span; factIds: string[]; evidenceIds: string[]; mention?: 'primary' | 'rhetorical_reference' };
-export type QuotePlan = { id: string; intent: string; intentPlan?: IntentPlan; narrative?: NarrativePlan; surface?: SurfacePlan; rhetoric?: RhetoricProgram; rhetoricEdits?: RhetoricEdit[]; rewrite?: RewriteProgram; mainOperator: string; auxiliaryOperators: string[]; family: string; mapping: { source: string; target: string; relation: string }; backTranslation: string; evidenceIds: string[]; forbiddenEffects: string[]; nodes: PlanNode[]; experimental: boolean };
+export type QuotePlan = { id: string; intent: string; intentPlan?: IntentPlan; narrative?: NarrativePlan; surface?: SurfacePlan; rhetoric?: RhetoricProgram; rhetoricEdits?: RhetoricEdit[]; rewrite?: RewriteProgram; construction?: ConstructionProgram; mainOperator: string; auxiliaryOperators: string[]; family: string; mapping: { source: string; target: string; relation: string }; backTranslation: string; evidenceIds: string[]; forbiddenEffects: string[]; nodes: PlanNode[]; experimental: boolean };
 export type OutputSpan = { span: Span; nodeId: string; origin: 'source_fact' | 'paraphrase' | 'rhetoric' | 'direct_quote' | 'unresolved_copy'; sourceSpan?: Span; factIds: string[]; evidenceIds: string[] };
 export type Novelty = { classification: 'known_quote' | 'adaptation' | 'candidate_novel' | 'undetermined'; text: number | null; structure: number | null; concept: number | null; nearestIds: string[]; datasetId: string; historySnapshot: string; window: string };
 export type Candidate = { id: string; text: string; plan: QuotePlan; spans: OutputSpan[]; checks: Check[]; verificationStatus: 'passed' | 'rejected' | 'needs_review'; verificationScope: string; scores: { S: number | null; Q: number | null; C: number | null; R: number | null }; novelty: Novelty; evidence: { id: string; kind: string; text: string; url?: string }[] };
-export type GenerationResult = { inputHash: string; clientRevision: number; selectedCandidateId: string | null; candidates: Candidate[]; reviewCandidates: Candidate[]; fallback: { text: string; reason: string } | null; shortfallReason: string | null; ir: DocumentIR; replayManifest: Record<string, unknown>; analysisId?: string };
+export type GenerationResult = { inputHash: string; clientRevision: number; selectedCandidateId: string | null; candidates: Candidate[]; candidatePool?: Candidate[]; reviewCandidates: Candidate[]; fallback: { text: string; reason: string } | null; shortfallReason: string | null; ir: DocumentIR; replayManifest: Record<string, unknown>; analysisId?: string };

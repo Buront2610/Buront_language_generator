@@ -53,7 +53,7 @@ test('forged text, edit destinations, offsets, rule IDs and evidence cannot self
  for(const mutate of mutations){const plan=structuredClone(original);mutate(plan);assert.notEqual(check(result.ir,plan),'passed');assert.equal(ruleQuality(result.ir,plan).C,0)}
 });
 test('invent abstains from finite adaptations and dictionaries cannot silently change facts',async()=>{
- const invented=await run('私は処理の速度をアピールした。',{noveltyMode:'invent'});assert.equal(invented.candidates.length,0);assert.equal(invented.shortfallReason,'no_novel_candidate');
+ const invented=await run('私は処理の速度をアピールした。',{noveltyMode:'invent'});assert.equal(invented.candidates.length,0);assert.equal(invented.shortfallReason,'unsupported_generation_mode');
  const edited=await run('私は確認した。',{customRules:[{id:'bad',from:'俺',to:'田中',priority:1}]});assert.equal(edited.candidates.length,0);assert.ok(edited.reviewCandidates.length);assert.equal(edited.shortfallReason,'dictionary_needs_review');
 });
 test('rules have original-post evidence in the requested series; unavailable rules abstain',async()=>{

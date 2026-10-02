@@ -11,7 +11,7 @@
     "build:series": "node scripts/prepare-archive-series.js",
     "build:quotes": "node scripts/prepare-quote-corpus.js",
     "start": "node server.js",
-    "test": "npm run build:engine && node --test --test-concurrency=2 test/*.test.js test/v1/*.test.js",
+    "test": "npm run build && node --test --test-concurrency=2 test/*.test.js test/v1/*.test.js",
     "build:engine": "tsc && node dist/scripts/v1/export-schemas.js && node scripts/build-info.js",
     "build:web": "vite build --config apps/web/vite.config.mjs",
     "build": "npm run build:engine && npm run build:web",
@@ -27,7 +27,8 @@
     "assets": "node dist/scripts/v1/assets-command.js",
     "train:preferences": ".venv/Scripts/python.exe services/japanese-analysis/train_preferences.py",
     "evaluate:audit": "node scripts/evaluate-audit-fixes.cjs",
-    "evaluate:style": "node dist/scripts/v1/audit-style.js"
+    "evaluate:style": "node dist/scripts/v1/audit-style.js",
+    "evaluate:constructions": "npm run build:engine && node scripts/evaluate-construction-repair.js"
   },
   "engines": {
     "node": ">=24 <25"

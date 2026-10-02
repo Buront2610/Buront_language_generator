@@ -146,7 +146,7 @@ test('A5 old feature data/models are refused and no model is trained without rea
     { comparisons: blindPairs('原文', [{ text: '文一。', method: 'plain', features: {} }, { text: '文二。', method: 'structured', features: {} }], 'group', 'pilot'), preferences: [] },
   ];
   const script = "import importlib.util,json,sys\ns=importlib.util.spec_from_file_location('training','services/japanese-analysis/train_preferences.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m)\nfor data in json.load(sys.stdin):\n try: m.train(data,'S')\n except ValueError as e: print(str(e))";
-  const result = spawnSync(path.resolve('.venv/Scripts/python.exe'), ['-c', script], { input: JSON.stringify(rows), encoding: 'utf8', windowsHide: true });
+  const result = spawnSync(process.env.BURONT_PYTHON || path.resolve('.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python'), ['-c', script], { input: JSON.stringify(rows), encoding: 'utf8', windowsHide: true });
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /FEATURE_VERSION_MISMATCH/); assert.match(result.stdout, /HUMAN_LABELS_REQUIRED/);
 });
@@ -170,7 +170,7 @@ test('A6 discourse selection changes clause order only with eligible corpus evid
 
 test('A7 body rewriting keeps linked clauses and every original event', async () => {
   const source = '田中がAを復旧した。Bは停止中で、私は明日確認する。', analysis = await analyze(source);
-  const result = await verifyGeneratedResult(generate(request(source, { contextMode: 'full' }), analysis, assets), python, analysis);
+  const result = await verifyGeneratedResult(generate(request(source), analysis, assets), python, analysis);
   assert.ok(result.candidates.length);
   for (const candidate of result.candidates) {
     assert.match(candidate.text, /Bは停止中で、?(?:私|俺)は明日確認する/u);

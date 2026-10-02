@@ -1,5 +1,6 @@
 import type { DocumentIR, Span } from '../contracts';
 import { overlaps, slice } from './source';
+import { propositionScopes, scopesForSpan, permitsAssertiveScope, insideEnclosure, type PropositionScope } from './grammar-scope';
 
 // These are adaptations of attested constructions, not quotations or proof of
 // authorship. Each rule names the exact archived sentence used when reading it.
@@ -65,21 +66,36 @@ for (const [i, example] of [...new Map(rules.map(rule => [rule.evidenceId, rule]
 // Buront-specific spelling. Keep their declarations above only as an audit trail
 // and to keep the existing punctuation evidence IDs stable; neither planning nor
 // independent validation accepts the withdrawn lexical rules.
-const withdrawnLexicalRuleIds = new Set(['fuinki', 'zei-in']);
+// Semantic paraphrases are now recognized and validated by the construction
+// stage; these old literal shortcuts may not bypass its slot/scope checks.
+const withdrawnLexicalRuleIds = new Set(['fuinki', 'zei-in', 'anger-peak', 'anger-peak-present', 'deep-sadness', 'time-doubling']);
 export const rewriteRules: readonly RewriteRule[] = rules.filter(rule => !withdrawnLexicalRuleIds.has(rule.id));
 export const rewriteRuleById = new Map(rewriteRules.map(rule => [rule.id, rule]));
 
+// A short-lived guard owns its derived scopes for one synchronous planning or
+// verification pass. Nothing is stored on the IR, returned in the plan, or kept
+// globally. A verifier must create its own guard from the original input.
+export function createRewritePermission(ir: DocumentIR): (unit: Span, span: Span, rule: RewriteRule) => boolean {
+  const scopes = propositionScopes(ir.source, ir);
+  return (unit, span, rule) => permitsRewriteInScopes(ir, unit, span, rule, scopes);
+}
+
+// Standalone callers retain the same independent validation behavior.
 export function permitsRewrite(ir: DocumentIR, unit: Span, span: Span, rule: RewriteRule): boolean {
+  return createRewritePermission(ir)(unit, span, rule);
+}
+
+function permitsRewriteInScopes(ir: DocumentIR, unit: Span, span: Span, rule: RewriteRule, scopes: PropositionScope[]): boolean {
   if (span.start < unit.start || span.end > unit.end || slice(ir.source.raw, span) !== rule.from) return false;
   if ([...ir.source.opaqueSpans, ...ir.source.protectedValues.map(value => value.span)].some(protectedSpan => overlaps(span, protectedSpan))) return false;
   if (insideEnclosure(ir.source.raw, span.start)) return false;
   if (rule.kind === 'punctuation') return permitsPunctuation(ir, span, rule);
   const tokens = ir.tokens.filter(token => overlaps(token.span, span));
   if (!tokens.length || tokens.some(token => /固有名詞/u.test(token.tag))) return false;
-  // A reporting clause can contain a first-person expression without being the
-  // narrator's own assertion. Leave the entire attributed unit alone.
-  const facts = ir.facts.filter(fact => overlaps(fact.sourceSpan, unit));
-  if (facts.some(fact => fact.attribution.kind !== 'narrator')) return false;
+  const grammaticalScopes = scopesForSpan(scopes, span);
+  // A separate reported/uncertain clause must not suppress a safe narrator
+  // clause in the same sentence. Token ownership, not overlapping hulls, decides.
+  if (!grammaticalScopes.length || grammaticalScopes.some(scope => !permitsAssertiveScope(scope))) return false;
   const original = slice(ir.source.raw, unit), after = slice(ir.source.raw, { start: span.end, end: unit.end });
   if (rule.kind !== 'ending' && (tokens[0].span.start !== span.start || tokens.at(-1)!.span.end !== span.end)) return false;
   if (rule.id.startsWith('narrator-') && (tokens.length !== 1 || tokens[0].pos !== 'PRON')) return false;
@@ -94,30 +110,33 @@ export function permitsRewrite(ir: DocumentIR, unit: Span, span: Span, rule: Rew
   if (['strongest-doubling', 'strongest-polite-doubling'].includes(rule.id) && !/^[。！!]?\s*$/u.test(after)) return false;
   if (rule.id === 'presence-doubling' && !/^(?:だ|です)(?:[。！!\s]|$)/u.test(after)) return false;
   if (rule.kind === 'ending') {
-    if (!/^[。！!]?\s*$/u.test(after) || !facts.length || ir.topicOnly) return false;
-    if (/[?？「」『』]|かもしれ|だろう|でしょう|らしい|そうだ|そうです|ようだ|ようです|と思|と考|はず|つもり|なら|場合|もし|ください|ありがとう|感謝|お礼|ごめん|すみません|申し訳/u.test(original)) return false;
-    if (facts.some(fact => fact.realization === 'hypothetical')) return false;
+    if (!/^[。！!]?\s*$/u.test(after) || grammaticalScopes.length !== 1 || ir.topicOnly) return false;
+    const scope = grammaticalScopes[0];
+    const local = scope.tokens.map(token => token.text).join('');
+    // Any replacement that changes conjugation must begin on a morpheme
+    // boundary. 話します and 許します do not contain the する auxiliary します.
+    if (rule.to.replace(/からな$/u, '') !== rule.from && !['いです', 'かった'].includes(rule.from) && tokens[0].span.start !== span.start) return false;
+    const before = ir.tokens.find(token => token.span.end === span.start);
+    // A short past suffix must not leave polite auxiliaries behind and then
+    // append the plain assertive tail (e.g. 達しましたからな).
+    if (scope.associated.some(token => ['ます', 'です'].includes(token.lemma) && token.span.start < span.start)) return false;
+    if (rule.from === 'でした' && before && (['VERB', 'AUX'].includes(before.pos) || /形容詞/u.test(before.tag))) return false;
+    if (/^(?:し(?:て|ま|な)|する|した)/u.test(rule.from) && !tokens.some(token => token.span.start === span.start && token.lemma === 'する' && ['VERB', 'AUX'].includes(token.pos))) return false;
+    if (rule.from === 'かった' && !tokens.some(token => /形容詞/u.test(token.tag) && token.lemma.endsWith('い'))) return false;
+    if (rule.from === 'だった' && !tokens.some(token => token.span.start === span.start && token.lemma === 'だ' && token.pos === 'AUX')) return false;
+    if (rule.from === 'ない' && !tokens.some(token => token.lemma === 'ない' && ['ADJ', 'AUX'].includes(token.pos) && token.span.end === span.end)) return false;
+    if (['いる', 'ある'].includes(rule.from) && !tokens.some(token => ['VERB', 'AUX'].includes(token.pos) && token.span.end === span.end)) return false;
     // Do not turn an arbitrary final い (e.g. 乾杯) into an adjective ending.
     if (rule.from === 'い' && !tokens.some(token => token.pos === 'ADJ' && token.span.end === span.end)) return false;
     if (rule.from === 'いです' && !tokens.some(token => token.pos === 'ADJ' && token.span.end === span.start + 1)) return false;
     if (rule.from === 'ないです' && !tokens.some(token => ['ADJ', 'AUX'].includes(token.pos) && token.text === 'ない' && token.span.start === span.start)) return false;
     if (rule.from === 'た' && !tokens.some(token => token.pos === 'AUX' && token.lemma === 'た' && token.span.start === span.start && token.span.end === span.end)) return false;
     if (/^[るうくぐすつぬぶむ]$/u.test(rule.from) && !tokens.some(token => token.pos === 'VERB' && token.span.end === span.end)) return false;
-    if (rule.from === 'です' && ir.tokens.some(token => ['ADJ', 'VERB', 'AUX'].includes(token.pos) && token.span.end === span.start)) return false;
-    if (rule.from === 'だ' && !tokens.some(token => token.pos === 'AUX' && token.span.start === span.start && token.span.end === span.end)) return false;
-    if (/んだが|からな|べき|ほしい|欲しい|なさい|ださい|ください/u.test(original)) return false;
+    if (rule.from === 'です' && before && (['VERB', 'AUX'].includes(before.pos) || /形容詞/u.test(before.tag))) return false;
+    if (rule.from === 'だ' && !tokens.some(token => token.pos === 'AUX' && token.lemma === 'だ' && token.span.start === span.start && token.span.end === span.end)) return false;
+    if (/んだが|からな|べき|ほしい|欲しい|なさい|ださい|ください/u.test(local)) return false;
   }
   return true;
-}
-
-function insideEnclosure(raw: string, start: number): boolean {
-  const stack: string[] = [];
-  const pairs: Record<string, string> = { '「': '」', '『': '』', '（': '）', '(': ')', '[': ']', '【': '】', '“': '”', '‘': '’', '"': '"', "'": "'", '`': '`' };
-  for (const char of [...raw].slice(0, start)) {
-    if (stack.at(-1) === char) stack.pop();
-    else if (pairs[char]) stack.push(pairs[char]);
-  }
-  return stack.length > 0;
 }
 
 function permitsPunctuation(ir: DocumentIR, span: Span, rule: RewriteRule): boolean {

@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-02T03:11:37.048Z",
+  "reviewedCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+  "prePrBase": "f87567aaea6c1d29dd21bb7c079f5559864c2ec4",
+  "build": {
+    "schemaVersion": 1,
+    "sourceHash": "d87b605957d07029e7096e2ad26573ab4b70ef689ea50349d237153cc43e3f67",
+    "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2",
+  "dataHashes": {
+    "log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+    "quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+    "archive-series.json": "271646e323a081f5f3ab32547c56eb8faf98f8397762929b181dc7d383121879",
+    "style-model.json": "87e0e6acc8c7703b64864e5b97c6b713d68bd788ff3ae3b0c4c473269979d6e3",
+    "novel-model.json": "2912afb0ec73c015b1a3188803784556948617ebcfb101b6eed80232b957d857"
+  },
+  "tests": {
+    "command": "npm test",
+    "total": 260,
+    "passed": 260,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "durationMs": 53453.944803,
+    "includes": [
+      "engine build",
+      "web build",
+      "real GiNZA",
+      "API",
+      "replay",
+      "independent validation",
+      "legacy regression",
+      "deterministic scope counts"
+    ]
+  },
+  "typecheck": "passed",
+  "assetBuild": "passed",
+  "diagnose": {
+    "ready": true,
+    "node": "24.19.0",
+    "python": "3.11.15",
+    "ginza": "5.2.1",
+    "model": "5.2.0",
+    "dictionary": "20260723"
+  },
+  "diffCheck": "passed",
+  "originalGrammarFixtureCases": 94,
+  "originalGrammarFixtureUnchanged": true,
+  "fixtureGroups": [
+    {
+      "file": "test/fixtures/ginza-construction-punctuation.json",
+      "cases": 21,
+      "provenance": {
+        "producer": "services/japanese-analysis/service.py",
+        "captureScript": "test/fixtures/capture-ginza-grammar.py",
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "pythonVersion": "3.11.15",
+        "description": "Unedited real GiNZA responses, captured through the production JSONL interface"
+      },
+      "sha256": "46fd3d8c1f451aea0c3705740586f796b23a046ac89531aa483e08b3c43bc748"
+    },
+    {
+      "file": "test/fixtures/ginza-construction-safeguards.json",
+      "cases": 13,
+      "provenance": {
+        "producer": "services/japanese-analysis/service.py",
+        "captureScript": "test/fixtures/capture-ginza-grammar.py",
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "pythonVersion": "3.11.15",
+        "description": "Unedited real GiNZA responses, captured through the production JSONL interface"
+      },
+      "sha256": "3c7caa3a8e20f8efa1d12c0bf4491b7f0b233022970d242e83e5b37204543fb0"
+    },
+    {
+      "file": "test/fixtures/ginza-construction-idempotence.json",
+      "cases": 6,
+      "provenance": {
+        "producer": "services/japanese-analysis/service.py",
+        "captureScript": "test/fixtures/capture-ginza-grammar.py",
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "pythonVersion": "3.11.15",
+        "description": "Unedited real GiNZA responses, captured through the production JSONL interface"
+      },
+      "sha256": "b551030e93f7524b5fc91c85d9376a8a5cd136a83a427735b639c43a17b367cc"
+    }
+  ],
+  "review": {
+    "independent": "completed read-only",
+    "productionGapsFound": 0,
+    "testHardening": [
+      "same-IR-identity mutation to catch cross-pass caches",
+      "duplicate-time control without unrelated rendering/evidence rejection"
+    ],
+    "duplicateGuardControl": "Isolated module without only the new local guard generated 時時既に時間切れだ。 and validated true; current original-IR verifier rejected the same duplicate edit"
+  },
+  "benchmark": {
+    "main": "artifacts/pr3-review-repair-20261002/rewrite-scopes-benchmark.json",
+    "largeHeap": "artifacts/pr3-review-repair-20261002/rewrite-scopes-large-heap.json",
+    "baseAnalysis": "artifacts/pr3-review-repair-20261002/rewrite-scopes-base-analysis.json",
+    "script": "scripts/benchmark-rewrite-scopes.js",
+    "outputEquivalence": "All six hashes equal for reviewed/fixed synthetic1200; other reviewed rows timed out and are not equivalence claims",
+    "deterministicCalls": "rewrite planning1; each independent rewrite verification1; full generation9synthetic or7real on completed fixed rows"
+  },
+  "limitations": [
+    "No reviewer report/zip files were attached; reproduction is from supplied review text",
+    "Wall times are single shared-container observations, not latency guarantees",
+    "Synthetic5000 hits default V8 heap exhaustion both before PR and after fix; explicit4GiB characterization completed and is not default support",
+    "Real5000 default-heap engine completes but displays0 candidates with no_valid_candidate; not a successful conversion or end-to-end API result",
+    "Unpunctuated trailing newline conservatively abstains because actual GiNZA assigns whitespace ROOT; punctuated trailing newlines pass",
+    "Separate style evaluation still finds unnatural からだからな and narrow general-input transformations; not fixed in this review scope",
+    "No learned style-quality claim; S/Q remain untrained null",
+    "Draft PR only; no merge or deployment authorized/performed"
+  ]
+}

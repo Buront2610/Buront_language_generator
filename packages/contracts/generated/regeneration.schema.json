@@ -31,7 +31,7 @@
       "type": "string"
     },
     "operator": {
-      "pattern": "^(OP-(0[1-9]|10)|REWRITE)$",
+      "pattern": "^(OP-(0[1-9]|10)|REWRITE|CONSTRUCTION)$",
       "type": "string"
     },
     "series": {

@@ -1,0 +1,5 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> buront-language-generator@1.0.0-experimental.3 typecheck
+> tsc --noEmit && tsc -p apps/web/tsconfig.json
+

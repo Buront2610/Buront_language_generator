@@ -2,7 +2,7 @@ import type { DocumentIR, GenerationRequest, QuotePlan, RewriteEdit } from '../c
 import type { Assets } from './assets';
 import { hash, overlaps, slice } from './source';
 import { planIntent, planNarrative } from './planning';
-import { rewriteRules, permitsRewrite } from './rewrite-rules';
+import { rewriteRules, createRewritePermission } from './rewrite-rules';
 import { renderEdits } from './rewrite-validation';
 
 export function makeRewritePlans(ir: DocumentIR, request: GenerationRequest, assets: Assets): QuotePlan[] {
@@ -19,6 +19,7 @@ export function makeRewritePlans(ir: DocumentIR, request: GenerationRequest, ass
     availablePunctuation.add(key); return true;
   });
   const plans: QuotePlan[] = [], seen = new Set<string>();
+  const permits = createRewritePermission(ir);
   // Variants use different construction choices, never unrelated images or
   // sentences added merely to obtain three outputs.
   for (const variant of [0, 1, 2, 3, 4, 5]) {
@@ -34,7 +35,7 @@ export function makeRewritePlans(ir: DocumentIR, request: GenerationRequest, ass
         while ((found = node.text.indexOf(rule.from, offset)) >= 0) {
           offset = found + rule.from.length;
           const start = unit.sourceSpan.start + [...node.text.slice(0, found)].length, sourceSpan = { start, end: start + [...rule.from].length };
-          if (permitsRewrite(ir, unit.sourceSpan, sourceSpan, rule)) proposals.push({ nodeId: node.id, sourceSpan, ruleId: rule.id, from: rule.from, to: rule.to, evidenceIds: [rule.evidenceId] });
+          if (permits(unit.sourceSpan, sourceSpan, rule)) proposals.push({ nodeId: node.id, sourceSpan, ruleId: rule.id, from: rule.from, to: rule.to, evidenceIds: [rule.evidenceId] });
         }
       }
       // Longest source phrase wins. Every edit reads the original snapshot;

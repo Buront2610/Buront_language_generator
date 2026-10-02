@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "version",
+    "seriesId",
+    "intensity",
+    "edits",
+    "lexicalEdits"
+  ],
+  "properties": {
+    "version": {
+      "const": 1,
+      "type": "number"
+    },
+    "seriesId": {
+      "type": "string"
+    },
+    "intensity": {
+      "minimum": 1,
+      "maximum": 3,
+      "type": "integer"
+    },
+    "edits": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "nodeId",
+          "sourceSpan",
+          "constructionId",
+          "constructionVersion",
+          "realizationId",
+          "factId",
+          "from",
+          "to",
+          "evidenceIds",
+          "bindings",
+          "features"
+        ],
+        "properties": {
+          "nodeId": {
+            "type": "string"
+          },
+          "sourceSpan": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "end": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            }
+          },
+          "constructionId": {
+            "type": "string"
+          },
+          "constructionVersion": {
+            "const": 1,
+            "type": "number"
+          },
+          "realizationId": {
+            "type": "string"
+          },
+          "factId": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "evidenceIds": {
+            "maxItems": 12000,
+            "type": "array",
+            "items": {
+              "maxLength": 12000,
+              "type": "string"
+            }
+          },
+          "bindings": {
+            "type": "array",
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "required": [
+                "slot",
+                "span",
+                "text",
+                "tokenIds"
+              ],
+              "properties": {
+                "slot": {
+                  "anyOf": [
+                    {
+                      "const": "emotion",
+                      "type": "string"
+                    },
+                    {
+                      "const": "degree",
+                      "type": "string"
+                    },
+                    {
+                      "const": "predicate",
+                      "type": "string"
+                    },
+                    {
+                      "const": "marker",
+                      "type": "string"
+                    },
+                    {
+                      "const": "experiencer",
+                      "type": "string"
+                    },
+                    {
+                      "const": "state",
+                      "type": "string"
+                    },
+                    {
+                      "const": "time",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "span": {
+                  "additionalProperties": false,
+                  "type": "object",
+                  "required": [
+                    "start",
+                    "end"
+                  ],
+                  "properties": {
+                    "start": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "end": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  }
+                },
+                "text": {
+                  "type": "string"
+                },
+                "tokenIds": {
+                  "maxItems": 12000,
+                  "type": "array",
+                  "items": {
+                    "minimum": 0,
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          },
+          "features": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "polarity",
+              "tense",
+              "realization",
+              "completion",
+              "attribution",
+              "voice"
+            ],
+            "properties": {
+              "polarity": {
+                "anyOf": [
+                  {
+                    "const": "positive",
+                    "type": "string"
+                  },
+                  {
+                    "const": "negative",
+                    "type": "string"
+                  },
+                  {
+                    "const": "unknown",
+                    "type": "string"
+                  }
+                ]
+              },
+              "tense": {
+                "anyOf": [
+                  {
+                    "const": "past",
+                    "type": "string"
+                  },
+                  {
+                    "const": "nonpast",
+                    "type": "string"
+                  },
+                  {
+                    "const": "unknown",
+                    "type": "string"
+                  }
+                ]
+              },
+              "realization": {
+                "anyOf": [
+                  {
+                    "const": "actual",
+                    "type": "string"
+                  },
+                  {
+                    "const": "prospective",
+                    "type": "string"
+                  },
+                  {
+                    "const": "hypothetical",
+                    "type": "string"
+                  },
+                  {
+                    "const": "unknown",
+                    "type": "string"
+                  }
+                ]
+              },
+              "completion": {
+                "anyOf": [
+                  {
+                    "const": "completed",
+                    "type": "string"
+                  },
+                  {
+                    "const": "ongoing",
+                    "type": "string"
+                  },
+                  {
+                    "const": "not_completed",
+                    "type": "string"
+                  },
+                  {
+                    "const": "unknown",
+                    "type": "string"
+                  }
+                ]
+              },
+              "attribution": {
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                  "kind",
+                  "speaker"
+                ],
+                "properties": {
+                  "kind": {
+                    "anyOf": [
+                      {
+                        "const": "narrator",
+                        "type": "string"
+                      },
+                      {
+                        "const": "quotation",
+                        "type": "string"
+                      },
+                      {
+                        "const": "hearsay",
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "speaker": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                }
+              },
+              "voice": {
+                "anyOf": [
+                  {
+                    "const": "active",
+                    "type": "string"
+                  },
+                  {
+                    "const": "passive",
+                    "type": "string"
+                  },
+                  {
+                    "const": "unknown",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "lexicalEdits": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "nodeId",
+          "sourceSpan",
+          "ruleId",
+          "from",
+          "to",
+          "evidenceIds"
+        ],
+        "properties": {
+          "nodeId": {
+            "type": "string"
+          },
+          "sourceSpan": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "end": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            }
+          },
+          "ruleId": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "evidenceIds": {
+            "maxItems": 12000,
+            "type": "array",
+            "items": {
+              "maxLength": 12000,
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

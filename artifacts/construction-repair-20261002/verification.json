@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-02T01:52:01.192356+00:00",
+  "baseCommit": "f87567aaea6c1d29dd21bb7c079f5559864c2ec4",
+  "build": {
+    "schemaVersion": 1,
+    "sourceHash": "ec7a0fcdb816a0b9052ef8d2fff721860e41c8577499fa65c1bae3454b1e74f1",
+    "toolCommit": "f87567aaea6c1d29dd21bb7c079f5559864c2ec4",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "datasetId": "6c5a70fa17136e7f67b435f953e5c2c8c4ac0d4128a7ea758cdef87c0de128b8",
+  "dataHashes": {
+    "log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+    "quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+    "archive-series.json": "271646e323a081f5f3ab32547c56eb8faf98f8397762929b181dc7d383121879",
+    "style-model.json": "87e0e6acc8c7703b64864e5b97c6b713d68bd788ff3ae3b0c4c473269979d6e3",
+    "novel-model.json": "2912afb0ec73c015b1a3188803784556948617ebcfb101b6eed80232b957d857"
+  },
+  "parser": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "fixtureProvenance": {
+    "producer": "services/japanese-analysis/service.py",
+    "captureScript": "test/fixtures/capture-ginza-grammar.py",
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "pythonVersion": "3.11.15",
+    "description": "Unedited real GiNZA responses, captured through the production JSONL interface"
+  },
+  "fixtureCases": 94,
+  "tests": {
+    "command": "npm test",
+    "total": 253,
+    "passed": 253,
+    "failed": 0,
+    "skipped": 0,
+    "includes": [
+      "engine/web build",
+      "real GiNZA",
+      "HTTP API",
+      "legacy engine",
+      "schema",
+      "replay",
+      "source provenance",
+      "counterexamples"
+    ]
+  },
+  "typecheck": "passed",
+  "assetBuild": "passed",
+  "diagnose": "passed Node24.19.0 / Python3.11.15",
+  "diffCheck": "passed",
+  "legacyCounterexampleAudit": {
+    "cases": 10,
+    "unresolved": 0
+  },
+  "behavioralExamples": {
+    "cases": 18,
+    "displayedCandidate": 18,
+    "displayedConstruction": 7,
+    "humanQualityJudgment": "not performed"
+  },
+  "quoteCorpusCounts": {
+    "headings": 165,
+    "excerpts": 840,
+    "headingsWithContext": 155,
+    "contextLinks": 161,
+    "quoteGroups": 846,
+    "sourcePosts": 487,
+    "pagePosts": 401,
+    "excludedLegends": 3,
+    "ambiguousHeadings": 3,
+    "families": {
+      "general": 686,
+      "anger": 31,
+      "power": 45,
+      "surprise": 9,
+      "evidence": 24,
+      "comparison": 19,
+      "humility": 15,
+      "instruction": 24,
+      "denial": 15,
+      "lament": 28,
+      "warning": 59,
+      "prediction": 10,
+      "victory": 86,
+      "gratitude": 3
+    }
+  },
+  "review": {
+    "independent": "completed",
+    "reproducedIssuesRemaining": 0,
+    "corrected": [
+      "sadness stimulus/experiencer confusion",
+      "conditional and epistemic scope gaps",
+      "reported-source attribution",
+      "cross-series locked evidence",
+      "operator conflict admission",
+      "final-pool parent replay lookup"
+    ]
+  },
+  "limits": [
+    "Original 36-case attachment not accessible; tests independently derived from readable specification",
+    "Browser visual QA blocked by Chromium socket permission and cloud localhost restriction",
+    "Registered construction families limited to anger, sadness, and already-expired; unsupported scopes abstain",
+    "Novel generation/quote task/free expansion explicitly unsupported",
+    "Human style and appropriateness review not performed; S/Q untrained null",
+    "Strict-series evidence only; shared/multiple-evidence generalization remains future work"
+  ]
+}

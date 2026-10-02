@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-02T03:07:24.223Z",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "execArgv": [
+      "--max-old-space-size=4096"
+    ],
+    "heapLimitBytes": 4496293888
+  },
+  "configuration": {
+    "lengths": [
+      5000
+    ],
+    "repeats": 1,
+    "generationTimeoutMs": 120000,
+    "variantTimeouts": {},
+    "parserTimeoutMs": 30000,
+    "baseSource": "私は最強だ",
+    "request": {
+      "task": "rewrite",
+      "contextMode": "faithful",
+      "noveltyMode": "blend",
+      "intensity": 2,
+      "series": "all",
+      "backend": "structured",
+      "clientRevision": 0,
+      "seed": "rewrite-scope-benchmark-v1"
+    }
+  },
+  "method": {
+    "synthetic": "Tile one saved real GiNZA response; remap every token ID, dependency head, token span and sentence span. This synthetic long-input analysis is NOT a full-input GiNZA parse.",
+    "real": "Parse the actual concatenated long source via production PythonClient/service.py. Startup is separate. Generation receives that unedited full-input analysis.",
+    "generation": "Fresh worker per build/size/repetition, one five-character warmup; measured generate() excludes parser, module imports, fixture loading, validation of the fixture, asset compilation and warmup. Includes engine validation; excludes the later semantic-reparse verification stage.",
+    "scopes": "Count exported propositionScopes() invocations across generate(), with caller attribution; zero on revisions without grammar-scope.js. Timed-out synchronous workers are killed and have no exact count or output hash.",
+    "equality": "Same frozen assets/config/analysis for each variant. Hash full ordered pool and displayed candidates, checks, plans, spans, IR and fallback, excluding replay/build metadata. Compare reviewed vs fixed; pre-PR base is timing context only."
+  },
+  "builds": [
+    {
+      "label": "fixed",
+      "source": "../../../tmp/buront-rewrite-scopes-uBWvMC/build-0/dist",
+      "commit": null,
+      "codeHash": "2059377061d35ebc31ecae48b7015422eca1fd7d73b651dd7d06548617c01c25"
+    },
+    {
+      "label": "base",
+      "source": "../../../tmp/buront-rewrite-scopes-uBWvMC/build-2/dist",
+      "commit": null,
+      "codeHash": "bb84aa19389b56e7c1ede5ed63b032fae3d55b1fe8d94de962311e3700b12e9d"
+    }
+  ],
+  "assets": {
+    "sha256": "bf91fe4135d4827b644980eb15ff0c6c1de59bdcd9c26fc8b260b1f87b02a09d",
+    "datasetId": "046ec575f1f871f9c4f849a126f7c343927be82ae1485df49790eae136899bdb",
+    "manifest": {
+      "schemaVersion": 1,
+      "files": {
+        "log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+        "quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+        "archive-series.json": "271646e323a081f5f3ab32547c56eb8faf98f8397762929b181dc7d383121879",
+        "style-model.json": "87e0e6acc8c7703b64864e5b97c6b713d68bd788ff3ae3b0c4c473269979d6e3",
+        "novel-model.json": "2912afb0ec73c015b1a3188803784556948617ebcfb101b6eed80232b957d857"
+      },
+      "compiledEvidence": "4154e91b8f0c0638e54c05b3c3ff8e69c55bc736041f842be31b142b67e859f6",
+      "originalPosts": "2ece95636cd5fbfedb58a6bd5504c85f7d160673bc0fd3225e1074a2dabd598d",
+      "quoteGrouping": "variant-weight/leakage-split-v2",
+      "seriesProfiles": "b3296bd016b498f71c4c37734584792adc72f84502668c701cadc0d71aa85ebe",
+      "engine": {
+        "sourceHash": "benchmark-fixed-engine-metadata"
+      },
+      "parser": "ja_ginza",
+      "dictionary": "ddfba38955614c6ab52a840ef60b70d1b4054773c7184f8e2b2fa460e6493895",
+      "rules": "3c2d10feb8f699e1300163a2ca077518594c03a43705c7f1c58d812705c28742",
+      "index": "minisearch-7/intl-word-nfkc-grouped-v2",
+      "annotations": "none",
+      "evaluator": "untrained",
+      "toolCommit": "benchmark-fixed-engine-metadata",
+      "sourceMetadata": {
+        "localLog": {
+          "filename": "burontlog.txt",
+          "bytes": 873652,
+          "sha256": "983ba86ddf086d7bc842d91c66a4bc1bab940c126682b436538d5df7a68df752"
+        },
+        "archive": {
+          "baseUrl": "https://kenkyonanight.xxxxxxxx.jp/",
+          "partHashes": {
+            "buront3_posts_01.js": "22dcae4d06ec9156c5a5bc2fb7755063faeab0fcc9b915559790a47cd6fcbb81",
+            "buront3_posts_02.js": "a1a2badfce760133dc80b2031bc06700796177eb7d36545e1c8e464fe5f1bba2",
+            "buront3_posts_03.js": "33bf0249848a7d538bccb971a4589ba7b4acacdeba259f29b07a2f438a340272",
+            "buront3_posts_04.js": "1a3aebc7e5d8e188065e89be653caf56ca7eae983a5a48fe93a102e24bf4a462",
+            "buront3_posts_05.js": "e5aec590de38eb6b6d637fbae1c8294a76871a2f2100e97e4d4848cc879a3803"
+          }
+        }
+      },
+      "quoteSource": {
+        "url": "https://kenkyonanight.xxxxxxxx.jp/goroku.html",
+        "title": "名言集っぽいの",
+        "encoding": "shift_jis",
+        "bytes": 240539,
+        "sha256": "4e00cf7d842150db81c65525a10fb3bb9a78e9d7666e791ac4f7c403deaa8adf",
+        "decodedSha256": "27845d84e81697f1009c2dd9f3a3644a49309eae76d2a051700aa2102ff6755c",
+        "originalLogSha256": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8"
+      },
+      "rights": "unverified-local-only",
+      "sourceTypes": [
+        "original_posts",
+        "original_sentences",
+        "quote_headings",
+        "quote_emphasis",
+        "adaptation_works"
+      ],
+      "reproducible": true
+    }
+  },
+  "parser": {
+    "base": {
+      "status": "saved",
+      "sourceFile": "artifacts/pr3-review-repair-20261002/rewrite-scopes-base-analysis.json",
+      "analysisHash": "9250aac86e9adb149a1f0d587c363e7f5b2391b89f6eea0dcc5eb3db19186c0f",
+      "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+      "source": "私は最強だ",
+      "fixtureFile": "artifacts/pr3-review-repair-20261002/rewrite-scopes-base-analysis.json",
+      "fixtureSha256": "338b4e05d748400dffc41cfeca61193e2211f8a065b05316854a9da60deaa866"
+    },
+    "fullInputs": []
+  },
+  "syntheticRows": [
+    {
+      "build": "fixed",
+      "characters": 5000,
+      "repetition": 1,
+      "status": "ok",
+      "generationMs": 31678.02,
+      "propositionScopesCalls": {
+        "total": 9,
+        "byCaller": {
+          "extractFacts": 1,
+          "makeRewritePlans": 1,
+          "makeConstructionPlans": 1,
+          "validateRewrite": 6
+        },
+        "functionCalls": {
+          "extractFacts": 1,
+          "makeRewritePlans": 1,
+          "makeConstructionPlans": 1,
+          "validateRewrite": 6
+        }
+      },
+      "tokens": 4000,
+      "sentences": 1000,
+      "facts": 1000,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "selectedTextHashes": [
+        "53209e4d4ca4363b14a6671dc2d65ad3d6a3e98b227dd9a7a639266a07b52413",
+        "24b81130a127e01730d931cf0ab1bef58f836e608a6fc0f298fd54bee0635e8b",
+        "2c38b13cfa2236254b6753930567ef2b7d0ce99540002385b28e97f42a505390"
+      ],
+      "selectedTextsHash": "017d68fa54f4c89639eb09125078345d5677aa8e621abd989c4d37afad14317c",
+      "poolTextsHash": "76b8e4e2754864a353f69a20eb0c43e6e0cbf3a3ea5249b44c3ef26f518f69cc",
+      "poolHash": "2f38faaf342a027b0191ab7eb536dd5be55d596f72e5c3fbd6e19f5439d0053e",
+      "irHash": "953fd92334383b8c6a4d2780e67a9971b5bf79becc6617eb3446be8e3f3daee5",
+      "semanticResultHash": "db687dab0bca4e6733e0efb208af384afc5cd97da095646e2dc383760e4af102",
+      "selectedCandidateId": "385bb485d089a82a669114a9",
+      "candidateSetHash": "41e628a575ba16bf03d3f4496a6b733e147d570f6dc89fa4048d29f0e6b3fbbb",
+      "shortfallReason": null,
+      "workerWallMs": 33768.455
+    },
+    {
+      "build": "base",
+      "characters": 5000,
+      "repetition": 1,
+      "status": "ok",
+      "generationMs": 26337.756,
+      "propositionScopesCalls": {
+        "total": 0,
+        "byCaller": {},
+        "functionCalls": {
+          "extractFacts": 1,
+          "makeRewritePlans": 1,
+          "validateRewrite": 6
+        }
+      },
+      "tokens": 4000,
+      "sentences": 1000,
+      "facts": 1000,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "selectedTextHashes": [
+        "24b81130a127e01730d931cf0ab1bef58f836e608a6fc0f298fd54bee0635e8b",
+        "53209e4d4ca4363b14a6671dc2d65ad3d6a3e98b227dd9a7a639266a07b52413",
+        "2c38b13cfa2236254b6753930567ef2b7d0ce99540002385b28e97f42a505390"
+      ],
+      "selectedTextsHash": "c856daa1b8c4e788c5232b393bbb133828bc82683f8e325251874e803db6246a",
+      "poolTextsHash": "c856daa1b8c4e788c5232b393bbb133828bc82683f8e325251874e803db6246a",
+      "poolHash": "300fff76be74113ff44b2943af9f0077b1b7cba650c19748a63387d71d3a4efb",
+      "irHash": "953fd92334383b8c6a4d2780e67a9971b5bf79becc6617eb3446be8e3f3daee5",
+      "semanticResultHash": "eacab36c68035b0552bdd1eadb5829ecbbe41a0fbf0d092a0823eb99603ee83f",
+      "selectedCandidateId": "beb0c030a5e7f0a258f259fe",
+      "candidateSetHash": "41e628a575ba16bf03d3f4496a6b733e147d570f6dc89fa4048d29f0e6b3fbbb",
+      "shortfallReason": null,
+      "workerWallMs": 28698.46
+    }
+  ],
+  "realRows": [],
+  "equivalence": [
+    {
+      "workload": "synthetic",
+      "characters": 5000,
+      "repetition": 1,
+      "compared": false,
+      "reason": "Both reviewed and fixed must complete; a timeout does not establish equivalence"
+    },
+    {
+      "workload": "real",
+      "characters": 5000,
+      "repetition": 1,
+      "compared": false,
+      "reason": "Both reviewed and fixed must complete; a timeout does not establish equivalence"
+    }
+  ],
+  "measurementCaveats": [
+    "Bounded characterization with explicit node --max-old-space-size=4096; 120000ms generation deadline. This does not change or validate the production/default heap configuration.",
+    "Same frozen asset hash and compiled core-code hashes as the default-heap benchmark. One sample per variant, shared container."
+  ],
+  "relatedDefaultEvidence": "rewrite-scopes-benchmark.json"
+}
