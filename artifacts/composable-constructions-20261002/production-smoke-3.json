@@ -1,0 +1,763 @@
+[
+  {
+    "id": "T06",
+    "source": "このかばんは小さくて軽い。値段は少し高かったが、毎日持ち歩くものなので満足している。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "ba6f5c8cea46fa04baab9e53",
+            "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "7e7f1749dba912e762d7eb7a",
+            "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "2efc1cf862ebd5079d5e3911b8db3542c8939e56371238cb081a0675876fc27f",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "ba6f5c8cea46fa04baab9e53",
+            "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "7e7f1749dba912e762d7eb7a",
+            "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "3dd29c3df936dc2f52f1c78d6b464d0faa407d17a5d62c3e823f8faeae6400e7",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "source": "私は手順書を読んだ。隣の部屋では誰かが電話していた。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "3c391ef263f868327a28f123",
+            "text": "俺は手順書を読んだからな\n隣の部屋では誰かが電話していた",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "430799ed0c21a38d2620f856",
+            "text": "俺は手順書を読んだ\n隣の部屋では誰かが電話していた",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "57c0d1379acaa07f088c1afa79bdad1dfa163885e3182547e0f6d055365b796f",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "3c391ef263f868327a28f123",
+            "text": "俺は手順書を読んだからな\n隣の部屋では誰かが電話していた",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "430799ed0c21a38d2620f856",
+            "text": "俺は手順書を読んだ\n隣の部屋では誰かが電話していた",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "daa1f415a69637cb9fb76a2f4153dc9d7b80a23fc179554c695dab375deba4a0",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "source": "田中は「私は休む。熱があるからだ」と言った。私はその理由を確認していない。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "01224243eb2caea401d0465e",
+            "text": "田中は「私は休む。熱があるからだ」と言った\n俺はその理由を確認していないからな",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "dc0e8b8d951be01596fdc6a5",
+            "text": "田中は「私は休む。熱があるからだ」と言った\n俺はその理由を確認していない",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "aee58913f99f4039f791caaf843eaf64c6d392886516d3f08855508034c7af83",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "01224243eb2caea401d0465e",
+            "text": "田中は「私は休む。熱があるからだ」と言った\n俺はその理由を確認していないからな",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "dc0e8b8d951be01596fdc6a5",
+            "text": "田中は「私は休む。熱があるからだ」と言った\n俺はその理由を確認していない",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "9db6346b8e392d058672b6c3ba1d7779f438c7aae0856b1ee774fc175d4084cf",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "source": "この道は近いかもしれない。駅までの距離が短いからだろうか。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "289062ea6beef6ec0e411da2",
+            "text": "この道は近いかもしれないからな\n駅までの距離が短いからだろうか",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "773c9a76a32564349c927433",
+            "text": "この道は近いかもしれない\n駅までの距離が短いからだろうか",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "22c1eabc09983f25ec10c2def5284ca05be768ac145d58b334b38e8d07ff253f",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "289062ea6beef6ec0e411da2",
+            "text": "この道は近いかもしれないからな\n駅までの距離が短いからだろうか",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "773c9a76a32564349c927433",
+            "text": "この道は近いかもしれない\n駅までの距離が短いからだろうか",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "cf991ba19d038929f5cdd35e40199918ced31c31fb1a9d09f82abbb3ed74e1f6",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "source": "大したことはしていない。故障の原因はまだ見つけていない。機械を動かしたわけでもない。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "722daf22d1a22ab7ac7d640b",
+            "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "53bfea4eab0dde33cb201cf5",
+            "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "3a2decf0e9e10e3a1364ef8fe465548fbb03d0cee3823cca9e92a36ae1ae3bcf",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "722daf22d1a22ab7ac7d640b",
+            "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "53bfea4eab0dde33cb201cf5",
+            "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "af6311394ab5d3e19d1d662306f53a3423cd20e0d2e9154307d4a4f42baa2f5a",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "source": "田中は大したことはしていないと言った。彼が故障の原因を見つけて、止まっていた機械を動かした。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "f1cce37001a144e41c32e98d",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "f14dd0db94faafbb2e2b7efc",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "036f970d536622db5d61a3a03a64a69074f75e022a90af12b8270bbf292e0dcc",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "f1cce37001a144e41c32e98d",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "f14dd0db94faafbb2e2b7efc",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "e777fc1f6e2205b609a2667f00153304f0dccae0f006759c28f813f3f0dd8cd9",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "source": "このかばんは小さくて軽い。値段は少し高かったが、使いにくいので満足していない。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "a1b9e759567b024b81591300",
+            "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "474b0302d7960804050f56d6",
+            "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "c89d9d9850d60efd254b58d1fcab7221b5062ffba3e24c0965047bd3bafd58fd",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "a1b9e759567b024b81591300",
+            "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "474b0302d7960804050f56d6",
+            "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "e980385e2b0c141d6d791aaaee3150e51f6103965852d3b8cba795d4c95b57d8",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "source": "この道は近い。しかし、夜は暗くて歩きにくい。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "39408fec5c6c51f91239f982",
+            "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "9b0d6c568e47db71107563a2",
+            "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "a771f309474be9d703acb79ccea1974c38760218fe43a2d71a96935379f69f2f",
+        "diagnosticEventCount": 13,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "3abea83afb1de7333341ebbd",
+            "text": "この道は近いからな\nだが夜は暗くて歩きにくい",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "9b0d6c568e47db71107563a2",
+            "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "39408fec5c6c51f91239f982",
+            "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "23faddca73924e805212ad045de2f21a9269ba51c50558baee5aa9a136c37803",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      }
+    ]
+  }
+]

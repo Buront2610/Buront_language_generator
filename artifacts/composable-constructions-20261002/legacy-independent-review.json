@@ -1,0 +1,1294 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-02T08:38:29.260Z",
+  "revision": "24972be7eab0530f7c1e895d4912dca7cc258209",
+  "build": {
+    "schemaVersion": 1,
+    "sourceHash": "1616a4c0c664e3a5b283958e55b2c4da4607c97e7791b4b7f9646e287a199014",
+    "toolCommit": "24972be7eab0530f7c1e895d4912dca7cc258209",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "datasetId": "88bf704b4fb7f06effbd662d4976ff58cc45f323c1d3d80158a41696b5cc2b51",
+  "scriptSha256": "38cb4acdfd0282aab7530b0089ed5d550e4f7afd45cc7431feb9e30450c08d4e",
+  "sourceAndDistHashes": {
+    "packages/core/source.ts": "18becc0d7e65d0fd636400f18a61c1ac198331e7ad1205e2c3113478fb60c07d",
+    "dist/packages/core/source.js": "6678c832880a00d05c96308ce820181efe781c2a82c31a6cb22cd3967d552db6",
+    "packages/core/validator.ts": "6f5b2f3fb7af30f8e9e9bca9ffa547f9cfad186d5f67e6533a807dcb80eca78d",
+    "dist/packages/core/validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc",
+    "packages/core/assets.ts": "28a5542f5a4dfa013727b54b71f395ee57887093f2bddae03bebc2df19bd4c30",
+    "dist/packages/core/assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+    "packages/core/bounded-search.ts": "22c2350ab051d4b2b8dbd65179e00cc85914e4d7bc16be7202a74e55fdc49ed3",
+    "dist/packages/core/bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+    "packages/core/rewrite-rules.ts": "ead0121b5db5982504af531cd0f80e862bb46407dc7fe06fc5dc4818c0155ee4",
+    "dist/packages/core/rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+    "packages/core/constructions.ts": "5e829dfc8167270cdf15b07fb6e3d022446aacd66becf47da6ee1f6c9a4c8296",
+    "dist/packages/core/constructions.js": "6e7217d7b2cc8f764555d61cbe8003467131e834d5c31f97e22ac57f9beb4a5c",
+    "packages/core/discourse-constructions.ts": "b4e5400f1428fd60b8aadfe1c4b17a5bdc8a41205d86233925deeaf0c977decf",
+    "dist/packages/core/discourse-constructions.js": "ccbfe039f273048f47b012f8b7d218861a413849a90c20ef9115c41a24237dbc",
+    "packages/core/grammar-scope.ts": "f9c209d7f2679c12d1b2202229dee36aeb03e6329bdb8dc3d18438610954b88f",
+    "dist/packages/core/grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+    "packages/core/rewrite-validation.ts": "ba3a5540c7285f052b44af1fc5ac86201c28e1d82759c9f264da16672ec68ac2",
+    "dist/packages/core/rewrite-validation.js": "296b51df06c3ab1a7410fb130bd2d543adf1a0f75e5dbc20ace0b0a645df4ee7",
+    "packages/core/semantic.ts": "c97fdbeda7cbf935d7d5eb776be6388d0639b5865b26f5d65c0931117e919413",
+    "dist/packages/core/semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+    "packages/core/replay.ts": "a44625629171834fe34a0367c7bc12226c48a9194707505c8e98b5da11ad7a60",
+    "dist/packages/core/replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d"
+  },
+  "codeUnchangedDuringRun": true,
+  "casesSha256": "9aa9b3e59783348016d3632ca7e3a41d6cde4264799efe5fcf25078afa0e7b33",
+  "analysisSha256": "bb5e64ae986c17d0a36146eeae0de2db634b077eb29387c946cb8ae5b65dec74",
+  "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+  "request": {
+    "source": "(each case source)",
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensity": 3,
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "independent-safety-review-20261002"
+  },
+  "summary": {
+    "cases": 47,
+    "constructors": [
+      "explicit-reason",
+      "explicit-contrast",
+      "modest-achievement",
+      "time-expired",
+      "anger-peak"
+    ],
+    "mutations": 473,
+    "mutationFailures": [],
+    "failedCheckSuppression": [],
+    "replay": [
+      {
+        "family": "explicit-reason-frame",
+        "replayed": true,
+        "forgedRejected": true,
+        "allLockedExact": true
+      },
+      {
+        "family": "explicit-contrast-frame",
+        "replayed": true,
+        "forgedRejected": true,
+        "allLockedExact": true
+      },
+      {
+        "family": "modest-achievement-frame",
+        "replayed": true,
+        "forgedRejected": true,
+        "allLockedExact": true
+      },
+      {
+        "family": "already-expired",
+        "replayed": true,
+        "forgedRejected": true,
+        "allLockedExact": true
+      },
+      {
+        "family": "anger-maximum",
+        "replayed": true,
+        "forgedRejected": true,
+        "allLockedExact": true
+      }
+    ],
+    "provenance": [
+      {
+        "construction": "explicit-reason",
+        "mutation": "non-original",
+        "rejected": true
+      },
+      {
+        "construction": "explicit-reason",
+        "mutation": "wrong-series",
+        "rejected": true
+      },
+      {
+        "construction": "explicit-reason",
+        "mutation": "wrong-text",
+        "rejected": true
+      },
+      {
+        "construction": "explicit-contrast",
+        "mutation": "non-original",
+        "rejected": true
+      },
+      {
+        "construction": "explicit-contrast",
+        "mutation": "wrong-series",
+        "rejected": true
+      },
+      {
+        "construction": "explicit-contrast",
+        "mutation": "wrong-text",
+        "rejected": true
+      },
+      {
+        "construction": "modest-achievement",
+        "mutation": "non-original",
+        "rejected": true
+      },
+      {
+        "construction": "modest-achievement",
+        "mutation": "wrong-series",
+        "rejected": true
+      },
+      {
+        "construction": "modest-achievement",
+        "mutation": "wrong-text",
+        "rejected": true
+      },
+      {
+        "construction": "time-expired",
+        "mutation": "non-original",
+        "rejected": true
+      },
+      {
+        "construction": "time-expired",
+        "mutation": "wrong-series",
+        "rejected": true
+      },
+      {
+        "construction": "time-expired",
+        "mutation": "wrong-text",
+        "rejected": true
+      },
+      {
+        "construction": "anger-peak",
+        "mutation": "non-original",
+        "rejected": true
+      },
+      {
+        "construction": "anger-peak",
+        "mutation": "wrong-series",
+        "rejected": true
+      },
+      {
+        "construction": "anger-peak",
+        "mutation": "wrong-text",
+        "rejected": true
+      }
+    ],
+    "freshProof": [
+      {
+        "construction": "explicit-reason",
+        "rejectsChangedGrammar": true,
+        "acceptsRestoredGrammar": true
+      },
+      {
+        "construction": "explicit-contrast",
+        "rejectsChangedGrammar": true,
+        "acceptsRestoredGrammar": true
+      },
+      {
+        "construction": "modest-achievement",
+        "rejectsChangedGrammar": true,
+        "acceptsRestoredGrammar": true
+      },
+      {
+        "construction": "time-expired",
+        "rejectsChangedGrammar": true,
+        "acceptsRestoredGrammar": true
+      },
+      {
+        "construction": "anger-peak",
+        "rejectsChangedGrammar": true,
+        "acceptsRestoredGrammar": true
+      }
+    ]
+  },
+  "exactRetrieval": {
+    "comparisons": 200,
+    "status": "passed",
+    "seed": 731,
+    "documents": 90,
+    "includes": [
+      "full ordered results",
+      "exact floating-point score",
+      "matched fields",
+      "query term order",
+      "normalization",
+      "combining characters",
+      "series filter",
+      "repeated terms",
+      "ties"
+    ]
+  },
+  "rows": [
+    {
+      "id": "R01",
+      "source": "電車のほうがよいと思う。安いからだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "電車のほうがよいと思う\n何故なら安いからだ"
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "displayed": [
+        {
+          "text": "電車のほうがよいと思う\n何故なら安いからだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "電車のほうがよいと思う\n安いからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R02",
+      "source": "今日は休んだ。熱があるからです。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "今日は休んだ\n何故なら熱があるからです",
+        "今日は休んだ\n何故なら熱があるからだ",
+        "今日は休んだからな\n何故なら熱があるからだ"
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "displayed": [
+        {
+          "text": "今日は休んだからな\n何故なら熱があるからだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "今日は休んだ\n熱があるからです",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "今日は休んだ\n熱があるからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R03",
+      "source": "電車が遅れた。故障したからだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "電車が遅れた\n何故なら故障したからだ",
+        "電車が遅れたからな\n何故なら故障したからだ"
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "displayed": [
+        {
+          "text": "電車が遅れた\n何故なら故障したからだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "電車が遅れたからな\n故障したからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "電車が遅れた\n故障したからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R04",
+      "source": "安いからだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "安いからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R05",
+      "source": "昨日は休んだ。今日は午前9時からだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "昨日は休んだからな\n今日は午前9時からだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "昨日は休んだ\n今日は午前9時からだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R06",
+      "source": "「電車は便利だ。安いからだ。」",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R07",
+      "source": "今日は休むかもしれない。熱があるからだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "今日は休むかもしれない\n熱があるからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R08",
+      "source": "今日は休まなかった。熱がなかったからだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "今日は休まなかった\n何故なら熱がなかったからだ",
+        "今日は休まなかったからな\n何故なら熱がなかったからだ"
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "displayed": [
+        {
+          "text": "今日は休まなかった\n何故なら熱がなかったからだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "今日は休まなかったからな\n熱がなかったからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "今日は休まなかった\n熱がなかったからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R09",
+      "source": "田中は帰ったと言った。雨が降ったからだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "田中は帰ったと言った\n雨が降ったからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R10",
+      "source": "家を出たら駅に行く。安いからだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "家を出たら駅に行く\n安いからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R11",
+      "source": "電車のほうがよいと思う。何故なら安いからだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "電車のほうがよいと思う\n何故なら安いからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R12",
+      "source": "電車のほうがよいと思う。\n安いからだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "電車のほうがよいと思う\n何故なら安いからだ"
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "displayed": [
+        {
+          "text": "電車のほうがよいと思う\n何故なら安いからだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "電車のほうがよいと思う\n安いからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R13",
+      "source": "100円を払った。値段が100円だったからだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "100円を払った\n何故なら値段が100円だったからだ",
+        "100円を払ったからな\n何故なら値段が100円だったからだ"
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "displayed": [
+        {
+          "text": "100円を払ったからな\n何故なら値段が100円だったからだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "100円を払った\n値段が100円だったからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "100円を払ったからな\n値段が100円だったからだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R14",
+      "source": "電車は便利だ。安いからだと言われた。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "電車は便利だからな\n安いからだと言われた",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "電車は便利だ\n安いからだと言われた",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "R15",
+      "source": "電車は便利だ。安いからだろう。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "電車は便利だ\n安いからだろう",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "電車は便利だからな\n安いからだろう",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C01",
+      "source": "この傘は軽い。しかし値段は高い。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "この傘は軽い\nだが値段は高い",
+        "この傘は軽いからな\nだが値段は高い"
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "displayed": [
+        {
+          "text": "この傘は軽いからな\nだが値段は高い",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽い\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽いからな\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C02",
+      "source": "この傘は軽くない。しかし値段は高い。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "この傘は軽くない\nだが値段は高い",
+        "この傘は軽くないからな\nだが値段は高い"
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "displayed": [
+        {
+          "text": "この傘は軽くないからな\nだが値段は高い",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽くない\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽くないからな\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C03",
+      "source": "私は確認した。しかし彼は確認しなかった。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "俺は確認した\nだが彼は確認しなかった",
+        "俺は確認したからな\nだが彼は確認しなかった"
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "displayed": [
+        {
+          "text": "俺は確認したからな\nだが彼は確認しなかった",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "俺は確認した\nしかし彼は確認しなかった",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "俺は確認したからな\nしかし彼は確認しなかった",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C04",
+      "source": "費用は100円だ。しかし予定は3日後だ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "費用は100円だからな\nしかし予定は3日後だ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "費用は100円だ\nしかし予定は3日後だ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C05",
+      "source": "「この傘は軽い。しかし値段は高い。」",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C06",
+      "source": "この傘は軽いらしい。しかし値段は高い。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "この傘は軽いらしい\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽いらしい\nしかし値段は高いからな",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C07",
+      "source": "この傘は軽い。しかし値段は高いか。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "この傘は軽い\nしかし値段は高いか",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽いからな\nしかし値段は高いか",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C08",
+      "source": "この傘は軽い。だが値段は高い。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "この傘は軽いからな\nだが値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽い\nだが値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C09",
+      "source": "東京に住んでいるが、名前は太郎だ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "東京に住んでいるが名前は太郎だからな",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "東京に住んでいるが名前は太郎だ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C10",
+      "source": "昨日のことだが、私は資料を確認した。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "昨日のことだが俺は資料を確認したからな",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "昨日のことだが俺は資料を確認した",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C11",
+      "source": "この傘は軽い。\nしかし、値段は高い。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "この傘は軽い\nだが値段は高い",
+        "この傘は軽いからな\nだが値段は高い"
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "displayed": [
+        {
+          "text": "この傘は軽いからな\nだが値段は高い",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽い\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽いからな\nしかし値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "C12",
+      "source": "この傘は軽い。しかしながら値段は高い。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "この傘は軽いからな\nしかしながら値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "この傘は軽い\nしかしながら値段は高い",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M01",
+      "source": "大したことはしていない。機械を動かしただけだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "それほどでもない\n機械を動かしただけだ"
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "displayed": [
+        {
+          "text": "それほどでもない\n機械を動かしただけだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていないからな\n機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M02",
+      "source": "大したことはしていない。太郎が機械を動かしただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n太郎が機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n太郎が機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M03",
+      "source": "大したことはしていない。私が機械を動かしただけだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "それほどでもない\n俺が機械を動かしただけだ"
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "displayed": [
+        {
+          "text": "それほどでもない\n俺が機械を動かしただけだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていないからな\n俺が機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n俺が機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M04",
+      "source": "大したことはしていない。私と太郎が機械を動かしただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n俺と太郎が機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n俺と太郎が機械を動かしただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M05",
+      "source": "大したことはしていない。明日は機械を動かすだけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n明日は機械を動かすだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n明日は機械を動かすだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M06",
+      "source": "大したことはしていない。機械を動かしたら帰るだけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n機械を動かしたら帰るだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n機械を動かしたら帰るだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M07",
+      "source": "大したことはしていない。機械を動かしたかもしれないだけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n機械を動かしたかもしれないだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n機械を動かしたかもしれないだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M08",
+      "source": "大したことはしていない。「機械を動かしただけだ」。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n「機械を動かしただけだ」",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n「機械を動かしただけだ」",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M09",
+      "source": "大したことはしていない。機械は動かしていないだけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n機械は動かしていないだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n機械は動かしていないだけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M10",
+      "source": "大したことはしていない。機械を動かされただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n機械を動かされただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n機械を動かされただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M11",
+      "source": "大したことはしていない。故障した機械を見ただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n故障した機械を見ただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n故障した機械を見ただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M12",
+      "source": "大したことはしていない。200円で機械を直しただけだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "それほどでもない\n200円で機械を直しただけだ"
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "displayed": [
+        {
+          "text": "それほどでもない\n200円で機械を直しただけだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていないからな\n200円で機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n200円で機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M13",
+      "source": "大したことはしていない。彼が壊した機械を直しただけだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "それほどでもない\n彼が壊した機械を直しただけだ"
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "displayed": [
+        {
+          "text": "それほどでもない\n彼が壊した機械を直しただけだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていないからな\n彼が壊した機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n彼が壊した機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M14",
+      "source": "大したことはしていない。太郎は笑った。機械を直しただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "大したことはしていないからな\n太郎は笑った\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n太郎は笑った\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M15",
+      "source": "大したことはしていない。\n機械を直しただけだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "それほどでもない\n機械を直しただけだ"
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "displayed": [
+        {
+          "text": "それほどでもない\n機械を直しただけだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていないからな\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "大したことはしていない\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M16",
+      "source": "それほどでもない。機械を直しただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "それほどでもない\n機械を直しただけだからな",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "それほどでもない\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "M17",
+      "source": "太郎は言った。大したことはしていない。機械を直しただけだ。",
+      "expectedConstruction": false,
+      "constructionTexts": [],
+      "constructionIds": [],
+      "displayed": [
+        {
+          "text": "太郎は言ったからな\n大したことはしていない\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "太郎は言った\n大したことはしていない\n機械を直しただけだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "G01",
+      "source": "時既に時間切れだ。既に時間切れだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "時既に時間切れだ\n時既に時間切れだ",
+        "時既に時間切れだからな\n時既に時間切れだ"
+      ],
+      "constructionIds": [
+        "time-expired"
+      ],
+      "displayed": [
+        {
+          "text": "時既に時間切れだ\n時既に時間切れだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "時既に時間切れだからな\n既に時間切れだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "時既に時間切れだ\n既に時間切れだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "G02",
+      "source": "既に時間切れだ。時既に時間切れだ。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "時既に時間切れだ\n時既に時間切れだ"
+      ],
+      "constructionIds": [
+        "time-expired"
+      ],
+      "displayed": [
+        {
+          "text": "時既に時間切れだ\n時既に時間切れだ",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "既に時間切れだからな\n時既に時間切れだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        },
+        {
+          "text": "既に時間切れだ\n時既に時間切れだ",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    },
+    {
+      "id": "G03",
+      "source": "😀予算は１００.００円。私の怒りは頂点に達しました。",
+      "expectedConstruction": true,
+      "constructionTexts": [
+        "😀予算は１００.００円\n俺の怒りは有頂天になった"
+      ],
+      "constructionIds": [
+        "anger-peak"
+      ],
+      "displayed": [
+        {
+          "text": "😀予算は１００.００円\n俺の怒りは有頂天になった",
+          "operator": "CONSTRUCTION",
+          "status": "passed"
+        },
+        {
+          "text": "😀予算は１００.００円\n俺の怒りは頂点に達しました",
+          "operator": "REWRITE",
+          "status": "passed"
+        }
+      ],
+      "requiredFailurePreserved": true
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "severity": "P2",
+      "area": "discourse-constructions.ts standalone connective",
+      "description": "GiNZA parses しかしながら as しかし plus fixed ながら. Replacing only the prefix emitted だがながら. Fixed-child and continuation guards now abstain; C12 verifies rejection."
+    },
+    {
+      "severity": "P3",
+      "area": "bounded-search.ts options guard",
+      "description": "Exact-only helper previously accepted prefix callbacks. Guard now permits only absent/false; focused regression tests cover callback/numeric/null."
+    },
+    {
+      "severity": "P3",
+      "area": "discourse-constructions.test.js final verification call",
+      "description": "Corrected test arguments to the actual runtime API instead of relying on the bounded path leaving incorrect arguments unused."
+    }
+  ],
+  "limitations": [
+    "47 authored adversarial cases, not exhaustive Japanese grammar coverage",
+    "New frames are narrow source-grounded discourse changes; no claim of broad literary style mastery",
+    "Near-limit performance and full-suite evidence are separate artifacts"
+  ]
+}

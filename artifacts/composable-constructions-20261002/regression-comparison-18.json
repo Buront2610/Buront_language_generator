@@ -1,0 +1,1596 @@
+[
+  {
+    "type": "run",
+    "id": "P01",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 38.014,
+      "selectedCandidateId": "ed125ccb53390051562fb225",
+      "displayedIds": [
+        {
+          "id": "ed125ccb53390051562fb225",
+          "planId": "bf4a63962cabd2c6adc2eba8"
+        },
+        {
+          "id": "c851090f9f7e8badcbf64c54",
+          "planId": "47ee6bc3834a6d6a3eaac2c6"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "ed125ccb53390051562fb225",
+          "c851090f9f7e8badcbf64c54"
+        ],
+        "selectionHash": "9a81cdee78f272faa0facb744a4aedfff6044d53deddbf603bd49ab56e57cec2"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 30.39,
+      "selectedCandidateId": "ed125ccb53390051562fb225",
+      "displayedIds": [
+        {
+          "id": "ed125ccb53390051562fb225",
+          "planId": "581ebb6221c7f7a652fd35ac"
+        },
+        {
+          "id": "c851090f9f7e8badcbf64c54",
+          "planId": "47ee6bc3834a6d6a3eaac2c6"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "ed125ccb53390051562fb225",
+          "c851090f9f7e8badcbf64c54"
+        ],
+        "selectionHash": "67d9bc2d9bc71e91905d0e9f546ee05e94e2ce9df729d19f163ac50f1ec2ecd7"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "ed125ccb53390051562fb225",
+      "planId": "bf4a63962cabd2c6adc2eba8",
+      "text": "俺の怒りは有頂天になった",
+      "operator": "CONSTRUCTION",
+      "family": "anger-maximum",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "anger-peak",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 2,
+            "end": 13
+          },
+          "from": "怒りは頂点に達しました",
+          "to": "怒りは有頂天になった",
+          "bindings": [
+            {
+              "slot": "emotion",
+              "span": {
+                "start": 2,
+                "end": 4
+              },
+              "text": "怒り",
+              "tokenIds": [
+                2
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 4,
+                "end": 5
+              },
+              "text": "は",
+              "tokenIds": [
+                3
+              ]
+            },
+            {
+              "slot": "degree",
+              "span": {
+                "start": 5,
+                "end": 7
+              },
+              "text": "頂点",
+              "tokenIds": [
+                4
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 8,
+                "end": 10
+              },
+              "text": "達し",
+              "tokenIds": [
+                6
+              ]
+            },
+            {
+              "slot": "experiencer",
+              "span": {
+                "start": 0,
+                "end": 1
+              },
+              "text": "私",
+              "tokenIds": [
+                0
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01635_41e56849e981c8e0_5432"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "anger-peak"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "c851090f9f7e8badcbf64c54",
+      "planId": "47ee6bc3834a6d6a3eaac2c6",
+      "text": "俺の怒りは頂点に達しました",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "ed125ccb53390051562fb225",
+      "planId": "581ebb6221c7f7a652fd35ac",
+      "text": "俺の怒りは有頂天になった",
+      "operator": "CONSTRUCTION",
+      "family": "anger-maximum",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "anger-peak",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 2,
+            "end": 13
+          },
+          "from": "怒りは頂点に達しました",
+          "to": "怒りは有頂天になった",
+          "bindings": [
+            {
+              "slot": "emotion",
+              "span": {
+                "start": 2,
+                "end": 4
+              },
+              "text": "怒り",
+              "tokenIds": [
+                2
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 4,
+                "end": 5
+              },
+              "text": "は",
+              "tokenIds": [
+                3
+              ]
+            },
+            {
+              "slot": "degree",
+              "span": {
+                "start": 5,
+                "end": 7
+              },
+              "text": "頂点",
+              "tokenIds": [
+                4
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 8,
+                "end": 10
+              },
+              "text": "達し",
+              "tokenIds": [
+                6
+              ]
+            },
+            {
+              "slot": "experiencer",
+              "span": {
+                "start": 0,
+                "end": 1
+              },
+              "text": "私",
+              "tokenIds": [
+                0
+              ]
+            }
+          ],
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01635_41e56849e981c8e0_5432"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "anger-peak"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "c851090f9f7e8badcbf64c54",
+      "planId": "47ee6bc3834a6d6a3eaac2c6",
+      "text": "俺の怒りは頂点に達しました",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "registered_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": "581ebb6221c7f7a652fd35ac",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 2,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": "ed125ccb53390051562fb225",
+      "planId": "581ebb6221c7f7a652fd35ac",
+      "sourceSpan": {
+        "start": 2,
+        "end": 13
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": "ed125ccb53390051562fb225",
+      "planId": "581ebb6221c7f7a652fd35ac",
+      "sourceSpan": {
+        "start": 2,
+        "end": 13
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "run",
+    "id": "P01",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 42.503,
+      "selectedCandidateId": "ed125ccb53390051562fb225",
+      "displayedIds": [
+        {
+          "id": "ed125ccb53390051562fb225",
+          "planId": "ea4d232ebe89b6195fd333fc"
+        },
+        {
+          "id": "c851090f9f7e8badcbf64c54",
+          "planId": "179b98101cb57c9d60eb301c"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "ed125ccb53390051562fb225",
+          "c851090f9f7e8badcbf64c54"
+        ],
+        "selectionHash": "9a81cdee78f272faa0facb744a4aedfff6044d53deddbf603bd49ab56e57cec2"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 33.431,
+      "selectedCandidateId": "ed125ccb53390051562fb225",
+      "displayedIds": [
+        {
+          "id": "ed125ccb53390051562fb225",
+          "planId": "5d4f047a1b4c15e2f92681f8"
+        },
+        {
+          "id": "c851090f9f7e8badcbf64c54",
+          "planId": "179b98101cb57c9d60eb301c"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "ed125ccb53390051562fb225",
+          "c851090f9f7e8badcbf64c54"
+        ],
+        "selectionHash": "67d9bc2d9bc71e91905d0e9f546ee05e94e2ce9df729d19f163ac50f1ec2ecd7"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "ed125ccb53390051562fb225",
+      "planId": "ea4d232ebe89b6195fd333fc",
+      "text": "俺の怒りは有頂天になった",
+      "operator": "CONSTRUCTION",
+      "family": "anger-maximum",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "anger-peak",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 2,
+            "end": 13
+          },
+          "from": "怒りは頂点に達しました",
+          "to": "怒りは有頂天になった",
+          "bindings": [
+            {
+              "slot": "emotion",
+              "span": {
+                "start": 2,
+                "end": 4
+              },
+              "text": "怒り",
+              "tokenIds": [
+                2
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 4,
+                "end": 5
+              },
+              "text": "は",
+              "tokenIds": [
+                3
+              ]
+            },
+            {
+              "slot": "degree",
+              "span": {
+                "start": 5,
+                "end": 7
+              },
+              "text": "頂点",
+              "tokenIds": [
+                4
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 8,
+                "end": 10
+              },
+              "text": "達し",
+              "tokenIds": [
+                6
+              ]
+            },
+            {
+              "slot": "experiencer",
+              "span": {
+                "start": 0,
+                "end": 1
+              },
+              "text": "私",
+              "tokenIds": [
+                0
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01635_41e56849e981c8e0_5432"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "anger-peak"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "c851090f9f7e8badcbf64c54",
+      "planId": "179b98101cb57c9d60eb301c",
+      "text": "俺の怒りは頂点に達しました",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "ed125ccb53390051562fb225",
+      "planId": "5d4f047a1b4c15e2f92681f8",
+      "text": "俺の怒りは有頂天になった",
+      "operator": "CONSTRUCTION",
+      "family": "anger-maximum",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "anger-peak",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 2,
+            "end": 13
+          },
+          "from": "怒りは頂点に達しました",
+          "to": "怒りは有頂天になった",
+          "bindings": [
+            {
+              "slot": "emotion",
+              "span": {
+                "start": 2,
+                "end": 4
+              },
+              "text": "怒り",
+              "tokenIds": [
+                2
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 4,
+                "end": 5
+              },
+              "text": "は",
+              "tokenIds": [
+                3
+              ]
+            },
+            {
+              "slot": "degree",
+              "span": {
+                "start": 5,
+                "end": 7
+              },
+              "text": "頂点",
+              "tokenIds": [
+                4
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 8,
+                "end": 10
+              },
+              "text": "達し",
+              "tokenIds": [
+                6
+              ]
+            },
+            {
+              "slot": "experiencer",
+              "span": {
+                "start": 0,
+                "end": 1
+              },
+              "text": "私",
+              "tokenIds": [
+                0
+              ]
+            }
+          ],
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01635_41e56849e981c8e0_5432"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "anger-peak"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "c851090f9f7e8badcbf64c54",
+      "planId": "179b98101cb57c9d60eb301c",
+      "text": "俺の怒りは頂点に達しました",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "registered_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": "5d4f047a1b4c15e2f92681f8",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 2,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": "ed125ccb53390051562fb225",
+      "planId": "5d4f047a1b4c15e2f92681f8",
+      "sourceSpan": {
+        "start": 2,
+        "end": 13
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a51f99ca6c27dd68d509cf7015bf2726aeab46139c0006b5f163697781baa924",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": "ed125ccb53390051562fb225",
+      "planId": "5d4f047a1b4c15e2f92681f8",
+      "sourceSpan": {
+        "start": 2,
+        "end": 13
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "input",
+    "id": "P02",
+    "group": "positive_control",
+    "category": "陽性対照・悲しみ構文",
+    "source": "私はとても悲しかった。"
+  },
+  {
+    "type": "run",
+    "id": "P02",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 34.668,
+      "selectedCandidateId": "248f2e53de8212e373ec9a47",
+      "displayedIds": [
+        {
+          "id": "248f2e53de8212e373ec9a47",
+          "planId": "87ff37c033ffea59ad22f8f7"
+        },
+        {
+          "id": "f2c900cda29f33e7144acfc3",
+          "planId": "ee1522863910f51468280a4b"
+        },
+        {
+          "id": "6f834f95cf2973614002e831",
+          "planId": "1c821f5907cdbc185127829d"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "248f2e53de8212e373ec9a47",
+          "f2c900cda29f33e7144acfc3",
+          "6f834f95cf2973614002e831"
+        ],
+        "selectionHash": "fdc5d4ab2867771ddd2996d9d6795c1832ca1104e8241326305452123f9cef01"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 34.252,
+      "selectedCandidateId": "248f2e53de8212e373ec9a47",
+      "displayedIds": [
+        {
+          "id": "248f2e53de8212e373ec9a47",
+          "planId": "3c74a78b25c3356bd0afe61f"
+        },
+        {
+          "id": "f2c900cda29f33e7144acfc3",
+          "planId": "ee1522863910f51468280a4b"
+        },
+        {
+          "id": "6f834f95cf2973614002e831",
+          "planId": "1c821f5907cdbc185127829d"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "248f2e53de8212e373ec9a47",
+          "f2c900cda29f33e7144acfc3",
+          "6f834f95cf2973614002e831"
+        ],
+        "selectionHash": "a58176c3de4feeac5d69282c425e00dd211bca35944ebd98b62afc56ce3b15fc"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "248f2e53de8212e373ec9a47",
+      "planId": "87ff37c033ffea59ad22f8f7",
+      "text": "俺は深い悲しみに包まれた",
+      "operator": "CONSTRUCTION",
+      "family": "sadness-high",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "deep-sadness",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 2,
+            "end": 10
+          },
+          "from": "とても悲しかった",
+          "to": "深い悲しみに包まれた",
+          "bindings": [
+            {
+              "slot": "degree",
+              "span": {
+                "start": 2,
+                "end": 5
+              },
+              "text": "とても",
+              "tokenIds": [
+                2
+              ]
+            },
+            {
+              "slot": "emotion",
+              "span": {
+                "start": 5,
+                "end": 9
+              },
+              "text": "悲しかっ",
+              "tokenIds": [
+                3
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 5,
+                "end": 9
+              },
+              "text": "悲しかっ",
+              "tokenIds": [
+                3
+              ]
+            },
+            {
+              "slot": "experiencer",
+              "span": {
+                "start": 0,
+                "end": 1
+              },
+              "text": "私",
+              "tokenIds": [
+                0
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01958_a99dd6788275096d_7231"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "deep-sadness"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

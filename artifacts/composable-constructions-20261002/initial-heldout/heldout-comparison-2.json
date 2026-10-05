@@ -1,0 +1,1544 @@
+[
+  {
+    "type": "candidate",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "d392a53fbb1316a0507b4952",
+      "planId": "12609b5f50f4768fe74f5705",
+      "text": "手作業より自動処理を選んだからな\n何故なら処理の速さとスピードが十分だからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 14
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 14
+              },
+              "text": "手作業より自動処理を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 14,
+                "end": 27
+              },
+              "text": "処理の速度が十分だからです",
+              "tokenIds": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 23,
+                "end": 25
+              },
+              "text": "から",
+              "tokenIds": [
+                13
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 20,
+                "end": 22
+              },
+              "text": "十分",
+              "tokenIds": [
+                11
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 14
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 14,
+                  "end": 27
+                },
+                "tokenIds": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 13,
+                "span": {
+                  "start": 23,
+                  "end": 25
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 11,
+                "span": {
+                  "start": 20,
+                  "end": 22
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 14,
+                "span": {
+                  "start": 25,
+                  "end": 27
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 11,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 14,
+              "end": 27
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": true,
+        "lexicalInsideReason": true
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "5219aff831513e4915df99cd",
+      "planId": "6bf586079ff6344c024f81f5",
+      "text": "手作業より自動処理を選んだ\n何故なら処理の速度が十分だからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 27
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 14
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 14
+              },
+              "text": "手作業より自動処理を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 14,
+                "end": 27
+              },
+              "text": "処理の速度が十分だからです",
+              "tokenIds": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 23,
+                "end": 25
+              },
+              "text": "から",
+              "tokenIds": [
+                13
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 20,
+                "end": 22
+              },
+              "text": "十分",
+              "tokenIds": [
+                11
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 14
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 14,
+                  "end": 27
+                },
+                "tokenIds": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 13,
+                "span": {
+                  "start": 23,
+                  "end": 25
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 11,
+                "span": {
+                  "start": 20,
+                  "end": 22
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 14,
+                "span": {
+                  "start": 25,
+                  "end": 27
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 11,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 14,
+              "end": 27
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "f8a8212c26b6cb5f7e65c2e5",
+      "planId": "4a9050583e673761004708a1",
+      "text": "手作業より自動処理を選んだ\n処理の速さとスピードが十分だからです",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "08460d7a97d4f1e0e011805a",
+      "planId": "c90dc1cb0f6ce1487ceb8ef9",
+      "text": "手作業より自動処理を選んだ\n処理の速さとスピードが十分だからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+velocity-doubling+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 27
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "ac6d01eb44cab4180bc93de8",
+      "planId": "d12a2e3c85e9beead965afe0",
+      "text": "手作業より自動処理を選んだからな\n処理の速さとスピードが十分だからです",
+      "operator": "REWRITE",
+      "family": "ending-insistence-11+punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 17,
+            "end": 19
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "2b8f93592f082f4431ee69e6",
+      "planId": "7a0e66cd4dea160289e130fb",
+      "text": "手作業より自動処理を選んだ\n処理の速度が十分だからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 27
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 14,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "cbabdcb85effea4fd7df2859",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "c7bce72f4b87c5a337556196",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "12609b5f50f4768fe74f5705",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "6bf586079ff6344c024f81f5",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "536ef4c4218d6895498533db",
+      "planId": "cbabdcb85effea4fd7df2859",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "536ef4c4218d6895498533db",
+      "planId": "cbabdcb85effea4fd7df2859",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "4d892426f34c6c7c7d30a5c2",
+      "planId": "c7bce72f4b87c5a337556196",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "4d892426f34c6c7c7d30a5c2",
+      "planId": "c7bce72f4b87c5a337556196",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "d392a53fbb1316a0507b4952",
+      "planId": "12609b5f50f4768fe74f5705",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "d392a53fbb1316a0507b4952",
+      "planId": "12609b5f50f4768fe74f5705",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "5219aff831513e4915df99cd",
+      "planId": "6bf586079ff6344c024f81f5",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "8d956ca900f9e4d71d9113e9b196cd3aebebb99ae338172cb7f46eac28ca4d57",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "5219aff831513e4915df99cd",
+      "planId": "6bf586079ff6344c024f81f5",
+      "sourceSpan": {
+        "start": 14,
+        "end": 14
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "run",
+    "id": "H01",
+    "intensity": 3,
+    "displayedTextOrderChanged": true,
+    "before": {
+      "intensity": 3,
+      "generationMs": 127.121,
+      "selectedCandidateId": "ede48f6f94a9d88df8de5a9c",
+      "displayedIds": [
+        {
+          "id": "ede48f6f94a9d88df8de5a9c",
+          "planId": "c8ef274926e29b14823be86c"
+        },
+        {
+          "id": "08460d7a97d4f1e0e011805a",
+          "planId": "21affff30ff7b1901e01c01f"
+        },
+        {
+          "id": "2b8f93592f082f4431ee69e6",
+          "planId": "711172012ff9a4aa77cd61dd"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 6,
+        "selectedIds": [
+          "ede48f6f94a9d88df8de5a9c",
+          "08460d7a97d4f1e0e011805a",
+          "2b8f93592f082f4431ee69e6"
+        ],
+        "selectionHash": "7ea20bf9db353c6a48026cc195d9d94fb345bcf4be1a6f8b2f3121d28706b254"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 161.649,
+      "selectedCandidateId": "c03e887bf366714e454e8953",
+      "displayedIds": [
+        {
+          "id": "c03e887bf366714e454e8953",
+          "planId": "6341eeb20a0d6ddcc4a06e73"
+        },
+        {
+          "id": "2b8f93592f082f4431ee69e6",
+          "planId": "711172012ff9a4aa77cd61dd"
+        },
+        {
+          "id": "f8a8212c26b6cb5f7e65c2e5",
+          "planId": "f3a135b8170063962b696a6d"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 8,
+        "selectedIds": [
+          "c03e887bf366714e454e8953",
+          "2b8f93592f082f4431ee69e6",
+          "f8a8212c26b6cb5f7e65c2e5"
+        ],
+        "selectionHash": "387951277a2996158ba93bcbc73950e53a958d809868ee0c75d6db3ee9275909"
+      }
+    }
+  }
+]

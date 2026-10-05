@@ -1,0 +1,1548 @@
+[
+  {
+    "type": "candidate",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "f162117773e904b63d78efa6",
+      "planId": "d02d133126625a604fbf1ae2",
+      "text": "この方法がよいかもしれないからな\n速度が重要だからだろうか",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 26,
+            "end": 27
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "C18",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 49.922,
+      "selectedCandidateId": "f162117773e904b63d78efa6",
+      "displayedIds": [
+        {
+          "id": "f162117773e904b63d78efa6",
+          "planId": "3c432de1772e96c9dcaf5410"
+        },
+        {
+          "id": "d0ea53a697cf8dbf6838d98f",
+          "planId": "a57c4d645547138549dc91d8"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "f162117773e904b63d78efa6",
+          "d0ea53a697cf8dbf6838d98f"
+        ],
+        "selectionHash": "fe2baa422cac9bdb0b0df0d1f412e7a3682cb51cdf0c7b3e8148fae0137a957a"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 43.299,
+      "selectedCandidateId": "f162117773e904b63d78efa6",
+      "displayedIds": [
+        {
+          "id": "f162117773e904b63d78efa6",
+          "planId": "3c432de1772e96c9dcaf5410"
+        },
+        {
+          "id": "d0ea53a697cf8dbf6838d98f",
+          "planId": "a57c4d645547138549dc91d8"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "f162117773e904b63d78efa6",
+          "d0ea53a697cf8dbf6838d98f"
+        ],
+        "selectionHash": "fe2baa422cac9bdb0b0df0d1f412e7a3682cb51cdf0c7b3e8148fae0137a957a"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "d0ea53a697cf8dbf6838d98f",
+      "planId": "a57c4d645547138549dc91d8",
+      "text": "この方法がよいかもしれない\n速度が重要だからだろうか",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 26,
+            "end": 27
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "f162117773e904b63d78efa6",
+      "planId": "3c432de1772e96c9dcaf5410",
+      "text": "この方法がよいかもしれないからな\n速度が重要だからだろうか",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 26,
+            "end": 27
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "d0ea53a697cf8dbf6838d98f",
+      "planId": "a57c4d645547138549dc91d8",
+      "text": "この方法がよいかもしれない\n速度が重要だからだろうか",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 26,
+            "end": 27
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "f162117773e904b63d78efa6",
+      "planId": "3c432de1772e96c9dcaf5410",
+      "text": "この方法がよいかもしれないからな\n速度が重要だからだろうか",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 26,
+            "end": 27
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C18",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "857808f00345911da02ebc3e088d657d839b636d0e32e558b2cc21861efba68b",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 14,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "C19",
+    "group": "controlled_diagnostic",
+    "category": "reason / quotation",
+    "source": "田中は「この方法を選んだ。速度が重要だからだ」と言った。"
+  },
+  {
+    "type": "run",
+    "id": "C19",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 40.204,
+      "selectedCandidateId": "7709fba4f5e2f5f7cc5cabb5",
+      "displayedIds": [
+        {
+          "id": "7709fba4f5e2f5f7cc5cabb5",
+          "planId": "e8d7948da7c5d79023fd0b8b"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 1,
+        "selectedIds": [
+          "7709fba4f5e2f5f7cc5cabb5"
+        ],
+        "selectionHash": "38ce704119a62a5a67515bef974979eabce7d3884757a7ee0357738e82dcf986"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 22.413,
+      "selectedCandidateId": "7709fba4f5e2f5f7cc5cabb5",
+      "displayedIds": [
+        {
+          "id": "7709fba4f5e2f5f7cc5cabb5",
+          "planId": "e8d7948da7c5d79023fd0b8b"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 1,
+        "selectedIds": [
+          "7709fba4f5e2f5f7cc5cabb5"
+        ],
+        "selectionHash": "38ce704119a62a5a67515bef974979eabce7d3884757a7ee0357738e82dcf986"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "7709fba4f5e2f5f7cc5cabb5",
+      "planId": "e8d7948da7c5d79023fd0b8b",
+      "text": "田中は「この方法を選んだ。速度が重要だからだ」と言った",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "7709fba4f5e2f5f7cc5cabb5",
+      "planId": "e8d7948da7c5d79023fd0b8b",
+      "text": "田中は「この方法を選んだ。速度が重要だからだ」と言った",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "C19",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 26.821,
+      "selectedCandidateId": "7709fba4f5e2f5f7cc5cabb5",
+      "displayedIds": [
+        {
+          "id": "7709fba4f5e2f5f7cc5cabb5",
+          "planId": "c51f10161ce69e344377bf6d"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 1,
+        "selectedIds": [
+          "7709fba4f5e2f5f7cc5cabb5"
+        ],
+        "selectionHash": "38ce704119a62a5a67515bef974979eabce7d3884757a7ee0357738e82dcf986"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 22.498,
+      "selectedCandidateId": "7709fba4f5e2f5f7cc5cabb5",
+      "displayedIds": [
+        {
+          "id": "7709fba4f5e2f5f7cc5cabb5",
+          "planId": "c51f10161ce69e344377bf6d"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 1,
+        "selectedIds": [
+          "7709fba4f5e2f5f7cc5cabb5"
+        ],
+        "selectionHash": "38ce704119a62a5a67515bef974979eabce7d3884757a7ee0357738e82dcf986"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "7709fba4f5e2f5f7cc5cabb5",
+      "planId": "c51f10161ce69e344377bf6d",
+      "text": "田中は「この方法を選んだ。速度が重要だからだ」と言った",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "7709fba4f5e2f5f7cc5cabb5",
+      "planId": "c51f10161ce69e344377bf6d",
+      "text": "田中は「この方法を選んだ。速度が重要だからだ」と言った",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C19",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e623c5a006cdea0537695e0579d314c449856552bdba189a30c18d18d3b24b6f",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "C20",
+    "group": "controlled_diagnostic",
+    "category": "multiple constructions and lexical",
+    "source": "大したことはしていない。荷物を運んだだけだ。しかし、速度が重要だった。"
+  },
+  {
+    "type": "run",
+    "id": "C20",
+    "intensity": 2,
+    "displayedTextOrderChanged": true,
+    "before": {
+      "intensity": 2,
+      "generationMs": 105.386,
+      "selectedCandidateId": "3d408a8a807c9a3c44996776",
+      "displayedIds": [
+        {
+          "id": "3d408a8a807c9a3c44996776",
+          "planId": "431b77ac49041de826a4e493"
+        },
+        {
+          "id": "81e0ec1ea57c94d1d9ffade9",
+          "planId": "9acf5a97a65c655b59f9cc0a"
+        },
+        {
+          "id": "a2e033cc35de5fa939fdbc02",
+          "planId": "6ae6405572ad583fd5c0d70d"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "3d408a8a807c9a3c44996776",
+          "81e0ec1ea57c94d1d9ffade9",
+          "a2e033cc35de5fa939fdbc02"
+        ],
+        "selectionHash": "6bab4caee3349f03137b549495ef148861caeb98248b0ede70f900f77dfa439a"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 120.29,
+      "selectedCandidateId": "9376e70b7084c8e1bf2f9a5b",
+      "displayedIds": [
+        {
+          "id": "9376e70b7084c8e1bf2f9a5b",
+          "planId": "4f2e8bcef9acb9e69ada80cb"
+        },
+        {
+          "id": "81e0ec1ea57c94d1d9ffade9",
+          "planId": "9acf5a97a65c655b59f9cc0a"
+        },
+        {
+          "id": "3d408a8a807c9a3c44996776",
+          "planId": "431b77ac49041de826a4e493"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 5,
+        "selectedIds": [
+          "9376e70b7084c8e1bf2f9a5b",
+          "81e0ec1ea57c94d1d9ffade9",
+          "3d408a8a807c9a3c44996776"
+        ],
+        "selectionHash": "a718142816ab56e7908fe2c9c235ae9c2e133a1791e0e6996153ce574bb833ed"
+      }
+    }
+  }
+]

@@ -1,0 +1,2591 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-02T08:28:56.576Z",
+  "sourceSet": "17 independently authored review probes; no held-out input access",
+  "rows": [
+    {
+      "id": "composed-start",
+      "source": "電車を選んだ。私は速さを重視するからだ。",
+      "expected": "explicit-reason",
+      "generatedMs": 1728.397,
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "texts": [
+        "電車を選んだ\n何故なら俺は速さとスピードを重視するからだ",
+        "電車を選んだからな\n何故なら俺は速さとスピードを重視するからだ",
+        "電車を選んだ\n何故なら俺は速さを重視するからだ"
+      ]
+    },
+    {
+      "id": "composed-polite",
+      "source": "電車を選んだ。私は速さを重視するからです。",
+      "expected": "explicit-reason",
+      "generatedMs": 124.912,
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "texts": [
+        "電車を選んだ\n何故なら俺は速さとスピードを重視するからです",
+        "電車を選んだ\n何故なら俺は速さとスピードを重視するからだ",
+        "電車を選んだからな\n何故なら俺は速さとスピードを重視するからだ",
+        "電車を選んだ\n何故なら俺は速さを重視するからだ"
+      ]
+    },
+    {
+      "id": "composed-negative",
+      "source": "電車を選ばなかった。私は全然急がないからだ。",
+      "expected": "explicit-reason",
+      "generatedMs": 110.861,
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "texts": [
+        "電車を選ばなかった\n何故なら俺は全然全く急がないからだ",
+        "電車を選ばなかったからな\n何故なら俺は全然全く急がないからだ",
+        "電車を選ばなかった\n何故なら俺は全然急がないからだ"
+      ]
+    },
+    {
+      "id": "protected-scalars",
+      "source": "😀私は１００.００円を払った。私は速さを重視するからだ。",
+      "expected": "explicit-reason",
+      "generatedMs": 105.31,
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "texts": [
+        "😀俺は１００.００円を払った\n何故なら俺は速さとスピードを重視するからだ",
+        "😀俺は１００.００円を払ったからな\n何故なら俺は速さとスピードを重視するからだ",
+        "😀俺は１００.００円を払った\n何故なら俺は速さを重視するからだ"
+      ]
+    },
+    {
+      "id": "contrast",
+      "source": "この傘は軽い。しかし私は値段を重視する。",
+      "expected": "explicit-contrast",
+      "generatedMs": 60.121,
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "texts": [
+        "この傘は軽い\nだが俺は値段を重視する",
+        "この傘は軽いからな\nだが俺は値段を重視する"
+      ]
+    },
+    {
+      "id": "modesty-voiced",
+      "source": "大したことはしていない。荷物を運んだだけだ。",
+      "expected": "modest-achievement",
+      "generatedMs": 49.675,
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "texts": [
+        "それほどでもない\n荷物を運んだだけだ"
+      ]
+    },
+    {
+      "id": "modesty-unvoiced",
+      "source": "大したことはしていない。荷物を届けただけだ。",
+      "expected": "modest-achievement",
+      "generatedMs": 53.039,
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "texts": [
+        "それほどでもない\n荷物を届けただけだ"
+      ]
+    },
+    {
+      "id": "modesty-nonpast",
+      "source": "大したことはしていない。荷物を運ぶだけだ。",
+      "expected": null,
+      "generatedMs": 36.829,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "reason-speculation",
+      "source": "電車がよいらしい。私は速さを重視するからだ。",
+      "expected": null,
+      "generatedMs": 33.981,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "reason-newline-speculation",
+      "source": "電車がよいらしい。\n私には速さが大切だからです。",
+      "expected": null,
+      "generatedMs": 35.422,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "reason-newline-question",
+      "source": "電車を選ぶ？\n私には速さが大切だからです。",
+      "expected": null,
+      "generatedMs": 38.914,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "quoted",
+      "source": "「電車を選んだ。私は速さを重視するからだ。」",
+      "expected": null,
+      "generatedMs": 6.082,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "hypothetical",
+      "source": "電車を選ぶなら帰る。私は速さを重視するからだ。",
+      "expected": null,
+      "generatedMs": 30.802,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "reported",
+      "source": "彼は電車を選んだと言った。私は速さを重視するからだ。",
+      "expected": null,
+      "generatedMs": 42.438,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "unknown-reason",
+      "source": "電車を選んだ。私は速さを重視するらしいからだ。",
+      "expected": null,
+      "generatedMs": 29.412,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "already-prefixed",
+      "source": "電車を選んだ。何故なら私は速さを重視するからだ。",
+      "expected": null,
+      "generatedMs": 51.91,
+      "constructionIds": [],
+      "texts": []
+    },
+    {
+      "id": "local-anger",
+      "source": "私の怒りが頂点に達しました。",
+      "expected": "anger-peak",
+      "generatedMs": 33.338,
+      "constructionIds": [
+        "anger-peak"
+      ],
+      "texts": [
+        "俺の怒りが有頂天になった"
+      ]
+    }
+  ],
+  "mutations": [
+    {
+      "construction": "explicit-reason",
+      "field": "nodeId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "constructionId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "constructionVersion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "realizationId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "sourceSpan.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "sourceSpan.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "from",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "to",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.0.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.1.tokenIds.7",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.2.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.2.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.2.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.2.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.2.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.3.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.3.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.3.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.3.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "bindings.3.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.version",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.certainty",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.0.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.clauses.1.tokenIds.7",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.0.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.0.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.1.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.1.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.2.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.2.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.2.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.evidenceTokens.2.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.predicateTokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.tense",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.realization",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.completion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.voice",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.conditional",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.speculative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.prospective",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.ambiguous",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.nonDeclarative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.0.reportedContent",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.predicateTokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.tense",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.realization",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.completion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.voice",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.conditional",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.speculative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.prospective",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.ambiguous",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.nonDeclarative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.conditions.1.reportedContent",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.provenance.inputHash",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "relation.provenance.parserVersion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "operation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "operation.prefix",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "operation.bodySourceSpan.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "operation.bodySourceSpan.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "operation.permittedLocalEdits",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.tense",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.realization",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.completion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "features.voice",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "field": "evidenceIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "duplicate-prefix",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "overlap-lexical",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "invented-edit",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "forged-lexical-evidence",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "removed-relation",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "old-version",
+      "rejected": true
+    },
+    {
+      "construction": "composed-program",
+      "field": "foreign-prefix-span",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "nodeId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "constructionId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "constructionVersion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "realizationId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "sourceSpan.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "sourceSpan.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "from",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "to",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.0.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.1.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.2.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.2.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.2.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.2.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.2.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.3.slot",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.3.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.3.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.3.text",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "bindings.3.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.version",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.certainty",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.0.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.clauses.1.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.0.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.0.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.1.role",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.1.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.evidenceTokens.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.predicateTokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.tense",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.realization",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.completion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.voice",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.conditional",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.speculative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.prospective",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.ambiguous",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.nonDeclarative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.0.reportedContent",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.predicateTokenId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.factId",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.tense",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.realization",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.completion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.voice",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.conditional",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.speculative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.prospective",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.ambiguous",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.nonDeclarative",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.conditions.1.reportedContent",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.provenance.inputHash",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "relation.provenance.parserVersion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "operation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.tense",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.realization",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.completion",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "features.voice",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "field": "evidenceIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "nodeId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "constructionId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "constructionVersion",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "realizationId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "factId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "sourceSpan.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "sourceSpan.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "from",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "to",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.slot",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.text",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.0.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.slot",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.text",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.1.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.2.slot",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.2.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.2.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.2.text",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "bindings.2.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.version",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.factId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.certainty",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.role",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.0.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.role",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.1",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.2",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.3",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.4",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.5",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.clauses.1.tokenIds.6",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.0.role",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.0.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.1.role",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.1.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.2.role",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.2.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.2.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.2.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.3.role",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.3.tokenId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.3.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.evidenceTokens.3.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.predicateTokenId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.factId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.tense",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.realization",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.completion",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.voice",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.conditional",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.speculative",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.prospective",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.ambiguous",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.nonDeclarative",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.0.reportedContent",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.predicateTokenId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.factId",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.tense",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.realization",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.completion",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.voice",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.conditional",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.speculative",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.prospective",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.ambiguous",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.nonDeclarative",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.conditions.1.reportedContent",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.provenance.inputHash",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "relation.provenance.parserVersion",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "operation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.tense",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.realization",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.completion",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "features.voice",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "field": "evidenceIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "nodeId",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "operation.kind",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "constructionId",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "constructionVersion",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "realizationId",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "factId",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "sourceSpan.start",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "sourceSpan.end",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "from",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "to",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.0.slot",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.0.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.0.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.0.text",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.0.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.1.slot",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.1.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.1.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.1.text",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.1.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.2.slot",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.2.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.2.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.2.text",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.2.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.3.slot",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.3.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.3.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.3.text",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.3.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.4.slot",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.4.span.start",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.4.span.end",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.4.text",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "bindings.4.tokenIds.0",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.polarity",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.tense",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.realization",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.completion",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.attribution.kind",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.attribution.speaker",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "features.voice",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "field": "evidenceIds.0",
+      "rejected": true
+    }
+  ],
+  "schemaMutations": [
+    {
+      "construction": "explicit-reason",
+      "label": "missing-operation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "label": "null-operation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "label": "unknown-operation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "label": "operation-extra",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "label": "missing-span",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-reason",
+      "label": "unknown-relation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "label": "missing-operation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "label": "null-operation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "label": "unknown-operation",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "label": "operation-extra",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "label": "missing-span",
+      "rejected": true
+    },
+    {
+      "construction": "explicit-contrast",
+      "label": "unknown-relation",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "label": "missing-operation",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "label": "null-operation",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "label": "unknown-operation",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "label": "operation-extra",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "label": "missing-span",
+      "rejected": true
+    },
+    {
+      "construction": "modest-achievement",
+      "label": "unknown-relation",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "label": "missing-operation",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "label": "null-operation",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "label": "unknown-operation",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "label": "operation-extra",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "label": "missing-span",
+      "rejected": true
+    },
+    {
+      "construction": "anger-peak",
+      "label": "unknown-relation",
+      "rejected": true
+    }
+  ],
+  "conflicts": [
+    {
+      "label": "duplicate-prefix",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "construction-in-body",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "different-node-local",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "crosses-body-end",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "local-at-prefix",
+      "expected": false,
+      "actual": false
+    }
+  ],
+  "mapping": [
+    {
+      "id": "composed-start",
+      "planId": "140d9ed1d1ea9040a16e70ab",
+      "passed": true
+    },
+    {
+      "id": "composed-start",
+      "planId": "e9b0cc26b241786f78f6c5ca",
+      "passed": true
+    },
+    {
+      "id": "composed-start",
+      "planId": "0f200faccdbab33bb0b4a9a3",
+      "passed": true
+    },
+    {
+      "id": "composed-polite",
+      "planId": "6f2fcacbe15ba64c651f6f3e",
+      "passed": true
+    },
+    {
+      "id": "composed-polite",
+      "planId": "b24c692b247764c0f7731719",
+      "passed": true
+    },
+    {
+      "id": "composed-polite",
+      "planId": "e34637fb54da660432008e60",
+      "passed": true
+    },
+    {
+      "id": "composed-polite",
+      "planId": "9dc78677f126d098e04171ef",
+      "passed": true
+    },
+    {
+      "id": "composed-negative",
+      "planId": "b37a1c292db438db559cd858",
+      "passed": true
+    },
+    {
+      "id": "composed-negative",
+      "planId": "9b64d53679eadea49a33407f",
+      "passed": true
+    },
+    {
+      "id": "composed-negative",
+      "planId": "fe302ef1b6e2f73348c1690c",
+      "passed": true
+    },
+    {
+      "id": "protected-scalars",
+      "planId": "29307886af71964c13ff86c0",
+      "passed": true
+    },
+    {
+      "id": "protected-scalars",
+      "planId": "d28768b50511be1b1fbfbbe0",
+      "passed": true
+    },
+    {
+      "id": "protected-scalars",
+      "planId": "47f166b1fc4669bf16d14b57",
+      "passed": true
+    },
+    {
+      "id": "contrast",
+      "planId": "b32f404d2de8eeca1a8e2d78",
+      "passed": true
+    },
+    {
+      "id": "contrast",
+      "planId": "c74896c0352fdb80fd816a67",
+      "passed": true
+    },
+    {
+      "id": "modesty-voiced",
+      "planId": "c9d40faffe15596c99cb6283",
+      "passed": true
+    },
+    {
+      "id": "modesty-unvoiced",
+      "planId": "5509466616dcacfb9db8fd30",
+      "passed": true
+    },
+    {
+      "id": "local-anger",
+      "planId": "eb396785545672fe4db49373",
+      "passed": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "composed-start",
+      "passed": true
+    },
+    {
+      "id": "composed-polite",
+      "passed": true
+    },
+    {
+      "id": "composed-negative",
+      "passed": true
+    },
+    {
+      "id": "protected-scalars",
+      "passed": true
+    },
+    {
+      "id": "contrast",
+      "passed": true
+    },
+    {
+      "id": "modesty-voiced",
+      "passed": true
+    },
+    {
+      "id": "modesty-unvoiced",
+      "passed": true
+    },
+    {
+      "id": "modesty-nonpast",
+      "passed": true
+    },
+    {
+      "id": "reason-speculation",
+      "passed": true
+    },
+    {
+      "id": "reason-newline-speculation",
+      "passed": true
+    },
+    {
+      "id": "reason-newline-question",
+      "passed": true
+    },
+    {
+      "id": "quoted",
+      "passed": true
+    },
+    {
+      "id": "hypothetical",
+      "passed": true
+    },
+    {
+      "id": "reported",
+      "passed": true
+    },
+    {
+      "id": "unknown-reason",
+      "passed": true
+    },
+    {
+      "id": "already-prefixed",
+      "passed": true
+    },
+    {
+      "id": "local-anger",
+      "passed": true
+    }
+  ],
+  "replay": [
+    {
+      "label": "prefix",
+      "error": "REPLAY_LOCK_MISMATCH",
+      "rejected": true
+    },
+    {
+      "label": "body",
+      "error": "REPLAY_LOCK_MISMATCH",
+      "rejected": true
+    },
+    {
+      "label": "relation",
+      "error": "REPLAY_LOCK_MISMATCH",
+      "rejected": true
+    },
+    {
+      "label": "version",
+      "error": "REPLAY_LOCK_MISMATCH",
+      "rejected": true
+    }
+  ],
+  "originalSource": [
+    {
+      "slot": "claim",
+      "rejected": true
+    },
+    {
+      "slot": "reason",
+      "rejected": true
+    }
+  ],
+  "errors": [],
+  "codeHashesStart": {
+    "packages/core/constructions.ts": "017b9c2fac4dea491469c32b580a2d9a9597c58625e3da5107b633695916b4da",
+    "dist/packages/core/constructions.js": "0e6f9b0d93abbdadd98069dac38f2d9d8191f83481d2aea3e91bd5bdeea79a82",
+    "packages/core/discourse-constructions.ts": "8d0b4b43d64d76ec98e15cc7074762fc550f23561d7d0d879b6d9e6f2ba275a6",
+    "dist/packages/core/discourse-constructions.js": "44fa42e7261edf506b6f6e4f09acf010775642e5874c72895e0d77b9694311e5",
+    "packages/core/construction-edits.ts": "cee0c07c20673d5b191daa3b9b20ea23f55777f2976f303eadf628a219cbb54d",
+    "dist/packages/core/construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+    "packages/core/construction-diagnostics.ts": "45f972638a9f0481a2327641c2453590d2539c6e26a2f4fa6596543566ae0803",
+    "dist/packages/core/construction-diagnostics.js": "2e48b6e5b2b6912052ebf2d1954d9fd6571f2e6f88d83dc83b2edb4c65d9ec0f",
+    "packages/core/grammar-scope.ts": "f9c209d7f2679c12d1b2202229dee36aeb03e6329bdb8dc3d18438610954b88f",
+    "dist/packages/core/grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+    "packages/core/facts.ts": "d8637b21ff3b7b923a6f4a39d34a9fe8d4f7a94bbe3ad1ab2a464145b8834b94",
+    "dist/packages/core/facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+    "packages/core/rewrite-validation.ts": "ba3a5540c7285f052b44af1fc5ac86201c28e1d82759c9f264da16672ec68ac2",
+    "dist/packages/core/rewrite-validation.js": "296b51df06c3ab1a7410fb130bd2d543adf1a0f75e5dbc20ace0b0a645df4ee7",
+    "packages/core/rewrite-rules.ts": "ead0121b5db5982504af531cd0f80e862bb46407dc7fe06fc5dc4818c0155ee4",
+    "dist/packages/core/rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+    "packages/core/validator.ts": "6f5b2f3fb7af30f8e9e9bca9ffa547f9cfad186d5f67e6533a807dcb80eca78d",
+    "dist/packages/core/validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc",
+    "packages/core/engine.ts": "3b4f93bf7a7ce37445b07bbc971f17ea13f756af9903c3122275e4c445aa4394",
+    "dist/packages/core/engine.js": "efbf2caa7deec2fe8f8d39d839dacf7d223d57409de1f131fdb3242ccdb2b3d7",
+    "packages/core/semantic.ts": "c97fdbeda7cbf935d7d5eb776be6388d0639b5865b26f5d65c0931117e919413",
+    "dist/packages/core/semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+    "packages/core/replay.ts": "a44625629171834fe34a0367c7bc12226c48a9194707505c8e98b5da11ad7a60",
+    "dist/packages/core/replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d"
+  },
+  "parser": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "finishedAt": "2026-10-02T08:29:02.401Z",
+  "codeHashesEnd": {
+    "packages/core/constructions.ts": "017b9c2fac4dea491469c32b580a2d9a9597c58625e3da5107b633695916b4da",
+    "dist/packages/core/constructions.js": "0e6f9b0d93abbdadd98069dac38f2d9d8191f83481d2aea3e91bd5bdeea79a82",
+    "packages/core/discourse-constructions.ts": "8d0b4b43d64d76ec98e15cc7074762fc550f23561d7d0d879b6d9e6f2ba275a6",
+    "dist/packages/core/discourse-constructions.js": "44fa42e7261edf506b6f6e4f09acf010775642e5874c72895e0d77b9694311e5",
+    "packages/core/construction-edits.ts": "cee0c07c20673d5b191daa3b9b20ea23f55777f2976f303eadf628a219cbb54d",
+    "dist/packages/core/construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+    "packages/core/construction-diagnostics.ts": "45f972638a9f0481a2327641c2453590d2539c6e26a2f4fa6596543566ae0803",
+    "dist/packages/core/construction-diagnostics.js": "2e48b6e5b2b6912052ebf2d1954d9fd6571f2e6f88d83dc83b2edb4c65d9ec0f",
+    "packages/core/grammar-scope.ts": "f9c209d7f2679c12d1b2202229dee36aeb03e6329bdb8dc3d18438610954b88f",
+    "dist/packages/core/grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+    "packages/core/facts.ts": "d8637b21ff3b7b923a6f4a39d34a9fe8d4f7a94bbe3ad1ab2a464145b8834b94",
+    "dist/packages/core/facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+    "packages/core/rewrite-validation.ts": "ba3a5540c7285f052b44af1fc5ac86201c28e1d82759c9f264da16672ec68ac2",
+    "dist/packages/core/rewrite-validation.js": "296b51df06c3ab1a7410fb130bd2d543adf1a0f75e5dbc20ace0b0a645df4ee7",
+    "packages/core/rewrite-rules.ts": "ead0121b5db5982504af531cd0f80e862bb46407dc7fe06fc5dc4818c0155ee4",
+    "dist/packages/core/rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+    "packages/core/validator.ts": "6f5b2f3fb7af30f8e9e9bca9ffa547f9cfad186d5f67e6533a807dcb80eca78d",
+    "dist/packages/core/validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc",
+    "packages/core/engine.ts": "3b4f93bf7a7ce37445b07bbc971f17ea13f756af9903c3122275e4c445aa4394",
+    "dist/packages/core/engine.js": "efbf2caa7deec2fe8f8d39d839dacf7d223d57409de1f131fdb3242ccdb2b3d7",
+    "packages/core/semantic.ts": "c97fdbeda7cbf935d7d5eb776be6388d0639b5865b26f5d65c0931117e919413",
+    "dist/packages/core/semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+    "packages/core/replay.ts": "a44625629171834fe34a0367c7bc12226c48a9194707505c8e98b5da11ad7a60",
+    "dist/packages/core/replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d"
+  },
+  "stableCode": true,
+  "scriptHash": "574b13a2f3709b1ecaad3ad2fe345d7feaf403fe9e3787754b95d3318e8ff795",
+  "summary": {
+    "cases": 17,
+    "mutations": 397,
+    "schemaMutations": 24,
+    "mapping": 18,
+    "errors": 0,
+    "stableCode": true
+  }
+}

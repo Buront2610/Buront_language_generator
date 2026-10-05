@@ -1,0 +1,1388 @@
+[
+  {
+    "type": "candidate",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "54259e05cec40e0d999e781d",
+      "planId": "57cdc7e12236cb456927f9d6",
+      "text": "俺はその展示を選んだ\n写真のアッピルが強いからだ",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-linebreak-0+appiru+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "cee121e05f6655da43e5d675",
+      "planId": "01d3362a70b965d99523375a",
+      "text": "俺はその展示を選んだからな\n写真のアッピルが強いからだ",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-11+punctuation-linebreak-0+appiru+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 11,
+        "end": 25
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 11,
+        "end": 25
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 11,
+        "end": 25
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 11,
+        "end": 25
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 11,
+        "end": 25
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 11,
+        "end": 25
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "343dc204b33d81a9c15838a3",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "85fd9906595f9edd7cf893f6",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "a94d3821db5d535f4138e183",
+      "planId": "343dc204b33d81a9c15838a3",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "a94d3821db5d535f4138e183",
+      "planId": "343dc204b33d81a9c15838a3",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "22a3c8feedb47e7afe8bbd9d",
+      "planId": "85fd9906595f9edd7cf893f6",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "a649070e6cc3423fdb8cb8597fc1a0823473d29ca4ac1d9da778f624ef4ad777",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "22a3c8feedb47e7afe8bbd9d",
+      "planId": "85fd9906595f9edd7cf893f6",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "input",
+    "id": "F02",
+    "group": "final_held_out",
+    "category": "new reason topic with polite copula",
+    "source": "急行を使った。移動の速度が必要だからです。"
+  },
+  {
+    "type": "run",
+    "id": "F02",
+    "intensity": 2,
+    "displayedTextOrderChanged": true,
+    "before": {
+      "intensity": 2,
+      "generationMs": 129.161,
+      "selectedCandidateId": "d38bf05bb6d68d750a3f7fc8",
+      "displayedIds": [
+        {
+          "id": "d38bf05bb6d68d750a3f7fc8",
+          "planId": "104b1c61d016984087f04150"
+        },
+        {
+          "id": "cea114fc3f97636b64e20528",
+          "planId": "47df2cfd2711d274c1d8c5b4"
+        },
+        {
+          "id": "1c3c7f61fe24655d20bb0027",
+          "planId": "1e2f5dc7cce382f936e789ed"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 6,
+        "selectedIds": [
+          "d38bf05bb6d68d750a3f7fc8",
+          "cea114fc3f97636b64e20528",
+          "1c3c7f61fe24655d20bb0027"
+        ],
+        "selectionHash": "1e0619d323950893e50c86a72828713ad55e346dd00c570567d1cc1429f073c7"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 160.016,
+      "selectedCandidateId": "c984ff9cbd0e9881bb5f1668",
+      "displayedIds": [
+        {
+          "id": "c984ff9cbd0e9881bb5f1668",
+          "planId": "f9b8a94f402b4a60cd489a2a"
+        },
+        {
+          "id": "9c9a50f23d92596d25796f7d",
+          "planId": "12d1aee14b83cdfbb2dad429"
+        },
+        {
+          "id": "1c3c7f61fe24655d20bb0027",
+          "planId": "1e2f5dc7cce382f936e789ed"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 8,
+        "selectedIds": [
+          "c984ff9cbd0e9881bb5f1668",
+          "9c9a50f23d92596d25796f7d",
+          "1c3c7f61fe24655d20bb0027"
+        ],
+        "selectionHash": "c244c2e5665606526e9d79fbbe9e4a685615cb2372ee449bd65cc325423b2840"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "65e13d8b6e0686a612cd9a0b",
+      "planId": "a8623016469662e9b02de17f",
+      "text": "急行を使った\n何故なら移動の速度が必要だからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 20
+          },
+          "from": "移動の速度が必要だからです",
+          "to": "何故なら移動の速度が必要だからです",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "急行を使った。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 7,
+                "end": 20
+              },
+              "text": "移動の速度が必要だからです",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "から",
+              "tokenIds": [
+                11
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 13,
+                "end": 15
+              },
+              "text": "必要",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "d38bf05bb6d68d750a3f7fc8",
+      "planId": "104b1c61d016984087f04150",
+      "text": "急行を使ったからな\n何故なら移動の速度が必要だからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 20
+          },
+          "from": "移動の速度が必要だからです",
+          "to": "何故なら移動の速度が必要だからです",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "急行を使った。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 7,
+                "end": 20
+              },
+              "text": "移動の速度が必要だからです",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "から",
+              "tokenIds": [
+                11
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 13,
+                "end": 15
+              },
+              "text": "必要",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "5f804511047afe9e1dee725d",
+      "planId": "9181a7c762849fb56da2ad7e",
+      "text": "急行を使った\n移動の速さとスピードが必要だからです",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "cea114fc3f97636b64e20528",
+      "planId": "47df2cfd2711d274c1d8c5b4",
+      "text": "急行を使った\n移動の速さとスピードが必要だからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+velocity-doubling+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 18,
+            "end": 20
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "9c9a50f23d92596d25796f7d",
+      "planId": "12d1aee14b83cdfbb2dad429",
+      "text": "急行を使ったからな\n移動の速さとスピードが必要だからです",
+      "operator": "REWRITE",
+      "family": "ending-insistence-21+punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "1c3c7f61fe24655d20bb0027",
+      "planId": "1e2f5dc7cce382f936e789ed",
+      "text": "急行を使った\n移動の速度が必要だからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 18,
+            "end": 20
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

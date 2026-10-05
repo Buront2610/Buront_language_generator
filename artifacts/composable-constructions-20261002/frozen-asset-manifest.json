@@ -1,0 +1,68 @@
+{
+  "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2",
+  "fileSha256": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+  "manifest": {
+    "schemaVersion": 1,
+    "files": {
+      "log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+      "quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+      "archive-series.json": "271646e323a081f5f3ab32547c56eb8faf98f8397762929b181dc7d383121879",
+      "style-model.json": "87e0e6acc8c7703b64864e5b97c6b713d68bd788ff3ae3b0c4c473269979d6e3",
+      "novel-model.json": "2912afb0ec73c015b1a3188803784556948617ebcfb101b6eed80232b957d857"
+    },
+    "compiledEvidence": "4154e91b8f0c0638e54c05b3c3ff8e69c55bc736041f842be31b142b67e859f6",
+    "originalPosts": "2ece95636cd5fbfedb58a6bd5504c85f7d160673bc0fd3225e1074a2dabd598d",
+    "quoteGrouping": "variant-weight/leakage-split-v2",
+    "seriesProfiles": "b3296bd016b498f71c4c37734584792adc72f84502668c701cadc0d71aa85ebe",
+    "engine": {
+      "schemaVersion": 1,
+      "sourceHash": "d87b605957d07029e7096e2ad26573ab4b70ef689ea50349d237153cc43e3f67",
+      "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+      "workingTreeDirty": true,
+      "runtime": "node24-python3.11",
+      "safetyContract": "v1"
+    },
+    "parser": "ja_ginza",
+    "dictionary": "ddfba38955614c6ab52a840ef60b70d1b4054773c7184f8e2b2fa460e6493895",
+    "rules": "3c2d10feb8f699e1300163a2ca077518594c03a43705c7f1c58d812705c28742",
+    "index": "minisearch-7/intl-word-nfkc-grouped-v2",
+    "annotations": "none",
+    "evaluator": "untrained",
+    "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+    "sourceMetadata": {
+      "localLog": {
+        "filename": "burontlog.txt",
+        "bytes": 873652,
+        "sha256": "983ba86ddf086d7bc842d91c66a4bc1bab940c126682b436538d5df7a68df752"
+      },
+      "archive": {
+        "baseUrl": "https://kenkyonanight.xxxxxxxx.jp/",
+        "partHashes": {
+          "buront3_posts_01.js": "22dcae4d06ec9156c5a5bc2fb7755063faeab0fcc9b915559790a47cd6fcbb81",
+          "buront3_posts_02.js": "a1a2badfce760133dc80b2031bc06700796177eb7d36545e1c8e464fe5f1bba2",
+          "buront3_posts_03.js": "33bf0249848a7d538bccb971a4589ba7b4acacdeba259f29b07a2f438a340272",
+          "buront3_posts_04.js": "1a3aebc7e5d8e188065e89be653caf56ca7eae983a5a48fe93a102e24bf4a462",
+          "buront3_posts_05.js": "e5aec590de38eb6b6d637fbae1c8294a76871a2f2100e97e4d4848cc879a3803"
+        }
+      }
+    },
+    "quoteSource": {
+      "url": "https://kenkyonanight.xxxxxxxx.jp/goroku.html",
+      "title": "名言集っぽいの",
+      "encoding": "shift_jis",
+      "bytes": 240539,
+      "sha256": "4e00cf7d842150db81c65525a10fb3bb9a78e9d7666e791ac4f7c403deaa8adf",
+      "decodedSha256": "27845d84e81697f1009c2dd9f3a3644a49309eae76d2a051700aa2102ff6755c",
+      "originalLogSha256": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8"
+    },
+    "rights": "unverified-local-only",
+    "sourceTypes": [
+      "original_posts",
+      "original_sentences",
+      "quote_headings",
+      "quote_emphasis",
+      "adaptation_works"
+    ],
+    "reproducible": true
+  }
+}

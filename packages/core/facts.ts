@@ -1,6 +1,6 @@
 import type { Analysis, DocumentIR, Fact, GenerationRequest, SourceDocument, Span, Argument } from '../contracts';
 import { slice, overlaps } from './source';
-import { propositionScopes, hasInflection } from './grammar-scope';
+import { propositionScopes, isPastAuxiliary } from './grammar-scope';
 export function extractFacts(source: SourceDocument, analysis: Analysis, request: GenerationRequest): DocumentIR {
   const entities: DocumentIR['entities'] = [], facts: Fact[] = [];
   const predicateFacts = new Map<number, string>(), tokenFacts = new Map<number, string>();
@@ -40,7 +40,7 @@ export function extractFacts(source: SourceDocument, analysis: Analysis, request
       const speakerToken = grammar.reportSource ?? (reportHead ? tokens.find(token => token.head === reportHead.id && token.dep === 'nsubj') : undefined);
       predicateFacts.set(predicate.id, `fact-${facts.length}`);
       for (const token of scopedTokens) tokenFacts.set(token.id, `fact-${facts.length}`);
-      const past = associated.some(token => (token.lemma === 'た' || hasInflection(token, '助動詞-タ;')) && token.dep === 'aux' && !hasInflection(token, '仮定形'));
+      const past = associated.some(isPastAuxiliary);
       facts.push({ id: `fact-${facts.length}`, sourceSpan: factSpan, predicateSpan: predicate.span, predicateLemma: predicate.lemma, arguments: args,
         polarity: ambiguous ? 'unknown' : negative ? 'negative' : 'positive',
         realization: ambiguous ? 'unknown' : hypothetical ? 'hypothetical' : grammar.speculative ? 'unknown' : prospective ? 'prospective' : 'actual',

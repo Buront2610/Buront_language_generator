@@ -1,0 +1,1665 @@
+[
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "03e2d171ba59c33f9b4aff04",
+      "planId": "25e7a79270b16d3e089d66a4",
+      "text": "時既に時間切れだった",
+      "operator": "CONSTRUCTION",
+      "family": "already-expired",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "time-expired",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 9
+          },
+          "from": "もう時間切れでした",
+          "to": "時既に時間切れだった",
+          "bindings": [
+            {
+              "slot": "time",
+              "span": {
+                "start": 0,
+                "end": 2
+              },
+              "text": "もう",
+              "tokenIds": [
+                0
+              ]
+            },
+            {
+              "slot": "state",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01944_f7cb32dab8e25e5a_7155"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "time-expired"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "97dafe2025cc04476caee462",
+      "planId": "47cde14af8de32bb4156904a",
+      "text": "もう時間切れでした",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "1f715b2557d7b64ad114c1d6",
+      "planId": "97b76698c28dfc3cdfca1de4",
+      "text": "もう時間切れだった",
+      "operator": "REWRITE",
+      "family": "ending-plain-9+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だった",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "5351bac6144538daf837e3c0",
+      "planId": "eaac4c9205f1dc7cf542a8f3",
+      "text": "もう時間切れだったからな",
+      "operator": "REWRITE",
+      "family": "ending-insistence-9+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だったからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "03e2d171ba59c33f9b4aff04",
+      "planId": "2b4562395b10e993fdd7b641",
+      "text": "時既に時間切れだった",
+      "operator": "CONSTRUCTION",
+      "family": "already-expired",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "time-expired",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 9
+          },
+          "from": "もう時間切れでした",
+          "to": "時既に時間切れだった",
+          "bindings": [
+            {
+              "slot": "time",
+              "span": {
+                "start": 0,
+                "end": 2
+              },
+              "text": "もう",
+              "tokenIds": [
+                0
+              ]
+            },
+            {
+              "slot": "state",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            }
+          ],
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01944_f7cb32dab8e25e5a_7155"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "time-expired"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "97dafe2025cc04476caee462",
+      "planId": "47cde14af8de32bb4156904a",
+      "text": "もう時間切れでした",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "1f715b2557d7b64ad114c1d6",
+      "planId": "97b76698c28dfc3cdfca1de4",
+      "text": "もう時間切れだった",
+      "operator": "REWRITE",
+      "family": "ending-plain-9+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だった",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "5351bac6144538daf837e3c0",
+      "planId": "eaac4c9205f1dc7cf542a8f3",
+      "text": "もう時間切れだったからな",
+      "operator": "REWRITE",
+      "family": "ending-insistence-9+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だったからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "registered_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": "2b4562395b10e993fdd7b641",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": "97b76698c28dfc3cdfca1de4",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-plain-9",
+      "sourceSpan": {
+        "start": 6,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": "eaac4c9205f1dc7cf542a8f3",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-insistence-9",
+      "sourceSpan": {
+        "start": 6,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": "03e2d171ba59c33f9b4aff04",
+      "planId": "2b4562395b10e993fdd7b641",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": "03e2d171ba59c33f9b4aff04",
+      "planId": "2b4562395b10e993fdd7b641",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "run",
+    "id": "P03",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 39.664,
+      "selectedCandidateId": "03e2d171ba59c33f9b4aff04",
+      "displayedIds": [
+        {
+          "id": "03e2d171ba59c33f9b4aff04",
+          "planId": "3baca07a805e8952fa765bf8"
+        },
+        {
+          "id": "97dafe2025cc04476caee462",
+          "planId": "aa0482e696b4e9c961f48315"
+        },
+        {
+          "id": "5351bac6144538daf837e3c0",
+          "planId": "a2be3b85e776acf78ef18e34"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "03e2d171ba59c33f9b4aff04",
+          "97dafe2025cc04476caee462",
+          "5351bac6144538daf837e3c0"
+        ],
+        "selectionHash": "d8148e4930d60f4ba44cc2ef4aae54c0406c3a2a24b655e07ec6334b6950fde0"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 26.212,
+      "selectedCandidateId": "03e2d171ba59c33f9b4aff04",
+      "displayedIds": [
+        {
+          "id": "03e2d171ba59c33f9b4aff04",
+          "planId": "a7cd85b13f81aab6eac4a5b3"
+        },
+        {
+          "id": "97dafe2025cc04476caee462",
+          "planId": "aa0482e696b4e9c961f48315"
+        },
+        {
+          "id": "5351bac6144538daf837e3c0",
+          "planId": "a2be3b85e776acf78ef18e34"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "03e2d171ba59c33f9b4aff04",
+          "97dafe2025cc04476caee462",
+          "5351bac6144538daf837e3c0"
+        ],
+        "selectionHash": "af2c438b49e04accdfe4a224f97ed8d1f8b82ba4d5c0f9ac0104c1f28d3a636a"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "03e2d171ba59c33f9b4aff04",
+      "planId": "3baca07a805e8952fa765bf8",
+      "text": "時既に時間切れだった",
+      "operator": "CONSTRUCTION",
+      "family": "already-expired",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "time-expired",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 9
+          },
+          "from": "もう時間切れでした",
+          "to": "時既に時間切れだった",
+          "bindings": [
+            {
+              "slot": "time",
+              "span": {
+                "start": 0,
+                "end": 2
+              },
+              "text": "もう",
+              "tokenIds": [
+                0
+              ]
+            },
+            {
+              "slot": "state",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01944_f7cb32dab8e25e5a_7155"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "time-expired"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "97dafe2025cc04476caee462",
+      "planId": "aa0482e696b4e9c961f48315",
+      "text": "もう時間切れでした",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "1f715b2557d7b64ad114c1d6",
+      "planId": "6e34d52a9c72df44698d7a61",
+      "text": "もう時間切れだった",
+      "operator": "REWRITE",
+      "family": "ending-plain-9+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だった",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "5351bac6144538daf837e3c0",
+      "planId": "a2be3b85e776acf78ef18e34",
+      "text": "もう時間切れだったからな",
+      "operator": "REWRITE",
+      "family": "ending-insistence-9+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だったからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "03e2d171ba59c33f9b4aff04",
+      "planId": "a7cd85b13f81aab6eac4a5b3",
+      "text": "時既に時間切れだった",
+      "operator": "CONSTRUCTION",
+      "family": "already-expired",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "time-expired",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 9
+          },
+          "from": "もう時間切れでした",
+          "to": "時既に時間切れだった",
+          "bindings": [
+            {
+              "slot": "time",
+              "span": {
+                "start": 0,
+                "end": 2
+              },
+              "text": "もう",
+              "tokenIds": [
+                0
+              ]
+            },
+            {
+              "slot": "state",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 2,
+                "end": 6
+              },
+              "text": "時間切れ",
+              "tokenIds": [
+                1
+              ]
+            }
+          ],
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01944_f7cb32dab8e25e5a_7155"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "time-expired"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "97dafe2025cc04476caee462",
+      "planId": "aa0482e696b4e9c961f48315",
+      "text": "もう時間切れでした",
+      "operator": "REWRITE",
+      "family": "punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "1f715b2557d7b64ad114c1d6",
+      "planId": "6e34d52a9c72df44698d7a61",
+      "text": "もう時間切れだった",
+      "operator": "REWRITE",
+      "family": "ending-plain-9+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だった",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "5351bac6144538daf837e3c0",
+      "planId": "a2be3b85e776acf78ef18e34",
+      "text": "もう時間切れだったからな",
+      "operator": "REWRITE",
+      "family": "ending-insistence-9+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-9",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 9
+          },
+          "from": "でした",
+          "to": "だったからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "registered_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  }
+]

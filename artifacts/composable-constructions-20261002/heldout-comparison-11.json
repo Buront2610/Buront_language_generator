@@ -1,0 +1,1611 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "eee20703ed23ec4bdeb8e112",
+      "planId": "b0612d02a93c12a38ea045f1",
+      "sourceSpan": {
+        "start": 10,
+        "end": 10
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "run",
+    "id": "F05",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 83.685,
+      "selectedCandidateId": "eee20703ed23ec4bdeb8e112",
+      "displayedIds": [
+        {
+          "id": "eee20703ed23ec4bdeb8e112",
+          "planId": "d904035d7389388bcb926da0"
+        },
+        {
+          "id": "24bc1f3be33703e39509df3e",
+          "planId": "b9d7b525fb9753e883f46c54"
+        },
+        {
+          "id": "a729df9a137c56672d4c043f",
+          "planId": "ce3406b0970422121e8dca1b"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "eee20703ed23ec4bdeb8e112",
+          "24bc1f3be33703e39509df3e",
+          "a729df9a137c56672d4c043f"
+        ],
+        "selectionHash": "abfd8ccf126eb71ee7f9a2920165de948b80c1de3fe94e4035f074f3800031c4"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 79.577,
+      "selectedCandidateId": "eee20703ed23ec4bdeb8e112",
+      "displayedIds": [
+        {
+          "id": "eee20703ed23ec4bdeb8e112",
+          "planId": "feb9788b3e40561f210aefc1"
+        },
+        {
+          "id": "24bc1f3be33703e39509df3e",
+          "planId": "b9d7b525fb9753e883f46c54"
+        },
+        {
+          "id": "a729df9a137c56672d4c043f",
+          "planId": "ce3406b0970422121e8dca1b"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "eee20703ed23ec4bdeb8e112",
+          "24bc1f3be33703e39509df3e",
+          "a729df9a137c56672d4c043f"
+        ],
+        "selectionHash": "097f01a5056bfb244fae80eaa78d7ae22c299d87b4a629ad6566b8cc1d8fdbb5"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "43d8f3c6ebd565156e3bbf72",
+      "planId": "586cc4ecc2450b6368e739d0",
+      "text": "今日は窓を開けない\n何故なら外の空気が暖かくないからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 23
+          },
+          "from": "外の空気が暖かくないからだ",
+          "to": "何故なら外の空気が暖かくないからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "今日は窓を開けない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "外の空気が暖かくないからだ",
+              "tokenIds": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 20,
+                "end": 22
+              },
+              "text": "から",
+              "tokenIds": [
+                13
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 18,
+                "end": 20
+              },
+              "text": "ない",
+              "tokenIds": [
+                12
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "eee20703ed23ec4bdeb8e112",
+      "planId": "d904035d7389388bcb926da0",
+      "text": "今日は窓を開けないからな\n何故なら外の空気が暖かくないからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 9
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 23
+          },
+          "from": "外の空気が暖かくないからだ",
+          "to": "何故なら外の空気が暖かくないからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "今日は窓を開けない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "外の空気が暖かくないからだ",
+              "tokenIds": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 20,
+                "end": 22
+              },
+              "text": "から",
+              "tokenIds": [
+                13
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 18,
+                "end": 20
+              },
+              "text": "ない",
+              "tokenIds": [
+                12
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "24bc1f3be33703e39509df3e",
+      "planId": "b9d7b525fb9753e883f46c54",
+      "text": "今日は窓を開けない\n外の空気が暖かくないからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "a729df9a137c56672d4c043f",
+      "planId": "ce3406b0970422121e8dca1b",
+      "text": "今日は窓を開けないからな\n外の空気が暖かくないからだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 9
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "43d8f3c6ebd565156e3bbf72",
+      "planId": "e1e22c9d1f481ea965294758",
+      "text": "今日は窓を開けない\n何故なら外の空気が暖かくないからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 10
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "今日は窓を開けない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "外の空気が暖かくないからだ",
+              "tokenIds": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 20,
+                "end": 22
+              },
+              "text": "から",
+              "tokenIds": [
+                13
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 18,
+                "end": 20
+              },
+              "text": "ない",
+              "tokenIds": [
+                12
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 10
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 10,
+                  "end": 23
+                },
+                "tokenIds": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 13,
+                "span": {
+                  "start": 20,
+                  "end": 22
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 12,
+                "span": {
+                  "start": 18,
+                  "end": 20
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 14,
+                "span": {
+                  "start": 22,
+                  "end": 23
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 12,
+                "factId": "fact-1",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 10,
+              "end": 23
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "eee20703ed23ec4bdeb8e112",
+      "planId": "feb9788b3e40561f210aefc1",
+      "text": "今日は窓を開けないからな\n何故なら外の空気が暖かくないからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 9
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 10
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "今日は窓を開けない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "外の空気が暖かくないからだ",
+              "tokenIds": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 20,
+                "end": 22
+              },
+              "text": "から",
+              "tokenIds": [
+                13
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 18,
+                "end": 20
+              },
+              "text": "ない",
+              "tokenIds": [
+                12
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 10
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 10,
+                  "end": 23
+                },
+                "tokenIds": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 13,
+                "span": {
+                  "start": 20,
+                  "end": 22
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 12,
+                "span": {
+                  "start": 18,
+                  "end": 20
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 14,
+                "span": {
+                  "start": 22,
+                  "end": 23
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 12,
+                "factId": "fact-1",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 10,
+              "end": 23
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "24bc1f3be33703e39509df3e",
+      "planId": "b9d7b525fb9753e883f46c54",
+      "text": "今日は窓を開けない\n外の空気が暖かくないからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "a729df9a137c56672d4c043f",
+      "planId": "ce3406b0970422121e8dca1b",
+      "text": "今日は窓を開けないからな\n外の空気が暖かくないからだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 9
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "e1e22c9d1f481ea965294758",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "feb9788b3e40561f210aefc1",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "43d8f3c6ebd565156e3bbf72",
+      "planId": "e1e22c9d1f481ea965294758",
+      "sourceSpan": {
+        "start": 10,
+        "end": 10
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F05",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9bbf319c51686d9edb4e6903306362ad1a4c355a88c067fa6b94a0f6b50d95d1",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "43d8f3c6ebd565156e3bbf72",
+      "planId": "e1e22c9d1f481ea965294758",
+      "sourceSpan": {
+        "start": 10,
+        "end": 10
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  }
+]

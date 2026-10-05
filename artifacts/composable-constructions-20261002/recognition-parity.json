@@ -1,0 +1,7317 @@
+{
+  "baselineCommit": "24972be7eab0530f7c1e895d4912dca7cc258209",
+  "command": "node scripts/compare-discourse-recognition.cjs /workspace/shared/pr4-baseline-24972be7 artifacts/composable-constructions-20261002/recognition-parity.json",
+  "sourceDigests": [
+    {
+      "file": "packages/core/discourse-constructions.ts",
+      "before": "6d0d1056bcf591f0b01bc4088c84db3c87e853b4ff272139a1fbe5f6b64fbd4a",
+      "after": "b4e5400f1428fd60b8aadfe1c4b17a5bdc8a41205d86233925deeaf0c977decf"
+    },
+    {
+      "file": "packages/core/grammar-scope.ts",
+      "before": "abe6d13e4bf566eac9d6a2883efc4fe8762e078acd54711f88ea5843c705f814",
+      "after": "f9c209d7f2679c12d1b2202229dee36aeb03e6329bdb8dc3d18438610954b88f"
+    },
+    {
+      "file": "packages/core/facts.ts",
+      "before": "9605d800365f575396fb45d55601aef857adf3006e7af41943a089e2edeeb6b4",
+      "after": "d8637b21ff3b7b923a6f4a39d34a9fe8d4f7a94bbe3ad1ab2a464145b8834b94"
+    }
+  ],
+  "comparison": "construction kind, fact ID, node ID, and all original source bindings including spans/text/token IDs; excludes changed version/output/prefix sourceSpan and new proof payload",
+  "exceptionScope": [
+    "Voiced past AUX recognition accepts lemma だ only when Inflection is exactly 助動詞-タ, shared with fact extraction",
+    "Whitespace-only immediate antecedents are rejected rather than skipped, closing a scope bypass; no broader relation inference",
+    "A predicate-owned desire AUX たい or Inflection 助動詞-タイ cannot license a modest-achievement frame even with genuine past AUX; this preexisting hole was found by independent source review, not held-out evaluation"
+  ],
+  "original": {
+    "inputCount": 179,
+    "comparisonCount": 358,
+    "unchangedComparisonCount": 358,
+    "changedComparisonCount": 0,
+    "retainedRelationCount": 11,
+    "addedRelationCount": 0,
+    "removedRelationCount": 0,
+    "rows": [
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 0,
+        "source": "時既に時間切れだ",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 0,
+        "source": "時既に時間切れだ",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 1,
+        "source": "時既に時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 1,
+        "source": "時既に時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 2,
+        "source": "時既に時間切れだった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 2,
+        "source": "時既に時間切れだった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 3,
+        "source": "時 既に時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 3,
+        "source": "時 既に時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 4,
+        "source": "時既に時間切れだ。既に時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 4,
+        "source": "時既に時間切れだ。既に時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 5,
+        "source": "既に時間切れだ。時既に時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-idempotence.json",
+        "index": 5,
+        "source": "既に時間切れだ。時既に時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 0,
+        "source": "怒りが頂点に達した！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 0,
+        "source": "怒りが頂点に達した！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 1,
+        "source": "怒りが頂点に達した！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 1,
+        "source": "怒りが頂点に達した！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 2,
+        "source": "怒りが頂点に達した!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 2,
+        "source": "怒りが頂点に達した!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 3,
+        "source": "怒りが頂点に達した!!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 3,
+        "source": "怒りが頂点に達した!!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 4,
+        "source": "怒りが頂点に達した！！\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 4,
+        "source": "怒りが頂点に達した！！\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 5,
+        "source": "怒りが頂点に達した!!\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 5,
+        "source": "怒りが頂点に達した!!\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 6,
+        "source": "怒りが頂点に達した。\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 6,
+        "source": "怒りが頂点に達した。\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 7,
+        "source": "とても悲しかった！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 7,
+        "source": "とても悲しかった！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 8,
+        "source": "とても悲しかった！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 8,
+        "source": "とても悲しかった！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 9,
+        "source": "とても悲しかった!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 9,
+        "source": "とても悲しかった!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 10,
+        "source": "とても悲しかった!!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 10,
+        "source": "とても悲しかった!!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 11,
+        "source": "とても悲しかった！！\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 11,
+        "source": "とても悲しかった！！\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 12,
+        "source": "とても悲しかった!!\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 12,
+        "source": "とても悲しかった!!\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 13,
+        "source": "とても悲しかった。\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 13,
+        "source": "とても悲しかった。\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 14,
+        "source": "すでに時間切れだ！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 14,
+        "source": "すでに時間切れだ！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 15,
+        "source": "すでに時間切れだ！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 15,
+        "source": "すでに時間切れだ！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 16,
+        "source": "すでに時間切れだ!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 16,
+        "source": "すでに時間切れだ!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 17,
+        "source": "すでに時間切れだ!!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 17,
+        "source": "すでに時間切れだ!!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 18,
+        "source": "すでに時間切れだ！！\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 18,
+        "source": "すでに時間切れだ！！\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 19,
+        "source": "すでに時間切れだ!!\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 19,
+        "source": "すでに時間切れだ!!\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 20,
+        "source": "すでに時間切れだ。\n",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-punctuation.json",
+        "index": 20,
+        "source": "すでに時間切れだ。\n",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 0,
+        "source": "怒りが頂点に達した！？",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 0,
+        "source": "怒りが頂点に達した！？",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 1,
+        "source": "怒りが頂点に達した?!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 1,
+        "source": "怒りが頂点に達した?!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 2,
+        "source": "怒りが頂点に達した！！？",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 2,
+        "source": "怒りが頂点に達した！！？",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 3,
+        "source": "「怒りが頂点に達した！！」",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 3,
+        "source": "「怒りが頂点に達した！！」",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 4,
+        "source": "（怒りが頂点に達した！！）",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 4,
+        "source": "（怒りが頂点に達した！！）",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 5,
+        "source": "怒りが頂点に達したら帰る！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 5,
+        "source": "怒りが頂点に達したら帰る！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 6,
+        "source": "怒りが頂点に達したかもしれない！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 6,
+        "source": "怒りが頂点に達したかもしれない！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 7,
+        "source": "とても悲しかったら帰る!!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 7,
+        "source": "とても悲しかったら帰る!!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 8,
+        "source": "とても悲しいらしい！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 8,
+        "source": "とても悲しいらしい！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 9,
+        "source": "すでに時間切れだ！？",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 9,
+        "source": "すでに時間切れだ！？",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 10,
+        "source": "「すでに時間切れだ！！」",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 10,
+        "source": "「すでに時間切れだ！！」",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 11,
+        "source": "すでに時間切れだったら帰る!!",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 11,
+        "source": "すでに時間切れだったら帰る!!",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 12,
+        "source": "もう時間切れかもしれない！！",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-construction-safeguards.json",
+        "index": 12,
+        "source": "もう時間切れかもしれない！！",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-contrast-boundaries.json",
+        "index": 0,
+        "source": "この傘は軽い。しかしながら値段は高い。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-contrast-boundaries.json",
+        "index": 0,
+        "source": "この傘は軽い。しかしながら値段は高い。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-contrast-boundaries.json",
+        "index": 1,
+        "source": "この傘は軽い。しかしながらも値段は高い。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-contrast-boundaries.json",
+        "index": 1,
+        "source": "この傘は軽い。しかしながらも値段は高い。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-contrast.json",
+        "index": 0,
+        "source": "この傘は軽い。しかし値段は高い。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-contrast.json",
+        "index": 0,
+        "source": "この傘は軽い。しかし値段は高い。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "bindings": [
+              {
+                "slot": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 7
+                },
+                "text": "この傘は軽い。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "slot": "contrast",
+                "span": {
+                  "start": 7,
+                  "end": 15
+                },
+                "text": "しかし値段は高い",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 7,
+                  "end": 10
+                },
+                "text": "しかし",
+                "tokenIds": [
+                  5
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 13,
+                  "end": 15
+                },
+                "text": "高い",
+                "tokenIds": [
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "bindings": [
+              {
+                "slot": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 7
+                },
+                "text": "この傘は軽い。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "slot": "contrast",
+                "span": {
+                  "start": 7,
+                  "end": 15
+                },
+                "text": "しかし値段は高い",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 7,
+                  "end": 10
+                },
+                "text": "しかし",
+                "tokenIds": [
+                  5
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 13,
+                  "end": 15
+                },
+                "text": "高い",
+                "tokenIds": [
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-modesty.json",
+        "index": 0,
+        "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 40
+                },
+                "text": "故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 40
+                },
+                "text": "故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-modesty.json",
+        "index": 0,
+        "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 40
+                },
+                "text": "故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 40
+                },
+                "text": "故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-reason.json",
+        "index": 0,
+        "source": "電車のほうがよいと思う。安いからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "電車のほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 17
+                },
+                "text": "安いからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 14,
+                  "end": 16
+                },
+                "text": "から",
+                "tokenIds": [
+                  9
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 12,
+                  "end": 14
+                },
+                "text": "安い",
+                "tokenIds": [
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "電車のほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 17
+                },
+                "text": "安いからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 14,
+                  "end": 16
+                },
+                "text": "から",
+                "tokenIds": [
+                  9
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 12,
+                  "end": 14
+                },
+                "text": "安い",
+                "tokenIds": [
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-reason.json",
+        "index": 0,
+        "source": "電車のほうがよいと思う。安いからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "電車のほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 17
+                },
+                "text": "安いからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 14,
+                  "end": 16
+                },
+                "text": "から",
+                "tokenIds": [
+                  9
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 12,
+                  "end": 14
+                },
+                "text": "安い",
+                "tokenIds": [
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "電車のほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 17
+                },
+                "text": "安いからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 14,
+                  "end": 16
+                },
+                "text": "から",
+                "tokenIds": [
+                  9
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 12,
+                  "end": 14
+                },
+                "text": "安い",
+                "tokenIds": [
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-reason.json",
+        "index": 1,
+        "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "その案には賛成できない。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 36
+                },
+                "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 33,
+                  "end": 35
+                },
+                "text": "から",
+                "tokenIds": [
+                  21
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 30,
+                  "end": 33
+                },
+                "text": "かかる",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "その案には賛成できない。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 36
+                },
+                "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 33,
+                  "end": 35
+                },
+                "text": "から",
+                "tokenIds": [
+                  21
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 30,
+                  "end": 33
+                },
+                "text": "かかる",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-reason.json",
+        "index": 1,
+        "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "その案には賛成できない。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 36
+                },
+                "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 33,
+                  "end": 35
+                },
+                "text": "から",
+                "tokenIds": [
+                  21
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 30,
+                  "end": 33
+                },
+                "text": "かかる",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "text": "その案には賛成できない。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 36
+                },
+                "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 33,
+                  "end": 35
+                },
+                "text": "から",
+                "tokenIds": [
+                  21
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 30,
+                  "end": 33
+                },
+                "text": "かかる",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 0,
+        "source": "雨だから安全だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 0,
+        "source": "雨だから安全だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 1,
+        "source": "雨だからだが、私は健康だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 1,
+        "source": "雨だからだが、私は健康だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 2,
+        "source": "雨だからだ。私は健康だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 2,
+        "source": "雨だからだ。私は健康だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 3,
+        "source": "私は健康だ。雨だからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 6
+                },
+                "text": "私は健康だ。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 6,
+                  "end": 11
+                },
+                "text": "雨だからだ",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 8,
+                  "end": 10
+                },
+                "text": "から",
+                "tokenIds": [
+                  7
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "雨",
+                "tokenIds": [
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 6
+                },
+                "text": "私は健康だ。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 6,
+                  "end": 11
+                },
+                "text": "雨だからだ",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 8,
+                  "end": 10
+                },
+                "text": "から",
+                "tokenIds": [
+                  7
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "雨",
+                "tokenIds": [
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 3,
+        "source": "私は健康だ。雨だからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 6
+                },
+                "text": "私は健康だ。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 6,
+                  "end": 11
+                },
+                "text": "雨だからだ",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 8,
+                  "end": 10
+                },
+                "text": "から",
+                "tokenIds": [
+                  7
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "雨",
+                "tokenIds": [
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 6
+                },
+                "text": "私は健康だ。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 6,
+                  "end": 11
+                },
+                "text": "雨だからだ",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 8,
+                  "end": 10
+                },
+                "text": "から",
+                "tokenIds": [
+                  7
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "雨",
+                "tokenIds": [
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 4,
+        "source": "「雨だからだ」と彼は言った。私は健康だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 4,
+        "source": "「雨だからだ」と彼は言った。私は健康だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 5,
+        "source": "「雨だからだ。」",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 5,
+        "source": "「雨だからだ。」",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 6,
+        "source": "（雨だからだ。）",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 6,
+        "source": "（雨だからだ。）",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 7,
+        "source": "「雨だからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 7,
+        "source": "「雨だからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 8,
+        "source": "彼は雨だからだと言った。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 8,
+        "source": "彼は雨だからだと言った。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 9,
+        "source": "雨だからだと思う。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 9,
+        "source": "雨だからだと思う。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 10,
+        "source": "雨だからでしょう。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 10,
+        "source": "雨だからでしょう。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 11,
+        "source": "もし雨だからだとしたら、私は確認する。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 11,
+        "source": "もし雨だからだとしたら、私は確認する。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 12,
+        "source": "雨だからだ？",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 12,
+        "source": "雨だからだ？",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 13,
+        "source": "😀田中から３冊もらったからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 13,
+        "source": "😀田中から３冊もらったからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 14,
+        "source": "到着は３時だからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula-safeguards.json",
+        "index": 14,
+        "source": "到着は３時だからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 0,
+        "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-5",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 17
+                },
+                "text": "車より電車で行くほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 17,
+                  "end": 42
+                },
+                "text": "駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+                "tokenIds": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 39,
+                  "end": 41
+                },
+                "text": "から",
+                "tokenIds": [
+                  22
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 34,
+                  "end": 36
+                },
+                "text": "読み",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-5",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 17
+                },
+                "text": "車より電車で行くほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 17,
+                  "end": 42
+                },
+                "text": "駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+                "tokenIds": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 39,
+                  "end": 41
+                },
+                "text": "から",
+                "tokenIds": [
+                  22
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 34,
+                  "end": 36
+                },
+                "text": "読み",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 0,
+        "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-5",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 17
+                },
+                "text": "車より電車で行くほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 17,
+                  "end": 42
+                },
+                "text": "駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+                "tokenIds": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 39,
+                  "end": 41
+                },
+                "text": "から",
+                "tokenIds": [
+                  22
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 34,
+                  "end": 36
+                },
+                "text": "読み",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-1",
+            "kind": "explicit-reason",
+            "factId": "fact-5",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 17
+                },
+                "text": "車より電車で行くほうがよいと思う。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 17,
+                  "end": 42
+                },
+                "text": "駐車場を探す必要がなく、到着時刻も読みやすいからだ",
+                "tokenIds": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 39,
+                  "end": 41
+                },
+                "text": "から",
+                "tokenIds": [
+                  22
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 34,
+                  "end": 36
+                },
+                "text": "読み",
+                "tokenIds": [
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 1,
+        "source": "来るからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 1,
+        "source": "来るからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 2,
+        "source": "楽しいからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 2,
+        "source": "楽しいからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 3,
+        "source": "雨だからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 3,
+        "source": "雨だからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 4,
+        "source": "雨だったからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 4,
+        "source": "雨だったからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 5,
+        "source": "来るからだった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 5,
+        "source": "来るからだった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 6,
+        "source": "来るからです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 6,
+        "source": "来るからです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 7,
+        "source": "来るからでした。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 7,
+        "source": "来るからでした。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 8,
+        "source": "来るから だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 8,
+        "source": "来るから だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 9,
+        "source": "必要がないからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 9,
+        "source": "必要がないからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 10,
+        "source": "必要がなかったからだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 10,
+        "source": "必要がなかったからだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 11,
+        "source": "来るからではない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 11,
+        "source": "来るからではない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 12,
+        "source": "雨だからではなかった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 12,
+        "source": "雨だからではなかった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 13,
+        "source": "来るからではありません。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 13,
+        "source": "来るからではありません。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 14,
+        "source": "雨だからな。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 14,
+        "source": "雨だからな。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 15,
+        "source": "来るからな。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 15,
+        "source": "来るからな。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 16,
+        "source": "雨だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 16,
+        "source": "雨だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 17,
+        "source": "雨です。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 17,
+        "source": "雨です。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 18,
+        "source": "雨だった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 18,
+        "source": "雨だった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 19,
+        "source": "雨でした。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 19,
+        "source": "雨でした。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 20,
+        "source": "空からだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 20,
+        "source": "空からだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 21,
+        "source": "空からです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 21,
+        "source": "空からです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 22,
+        "source": "からだは健康だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 22,
+        "source": "からだは健康だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 23,
+        "source": "田中から３冊もらった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-explanatory-copula.json",
+        "index": 23,
+        "source": "田中から３冊もらった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 0,
+        "source": "来てもとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 0,
+        "source": "来てもとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 1,
+        "source": "来たとしたらとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 1,
+        "source": "来たとしたらとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 2,
+        "source": "来るとするととても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 2,
+        "source": "来るとするととても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 3,
+        "source": "来たとしてとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 3,
+        "source": "来たとしてとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 4,
+        "source": "来ないととても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 4,
+        "source": "来ないととても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 5,
+        "source": "来ると休む。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 5,
+        "source": "来ると休む。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 6,
+        "source": "来ると私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 6,
+        "source": "来ると私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 7,
+        "source": "来たとしてもとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 7,
+        "source": "来たとしてもとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 8,
+        "source": "来た時はとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 8,
+        "source": "来た時はとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 9,
+        "source": "来た際はとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 9,
+        "source": "来た際はとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 10,
+        "source": "多分とても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 10,
+        "source": "多分とても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 11,
+        "source": "たぶんとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 11,
+        "source": "たぶんとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 12,
+        "source": "おそらく怒りが頂点に達した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 12,
+        "source": "おそらく怒りが頂点に達した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 13,
+        "source": "恐らくすでに時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 13,
+        "source": "恐らくすでに時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 14,
+        "source": "きっととても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 14,
+        "source": "きっととても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 15,
+        "source": "もしかするととても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 15,
+        "source": "もしかするととても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 16,
+        "source": "ひょっとすると時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 16,
+        "source": "ひょっとすると時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 17,
+        "source": "田中によると怒りが頂点に達した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 17,
+        "source": "田中によると怒りが頂点に達した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 18,
+        "source": "田中によれば怒りが頂点に達した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 18,
+        "source": "田中によれば怒りが頂点に達した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 19,
+        "source": "報告によるとすでに時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 19,
+        "source": "報告によるとすでに時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 20,
+        "source": "噂では怒りが頂点に達した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 20,
+        "source": "噂では怒りが頂点に達した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 21,
+        "source": "田中の話ではとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 21,
+        "source": "田中の話ではとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 22,
+        "source": "田中によると彼は来たが、私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 22,
+        "source": "田中によると彼は来たが、私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 23,
+        "source": "もし来ないととても悲しいが、私は作業した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 23,
+        "source": "もし来ないととても悲しいが、私は作業した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 24,
+        "source": "彼と私はとても悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 24,
+        "source": "彼と私はとても悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 25,
+        "source": "多分野にわたる研究は素晴らしい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 25,
+        "source": "多分野にわたる研究は素晴らしい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 26,
+        "source": "田中によって怒りが頂点に達した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 26,
+        "source": "田中によって怒りが頂点に達した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 27,
+        "source": "全員に助言したが、雰囲気は悪かった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 27,
+        "source": "全員に助言したが、雰囲気は悪かった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 28,
+        "source": "素晴らしい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 28,
+        "source": "素晴らしい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 29,
+        "source": "素晴らしいです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 29,
+        "source": "素晴らしいです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 30,
+        "source": "おもしろい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 30,
+        "source": "おもしろい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 31,
+        "source": "おもしろいです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 31,
+        "source": "おもしろいです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 32,
+        "source": "来るらしい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 32,
+        "source": "来るらしい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 33,
+        "source": "来るそうだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 33,
+        "source": "来るそうだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 34,
+        "source": "来るようだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 34,
+        "source": "来るようだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 35,
+        "source": "来るでしょう。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 35,
+        "source": "来るでしょう。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 36,
+        "source": "来るかもしれない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 36,
+        "source": "来るかもしれない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 37,
+        "source": "来ると思う。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 37,
+        "source": "来ると思う。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 38,
+        "source": "もし来たら、私は確認する。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 38,
+        "source": "もし来たら、私は確認する。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 39,
+        "source": "来れば休む。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 39,
+        "source": "来れば休む。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 40,
+        "source": "雨なら休む。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 40,
+        "source": "雨なら休む。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 41,
+        "source": "来る場合は確認する。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 41,
+        "source": "来る場合は確認する。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 42,
+        "source": "もし来たら確認するが、私は今日は休む。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 42,
+        "source": "もし来たら確認するが、私は今日は休む。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 43,
+        "source": "危険がない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 43,
+        "source": "危険がない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 44,
+        "source": "危険ではない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 44,
+        "source": "危険ではない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 45,
+        "source": "危険はなかった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 45,
+        "source": "危険はなかった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 46,
+        "source": "悲しくない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 46,
+        "source": "悲しくない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 47,
+        "source": "悲しくないです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 47,
+        "source": "悲しくないです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 48,
+        "source": "彼が来るらしいが、私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 48,
+        "source": "彼が来るらしいが、私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 49,
+        "source": "彼は「私は来る」と言ったが、私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 49,
+        "source": "彼は「私は来る」と言ったが、私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 50,
+        "source": "来ると聞いたが、私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 50,
+        "source": "来ると聞いたが、私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 51,
+        "source": "私は助言したと田中が言った。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 51,
+        "source": "私は助言したと田中が言った。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 52,
+        "source": "来るとの報告だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 52,
+        "source": "来るとの報告だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 53,
+        "source": "彼が来るという話だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 53,
+        "source": "彼が来るという話だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 54,
+        "source": "来ないとは限らない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 54,
+        "source": "来ないとは限らない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 55,
+        "source": "来ないわけではない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 55,
+        "source": "来ないわけではない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 56,
+        "source": "私は明日確認する予定だ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 56,
+        "source": "私は明日確認する予定だ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 57,
+        "source": "私は来るはずだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 57,
+        "source": "私は来るはずだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 58,
+        "source": "来てください。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 58,
+        "source": "来てください。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 59,
+        "source": "来るのか。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 59,
+        "source": "来るのか。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 60,
+        "source": "確認してくれてありがとうございます。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 60,
+        "source": "確認してくれてありがとうございます。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 61,
+        "source": "昨日確認したが、彼は来るらしい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 61,
+        "source": "昨日確認したが、彼は来るらしい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 62,
+        "source": "危険がないと私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 62,
+        "source": "危険がないと私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 63,
+        "source": "彼は来るが、私は来ない。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 63,
+        "source": "彼は来るが、私は来ない。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 64,
+        "source": "寒かったです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 64,
+        "source": "寒かったです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 65,
+        "source": "食べました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 65,
+        "source": "食べました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 66,
+        "source": "食べませんでした。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 66,
+        "source": "食べませんでした。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 67,
+        "source": "悲しいです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 67,
+        "source": "悲しいです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 68,
+        "source": "騒がしいです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 68,
+        "source": "騒がしいです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 69,
+        "source": "同じです。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 69,
+        "source": "同じです。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 70,
+        "source": "勉強します。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 70,
+        "source": "勉強します。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 71,
+        "source": "話します。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 71,
+        "source": "話します。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 72,
+        "source": "話しました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 72,
+        "source": "話しました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 73,
+        "source": "渡した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 73,
+        "source": "渡した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 74,
+        "source": "果たした。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 74,
+        "source": "果たした。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 75,
+        "source": "許します。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 75,
+        "source": "許します。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 76,
+        "source": "読んだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 76,
+        "source": "読んだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 77,
+        "source": "私は確認しませんでした。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 77,
+        "source": "私は確認しませんでした。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 78,
+        "source": "私は確認した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 78,
+        "source": "私は確認した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 79,
+        "source": "私は確認しました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 79,
+        "source": "私は確認しました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 80,
+        "source": "私は行く。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 80,
+        "source": "私は行く。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 81,
+        "source": "雨だった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 81,
+        "source": "雨だった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 82,
+        "source": "今日は寒い。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 82,
+        "source": "今日は寒い。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 83,
+        "source": "私は助けました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 83,
+        "source": "私は助けました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 84,
+        "source": "私は助けませんでした。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 84,
+        "source": "私は助けませんでした。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 85,
+        "source": "私は疲れました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 85,
+        "source": "私は疲れました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 86,
+        "source": "私は終わりました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 86,
+        "source": "私は終わりました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 87,
+        "source": "私は怒りが頂点に達した。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 87,
+        "source": "私は怒りが頂点に達した。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 88,
+        "source": "太郎の怒りが頂点に達しました。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 88,
+        "source": "太郎の怒りが頂点に達しました。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 89,
+        "source": "怒りが頂点に達する。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 89,
+        "source": "怒りが頂点に達する。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 90,
+        "source": "私はとても悲しかった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 90,
+        "source": "私はとても悲しかった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 91,
+        "source": "太郎は大変悲しい。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 91,
+        "source": "太郎は大変悲しい。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 92,
+        "source": "すでに時間切れだ。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 92,
+        "source": "すでに時間切れだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 93,
+        "source": "もう時間切れだった。",
+        "intensity": 2,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-grammar-scope.json",
+        "index": 93,
+        "source": "もう時間切れだった。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      }
+    ]
+  },
+  "deliberateExceptions": {
+    "inputCount": 26,
+    "comparisonCount": 26,
+    "unchangedComparisonCount": 18,
+    "changedComparisonCount": 8,
+    "retainedRelationCount": 3,
+    "addedRelationCount": 2,
+    "removedRelationCount": 6,
+    "rows": [
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 0,
+        "source": "大したことはしていない。届けただけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 19
+                },
+                "text": "届けただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 19
+                },
+                "text": "届けただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 1,
+        "source": "大したことはしていない。運んだだけだ。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 19
+                },
+                "text": "運んだだけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 0,
+        "added": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 19
+                },
+                "text": "運んだだけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 2,
+        "source": "大したことはしていない。荷物を届けただけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 22
+                },
+                "text": "荷物を届けただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 22
+                },
+                "text": "荷物を届けただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 3,
+        "source": "大したことはしていない。荷物を運んだだけだ。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 22
+                },
+                "text": "荷物を運んだだけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 0,
+        "added": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 22
+                },
+                "text": "荷物を運んだだけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 4,
+        "source": "大したことはしていない。機械を修理しただけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 23
+                },
+                "text": "機械を修理しただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 23
+                },
+                "text": "機械を修理しただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "retainedCount": 1,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 5,
+        "source": "大したことはしていない。荷物を運ぶだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 6,
+        "source": "大したことはしていない。荷物を運ばなかっただけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 7,
+        "source": "大したことはしていない。太郎が荷物を運んだだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 8,
+        "source": "大したことはしていない。荷物を運んだだけだと思う。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 9,
+        "source": "大したことはしていない。太郎と荷物を運んだだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 10,
+        "source": "大したことはしていない。「荷物を運んだだけだ。」",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 11,
+        "source": "大したことはしていない。荷物を運んだだけだ？",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 12,
+        "source": "大したことはしていない。もし荷物を運んだなら、帰る。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-past.json",
+        "index": 13,
+        "source": "大したことはしていない。荷物を運んでいるだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-context-boundaries.json",
+        "index": 0,
+        "source": "電車がよいらしい。\n私には速さが大切だからです。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 9,
+                  "end": 10
+                },
+                "text": "\n",
+                "tokenIds": [
+                  5
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 10,
+                  "end": 23
+                },
+                "text": "私には速さが大切だからです",
+                "tokenIds": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 19,
+                  "end": 21
+                },
+                "text": "から",
+                "tokenIds": [
+                  13
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "大切",
+                "tokenIds": [
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 9,
+                  "end": 10
+                },
+                "text": "\n",
+                "tokenIds": [
+                  5
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 10,
+                  "end": 23
+                },
+                "text": "私には速さが大切だからです",
+                "tokenIds": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 19,
+                  "end": 21
+                },
+                "text": "から",
+                "tokenIds": [
+                  13
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "大切",
+                "tokenIds": [
+                  11
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fixture": "ginza-discourse-context-boundaries.json",
+        "index": 1,
+        "source": "電車を選ぶ？\n私には速さが大切だからです。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "\n",
+                "tokenIds": [
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 7,
+                  "end": 20
+                },
+                "text": "私には速さが大切だからです",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "から",
+                "tokenIds": [
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 13,
+                  "end": 15
+                },
+                "text": "大切",
+                "tokenIds": [
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "\n",
+                "tokenIds": [
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 7,
+                  "end": 20
+                },
+                "text": "私には速さが大切だからです",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "から",
+                "tokenIds": [
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 13,
+                  "end": 15
+                },
+                "text": "大切",
+                "tokenIds": [
+                  10
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fixture": "ginza-discourse-context-boundaries.json",
+        "index": 2,
+        "source": "電車がよいらしい。\n \nしかし私には速さが大切です。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-context-boundaries.json",
+        "index": 3,
+        "source": "電車を選ぶ？\n \nしかし私には速さが大切です。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-context-boundaries.json",
+        "index": 4,
+        "source": "電車を選ぶ。\n私には速さが大切だからです。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "\n",
+                "tokenIds": [
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 7,
+                  "end": 20
+                },
+                "text": "私には速さが大切だからです",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "から",
+                "tokenIds": [
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 13,
+                  "end": 15
+                },
+                "text": "大切",
+                "tokenIds": [
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "\n",
+                "tokenIds": [
+                  4
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 7,
+                  "end": 20
+                },
+                "text": "私には速さが大切だからです",
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "から",
+                "tokenIds": [
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 13,
+                  "end": 15
+                },
+                "text": "大切",
+                "tokenIds": [
+                  10
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fixture": "ginza-discourse-context-boundaries.json",
+        "index": 5,
+        "source": "この傘は軽い。\n \nしかし値段は高い。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-contrast",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "antecedent",
+                "span": {
+                  "start": 7,
+                  "end": 10
+                },
+                "text": "\n \n",
+                "tokenIds": [
+                  5
+                ]
+              },
+              {
+                "slot": "contrast",
+                "span": {
+                  "start": 10,
+                  "end": 18
+                },
+                "text": "しかし値段は高い",
+                "tokenIds": [
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 10,
+                  "end": 13
+                },
+                "text": "しかし",
+                "tokenIds": [
+                  6
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "高い",
+                "tokenIds": [
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": [
+          {
+            "nodeId": "fact-node-2",
+            "kind": "explicit-contrast",
+            "factId": "fact-2",
+            "bindings": [
+              {
+                "slot": "antecedent",
+                "span": {
+                  "start": 7,
+                  "end": 10
+                },
+                "text": "\n \n",
+                "tokenIds": [
+                  5
+                ]
+              },
+              {
+                "slot": "contrast",
+                "span": {
+                  "start": 10,
+                  "end": 18
+                },
+                "text": "しかし値段は高い",
+                "tokenIds": [
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 10,
+                  "end": 13
+                },
+                "text": "しかし",
+                "tokenIds": [
+                  6
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 16,
+                  "end": 18
+                },
+                "text": "高い",
+                "tokenIds": [
+                  9
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fixture": "ginza-discourse-desire.json",
+        "index": 0,
+        "source": "大したことはしていない。私は荷物を運びたいだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-desire.json",
+        "index": 1,
+        "source": "大したことはしていない。私は荷物を届けたいだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-desire.json",
+        "index": 2,
+        "source": "大したことはしていない。私は荷物を運びたかっただけだ。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 27
+                },
+                "text": "私は荷物を運びたかっただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 27
+                },
+                "text": "私は荷物を運びたかっただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fixture": "ginza-discourse-desire.json",
+        "index": 3,
+        "source": "大したことはしていない。私は荷物を届けたかっただけだ。",
+        "intensity": 3,
+        "status": "changed",
+        "before": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 27
+                },
+                "text": "私は荷物を届けたかっただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": [
+          {
+            "nodeId": "fact-node-0",
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "bindings": [
+              {
+                "slot": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "大したことはしていない",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "slot": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 27
+                },
+                "text": "私は荷物を届けたかっただけだ。",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 6,
+                  "end": 7
+                },
+                "text": "し",
+                "tokenIds": [
+                  3
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fixture": "ginza-discourse-desire.json",
+        "index": 4,
+        "source": "大したことはしていない。私は荷物を運びたくないだけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      },
+      {
+        "fixture": "ginza-discourse-desire.json",
+        "index": 5,
+        "source": "大したことはしていない。私は荷物を運びたくなかっただけだ。",
+        "intensity": 3,
+        "status": "unchanged",
+        "before": [],
+        "after": [],
+        "retainedCount": 0,
+        "added": [],
+        "removed": []
+      }
+    ]
+  }
+}

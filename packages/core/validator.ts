@@ -4,16 +4,37 @@ import { discourseLabels, factsIn, planNarrative, planIntent, roleOf, equivalent
 import { validateSurface, validateDiscourse, type SeriesProfile } from './series';
 import { validateRewrite } from './rewrite-validation';
 import { validateConstruction } from './constructions';
+import { constructionEdits } from './construction-edits';
+import { renderEdits } from './rewrite-validation';
 import { validateRhetoric } from './rhetoric-validation';
 export function realize(plan: QuotePlan, ir?: DocumentIR) {
   let text = '', length = 0; const spans: OutputSpan[] = [];
+  const edits = plan.construction ? constructionEdits(plan) : [];
   for (const node of plan.nodes) {
     const start = length;
     // Preserve cumulative scalar counting even for a malformed plan splitting
     // a surrogate pair between nodes (later validation still rejects it).
     const joinedPair = /[\uD800-\uDBFF]$/.test(text) && /^[\uDC00-\uDFFF]/.test(node.text);
     text += node.text; length += [...node.text].length - Number(joinedPair);
-    if (node.text) spans.push({ span: { start, end: length }, nodeId: node.id,
+    const local = edits.filter(edit => edit.nodeId === node.id);
+    // Composed plans expose the prefix's zero-width source, every independently
+    // permitted local edit, and exact copied body fragments separately.
+    if (ir && node.sourceSpan && local.length && renderEdits(ir.source.raw, node, local.map(edit => ({ ...edit, ruleId: 'ruleId' in edit ? edit.ruleId : edit.constructionId }))) === node.text) {
+      let sourceCursor = node.sourceSpan.start, outputCursor = start;
+      const append = (value: string, sourceSpan: OutputSpan['sourceSpan'], origin: OutputSpan['origin'], evidenceIds: string[]) => {
+        if (!value) return;
+        const end = outputCursor + [...value].length;
+        spans.push({ span: { start: outputCursor, end }, nodeId: node.id, origin, sourceSpan, factIds: node.factIds, evidenceIds }); outputCursor = end;
+      };
+      for (const edit of local) {
+        const copied = { start: sourceCursor, end: edit.sourceSpan.start };
+        append(slice(ir.source.raw, copied), copied, 'source_fact', []);
+        append(edit.to, edit.sourceSpan, 'paraphrase', edit.evidenceIds);
+        sourceCursor = edit.sourceSpan.end;
+      }
+      const copied = { start: sourceCursor, end: node.sourceSpan.end };
+      append(slice(ir.source.raw, copied), copied, 'source_fact', []);
+    } else if (node.text) spans.push({ span: { start, end: length }, nodeId: node.id,
       origin: node.type === 'FactClause' ? ir && node.sourceSpan && slice(ir.source.raw, node.sourceSpan) !== node.text ? 'paraphrase' : 'source_fact' : node.type === 'Reference' ? 'direct_quote' : 'rhetoric', sourceSpan: node.sourceSpan, factIds: node.factIds, evidenceIds: node.evidenceIds });
   }
   return { text, spans };
@@ -31,7 +52,7 @@ export function validateCandidate(ir: DocumentIR, plan: QuotePlan, text: string,
     try { return hash(signature(original)) !== hash(signature(node.text)); }
     catch { return true; }
   });
-  const exactFacts = facts.every(node => node.sourceSpan && (rewriteValid || constructionValid || equivalentEvent(ir, node.sourceSpan, node.text)) && spans.some(span => span.nodeId === node.id && slice(text, span.span) === node.text));
+  const exactFacts = facts.every(node => node.sourceSpan && (rewriteValid || constructionValid || equivalentEvent(ir, node.sourceSpan, node.text)) && spans.filter(span => span.nodeId === node.id).map(span => slice(text, span.span)).join('') === node.text);
   const orderedFacts = [...facts].sort((a, b) => (a.sourceSpan?.start ?? -1) - (b.sourceSpan?.start ?? -1));
   let factIndex = 0;
   const coverage = ir.adoptedSpans.every(adopted => {

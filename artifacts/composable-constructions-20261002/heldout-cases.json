@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-02T08:34:05.035824+00:00",
+  "protocol": "Final heldout v2: new full sources authored and sealed after an independent source reviewer invalidated the initial freeze, before final corrected-engine evaluation. Original H01–H12 are now audit-exposed and separately archived. These F01–F12 inputs/results are not shared for implementation or tuning; exactly one frozen-final run. Manually authored near-domain transfer/control sample, not a blinded natural corpus or human-quality test.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "literary-style-eval-20261002",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "F01",
+      "group": "final_held_out",
+      "category": "new lexical trigger inside reason",
+      "source": "私はその展示を選んだ。写真のアピールが強いからだ。"
+    },
+    {
+      "id": "F02",
+      "group": "final_held_out",
+      "category": "new reason topic with polite copula",
+      "source": "急行を使った。移動の速度が必要だからです。"
+    },
+    {
+      "id": "F03",
+      "group": "final_held_out",
+      "category": "new voiced-past limited deed",
+      "source": "大したことはしていない。倉庫から道具を外へ運んだだけだ。"
+    },
+    {
+      "id": "F04",
+      "group": "final_held_out",
+      "category": "new completed deed and object",
+      "source": "大したことはしていない。余った板で小さな棚を作っただけだ。"
+    },
+    {
+      "id": "F05",
+      "group": "final_held_out",
+      "category": "new negative premise",
+      "source": "今日は窓を開けない。外の空気が暖かくないからだ。"
+    },
+    {
+      "id": "F06",
+      "group": "final_held_out",
+      "category": "fresh attributed contrast",
+      "source": "佐藤は「この方法は簡単だ」と言った。しかし、私はまだ試していない。"
+    },
+    {
+      "id": "F07",
+      "group": "final_held_out",
+      "category": "fresh protected value and contrast",
+      "source": "この便の送料は500円だ。しかし、到着まで三日かかる。"
+    },
+    {
+      "id": "F08",
+      "group": "final_held_out",
+      "category": "reason expression confined to quotation",
+      "source": "私は「準備を急ごう。速度が重要だからだ」と書き残した。"
+    },
+    {
+      "id": "F09",
+      "group": "final_held_out",
+      "category": "ordinary new thanks",
+      "source": "遅い時間まで待ってくれてありがとう。忘れ物を届けてもらえて助かった。"
+    },
+    {
+      "id": "F10",
+      "group": "final_held_out",
+      "category": "ordinary new conditional uncertainty",
+      "source": "もし風が強くなったら、船は出ないかもしれない。今のところ予定は変わっていない。"
+    },
+    {
+      "id": "F11",
+      "group": "final_held_out",
+      "category": "ordinary new narrative",
+      "source": "売店で切符を買った。ホームには人が少なかった。私は端の椅子に座って本を開いた。"
+    },
+    {
+      "id": "F12",
+      "group": "final_held_out",
+      "category": "temporal source with first person",
+      "source": "私は午後に会場へ行く。受付は二時からです。"
+    }
+  ]
+}

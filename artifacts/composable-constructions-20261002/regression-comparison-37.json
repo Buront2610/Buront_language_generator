@@ -1,0 +1,1343 @@
+[
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "80f2ea72e2bc8e6323e0235f",
+      "planId": "0ad20ae63259fcd98ef631a6",
+      "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "2101501f630188b611a6944a",
+      "planId": "8036fb84dde8d2cd13e434f9",
+      "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "unsupported_form",
+      "reason": "requested_intensity_has_no_registered_form",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T13",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 7,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "T13",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 56.065,
+      "selectedCandidateId": "a565b7de57041be08e5b9da3",
+      "displayedIds": [
+        {
+          "id": "a565b7de57041be08e5b9da3",
+          "planId": "ea999c6ea4ff3a4379d93f51"
+        },
+        {
+          "id": "80f2ea72e2bc8e6323e0235f",
+          "planId": "8b35422dce09062f302f0a8d"
+        },
+        {
+          "id": "2101501f630188b611a6944a",
+          "planId": "04106fd6eb1ee42f4cd907e3"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "a565b7de57041be08e5b9da3",
+          "80f2ea72e2bc8e6323e0235f",
+          "2101501f630188b611a6944a"
+        ],
+        "selectionHash": "b47a57d5e4247dd4d81e9343990bff58943fc6323736c3cd946851db309ab063"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 46.563,
+      "selectedCandidateId": "a565b7de57041be08e5b9da3",
+      "displayedIds": [
+        {
+          "id": "a565b7de57041be08e5b9da3",
+          "planId": "db53ce06467682a6a42b147d"
+        },
+        {
+          "id": "80f2ea72e2bc8e6323e0235f",
+          "planId": "8b35422dce09062f302f0a8d"
+        },
+        {
+          "id": "2101501f630188b611a6944a",
+          "planId": "04106fd6eb1ee42f4cd907e3"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "a565b7de57041be08e5b9da3",
+          "80f2ea72e2bc8e6323e0235f",
+          "2101501f630188b611a6944a"
+        ],
+        "selectionHash": "b4d94ee608ae56e6446acccc45aa78c903d72209b7e536d5158eb3c63876413f"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "a2de1cc676918d97c83a689b",
+      "planId": "20d93bb9e5a32cfe2a580ecb",
+      "text": "この道は近い\nだが夜は暗くて歩きにくい",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "この道は近い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 7,
+                "end": 21
+              },
+              "text": "しかし、夜は暗くて歩きにくい",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 7,
+                "end": 10
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "歩き",
+              "tokenIds": [
+                11
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "a565b7de57041be08e5b9da3",
+      "planId": "ea999c6ea4ff3a4379d93f51",
+      "text": "この道は近いからな\nだが夜は暗くて歩きにくい",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "この道は近い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 7,
+                "end": 21
+              },
+              "text": "しかし、夜は暗くて歩きにくい",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 7,
+                "end": 10
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "歩き",
+              "tokenIds": [
+                11
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "80f2ea72e2bc8e6323e0235f",
+      "planId": "8b35422dce09062f302f0a8d",
+      "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "2101501f630188b611a6944a",
+      "planId": "04106fd6eb1ee42f4cd907e3",
+      "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T13",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "a2de1cc676918d97c83a689b",
+      "planId": "0cd9df80d22cd62cdb614b50",
+      "text": "この道は近い\nだが夜は暗くて歩きにくい",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "この道は近い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 7,
+                "end": 21
+              },
+              "text": "しかし、夜は暗くて歩きにくい",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 7,
+                "end": 10
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "歩き",
+              "tokenIds": [
+                11
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-contrast",
+            "factId": "fact-2",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 7
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "role": "contrast",
+                "span": {
+                  "start": 7,
+                  "end": 21
+                },
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 5,
+                "span": {
+                  "start": 7,
+                  "end": 10
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 11,
+                "span": {
+                  "start": 16,
+                  "end": 18
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 9,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 11,
+                "factId": "fact-2",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "558296cda3d5b24fd20eb48c442bfa3287aa221c579105a81bdc4d2df4ff009c",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

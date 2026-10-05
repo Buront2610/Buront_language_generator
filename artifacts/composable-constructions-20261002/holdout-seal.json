@@ -1,0 +1,7 @@
+{
+  "authoredAt": "2026-10-02T08:34:05.035824+00:00",
+  "heldoutFileSha256": "3ddcad8069eb8a60343ffab099047fdcafbb96fdb4ccd415d9254f699ba7197b",
+  "count": 12,
+  "protocol": "Final heldout v2: new full sources authored and sealed after an independent source reviewer invalidated the initial freeze, before final corrected-engine evaluation. Original H01–H12 are now audit-exposed and separately archived. These F01–F12 inputs/results are not shared for implementation or tuning; exactly one frozen-final run. Manually authored near-domain transfer/control sample, not a blinded natural corpus or human-quality test.",
+  "supersedesHeldoutHash": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+}

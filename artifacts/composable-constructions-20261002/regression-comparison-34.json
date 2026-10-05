@@ -1,0 +1,1576 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 29
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 29
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 29
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 29
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 29
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "df3c63390fe2b03ccb40dc7e646113bf042b5943368dd68e5a76a2f8cdd48c44",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 29
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "T10",
+    "group": "targeted_regression",
+    "category": "未達の謙遜",
+    "source": "大したことはしていない。故障の原因はまだ見つけていない。機械を動かしたわけでもない。"
+  },
+  {
+    "type": "run",
+    "id": "T10",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 53.189,
+      "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+      "displayedIds": [
+        {
+          "id": "cfe3255dfe8c8e35c1c4327f",
+          "planId": "e9fd4fedbea201e45dc7e29b"
+        },
+        {
+          "id": "b8aa5139233ccef6adfe04f0",
+          "planId": "3fd4194e1d238c5f0a997404"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "cfe3255dfe8c8e35c1c4327f",
+          "b8aa5139233ccef6adfe04f0"
+        ],
+        "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 44.357,
+      "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+      "displayedIds": [
+        {
+          "id": "cfe3255dfe8c8e35c1c4327f",
+          "planId": "e9fd4fedbea201e45dc7e29b"
+        },
+        {
+          "id": "b8aa5139233ccef6adfe04f0",
+          "planId": "3fd4194e1d238c5f0a997404"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "cfe3255dfe8c8e35c1c4327f",
+          "b8aa5139233ccef6adfe04f0"
+        ],
+        "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "b8aa5139233ccef6adfe04f0",
+      "planId": "3fd4194e1d238c5f0a997404",
+      "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "cfe3255dfe8c8e35c1c4327f",
+      "planId": "e9fd4fedbea201e45dc7e29b",
+      "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "b8aa5139233ccef6adfe04f0",
+      "planId": "3fd4194e1d238c5f0a997404",
+      "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "cfe3255dfe8c8e35c1c4327f",
+      "planId": "e9fd4fedbea201e45dc7e29b",
+      "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "achievement_not_completed_narrator_action",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "T10",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 42.4,
+      "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+      "displayedIds": [
+        {
+          "id": "cfe3255dfe8c8e35c1c4327f",
+          "planId": "631c80500c7c286d0f0384bf"
+        },
+        {
+          "id": "b8aa5139233ccef6adfe04f0",
+          "planId": "1bc2376dcc6f5c96a438bc21"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "cfe3255dfe8c8e35c1c4327f",
+          "b8aa5139233ccef6adfe04f0"
+        ],
+        "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 41.72,
+      "selectedCandidateId": "cfe3255dfe8c8e35c1c4327f",
+      "displayedIds": [
+        {
+          "id": "cfe3255dfe8c8e35c1c4327f",
+          "planId": "631c80500c7c286d0f0384bf"
+        },
+        {
+          "id": "b8aa5139233ccef6adfe04f0",
+          "planId": "1bc2376dcc6f5c96a438bc21"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "cfe3255dfe8c8e35c1c4327f",
+          "b8aa5139233ccef6adfe04f0"
+        ],
+        "selectionHash": "abd83fa04b908ffa2e694dc0e9b8ab32c5ec73602e2d025d2b18d16ceabb3c76"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "b8aa5139233ccef6adfe04f0",
+      "planId": "1bc2376dcc6f5c96a438bc21",
+      "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "cfe3255dfe8c8e35c1c4327f",
+      "planId": "631c80500c7c286d0f0384bf",
+      "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "b8aa5139233ccef6adfe04f0",
+      "planId": "1bc2376dcc6f5c96a438bc21",
+      "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "cfe3255dfe8c8e35c1c4327f",
+      "planId": "631c80500c7c286d0f0384bf",
+      "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "achievement_not_completed_narrator_action",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-02T08:21:43.661381+00:00",
+  "method": "Exact full-source search of tracked-style source/test/doc/artifact files excluding dependencies and generated runtimes; not a semantic near-duplicate guarantee.",
+  "heldoutFileSha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69",
+  "cases": [
+    {
+      "id": "H01",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H02",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H03",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H04",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H05",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H06",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H07",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H08",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H09",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H10",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H11",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "H12",
+      "exactSourcePriorHits": []
+    }
+  ]
+}

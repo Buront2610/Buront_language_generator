@@ -6,6 +6,9 @@ import type { Assets } from './assets';
 export function lockedEvidenceCompatible(plan: QuotePlan | undefined, lockedNodeIds: string[], series: string, assets: Pick<Assets, 'evidence'>): boolean {
   if (!lockedNodeIds.length) return true;
   if (!plan || lockedNodeIds.some(id => !plan.nodes.some(node => node.id === id))) return false;
+  // Old replacement-body programs cannot be silently reinterpreted as the new
+  // prefix/source-body algebra. Old replay exports also fail the engine hash.
+  if (plan.construction && (plan.construction.version !== 2 || plan.construction.edits.some(edit => !edit.operation || !['replace', 'prefix_source_body'].includes(edit.operation.kind)))) return false;
   const locked = new Set(lockedNodeIds), evidence = new Map(assets.evidence.map(item => [item.id, item]));
   const ids = new Set([
     ...plan.nodes.filter(node => locked.has(node.id)).flatMap(node => node.evidenceIds),

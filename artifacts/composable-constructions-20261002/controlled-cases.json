@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-02T08:15:14.752737+00:00",
+  "protocol": "Deliberately authored inflection, lexical and scope contrasts. Available during implementation; not held out.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "literary-style-eval-20261002",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "C01",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / plain",
+      "source": "私はこの方法を選んだ。速度が重要だからだ。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "plain"
+    },
+    {
+      "id": "C02",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / polite",
+      "source": "私はこの方法を選んだ。速度が重要だからです。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "polite"
+    },
+    {
+      "id": "C03",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / past plain",
+      "source": "私はこの方法を選んだ。速度が重要だからだった。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "past-plain"
+    },
+    {
+      "id": "C04",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / past polite",
+      "source": "私はこの方法を選んだ。速度が重要だからでした。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "past-polite"
+    },
+    {
+      "id": "C05",
+      "group": "controlled_diagnostic",
+      "category": "standalone permitted lexical edit",
+      "source": "速度が重要だ。",
+      "contrastSet": "lexical-ablation",
+      "contrastVariant": "lexical-only"
+    },
+    {
+      "id": "C06",
+      "group": "controlled_diagnostic",
+      "category": "same reason without lexical trigger",
+      "source": "私はこの方法を選んだ。時間が重要だからだ。",
+      "contrastSet": "lexical-ablation",
+      "contrastVariant": "reason-only"
+    },
+    {
+      "id": "C07",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / た",
+      "source": "大したことはしていない。荷物を届けただけだ。",
+      "contrastSet": "modesty-inflection",
+      "contrastVariant": "ta"
+    },
+    {
+      "id": "C08",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / だ",
+      "source": "大したことはしていない。荷物を運んだだけだ。",
+      "contrastSet": "modesty-inflection",
+      "contrastVariant": "da"
+    },
+    {
+      "id": "C09",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / repaired た",
+      "source": "大したことはしていない。機械を直しただけだ。",
+      "contrastSet": "modesty-lexeme",
+      "contrastVariant": "repair"
+    },
+    {
+      "id": "C10",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / open た",
+      "source": "大したことはしていない。扉を開けただけだ。",
+      "contrastSet": "modesty-lexeme",
+      "contrastVariant": "open"
+    },
+    {
+      "id": "C11",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / absent past",
+      "source": "大したことはしていない。荷物を運ぶだけだ。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "future"
+    },
+    {
+      "id": "C12",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / negation",
+      "source": "大したことはしていない。荷物を運んだわけではない。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "negated"
+    },
+    {
+      "id": "C13",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / attributed",
+      "source": "田中は「大したことはしていない。荷物を運んだだけだ」と言った。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "quoted"
+    },
+    {
+      "id": "C14",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / negative other clause",
+      "source": "大したことはしていない。機械が壊れないように、荷物を運んだだけだ。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "embedded-negative"
+    },
+    {
+      "id": "C15",
+      "group": "controlled_diagnostic",
+      "category": "contrast / lexical composition",
+      "source": "この方法は便利だ。しかし、速度が不足している。",
+      "contrastSet": "contrast-composition",
+      "contrastVariant": "lexical"
+    },
+    {
+      "id": "C16",
+      "group": "controlled_diagnostic",
+      "category": "contrast / compound connective",
+      "source": "この方法は便利だ。しかしながら、速度が不足している。",
+      "contrastSet": "contrast-composition",
+      "contrastVariant": "compound"
+    },
+    {
+      "id": "C17",
+      "group": "controlled_diagnostic",
+      "category": "temporal から / plain",
+      "source": "会議は明日だ。開始は三時からだ。",
+      "contrastSet": "kara-relation",
+      "contrastVariant": "temporal"
+    },
+    {
+      "id": "C18",
+      "group": "controlled_diagnostic",
+      "category": "reason / nonassertive",
+      "source": "この方法がよいかもしれない。速度が重要だからだろうか。",
+      "contrastSet": "reason-scope",
+      "contrastVariant": "question"
+    },
+    {
+      "id": "C19",
+      "group": "controlled_diagnostic",
+      "category": "reason / quotation",
+      "source": "田中は「この方法を選んだ。速度が重要だからだ」と言った。",
+      "contrastSet": "reason-scope",
+      "contrastVariant": "quoted"
+    },
+    {
+      "id": "C20",
+      "group": "controlled_diagnostic",
+      "category": "multiple constructions and lexical",
+      "source": "大したことはしていない。荷物を運んだだけだ。しかし、速度が重要だった。",
+      "contrastSet": "multi-construction",
+      "contrastVariant": "modesty+contrast"
+    }
+  ]
+}

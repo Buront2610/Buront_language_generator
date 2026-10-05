@@ -1,10 +1,11 @@
-import type { ConstructionBinding, ConstructionEdit, DocumentIR, Fact, GenerationRequest, PlanNode, QuotePlan, RewriteEdit, Span, Token } from '../contracts';
+import type { ConstructionBinding, ConstructionDiagnostic, ConstructionEdit, DocumentIR, Fact, GenerationRequest, PlanNode, QuotePlan, RewriteEdit, Span, Token } from '../contracts';
 import type { Assets } from './assets';
 import { hash, overlaps, slice } from './source';
 import { planIntent, planNarrative } from './planning';
 import { renderEdits, validateRewrite } from './rewrite-validation';
 import { insideEnclosure, permitsAssertiveScope, propositionScopes, type PropositionScope } from './grammar-scope';
 import { createDiscourseBinder, discourseConstructionRegistry } from './discourse-constructions';
+import { constructionEdits, constructionEditsConflict, hasConstructionEditConflicts } from './construction-edits';
 
 // Registered semantic transformations, not general paraphrase or invented quotes.
 // Slot binding, grammatical scope and every preserved feature are recomputed from
@@ -26,7 +27,9 @@ const personReference = (token: Token) => token.pos === 'PRON' && ['私', 'わ�
 const features = (fact: Fact): ConstructionEdit['features'] => ({ polarity: fact.polarity, tense: fact.tense, realization: fact.realization, completion: fact.completion, attribution: { ...fact.attribution }, voice: fact.voice });
 
 function assertivePredicate(ir: DocumentIR, fact: Fact, node: PlanNode, scopes: PropositionScope[]): Token | undefined {
-  const predicate = ir.tokens.find(token => hash(token.span) === hash(fact.predicateSpan));
+  // Span equality is numeric. Hashing both tiny objects for every scanned token
+  // multiplies crypto work in dense documents and in each independent proof.
+  const predicate = ir.tokens.find(token => token.span.start === fact.predicateSpan.start && token.span.end === fact.predicateSpan.end);
   if (!predicate || !node.sourceSpan || ir.topicOnly || predicate.dep !== 'ROOT' || fact.polarity !== 'positive' || fact.realization !== 'actual' || fact.attribution.kind !== 'narrator' || fact.voice !== 'active' || fact.tense === 'unknown') return;
   const scope = scopes.find(scope => scope.predicate.id === predicate.id);
   if (!scope || !permitsAssertiveScope(scope) || scope.negative || scope.prospective) return;
@@ -35,8 +38,9 @@ function assertivePredicate(ir: DocumentIR, fact: Fact, node: PlanNode, scopes: 
 }
 
 function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: PropositionScope[], discourse: ReturnType<typeof createDiscourseBinder>): ConstructionEdit[] {
-  if (!node.sourceSpan || intensity < 2) return [];
+  if (!node.sourceSpan) return [];
   const result: ConstructionEdit[] = discourse(node, intensity);
+  if (intensity < 2) return result;
   for (const fact of ir.facts.filter(fact => node.factIds.includes(fact.id))) {
     const predicate = assertivePredicate(ir, fact, node, scopes); if (!predicate) continue;
     const children = ir.tokens.filter(token => token.head === predicate.id && token.id !== predicate.id);
@@ -87,7 +91,7 @@ function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: 
     }
     if (!id || !span || span.start < node.sourceSpan.start || span.end > node.sourceSpan.end || insideEnclosure(ir.source.raw, span.start) || [...ir.source.opaqueSpans, ...ir.source.protectedValues.map(value => value.span)].some(value => overlaps(value, span))) continue;
     const item = registry.get(id)!;
-    result.push({ nodeId: node.id, constructionId: id, constructionVersion: item.version, realizationId: `${id}:${fact.tense}:${id === 'anger-peak' ? bindings.find(bound => bound.slot === 'marker')!.text : id === 'time-expired' ? /(?:だった|でした)$/u.test(to) ? 'past-copula' : /だ$/u.test(to) ? 'copula' : 'bare' : 'state'}`, factId: fact.id, sourceSpan: span, from: slice(ir.source.raw, span), to, bindings, features: features(fact), evidenceIds: [item.evidenceId] });
+    result.push({ nodeId: node.id, operation: { kind: 'replace' }, constructionId: id, constructionVersion: item.version, realizationId: `${id}:${fact.tense}:${id === 'anger-peak' ? bindings.find(bound => bound.slot === 'marker')!.text : id === 'time-expired' ? /(?:だった|でした)$/u.test(to) ? 'past-copula' : /だ$/u.test(to) ? 'copula' : 'bare' : 'state'}`, factId: fact.id, sourceSpan: span, from: slice(ir.source.raw, span), to, bindings, features: features(fact), evidenceIds: [item.evidenceId] });
   }
   return result;
 }
@@ -95,24 +99,46 @@ function bindForNode(ir: DocumentIR, node: PlanNode, intensity: number, scopes: 
 function renderNode(ir: DocumentIR, node: PlanNode, edits: (ConstructionEdit | RewriteEdit)[]): string {
   return renderEdits(ir.source.raw, node, edits.map(edit => ({ ...edit, ruleId: 'ruleId' in edit ? edit.ruleId : edit.constructionId })));
 }
-const allEdits = (plan: QuotePlan) => [...plan.construction!.lexicalEdits, ...plan.construction!.edits].sort((a, b) => a.sourceSpan.start - b.sourceSpan.start);
+const allEdits = constructionEdits;
 
-export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest, assets: Assets, rewritePlans: QuotePlan[]): QuotePlan[] {
-  if (request.task !== 'rewrite' || request.intensity < 2) return [];
+export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest, assets: Assets, rewritePlans: QuotePlan[], diagnostics: ConstructionDiagnostic[] = []): QuotePlan[] {
+  if (request.task !== 'rewrite') return [];
   const narrative = planNarrative(ir, 'source_order'), intentPlan = planIntent(ir);
   const empty: QuotePlan = { id: '', intent: intentPlan.act, intentPlan, narrative, mainOperator: 'CONSTRUCTION', auxiliaryOperators: [], family: '', mapping: { source: 'adopted-source', target: 'registered-semantic-constructions', relation: 'bounded-construction' }, backTranslation: '', evidenceIds: [], forbiddenEffects: intentPlan.forbiddenEffects,
     nodes: narrative.units.map((unit, i) => ({ id: `fact-node-${i}`, type: 'FactClause', text: slice(ir.source.raw, unit.sourceSpan), sourceSpan: unit.sourceSpan, factIds: unit.factIds, evidenceIds: [], mention: 'primary' })), experimental: true };
   const evidence = new Map(assets.evidence.map(item => [item.id, item]));
-  const scopes = propositionScopes(ir.source, ir), discourse = createDiscourseBinder(ir, scopes);
-  const edits = empty.nodes.flatMap(node => bindForNode(ir, node, request.intensity, scopes, discourse)).filter(edit => {
-    const item = registry.get(edit.constructionId)!, source = evidence.get(item.evidenceId);
-    return source?.sourceType === 'original_post' && source.text.includes(item.needle) && (request.series === 'all' || (item.series as readonly string[]).includes(request.series) && source.series.includes(request.series));
+  const report = (nodeId: string, constructionId: string, stage: ConstructionDiagnostic['stage'], reason: string, sourceSpan?: Span) => diagnostics.push({ inputHash: ir.source.inputHash, nodeId, constructionId, candidateId: null, planId: null, stage, reason, ...(sourceSpan ? { sourceSpan } : {}) });
+  const scopes = propositionScopes(ir.source, ir), discourse = createDiscourseBinder(ir, scopes, event => {
+    report(event.nodeId, event.kind, event.outcome, event.reason, event.sourceSpan);
+    if (event.outcome === 'recognized' && request.intensity < registry.get(event.kind)!.level) report(event.nodeId, event.kind, 'unsupported_form', 'requested_intensity_has_no_registered_form', event.sourceSpan);
   });
+  const proposals = empty.nodes.flatMap(node => {
+    const found = bindForNode(ir, node, request.intensity, scopes, discourse);
+    for (const item of constructionRegistry.filter(item => !discourseConstructionRegistry.some(discourse => discourse.id === item.id))) {
+      report(node.id, item.id, found.some(edit => edit.constructionId === item.id) ? 'recognized' : 'relation_not_recognized', found.some(edit => edit.constructionId === item.id) ? 'registered_source_binding' : 'no_registered_local_source_binding', node.sourceSpan);
+    }
+    return found;
+  });
+  const available = proposals.filter(edit => {
+    const item = registry.get(edit.constructionId)!, source = evidence.get(item.evidenceId);
+    const permitted = source?.sourceType === 'original_post' && source.text.includes(item.needle) && (request.series === 'all' || (item.series as readonly string[]).includes(request.series) && source.series.includes(request.series));
+    if (!permitted) report(edit.nodeId, edit.constructionId, 'unsupported_form', 'registered_provenance_unavailable_for_series', edit.sourceSpan);
+    return permitted;
+  });
+  const edits: ConstructionEdit[] = [];
+  for (const proposal of available) {
+    if (edits.some(edit => constructionEditsConflict(proposal, edit))) report(proposal.nodeId, proposal.constructionId, 'edit_conflict', 'conflicting_registered_construction_write', proposal.sourceSpan);
+    else edits.push(proposal);
+  }
   if (!edits.length) return [];
   const plans: QuotePlan[] = [], seen = new Set<string>();
   for (const base of rewritePlans.length ? rewritePlans : [empty]) {
-    const plan = structuredClone(empty), lexicalEdits = structuredClone(base.rewrite?.edits ?? []).filter(edit => !edits.some(construction => overlaps(edit.sourceSpan, construction.sourceSpan)));
-    plan.construction = { version: 1, seriesId: request.series, intensity: request.intensity, edits: structuredClone(edits), lexicalEdits };
+    const plan = structuredClone(empty), lexicalEdits = structuredClone(base.rewrite?.edits ?? []).filter(edit => {
+      const conflict = edits.find(construction => constructionEditsConflict(edit, construction));
+      if (conflict) diagnostics.push({ inputHash: ir.source.inputHash, nodeId: edit.nodeId, constructionId: conflict.constructionId, candidateId: null, planId: base.id || null, stage: 'edit_conflict', reason: `local_rewrite_excluded:${edit.ruleId}`, sourceSpan: edit.sourceSpan });
+      return !conflict;
+    });
+    plan.construction = { version: 2, seriesId: request.series, intensity: request.intensity, edits: structuredClone(edits), lexicalEdits };
     const combined = allEdits(plan);
     for (const node of plan.nodes) {
       const changes = combined.filter(edit => edit.nodeId === node.id);
@@ -123,6 +149,7 @@ export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest
     plan.evidenceIds = uniqueEvidence(combined);
     plan.backTranslation = '原文の感情・明示された強度・期限状態と、明示された理由・逆接・限定達成に伴う謙遜をスロットへ束縛し、登録済み構文に実現。文脈を原文から再照合し、主体・否定・時制・引用・予定・原因・称賛を補わない。';
     plan.id = hash(plan).slice(0, 24); plans.push(plan);
+    for (const edit of edits) diagnostics.push({ inputHash: ir.source.inputHash, nodeId: edit.nodeId, constructionId: edit.constructionId, candidateId: null, planId: plan.id, stage: 'planned', reason: 'original_source_edit_program', sourceSpan: edit.sourceSpan });
   }
   return plans;
 }
@@ -131,7 +158,7 @@ export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest
 // validate lexical edits separately, then reconstruct every output scalar.
 export function validateConstruction(ir: DocumentIR, plan: QuotePlan, references?: Map<string, string>): boolean {
   const program = plan.construction;
-  if (!program || program.version !== 1 || ![2, 3].includes(program.intensity) || !program.edits.length || plan.mainOperator !== 'CONSTRUCTION' || plan.rewrite || plan.surface || plan.rhetoric || plan.rhetoricEdits?.length || plan.nodes.some(node => node.type !== 'FactClause' || !node.sourceSpan)) return false;
+  if (!program || program.version !== 2 || ![2, 3].includes(program.intensity) || !program.edits.length || plan.mainOperator !== 'CONSTRUCTION' || plan.rewrite || plan.surface || plan.rhetoric || plan.rhetoricEdits?.length || plan.nodes.some(node => node.type !== 'FactClause' || !node.sourceSpan)) return false;
   if (program.edits.some(edit => !plan.nodes.some(node => node.id === edit.nodeId))) return false;
   const narrative = planNarrative(ir, 'source_order'), intent = planIntent(ir);
   if (!plan.narrative || !plan.intentPlan) return false;
@@ -141,7 +168,7 @@ export function validateConstruction(ir: DocumentIR, plan: QuotePlan, references
     return node.id !== `fact-node-${index}` || node.mention !== 'primary' || hash(node.sourceSpan) !== hash(unit.sourceSpan) || hash(node.factIds) !== hash(unit.factIds);
   })) return false;
   const combined = allEdits(plan), scopes = propositionScopes(ir.source, ir), discourse = createDiscourseBinder(ir, scopes);
-  if (combined.some((edit, i) => i > 0 && overlaps(edit.sourceSpan, combined[i - 1].sourceSpan))) return false;
+  if (hasConstructionEditConflicts(combined)) return false;
   for (const node of plan.nodes) {
     const changes = combined.filter(edit => edit.nodeId === node.id), expected = bindForNode(ir, node, program.intensity, scopes, discourse);
     for (const edit of program.edits.filter(edit => edit.nodeId === node.id)) {

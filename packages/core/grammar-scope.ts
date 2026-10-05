@@ -18,6 +18,11 @@ const reportNouns = new Set(['噂', 'うわさ', '話', '報告', '情報', '伝
 const temporalNouns = new Set(['時', 'とき', '際', '場合']);
 const negativeLemmas = new Set(['ない', 'ぬ', 'ず']);
 export const hasInflection = (token: Token, value: string) => token.morphology.some(item => item.startsWith('Inflection=') && item.includes(value));
+/** GiNZA may lemmatize the voiced past auxiliary in 運んだ as だ.
+ * Inflection distinguishes that 助動詞-タ from the terminal copula 助動詞-ダ.
+ * Hypothetical たら is not evidence of an asserted past event. */
+export const isPastAuxiliary = (token: Token): boolean => token.pos === 'AUX' && token.dep === 'aux'
+  && (token.lemma === 'た' || token.morphology.some(item => /^Inflection=助動詞-タ(?:;|$)/u.test(item))) && !hasInflection(token, '仮定形');
 const grammatical = (token: Token) => ['AUX', 'PART', 'SCONJ', 'ADP'].includes(token.pos) || /助動詞|助詞/u.test(token.tag);
 const extent = (tokens: Token[]): Span => ({ start: Math.min(...tokens.map(token => token.span.start)), end: Math.max(...tokens.map(token => token.span.end)) });
 
@@ -134,4 +139,3 @@ export function insideEnclosure(raw: string, start: number): boolean {
   }
   return stack.length > 0;
 }
-

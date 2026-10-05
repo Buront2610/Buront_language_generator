@@ -1,0 +1,1470 @@
+[
+  {
+    "type": "run",
+    "id": "H06",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 96.997,
+      "selectedCandidateId": "2ac18f1e90bf948dbe668119",
+      "displayedIds": [
+        {
+          "id": "2ac18f1e90bf948dbe668119",
+          "planId": "2040ea35cd0bdbf6d170c50f"
+        },
+        {
+          "id": "07516e8f509a5b53a736f25f",
+          "planId": "63c896865614bb5d0c60b38d"
+        },
+        {
+          "id": "eb413df5ae8ec4fd6e52a2cc",
+          "planId": "1de0f9fa88a78cb4b167d693"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "2ac18f1e90bf948dbe668119",
+          "07516e8f509a5b53a736f25f",
+          "eb413df5ae8ec4fd6e52a2cc"
+        ],
+        "selectionHash": "e94073e32e26136f1f80675e6af96e373e8bdf39eaeda6bf4fa4b8ed91fd9956"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 84.939,
+      "selectedCandidateId": "2ac18f1e90bf948dbe668119",
+      "displayedIds": [
+        {
+          "id": "2ac18f1e90bf948dbe668119",
+          "planId": "8f4ee90e427dec39d53cada8"
+        },
+        {
+          "id": "07516e8f509a5b53a736f25f",
+          "planId": "63c896865614bb5d0c60b38d"
+        },
+        {
+          "id": "eb413df5ae8ec4fd6e52a2cc",
+          "planId": "1de0f9fa88a78cb4b167d693"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "2ac18f1e90bf948dbe668119",
+          "07516e8f509a5b53a736f25f",
+          "eb413df5ae8ec4fd6e52a2cc"
+        ],
+        "selectionHash": "2587d3b496eea8c4bae332209c1e54bf6e2b16838c33da05ac0e54cec036d8ea"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "13dd715a85870ba120d20a8d",
+      "planId": "49ebcb3e423c8c04c357cace",
+      "text": "この橋は短い\nだが道幅は狭い\n俺は遠回りした\n何故なら荷物が重かったからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame+explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "この橋は短い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 7,
+                "end": 16
+              },
+              "text": "しかし、道幅は狭い",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 7,
+                "end": 10
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 14,
+                "end": 16
+              },
+              "text": "狭い",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 25,
+            "end": 35
+          },
+          "from": "荷物が重かったからだ",
+          "to": "何故なら荷物が重かったからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 17,
+                "end": 25
+              },
+              "text": "私は遠回りした。",
+              "tokenIds": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 25,
+                "end": 35
+              },
+              "text": "荷物が重かったからだ",
+              "tokenIds": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 32,
+                "end": 34
+              },
+              "text": "から",
+              "tokenIds": [
+                21
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 28,
+                "end": 31
+              },
+              "text": "重かっ",
+              "tokenIds": [
+                19
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast",
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "2ac18f1e90bf948dbe668119",
+      "planId": "2040ea35cd0bdbf6d170c50f",
+      "text": "この橋は短いからな\nだが道幅は狭い\n俺は遠回りした\n何故なら荷物が重かったからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame+explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "この橋は短い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 7,
+                "end": 16
+              },
+              "text": "しかし、道幅は狭い",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 7,
+                "end": 10
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 14,
+                "end": 16
+              },
+              "text": "狭い",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 25,
+            "end": 35
+          },
+          "from": "荷物が重かったからだ",
+          "to": "何故なら荷物が重かったからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 17,
+                "end": 25
+              },
+              "text": "私は遠回りした。",
+              "tokenIds": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 25,
+                "end": 35
+              },
+              "text": "荷物が重かったからだ",
+              "tokenIds": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 32,
+                "end": 34
+              },
+              "text": "から",
+              "tokenIds": [
+                21
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 28,
+                "end": 31
+              },
+              "text": "重かっ",
+              "tokenIds": [
+                19
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast",
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "07516e8f509a5b53a736f25f",
+      "planId": "63c896865614bb5d0c60b38d",
+      "text": "この橋は短い\nしかし道幅は狭い\n俺は遠回りした\n荷物が重かったからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-linebreak-0+narrator-watashi+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "eb413df5ae8ec4fd6e52a2cc",
+      "planId": "1de0f9fa88a78cb4b167d693",
+      "text": "この橋は短いからな\nしかし道幅は狭い\n俺は遠回りした\n荷物が重かったからだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-linebreak-0+narrator-watashi+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 5,
+            "end": 6
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H06",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "13dd715a85870ba120d20a8d",
+      "planId": "4442929db6dcc5564cfee79c",
+      "text": "この橋は短い\nだが道幅は狭い\n俺は遠回りした\n何故なら荷物が重かったからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame+explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 24,
+            "end": 25
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 7
+              },
+              "text": "この橋は短い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 7,
+                "end": 16
+              },
+              "text": "しかし、道幅は狭い",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 7,
+                "end": 10
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 14,
+                "end": 16
+              },
+              "text": "狭い",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 7
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "role": "contrast",
+                "span": {
+                  "start": 7,
+                  "end": 16
+                },
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 5,
+                "span": {
+                  "start": 7,
+                  "end": 10
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 9,
+                "span": {
+                  "start": 14,
+                  "end": 16
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 9,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "8df8ebdb795dbf317163b77711f55bba60075e121a4b67ca9ab0b1e1daa057ed",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-3",
+          "sourceSpan": {
+            "start": 25,
+            "end": 25
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 17,
+                "end": 25
+              },
+              "text": "私は遠回りした。",
+              "tokenIds": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 25,
+                "end": 35
+              },
+              "text": "荷物が重かったからだ",
+              "tokenIds": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 32,
+                "end": 34
+              },
+              "text": "から",
+              "tokenIds": [
+                21
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 28,
+                "end": 31
+              },
+              "text": "重かっ",
+              "tokenIds": [
+                19
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-3",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 17,
+                  "end": 25
+                },
+                "tokenIds": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 25,
+                  "end": 35
+                },
+                "tokenIds": [
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 21,
+                "span": {
+                  "start": 32,
+                  "end": 34
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 19,
+                "span": {
+                  "start": 28,
+                  "end": 31
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 22,
+                "span": {
+                  "start": 34,
+                  "end": 35
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 13,
+                "factId": "fact-2",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 19,
+                "factId": "fact-3",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "8df8ebdb795dbf317163b77711f55bba60075e121a4b67ca9ab0b1e1daa057ed",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 25,
+              "end": 35
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast",
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

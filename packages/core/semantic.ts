@@ -5,6 +5,7 @@ import { validateRewrite } from './rewrite-validation';
 import { realize, verification } from './validator';
 import { validateConstruction } from './constructions';
 import { select } from './evaluation';
+import { updateConstructionOutcomes } from './construction-diagnostics';
 
 export const semanticVersion = 'independent-factual-reparse-v2';
 const sorted = (items: unknown[]) => items.map(item => JSON.stringify(item)).sort();
@@ -85,7 +86,7 @@ export function finishSemanticVerification(result: GenerationResult, analyses: R
   const candidates = verificationPool(result);
   for (const candidate of candidates) {
     const pair = factualPair(result, candidate);
-    const checks: Check[] = candidate.plan.construction ? [{ code: 'S-bounded-construction', status: !candidate.plan.rewrite && validateConstruction(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '登録済みの閉じた構文について、原文への再束縛・使用条件・事実の特徴・出典を独立照合。自由な言い換えの意味同値性や、文体の自然さを保証する判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'registered-construction-proof-v1' }] : candidate.plan.rewrite ? [{ code: 'S-bounded-rewrite', status: validateRewrite(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '有限の本文変換を原文・適用条件・出典から再照合。自由な意味同値性の判定や、変換後全文の構文解析による一致判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'bounded-body-rewrite-v1' }] : pair.source === pair.output ? [{ code: 'S-literal', status: 'pass', required: true, explanation: '事実節を原文順に戻して全文一致を確認。変更がないため再解析を省略。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: semanticVersion }] : compareSemantics(irFor(pair.source), irFor(pair.output));
+    const checks: Check[] = candidate.plan.construction ? [{ code: 'S-bounded-construction', status: !candidate.plan.rewrite && validateConstruction(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '登録済みの閉じた構文について、原文への再束縛・使用条件・事実の特徴・出典を独立照合。自由な言い換えの意味同値性や、文体の自然さを保証する判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'registered-composable-construction-proof-v2' }] : candidate.plan.rewrite ? [{ code: 'S-bounded-rewrite', status: validateRewrite(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '有限の本文変換を原文・適用条件・出典から再照合。自由な意味同値性の判定や、変換後全文の構文解析による一致判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'bounded-body-rewrite-v1' }] : pair.source === pair.output ? [{ code: 'S-literal', status: 'pass', required: true, explanation: '事実節を原文順に戻して全文一致を確認。変更がないため再解析を省略。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: semanticVersion }] : compareSemantics(irFor(pair.source), irFor(pair.output));
     const rendered = realize(candidate.plan, result.ir);
     checks.push({ code: 'S-realization', status: rendered.text === candidate.text && hash(rendered.spans) === hash(candidate.spans) ? 'pass' : 'fail', required: true, explanation: '検査した計画と、返却する本文・出力範囲の一致を確認。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: semanticVersion });
     candidate.checks = [...candidate.checks.filter(check => !check.code.startsWith('S-')), ...checks];
@@ -107,6 +108,7 @@ export function finishSemanticVerification(result: GenerationResult, analyses: R
     : result.shortfallReason ?? 'no_valid_candidate';
   result.fallback = result.candidates.length ? null : { text: result.ir.source.raw, reason: result.shortfallReason! };
   result.replayManifest.semanticVerification = { version: semanticVersion, verifiedCount: candidates.length, selectedIds: result.candidates.map(candidate => candidate.id), selectionHash: hash(candidates.map(candidate => ({ id: candidate.id, checks: candidate.checks, status: candidate.verificationStatus }))) };
+  updateConstructionOutcomes(result, candidates, 'independent_validation');
   // Internal alternatives are not public results or a bypass around the cap.
   delete result.candidatePool;
   return result;

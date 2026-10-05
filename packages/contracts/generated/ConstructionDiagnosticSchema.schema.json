@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "inputHash",
+    "nodeId",
+    "constructionId",
+    "candidateId",
+    "planId",
+    "stage",
+    "reason"
+  ],
+  "properties": {
+    "inputHash": {
+      "type": "string"
+    },
+    "nodeId": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "constructionId": {
+      "type": "string"
+    },
+    "candidateId": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "planId": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "stage": {
+      "anyOf": [
+        {
+          "const": "recognized",
+          "type": "string"
+        },
+        {
+          "const": "relation_not_recognized",
+          "type": "string"
+        },
+        {
+          "const": "unsupported_form",
+          "type": "string"
+        },
+        {
+          "const": "scope_blocked",
+          "type": "string"
+        },
+        {
+          "const": "edit_conflict",
+          "type": "string"
+        },
+        {
+          "const": "planned",
+          "type": "string"
+        },
+        {
+          "const": "verification_rejected",
+          "type": "string"
+        },
+        {
+          "const": "verified",
+          "type": "string"
+        },
+        {
+          "const": "selected",
+          "type": "string"
+        },
+        {
+          "const": "not_selected",
+          "type": "string"
+        }
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "sourceSpan": {
+      "additionalProperties": false,
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "end": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

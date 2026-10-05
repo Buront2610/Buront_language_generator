@@ -1,0 +1,1527 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "F08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2b175292d9c2fcc28b5b69cef314ea12182a0d3a170bd4f8d72770b3a33543c1",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2b175292d9c2fcc28b5b69cef314ea12182a0d3a170bd4f8d72770b3a33543c1",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "node_is_not_one_sentence",
+      "sourceSpan": {
+        "start": 0,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2b175292d9c2fcc28b5b69cef314ea12182a0d3a170bd4f8d72770b3a33543c1",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2b175292d9c2fcc28b5b69cef314ea12182a0d3a170bd4f8d72770b3a33543c1",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2b175292d9c2fcc28b5b69cef314ea12182a0d3a170bd4f8d72770b3a33543c1",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 27
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "F09",
+    "group": "final_held_out",
+    "category": "ordinary new thanks",
+    "source": "遅い時間まで待ってくれてありがとう。忘れ物を届けてもらえて助かった。"
+  },
+  {
+    "type": "run",
+    "id": "F09",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 66.601,
+      "selectedCandidateId": "d95a969d776502db86506171",
+      "displayedIds": [
+        {
+          "id": "d95a969d776502db86506171",
+          "planId": "6c7899f98fe3204e8506d97d"
+        },
+        {
+          "id": "5ff7ab96c5864d9b1fb1c2e5",
+          "planId": "41ce14b06adcadfed040b9e2"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "d95a969d776502db86506171",
+          "5ff7ab96c5864d9b1fb1c2e5"
+        ],
+        "selectionHash": "52773167687c1a02f91cfc880aebe55e2d35cab38eb0176c044cb7f77715f38f"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 42.366,
+      "selectedCandidateId": "d95a969d776502db86506171",
+      "displayedIds": [
+        {
+          "id": "d95a969d776502db86506171",
+          "planId": "6c7899f98fe3204e8506d97d"
+        },
+        {
+          "id": "5ff7ab96c5864d9b1fb1c2e5",
+          "planId": "41ce14b06adcadfed040b9e2"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "d95a969d776502db86506171",
+          "5ff7ab96c5864d9b1fb1c2e5"
+        ],
+        "selectionHash": "52773167687c1a02f91cfc880aebe55e2d35cab38eb0176c044cb7f77715f38f"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "d95a969d776502db86506171",
+      "planId": "6c7899f98fe3204e8506d97d",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "5ff7ab96c5864d9b1fb1c2e5",
+      "planId": "41ce14b06adcadfed040b9e2",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かったからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 32,
+            "end": 33
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "d95a969d776502db86506171",
+      "planId": "6c7899f98fe3204e8506d97d",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "5ff7ab96c5864d9b1fb1c2e5",
+      "planId": "41ce14b06adcadfed040b9e2",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かったからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 32,
+            "end": 33
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "F09",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 42.926,
+      "selectedCandidateId": "d95a969d776502db86506171",
+      "displayedIds": [
+        {
+          "id": "d95a969d776502db86506171",
+          "planId": "1a79672a15bc50c0178b613c"
+        },
+        {
+          "id": "5ff7ab96c5864d9b1fb1c2e5",
+          "planId": "f117b06c2e6841949cc87d19"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "d95a969d776502db86506171",
+          "5ff7ab96c5864d9b1fb1c2e5"
+        ],
+        "selectionHash": "52773167687c1a02f91cfc880aebe55e2d35cab38eb0176c044cb7f77715f38f"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 40.225,
+      "selectedCandidateId": "d95a969d776502db86506171",
+      "displayedIds": [
+        {
+          "id": "d95a969d776502db86506171",
+          "planId": "1a79672a15bc50c0178b613c"
+        },
+        {
+          "id": "5ff7ab96c5864d9b1fb1c2e5",
+          "planId": "f117b06c2e6841949cc87d19"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "d95a969d776502db86506171",
+          "5ff7ab96c5864d9b1fb1c2e5"
+        ],
+        "selectionHash": "52773167687c1a02f91cfc880aebe55e2d35cab38eb0176c044cb7f77715f38f"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "d95a969d776502db86506171",
+      "planId": "1a79672a15bc50c0178b613c",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "5ff7ab96c5864d9b1fb1c2e5",
+      "planId": "f117b06c2e6841949cc87d19",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かったからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 32,
+            "end": 33
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "d95a969d776502db86506171",
+      "planId": "1a79672a15bc50c0178b613c",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "5ff7ab96c5864d9b1fb1c2e5",
+      "planId": "f117b06c2e6841949cc87d19",
+      "text": "遅い時間まで待ってくれてありがとう\n忘れ物を届けてもらえて助かったからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 32,
+            "end": 33
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "96c87e3fd56820b18d0e2f551b8a9c1e4d064d12525526e86b89c3f4c7d96dda",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "F10",
+    "group": "final_held_out",
+    "category": "ordinary new conditional uncertainty",
+    "source": "もし風が強くなったら、船は出ないかもしれない。今のところ予定は変わっていない。"
+  },
+  {
+    "type": "run",
+    "id": "F10",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 64.674,
+      "selectedCandidateId": "7372ada3f8f2406961c85abe",
+      "displayedIds": [
+        {
+          "id": "7372ada3f8f2406961c85abe",
+          "planId": "4d0162611e34cf77c3af7026"
+        },
+        {
+          "id": "f2357813de1ad547d7ae0369",
+          "planId": "11601299d1686e93b0363a41"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "7372ada3f8f2406961c85abe",
+          "f2357813de1ad547d7ae0369"
+        ],
+        "selectionHash": "bcebeae435a5dcbce61a97658d7456ccd312ff3f5913e2953259096989fce290"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 55.827,
+      "selectedCandidateId": "7372ada3f8f2406961c85abe",
+      "displayedIds": [
+        {
+          "id": "7372ada3f8f2406961c85abe",
+          "planId": "4d0162611e34cf77c3af7026"
+        },
+        {
+          "id": "f2357813de1ad547d7ae0369",
+          "planId": "11601299d1686e93b0363a41"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "7372ada3f8f2406961c85abe",
+          "f2357813de1ad547d7ae0369"
+        ],
+        "selectionHash": "bcebeae435a5dcbce61a97658d7456ccd312ff3f5913e2953259096989fce290"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F10",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "7372ada3f8f2406961c85abe",
+      "planId": "4d0162611e34cf77c3af7026",
+      "text": "もし風が強くなったら、船は出ないかもしれない\n今のところ予定は変わっていない",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F10",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "f2357813de1ad547d7ae0369",
+      "planId": "11601299d1686e93b0363a41",
+      "text": "もし風が強くなったら、船は出ないかもしれない\n今のところ予定は変わっていないからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-16+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 36,
+            "end": 38
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

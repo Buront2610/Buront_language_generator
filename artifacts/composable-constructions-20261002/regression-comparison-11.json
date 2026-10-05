@@ -1,0 +1,1518 @@
+[
+  {
+    "type": "candidate",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "7970d920f543a4f5bfdb50b1",
+      "planId": "f56b52e47a52ff8737b8d68c",
+      "text": "夕方の川沿いは静かだったからな\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+      "operator": "REWRITE",
+      "family": "ending-insistence-19+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-19",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 12
+          },
+          "from": "だった",
+          "to": "だったからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 37,
+            "end": 38
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "76a44c9bf0cdd21470c0dc41",
+      "planId": "8adcb018f5b3396e0232afeb",
+      "text": "夕方の川沿いは静かだった\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 37,
+            "end": 38
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "7970d920f543a4f5bfdb50b1",
+      "planId": "f56b52e47a52ff8737b8d68c",
+      "text": "夕方の川沿いは静かだったからな\n水面に街の明かりが映り、遠くで犬が一度だけ鳴いた",
+      "operator": "REWRITE",
+      "family": "ending-insistence-19+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-19",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 12
+          },
+          "from": "だった",
+          "to": "だったからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 37,
+            "end": 38
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 38
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 38
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 38
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 38
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 38
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2f518066c8062eeaa323c500a6788450be402e969380339a4ee53bf743f05d07",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 38
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "N09",
+    "group": "ordinary",
+    "category": "弱い不満",
+    "source": "店員に二度説明したのに注文が違っていたので、私は少し腹を立てた。"
+  },
+  {
+    "type": "run",
+    "id": "N09",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 49.901,
+      "selectedCandidateId": "27b34f5b160e283a0cd6248d",
+      "displayedIds": [
+        {
+          "id": "27b34f5b160e283a0cd6248d",
+          "planId": "6bf595c82de9689b1c700273"
+        },
+        {
+          "id": "ce39c5a7b747e0672713dbb7",
+          "planId": "e6bb3171eee231cd89a9bc06"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "27b34f5b160e283a0cd6248d",
+          "ce39c5a7b747e0672713dbb7"
+        ],
+        "selectionHash": "1aab1c77c0e717fcff12c681673e3c7c26e264b6ac1a53fc150b6cb7bce20c2e"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 46.706,
+      "selectedCandidateId": "27b34f5b160e283a0cd6248d",
+      "displayedIds": [
+        {
+          "id": "27b34f5b160e283a0cd6248d",
+          "planId": "6bf595c82de9689b1c700273"
+        },
+        {
+          "id": "ce39c5a7b747e0672713dbb7",
+          "planId": "e6bb3171eee231cd89a9bc06"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "27b34f5b160e283a0cd6248d",
+          "ce39c5a7b747e0672713dbb7"
+        ],
+        "selectionHash": "1aab1c77c0e717fcff12c681673e3c7c26e264b6ac1a53fc150b6cb7bce20c2e"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "ce39c5a7b747e0672713dbb7",
+      "planId": "e6bb3171eee231cd89a9bc06",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "27b34f5b160e283a0cd6248d",
+      "planId": "6bf595c82de9689b1c700273",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てたからな",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 30,
+            "end": 31
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "ce39c5a7b747e0672713dbb7",
+      "planId": "e6bb3171eee231cd89a9bc06",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "27b34f5b160e283a0cd6248d",
+      "planId": "6bf595c82de9689b1c700273",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てたからな",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 30,
+            "end": 31
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "N09",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 63.959,
+      "selectedCandidateId": "27b34f5b160e283a0cd6248d",
+      "displayedIds": [
+        {
+          "id": "27b34f5b160e283a0cd6248d",
+          "planId": "6d980e22fdf3a20e10b0cf2e"
+        },
+        {
+          "id": "ce39c5a7b747e0672713dbb7",
+          "planId": "58a7b7f5ba10d2903572f9c8"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "27b34f5b160e283a0cd6248d",
+          "ce39c5a7b747e0672713dbb7"
+        ],
+        "selectionHash": "1aab1c77c0e717fcff12c681673e3c7c26e264b6ac1a53fc150b6cb7bce20c2e"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 47.686,
+      "selectedCandidateId": "27b34f5b160e283a0cd6248d",
+      "displayedIds": [
+        {
+          "id": "27b34f5b160e283a0cd6248d",
+          "planId": "6d980e22fdf3a20e10b0cf2e"
+        },
+        {
+          "id": "ce39c5a7b747e0672713dbb7",
+          "planId": "58a7b7f5ba10d2903572f9c8"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "27b34f5b160e283a0cd6248d",
+          "ce39c5a7b747e0672713dbb7"
+        ],
+        "selectionHash": "1aab1c77c0e717fcff12c681673e3c7c26e264b6ac1a53fc150b6cb7bce20c2e"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "ce39c5a7b747e0672713dbb7",
+      "planId": "58a7b7f5ba10d2903572f9c8",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "27b34f5b160e283a0cd6248d",
+      "planId": "6d980e22fdf3a20e10b0cf2e",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てたからな",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 30,
+            "end": 31
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "ce39c5a7b747e0672713dbb7",
+      "planId": "58a7b7f5ba10d2903572f9c8",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "27b34f5b160e283a0cd6248d",
+      "planId": "6d980e22fdf3a20e10b0cf2e",
+      "text": "店員に二度説明したのに注文が違っていたので、俺は少し腹を立てたからな",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 30,
+            "end": 31
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N09",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "93037ece75565c7e273fa28a926c365545b6a115b7256d9e833d414f48e16e93",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "N10",
+    "group": "ordinary",
+    "category": "感情の対象",
+    "source": "私は友人の引っ越しがとても寂しかった。それでも、新しい町で元気に暮らしてほしいと思った。"
+  },
+  {
+    "type": "run",
+    "id": "N10",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 54.887,
+      "selectedCandidateId": "b20a77874519ca323ec85b2d",
+      "displayedIds": [
+        {
+          "id": "b20a77874519ca323ec85b2d",
+          "planId": "4438bcc44e1fea7c71b25b90"
+        },
+        {
+          "id": "bc363f814f134cda62fe1173",
+          "planId": "0e9cc3dcf78486febb7c81f2"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "b20a77874519ca323ec85b2d",
+          "bc363f814f134cda62fe1173"
+        ],
+        "selectionHash": "48416628962b4d399f268b93c8ce9203695dedfd91aac8966306ae4e555ecf97"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 51.563,
+      "selectedCandidateId": "b20a77874519ca323ec85b2d",
+      "displayedIds": [
+        {
+          "id": "b20a77874519ca323ec85b2d",
+          "planId": "4438bcc44e1fea7c71b25b90"
+        },
+        {
+          "id": "bc363f814f134cda62fe1173",
+          "planId": "0e9cc3dcf78486febb7c81f2"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "b20a77874519ca323ec85b2d",
+          "bc363f814f134cda62fe1173"
+        ],
+        "selectionHash": "48416628962b4d399f268b93c8ce9203695dedfd91aac8966306ae4e555ecf97"
+      }
+    }
+  }
+]

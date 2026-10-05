@@ -1,0 +1,1581 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "N06",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 57.591,
+      "selectedCandidateId": "965b1975ecbf9464028df15e",
+      "displayedIds": [
+        {
+          "id": "965b1975ecbf9464028df15e",
+          "planId": "b6b2c4095642e0deeddb7fce"
+        },
+        {
+          "id": "c1e292e23d6b82ce72461b06",
+          "planId": "87ddc2c02cd4acc2b010f7d9"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "965b1975ecbf9464028df15e",
+          "c1e292e23d6b82ce72461b06"
+        ],
+        "selectionHash": "f555c85d65edd0be406b5b8e3b6acc404904947f01463ecb087a21e9d0add6a8"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 42.766,
+      "selectedCandidateId": "965b1975ecbf9464028df15e",
+      "displayedIds": [
+        {
+          "id": "965b1975ecbf9464028df15e",
+          "planId": "b6b2c4095642e0deeddb7fce"
+        },
+        {
+          "id": "c1e292e23d6b82ce72461b06",
+          "planId": "87ddc2c02cd4acc2b010f7d9"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "965b1975ecbf9464028df15e",
+          "c1e292e23d6b82ce72461b06"
+        ],
+        "selectionHash": "f555c85d65edd0be406b5b8e3b6acc404904947f01463ecb087a21e9d0add6a8"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "965b1975ecbf9464028df15e",
+      "planId": "b6b2c4095642e0deeddb7fce",
+      "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "c1e292e23d6b82ce72461b06",
+      "planId": "87ddc2c02cd4acc2b010f7d9",
+      "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わったからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "965b1975ecbf9464028df15e",
+      "planId": "b6b2c4095642e0deeddb7fce",
+      "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "c1e292e23d6b82ce72461b06",
+      "planId": "87ddc2c02cd4acc2b010f7d9",
+      "text": "忙しいのに手伝ってくれてありがとう\nおかげで予定より早く作業が終わったからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 17,
+            "end": 18
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "sentence_predicate_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 18
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "2bf043997d71b4131ca311b54c6fe6a2d5a1f45e92108642659ead9d2295d994",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 18,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "N07",
+    "group": "ordinary",
+    "category": "依頼と提案",
+    "source": "この箱を一緒に運んでもらえますか。重いので、二人で持ったほうが安全です。"
+  },
+  {
+    "type": "run",
+    "id": "N07",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 64.843,
+      "selectedCandidateId": "3616c8b150e5a5ac785c0ae8",
+      "displayedIds": [
+        {
+          "id": "3616c8b150e5a5ac785c0ae8",
+          "planId": "6fa45d08f5ad73868bdf7809"
+        },
+        {
+          "id": "736f90e18104bbdb8e3e3c4f",
+          "planId": "e81a9075e63850af258bca50"
+        },
+        {
+          "id": "9a30a0ebc1fdf942d1d8a6ce",
+          "planId": "b9ad0099f4fd21e788f0bf77"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "3616c8b150e5a5ac785c0ae8",
+          "736f90e18104bbdb8e3e3c4f",
+          "9a30a0ebc1fdf942d1d8a6ce"
+        ],
+        "selectionHash": "3514b0f82ceebd14fcd099677573a9b33aa1edd07b0eb9153fa72879740a6cd7"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 52.309,
+      "selectedCandidateId": "3616c8b150e5a5ac785c0ae8",
+      "displayedIds": [
+        {
+          "id": "3616c8b150e5a5ac785c0ae8",
+          "planId": "6fa45d08f5ad73868bdf7809"
+        },
+        {
+          "id": "736f90e18104bbdb8e3e3c4f",
+          "planId": "e81a9075e63850af258bca50"
+        },
+        {
+          "id": "9a30a0ebc1fdf942d1d8a6ce",
+          "planId": "b9ad0099f4fd21e788f0bf77"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "3616c8b150e5a5ac785c0ae8",
+          "736f90e18104bbdb8e3e3c4f",
+          "9a30a0ebc1fdf942d1d8a6ce"
+        ],
+        "selectionHash": "3514b0f82ceebd14fcd099677573a9b33aa1edd07b0eb9153fa72879740a6cd7"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "736f90e18104bbdb8e3e3c4f",
+      "planId": "e81a9075e63850af258bca50",
+      "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全です",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "3616c8b150e5a5ac785c0ae8",
+      "planId": "6fa45d08f5ad73868bdf7809",
+      "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 35
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "9a30a0ebc1fdf942d1d8a6ce",
+      "planId": "b9ad0099f4fd21e788f0bf77",
+      "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-10+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 35
+          },
+          "from": "です",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "736f90e18104bbdb8e3e3c4f",
+      "planId": "e81a9075e63850af258bca50",
+      "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全です",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "3616c8b150e5a5ac785c0ae8",
+      "planId": "6fa45d08f5ad73868bdf7809",
+      "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 35
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "9a30a0ebc1fdf942d1d8a6ce",
+      "planId": "b9ad0099f4fd21e788f0bf77",
+      "text": "この箱を一緒に運んでもらえますか\n重いので、二人で持ったほうが安全だからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-insistence-10+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 35
+          },
+          "from": "です",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 35,
+            "end": 36
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 36
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9827e45bc70521bc8eb8e4f3985128b477c3008665a26f6912badd57899a9e9",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 36
+      }
+    }
+  }
+]
