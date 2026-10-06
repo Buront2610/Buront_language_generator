@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "commits": {
+    "fast_align": "cab1e9aac8d3bb02ff5ae58218d8d225a039fa11",
+    "mosesdecoder": "08e782040189e0abb3b43a4ec9245e6179e39eca",
+    "kenlm": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5"
+  },
+  "binary_sha256": {
+    "fast_align": "6de91e45d8f973f2f3ef4c2abbcb2c3d636257c3f41737ab404c42cf91b5565f",
+    "atools": "6a978b7fc7dce02ab24a794e35e3c2a5bb286d567c098d33e258e3480aecf585",
+    "moses": "a95a3685f3097e5b03dd3d5fb739a547bb1a5c59d35548598076086734cdf448",
+    "extract": "b300b3826d18672dc62fbe15e8dd82d6b72b1ce7039f794bf9b371a668ed77c9",
+    "score": "7744e78c150f148f603813fa7c82ae6e595955b791fd5e5389b24d3bf1e0ce67",
+    "consolidate": "d4ae306a294771aaa566a5abf02a8ecd10296babf05388acf033f9675f999e45",
+    "lmplz": "453a8e5417c9304e076aad1386f9b71a198458aaca5561c23d3a04cb91f3f778",
+    "build_binary": "a08f25d6b56e79943161f496ed999af8cb5ea7529717086b622bfd4a2ff47373",
+    "query": "00a7a65ec4919d4c56da240fea1c742e3c4a4d2c4b55bc2d99dfdff69c86a38d",
+    "train_model": "69a651415acb6765439d51f265ac00e6e369d0cf1ec4e9d4e35fb8edc22bf7f6"
+  },
+  "dependency_lock_sha256": "83b1c0e03f599213a885b34ee21573b0e740587d860ab3d1f408924a6ee18ccc",
+  "build_script_sha256": "39c43a64d8fb6ba2c1147e5da6c846c4a62c67da3cd809682f1a5ef654e67a10",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "helper_script_count": 110,
+  "system_tool_count": 19,
+  "upstream_source_changes": {},
+  "build_recipe_exit": 0,
+  "recipe_verification": "Checked-in script rerun successfully with compiled cache, not second clean rebuild",
+  "independent_mechanical_smoke": {
+    "status": "passed",
+    "scope": "mechanical ASCII integration only; no human translation or style-quality evidence",
+    "fixture": {
+      "construction": "Cartesian product of 4 symbols at 3 positions, indexwise sN -> tN mapping",
+      "rows": 64,
+      "llm_paraphrases": 0,
+      "human_training_pairs": 0
+    },
+    "decoded_tokens": [
+      "t0",
+      "t1",
+      "t2"
+    ],
+    "lm_query_finite": true,
+    "lm_query_oov": 0
+  }
+}

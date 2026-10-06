@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "purpose": "mechanical_wiring_only",
+  "model_manifest_sha256": "eb2c268df00d6a8239ce19d8fbe9f83bd5f4746dc2514c60a9ac98c6ab384076",
+  "baseline_revision": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+  "input_count": 1,
+  "metrics": [
+    {
+      "case_id": "mechanical-015",
+      "baseline_pool": 0,
+      "research_pool": 1,
+      "distinct_new_texts": 1,
+      "diagnostic_rejections": 0,
+      "human_confirmed_new_good_candidates": null
+    }
+  ],
+  "human_reviews": 0,
+  "quality_gain": null,
+  "acceptance": "not_evaluated_no_human_judgments",
+  "note": "Text novelty and successful binary execution are not meaning preservation or quality improvement. No LightGBM ranker is trained.",
+  "comparison_valid": false,
+  "invalid_reason": "Historical adapter requested unsupported invent mode; do not use its baseline pool as coverage evidence. Later documentary comparison uses supported blend."
+}

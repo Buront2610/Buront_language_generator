@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "scope": "metadata_only_no_corpus_or_weights",
+  "documents": [
+    {
+      "document_id": "aaa",
+      "url": "https://kenkyonanight.xxxxxxxx.jp/aaa.html",
+      "title": "順を追ってブロント語に改変していく",
+      "version": "b626ae5334d3e26b9d1b37506621564cf69ba2a2d12ad9cc3884d269f717cfd4",
+      "retrieved_at": "2026-10-06T08:33:54.887137+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "e8c4a7d7b883cd0a07ad7a27dac92f33e257c5d9f0da899d8b376b6f71447a46",
+      "text_sha256": "b626ae5334d3e26b9d1b37506621564cf69ba2a2d12ad9cc3884d269f717cfd4",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "Copypasta author unknown; adaptations attributed to site administrator",
+        "evidence_url": "https://kenkyonanight.xxxxxxxx.jp/aaa.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No explicit reuse, training or redistribution license located. Local research only, no public corpus or model weights.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "oii",
+      "url": "https://kenkyonanight.xxxxxxxx.jp/oii.html",
+      "title": "謎の改変物",
+      "version": "159b8b9ba8fc617b851f39c5b191af000b7dc741c55d7fad9a28269ad72a8954",
+      "retrieved_at": "2026-10-06T08:33:54.327786+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "3d72c732bbc2c435d6f1d60e20c80694727e7a31e633b3b3ad8fa7f3b6b8abd0",
+      "text_sha256": "159b8b9ba8fc617b851f39c5b191af000b7dc741c55d7fad9a28269ad72a8954",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "Site administrator for selected passages; other page sections have named contributors",
+        "evidence_url": "https://kenkyonanight.xxxxxxxx.jp/oii.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No explicit reuse, training or redistribution license located. Local research only, no public corpus or model weights.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "suguru",
+      "url": "https://kenkyonanight.xxxxxxxx.jp/suguru.html",
+      "title": "注文のおおすぐる料理店",
+      "version": "f3ad66625bd7633db531a731085bf97b8e047bfe536755e5111ee2ed947ed786",
+      "retrieved_at": "2026-10-06T08:33:54.152781+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "21ad7d1e2c1e9d4e324e1dbaabfda76491ba19b9e588c444cbe1d860ca585fd0",
+      "text_sha256": "f3ad66625bd7633db531a731085bf97b8e047bfe536755e5111ee2ed947ed786",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "Site administrator",
+        "evidence_url": "https://kenkyonanight.xxxxxxxx.jp/suguru.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No explicit reuse, training or redistribution license located. Local research only, no public corpus or model weights.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "kumo",
+      "url": "https://www.aozora.gr.jp/cards/000879/files/92_14545.html",
+      "title": "蜘蛛の糸",
+      "version": "d82c7ecc754c170a72bef1735d41a773da7ef8985c93369b8c80c51c8be372af",
+      "retrieved_at": "2026-10-06T08:34:02.753125+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "47cdc4b16202cc9556107e0b7bf86fc7c831e140dd8894ce93fa7425eadce419",
+      "text_sha256": "d82c7ecc754c170a72bef1735d41a773da7ef8985c93369b8c80c51c8be372af",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "芥川龍之介",
+        "evidence_url": "https://www.aozora.gr.jp/cards/000879/files/92_14545.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "public_domain",
+        "notes": "Underlying original public domain in Japan; Aozora handling guidance https://www.aozora.gr.jp/guide/kijyunn.html. Bridge export disabled conservatively.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "saru",
+      "url": "https://www.aozora.gr.jp/cards/000329/files/18334_11947.html",
+      "title": "猿かに合戦",
+      "version": "0e8300f50f618e02c8ba14d02d78737bcc2029a1889a9cf64637462eefa94189",
+      "retrieved_at": "2026-10-06T08:34:03.033267+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "846804dd460bc81212c15e3dd802563f0776917589cebac5ff32a4d1c3d85332",
+      "text_sha256": "0e8300f50f618e02c8ba14d02d78737bcc2029a1889a9cf64637462eefa94189",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "楠山正雄",
+        "evidence_url": "https://www.aozora.gr.jp/cards/000329/files/18334_11947.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "public_domain",
+        "notes": "Underlying original public domain in Japan; Aozora handling guidance https://www.aozora.gr.jp/guide/kijyunn.html. Bridge export disabled conservatively.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "ame",
+      "url": "https://www.aozora.gr.jp/cards/000081/files/45630_23908.html",
+      "title": "〔雨ニモマケズ〕",
+      "version": "589d94f08588f6c5e58a982c8926decdbb64f21047788b3b09037f0da350420d",
+      "retrieved_at": "2026-10-06T08:34:02.685595+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "165190e072616921147b81722700340753125398e0a51d90653c4e37ee9ca04f",
+      "text_sha256": "589d94f08588f6c5e58a982c8926decdbb64f21047788b3b09037f0da350420d",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "宮沢賢治",
+        "evidence_url": "https://www.aozora.gr.jp/cards/000081/files/45630_23908.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "public_domain",
+        "notes": "Underlying original public domain in Japan; Aozora handling guidance https://www.aozora.gr.jp/guide/kijyunn.html. Bridge export disabled conservatively.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "chumon_modern",
+      "url": "https://www.aozora.gr.jp/cards/000081/files/43754_17659.html",
+      "title": "注文の多い料理店",
+      "version": "df8c0ed3e494364fef80567a9c058147738ce79094fa1a8e6d85b8b77bfa1c9d",
+      "retrieved_at": "2026-10-06T08:34:58.742349+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "bdcd423d8e0702fa49d9e9a14d9d2e7970e4e4dec87692ad1fab4e41d8ed88a7",
+      "text_sha256": "df8c0ed3e494364fef80567a9c058147738ce79094fa1a8e6d85b8b77bfa1c9d",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "宮沢賢治",
+        "evidence_url": "https://www.aozora.gr.jp/cards/000081/files/43754_17659.html",
+        "notes": "Attribution on published page or same-site introduction. Original adapter source edition and target publication date not supplied."
+      },
+      "rights": {
+        "status": "public_domain",
+        "notes": "Underlying original public domain in Japan; Aozora handling guidance https://www.aozora.gr.jp/guide/kijyunn.html. Bridge export disabled conservatively.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "tokisoba",
+      "url": "https://sobakiku.blogspot.com/2009/12/blog-post_12.html",
+      "title": "時そばとは・・・。",
+      "version": "2009-12-12 post; fetched snapshot 333ae781e6ccc0cff6374dcda1396a59f3860fcf4fe491c54e1ed2926e9e983f",
+      "retrieved_at": "2026-10-06T08:40:40.335605+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "0af2df9abca4c956167759f66573d4423050dca24b3321dcd60c49abbdc17005",
+      "text_sha256": "333ae781e6ccc0cff6374dcda1396a59f3860fcf4fe491c54e1ed2926e9e983f",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "そば処きくち管理人 (publisher); wording author not separately identified",
+        "evidence_url": "https://sobakiku.blogspot.com/2009/12/blog-post_12.html",
+        "notes": "2009-12-12 dated post republishes own そば処きくちそば用語. Earlier source page link no longer fetchable in this investigation. Underlying rakugo is traditional; this specific modern wording is not automatically public domain."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No reuse/training/redistribution license located for this modern transcription/retelling. Local research only, no public text or model weights.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "teraumare-15",
+      "url": "https://w.atwiki.jp/teraumare/pages/15.html",
+      "title": "赤いワンピース",
+      "version": "Wiki displayed last update 2010-10-03T18:36:00+09:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "web_tool_capture",
+      "raw_sha256": "e4589aa6880b05a6389db3766d0fc3cb8f40e8cc56ce73ad1b6886f34dca1cc0",
+      "text_sha256": "4660b8372d90385a78966465a77f262bb21b429d61c5eacf6240448624c2444b",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "anonymous",
+        "evidence_url": "https://w.atwiki.jp/teraumare/pages/15.html",
+        "notes": "Wiki transcribes forum post 4 attributed to 本当にあった怖い名無し on 2008-05-19 (15:47:46); collector is not established as creator. Underlying first post and consulted version unverified."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No dataset redistribution or training license established. Local research only; do not publish source text.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "teraumare-14",
+      "url": "https://w.atwiki.jp/teraumare/pages/14.html",
+      "title": "夜釣り",
+      "version": "Wiki displayed last update 2010-10-03T18:33:00+09:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "web_tool_capture",
+      "raw_sha256": "10cf17f554517dca7ac47b0948bbce5ba53f6e949f7848e347ed567b87e8bde8",
+      "text_sha256": "22f40968cee30901c218daf70c38f74577152fd51533bf1b9c34372a19ffaf72",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "anonymous",
+        "evidence_url": "https://w.atwiki.jp/teraumare/pages/14.html",
+        "notes": "Wiki transcribes forum post 3 attributed to 本当にあった怖い名無し on 2008-05-19 (15:47:25); collector is not established as creator. Underlying first post and consulted version unverified."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No dataset redistribution or training license established. Local research only; do not publish source text.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "teraumare-13",
+      "url": "https://w.atwiki.jp/teraumare/pages/13.html",
+      "title": "悪夢",
+      "version": "Wiki displayed last update 2010-10-03T18:27:00+09:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "web_tool_capture",
+      "raw_sha256": "6ced3de1f1c2b6fdc39ecb236860720ec01f0cc383be1251cfb054bfa37dc134",
+      "text_sha256": "917b8832b78b9151586d36a7ec210b26354fe628beba223a2175f90ad0801038",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "anonymous",
+        "evidence_url": "https://w.atwiki.jp/teraumare/pages/13.html",
+        "notes": "Wiki transcribes forum post 9 attributed to 本当にあった怖い名無し on 2008-05-19 (15:49:43); collector is not established as creator. Underlying first post and consulted version unverified."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No dataset redistribution or training license established. Local research only; do not publish source text.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "teraumare-20",
+      "url": "https://w.atwiki.jp/teraumare/pages/20.html",
+      "title": "シャムネコ",
+      "version": "Wiki displayed last update 2010-10-03T18:56:00+09:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "web_tool_capture",
+      "raw_sha256": "43d4d8b6b6df8e4c9792fc701585366eb7a67439fef44eda00d67c9c278963ee",
+      "text_sha256": "3f861f4705e8bcc8c0a19670c194385a93296bd81baea3834fa85a4a7ca8aa0f",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "anonymous",
+        "evidence_url": "https://w.atwiki.jp/teraumare/pages/20.html",
+        "notes": "Wiki transcribes forum post 19 attributed to 本当にあった怖い名無し on 2008-05-19 (17:45:46); collector is not established as creator. Underlying first post and consulted version unverified."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No dataset redistribution or training license established. Local research only; do not publish source text.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "teraumare-18",
+      "url": "https://w.atwiki.jp/teraumare/pages/18.html",
+      "title": "殺人サイト",
+      "version": "Wiki displayed last update 2010-10-03T18:44:00+09:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "web_tool_capture",
+      "raw_sha256": "8f307114b0a5c27f2d2b681b042cb4781bd612d0fdced2ae669652ddc21f527b",
+      "text_sha256": "303e98670db813acf8bc00fcc88bc0eb671386deb276fc27adafcd706d4116c1",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "anonymous",
+        "evidence_url": "https://w.atwiki.jp/teraumare/pages/18.html",
+        "notes": "Wiki transcribes forum post 10–12 attributed to 本当にあった怖い名無し on 2008-05-19 (15:52:13–15:53:55); collector is not established as creator. Underlying first post and consulted version unverified."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No dataset redistribution or training license established. Local research only; do not publish source text.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "teraumare-19",
+      "url": "https://w.atwiki.jp/teraumare/pages/19.html",
+      "title": "足長男",
+      "version": "Wiki displayed last update 2010-10-03T18:52:00+09:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "web_tool_capture",
+      "raw_sha256": "e8d04d13c61af8ec0b4e1e9456c0958f6535bace6b315fdeb05710f31510dcc2",
+      "text_sha256": "3cb7976bd90405001bfcf226d022456fa7b64d1a723f5de2fea3a526c4fae07c",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "anonymous",
+        "evidence_url": "https://w.atwiki.jp/teraumare/pages/19.html",
+        "notes": "Wiki transcribes forum post 14–16 attributed to 本当にあった怖い名無し on 2008-05-19 (15:54:59–15:58:07); collector is not established as creator. Underlying first post and consulted version unverified."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "No dataset redistribution or training license established. Local research only; do not publish source text.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "syosetu-107412-4",
+      "url": "https://syosetu.org/novel/107412/4.html",
+      "title": "寺生まれのBさん",
+      "version": "Live HTTP response 2026-10-06T08:39:58.439158+00:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "80f5d7007bf8102f2aa92a33a82a8c29ea147649ac95017e9ddb7dd1560e7590",
+      "text_sha256": "9cb4cc280df33054f2fe7215af4b559b75c30abf61e3ce011f3c49f051cc9401",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "蒼蒼",
+        "evidence_url": "https://syosetu.org/novel/107412/4.html",
+        "notes": "Byline on syosetu.org; publication listed in collection contents."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "Author-owned adaptation; site explicitly prohibits unauthorized reproduction. Local research only; do not publish text or derived models.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "syosetu-107412-5",
+      "url": "https://syosetu.org/novel/107412/5.html",
+      "title": "続・寺生まれのBさん",
+      "version": "Live HTTP response 2026-10-06T08:39:58.439158+00:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "e63345f14aa9c51062bed10ceefccdd9be13eb0374beec70060119c69f01c416",
+      "text_sha256": "4bfa7a3c4bd933ff464cc50af77faddb8a0e6e6a038cdc9640acc5a57cd4346a",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "蒼蒼",
+        "evidence_url": "https://syosetu.org/novel/107412/5.html",
+        "notes": "Byline on syosetu.org; publication listed in collection contents."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "Author-owned adaptation; site explicitly prohibits unauthorized reproduction. Local research only; do not publish text or derived models.",
+        "redistribution_allowed": false
+      }
+    },
+    {
+      "document_id": "syosetu-107412-8",
+      "url": "https://syosetu.org/novel/107412/8.html",
+      "title": "続々・寺生まれのBさん",
+      "version": "Live HTTP response 2026-10-06T08:39:58.439158+00:00",
+      "retrieved_at": "2026-10-06T08:39:58.439158+00:00",
+      "raw_kind": "http_response_body",
+      "raw_sha256": "20de55bf420c1e5e0d7fbabc73a7625d719fccc54883f3cfd273673fb2886198",
+      "text_sha256": "1d1917ab6088ca636b9e9fe64d1ecf9e124cc3266b6d25969f213d81e4dc94da",
+      "authorship_evidence": {
+        "status": "published_human_attributed",
+        "author": "蒼蒼",
+        "evidence_url": "https://syosetu.org/novel/107412/8.html",
+        "notes": "Byline on syosetu.org; publication listed in collection contents."
+      },
+      "rights": {
+        "status": "unknown",
+        "notes": "Author-owned adaptation; site explicitly prohibits unauthorized reproduction. Local research only; do not publish text or derived models.",
+        "redistribution_allowed": false
+      }
+    }
+  ],
+  "works": [
+    {
+      "work_id": "cashier_333_777",
+      "title": "333円の買い物と777円のお釣りのコピペ",
+      "original_author": "unknown; presented by site as an existing copypasta",
+      "source_document_ids": [
+        "aaa"
+      ],
+      "adaptation_document_ids": [
+        "aaa"
+      ],
+      "version_status": "documented",
+      "family_ids": [
+        "cashier_333_777"
+      ]
+    },
+    {
+      "work_id": "akutagawa_kumo_no_ito",
+      "title": "蜘蛛の糸",
+      "original_author": "芥川龍之介",
+      "source_document_ids": [
+        "kumo"
+      ],
+      "adaptation_document_ids": [
+        "oii"
+      ],
+      "version_status": "uncertain",
+      "family_ids": [
+        "akutagawa_kumo_no_ito"
+      ]
+    },
+    {
+      "work_id": "kusuyama_sarukani",
+      "title": "猿かに合戦",
+      "original_author": "楠山正雄",
+      "source_document_ids": [
+        "saru"
+      ],
+      "adaptation_document_ids": [
+        "oii"
+      ],
+      "version_status": "uncertain",
+      "family_ids": [
+        "kusuyama_sarukani"
+      ]
+    },
+    {
+      "work_id": "miyazawa_ame",
+      "title": "〔雨ニモマケズ〕",
+      "original_author": "宮沢賢治",
+      "source_document_ids": [
+        "ame"
+      ],
+      "adaptation_document_ids": [
+        "oii"
+      ],
+      "version_status": "uncertain",
+      "family_ids": [
+        "miyazawa_ame"
+      ]
+    },
+    {
+      "work_id": "miyazawa_chumon",
+      "title": "注文の多い料理店",
+      "original_author": "宮沢賢治",
+      "source_document_ids": [
+        "chumon_modern"
+      ],
+      "adaptation_document_ids": [
+        "suguru"
+      ],
+      "version_status": "uncertain",
+      "family_ids": [
+        "miyazawa_chumon"
+      ]
+    },
+    {
+      "work_id": "tokisoba_kikuchi",
+      "title": "時そば（そば処きくち掲載版）",
+      "original_author": "Traditional rakugo; specific text published by そば処きくち管理人",
+      "source_document_ids": [
+        "tokisoba"
+      ],
+      "adaptation_document_ids": [
+        "oii"
+      ],
+      "version_status": "uncertain",
+      "family_ids": [
+        "tokisoba_kikuchi"
+      ]
+    },
+    {
+      "work_id": "teraumare-15-red-dress",
+      "title": "赤いワンピース",
+      "original_author": "anonymous",
+      "source_document_ids": [
+        "teraumare-15"
+      ],
+      "adaptation_document_ids": [
+        "syosetu-107412-4"
+      ],
+      "version_status": "uncertain",
+      "family_ids": []
+    },
+    {
+      "work_id": "teraumare-14-night-fishing",
+      "title": "夜釣り",
+      "original_author": "anonymous",
+      "source_document_ids": [
+        "teraumare-14"
+      ],
+      "adaptation_document_ids": [
+        "syosetu-107412-4"
+      ],
+      "version_status": "uncertain",
+      "family_ids": []
+    },
+    {
+      "work_id": "teraumare-13-nightmare",
+      "title": "悪夢",
+      "original_author": "anonymous",
+      "source_document_ids": [
+        "teraumare-13"
+      ],
+      "adaptation_document_ids": [
+        "syosetu-107412-5"
+      ],
+      "version_status": "uncertain",
+      "family_ids": []
+    },
+    {
+      "work_id": "teraumare-20-siamese-cat",
+      "title": "シャムネコ",
+      "original_author": "anonymous",
+      "source_document_ids": [
+        "teraumare-20"
+      ],
+      "adaptation_document_ids": [
+        "syosetu-107412-8"
+      ],
+      "version_status": "uncertain",
+      "family_ids": []
+    },
+    {
+      "work_id": "teraumare-18-murder-website",
+      "title": "殺人サイト",
+      "original_author": "anonymous",
+      "source_document_ids": [
+        "teraumare-18"
+      ],
+      "adaptation_document_ids": [
+        "syosetu-107412-8"
+      ],
+      "version_status": "uncertain",
+      "family_ids": []
+    },
+    {
+      "work_id": "teraumare-19-long-legged-man",
+      "title": "足長男",
+      "original_author": "anonymous",
+      "source_document_ids": [
+        "teraumare-19"
+      ],
+      "adaptation_document_ids": [
+        "syosetu-107412-8"
+      ],
+      "version_status": "uncertain",
+      "family_ids": []
+    }
+  ],
+  "source_manifest_sha256": "5d40b5f73ffb569c5a5f014b5ecb09159799dd76dbb22b4e9af52a96ff5ba358",
+  "paired_manifest_sha256": "301df02c0b16ad9296fbd610a528284fe1f8fe5a8fda6fbc77100110ec772213",
+  "meaning_review": "unreviewed",
+  "human_quality_labels": 0,
+  "rights_notice": "Unknown license is not clearance. Published-human attribution and hashes do not prove semantic equivalence or permission. No protected full text or memorizing weights included."
+}

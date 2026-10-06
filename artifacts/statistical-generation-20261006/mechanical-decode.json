@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "model_manifest_sha256": "eb2c268df00d6a8239ce19d8fbe9f83bd5f4746dc2514c60a9ac98c6ab384076",
+  "model_status": "mechanical_wiring_only",
+  "feature_version": "moses-kenlm-surface-diagnostics-v1",
+  "production_enabled": false,
+  "inputs": [
+    {
+      "source": "dx dx",
+      "protected": [],
+      "candidates": [
+        {
+          "id": "69e6ce5c4983d71629f27051",
+          "text": "dz dz",
+          "decoder_score": 0.895336,
+          "decoder_features": "Distortion0= 0 LM0= -5.40933 WordPenalty0= -3 PhrasePenalty0= 3 TranslationModel0= 0 0 0 0",
+          "word_alignment": "0-0 1-1 2-2",
+          "trace": [
+            {
+              "source_token_start": 0,
+              "source_token_end": 1,
+              "target_token_start": 0,
+              "target_token_end": 1,
+              "input_span": {
+                "start": 0,
+                "end": 2
+              },
+              "output_span": {
+                "start": 0,
+                "end": 2
+              },
+              "source_encoded": [
+                "u6478"
+              ],
+              "target_encoded": [
+                "u647a"
+              ],
+              "origin": "learned_phrase",
+              "training_pair_ids": [
+                "mechanical-003",
+                "mechanical-007",
+                "mechanical-011",
+                "mechanical-012",
+                "mechanical-013"
+              ],
+              "source_references": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "source_token_start": 1,
+              "source_token_end": 2,
+              "target_token_start": 1,
+              "target_token_end": 2,
+              "input_span": {
+                "start": 2,
+                "end": 3
+              },
+              "output_span": {
+                "start": 2,
+                "end": 3
+              },
+              "source_encoded": [
+                "u20"
+              ],
+              "target_encoded": [
+                "u20"
+              ],
+              "origin": "learned_phrase",
+              "training_pair_ids": [
+                "mechanical-000",
+                "mechanical-001",
+                "mechanical-002",
+                "mechanical-003",
+                "mechanical-004",
+                "mechanical-005",
+                "mechanical-006",
+                "mechanical-007",
+                "mechanical-008",
+                "mechanical-009",
+                "mechanical-010",
+                "mechanical-011",
+                "mechanical-012",
+                "mechanical-013"
+              ],
+              "source_references": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "source_token_start": 2,
+              "source_token_end": 3,
+              "target_token_start": 2,
+              "target_token_end": 3,
+              "input_span": {
+                "start": 3,
+                "end": 5
+              },
+              "output_span": {
+                "start": 3,
+                "end": 5
+              },
+              "source_encoded": [
+                "u6478"
+              ],
+              "target_encoded": [
+                "u647a"
+              ],
+              "origin": "learned_phrase",
+              "training_pair_ids": [
+                "mechanical-003",
+                "mechanical-007",
+                "mechanical-011",
+                "mechanical-012",
+                "mechanical-013"
+              ],
+              "source_references": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          ],
+          "diagnostics": [
+            {
+              "kind": "semantics_unverified",
+              "severity": "review",
+              "detail": "Local surface checks cannot establish meaning, role, scope, attribution, or style preservation. Human review is required."
+            }
+          ],
+          "status": "needs_human_review",
+          "verification_scope": "Research diagnostics only; not certified by the baseline closed rule registry",
+          "S": null,
+          "Q": null,
+          "token_count": 3,
+          "kenlm": {
+            "log10_probability": -2.3492413,
+            "oov_count": 0,
+            "log10_per_token": -0.587310325,
+            "oov_rate": 0.0,
+            "interpretation": "local n-gram likelihood, not semantic safety or human quality"
+          }
+        }
+      ],
+      "fallback": {
+        "text": "dx dx",
+        "reason": "research_backend_does_not_replace_default"
+      }
+    }
+  ]
+}

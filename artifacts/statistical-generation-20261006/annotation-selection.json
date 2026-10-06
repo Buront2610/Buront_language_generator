@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "purpose": "source-only intake selection, no human teachers or quality labels",
+  "sentence_ids": [
+    "post_02284_82f2c18f73185161_8880",
+    "post_01952_f64513984ebf38b2_7207",
+    "post_01174_31c6636af8fe4be5_3714",
+    "post_02267_754aff5eaacdb026_8771",
+    "post_02404_ec5901c8d31c65b3_9391",
+    "post_01529_17e42d991a05a0fd_4924",
+    "post_02280_ef2eb606973c7e3a_8852",
+    "post_01954_3edfd7168f279210_7214",
+    "post_02396_29b4cda9a1da63c3_9368",
+    "post_02412_e3f28b0026ac16ea_9419",
+    "post_02184_fa5d195dbb8b7da4_8224",
+    "post_02355_55aeaf79fbf4673f_9132"
+  ],
+  "blank_pack_sha256": "0300a0e26bc197abeab943a373d8e5b854a4b5184bc361fd89bea67fe3b28eb9",
+  "selection": "11 source-ID-ranked, same-post literal heading/excerpt anchored rows plus one reviewed source-only replacement. All12 distinctcomponents; no speaker attribution certified.",
+  "replacement": {
+    "excluded_sentence_id": "post_01679_6232d5c6d9bb5fcb_5628",
+    "reason": "Original post ends in an unfinished ように clause; unsuitable starter intake burden",
+    "replacement_sentence_id": "post_02355_55aeaf79fbf4673f_9132",
+    "reason_selected": "The exact full source post is a standalone heading/excerpt-anchored sentence; human meaning/authorship review still required"
+  }
+}

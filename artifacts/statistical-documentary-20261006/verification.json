@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "date_utc": "2026-10-06",
+  "node": "24.19.0",
+  "python": "3.11.15",
+  "npm_test": {
+    "pass": 310,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "python_tests": {
+    "pass": 84,
+    "fail": 0
+  },
+  "python_command": ".venv/bin/python -m unittest discover -t . -s research/statistical_generation -p 'test_statistical_*.py'",
+  "typecheck": "passed",
+  "engine_and_web_build": "passed",
+  "assets_build": "passed",
+  "diagnose_ready": true,
+  "independent_audit": {
+    "source_documents_reconstructed": 17,
+    "paired_spans_verified": 220,
+    "original_parent_windows": 140,
+    "whole_work_leakage": false,
+    "cross_split_exact_text_duplicates": false,
+    "cross_split_physical_span_overlap": false,
+    "used_training_pairs_retokenized": 65,
+    "protected_inventory_exclusions_reproduced": 81,
+    "arpa_rebuild_byte_identical": true,
+    "kenlm_binary_rebuild_byte_identical": true,
+    "phrase_table_pairs_verified": 9587,
+    "candidate_segments_verified": 31417,
+    "candidate_count_v2_v3_text_score_order_invariant": 1480,
+    "added_post_exposure_rejections": 197,
+    "supported_blend_baseline_pool": 47,
+    "supported_blend_baseline_displayed": 47,
+    "blinded_union_candidates": 1530,
+    "human_quality_labels": 0
+  },
+  "audit_record_sha256": {
+    "REPORT.md": "3f8bbef1c33e554d18a8a6cbef328ea9ee7ef821d07da69179fce5d52c4c1bfd",
+    "source-audit.json": "b15105d49b3f7438c2d4e8c269dd1bc80b9d554962a059a678d2f54473c3e5a8",
+    "model-audit.json": "30f5da5edbf3b3d80050ced3f23cfaf2e3e129e03cd0ec3e323ef53b187e5575",
+    "v3-invariance.json": "a15945f1fd6217efde3fba4beedafcd3032e7ca474ac770ee6ba331ce7b4b6e0",
+    "model-v3-audit.json": "44606281c571b3a3e425216c4730a7532e465be90cfbba85e9c4fd95449689bd"
+  },
+  "source_manifest_sha256": "301df02c0b16ad9296fbd610a528284fe1f8fe5a8fda6fbc77100110ec772213",
+  "model_manifest_sha256": "f063308edead356364c5a2140d15e911b32bdd6a042604e0831356a6b6f6de82",
+  "report_script_sha256": "be0b6a049cd0b7444111189968df6a4601d4c1c5262dc9ee0b9cfd8b42c138e8",
+  "production_source_changes": 0,
+  "remote_publication": "Code, metadata, aggregates and bounded short examples only; no source corpus or model weights",
+  "ci": "Local results are not CI results. Exact published-head checks are reported on the PR.",
+  "provenance_note": "Authorship/relationship attribution, tool alignment, and human semantic review are distinct. No human quality judgments were supplied or inferred.",
+  "implementation_account_sha256": "33be0680122ec70c9d9b6ff2b4878e6731a83d475432fb752cb55033681cce3c",
+  "publication_documentation_checks": {
+    "npm_test_after_documentation": {
+      "pass": 310,
+      "fail": 0
+    },
+    "research_tests_after_documentation": {
+      "pass": 84,
+      "fail": 0
+    },
+    "typecheck_after_documentation": "passed",
+    "model_and_baseline_source_hashes": "unchanged",
+    "optional_full_context_annotation_pack": "excluded from public tree; preserved locally"
+  }
+}

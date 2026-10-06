@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "date_utc": "2026-10-06",
+  "baseline_revision": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+  "node": "24.19.0",
+  "python": "3.11.15",
+  "npm_test": {
+    "pass": 310,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "research_unit_tests": {
+    "pass": 56,
+    "fail": 0
+  },
+  "typecheck": "passed",
+  "engine_and_web_build": "passed",
+  "assets_build": "passed",
+  "diagnose_ready": true,
+  "diff_check": "passed",
+  "human_parallel_pairs": 0,
+  "human_quality_labels": 0,
+  "quality_acceptance": "not_evaluated_data_missing",
+  "production_changed": false,
+  "mechanical_pipeline": {
+    "pass": true,
+    "train_rows": 14,
+    "dev_rows": 1,
+    "test_rows": 1,
+    "alignment_lines": 14,
+    "scored_phrase_pairs": 27,
+    "provenance_phrase_pairs": 27,
+    "source": "dx dx",
+    "output": "dz dz",
+    "protection_probe_inputs": 4,
+    "actual_sudachi_original_roundtrips": 12,
+    "purpose": "integration_only_not_language_quality"
+  },
+  "model_manifest_sha256": "eb2c268df00d6a8239ce19d8fbe9f83bd5f4746dc2514c60a9ac98c6ab384076",
+  "implementation_sha256": {
+    "__init__.py": "0cb081fc7b0fa49915fb08e4943a84835ee3e63cadf3a6c96733f81f669abdff",
+    "__main__.py": "6af5ac0c529842fcc0e0704f205f386d27d4cd217791336f674b890fdcaadf52",
+    "csv_import.py": "d97ccc7f3c6547f928a0b018330239932d31ec1789181bbfb0ca183e39ac6694",
+    "data.py": "465dab192e3ee42699465af3c49d9e18df5cd3cef5c19a271547ca84d7a0819c",
+    "evaluation.py": "faf8f15c14f9def84508df3dac57b26ac04cd0c4b958ddfca24db3feac706239",
+    "pipeline.py": "8f0f66cf39e9bf9dcd23028bc8dee98f9d8d1a2e5d40e1c39738562278f51744",
+    "text.py": "24b21c3376c233b53ba42ffa74f509812abfbf0d5a42c8427e8fadac8ecd7777"
+  },
+  "baseline_adapter_sha256": "eed895f7967828c72900c7b076398dd34266671efaa887a94348594eeee948bf",
+  "dependency_toolchain_sha256": "04670c56cf93219e95d5cb7b790cf6d1f18bdf4c9336597bc39681964aec52ee",
+  "initial_failures_resolved": [
+    "Moses link required official local bzip2 and Boost iostreams support",
+    "Starting official train-model at step4 requires explicit model directory creation",
+    "N-best parser follows actual field5 source=target segmentation format",
+    "Baseline adapter captures pool before final verifier removes internal pool field",
+    "Starter numeric table and unfinished clause replaced by direct source-anchored complete original",
+    "Zero-width Sudachi punctuation-expansion morphemes are skipped without changing surface text"
+  ],
+  "ci_status": "not_yet_queried_for_published_commit",
+  "annotation_pack_sha256": "0300a0e26bc197abeab943a373d8e5b854a4b5184bc361fd89bea67fe3b28eb9"
+}
