@@ -20,32 +20,48 @@ export function makeRewritePlans(ir: DocumentIR, request: GenerationRequest, ass
   });
   const plans: QuotePlan[] = [], seen = new Set<string>();
   const permits = createRewritePermission(ir);
-  // Variants use different construction choices, never unrelated images or
-  // sentences added merely to obtain three outputs.
+  // Collect source-bound proposals once. Every variant reads the same original
+  // snapshot; neither a realized candidate nor another variant feeds the rules.
+  const units = narrative.units.map((unit, index) => {
+    const node = { id: `fact-node-${index}`, type: 'FactClause' as const, text: slice(ir.source.raw, unit.sourceSpan), sourceSpan: unit.sourceSpan, factIds: unit.factIds, evidenceIds: [] as string[], mention: 'primary' as const };
+    const proposals: RewriteEdit[] = [];
+    for (const rule of usable) {
+      let offset = 0, found: number;
+      while ((found = node.text.indexOf(rule.from, offset)) >= 0) {
+        offset = found + rule.from.length;
+        const start = unit.sourceSpan.start + [...node.text.slice(0, found)].length, sourceSpan = { start, end: start + [...rule.from].length };
+        if (permits(unit.sourceSpan, sourceSpan, rule)) proposals.push({ nodeId: node.id, sourceSpan, ruleId: rule.id, from: rule.from, to: rule.to, evidenceIds: [rule.evidenceId] });
+      }
+    }
+    return { node, proposals };
+  });
+  const rulesById = new Map(usable.map(rule => [rule.id, rule]));
+  // Preserve endings, use permitted plain forms, or use plain forms with bounded
+  // insistence; the transformed choices retain the existing sparse lexical
+  // alternatives. Only added insistence consumes the emphasis budget. A neutral
+  // polite-to-plain conversion must not stop after the first one or two clauses.
+  // This is a presentation policy, not a learned style/quality score.
   for (const variant of [0, 1, 2, 3, 4, 5]) {
     const edits: RewriteEdit[] = [];
-    let endingCount = 0;
-    const nodes = narrative.units.map((unit, index) => {
-      const node = { id: `fact-node-${index}`, type: 'FactClause' as const, text: slice(ir.source.raw, unit.sourceSpan), sourceSpan: unit.sourceSpan, factIds: unit.factIds, evidenceIds: [] as string[], mention: 'primary' as const };
-      const proposals: RewriteEdit[] = [];
-      for (const rule of usable) {
-        if (rule.kind === 'ending' && (variant === 0 || endingCount >= (request.intensity === 3 ? 2 : 1) || rule.mode !== ((variant + endingCount) % 2 ? 'plain' : 'insistence'))) continue;
-        if (variant >= 3 && rule.kind !== 'ending' && rule.level === 2 && (variant + index) % 2 === 0) continue;
-        let offset = 0, found: number;
-        while ((found = node.text.indexOf(rule.from, offset)) >= 0) {
-          offset = found + rule.from.length;
-          const start = unit.sourceSpan.start + [...node.text.slice(0, found)].length, sourceSpan = { start, end: start + [...rule.from].length };
-          if (permits(unit.sourceSpan, sourceSpan, rule)) proposals.push({ nodeId: node.id, sourceSpan, ruleId: rule.id, from: rule.from, to: rule.to, evidenceIds: [rule.evidenceId] });
-        }
-      }
+    let insistenceCount = 0;
+    const endingMode = variant === 0 ? 'preserve' : variant % 2 ? 'plain' : 'insistence';
+    const nodes = units.map(({ node: original, proposals: available }, index) => {
+      const node = { ...original, evidenceIds: [] as string[] };
+      const emphasize = endingMode === 'insistence' && insistenceCount < (request.intensity === 3 ? 2 : 1);
+      const proposals = available.filter(edit => {
+        const rule = rulesById.get(edit.ruleId)!;
+        if (rule.kind === 'ending') return endingMode !== 'preserve' && (rule.mode === 'plain' || emphasize);
+        return !(variant >= 3 && rule.level === 2 && (variant + index) % 2 === 0);
+      });
       // Longest source phrase wins. Every edit reads the original snapshot;
       // generated words are never fed back as another rule's input.
       const chosen: RewriteEdit[] = [];
-      for (const proposal of proposals.sort((a, b) => b.from.length - a.from.length || a.sourceSpan.start - b.sourceSpan.start)) {
-        if (!chosen.some(edit => overlaps(edit.sourceSpan, proposal.sourceSpan))) chosen.push(proposal);
+      for (const proposal of proposals.sort((a, b) => b.from.length - a.from.length || a.sourceSpan.start - b.sourceSpan.start
+        || Number(rulesById.get(b.ruleId)!.mode === 'insistence') - Number(rulesById.get(a.ruleId)!.mode === 'insistence'))) {
+        if (!chosen.some(edit => overlaps(edit.sourceSpan, proposal.sourceSpan))) chosen.push(structuredClone(proposal));
       }
       chosen.sort((a, b) => a.sourceSpan.start - b.sourceSpan.start);
-      if (chosen.some(edit => edit.ruleId.startsWith('ending-'))) endingCount++;
+      insistenceCount += chosen.filter(edit => rulesById.get(edit.ruleId)!.mode === 'insistence').length;
       edits.push(...chosen); node.evidenceIds = [...new Set(chosen.flatMap(edit => edit.evidenceIds))];
       node.text = renderEdits(ir.source.raw, node, chosen); return node;
     });

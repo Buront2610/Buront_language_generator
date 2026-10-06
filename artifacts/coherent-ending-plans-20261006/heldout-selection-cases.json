@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-06T00:32:57.055233+00:00",
+  "authorship": "Manually drafted synthetic Japanese inputs by an evaluation assistant; no external human participant or human quality labels.",
+  "protocol": "Sealed before implementation tuning and any new-case generator executions. Do not reveal inputs or results to implementation agent before explicit code freeze. Run one frozen baseline/after comparison only; retain failures as findings. Limited intentionally selected near-domain transfer plus ordinary and safety controls, not natural-corpus generalization or style-quality evidence.",
+  "baseline": {
+    "commit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+    "tree": "d48f19862dbbe2c3c094e92c1434a6c29cf1dbbc"
+  },
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "selection-holdout-20261006",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "S01",
+      "group": "near_domain",
+      "category": "reason lexical plain",
+      "source": "私は新しい通信回線に切り替えた。送信の速度が大切だからだ。"
+    },
+    {
+      "id": "S02",
+      "group": "near_domain",
+      "category": "reason lexical polite",
+      "source": "会場には大きな看板を置きます。遠くからのアピールが必要だからです。"
+    },
+    {
+      "id": "S03",
+      "group": "near_domain",
+      "category": "reason lexical with values",
+      "source": "この装置を二台借ります。計測の速度が重要だからです。"
+    },
+    {
+      "id": "S04",
+      "group": "near_domain",
+      "category": "reason lexical contrast",
+      "source": "古い広告は残した。しかし、新しい写真も載せた。商品のアピールが大事だからだ。"
+    },
+    {
+      "id": "S05",
+      "group": "near_domain",
+      "category": "reason two distinct lexical triggers",
+      "source": "私は紹介動画を短くした。再生の速度と商品のアピールが重要だからだ。"
+    },
+    {
+      "id": "S06",
+      "group": "near_domain",
+      "category": "reason ending without lexical trigger",
+      "source": "私は予備の電池を持っていきます。途中で交換が必要だからです。"
+    },
+    {
+      "id": "S07",
+      "group": "near_domain",
+      "category": "reason repeated lexical trigger",
+      "source": "私は速度を比べた。速度が選定の条件だからです。"
+    },
+    {
+      "id": "S08",
+      "group": "near_domain",
+      "category": "two explicit reason relations",
+      "source": "私は速い便を選んだ。配送の速度が必要だからだ。写真も追加します。店のアピールが大切だからです。"
+    },
+    {
+      "id": "S09",
+      "group": "ordinary",
+      "category": "everyday sequence",
+      "source": "朝食のあとで食器を洗った。窓辺の鉢に水をやり、玄関に置いた傘を持って出かけた。"
+    },
+    {
+      "id": "S10",
+      "group": "ordinary",
+      "category": "office request with date value",
+      "source": "金曜日の午前十時までに、見積書を三部印刷してください。完成したら受付の箱に入れてください。"
+    },
+    {
+      "id": "S11",
+      "group": "ordinary",
+      "category": "ordinary comparative reason",
+      "source": "私は今日は徒歩で帰る。バスを待つより早いからだ。"
+    },
+    {
+      "id": "S12",
+      "group": "ordinary",
+      "category": "quiet scene",
+      "source": "図書館の奥には丸い机があった。雨音が聞こえ、窓の外では枝がゆっくり動いていた。"
+    },
+    {
+      "id": "S13",
+      "group": "ordinary",
+      "category": "thanks and observed action",
+      "source": "地図を送ってくれてありがとう。教えてもらった角を曲がると、すぐに店が見つかった。"
+    },
+    {
+      "id": "S14",
+      "group": "ordinary",
+      "category": "negated decision and contrast",
+      "source": "この椅子は買わない。しかし、座り心地は悪くなかった。"
+    },
+    {
+      "id": "S15",
+      "group": "ordinary",
+      "category": "question and intention",
+      "source": "荷物はどの窓口で受け取ればよいですか。帰る前に場所を確かめたいです。"
+    },
+    {
+      "id": "S16",
+      "group": "ordinary",
+      "category": "ordinary dissatisfaction without extreme emotion",
+      "source": "昼に買ったパンが少し固かったので、温めてから食べた。次は別の種類を選ぶつもりだ。"
+    },
+    {
+      "id": "S17",
+      "group": "safety_control",
+      "category": "quoted reason and lexical trigger",
+      "source": "中村は「今は急がない。速度が必要ではないからだ」と説明した。私は返事を保留した。"
+    },
+    {
+      "id": "S18",
+      "group": "safety_control",
+      "category": "uncertain reason ending",
+      "source": "この設定が適切かもしれない。通信の速度が十分だからだろうか。"
+    },
+    {
+      "id": "S19",
+      "group": "safety_control",
+      "category": "temporal origin not reason",
+      "source": "私は午後に見学する。公開は四時からです。"
+    },
+    {
+      "id": "S20",
+      "group": "safety_control",
+      "category": "negative explicit reason",
+      "source": "私は広告を追加しない。過剰なアピールが必要ではないからだ。"
+    },
+    {
+      "id": "S21",
+      "group": "safety_control",
+      "category": "conditional lexical reason",
+      "source": "もし速度が足りなければ、私は別の回線を選ぶ。今はまだ変更しない。"
+    },
+    {
+      "id": "S22",
+      "group": "safety_control",
+      "category": "question then whitespace and reason",
+      "source": "この案は正しいのだろうか。\n速度が重要だからだ。"
+    },
+    {
+      "id": "S23",
+      "group": "safety_control",
+      "category": "unrealized modest desire",
+      "source": "大したことはしていない。重い机を廊下へ運びたかっただけだ。"
+    },
+    {
+      "id": "S24",
+      "group": "safety_control",
+      "category": "named subject and protected quantity",
+      "source": "加藤は九時に300円払った。しかし、私は代金を払っていない。"
+    }
+  ]
+}

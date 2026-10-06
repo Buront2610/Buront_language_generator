@@ -108,7 +108,7 @@ test('M3 repeated source facts are preserved and are not scored as generated rhe
   assert.ok(result.candidates.length > 0);
   for (const candidate of result.candidates) {
     assert.equal(candidate.scores.R, 1);
-    assert.equal(candidate.plan.nodes.length,30); assert.equal((candidate.text.match(/担当者が状況を確認/g)||[]).length,30); assert.ok(candidate.plan.rewrite.edits.filter(e=>e.ruleId.startsWith('ending-')).length<=1);
+    assert.equal(candidate.plan.nodes.length,30); assert.equal((candidate.text.match(/担当者が状況を確認/g)||[]).length,30); assert.ok(candidate.plan.rewrite.edits.filter(e=>e.ruleId.startsWith('ending-insistence-')).length<=1); assert.ok([0,30].includes(candidate.plan.rewrite.edits.filter(e=>e.ruleId.startsWith('ending-')).length));
   }
 });
 

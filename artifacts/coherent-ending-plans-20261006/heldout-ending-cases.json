@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-06T00:33:28Z",
+  "timestampSource": "Conversation current_time_reminder, not executor wall clock (which is nine hours ahead).",
+  "authorship": "Manually drafted synthetic Japanese inputs by an evaluation assistant; no external human participant or human quality labels.",
+  "protocol": "Separate secondary suite requested before implementation edits, targeting potential fixed ending-cap partial register conversion. Sealed without generator execution; one frozen before/after comparison only. No implementation tuning based on outputs. This is purpose-built limited transfer/control coverage, not a natural corpus or human quality evaluation.",
+  "baseline": {
+    "commit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+    "tree": "d48f19862dbbe2c3c094e92c1434a6c29cf1dbbc"
+  },
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "ending-holdout-20261006",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "E01",
+      "group": "uniform_polite",
+      "category": "four ordinary past-polite clauses",
+      "source": "私は昼に市場へ行きました。入口でかごを受け取りました。野菜を二つ買いました。帰りに牛乳も選びました。"
+    },
+    {
+      "id": "E02",
+      "group": "uniform_polite",
+      "category": "four nonpast polite clauses",
+      "source": "受付は一階です。待合室は奥です。説明会は午後です。所要時間は一時間です。"
+    },
+    {
+      "id": "E03",
+      "group": "uniform_polite",
+      "category": "five-predicate ordinary instructions and observations",
+      "source": "私は毎朝窓を開けます。机の上を片付けます。お茶を一杯入れます。それから新聞を読みます。最後に予定を確認します。"
+    },
+    {
+      "id": "E04",
+      "group": "uniform_polite",
+      "category": "uniform polite lexical and reason combination",
+      "source": "私は新しい配信方法を選びました。画像も小さくしました。通信の速度が重要だからです。紹介文も直しました。商品のアピールが必要だからです。"
+    },
+    {
+      "id": "E05",
+      "group": "mixed_register",
+      "category": "alternating original plain and polite",
+      "source": "私は朝に到着した。荷物は受付に預けました。会場は静かだった。窓側の席に座りました。"
+    },
+    {
+      "id": "E06",
+      "group": "mixed_register",
+      "category": "plain statements surrounding polite request",
+      "source": "この棚は空だ。書類をこちらに置いてください。鍵は机の上です。私は隣の部屋で待つ。"
+    },
+    {
+      "id": "E07",
+      "group": "safety_control",
+      "category": "quoted polite material remains attributed",
+      "source": "山本は「入口は右です。会場は二階です」と言いました。私は案内板を確認しました。受付で名前を書きました。"
+    },
+    {
+      "id": "E08",
+      "group": "safety_control",
+      "category": "reported uncertain nonasserted commitment",
+      "source": "係員は明日届くと言いました。私はまだ確認していません。別の場所に届くかもしれません。今は受付で待っています。"
+    },
+    {
+      "id": "E09",
+      "group": "safety_control",
+      "category": "uniform polite negation and past-negation",
+      "source": "私は申込書を送りませんでした。参加費も払いませんでした。予約はまだ完了していません。連絡先は変更しません。"
+    },
+    {
+      "id": "E10",
+      "group": "safety_control",
+      "category": "quantities date person and quotation",
+      "source": "小林は六月九日に来ました。代金は2400円です。私は「領収書を二枚ください」と頼みました。担当者は十分後に戻りました。"
+    },
+    {
+      "id": "E11",
+      "group": "safety_control",
+      "category": "conditional and uncertain polite clauses",
+      "source": "もし雨が降ったら、私は出かけません。列車が遅れるかもしれません。今の天気は曇りです。予定はまだ決めていません。"
+    },
+    {
+      "id": "E12",
+      "group": "combination",
+      "category": "polite contrast lexical and reason plus question",
+      "source": "私は別の宣伝文を選びました。しかし、アピールは十分ではありません。説明を追加します。条件が分かりにくいからです。あなたはどう思いますか。"
+    }
+  ]
+}

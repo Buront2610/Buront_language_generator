@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-06T00:45:08.247791+00:00",
+  "scope": "Independent review of coherent-ending-plans, neutral ending budget and source-proposal caching, plus narrow terminal protected-value copula correction; no LLM generation, no implementation edits, no sealed evaluation data read.",
+  "baselineCommit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+  "engineSourceHash": "767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120",
+  "coreDiffHash": "995a3728a7864150d9f71740b57dfd310c779da93af9c7f832d4213a2a5b921c",
+  "verdict": "No blocking design or safety issues found in final reviewed build.",
+  "liveCoverage": {
+    "sources": 31,
+    "intensities": [
+      1,
+      2,
+      3
+    ],
+    "sourceIntensityCases": 93,
+    "rewritePlansIndividuallyValidated": 229,
+    "failingCases": [],
+    "categories": [
+      "four and six safe polite clauses",
+      "direct quote and reported speech",
+      "uncertainty/hearsay/conditionals/questions/requests/gratitude",
+      "negative and past forms",
+      "adjective-past abstention",
+      "protected numbers/comparators/ranges/URLs/emails/identifiers",
+      "genuine particle and ambiguous sushi continuation",
+      "astral scalar offsets",
+      "enclosures/newlines/multiple clauses per sentence",
+      "explanatory causal copulas",
+      "existing insistence",
+      "proper names and compounds"
+    ]
+  },
+  "independentChecks": [
+    {
+      "name": "excess-insistence",
+      "accepted": false
+    },
+    {
+      "name": "unknown-rule",
+      "accepted": false
+    },
+    {
+      "name": "fake-neutral-insistence",
+      "accepted": false
+    },
+    {
+      "name": "source-span",
+      "accepted": false
+    },
+    {
+      "name": "changed-text",
+      "accepted": false
+    },
+    {
+      "name": "fake-evidence",
+      "accepted": false
+    },
+    {
+      "name": "lower-intensity",
+      "accepted": false
+    },
+    {
+      "name": "duplicate-edit",
+      "accepted": false
+    },
+    {
+      "name": "fresh-source-scope-rebuild",
+      "accepted": false
+    },
+    {
+      "name": "cross-variant-edit-isolation",
+      "accepted": false
+    }
+  ],
+  "locksReplay": {
+    "fullAcceptedParentLocks": 3,
+    "deterministicReplay": true,
+    "forgedParentReplayRejected": true
+  },
+  "designFindings": [
+    "Planner caches source-bound proposals only for its own synchronous pass; selected edit objects are cloned between variants. Independent validator creates a fresh source-derived permission guard.",
+    "Plain edits do not consume the added-insistence budget. Registered rule modes, exact from/to/evidence/span and existing grammar/protection conditions still govern every edit.",
+    "Bounded insistence is limited to one at intensity 2 and two at intensity 3. Original insistence in source text is intentionally not charged as an added edit.",
+    "A pre-existing protected-literal role false rejection was independently reproduced on a later email copula. Final shared helper fixes terminal です/でした only; 93-case rerun including genuine case-particle and ambiguous continuation controls is clean.",
+    "Fully coherent plain conversion applies only to already-permitted terminal inflections. Unsupported inflections, direct quotes, reported/uncertain scopes, and nonterminal clauses intentionally remain unchanged; this is not an unrestricted morphology pass."
+  ],
+  "performance": {
+    "plannerSamples": [
+      {
+        "count": 4,
+        "scalarLength": 52,
+        "baseline": 2.72,
+        "current": 2.28,
+        "validateAll": 0.53,
+        "planCount": 3,
+        "maxPlain": 4
+      },
+      {
+        "count": 30,
+        "scalarLength": 390,
+        "baseline": 14.61,
+        "current": 9.38,
+        "validateAll": 7.33,
+        "planCount": 3,
+        "maxPlain": 30
+      },
+      {
+        "count": 100,
+        "scalarLength": 1300,
+        "baseline": 192.44,
+        "current": 75.79,
+        "validateAll": 86.24,
+        "planCount": 3,
+        "maxPlain": 100
+      },
+      {
+        "count": 250,
+        "scalarLength": 3250,
+        "baseline": 775.93,
+        "current": 284.33,
+        "validateAll": 306.11,
+        "planCount": 3,
+        "maxPlain": 250
+      }
+    ],
+    "apiPassed": true,
+    "apiRows": [
+      {
+        "name": "reason-pairs4991",
+        "sourceScalars": 4991,
+        "coordinatorMs": 22617,
+        "peakCombinedRssMiB": 1603.7,
+        "internalPool": {
+          "generated": 8,
+          "totalOutputScalars": 48606,
+          "maxOutputScalars": 6943,
+          "maxNodes": 434,
+          "maxRewriteEdits": 1303,
+          "allSourceMappingsPreserved": true
+        },
+        "passing": true
+      },
+      {
+        "name": "repeated5000",
+        "sourceScalars": 5000,
+        "coordinatorMs": 11427,
+        "peakCombinedRssMiB": 1458.1,
+        "internalPool": {
+          "generated": 2,
+          "totalOutputScalars": 10005,
+          "maxOutputScalars": 5003,
+          "maxNodes": 1,
+          "maxRewriteEdits": 1001,
+          "allSourceMappingsPreserved": true
+        },
+        "passing": true
+      },
+      {
+        "name": "authored-quantity-quote4928",
+        "sourceScalars": 4928,
+        "coordinatorMs": 7049,
+        "peakCombinedRssMiB": 1364.5,
+        "internalPool": {
+          "generated": 3,
+          "totalOutputScalars": 13555,
+          "maxOutputScalars": 4816,
+          "maxNodes": 337,
+          "maxRewriteEdits": 728,
+          "allSourceMappingsPreserved": true
+        },
+        "passing": true
+      },
+      {
+        "name": "dense-polite5000",
+        "sourceScalars": 5000,
+        "coordinatorMs": 7784,
+        "peakCombinedRssMiB": 1403.7,
+        "internalPool": {
+          "generated": 3,
+          "totalOutputScalars": 13250,
+          "maxOutputScalars": 4999,
+          "maxNodes": 500,
+          "maxRewriteEdits": 1125,
+          "allSourceMappingsPreserved": true
+        },
+        "passing": true
+      }
+    ],
+    "interpretation": "All four authored/repeated API stress inputs completed under the production 30s deadline with default heap. Dense reason case leaves approximately 7.4s margin and combined sampled RSS reached approximately 1.57 GiB. These probes are not a general 5,000-character latency/memory guarantee; planner timings are single samples, not controlled performance claims."
+  },
+  "artifacts": [
+    "review-detail.json.gz",
+    "near-limit-api.json",
+    "review-summary.md",
+    "../../scripts/review-coherent-ending-plans.cjs",
+    "../../scripts/benchmark-coherent-ending-plans.cjs"
+  ],
+  "reproduction": {
+    "review": "npm run build:engine && node scripts/review-coherent-ending-plans.cjs --output /tmp/review-detail.json.gz",
+    "api": "node scripts/benchmark-coherent-ending-plans.cjs --output /tmp/near-limit-api.json",
+    "python": "Set BURONT_PYTHON if the project .venv is elsewhere",
+    "captureNote": "Artifacts retain final-build results from the independent review; packaged scripts add portable CLI/output handling without changing the tested cases or API workload.",
+    "baselineScope": "The review runner loads only historical makeRewritePlans from the baseline Git ref, with current shared guards and the same IR. It is a planner ablation, not a full historical-engine performance comparison."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "verified": true,
+  "comparisons": [
+    {
+      "file": "diagnostic-comparison.json.gz",
+      "bytes": 35343,
+      "sha256": "6532c0006bef6d27344c07351d384f7e87cf12742784507e0286b340e7abbc8a",
+      "cases": 12,
+      "before": {
+        "requests": 24,
+        "candidates": 96,
+        "displayed": 68,
+        "partialCandidates": 53,
+        "partialSelected": 39,
+        "partialTop": 17
+      },
+      "after": {
+        "requests": 24,
+        "candidates": 98,
+        "displayed": 68,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      },
+      "verified": true
+    },
+    {
+      "file": "heldout-ending-comparison.json.gz",
+      "bytes": 30108,
+      "sha256": "697706a17cc62e3bab125a294c0bc95524a521e852e890c84312a99a848960f6",
+      "cases": 12,
+      "before": {
+        "requests": 24,
+        "candidates": 82,
+        "displayed": 62,
+        "partialCandidates": 27,
+        "partialSelected": 15,
+        "partialTop": 6
+      },
+      "after": {
+        "requests": 24,
+        "candidates": 82,
+        "displayed": 66,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      },
+      "verified": true
+    },
+    {
+      "file": "heldout-selection-comparison.json.gz",
+      "bytes": 38731,
+      "sha256": "8af781c1f5cac7b7546ef960a70366fba66620a65c001b186f6bcd9216e35186",
+      "cases": 24,
+      "before": {
+        "requests": 48,
+        "candidates": 156,
+        "displayed": 112,
+        "partialCandidates": 17,
+        "partialSelected": 7,
+        "partialTop": 4
+      },
+      "after": {
+        "requests": 48,
+        "candidates": 156,
+        "displayed": 112,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      },
+      "verified": true
+    },
+    {
+      "file": "regression-comparison.json.gz",
+      "bytes": 81852,
+      "sha256": "907f83cac8e41011d2a87c56828f15de36614378795a30868a26dba277ad24de",
+      "cases": 79,
+      "before": {
+        "requests": 158,
+        "candidates": 425,
+        "displayed": 359,
+        "partialCandidates": 8,
+        "partialSelected": 5,
+        "partialTop": 4
+      },
+      "after": {
+        "requests": 158,
+        "candidates": 434,
+        "displayed": 359,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      },
+      "verified": true
+    }
+  ],
+  "verifiedAt": "2026-10-06T00:49:20.432Z",
+  "currentImplementationMatchesFreeze": true,
+  "frozenImplementationFilesChecked": 130
+}

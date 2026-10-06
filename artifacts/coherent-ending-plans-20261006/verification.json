@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "testedEngineBuild": {
+    "schemaVersion": 1,
+    "sourceHash": "767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120",
+    "toolCommit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "sourceRevision": "working-tree:767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120",
+  "checks": {
+    "tests": {
+      "exitCode": 0,
+      "logSha256": "2848c3a65e9ec587588e31a83f77ff53f2da3b8b2b431ae926dbccefa3343abe",
+      "bytes": 33649
+    },
+    "typecheck": {
+      "exitCode": 0,
+      "logSha256": "9198b286dd126fb9d732bf7c8fdcd0f130b67b18ea52fe245067cffdd5f57be4",
+      "bytes": 208
+    },
+    "assets": {
+      "exitCode": 0,
+      "logSha256": "1935cab74874150223a888015fe115a1cf944d0a613336f60ef287157c57b604",
+      "bytes": 485
+    },
+    "diagnose": {
+      "exitCode": 0,
+      "logSha256": "7caf184761db8fedeb6251654c909fc7bfff3e9dcb9e191bf8092d701557c1f8",
+      "bytes": 1899
+    },
+    "planning-final": {
+      "exitCode": 0,
+      "logSha256": "fee864998fd048a0b47c38e8239503862bacb1a2edd247b2e9f7becce9e6654f",
+      "bytes": 1585
+    },
+    "ending-focused": {
+      "exitCode": 0,
+      "logSha256": "18af0ed1021a132c371a0ec51bb091d0a2720b2a602807ee61b739e116180e02",
+      "bytes": 1053
+    }
+  },
+  "npmTest": {
+    "tests": 319,
+    "pass": 319,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "note": "Includes engine+web build, real GiNZA and API tests."
+  },
+  "planningFinal": {
+    "tests": 14,
+    "pass": 14,
+    "reason": "Additional exact 30-clause ending coverage assertion was rerun after suite started."
+  },
+  "diagnose": {
+    "ready": true,
+    "initialFailure": "Restored workspace had stale .venv interpreter symlink. Runtime was restored from pinned requirements; diagnose ignores BURONT_PYTHON, so .venv was linked to the restored 3.11 environment before rerun."
+  },
+  "artifacts": {
+    "logs": "verification-logs.json.gz"
+  },
+  "ci": "Not yet checked for publication commit; local successes are not remote CI."
+}

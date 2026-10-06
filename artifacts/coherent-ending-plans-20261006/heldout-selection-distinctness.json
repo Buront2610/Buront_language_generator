@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-06T00:32:57.055233+00:00",
+  "comparisonCaseFiles": [
+    {
+      "path": "artifacts/composable-constructions-20261002/controlled-cases.json",
+      "sha256": "3882b2c111d951d7b847b696bc0b9ccabdbb2c62e4157c32598a5abebfd6e1d5"
+    },
+    {
+      "path": "artifacts/composable-constructions-20261002/exposed-cases.json",
+      "sha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+    },
+    {
+      "path": "artifacts/composable-constructions-20261002/heldout-cases.json",
+      "sha256": "3ddcad8069eb8a60343ffab099047fdcafbb96fdb4ccd415d9254f699ba7197b"
+    },
+    {
+      "path": "artifacts/composable-constructions-20261002/initial-heldout/heldout-cases.json",
+      "sha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+    },
+    {
+      "path": "artifacts/composable-constructions-20261002/regression-cases.json",
+      "sha256": "fad4884e18244e282ab7a3b7659a836daf12b2c399a4dea0e4f61d97398277b8"
+    }
+  ],
+  "oldCaseRows": 91,
+  "oldDistinctSources": 79,
+  "newCases": 24,
+  "exactFullTextMatches": [],
+  "limitation": "Full-text equality only; semantic near-duplicates are not ruled out."
+}

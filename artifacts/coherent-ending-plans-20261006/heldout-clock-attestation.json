@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "recordedAt": "2026-10-06T00:33:28Z",
+  "clockSource": "clock.curr_time and current_time_reminder in conversation",
+  "initialSealCompletedNoLaterThan": "2026-10-06T00:32:58Z",
+  "initialInputsSha256": "66998333241c6ea6264b07c71bdaa6c9e39da5c7a1b5d8345db34f324a217ca0",
+  "originalExecutorRecordedTimestamp": "2026-10-06T00:32:57.055233+00:00",
+  "note": "Correction: executor UTC timestamps match the conversation UTC clock. The apparent nine-hour difference came from date/ls rendering local JST (UTC+09:00), not clock drift. The original seal timestamp 2026-10-06T00:32:57.055233+00:00 is valid. Sealed input bytes/hashes are preserved.",
+  "correctedAtUtc": "2026-10-06T00:49:22Z",
+  "verifiedClockEvidence": {
+    "dateLocal": "Tue Oct 6 09:49:10 JST 2026",
+    "dateUtc": "Tue Oct 6 00:49:10 UTC 2026",
+    "pythonUtc": "2026-10-06T00:49:10.694958+00:00"
+  },
+  "sealedMetadataErrata": [
+    {
+      "file": "heldout-ending-cases.json",
+      "field": "timestampSource",
+      "correction": "Conversation current_time_reminder was used. The claim that executor wall clock was nine hours ahead was an incorrect inference from local JST display."
+    },
+    {
+      "file": "heldout-ending-seal.json",
+      "field": "timestampSource",
+      "correction": "Conversation current_time_reminder was used. Executor UTC clock was correct; local date/ls display uses JST."
+    }
+  ],
+  "endingSealCompletedNoLaterThanUtc": "2026-10-06T00:34:17Z"
+}

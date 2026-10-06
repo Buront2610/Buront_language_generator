@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-06T00:48:45Z",
+  "timeSource": "Conversation UTC clock and execution-return reminders. Executor UTC agrees; local date/ls render JST (UTC+09:00). See corrected clock attestation and sealed metadata errata.",
+  "selectionSealCompletedNoLaterThanUtc": "2026-10-06T00:32:58Z",
+  "endingSealCompletedNoLaterThanUtc": "2026-10-06T00:34:17Z",
+  "codeFreezeUtc": "2026-10-06T00:44:54Z",
+  "firstGeneratorInvocationReturnedRunningAtUtc": "2026-10-06T00:45:29Z",
+  "allGeneratorRunsCompletedNoLaterThanUtc": "2026-10-06T00:46:19Z",
+  "generatorRunCount": 4,
+  "invocations": [
+    {
+      "suite": "selection",
+      "phase": "before",
+      "requests": 48,
+      "rawOutputSha256": "38fb4492c21b31a7e85b94215dd02f03ca453a919c11f5ebba0079311b27bfd0"
+    },
+    {
+      "suite": "selection",
+      "phase": "after",
+      "requests": 48,
+      "rawOutputSha256": "a1f6583a3b92527f4a02bae6b76435646c99e8b7ba461a08190f37d5cf01b11c"
+    },
+    {
+      "suite": "ending",
+      "phase": "before",
+      "requests": 24,
+      "rawOutputSha256": "9dfe74a07b0dd60101cb392119971d77f663674b9d957a96d2e8b1a8f26aa6ef"
+    },
+    {
+      "suite": "ending",
+      "phase": "after",
+      "requests": 24,
+      "rawOutputSha256": "876d94cc3b5c558e11b13b3fb96b8dd9cbe3a7cdbcd56888dafe8bcbc6207081"
+    }
+  ],
+  "totalGeneratorRequests": 144,
+  "evaluatedInputsDisclosedOnlyAfterFreeze": true,
+  "tuningAfterHeldout": false,
+  "afterSourceAndModuleHashesRechecked": true,
+  "evaluationScriptSha256": "17fb9b7c147d9c5d57bfa7817cbc7c124f4f50626a37013ea2a101b2368a4db4",
+  "inputHashChecks": {
+    "selection": "66998333241c6ea6264b07c71bdaa6c9e39da5c7a1b5d8345db34f324a217ca0",
+    "ending": "ed162ed4555faba64eaac033c296f279e22f2661f0f8139d80974b77700dab13"
+  },
+  "compactComparisonSummaryParity": true,
+  "sourceBoundOpportunitySetsEqualBeforeAfter": true,
+  "sameInputsAssetsParserSettingsEvaluatorAndStableEngines": true,
+  "artifactNote": "Full original raw outputs are retained in the evaluation workspace; compressed comparisons contain all candidate texts, edit signatures, checks, ending coverage, selected order and engine provenance."
+}

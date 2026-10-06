@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-06T00:32:57.055233+00:00",
+  "primaryMeasurements": [
+    "Selected candidate count and exact distinct text count",
+    "Selected proof-based discourse marker plus lexical rewrite and discourse marker plus ending rewrite coverage",
+    "Verified-but-not-selected composition coverage",
+    "Set and order changes, by input group and intensity"
+  ],
+  "secondaryMeasurements": [
+    "N-gram/text overlap between selected candidates; descriptive, not a correctness or naturalness score",
+    "Selected transformation-category combinations; finite operation kinds, not sustained style or paragraph restructuring",
+    "Runtime and exceptions with same parser, assets, seed, settings and original input analyses"
+  ],
+  "safetyMeasurements": [
+    "Every selected candidate passes independent original-IR validation",
+    "S and Q remain null without trained human preference labels",
+    "Selected protected source entities, quantities, quoted contents and negation/uncertainty checks are compared through existing verifier, with manual source/output spot review",
+    "No new composition is counted solely from output string markers"
+  ],
+  "comparability": [
+    "Require exact byte hashes for baseline and after source/runtime modules and shared assets",
+    "Disclose candidate-pool, analysis, and verifier changes separately from selection changes",
+    "Full-text old-case overlap only; semantic near-duplicate independence is not claimed"
+  ],
+  "interpretation": "Measurements describe selection behavior and verified finite-edit coverage; no human naturalness, humor, Buront-likeness, or preference improvement labels are assigned."
+}

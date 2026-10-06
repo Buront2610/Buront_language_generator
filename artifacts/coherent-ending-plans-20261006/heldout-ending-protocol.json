@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "sealedAt": "2026-10-06T00:33:28Z",
+  "measurements": [
+    "Per selected candidate, source-aligned ending edits and their positions/count; count visible residual polite endings descriptively",
+    "For uniformly polite sources, record candidates leaving mixed polite/plain ending edits versus converting every permitted source ending",
+    "For mixed-register sources, describe actual conversion of source endings without assuming complete normalization is desirable",
+    "Pair selected text/count/order/category metrics with same-pool analysis to distinguish candidate generation from selection effects",
+    "Review protected names/numbers/quotation, negation, reported speech, uncertainty and condition boundaries; record validator result and inspection separately",
+    "S/Q stay null; no human naturalness, style, quality or preference labels"
+  ],
+  "cautions": [
+    "Residual surface polite forms may be quoted, conditionally protected or intentionally mixed and are not automatically errors",
+    "Full-text nonoverlap does not eliminate semantic near-duplicates",
+    "The generator may decline transformations under its existing guards; do not tune on this suite"
+  ]
+}
