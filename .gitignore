@@ -16,3 +16,6 @@ test-results/
 __pycache__/
 artifacts/buront-local*/
 artifacts/buront-local*.zip
+
+# Optional research models, tool caches and human annotations stay local.
+research/statistical_generation/local/

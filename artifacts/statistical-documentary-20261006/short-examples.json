@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "selection": "Three short public-domain-original cases with actual rank1 outputs, including one unchanged case. Descriptive examples, not a random quality sample or LLM quality labels.",
+  "examples": [
+    {
+      "case_id": "documentary_22b63c533052daf47d4a22fd79e71972",
+      "original_input": "と書いてありました。",
+      "original_source_url": "https://www.aozora.gr.jp/cards/000081/files/43754_17659.html",
+      "baseline_displayed": [
+        "と書いてありました"
+      ],
+      "baseline_fallback": null,
+      "research_decoder_rank": 1,
+      "research_candidate": "と書いてＰＯＰしていた",
+      "candidate_id": "93846dd77291d39e0886191c",
+      "diagnostic_status": "needs_human_review",
+      "diagnostics": [
+        "semantics_unverified"
+      ],
+      "kenlm_oov_rate": 0.125,
+      "human_review": null
+    },
+    {
+      "case_id": "documentary_f1465fc7c10c8b8836b0b1c6c5d615b8",
+      "original_input": "犬がふうとうなって戻ってきました。",
+      "original_source_url": "https://www.aozora.gr.jp/cards/000081/files/43754_17659.html",
+      "baseline_displayed": [
+        "犬がふうとうなって戻ってきました"
+      ],
+      "baseline_fallback": null,
+      "research_decoder_rank": 1,
+      "research_candidate": "犬がふうとうなって戻って札していた",
+      "candidate_id": "306c88ed0b86a4669e6a373d",
+      "diagnostic_status": "needs_human_review",
+      "diagnostics": [
+        "semantics_unverified"
+      ],
+      "kenlm_oov_rate": 0.25,
+      "human_review": null
+    },
+    {
+      "case_id": "documentary_9ffff6e624f7bfd76d01b5c8e7c47e91",
+      "original_input": "WILDCAT HOUSE",
+      "original_source_url": "https://www.aozora.gr.jp/cards/000081/files/43754_17659.html",
+      "baseline_displayed": [],
+      "baseline_fallback": "WILDCAT HOUSE",
+      "research_decoder_rank": 1,
+      "research_candidate": "WILDCAT HOUSE",
+      "candidate_id": "182801c14d9e22c7487111f0",
+      "diagnostic_status": "needs_human_review",
+      "diagnostics": [
+        "semantics_unverified"
+      ],
+      "kenlm_oov_rate": 1.0,
+      "human_review": null
+    }
+  ]
+}

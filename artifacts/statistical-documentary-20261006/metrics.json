@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "source_documents": 17,
+  "original_work_families": 12,
+  "documented_parent_passages": 140,
+  "derived_exact_span_pairs": 220,
+  "split_counts": {
+    "train": 146,
+    "dev": 9,
+    "test": 65
+  },
+  "split_work_counts": {
+    "train": 9,
+    "dev": 1,
+    "test": 2
+  },
+  "train_offered": 146,
+  "train_used": 65,
+  "train_protected_inventory_excluded": 81,
+  "scored_phrase_pairs": 9587,
+  "distinct_test_input_strings": 64,
+  "counts": {
+    "test_cases": 65,
+    "raw_research_candidates": 1480,
+    "per_case_new_texts": 1454,
+    "cases_with_new_text": 64,
+    "cases_with_nonrejected_new_text": 42,
+    "baseline_pool": 47,
+    "baseline_displayed": 47,
+    "baseline_cases_with_candidates": 36,
+    "needs_human_review": 1279,
+    "rejected_by_diagnostics": 201
+  },
+  "diagnostics": {
+    "semantics_unverified": 1480,
+    "fully_protected_input_added_content": 197,
+    "condition_surface_cue_mismatch": 31,
+    "protected_value_count": 1,
+    "invalid_output_token": 1,
+    "modality_surface_cue_mismatch": 26,
+    "polarity_surface_cue_mismatch": 30,
+    "proper_noun_inventory_mismatch": 3
+  },
+  "by_held_out_work": {
+    "miyazawa_chumon": {
+      "cases": 50,
+      "baseline_cases_with_candidates": 28,
+      "research_cases_with_new_text": 49,
+      "research_cases_with_nonrejected_new_text": 30
+    },
+    "teraumare-14-night-fishing": {
+      "cases": 15,
+      "baseline_cases_with_candidates": 8,
+      "research_cases_with_new_text": 15,
+      "research_cases_with_nonrejected_new_text": 12
+    }
+  },
+  "human_quality_reviews": 0,
+  "meaning_preserving_good_candidate_rate": null,
+  "quality_improvement": null,
+  "production_enabled": false,
+  "baseline_request": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensity": 2,
+    "series": "all",
+    "backend": "structured"
+  },
+  "limits": [
+    "Case rows are not independent human-quality trials;65cases include64distinct strings and2held-out works",
+    "Candidate novelty is a string metric, not meaning preservation or style quality",
+    "Documentary adaptations are noisy and may deliberately change facts, roles and viewpoint",
+    "Fully-protected-input insertion diagnostic was added after first test exposure; no prospective claim",
+    "Initial unsupported invent-mode baseline comparison is invalid and excluded from final coverage"
+  ]
+}

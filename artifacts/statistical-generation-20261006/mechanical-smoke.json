@@ -1,0 +1,12 @@
+{
+  "status": "passed_mechanical_wiring_only",
+  "human_training_pairs": 0,
+  "human_quality_labels": 0,
+  "buront_quality_tested": false,
+  "fixture_expected": "dz dz",
+  "fixture_observed": [
+    "dz dz"
+  ],
+  "training_rows": 14,
+  "model_status": "mechanical_wiring_only"
+}

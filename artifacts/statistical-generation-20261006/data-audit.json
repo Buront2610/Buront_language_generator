@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "verified_human_parallel_pairs": 0,
+  "pair_audit_scope": "tracked repository source assets and inspected PR6 evaluation/provenance artifacts; no imported human annotation file supplied",
+  "training_status": "BLOCKED_HUMAN_PARALLEL_DATA_REQUIRED",
+  "source_file_sha256": {
+    "data/log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+    "data/quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+    "artifacts/fulltext-analysis-20260921/posts.jsonl": "6fd58af7426f24e817851814c795dee4c7f2d0a2ae18a45ce3664ab4a8a9987e",
+    "artifacts/fulltext-analysis-20260921/near-duplicates.json": "7d53f64098aff2cfc5c9baa45a7fb87ed913a1c15da76283b38a2d1ef8b90fff"
+  },
+  "archive_post_records": 2452,
+  "archive_source_sentences": 9591,
+  "archive_posts_with_url": 2227,
+  "archive_normalized_unique_posts": 2354,
+  "archive_normalized_unique_sentences": 8206,
+  "quote_headings": 165,
+  "quote_excerpts": 840,
+  "quote_variant_groups": 846,
+  "quote_linked_source_posts": 487,
+  "quote_page_posts": 401,
+  "quote_context_status": {
+    "ambiguous": 4,
+    "matched": 981,
+    "unmatched": 20
+  },
+  "mapped_existing_near_duplicate_pairs": 6,
+  "full_corpus_leakage_components": 2068,
+  "largest_component_posts": 69,
+  "annotation_assets": [
+    "assets/annotations/README.md"
+  ],
+  "excluded_teacher_sources": [
+    "Current rules and generated outputs: synthetic teachers, not human ordinary/original pairs",
+    "PR6 open-style probes: explicitly assistant-authored; generated outputs and qualitative review excluded",
+    "PR6 prospective/heldout cases: explicitly synthetic semantic probes; human S/Q null",
+    "Existing regression/pilot/preferences fixtures: test data, not human gold",
+    "Novel adaptations: derivative works, not original-post parallel data",
+    "Quote family labels: heuristic_lexical_cues with goldLabels=false"
+  ],
+  "cautions": [
+    "Archive records contain mixed or unverified speaker attribution and duplicates; counts are not authenticated Buront authorship",
+    "Quotes and original posts are target-side monolingual material, not aligned ordinary-Japanese pairs",
+    "Human ordinary rewrite, original attribution/meaning review and additional duplicate-family review are still required",
+    "Attestation flags enforce a contract but cannot detect a false declaration of human authorship",
+    "Data remains local-only; existing rights status is unverified-local-only; no corpus upload or redistribution approval implied",
+    "Group split is conservative over known source/variant/exact/near duplicate links, not proof of absence of every semantic duplicate",
+    "At least three independent groups enables plumbing tests only; it is not evidence of data sufficiency or quality improvement"
+  ],
+  "audit_date_utc": "2026-10-06",
+  "repository_base_commit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+  "inspected_provenance_evidence": [
+    {
+      "repository": "Buront_statistical_research",
+      "path": "assets/annotations/README.md",
+      "sha256": "9d19eb137c56ee2aa3c4f7c3486c1b07c61ded5baad78fb3f23d6b353a637101",
+      "finding": "Explicitly documents zero human labels and incomplete original-log human annotation"
+    },
+    {
+      "repository": "Buront_statistical_research",
+      "path": "assets/sources/README.md",
+      "sha256": "304f121250f4aa3ea2bdeffa083fc150e77cecac7e33a758d6cdfd85dff9d20e",
+      "finding": "Original assets and derivatives separated; rights unverified-local-only"
+    },
+    {
+      "repository": "Buront_language_generator",
+      "path": "artifacts/typed-rhetorical-generation-20261006/open-style-review/authored-probes.json",
+      "sha256": "aa6ad4e8bab13dcbd9f9996662ce484e407b1b545f35eb42bf65d9879f2acb72",
+      "finding": "Protocol explicitly calls 20 inputs assistant-authored; no human S/Q ratings"
+    },
+    {
+      "repository": "Buront_language_generator",
+      "path": "artifacts/typed-rhetorical-generation-20261006/open-style-review/manifest.json",
+      "sha256": "a5a30c5df96502776715fe5e80435086182c0247315bd3f8b1e9091bb0cb4782",
+      "finding": "Assistant qualitative source review, not human S/Q"
+    },
+    {
+      "repository": "Buront_language_generator",
+      "path": "artifacts/typed-rhetorical-generation-20261006/prospective-cases.json",
+      "sha256": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+      "finding": "Independently authored synthetic semantic probes; human S/Q null"
+    },
+    {
+      "repository": "Buront_language_generator",
+      "path": "artifacts/typed-rhetorical-generation-20261006/second-pass/evaluation-protocol.md",
+      "sha256": "6b3f18036db1d98bb5533fe484f1f22fe6c27834d44f93825b9fa4eb8d42a170",
+      "finding": "30 synthetic unseen semantic checks; all human quality/style ratings null"
+    }
+  ],
+  "zero_count_definition": "No supplied record includes a verified human-authored ordinary rewrite paired to exact original source text. No assistant output, synthetic case or heuristic label was promoted."
+}

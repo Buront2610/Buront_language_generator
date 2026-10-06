@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "purpose": "Official non-neural statistical machine translation tooling; no model weights or training data included",
+  "checked_at_utc": "2026-10-06",
+  "repositories": {
+    "fast_align": {
+      "url": "https://github.com/clab/fast_align.git",
+      "commit": "cab1e9aac8d3bb02ff5ae58218d8d225a039fa11",
+      "license": "Apache-2.0",
+      "license_file": "LICENSE.txt",
+      "documentation": "https://github.com/clab/fast_align/blob/cab1e9aac8d3bb02ff5ae58218d8d225a039fa11/README.md"
+    },
+    "mosesdecoder": {
+      "url": "https://github.com/moses-smt/mosesdecoder.git",
+      "commit": "08e782040189e0abb3b43a4ec9245e6179e39eca",
+      "license": "LGPL-2.1; bundled code has additional notices",
+      "license_file": "COPYING",
+      "documentation": "https://github.com/moses-smt/mosesdecoder/blob/08e782040189e0abb3b43a4ec9245e6179e39eca/README"
+    },
+    "kenlm": {
+      "url": "https://github.com/kpu/kenlm.git",
+      "commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+      "license": "LGPL-2.1-or-later; exceptions enumerated in LICENSE",
+      "license_file": "LICENSE",
+      "documentation": "https://github.com/kpu/kenlm/blob/4cb443e60b7bf2c0ddf3c745378f76cb59e254e5/BUILDING"
+    }
+  },
+  "build_dependencies": {
+    "cmake": {
+      "version": "3.31.6",
+      "platform": "Linux x86_64",
+      "url": "https://github.com/Kitware/CMake/releases/download/v3.31.6/cmake-3.31.6-linux-x86_64.tar.gz",
+      "sha256": "5a1133ff103c71eb5120e2cc3de922733e7d8a26a98ae716397e8676adb367bf",
+      "checksum_source": "https://github.com/Kitware/CMake/releases/download/v3.31.6/cmake-3.31.6-SHA-256.txt",
+      "license": "BSD-3-Clause and bundled component notices"
+    },
+    "boost": {
+      "version": "1.74.0",
+      "url": "https://archives.boost.io/release/1.74.0/source/boost_1_74_0.tar.bz2",
+      "sha256": "83bfc1507731a0906e387fc28b7ef5417d591429e51e788417fe9ff025e116b1",
+      "checksum_source": "https://archives.boost.io/release/1.74.0/source/boost_1_74_0.tar.bz2.json",
+      "license": "BSL-1.0"
+    },
+    "bzip2": {
+      "version": "1.0.8",
+      "url": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+      "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+      "checksum_provenance": "SHA-256 of archive downloaded from the official HTTPS release endpoint; pinned for future builds",
+      "documentation": "https://sourceware.org/bzip2/downloads.html",
+      "license": "bzip2-1.0.6 (BSD-style license retained by 1.0.8)"
+    }
+  },
+  "system_requirements": [
+    "Linux x86_64",
+    "g++",
+    "gcc",
+    "make",
+    "perl",
+    "git",
+    "curl",
+    "tar",
+    "bzip2",
+    "python3",
+    "zlib development headers and library",
+    "POSIX shell utilities"
+  ],
+  "build_options": {
+    "parallel_jobs_default": 2,
+    "boost": "static libraries with bzip2 support, runtime-link=shared, -std=c++14",
+    "kenlm": "Release; static Boost; ENABLE_INTERPOLATE=OFF; targets lmplz, build_binary, query",
+    "mosesdecoder": "Release; static Boost; no tcmalloc, XMLRPC server, or libsegfault; only decoder, extract, score, consolidate targets"
+  }
+}

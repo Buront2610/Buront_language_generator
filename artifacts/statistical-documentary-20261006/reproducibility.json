@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+  "baseline_source_hash": "1616a4c0c664e3a5b283958e55b2c4da4607c97e7791b4b7f9646e287a199014",
+  "baseline_adapter_sha256": "c28bae9dbdcd6d90c28b97b1f7e37f03c3e219a3dfb385ccd1d234aca9fd9c0e",
+  "model_manifest_sha256": "f063308edead356364c5a2140d15e911b32bdd6a042604e0831356a6b6f6de82",
+  "frozen_split_sha256": "4dbe78931b8a854a866384e7f7d9bd670f093f4bd03ceb076100c1f9e0ddb211",
+  "model_implementation_sha256": {
+    "__init__.py": "0cb081fc7b0fa49915fb08e4943a84835ee3e63cadf3a6c96733f81f669abdff",
+    "__main__.py": "302aa6f5f3e47ec9ade35d8fd5f516e4f64cca2efaaa46b6e20e0d306ff70062",
+    "alignment.py": "a652eef13d3a844f12376f0ff822ae973f971ff90d32720f5220518c7de464e1",
+    "csv_import.py": "d97ccc7f3c6547f928a0b018330239932d31ec1789181bbfb0ca183e39ac6694",
+    "data.py": "465dab192e3ee42699465af3c49d9e18df5cd3cef5c19a271547ca84d7a0819c",
+    "documentary.py": "4a8956f4078ec908f498aaa6cec93672977b072537bda90093e1d2358a4e0356",
+    "evaluation.py": "2b9634c27213e5500023ce33a90dcc39763c0455be9b65afd3190c2b031732c3",
+    "pipeline.py": "9c6fdda3d2c86acce71cdd1ca5cc1c187b0b076572d53c3b4e408edd6db0ee7f",
+    "text.py": "e86992963e41ea446f8fe0b086f842fc97a95b2fc52a0a0122ae4cb25e1d0711"
+  },
+  "toolchain_sha256": "04670c56cf93219e95d5cb7b790cf6d1f18bdf4c9336597bc39681964aec52ee",
+  "training_artifact_sha256": {
+    "train.f": "a39469abd4d938a3f8ccfd168c5889677da654c97322f2f7cf0db1e795129e02",
+    "train.e": "d81a7ed945f957179aef5a92f9d653d37d696f399e5e8418054ae0a630bc015f",
+    "forward.align": "1a443823f5325a59dee4217337611e3ee3167efc44d98dbbc1c988bb0970e136",
+    "reverse.align": "661ed5746f376e49ff2f817ab8385dc059cdd01e8bcba1e16585b2781aa000aa",
+    "aligned.grow-diag-final-and": "eba3cfc21f4d7b4aa3c8fb8ceffa45ec2d74b8e5ccdd323d71fc899cb2cc17e9",
+    "target.arpa": "be2cb7663929ac8d59da37ec0e381e9c81194dc4fa67f958c3d25ecdf26cbfa7",
+    "target.klm": "72e13c129f44e9271b07ee7bf1ca604d9871a4b843dc5065e9e0547f14e578b2",
+    "phrase-provenance.json": "c5520f9de1cb859076faf1ff294f76d605dba1164a583c0669ed9450b24209e3"
+  },
+  "private_outputs_sha256": {
+    "research.json": "2714bf0e847b99eef3c63ea0f4a6262224536907c747780a718b62d817bbd582",
+    "baseline.json": "4d8df49a228ed9f8abfe048ad4393785c9e4e64e7a54359a545c9db3fa833e7e",
+    "review.blank.json": "e2abe2523b5cee25695f0477d771f0663fb991e77b5ca24cc5970cd02601ed98",
+    "review.private.json": "4ab571e80564de5e989ce75c4bd36948dd1b35c8a1fbd5b737773b79ff77f926",
+    "summary.json": "9f6b521e1990e59e543ec5771836d4aa6ec2cd56f949527799f4a866af3ef04b"
+  },
+  "private_outputs_bytes": {
+    "research.json": 33503748,
+    "baseline.json": 740708
+  },
+  "source_corpus_and_weights_included": false,
+  "remote_publication": "This local reporter does not publish. Corpus/weights are excluded; exact published revision and CI are reported on the PR."
+}
