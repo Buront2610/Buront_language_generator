@@ -1,0 +1,24 @@
+{
+  "path": "/workspace/shared/structural-b-evaluation/third-prospective-sealed.json",
+  "SHA256": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+  "counts": {
+    "total": 24,
+    "ordinary": 18,
+    "control": 6
+  },
+  "pairs": {
+    "total": 12,
+    "ordinary": 9,
+    "control": 3
+  },
+  "domainCounts": {
+    "reason-backed-assertion": 6,
+    "modesty-with-accomplishment": 6,
+    "source-explicit-evidence-request": 6,
+    "control-quoted-other-person-attribution": 2,
+    "control-negated-cause-scope": 2,
+    "control-quantity-and-completion-boundary": 2
+  },
+  "authoredAtUtc": "2026-10-06T05:18:42Z",
+  "note": "First seal; no resealing. The author inspected no implementation/source code, prior case texts, generated outputs, or other workers' notes. The approved prior datasets were used only by a blinded normalized-string duplicate check; their contents were not exposed to the author. This is a small synthetic prospective check, not a random natural-language sample or human quality study."
+}

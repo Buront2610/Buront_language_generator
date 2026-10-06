@@ -1,0 +1,491 @@
+{
+  "recordedAtUtc": "2026-10-06T05:12:27.936322+00:00",
+  "sourceHash": "7c31be2e6ea3610830b0d01d563b6d165423008cc87d0c5046a9a7adada9496b",
+  "type": "Assistant direct reading, not human S/Q or safety certification",
+  "scope": "Every displayed structural output at intensity3 among prior127:40 input cases. Does not cover the complete non-displayed pool or all baseline-only outputs.",
+  "finding": "No additional obvious major fact/action/actor/quantity/attribution loss found in this particular read. Separate U29 control blocker remains pending; no acceptance claim.",
+  "humanS": null,
+  "humanQ": null,
+  "rows": [
+    {
+      "id": "PR5-regression-regression:N03",
+      "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。",
+      "displayedStructural": [
+        {
+          "text": "駐車場を探す必要がなく、到着時刻も読みやすいから、車より電車で行くほうがよいと思う。",
+          "displayOrdinal": 1,
+          "planId": "18b637e3c42ea24507c8419f",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:N04",
+      "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。まず小さく試すべきだと思う。",
+      "displayedStructural": [
+        {
+          "text": "費用が高いだけでなく、準備に一週間もかかるから、その案には賛成できない。まず小さく試すべきだと思う。",
+          "displayOrdinal": 1,
+          "planId": "39dd198a43da704af5593fd4",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:N05",
+      "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+      "displayedStructural": [
+        {
+          "text": "それほどでもないが、故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+          "displayOrdinal": 1,
+          "planId": "8ebd943f10cf0a2bdd3ba3db",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:N07",
+      "source": "この箱を一緒に運んでもらえますか。重いので、二人で持ったほうが安全です。",
+      "displayedStructural": [
+        {
+          "text": "この箱を一緒に運んでもらえますか。二人で持ったほうが安全だ。何故かというと重いからだ。",
+          "displayOrdinal": 1,
+          "planId": "29075f3b9ea0ad3cb18f0890",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:N09",
+      "source": "店員に二度説明したのに注文が違っていたので、私は少し腹を立てた。",
+      "displayedStructural": [
+        {
+          "text": "私は少し腹を立てた。何故かというと店員に二度説明したのに注文が違っていたからだ。",
+          "displayOrdinal": 1,
+          "planId": "c778e2fe99863f996f79a986",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:T01",
+      "source": "今日は休みます。熱があるからです。",
+      "displayedStructural": [
+        {
+          "text": "熱があるから、今日は休む。",
+          "displayOrdinal": 1,
+          "planId": "883644513947ab2c2341ac4c",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:T02",
+      "source": "この道を選んだ。駅まで近いからだ。",
+      "displayedStructural": [
+        {
+          "text": "駅まで近いから、この道を選んだ。",
+          "displayOrdinal": 1,
+          "planId": "f3b0a739fff28e9fe5f4e1f8",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:T03",
+      "source": "紙より電子版を使うほうが便利だと思う。重い本を運ばずに済み、必要な語も検索できるからだ。",
+      "displayedStructural": [
+        {
+          "text": "重い本を運ばずに済み、必要な語も検索できるから、紙より電子版を使うほうが便利だと思う。",
+          "displayOrdinal": 1,
+          "planId": "907bc4f75cc615fad25f4f94",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:T04",
+      "source": "その日程には賛成できない。担当者が不在で、確認にも三日かかるからだ。まず予定を確認するべきだと思う。",
+      "displayedStructural": [
+        {
+          "text": "担当者が不在で、確認にも三日かかるから、その日程には賛成できない。まず予定を確認するべきだと思う。",
+          "displayOrdinal": 1,
+          "planId": "a937ff8b4c02ca68c04a4b74",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-regression:T05",
+      "source": "大したことはしていない。なくした鍵を見つけて、閉まっていた扉を開けただけだ。",
+      "displayedStructural": [
+        {
+          "text": "それほどでもないが、なくした鍵を見つけて、閉まっていた扉を開けただけだ。",
+          "displayOrdinal": 1,
+          "planId": "b41d40e7ee4ecfc8dd0b1427",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C01",
+      "source": "私はこの方法を選んだ。速度が重要だからだ。",
+      "displayedStructural": [
+        {
+          "text": "速度が重要だから俺はこの方法を選んだということ。",
+          "displayOrdinal": 1,
+          "planId": "94e5a4f86e5d6379def3b35d",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C02",
+      "source": "私はこの方法を選んだ。速度が重要だからです。",
+      "displayedStructural": [
+        {
+          "text": "速度が重要だから私はこの方法を選んだということ。",
+          "displayOrdinal": 1,
+          "planId": "b069d35a9144b57eb3712bfc",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C06",
+      "source": "私はこの方法を選んだ。時間が重要だからだ。",
+      "displayedStructural": [
+        {
+          "text": "時間が重要だから俺はこの方法を選んだということ。",
+          "displayOrdinal": 1,
+          "planId": "1b0d0106176b64f8959118d0",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C07",
+      "source": "大したことはしていない。荷物を届けただけだ。",
+      "displayedStructural": [
+        {
+          "text": "荷物を届けただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "6257992083ee6eb56b7d7104",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C08",
+      "source": "大したことはしていない。荷物を運んだだけだ。",
+      "displayedStructural": [
+        {
+          "text": "荷物を運んだだけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "ffc137c8e34644576321d78d",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C09",
+      "source": "大したことはしていない。機械を直しただけだ。",
+      "displayedStructural": [
+        {
+          "text": "機械を直しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "601b08842c89f395716ab648",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C10",
+      "source": "大したことはしていない。扉を開けただけだ。",
+      "displayedStructural": [
+        {
+          "text": "扉を開けただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "a60ced596cc3b479fdbd8435",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-controlled:C20",
+      "source": "大したことはしていない。荷物を運んだだけだ。しかし、速度が重要だった。",
+      "displayedStructural": [
+        {
+          "text": "荷物を運んだだけだ。それほどでもない。しかし、速さとスピードが重要だった。",
+          "displayOrdinal": 1,
+          "planId": "4b16d1680a7b64056015c599",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-exposed:H01",
+      "source": "手作業より自動処理を選んだ。処理の速度が十分だからです。",
+      "displayedStructural": [
+        {
+          "text": "処理の速度が十分だから手作業より自動処理を選んだということ。",
+          "displayOrdinal": 1,
+          "planId": "c3fb94136113009385b15ed0",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-exposed:H03",
+      "source": "大したことはしていない。書類を調べて、箱を隣の部屋へ運んだだけだ。",
+      "displayedStructural": [
+        {
+          "text": "それほどでもないが、書類を調べて、箱を隣の部屋へ運んだだけだ。",
+          "displayOrdinal": 1,
+          "planId": "1c421b17b7de8319119de736",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-exposed:H04",
+      "source": "大したことはしていない。散らかった棚を整理しただけだ。",
+      "displayedStructural": [
+        {
+          "text": "それほどでもないが、散らかった棚を整理しただけだ。",
+          "displayOrdinal": 1,
+          "planId": "395d697102dfd6187a4a4bd5",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-exposed:H06",
+      "source": "この橋は短い。しかし、道幅は狭い。私は遠回りした。荷物が重かったからだ。",
+      "displayedStructural": [
+        {
+          "text": "この橋は短い。しかし、道幅は狭い。荷物が重かったから俺は遠回りしたということ。",
+          "displayOrdinal": 1,
+          "planId": "12eced83231eccadb0c7b33a",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-heldout:F01",
+      "source": "私はその展示を選んだ。写真のアピールが強いからだ。",
+      "displayedStructural": [
+        {
+          "text": "写真のアピールが強いから、私はその展示を選んだ。",
+          "displayOrdinal": 1,
+          "planId": "4bcf1d2933cb7ab7c45fee69",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-heldout:F02",
+      "source": "急行を使った。移動の速度が必要だからです。",
+      "displayedStructural": [
+        {
+          "text": "移動の速さとスピードが必要だから急行を使ったということ。",
+          "displayOrdinal": 1,
+          "planId": "bb528f12e55746c15dbc6659",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-heldout:F03",
+      "source": "大したことはしていない。倉庫から道具を外へ運んだだけだ。",
+      "displayedStructural": [
+        {
+          "text": "倉庫から道具を外へ運んだだけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "b5d1ae6c82504befa9e546c1",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-heldout:F04",
+      "source": "大したことはしていない。余った板で小さな棚を作っただけだ。",
+      "displayedStructural": [
+        {
+          "text": "それほどでもないが、余った板で小さな棚を作っただけだ。",
+          "displayOrdinal": 1,
+          "planId": "cbabf877305d9a73cbb756ec",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-regression-heldout:F05",
+      "source": "今日は窓を開けない。外の空気が暖かくないからだ。",
+      "displayedStructural": [
+        {
+          "text": "外の空気が暖かくないから、今日は窓を開けない。",
+          "displayOrdinal": 1,
+          "planId": "e5a874afc6253db7e970b940",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-diagnostic-D01",
+      "source": "急行を使った。移動の速度が必要だからです。",
+      "displayedStructural": [
+        {
+          "text": "移動の速さとスピードが必要だから急行を使ったということ。",
+          "displayOrdinal": 1,
+          "planId": "bb528f12e55746c15dbc6659",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-diagnostic-D04",
+      "source": "この方法を選びました。作業の速度が重要だからです。手順を確認しました。準備は十分です。",
+      "displayedStructural": [
+        {
+          "text": "作業の速度が重要だからこの方法を選んだということ。手順を確認しました。準備は十分です。",
+          "displayOrdinal": 1,
+          "planId": "5ffedd0051dc5694b6ae4cfe",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S01",
+      "source": "私は新しい通信回線に切り替えた。送信の速度が大切だからだ。",
+      "displayedStructural": [
+        {
+          "text": "送信の速度が大切だから、私は新しい通信回線に切り替えた。",
+          "displayOrdinal": 1,
+          "planId": "dd1473f14bb7746c588bed65",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S02",
+      "source": "会場には大きな看板を置きます。遠くからのアピールが必要だからです。",
+      "displayedStructural": [
+        {
+          "text": "遠くからのアッピルが必要だから、会場には大きな看板を置く。",
+          "displayOrdinal": 1,
+          "planId": "c23bb9769146fa8f170833a9",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S03",
+      "source": "この装置を二台借ります。計測の速度が重要だからです。",
+      "displayedStructural": [
+        {
+          "text": "計測の速度が重要だから、この装置を二台借りる。",
+          "displayOrdinal": 1,
+          "planId": "c1e3fb3caa3fea1d55e8f223",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S06",
+      "source": "私は予備の電池を持っていきます。途中で交換が必要だからです。",
+      "displayedStructural": [
+        {
+          "text": "途中で交換が必要だから、私は予備の電池を持っていく。",
+          "displayOrdinal": 1,
+          "planId": "a781d3276c001b086ffad7c2",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S07",
+      "source": "私は速度を比べた。速度が選定の条件だからです。",
+      "displayedStructural": [
+        {
+          "text": "速度が選定の条件だから、私は速度を比べた。",
+          "displayOrdinal": 1,
+          "planId": "b3a99ce5d4a01d1fdef422de",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S08",
+      "source": "私は速い便を選んだ。配送の速度が必要だからだ。写真も追加します。店のアピールが大切だからです。",
+      "displayedStructural": [
+        {
+          "text": "配送の速度が必要だから、私は速い便を選んだ。店のアピールが大切だから、写真も追加する。",
+          "displayOrdinal": 1,
+          "planId": "44f4a49b8ffd62f80d928dae",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S11",
+      "source": "私は今日は徒歩で帰る。バスを待つより早いからだ。",
+      "displayedStructural": [
+        {
+          "text": "バスを待つより早いから、俺は今日は徒歩で帰る。",
+          "displayOrdinal": 1,
+          "planId": "ccbc801f39306604f38d6a2a",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S16",
+      "source": "昼に買ったパンが少し固かったので、温めてから食べた。次は別の種類を選ぶつもりだ。",
+      "displayedStructural": [
+        {
+          "text": "温めてから食べた。何故かというと昼に買ったパンが少し固かったからだ。次は別の種類を選ぶつもりだ。",
+          "displayOrdinal": 1,
+          "planId": "5e6548aaa0c867838e8ebd9b",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-selection-S20",
+      "source": "私は広告を追加しない。過剰なアピールが必要ではないからだ。",
+      "displayedStructural": [
+        {
+          "text": "過剰なアピールが必要ではないから、私は広告を追加しない。",
+          "displayOrdinal": 1,
+          "planId": "dcf3c412e6c480a047e9e8a0",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-ending-E04",
+      "source": "私は新しい配信方法を選びました。画像も小さくしました。通信の速度が重要だからです。紹介文も直しました。商品のアピールが必要だからです。",
+      "displayedStructural": [
+        {
+          "text": "私は新しい配信方法を選びました。通信の速度が重要だから、画像も小さくした。商品のアピールが必要だから紹介文も直したということ。",
+          "displayOrdinal": 1,
+          "planId": "bcbc762e8051177b0f6e0413",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "PR5-heldout-ending-E12",
+      "source": "私は別の宣伝文を選びました。しかし、アピールは十分ではありません。説明を追加します。条件が分かりにくいからです。あなたはどう思いますか。",
+      "displayedStructural": [
+        {
+          "text": "私は別の宣伝文を選びました。しかし、アピールは十分ではありません。条件が分かりにくいから、説明を追加する。あなたはどう思いますか。",
+          "displayOrdinal": 1,
+          "planId": "de1f1addb3ae722446b4deb4",
+          "classification": "body-composition"
+        }
+      ]
+    }
+  ]
+}

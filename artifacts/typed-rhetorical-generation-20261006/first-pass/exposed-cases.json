@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "protocol": "18 deliberately exposed work/day-to-day diagnostics. Authored separately from sealed 30; available during implementation. Synthetic structural diagnostics, no human quality labels.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "structural-body-eval-20261006"
+  },
+  "cases": [
+    {
+      "id": "X01",
+      "currentRole": "exposed-workday",
+      "family": "reason_assertion",
+      "source": "朝の連絡はメールにした。相手が会議中だからだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X02",
+      "currentRole": "exposed-workday",
+      "family": "reason_assertion",
+      "source": "徒歩で帰った。バスが運休していたからです。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X03",
+      "currentRole": "exposed-workday",
+      "family": "reason_assertion",
+      "source": "この資料は保存する。来週の説明に必要だからだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X04",
+      "currentRole": "exposed-workday",
+      "family": "reason_assertion",
+      "source": "今日は窓を閉めた。外の音が大きいからだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X05",
+      "currentRole": "exposed-workday",
+      "family": "reason_assertion",
+      "source": "印刷機が故障しているので、受付の案内は手書きにしました。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X06",
+      "currentRole": "exposed-workday",
+      "family": "reason_assertion",
+      "source": "道路が混んでいたため、到着は予定より十分遅れました。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X07",
+      "currentRole": "exposed-workday",
+      "family": "modesty_limited_achievement",
+      "source": "大したことはしていない。机を片付けただけだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X08",
+      "currentRole": "exposed-workday",
+      "family": "modesty_limited_achievement",
+      "source": "大したことはしていない。資料を一つ渡しただけだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X09",
+      "currentRole": "exposed-workday",
+      "family": "modesty_limited_achievement",
+      "source": "大したことはしていない。玄関の電球を直しただけだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X10",
+      "currentRole": "exposed-workday",
+      "family": "modesty_limited_achievement",
+      "source": "大したことはしていない。住所を確認しただけだ。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X11",
+      "currentRole": "exposed-workday",
+      "family": "modesty_limited_achievement",
+      "source": "褒められるほどではありませんが、誤記を二か所だけ訂正しました。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X12",
+      "currentRole": "exposed-workday",
+      "family": "modesty_limited_achievement",
+      "source": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X13",
+      "currentRole": "exposed-workday",
+      "family": "adversative_evidence_request",
+      "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X14",
+      "currentRole": "exposed-workday",
+      "family": "adversative_evidence_request",
+      "source": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X15",
+      "currentRole": "exposed-workday",
+      "family": "adversative_evidence_request",
+      "source": "急ぎの案件なのは理解した。しかしこの数値を裏付ける資料を求める。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X16",
+      "currentRole": "exposed-workday",
+      "family": "adversative_evidence_request",
+      "source": "説明は聞いた。しかしこの方法が確実だという証拠が欲しい。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X17",
+      "currentRole": "exposed-workday",
+      "family": "adversative_evidence_request",
+      "source": "便利そうですが、なぜ必要なのかを示す記録を確認させてください。",
+      "humanS": null,
+      "humanQ": null
+    },
+    {
+      "id": "X18",
+      "currentRole": "exposed-workday",
+      "family": "adversative_evidence_request",
+      "source": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+      "humanS": null,
+      "humanQ": null
+    }
+  ]
+}

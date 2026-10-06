@@ -1,0 +1,33 @@
+{
+  "sourceHash": "7c31be2e6ea3610830b0d01d563b6d165423008cc87d0c5046a9a7adada9496b",
+  "classification": "interim exposed-development record; known negated-cause-scope blocker, not accepted",
+  "recordedAtUtc": "2026-10-06T05:08:51.901615+00:00",
+  "cases": 203,
+  "requests": 406,
+  "allCasesKnown": true,
+  "sourceSnapshotStable": true,
+  "previousDevelopmentRecord": "b5cb309d67f4a932239c108e006da2cb7384e1de86eb052889d3bafcf088cb6a",
+  "observedActionRepair": [
+    "X13 preserves 見せて",
+    "X18 and U15 preserve 教えて",
+    "U16 preserves 見せて",
+    "U18 preserves 出して",
+    "X16 has no structural candidate and preserves original acquisition desire"
+  ],
+  "unsupportedOrdinaryIds": [
+    "X15",
+    "X16",
+    "X17",
+    "SG2-M01B"
+  ],
+  "bodyPoolButNotDisplayIds": [
+    "X05"
+  ],
+  "noUnseenClaim": true,
+  "newKnownBlocker": {
+    "case": "U29",
+    "failure": "Negates the opposed action rather than denying the claimed cause of opposition; accepted first displayed structural output",
+    "confirmedInheritedFromB2": true,
+    "repairPending": true
+  }
+}

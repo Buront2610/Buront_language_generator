@@ -1,0 +1,332 @@
+{
+  "note": "Short provenance only. Full posts remain in repository corpus; component witnesses are not independent validation of composed construction. Modesty witnesses share one leakage group.",
+  "corpusFileSha256": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+  "sources": [
+    {
+      "id": "post_00016_82d78e65bd643a54_22",
+      "mechanisms": [
+        "narrator-watashi",
+        "narrator-boku"
+      ],
+      "needles": [
+        "俺は"
+      ],
+      "sentenceSha256": "7676b068018010d9df41b7b5ebf0501f3dbc3b51022d6ffaf739d54c86f4513e",
+      "leakageGroupId": "post:post_00016_82d78e65bd643a54",
+      "url": "http://game.5ch.net/test/read.cgi/gameover/1021186573/197",
+      "corpusPointer": "data/log-corpus.json posts[id=post_00016_82d78e65bd643a54]",
+      "wholePostContentSha256": "a59e8471aa4727696214ca648f454168a395915e821a946d0c9b48e6e0119396"
+    },
+    {
+      "id": "post_00050_7911117f148beb34_76",
+      "mechanisms": [
+        "targeted-evidence-question"
+      ],
+      "needles": [
+        "どうやって偽者だって証拠"
+      ],
+      "sentenceSha256": "82df7fbe2b008c23c21b6002b773aadfb2329ba27bc40b63ea6f4c5f2c6cf966",
+      "leakageGroupId": "leakage_4282d301f1187a9f",
+      "url": "http://game.5ch.net/test/read.cgi/gameover/1021186573/589",
+      "corpusPointer": "data/log-corpus.json posts[id=post_00050_7911117f148beb34]",
+      "wholePostContentSha256": "23f6e88f6e62cd0b72f2ff61963c300d7bb142b8791c27940f245cb24fc43555"
+    },
+    {
+      "id": "post_00074_5e7996bff1eb05b0_110",
+      "mechanisms": [
+        "targeted-evidence-question"
+      ],
+      "needles": [
+        "っていうどういう証拠"
+      ],
+      "sentenceSha256": "a123ed7b52c847334b2d5e83ef4f6518c8f9ed2ebcb8a05ef7c09d8ff9c5c83c",
+      "leakageGroupId": "post:post_00074_5e7996bff1eb05b0",
+      "url": "http://game.5ch.net/test/read.cgi/gameover/1021186573/826",
+      "corpusPointer": "data/log-corpus.json posts[id=post_00074_5e7996bff1eb05b0]",
+      "wholePostContentSha256": "5920f89bde971d0ede678db941d61ab45ecd4051e916508c7a391c27cf4bab26"
+    },
+    {
+      "id": "post_01041_a61029816407677b_3227",
+      "mechanisms": [
+        "reason-explanation"
+      ],
+      "needles": [
+        "かというと"
+      ],
+      "sentenceSha256": "ed96735749ab29b7cbf61f9e4536aac4fbaa044abc246ae4947ac7598ebeeca6",
+      "leakageGroupId": "post:post_01041_a61029816407677b",
+      "url": null,
+      "corpusPointer": "data/log-corpus.json posts[id=post_01041_a61029816407677b]",
+      "wholePostContentSha256": "6cd1dad496295b22bf523b9368ad22085741266e5c8a7d586ecf20e492ef3b43"
+    },
+    {
+      "id": "post_01092_7d511557129472bf_3433",
+      "mechanisms": [
+        "modesty-achievement-focus"
+      ],
+      "needles": [
+        "それほどでもないが"
+      ],
+      "sentenceSha256": "0109258509f0f73029de034fd9eef58ee39e4e5c53d43e90e4d115a1ec74e0fc",
+      "leakageGroupId": "leakage_6c2b149cd8f5dc00",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1055827983/210",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01092_7d511557129472bf]",
+      "wholePostContentSha256": "1603a351811ecbd25ca5d070a3ef06b32cc1aec43a7deb0398b1eb4be5056df8"
+    },
+    {
+      "id": "post_01309_8c6dc8c23e4f2d30_4103",
+      "mechanisms": [
+        "modesty-achievement-focus"
+      ],
+      "needles": [
+        "自慢野郎じゃないからそれほどでもない"
+      ],
+      "sentenceSha256": "5c6606b3bdb236ebb6c6159b58cd560254daffd1be134e934b7608c288aaeb32",
+      "leakageGroupId": "leakage_6c2b149cd8f5dc00",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1056507334/468",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01309_8c6dc8c23e4f2d30]",
+      "wholePostContentSha256": "8434b39de6526d1f1d77cd20f5967b5cb8a95c22931a1496435d183b63713813"
+    },
+    {
+      "id": "post_01345_aae925d37360c57c_4231",
+      "mechanisms": [
+        "carrier-evidence-request"
+      ],
+      "needles": [
+        "見てみろよ周りのやつらの装備をよ"
+      ],
+      "sentenceSha256": "2e044f8366b93433dc39d911e93c2cfda305fb19f115d9e6b327f5eb427684f3",
+      "leakageGroupId": "post:post_01345_aae925d37360c57c",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1056507334/688",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01345_aae925d37360c57c]",
+      "wholePostContentSha256": "42e3f3acb2272d9f71ad7cf6b53dce962e2dee45a4bc71a41478d963eaf056fc"
+    },
+    {
+      "id": "post_01607_a816269c46e1a468_5331",
+      "mechanisms": [
+        "targeted-evidence-question"
+      ],
+      "needles": [
+        "どうやってそれが反省してないという証拠"
+      ],
+      "sentenceSha256": "998cf72ebad0951b75b2ebd5e6035d48692fd2c0faa9912f07932773bb58985c",
+      "leakageGroupId": "leakage_7156e183e34818eb",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1065888624/225",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01607_a816269c46e1a468]",
+      "wholePostContentSha256": "a3044394d5b31f1e16bcca58361d3c08f6bb535f0fa41219fb02f7169a101a07"
+    },
+    {
+      "id": "post_01608_9d1a10cf7bd2b13e_5336",
+      "mechanisms": [
+        "targeted-evidence-question"
+      ],
+      "needles": [
+        "という証拠はあるのかよ"
+      ],
+      "sentenceSha256": "033c04fcdc27b0894568d816c930f74b421f757a234ef4e7fb8284104f27a972",
+      "leakageGroupId": "post:post_01608_9d1a10cf7bd2b13e",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1065888624/230",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01608_9d1a10cf7bd2b13e]",
+      "wholePostContentSha256": "2a6e2cee76eaa3a826670c3505576f00fcae6cd0c18fcf9fcbc3972a79618e66"
+    },
+    {
+      "id": "post_01653_8e421a4e4cb481c1_5516",
+      "mechanisms": [
+        "suguru"
+      ],
+      "needles": [
+        "すぐる"
+      ],
+      "sentenceSha256": "43928e748c1fd226eb654e1b347388214274cea342c98a578c0c96630c48bf2f",
+      "leakageGroupId": "leakage_82e7d98cf5a9a249",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1077998459/889",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01653_8e421a4e4cb481c1]",
+      "wholePostContentSha256": "32fa72c5224c4e53d4b870bd47e924df688c8d2dc4b47c93c9eecf54785d45cf"
+    },
+    {
+      "id": "post_01690_01eabacc0c5882f8_5672",
+      "mechanisms": [
+        "modesty-achievement-focus"
+      ],
+      "needles": [
+        "それほどでもない"
+      ],
+      "sentenceSha256": "e5c57d9db5371ebcc9795b44427046bb249838d792fd011e7bd3442e38d6784d",
+      "leakageGroupId": "leakage_6c2b149cd8f5dc00",
+      "url": "https://live4.5ch.net/test/read.cgi/ogame/1078312673/158",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01690_01eabacc0c5882f8]",
+      "wholePostContentSha256": "e5c57d9db5371ebcc9795b44427046bb249838d792fd011e7bd3442e38d6784d"
+    },
+    {
+      "id": "post_01729_3578425f6701ad48_5839",
+      "mechanisms": [
+        "appiru"
+      ],
+      "needles": [
+        "アッピル"
+      ],
+      "sentenceSha256": "38e5ab102b377c806ba962f2a1820326e6d98c06b0b83cae5515905289a2c2e0",
+      "leakageGroupId": "leakage_405265e9e3d7bd9c",
+      "url": "https://game7.5ch.net/test/read.cgi/ogame/1090126547/122",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01729_3578425f6701ad48]",
+      "wholePostContentSha256": "176f9373292116a43f99ed62f920d420f966aa04519a0d07107ae04e7952c58c"
+    },
+    {
+      "id": "post_01805_0227b0b27aaf7c48_6214",
+      "mechanisms": [
+        "advice-doubling"
+      ],
+      "needles": [
+        "アドバイスを助言"
+      ],
+      "sentenceSha256": "eb044ab3c3118d40705b5c9e4ac45ea4018ea7122df68bcc3f0128ceb94804f6",
+      "leakageGroupId": "post:post_01805_0227b0b27aaf7c48",
+      "url": null,
+      "corpusPointer": "data/log-corpus.json posts[id=post_01805_0227b0b27aaf7c48]",
+      "wholePostContentSha256": "c899448866f03e1ee93cfb22241131f1aaa75a48d5ae2e683fc499a9b1b3a19b"
+    },
+    {
+      "id": "post_01904_94d1e3084483dd25_6841",
+      "mechanisms": [
+        "carrier-evidence-request"
+      ],
+      "needles": [
+        "落してくれるか？"
+      ],
+      "sentenceSha256": "f441b5a812df8f8bcc69cce232aa590c6ffeb35470824c553879124ba673deb9",
+      "leakageGroupId": "leakage_9bf54e3067399f8c",
+      "url": "https://live19.5ch.net/test/read.cgi/ogame/1111173182/849",
+      "corpusPointer": "data/log-corpus.json posts[id=post_01904_94d1e3084483dd25]",
+      "wholePostContentSha256": "a20ac9489058258daf4699329bf770fd61f76e66cbb054de00df9f1000f29286"
+    },
+    {
+      "id": "post_02026_4dc2474bff1f1aaa_7525",
+      "mechanisms": [
+        "reason-nominalized-conclusion"
+      ],
+      "needles": [
+        "なので文句を言わないという事"
+      ],
+      "sentenceSha256": "bee589a9e463e3ee8732ede85137330a352b373b4a924cd7b8af8599774ca948",
+      "leakageGroupId": "post:post_02026_4dc2474bff1f1aaa",
+      "url": "https://live19.5ch.net/test/read.cgi/ogame/1114655142/913",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02026_4dc2474bff1f1aaa]",
+      "wholePostContentSha256": "e79f655d3f599763d0f3a9da56c0bccfa919697b035488738faa98261fcc276c"
+    },
+    {
+      "id": "post_02029_95798251b01b7494_7533",
+      "mechanisms": [
+        "negative-doubling"
+      ],
+      "needles": [
+        "全然全く"
+      ],
+      "sentenceSha256": "1ddd03d237240110fe3412e00195eadf0027f877d9bb48dadfd08a74fa497da1",
+      "leakageGroupId": "post:post_02029_95798251b01b7494",
+      "url": null,
+      "corpusPointer": "data/log-corpus.json posts[id=post_02029_95798251b01b7494]",
+      "wholePostContentSha256": "8e7c16236e33f792815a8859c4a5c5ad7897708b4c3ca00aaca577769382c952"
+    },
+    {
+      "id": "post_02107_8608932d4f4ac31d_7882",
+      "mechanisms": [
+        "reason-nominalized-conclusion"
+      ],
+      "needles": [
+        "という事実"
+      ],
+      "sentenceSha256": "fc2b72c1659221ee97ea2ce4ec259340cecef9606e7a94dccbf72e13f4bfc376",
+      "leakageGroupId": "post:post_02107_8608932d4f4ac31d",
+      "url": "https://hobby8.5ch.net/test/read.cgi/collect/1125338038/402",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02107_8608932d4f4ac31d]",
+      "wholePostContentSha256": "cea2676be2817d98c97fced9e3affb1f06acc05697d465dfa4abc035d1c8edf2"
+    },
+    {
+      "id": "post_02189_550fd44ba9504790_8266",
+      "mechanisms": [
+        "muchiron"
+      ],
+      "needles": [
+        "むちろん"
+      ],
+      "sentenceSha256": "cb588afa1ae0b14dc591d42d8edf453710bc9c8b8d542704fc1a587da6dc7474",
+      "leakageGroupId": "post:post_02189_550fd44ba9504790",
+      "url": "https://live19.5ch.net/test/read.cgi/ogame/1135872563/103",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02189_550fd44ba9504790]",
+      "wholePostContentSha256": "f0959629cf6a656b96adc70ad63ce1fdb17c3d5ebcf34260221def87d0c7820e"
+    },
+    {
+      "id": "post_02200_13ca24afe21445ab_8323",
+      "mechanisms": [
+        "carrier-evidence-request"
+      ],
+      "needles": [
+        "聞いてくれるか"
+      ],
+      "sentenceSha256": "a258222ec5b1b31d20382f990d3f2437f2f920cbacaaa884da73a5f71312f632",
+      "leakageGroupId": "post:post_02200_13ca24afe21445ab",
+      "url": "https://live19.5ch.net/test/read.cgi/ogame/1135872563/185",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02200_13ca24afe21445ab]",
+      "wholePostContentSha256": "f211abfcd8c050105f72502dc70266b6a7b4c4b39b878d939f206c9ff50402bb"
+    },
+    {
+      "id": "post_02223_d646bc4708a3c5e0_8497",
+      "mechanisms": [
+        "reason-nominalized-conclusion"
+      ],
+      "needles": [
+        "だからもててるのだという事実"
+      ],
+      "sentenceSha256": "d669f0c3de66a4cc5b6e88820255108ff359fbe7715d93947fa1b1a8fd00cf61",
+      "leakageGroupId": "leakage_4129e97a329909b0",
+      "url": "https://live19.5ch.net/test/read.cgi/ogame/1143791427/85",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02223_d646bc4708a3c5e0]",
+      "wholePostContentSha256": "d831db3e28b97fcd770158b417bcb8ed163cbf2369bd6ede42741d00dc111f8d"
+    },
+    {
+      "id": "post_02278_620a09e0e0aee5cd_8838",
+      "mechanisms": [
+        "reason-explanation"
+      ],
+      "needles": [
+        "何故かと言うと"
+      ],
+      "sentenceSha256": "b6d55dde9c3da840c396fe1e278977de0c0baf7bbbac17fce7f39f0ff882c339",
+      "leakageGroupId": "post:post_02278_620a09e0e0aee5cd",
+      "url": "https://live19.5ch.net/test/read.cgi/ogame/1154193408/243",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02278_620a09e0e0aee5cd]",
+      "wholePostContentSha256": "ce8935cdf7bcb0ebcdf97d1434ba641d5d5b562c2490346870c2567364fe44f7"
+    },
+    {
+      "id": "post_02331_21fb0e747871e8fb_9047",
+      "mechanisms": [
+        "reason-explanation"
+      ],
+      "needles": [
+        "なぜならば"
+      ],
+      "sentenceSha256": "0034073fd2b3dbc7bec9a771eccc44f4ed4c43b86faba2e534a1fa86ae45bc23",
+      "leakageGroupId": "leakage_3f38ad237dbed8a5",
+      "url": "https://live25.5ch.net/test/read.cgi/ogame/1170164096/83",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02331_21fb0e747871e8fb]",
+      "wholePostContentSha256": "63bb8fb0f26e95103654e7eab55c2bf6dd7c34173f9a488437fd6f7fe40b4a8a"
+    },
+    {
+      "id": "post_02421_ef97fdc26a351d5a_9490",
+      "mechanisms": [
+        "reason-explanation",
+        "speed-doubling",
+        "velocity-doubling"
+      ],
+      "needles": [
+        "何故なら",
+        "速さとスピード"
+      ],
+      "sentenceSha256": "bb73c414c7672ba6f0f7a2be75955880aabc726fbb6d1053eea20fd9480df0ae",
+      "leakageGroupId": "post:post_02421_ef97fdc26a351d5a",
+      "url": "https://schiphol.5ch.net/test/read.cgi/gamefight/1230217843/817",
+      "corpusPointer": "data/log-corpus.json posts[id=post_02421_ef97fdc26a351d5a]",
+      "wholePostContentSha256": "e56a25547ad5cf445c09a6b50ec0f768e185d80647a3a0c4244fefe6910fc303"
+    }
+  ]
+}

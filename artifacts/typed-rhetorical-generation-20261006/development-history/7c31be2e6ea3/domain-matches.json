@@ -1,0 +1,4079 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "7c31be2e6ea3610830b0d01d563b6d165423008cc87d0c5046a9a7adada9496b",
+  "engineHash": "dab6567219bf6becc3dcb94f03a2e2acdb44c0007b66d0346e6fa709b4867f02",
+  "originalComparisonInputHash": "ee75c2b0b655609626f270e4f59dcbf0dfea7f622a27a4e7ccfdca904356a1f5",
+  "metadataInputHash": "ee75c2b0b655609626f270e4f59dcbf0dfea7f622a27a4e7ccfdca904356a1f5",
+  "comparisonHash": "ccc0df9eee2e5c256cecbc292855b2178f963b3d63d3cf292be65b637d576ff7",
+  "scriptHash": "3a3ca0853d451274d47bd93cdefce9d5d9ccc8299b054507ea0116ef0cbfa98f",
+  "method": "Historical any-body classifications remain unchanged. Domain-matched body requires an independently proved actual body-composition block (not merely a STRUCTURAL label or other block) with the expected relation kind for that case. All cases are exposed development; this is not human style/quality.",
+  "relationKinds": {
+    "reason": "reason-claim",
+    "modesty": "modest-achievement",
+    "evidence-request": "evidence-request"
+  },
+  "overall": {
+    "cases": 54,
+    "anyBodyPoolCases": 50,
+    "anyBodyDisplayedCases": 49,
+    "domainMatchedBodyPoolCases": 50,
+    "domainMatchedBodyDisplayedCases": 49,
+    "poolMismatchIds": [],
+    "displayMismatchIds": [],
+    "noMatchedBodyPoolIds": [
+      "X15",
+      "X16",
+      "X17",
+      "SG2-M01B"
+    ],
+    "noMatchedBodyDisplayIds": [
+      "X05",
+      "X15",
+      "X16",
+      "X17",
+      "SG2-M01B"
+    ]
+  },
+  "domain": {
+    "reason": {
+      "cases": 18,
+      "anyBodyPoolCases": 18,
+      "anyBodyDisplayedCases": 17,
+      "domainMatchedBodyPoolCases": 18,
+      "domainMatchedBodyDisplayedCases": 17,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": [
+        "X05"
+      ]
+    },
+    "modesty": {
+      "cases": 18,
+      "anyBodyPoolCases": 17,
+      "anyBodyDisplayedCases": 17,
+      "domainMatchedBodyPoolCases": 17,
+      "domainMatchedBodyDisplayedCases": 17,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [
+        "SG2-M01B"
+      ],
+      "noMatchedBodyDisplayIds": [
+        "SG2-M01B"
+      ]
+    },
+    "evidence-request": {
+      "cases": 18,
+      "anyBodyPoolCases": 15,
+      "anyBodyDisplayedCases": 15,
+      "domainMatchedBodyPoolCases": 15,
+      "domainMatchedBodyDisplayedCases": 15,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "noMatchedBodyDisplayIds": [
+        "X15",
+        "X16",
+        "X17"
+      ]
+    }
+  },
+  "cohortDomain": {
+    "original-exposed18/reason": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 5,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 5,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": [
+        "X05"
+      ]
+    },
+    "original-exposed18/modesty": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 6,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 6,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": []
+    },
+    "original-exposed18/evidence-request": {
+      "cases": 6,
+      "anyBodyPoolCases": 3,
+      "anyBodyDisplayedCases": 3,
+      "domainMatchedBodyPoolCases": 3,
+      "domainMatchedBodyDisplayedCases": 3,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "noMatchedBodyDisplayIds": [
+        "X15",
+        "X16",
+        "X17"
+      ]
+    },
+    "first-exposed-ordinary18/reason": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 6,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 6,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": []
+    },
+    "first-exposed-ordinary18/modesty": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 6,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 6,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": []
+    },
+    "first-exposed-ordinary18/evidence-request": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 6,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 6,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": []
+    },
+    "second-exposed-ordinary18/reason": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 6,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 6,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": []
+    },
+    "second-exposed-ordinary18/modesty": {
+      "cases": 6,
+      "anyBodyPoolCases": 5,
+      "anyBodyDisplayedCases": 5,
+      "domainMatchedBodyPoolCases": 5,
+      "domainMatchedBodyDisplayedCases": 5,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [
+        "SG2-M01B"
+      ],
+      "noMatchedBodyDisplayIds": [
+        "SG2-M01B"
+      ]
+    },
+    "second-exposed-ordinary18/evidence-request": {
+      "cases": 6,
+      "anyBodyPoolCases": 6,
+      "anyBodyDisplayedCases": 6,
+      "domainMatchedBodyPoolCases": 6,
+      "domainMatchedBodyDisplayedCases": 6,
+      "poolMismatchIds": [],
+      "displayMismatchIds": [],
+      "noMatchedBodyPoolIds": [],
+      "noMatchedBodyDisplayIds": []
+    }
+  },
+  "pairs": {
+    "first-exposed-ordinary18:r1": {
+      "caseIds": [
+        "U01",
+        "U02"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:r2": {
+      "caseIds": [
+        "U03",
+        "U04"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:r3": {
+      "caseIds": [
+        "U05",
+        "U06"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:m1": {
+      "caseIds": [
+        "U07",
+        "U08"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:m2": {
+      "caseIds": [
+        "U09",
+        "U10"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:m3": {
+      "caseIds": [
+        "U11",
+        "U12"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:a1": {
+      "caseIds": [
+        "U13",
+        "U14"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:a2": {
+      "caseIds": [
+        "U15",
+        "U16"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "first-exposed-ordinary18:a3": {
+      "caseIds": [
+        "U17",
+        "U18"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-R01": {
+      "caseIds": [
+        "SG2-R01A",
+        "SG2-R01B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-R02": {
+      "caseIds": [
+        "SG2-R02A",
+        "SG2-R02B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-R03": {
+      "caseIds": [
+        "SG2-R03A",
+        "SG2-R03B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-M01": {
+      "caseIds": [
+        "SG2-M01A",
+        "SG2-M01B"
+      ],
+      "bothAnyBodyPool": false,
+      "bothAnyBodyDisplayed": false,
+      "bothDomainMatchedPool": false,
+      "bothDomainMatchedDisplayed": false
+    },
+    "second-exposed-ordinary18:SG2-M02": {
+      "caseIds": [
+        "SG2-M02A",
+        "SG2-M02B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-M03": {
+      "caseIds": [
+        "SG2-M03A",
+        "SG2-M03B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-E01": {
+      "caseIds": [
+        "SG2-E01A",
+        "SG2-E01B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-E02": {
+      "caseIds": [
+        "SG2-E02A",
+        "SG2-E02B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    },
+    "second-exposed-ordinary18:SG2-E03": {
+      "caseIds": [
+        "SG2-E03A",
+        "SG2-E03B"
+      ],
+      "bothAnyBodyPool": true,
+      "bothAnyBodyDisplayed": true,
+      "bothDomainMatchedPool": true,
+      "bothDomainMatchedDisplayed": true
+    }
+  },
+  "rows": [
+    {
+      "id": "X01",
+      "source": "朝の連絡はメールにした。相手が会議中だからだ。",
+      "domain": "reason",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "相手が会議中だから、朝の連絡はメールにした。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "朝の連絡はメールにした。相手が会議中だからだ。",
+                  "outputBlockText": "相手が会議中だから、朝の連絡はメールにした。"
+                }
+              ]
+            },
+            {
+              "text": "相手が会議中だから朝の連絡はメールにしたということ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-nominalized-conclusion",
+                  "realizationId": "premise-then-nominalized-conclusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "朝の連絡はメールにした。相手が会議中だからだ。",
+                  "outputBlockText": "相手が会議中だから朝の連絡はメールにしたということ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 3,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 3,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "相手が会議中だから、朝の連絡はメールにした。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "朝の連絡はメールにした。相手が会議中だからだ。",
+                  "outputBlockText": "相手が会議中だから、朝の連絡はメールにした。"
+                }
+              ]
+            },
+            {
+              "text": "相手が会議中だから朝の連絡はメールにしたということ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-nominalized-conclusion",
+                  "realizationId": "premise-then-nominalized-conclusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "朝の連絡はメールにした。相手が会議中だからだ。",
+                  "outputBlockText": "相手が会議中だから朝の連絡はメールにしたということ。"
+                }
+              ]
+            },
+            {
+              "text": "相手が会議中だから朝の連絡はメールにしたという事実。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-nominalized-conclusion",
+                  "realizationId": "premise-then-fact-conclusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "朝の連絡はメールにした。相手が会議中だからだ。",
+                  "outputBlockText": "相手が会議中だから朝の連絡はメールにしたという事実。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X02",
+      "source": "徒歩で帰った。バスが運休していたからです。",
+      "domain": "reason",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "バスが運休していたから、徒歩で帰った。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 21
+                  },
+                  "sourceBlockText": "徒歩で帰った。バスが運休していたからです。",
+                  "outputBlockText": "バスが運休していたから、徒歩で帰った。"
+                }
+              ]
+            },
+            {
+              "text": "バスが運休していたから徒歩で帰ったということ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-nominalized-conclusion",
+                  "realizationId": "premise-then-nominalized-conclusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 21
+                  },
+                  "sourceBlockText": "徒歩で帰った。バスが運休していたからです。",
+                  "outputBlockText": "バスが運休していたから徒歩で帰ったということ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 3,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 3,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "バスが運休していたから、徒歩で帰った。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 21
+                  },
+                  "sourceBlockText": "徒歩で帰った。バスが運休していたからです。",
+                  "outputBlockText": "バスが運休していたから、徒歩で帰った。"
+                }
+              ]
+            },
+            {
+              "text": "バスが運休していたから徒歩で帰ったということ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-nominalized-conclusion",
+                  "realizationId": "premise-then-nominalized-conclusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 21
+                  },
+                  "sourceBlockText": "徒歩で帰った。バスが運休していたからです。",
+                  "outputBlockText": "バスが運休していたから徒歩で帰ったということ。"
+                }
+              ]
+            },
+            {
+              "text": "バスが運休していたから徒歩で帰ったという事実。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-nominalized-conclusion",
+                  "realizationId": "premise-then-fact-conclusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 21
+                  },
+                  "sourceBlockText": "徒歩で帰った。バスが運休していたからです。",
+                  "outputBlockText": "バスが運休していたから徒歩で帰ったという事実。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X03",
+      "source": "この資料は保存する。来週の説明に必要だからだ。",
+      "domain": "reason",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "来週の説明に必要だから、この資料は保存する。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "この資料は保存する。来週の説明に必要だからだ。",
+                  "outputBlockText": "来週の説明に必要だから、この資料は保存する。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "来週の説明に必要だから、この資料は保存する。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "この資料は保存する。来週の説明に必要だからだ。",
+                  "outputBlockText": "来週の説明に必要だから、この資料は保存する。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X04",
+      "source": "今日は窓を閉めた。外の音が大きいからだ。",
+      "domain": "reason",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "外の音が大きいから、今日は窓を閉めた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 20
+                  },
+                  "sourceBlockText": "今日は窓を閉めた。外の音が大きいからだ。",
+                  "outputBlockText": "外の音が大きいから、今日は窓を閉めた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "外の音が大きいから、今日は窓を閉めた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 20
+                  },
+                  "sourceBlockText": "今日は窓を閉めた。外の音が大きいからだ。",
+                  "outputBlockText": "外の音が大きいから、今日は窓を閉めた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X05",
+      "source": "印刷機が故障しているので、受付の案内は手書きにしました。",
+      "domain": "reason",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": false,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": false,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": [
+            {
+              "text": "受付の案内は手書きにした。何故かというと印刷機が故障しているからだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 28
+                  },
+                  "sourceBlockText": "印刷機が故障しているので、受付の案内は手書きにしました。",
+                  "outputBlockText": "受付の案内は手書きにした。何故かというと印刷機が故障しているからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": [
+            {
+              "text": "受付の案内は手書きにした。何故かというと印刷機が故障しているからだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 28
+                  },
+                  "sourceBlockText": "印刷機が故障しているので、受付の案内は手書きにしました。",
+                  "outputBlockText": "受付の案内は手書きにした。何故かというと印刷機が故障しているからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X06",
+      "source": "道路が混んでいたため、到着は予定より十分遅れました。",
+      "domain": "reason",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "到着は予定より十分遅れた。何故かというと道路が混んでいたからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 26
+                  },
+                  "sourceBlockText": "道路が混んでいたため、到着は予定より十分遅れました。",
+                  "outputBlockText": "到着は予定より十分遅れた。何故かというと道路が混んでいたからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "到着は予定より十分遅れた。何故かというと道路が混んでいたからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 26
+                  },
+                  "sourceBlockText": "道路が混んでいたため、到着は予定より十分遅れました。",
+                  "outputBlockText": "到着は予定より十分遅れた。何故かというと道路が混んでいたからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X07",
+      "source": "大したことはしていない。机を片付けただけだ。",
+      "domain": "modesty",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "机を片付けただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 22
+                  },
+                  "sourceBlockText": "大したことはしていない。机を片付けただけだ。",
+                  "outputBlockText": "机を片付けただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、机を片付けただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 22
+                  },
+                  "sourceBlockText": "大したことはしていない。机を片付けただけだ。",
+                  "outputBlockText": "それほどでもないが、机を片付けただけだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "机を片付けただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 22
+                  },
+                  "sourceBlockText": "大したことはしていない。机を片付けただけだ。",
+                  "outputBlockText": "机を片付けただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、机を片付けただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 22
+                  },
+                  "sourceBlockText": "大したことはしていない。机を片付けただけだ。",
+                  "outputBlockText": "それほどでもないが、机を片付けただけだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X08",
+      "source": "大したことはしていない。資料を一つ渡しただけだ。",
+      "domain": "modesty",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "資料を一つ渡しただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "大したことはしていない。資料を一つ渡しただけだ。",
+                  "outputBlockText": "資料を一つ渡しただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、資料を一つ渡しただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "大したことはしていない。資料を一つ渡しただけだ。",
+                  "outputBlockText": "それほどでもないが、資料を一つ渡しただけだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "資料を一つ渡しただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "大したことはしていない。資料を一つ渡しただけだ。",
+                  "outputBlockText": "資料を一つ渡しただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、資料を一つ渡しただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "大したことはしていない。資料を一つ渡しただけだ。",
+                  "outputBlockText": "それほどでもないが、資料を一つ渡しただけだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X09",
+      "source": "大したことはしていない。玄関の電球を直しただけだ。",
+      "domain": "modesty",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "玄関の電球を直しただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 25
+                  },
+                  "sourceBlockText": "大したことはしていない。玄関の電球を直しただけだ。",
+                  "outputBlockText": "玄関の電球を直しただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、玄関の電球を直しただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 25
+                  },
+                  "sourceBlockText": "大したことはしていない。玄関の電球を直しただけだ。",
+                  "outputBlockText": "それほどでもないが、玄関の電球を直しただけだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "玄関の電球を直しただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 25
+                  },
+                  "sourceBlockText": "大したことはしていない。玄関の電球を直しただけだ。",
+                  "outputBlockText": "玄関の電球を直しただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、玄関の電球を直しただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 25
+                  },
+                  "sourceBlockText": "大したことはしていない。玄関の電球を直しただけだ。",
+                  "outputBlockText": "それほどでもないが、玄関の電球を直しただけだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X10",
+      "source": "大したことはしていない。住所を確認しただけだ。",
+      "domain": "modesty",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "住所を確認しただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "大したことはしていない。住所を確認しただけだ。",
+                  "outputBlockText": "住所を確認しただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、住所を確認しただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "大したことはしていない。住所を確認しただけだ。",
+                  "outputBlockText": "それほどでもないが、住所を確認しただけだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 2,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 2,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "住所を確認しただけだ。それほどでもない。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "deed-then-modesty",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "大したことはしていない。住所を確認しただけだ。",
+                  "outputBlockText": "住所を確認しただけだ。それほどでもない。"
+                }
+              ]
+            },
+            {
+              "text": "それほどでもないが、住所を確認しただけだ。",
+              "displayOrdinal": null,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "modesty-with-deed",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 23
+                  },
+                  "sourceBlockText": "大したことはしていない。住所を確認しただけだ。",
+                  "outputBlockText": "それほどでもないが、住所を確認しただけだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X11",
+      "source": "褒められるほどではありませんが、誤記を二か所だけ訂正しました。",
+      "domain": "modesty",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "褒められるほどではありません。とはいえ、誤記を二か所だけ訂正した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 31
+                  },
+                  "sourceBlockText": "褒められるほどではありませんが、誤記を二か所だけ訂正しました。",
+                  "outputBlockText": "褒められるほどではありません。とはいえ、誤記を二か所だけ訂正した。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "褒められるほどではありません。とはいえ、誤記を二か所だけ訂正した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 31
+                  },
+                  "sourceBlockText": "褒められるほどではありませんが、誤記を二か所だけ訂正しました。",
+                  "outputBlockText": "褒められるほどではありません。とはいえ、誤記を二か所だけ訂正した。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X12",
+      "source": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+      "domain": "modesty",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+                  "outputBlockText": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+                  "outputBlockText": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X13",
+      "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+      "domain": "evidence-request",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "便利なのは分かった。しかし見せてくれるか、安全だという証拠を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 29
+                  },
+                  "sourceBlockText": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+                  "outputBlockText": "便利なのは分かった。しかし見せてくれるか、安全だという証拠を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X14",
+      "source": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。",
+      "domain": "evidence-request",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "費用を抑える方針には賛成だ。しかし教えてくれるか、その予測の根拠を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 33
+                  },
+                  "sourceBlockText": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。",
+                  "outputBlockText": "費用を抑える方針には賛成だ。しかし教えてくれるか、その予測の根拠を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "X15",
+      "source": "急ぎの案件なのは理解した。しかしこの数値を裏付ける資料を求める。",
+      "domain": "evidence-request",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": false,
+      "anyBodyDisplayed": false,
+      "domainMatchedBodyPool": false,
+      "domainMatchedBodyDisplayed": false,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "X16",
+      "source": "説明は聞いた。しかしこの方法が確実だという証拠が欲しい。",
+      "domain": "evidence-request",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": false,
+      "anyBodyDisplayed": false,
+      "domainMatchedBodyPool": false,
+      "domainMatchedBodyDisplayed": false,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "X17",
+      "source": "便利そうですが、なぜ必要なのかを示す記録を確認させてください。",
+      "domain": "evidence-request",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": false,
+      "anyBodyDisplayed": false,
+      "domainMatchedBodyPool": false,
+      "domainMatchedBodyDisplayed": false,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "X18",
+      "source": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+      "domain": "evidence-request",
+      "cohort": "original-exposed18",
+      "pair": null,
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "値段には納得しています。ただ、教えてくれるか、消費電力が減るという測定結果を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 40
+                  },
+                  "sourceBlockText": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+                  "outputBlockText": "値段には納得しています。ただ、教えてくれるか、消費電力が減るという測定結果を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U01",
+      "source": "担当者が休暇中なので、この見積もりへの回答は明日になります。",
+      "domain": "reason",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:r1",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "この見積もりへの回答は明日になる。何故かというと担当者が休暇中だからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 30
+                  },
+                  "sourceBlockText": "担当者が休暇中なので、この見積もりへの回答は明日になります。",
+                  "outputBlockText": "この見積もりへの回答は明日になる。何故かというと担当者が休暇中だからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "この見積もりへの回答は明日になる。何故かというと担当者が休暇中だからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 30
+                  },
+                  "sourceBlockText": "担当者が休暇中なので、この見積もりへの回答は明日になります。",
+                  "outputBlockText": "この見積もりへの回答は明日になる。何故かというと担当者が休暇中だからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "source": "窓口の人がお休みのため、金額の問い合わせには翌日お返事します。",
+      "domain": "reason",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:r1",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "金額の問い合わせには翌日お返事する。何故かというと窓口の人がお休みだからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 31
+                  },
+                  "sourceBlockText": "窓口の人がお休みのため、金額の問い合わせには翌日お返事します。",
+                  "outputBlockText": "金額の問い合わせには翌日お返事する。何故かというと窓口の人がお休みだからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "金額の問い合わせには翌日お返事する。何故かというと窓口の人がお休みだからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 31
+                  },
+                  "sourceBlockText": "窓口の人がお休みのため、金額の問い合わせには翌日お返事します。",
+                  "outputBlockText": "金額の問い合わせには翌日お返事する。何故かというと窓口の人がお休みだからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U03",
+      "source": "駅前の店は改装中ですから、昼ご飯は会社の食堂で食べます。",
+      "domain": "reason",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:r2",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "昼ご飯は会社の食堂で食べる。何故かというと駅前の店は改装中だからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 28
+                  },
+                  "sourceBlockText": "駅前の店は改装中ですから、昼ご飯は会社の食堂で食べます。",
+                  "outputBlockText": "昼ご飯は会社の食堂で食べる。何故かというと駅前の店は改装中だからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "昼ご飯は会社の食堂で食べる。何故かというと駅前の店は改装中だからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 28
+                  },
+                  "sourceBlockText": "駅前の店は改装中ですから、昼ご飯は会社の食堂で食べます。",
+                  "outputBlockText": "昼ご飯は会社の食堂で食べる。何故かというと駅前の店は改装中だからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U04",
+      "source": "いつもの喫茶店が工事で休んでいるため、お昼は職場の食事スペースを使います。",
+      "domain": "reason",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:r2",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "お昼は職場の食事スペースを使う。何故かというといつもの喫茶店が工事で休んでいるからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 37
+                  },
+                  "sourceBlockText": "いつもの喫茶店が工事で休んでいるため、お昼は職場の食事スペースを使います。",
+                  "outputBlockText": "お昼は職場の食事スペースを使う。何故かというといつもの喫茶店が工事で休んでいるからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "お昼は職場の食事スペースを使う。何故かというといつもの喫茶店が工事で休んでいるからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 37
+                  },
+                  "sourceBlockText": "いつもの喫茶店が工事で休んでいるため、お昼は職場の食事スペースを使います。",
+                  "outputBlockText": "お昼は職場の食事スペースを使う。何故かというといつもの喫茶店が工事で休んでいるからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U05",
+      "source": "添付の写真では型番が読めないので、交換部品はまだ注文できません。",
+      "domain": "reason",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:r3",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "交換部品はまだ注文できない。何故かというと添付の写真では型番が読めないからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 32
+                  },
+                  "sourceBlockText": "添付の写真では型番が読めないので、交換部品はまだ注文できません。",
+                  "outputBlockText": "交換部品はまだ注文できない。何故かというと添付の写真では型番が読めないからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "交換部品はまだ注文できない。何故かというと添付の写真では型番が読めないからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 32
+                  },
+                  "sourceBlockText": "添付の写真では型番が読めないので、交換部品はまだ注文できません。",
+                  "outputBlockText": "交換部品はまだ注文できない。何故かというと添付の写真では型番が読めないからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U06",
+      "source": "送られてきた画像の品番が判別できないため、取り替える部材の発注は保留にしています。",
+      "domain": "reason",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:r3",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "取り替える部材の発注は保留にしている。何故かというと送られてきた画像の品番が判別できないからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 41
+                  },
+                  "sourceBlockText": "送られてきた画像の品番が判別できないため、取り替える部材の発注は保留にしています。",
+                  "outputBlockText": "取り替える部材の発注は保留にしている。何故かというと送られてきた画像の品番が判別できないからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "取り替える部材の発注は保留にしている。何故かというと送られてきた画像の品番が判別できないからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 41
+                  },
+                  "sourceBlockText": "送られてきた画像の品番が判別できないため、取り替える部材の発注は保留にしています。",
+                  "outputBlockText": "取り替える部材の発注は保留にしている。何故かというと送られてきた画像の品番が判別できないからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U07",
+      "source": "得意というほどではありませんが、共有表の重複行を三つだけ整理しました。",
+      "domain": "modesty",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:m1",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "得意というほどではない。とはいえ、共有表の重複行を三つだけ整理した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 35
+                  },
+                  "sourceBlockText": "得意というほどではありませんが、共有表の重複行を三つだけ整理しました。",
+                  "outputBlockText": "得意というほどではない。とはいえ、共有表の重複行を三つだけ整理した。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "得意というほどではない。とはいえ、共有表の重複行を三つだけ整理した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 35
+                  },
+                  "sourceBlockText": "得意というほどではありませんが、共有表の重複行を三つだけ整理しました。",
+                  "outputBlockText": "得意というほどではない。とはいえ、共有表の重複行を三つだけ整理した。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U08",
+      "source": "まだ不慣れですが、共同の一覧に二重で入っていた記録を三件だけ片づけました。",
+      "domain": "modesty",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:m1",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "まだ不慣れだ。とはいえ、共同の一覧に二重で入っていた記録を三件だけ片づけた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 37
+                  },
+                  "sourceBlockText": "まだ不慣れですが、共同の一覧に二重で入っていた記録を三件だけ片づけました。",
+                  "outputBlockText": "まだ不慣れだ。とはいえ、共同の一覧に二重で入っていた記録を三件だけ片づけた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "まだ不慣れだ。とはいえ、共同の一覧に二重で入っていた記録を三件だけ片づけた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 37
+                  },
+                  "sourceBlockText": "まだ不慣れですが、共同の一覧に二重で入っていた記録を三件だけ片づけました。",
+                  "outputBlockText": "まだ不慣れだ。とはいえ、共同の一覧に二重で入っていた記録を三件だけ片づけた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U09",
+      "source": "料理に自信はありませんが、今朝は家族の分のおにぎりだけ作れました。",
+      "domain": "modesty",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:m2",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "料理に自信はない。とはいえ、今朝は家族の分のおにぎりだけ作れた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 33
+                  },
+                  "sourceBlockText": "料理に自信はありませんが、今朝は家族の分のおにぎりだけ作れました。",
+                  "outputBlockText": "料理に自信はない。とはいえ、今朝は家族の分のおにぎりだけ作れた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "料理に自信はない。とはいえ、今朝は家族の分のおにぎりだけ作れた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 33
+                  },
+                  "sourceBlockText": "料理に自信はありませんが、今朝は家族の分のおにぎりだけ作れました。",
+                  "outputBlockText": "料理に自信はない。とはいえ、今朝は家族の分のおにぎりだけ作れた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U10",
+      "source": "台所仕事はまだ苦手ですけど、今日は家の人が食べる握り飯だけは用意できました。",
+      "domain": "modesty",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:m2",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "台所仕事はまだ苦手だ。とはいえ、今日は家の人が食べる握り飯だけは用意できた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 38
+                  },
+                  "sourceBlockText": "台所仕事はまだ苦手ですけど、今日は家の人が食べる握り飯だけは用意できました。",
+                  "outputBlockText": "台所仕事はまだ苦手だ。とはいえ、今日は家の人が食べる握り飯だけは用意できた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "台所仕事はまだ苦手だ。とはいえ、今日は家の人が食べる握り飯だけは用意できた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 38
+                  },
+                  "sourceBlockText": "台所仕事はまだ苦手ですけど、今日は家の人が食べる握り飯だけは用意できました。",
+                  "outputBlockText": "台所仕事はまだ苦手だ。とはいえ、今日は家の人が食べる握り飯だけは用意できた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U11",
+      "source": "大したことはしていませんが、新人向けの説明文の誤字を少し直しました。",
+      "domain": "modesty",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:m3",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "大したことはしていない。とはいえ、新人向けの説明文の誤字を少し直した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 34
+                  },
+                  "sourceBlockText": "大したことはしていませんが、新人向けの説明文の誤字を少し直しました。",
+                  "outputBlockText": "大したことはしていない。とはいえ、新人向けの説明文の誤字を少し直した。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "大したことはしていない。とはいえ、新人向けの説明文の誤字を少し直した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 34
+                  },
+                  "sourceBlockText": "大したことはしていませんが、新人向けの説明文の誤字を少し直しました。",
+                  "outputBlockText": "大したことはしていない。とはいえ、新人向けの説明文の誤字を少し直した。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U12",
+      "source": "胸を張れるほどの仕事ではないですが、初めて来る人用の案内にある打ち間違いを少しだけ修正しました。",
+      "domain": "modesty",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:m3",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "胸を張れるほどの仕事ではないです。とはいえ、初めて来る人用の案内にある打ち間違いを少しだけ修正した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 48
+                  },
+                  "sourceBlockText": "胸を張れるほどの仕事ではないですが、初めて来る人用の案内にある打ち間違いを少しだけ修正しました。",
+                  "outputBlockText": "胸を張れるほどの仕事ではないです。とはいえ、初めて来る人用の案内にある打ち間違いを少しだけ修正した。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "胸を張れるほどの仕事ではないです。とはいえ、初めて来る人用の案内にある打ち間違いを少しだけ修正した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 48
+                  },
+                  "sourceBlockText": "胸を張れるほどの仕事ではないですが、初めて来る人用の案内にある打ち間違いを少しだけ修正しました。",
+                  "outputBlockText": "胸を張れるほどの仕事ではないです。とはいえ、初めて来る人用の案内にある打ち間違いを少しだけ修正した。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U13",
+      "source": "早く決めたい気持ちは分かりますが、この契約が必要だという根拠を見せてください。",
+      "domain": "evidence-request",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:a1",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "早く決めたい気持ちは分かりますが、見せてくれるか、この契約が必要だという根拠を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 39
+                  },
+                  "sourceBlockText": "早く決めたい気持ちは分かりますが、この契約が必要だという根拠を見せてください。",
+                  "outputBlockText": "早く決めたい気持ちは分かりますが、見せてくれるか、この契約が必要だという根拠を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U14",
+      "source": "急いで結論を出したいのは理解できます。ただ、その取り決めを結ぶ必要性が分かる資料を提示してください。",
+      "domain": "evidence-request",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:a1",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "急いで結論を出したいのは理解できます。ただ、提示してくれるか、その取り決めを結ぶ必要性が分かる資料を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 50
+                  },
+                  "sourceBlockText": "急いで結論を出したいのは理解できます。ただ、その取り決めを結ぶ必要性が分かる資料を提示してください。",
+                  "outputBlockText": "急いで結論を出したいのは理解できます。ただ、提示してくれるか、その取り決めを結ぶ必要性が分かる資料を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U15",
+      "source": "評判が良いことは聞いていますが、この浄水器が水質を改善するという試験結果を教えてください。",
+      "domain": "evidence-request",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:a2",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "評判が良いことは聞いていますが、教えてくれるか、この浄水器が水質を改善するという試験結果を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 45
+                  },
+                  "sourceBlockText": "評判が良いことは聞いていますが、この浄水器が水質を改善するという試験結果を教えてください。",
+                  "outputBlockText": "評判が良いことは聞いていますが、教えてくれるか、この浄水器が水質を改善するという試験結果を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U16",
+      "source": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データを見せてもらえますか。",
+      "domain": "evidence-request",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:a2",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "口コミが好評なのは承知しています。ただ、見せてくれるか、このろ過装置で水がきれいになると判断した検証データを。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 56
+                  },
+                  "sourceBlockText": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データを見せてもらえますか。",
+                  "outputBlockText": "口コミが好評なのは承知しています。ただ、見せてくれるか、このろ過装置で水がきれいになると判断した検証データを。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U17",
+      "source": "作業を減らす案には賛成ですけれど、点検を週一回にしても安全だと判断した理由を説明してください。",
+      "domain": "evidence-request",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:a3",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "作業を減らす案には賛成ですけれど、説明してくれるか、点検を週一回にしても安全だと判断した理由を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 47
+                  },
+                  "sourceBlockText": "作業を減らす案には賛成ですけれど、点検を週一回にしても安全だと判断した理由を説明してください。",
+                  "outputBlockText": "作業を減らす案には賛成ですけれど、説明してくれるか、点検を週一回にしても安全だと判断した理由を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U18",
+      "source": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けを出してください。",
+      "domain": "evidence-request",
+      "cohort": "first-exposed-ordinary18",
+      "pair": "first-exposed-ordinary18:a3",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "手間を省く方向には異論はありませんが、出してくれるか、確認を一週間に一度へ変えて問題がないとする裏付けを。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 52
+                  },
+                  "sourceBlockText": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けを出してください。",
+                  "outputBlockText": "手間を省く方向には異論はありませんが、出してくれるか、確認を一週間に一度へ変えて問題がないとする裏付けを。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-R01A",
+      "source": "冷蔵庫に十分な食材があるので、明日の夕食は買い足さずに用意できます。",
+      "domain": "reason",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-R01",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "明日の夕食は買い足さずに用意できる。何故かというと冷蔵庫に十分な食材があるからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 34
+                  },
+                  "sourceBlockText": "冷蔵庫に十分な食材があるので、明日の夕食は買い足さずに用意できます。",
+                  "outputBlockText": "明日の夕食は買い足さずに用意できる。何故かというと冷蔵庫に十分な食材があるからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "明日の夕食は買い足さずに用意できる。何故かというと冷蔵庫に十分な食材があるからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 34
+                  },
+                  "sourceBlockText": "冷蔵庫に十分な食材があるので、明日の夕食は買い足さずに用意できます。",
+                  "outputBlockText": "明日の夕食は買い足さずに用意できる。何故かというと冷蔵庫に十分な食材があるからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-R01B",
+      "source": "明日の晩ごはんなら、新たに買い物をしなくても作れます。冷蔵庫の食材が足りているからです。",
+      "domain": "reason",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-R01",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "冷蔵庫の食材が足りているから、明日の晩ごはんなら、新たに買い物をしなくても作れる。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 44
+                  },
+                  "sourceBlockText": "明日の晩ごはんなら、新たに買い物をしなくても作れます。冷蔵庫の食材が足りているからです。",
+                  "outputBlockText": "冷蔵庫の食材が足りているから、明日の晩ごはんなら、新たに買い物をしなくても作れる。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "冷蔵庫の食材が足りているから、明日の晩ごはんなら、新たに買い物をしなくても作れる。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 44
+                  },
+                  "sourceBlockText": "明日の晩ごはんなら、新たに買い物をしなくても作れます。冷蔵庫の食材が足りているからです。",
+                  "outputBlockText": "冷蔵庫の食材が足りているから、明日の晩ごはんなら、新たに買い物をしなくても作れる。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-R02A",
+      "source": "手首を痛めているため、今週は重い箱を運べません。",
+      "domain": "reason",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-R02",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "今週は重い箱を運べない。何故かというと手首を痛めているからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "手首を痛めているため、今週は重い箱を運べません。",
+                  "outputBlockText": "今週は重い箱を運べない。何故かというと手首を痛めているからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "今週は重い箱を運べない。何故かというと手首を痛めているからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 24
+                  },
+                  "sourceBlockText": "手首を痛めているため、今週は重い箱を運べません。",
+                  "outputBlockText": "今週は重い箱を運べない。何故かというと手首を痛めているからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-R02B",
+      "source": "今週、重量のある箱を持ち運ぶのは無理です。手首が痛んでいるからです。",
+      "domain": "reason",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-R02",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "手首が痛んでいるから、今週、重量のある箱を持ち運ぶのは無理だ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 34
+                  },
+                  "sourceBlockText": "今週、重量のある箱を持ち運ぶのは無理です。手首が痛んでいるからです。",
+                  "outputBlockText": "手首が痛んでいるから、今週、重量のある箱を持ち運ぶのは無理だ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "手首が痛んでいるから、今週、重量のある箱を持ち運ぶのは無理だ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 34
+                  },
+                  "sourceBlockText": "今週、重量のある箱を持ち運ぶのは無理です。手首が痛んでいるからです。",
+                  "outputBlockText": "手首が痛んでいるから、今週、重量のある箱を持ち運ぶのは無理だ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-R03A",
+      "source": "会議室の予約が二重になっているので、今日の打ち合わせは別の部屋が必要です。",
+      "domain": "reason",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-R03",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "今日の打ち合わせは別の部屋が必要だ。何故かというと会議室の予約が二重になっているからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 37
+                  },
+                  "sourceBlockText": "会議室の予約が二重になっているので、今日の打ち合わせは別の部屋が必要です。",
+                  "outputBlockText": "今日の打ち合わせは別の部屋が必要だ。何故かというと会議室の予約が二重になっているからだ。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "今日の打ち合わせは別の部屋が必要だ。何故かというと会議室の予約が二重になっているからだ。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "assertion-then-explanation",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 37
+                  },
+                  "sourceBlockText": "会議室の予約が二重になっているので、今日の打ち合わせは別の部屋が必要です。",
+                  "outputBlockText": "今日の打ち合わせは別の部屋が必要だ。何故かというと会議室の予約が二重になっているからだ。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-R03B",
+      "source": "今日の打ち合わせには、ほかの部屋を用意する必要があります。会議室の予約が重なっているためです。",
+      "domain": "reason",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-R03",
+      "expectedRelationKind": "reason-claim",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "会議室の予約が重なっているから、今日の打ち合わせには、ほかの部屋を用意する必要がある。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 47
+                  },
+                  "sourceBlockText": "今日の打ち合わせには、ほかの部屋を用意する必要があります。会議室の予約が重なっているためです。",
+                  "outputBlockText": "会議室の予約が重なっているから、今日の打ち合わせには、ほかの部屋を用意する必要がある。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "会議室の予約が重なっているから、今日の打ち合わせには、ほかの部屋を用意する必要がある。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "reason-claim",
+                  "operatorId": "reason-explanation",
+                  "realizationId": "explanation-then-bounded-claim",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 47
+                  },
+                  "sourceBlockText": "今日の打ち合わせには、ほかの部屋を用意する必要があります。会議室の予約が重なっているためです。",
+                  "outputBlockText": "会議室の予約が重なっているから、今日の打ち合わせには、ほかの部屋を用意する必要がある。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-M01A",
+      "source": "整理整頓は得意ではありませんが、共有棚のファイルには全部ラベルを付け終えました。",
+      "domain": "modesty",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-M01",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "整理整頓は得意ではない。とはいえ、共有棚のファイルには全部ラベルを付け終えた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 40
+                  },
+                  "sourceBlockText": "整理整頓は得意ではありませんが、共有棚のファイルには全部ラベルを付け終えました。",
+                  "outputBlockText": "整理整頓は得意ではない。とはいえ、共有棚のファイルには全部ラベルを付け終えた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "整理整頓は得意ではない。とはいえ、共有棚のファイルには全部ラベルを付け終えた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 40
+                  },
+                  "sourceBlockText": "整理整頓は得意ではありませんが、共有棚のファイルには全部ラベルを付け終えました。",
+                  "outputBlockText": "整理整頓は得意ではない。とはいえ、共有棚のファイルには全部ラベルを付け終えた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-M01B",
+      "source": "片付けが上手なほうではないものの、共有の棚にあるファイルのラベル付けはすべて済ませています。",
+      "domain": "modesty",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-M01",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": false,
+      "anyBodyDisplayed": false,
+      "domainMatchedBodyPool": false,
+      "domainMatchedBodyDisplayed": false,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-M02A",
+      "source": "料理に自信があるわけではないですが、今朝は家族三人分の弁当を作りました。",
+      "domain": "modesty",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-M02",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "料理に自信があるわけではないです。とはいえ、今朝は家族三人分の弁当を作った。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 36
+                  },
+                  "sourceBlockText": "料理に自信があるわけではないですが、今朝は家族三人分の弁当を作りました。",
+                  "outputBlockText": "料理に自信があるわけではないです。とはいえ、今朝は家族三人分の弁当を作った。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "料理に自信があるわけではないです。とはいえ、今朝は家族三人分の弁当を作った。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 36
+                  },
+                  "sourceBlockText": "料理に自信があるわけではないですが、今朝は家族三人分の弁当を作りました。",
+                  "outputBlockText": "料理に自信があるわけではないです。とはいえ、今朝は家族三人分の弁当を作った。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-M02B",
+      "source": "腕前を誇れるほどではありません。それでも今朝、家族の弁当を三人分用意しました。",
+      "domain": "modesty",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-M02",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "腕前を誇れるほどではないが、それでも今朝、家族の弁当を三人分用意した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-event-fusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 39
+                  },
+                  "sourceBlockText": "腕前を誇れるほどではありません。それでも今朝、家族の弁当を三人分用意しました。",
+                  "outputBlockText": "腕前を誇れるほどではないが、それでも今朝、家族の弁当を三人分用意した。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "腕前を誇れるほどではないが、それでも今朝、家族の弁当を三人分用意した。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-event-fusion",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 39
+                  },
+                  "sourceBlockText": "腕前を誇れるほどではありません。それでも今朝、家族の弁当を三人分用意しました。",
+                  "outputBlockText": "腕前を誇れるほどではないが、それでも今朝、家族の弁当を三人分用意した。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-M03A",
+      "source": "人前で話すのは苦手ですが、昨日の説明会では参加者からの質問に最後まで答えました。",
+      "domain": "modesty",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-M03",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "人前で話すのは苦手です。とはいえ、昨日の説明会では参加者からの質問に最後まで答えた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 40
+                  },
+                  "sourceBlockText": "人前で話すのは苦手ですが、昨日の説明会では参加者からの質問に最後まで答えました。",
+                  "outputBlockText": "人前で話すのは苦手です。とはいえ、昨日の説明会では参加者からの質問に最後まで答えた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "人前で話すのは苦手です。とはいえ、昨日の説明会では参加者からの質問に最後まで答えた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 40
+                  },
+                  "sourceBlockText": "人前で話すのは苦手ですが、昨日の説明会では参加者からの質問に最後まで答えました。",
+                  "outputBlockText": "人前で話すのは苦手です。とはいえ、昨日の説明会では参加者からの質問に最後まで答えた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-M03B",
+      "source": "大勢を前にすると話し慣れていないのが出ますが、昨日の案内会では参加者の問いに終わりまで応じました。",
+      "domain": "modesty",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-M03",
+      "expectedRelationKind": "modest-achievement",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "大勢を前にすると話し慣れていないのが出ます。とはいえ、昨日の案内会では参加者の問いに終わりまで応じた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 49
+                  },
+                  "sourceBlockText": "大勢を前にすると話し慣れていないのが出ますが、昨日の案内会では参加者の問いに終わりまで応じました。",
+                  "outputBlockText": "大勢を前にすると話し慣れていないのが出ます。とはいえ、昨日の案内会では参加者の問いに終わりまで応じた。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "大勢を前にすると話し慣れていないのが出ます。とはいえ、昨日の案内会では参加者の問いに終わりまで応じた。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "modest-achievement",
+                  "operatorId": "modesty-achievement-focus",
+                  "realizationId": "assessment-then-event-split",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 49
+                  },
+                  "sourceBlockText": "大勢を前にすると話し慣れていないのが出ますが、昨日の案内会では参加者の問いに終わりまで応じました。",
+                  "outputBlockText": "大勢を前にすると話し慣れていないのが出ます。とはいえ、昨日の案内会では参加者の問いに終わりまで応じた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-E01A",
+      "source": "受付の応援を頼む案には賛成です。ただ、午前中に来訪者が増えたという根拠になった来訪記録を見せてください。",
+      "domain": "evidence-request",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-E01",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "受付の応援を頼む案には賛成です。ただ、見せてくれるか、午前中に来訪者が増えたという根拠になった来訪記録を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 52
+                  },
+                  "sourceBlockText": "受付の応援を頼む案には賛成です。ただ、午前中に来訪者が増えたという根拠になった来訪記録を見せてください。",
+                  "outputBlockText": "受付の応援を頼む案には賛成です。ただ、見せてくれるか、午前中に来訪者が増えたという根拠になった来訪記録を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-E01B",
+      "source": "受付を手伝う人を増やすことには同意します。朝の時間帯の訪問が増えたと判断した元の来訪記録を確認させてください。",
+      "domain": "evidence-request",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-E01",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "受付を手伝う人を増やすことには同意します。確認させてくれるか、朝の時間帯の訪問が増えたと判断した元の来訪記録を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 55
+                  },
+                  "sourceBlockText": "受付を手伝う人を増やすことには同意します。朝の時間帯の訪問が増えたと判断した元の来訪記録を確認させてください。",
+                  "outputBlockText": "受付を手伝う人を増やすことには同意します。確認させてくれるか、朝の時間帯の訪問が増えたと判断した元の来訪記録を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-E02A",
+      "source": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、先月の点検表を出してください。",
+      "domain": "evidence-request",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-E02",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、出してくれるか、先月の点検表を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 55
+                  },
+                  "sourceBlockText": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、先月の点検表を出してください。",
+                  "outputBlockText": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、出してくれるか、先月の点検表を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-E02B",
+      "source": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、前の月の点検記録を提示してください。",
+      "domain": "evidence-request",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-E02",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、提示してくれるか、前の月の点検記録を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 55
+                  },
+                  "sourceBlockText": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、前の月の点検記録を提示してください。",
+                  "outputBlockText": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、提示してくれるか、前の月の点検記録を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-E03A",
+      "source": "工具の交換を進めることには異論ありません。その前に、故障が増えていると分かるメーカーの点検報告書を読ませてください。",
+      "domain": "evidence-request",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-E03",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "工具の交換を進めることには異論ありません。その前に、読ませてくれるか、故障が増えていると分かるメーカーの点検報告書を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 58
+                  },
+                  "sourceBlockText": "工具の交換を進めることには異論ありません。その前に、故障が増えていると分かるメーカーの点検報告書を読ませてください。",
+                  "outputBlockText": "工具の交換を進めることには異論ありません。その前に、読ませてくれるか、故障が増えていると分かるメーカーの点検報告書を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-E03B",
+      "source": "道具を取り替える方針は受け入れます。ただ、着手するより先に、故障件数が増えた根拠となる製造元の検査報告を確認させてください。",
+      "domain": "evidence-request",
+      "cohort": "second-exposed-ordinary18",
+      "pair": "second-exposed-ordinary18:SG2-E03",
+      "expectedRelationKind": "evidence-request",
+      "anyBodyPool": true,
+      "anyBodyDisplayed": true,
+      "domainMatchedBodyPool": true,
+      "domainMatchedBodyDisplayed": true,
+      "results": [
+        {
+          "intensity": 2,
+          "anyBodyPool": 0,
+          "anyBodyDisplayed": 0,
+          "domainMatchedBodyPool": 0,
+          "domainMatchedBodyDisplayed": 0,
+          "domainMatchedFirst": false,
+          "bodyCandidates": []
+        },
+        {
+          "intensity": 3,
+          "anyBodyPool": 1,
+          "anyBodyDisplayed": 1,
+          "domainMatchedBodyPool": 1,
+          "domainMatchedBodyDisplayed": 1,
+          "domainMatchedFirst": true,
+          "bodyCandidates": [
+            {
+              "text": "道具を取り替える方針は受け入れます。ただ、着手するより先に、確認させてくれるか、故障件数が増えた根拠となる製造元の検査報告を。",
+              "displayOrdinal": 1,
+              "matchedDomain": true,
+              "blocks": [
+                {
+                  "kind": "evidence-request",
+                  "operatorId": "carrier-evidence-request",
+                  "realizationId": "request-then-carrier",
+                  "bodyComposition": true,
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 62
+                  },
+                  "sourceBlockText": "道具を取り替える方針は受け入れます。ただ、着手するより先に、故障件数が増えた根拠となる製造元の検査報告を確認させてください。",
+                  "outputBlockText": "道具を取り替える方針は受け入れます。ただ、着手するより先に、確認させてくれるか、故障件数が増えた根拠となる製造元の検査報告を。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

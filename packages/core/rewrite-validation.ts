@@ -18,7 +18,7 @@ export function renderEdits(raw: string, node: PlanNode, edits: RewriteEdit[]): 
 // the planner's output or its claimed back-translation. Unknown/free edits fail.
 export function validateRewrite(ir: DocumentIR, plan: QuotePlan, references?: Map<string, string>): boolean {
   const program = plan.rewrite;
-  if (!program || program.version !== 1 || !program.edits.length || ![1, 2, 3].includes(program.intensity) || plan.surface || plan.rhetoric || plan.rhetoricEdits?.length || plan.mainOperator !== 'REWRITE' || plan.nodes.some(node => node.type !== 'FactClause')) return false;
+  if (!program || program.version !== 1 || !program.edits.length || ![1, 2, 3].includes(program.intensity) || plan.structural || plan.surface || plan.rhetoric || plan.rhetoricEdits?.length || plan.mainOperator !== 'REWRITE' || plan.nodes.some(node => node.type !== 'FactClause')) return false;
   // The document-level budget limits added insistence, not independently
   // permitted neutral inflection. Counting every ending used to reject a
   // consistent plain-form paragraph after its first one or two clauses.

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-10-06T03:29:28Z",
+  "sourceHash": "a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504",
+  "baselineCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "baselineTree": "98c517fa6dfc4451460231741e114120f50e050f",
+  "checks": {
+    "npmTest": {
+      "passed": 356,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0,
+      "durationMs": 88557.417574,
+      "logSha256": "71d92c221f5600401b8ce75d568f8f137eb5b55e9187769341ea55e166dac2fa"
+    },
+    "typecheck": {
+      "passed": true,
+      "logSha256": "9198b286dd126fb9d732bf7c8fdcd0f130b67b18ea52fe245067cffdd5f57be4"
+    },
+    "engineBuild": {
+      "passed": true
+    },
+    "webBuild": {
+      "passed": true,
+      "includedIn": "npm test"
+    },
+    "assetsBuild": {
+      "passed": true,
+      "logSha256": "13a24f557fee7fbaee62c5347c72a3a454b58378776c7fd9fd0457e299cd746e"
+    },
+    "diagnose": {
+      "passed": true,
+      "logSha256": "7caf184761db8fedeb6251654c909fc7bfff3e9dcb9e191bf8092d701557c1f8"
+    },
+    "nearLimitHttpApi": {
+      "passed": true,
+      "workloads": 6,
+      "record": "near-limit-api.json",
+      "sha256": "1018682630ea6e4dde66c9e5536e85a402c812c8e1d79e8b7398f6f9dc3fe1ac"
+    }
+  },
+  "parser": {
+    "python": "3.11.15",
+    "ginza": "5.2.1",
+    "jaGinza": "5.2.0",
+    "dictionary": "20260723"
+  },
+  "review": {
+    "independentStructuralGroups": 16,
+    "recognizerGroups": 14,
+    "structuralIntegrationGroups": 6,
+    "adversarial": [
+      "invented roles",
+      "reversed relation direction",
+      "dropped scope conditions",
+      "quantity value and role",
+      "negation",
+      "quoted utterance",
+      "duplicated premises",
+      "unbound source slots",
+      "unknown program versions",
+      "mixed program types",
+      "forged provenance retaining original needle",
+      "invalid locks and replay"
+    ],
+    "findingsFixedBeforeUnseal": [
+      "negative polite past was accidentally handled as affirmative copula",
+      "leading discourse connectives on achievements and causal clauses could dangle or duplicate after movement",
+      "contrast-prefix source coverage initially rejected valid evidence requests",
+      "near-5000-character repeated reasons and causal clauses exceeded deadline before bounded-cost correction"
+    ]
+  },
+  "limitations": [
+    "Finite source/grammar proof, not universal semantic equivalence or human S/Q evaluation",
+    "No claim of universal max-length latency",
+    "No GitHub CI result claimed by this local record"
+  ],
+  "postFreezeCoreChanges": []
+}

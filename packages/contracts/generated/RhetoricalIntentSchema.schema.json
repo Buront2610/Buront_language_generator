@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "act",
+    "stance",
+    "targetFactIds",
+    "premiseFactIds"
+  ],
+  "properties": {
+    "act": {
+      "anyOf": [
+        {
+          "const": "justify-assertion",
+          "type": "string"
+        },
+        {
+          "const": "modest-self-presentation",
+          "type": "string"
+        },
+        {
+          "const": "request-evidence",
+          "type": "string"
+        }
+      ]
+    },
+    "stance": {
+      "anyOf": [
+        {
+          "const": "assertive",
+          "type": "string"
+        },
+        {
+          "const": "self-limiting",
+          "type": "string"
+        },
+        {
+          "const": "questioning",
+          "type": "string"
+        }
+      ]
+    },
+    "targetFactIds": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "maxLength": 12000,
+        "type": "string"
+      }
+    },
+    "premiseFactIds": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "maxLength": 12000,
+        "type": "string"
+      }
+    }
+  }
+}

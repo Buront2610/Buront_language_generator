@@ -1,0 +1,18 @@
+{
+  "baselineRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "frozenSourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+  "scope": "B2 test files and benchmark scripts, copied from exact B2 snapshot; apply after second-core.patch.gz",
+  "file": "second-validation.patch.gz",
+  "sha256": "a4f5df0efcccf65e9fea18660ffaeeaf3efa489ee28f6b93f5baf2ecce294d4d",
+  "files": {
+    "scripts/benchmark-near-limit.js": "959f791acb7987d11af96936e3402078218dbbe26caa57ad27786468bade8615",
+    "scripts/benchmark-structural-generation.cjs": "12c35fdc0390348278fab75cb34a58242393fa110f7eb227eea8249e966da827",
+    "test/v1/api.test.js": "babb2722d65253f3d8db17f088d1dfda2683f77e23eddc48ba3f9ad1804c6b86",
+    "test/v1/rhetorical-recognition.test.js": "93c64af6962067ad1d00071bd3c8b45680a67582435f0bbf5df853d520cd9799",
+    "test/v1/structural-adversarial.test.js": "9eb2a561fe4c880396e4e511c6aa1f3e9fadf190aee7445abac9a5a15ce72b52",
+    "test/v1/structural-generation.test.js": "8ce03c69e7595dcd5f2eef136337db755dbe48a197738c9c2dbfdcddce09e9ce",
+    "test/v1/structural-v2-independent-review.test.js": "fcbddf999a3b193cdb2482f900e1092eeb78aa4ee282a68583a1aabb5fc0c670"
+  },
+  "appliedAfterCorePatch": true,
+  "allValidationFilesMatchFrozenSnapshot": true
+}

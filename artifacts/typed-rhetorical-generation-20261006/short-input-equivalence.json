@@ -1,0 +1,30 @@
+{
+  "verifiedAtUtc": "2026-10-06T05:43:06.816492+00:00",
+  "beforeSourceHash": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+  "afterSourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "beforeCaptureHash": "1bb79350502bbbf6b756caa58795ff7ae567aca00c0df87935d805cce7b9f806",
+  "afterCaptureHash": "06829f2c82bcb31e638c7505df779eb1d3b44d06c6f657be0a9d3a8b5fb89b9b",
+  "cases": 203,
+  "requests": 406,
+  "maximumSourceScalars": 71,
+  "comparedRequestFields": [
+    "intensity",
+    "ir",
+    "selectedCandidateId",
+    "selected",
+    "candidates",
+    "fallback",
+    "shortfallReason",
+    "replayManifest",
+    "constructionDiagnostics"
+  ],
+  "originalAnalysisIdentical": true,
+  "ignored": [
+    "elapsedMs",
+    "capture-level code identity/build metadata and run timestamps"
+  ],
+  "differences": [],
+  "exactShortInputEquivalence": true,
+  "stableEngine": true,
+  "errors": 0
+}

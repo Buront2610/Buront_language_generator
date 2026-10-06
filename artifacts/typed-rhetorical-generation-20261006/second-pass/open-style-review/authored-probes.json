@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "protocol": "Assistant-authored open qualitative probes before final freeze. Not sealed, not human S/Q ratings. Focus: distinctive source-grounded expression in exact outputs.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "qualitative-source-review-20261006"
+  },
+  "cases": [
+    {
+      "id": "Q01",
+      "source": "速度が重要なので、私はこの方法を選びました。"
+    },
+    {
+      "id": "Q02",
+      "source": "全然動かなかったので、私は装置を修理しました。"
+    },
+    {
+      "id": "Q03",
+      "source": "私は助言しました。経験が足りなかったからです。"
+    },
+    {
+      "id": "Q04",
+      "source": "この資料は貴重なので、私は保管しました。"
+    },
+    {
+      "id": "Q05",
+      "source": "価格が高すぎるので、私は購入をやめました。"
+    },
+    {
+      "id": "Q06",
+      "source": "もちろん速度が重要なので、私はこの方法を選びました。"
+    },
+    {
+      "id": "Q07",
+      "source": "自慢ではありません。私は最短時間で三件の不具合を解決しました。"
+    },
+    {
+      "id": "Q08",
+      "source": "褒められるほどではありませんが、私は全員分の資料を用意しました。"
+    },
+    {
+      "id": "Q09",
+      "source": "大したことはしていない。机を片付けただけだ。"
+    },
+    {
+      "id": "Q10",
+      "source": "私が失敗したという証拠はありますか。"
+    },
+    {
+      "id": "Q11",
+      "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。"
+    },
+    {
+      "id": "Q12",
+      "source": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。"
+    },
+    {
+      "id": "Q13",
+      "source": "この方法は少しだけ最高です。"
+    },
+    {
+      "id": "Q14",
+      "source": "会議は午後三時に始まります。"
+    },
+    {
+      "id": "Q15",
+      "source": "まだ経験は浅いですけど、箱を少しだけ運べました。"
+    },
+    {
+      "id": "Q16",
+      "source": "大したことではありません。私は報告書を提出しました。速度が重要なので、この方法を選びました。しかし私が失敗したという証拠はありますか。"
+    },
+    {
+      "id": "Q17",
+      "source": "どちらかというとこの案に大反対です。費用が高すぎるからです。"
+    },
+    {
+      "id": "Q18",
+      "source": "どちらかというとこの案に大反対です。"
+    },
+    {
+      "id": "Q19",
+      "source": "私は成果をアピールしました。報告の時間が短かったからです。"
+    },
+    {
+      "id": "Q20",
+      "source": "私はこの資料を選びました。内容が貴重だからです。"
+    }
+  ]
+}

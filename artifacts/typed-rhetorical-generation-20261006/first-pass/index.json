@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sealedInput": {
+    "file": "unseen-cases.json",
+    "sha256": "6e5dc7195c8b020c20204845af7283e169aaf733a79e55a381c8d56db3b02729"
+  },
+  "files": {
+    "README.md": {
+      "bytes": 10688,
+      "sha256": "3596bbe773f5c73279d192e81452f9b35ccbd3c9c3ff4c25349db2be90aaff5e"
+    },
+    "evaluation-verification.json": {
+      "bytes": 6823,
+      "sha256": "1285d63b266b5652fa25f490795eb09af5fecd087a23dcc00450eac26905554a"
+    },
+    "exposed-cases.json": {
+      "bytes": 5172,
+      "sha256": "b93d68b1681304929826fd5a4dc9aca8d23719944f02c0518a5097575455dd3d"
+    },
+    "exposed-comparison.json.gz": {
+      "bytes": 53455,
+      "sha256": "28bfe7a3360374a4df0c95fee0435cc6158b706a54e403441753ef5b9e4b3848"
+    },
+    "exposed-summary.json": {
+      "bytes": 46217,
+      "sha256": "33d917efd4aa88f7a05ef1859662b8164d04db82add4137b8089f072fdf6e223"
+    },
+    "near-limit-api.json": {
+      "bytes": 34109,
+      "sha256": "1018682630ea6e4dde66c9e5536e85a402c812c8e1d79e8b7398f6f9dc3fe1ac"
+    },
+    "regression-cases.json": {
+      "bytes": 52940,
+      "sha256": "539d53954979319f4bd05bd7e38286cc32811e6fd7e1a69e2fb73ee5479cb047"
+    },
+    "regression-comparison.json.gz": {
+      "bytes": 301859,
+      "sha256": "2cd5405da61ba96607a37182461ecfd29bf5de640546bf7c4183f3239180327a"
+    },
+    "regression-summary.json": {
+      "bytes": 87465,
+      "sha256": "50852544d6c770864ac51758ec65fefcb033e936d01dcf318f261d280e6a2bf9"
+    },
+    "unseen-cases.json": {
+      "bytes": 12597,
+      "sha256": "6e5dc7195c8b020c20204845af7283e169aaf733a79e55a381c8d56db3b02729"
+    },
+    "unseen-comparison.json.gz": {
+      "bytes": 50645,
+      "sha256": "633ad6b11eb890caef35084e7ccb25890a096e127c083108d4add5d6c3da4adf"
+    },
+    "unseen-summary.json": {
+      "bytes": 48144,
+      "sha256": "0a6c84a9fdc84e82abe8d27cbe825071ceee2512a8c1beebf55c690aee87ead3"
+    },
+    "verification.json": {
+      "bytes": 2585,
+      "sha256": "08e0eac94b4b2f4ae923310d59e3c57c9cbe4d6e2c3919347d79cd20797eae37"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "baselineRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "snapshotManifestHash": "9d1de2e22042d5e85cebf02f5c5cea397b8419a563d4e49a7e3c90eec3c31eb4",
+  "allInputsExposed": true,
+  "patches": {
+    "core": {
+      "file": "final-core.patch.gz",
+      "sha256": "12ef1923c7dd2b1534052f10e3ff7609e4cde92ea35829a0c46f522a34457bb9",
+      "files": {
+        "packages/contracts/generated/CandidateResultSchema.schema.json": "5ee43ab7014985c86cd376e2fce97ad935a79effe60cea8ed9351d4fac71c354",
+        "packages/contracts/generated/GenerationResultSchema.schema.json": "aa961356e1289e1a4f050f5201b219869a0178f7f1b92d63fcdf36e71fd5af1b",
+        "packages/contracts/generated/QuotePlanSchema.schema.json": "83d564845b2c516fcc7c09b940eb764790d68ed08b51c8e9641205a17e721770",
+        "packages/contracts/generated/RhetoricalBlockSchema.schema.json": "d24e0331ae3a6ea7ef4c1b190e0f8ec6169d9afb9e966a8ffaefa38175dff875",
+        "packages/contracts/generated/RhetoricalIntentSchema.schema.json": "eea3c25fd171160f86261a261c680ac148322372c61f124b6137fa173d4a39cf",
+        "packages/contracts/generated/RhetoricalPieceSchema.schema.json": "d2eb34e2164f063e4c7f5554933d5ed08a320fffa844963d24c1a0de12c9c52e",
+        "packages/contracts/generated/RhetoricalRelationSchema.schema.json": "f780d52120e0f5205dc5e68722486e9c89429794291f2b47084e972984dc3d28",
+        "packages/contracts/generated/StructuralProgramSchema.schema.json": "2a3f105667bbe5325d95f413720b90a7669b6f533ff34484065b1e7706a9af8f",
+        "packages/contracts/generated/regeneration.schema.json": "5453862acb80b165f91975928f1c388c56c3e62b552cce9634bbfabae5c7dc7a",
+        "packages/contracts/index.ts": "6af6a5c318300535b1c43520bd305b8cf40c1a918b328ed57fdb27d56fae145a",
+        "packages/contracts/results.ts": "570185b1b253037cd5fb6d8d78b524b20dd79f94d0aca2da6d95b5e2d6327b8d",
+        "packages/core/capabilities.ts": "c03be0cb47ae6732f28ece3bb7e33501bc483dbadda588abd7fb6c518b9325ac",
+        "packages/core/construction-diagnostics.ts": "16c5c1c23f766565cb1cf8ed067fca06a7f623b59c0a65b82adca28246df4864",
+        "packages/core/constructions.ts": "8857a60f7f4ea13d64bae2f557ea0d10b27b0d61b16a9281fa1c1512b9ce0167",
+        "packages/core/engine.ts": "09668364aac64e5808d506e7c622dce8a60149b62a3eac32e8f9e96db1827703",
+        "packages/core/evaluation.ts": "059010f22932a75ab0ec548492b020dc5d02db28715157d009733cdc1ccf2977",
+        "packages/core/evidence-request-roles.ts": "d797a363ec0b32cd1fc42ede5b1326046df5baadd71ab4eede1638ef04fe879d",
+        "packages/core/grammar-scope.ts": "06e75c369acb554b695f4a3aa9696f9a33a4f041484523525a15161c9510e6ff",
+        "packages/core/lock-compatibility.ts": "6ae9d8fc9741ba7d55710e6ecd4f545a96cb7a94e8aa5cd54671e7e8a8efbad0",
+        "packages/core/rewrite-validation.ts": "646fac378db08eff3c74754a69b4cccff6b85f90574a94aa1ce453c3409b9fef",
+        "packages/core/rhetorical-evidence.ts": "0679899cbb46c21d55fd811a28ea88d3e1d6fac0d9ff0f7f4ffa702ff7543ff2",
+        "packages/core/rhetorical-grammar.ts": "cf76aa6e34d67ef16ed0dc4739a44ff1763973e93560a8b7d7545d58d3aa9e1e",
+        "packages/core/rhetorical-operators.ts": "701faeafa076be5ba322ae13f90602e7561f36949c624f4533ed5031249e4465",
+        "packages/core/rhetorical-recognition.ts": "eb762a6e8092c20189014de5700b1f03edf4b0effbbc49bcc26d0fabba9d2efe",
+        "packages/core/semantic.ts": "a9e27de21e3ef4c224a82aafa1208c0bf159e8d9f1b5130d6b74ffb9b54f7be7",
+        "packages/core/structural-planning.ts": "7a6e66bd6ee1ffbf4e26657c3ff201fb1d94bc60221b3c88ace5c0ed18efd825",
+        "packages/core/structural-realization.ts": "f0232e5849faa1bee14591f1f7e294518a5b581a1def0fcf72338b2424a32667",
+        "packages/core/structural-validation.ts": "4d41fc138f1cad39a19c3b67cde2e8103065cf93ea0ffa5699ccd69ade793708",
+        "packages/core/validator.ts": "774623b72e60c2eaa68cc889b580c491f162461db96d148a4d30bd1bec4d5a93"
+      }
+    },
+    "validation": {
+      "file": "final-validation.patch.gz",
+      "sha256": "6ad39547fe732d045b5226c10d5389ff0d273a33411ae7d701df0bd7a359ebf3",
+      "files": {
+        "scripts/benchmark-near-limit.js": "959f791acb7987d11af96936e3402078218dbbe26caa57ad27786468bade8615",
+        "scripts/benchmark-structural-generation.cjs": "12c35fdc0390348278fab75cb34a58242393fa110f7eb227eea8249e966da827",
+        "test/fixtures/structural-budget-baseline.json": "469d0c79ecd6a13964428fc47e2ef474e82f4f8a5ec6edd8abf6731ec9617020",
+        "test/v1/api.test.js": "babb2722d65253f3d8db17f088d1dfda2683f77e23eddc48ba3f9ad1804c6b86",
+        "test/v1/evidence-request-roles.test.js": "066f495149cb7be9a53304ccddfda4d6e7f438c847766b474b79debc64972361",
+        "test/v1/explanatory-copula.test.js": "e31d10c28b25acade8f2cda3c4672d48239a15fd68c633ee31a4d05ca8dd4382",
+        "test/v1/rhetorical-recognition.test.js": "f65f7c213f3f597e735c926a910a9e23cd0bf74a6f3279c26d9bbfff8e0e7ee3",
+        "test/v1/structural-adversarial.test.js": "dca6735028f99f47fcd2414f861faf8a9ccb47ce20ed8abfc56d52cb19896959",
+        "test/v1/structural-budget.test.js": "4bcc16f390ec96891ff78d86e49a857b7153657b53f47ba3062cc92e833dcfeb",
+        "test/v1/structural-generation.test.js": "8ce03c69e7595dcd5f2eef136337db755dbe48a197738c9c2dbfdcddce09e9ce",
+        "test/v1/structural-v2-independent-review.test.js": "ce7b939552f85b136c080e40e13e7f5d086c150742b5b87a1f06024403e7e00b",
+        "test/v1/structural-v3-independent-review.test.js": "41b321ac9453e7d0cf3adc37008954d6351cb3cc80d56e97b86302fb662af6bf"
+      }
+    }
+  },
+  "rawCapture": {
+    "file": "third-development-66c681f3d2f4-after.json.gz",
+    "sha256": "06829f2c82bcb31e638c7505df779eb1d3b44d06c6f657be0a9d3a8b5fb89b9b",
+    "retainedOutsideRepository": true
+  }
+}

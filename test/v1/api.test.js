@@ -212,3 +212,32 @@ test('A3 HTTP body dictionary requests remain reviewable and unapplied', async (
     assert.ok(job.result.reviewCandidates.every(c=>c.verificationStatus==='needs_review'&&!c.text.includes(to)));
   }
 });
+
+test('Typed rhetorical body composition survives HTTP generation, locked regeneration and replay', async () => {
+  const source = '速度が重要なので、私はこの方法を選びました。';
+  const status = (await app.inject({ url: '/api/v1/capabilities', headers })).json();
+  assert.equal(status.typedRhetoricalComposition, true);
+  const accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: { ...request(source), intensity: 3 } });
+  assert.equal(accepted.statusCode, 202, accepted.body);
+  const job = await poll(accepted.json().jobId); assert.equal(job.state, 'completed', JSON.stringify(job));
+  const candidate = job.result.candidates.find(item => item.plan.structural);
+  assert.ok(candidate, JSON.stringify(job.result)); assert.equal(candidate.verificationStatus, 'passed');
+  assert.ok(candidate.checks.some(check => check.code === 'S-structural-program' && check.status === 'pass'));
+  assert.equal(candidate.scores.S, null); assert.equal(candidate.scores.Q, null);
+  assert.equal('candidatePool' in job.result, false);
+  const body = { analysisId: job.result.analysisId, candidateId: candidate.id, lockedNodeIds: candidate.plan.nodes.map(node => node.id), operator: 'STRUCTURAL', seed: 'structural-http-lock', clientRevision: 7 };
+  const rejected = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: { ...body, operator: 'REWRITE' } });
+  assert.equal(rejected.statusCode, 409);
+  const regenerated = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: body });
+  assert.equal(regenerated.statusCode, 202, regenerated.body);
+  const partial = await poll(regenerated.json().jobId); assert.equal(partial.state, 'completed', JSON.stringify(partial));
+  assert.ok(partial.result.candidates.length > 0);
+  for (const next of partial.result.candidates) {
+    assert.equal(next.text, candidate.text);
+    assert.deepEqual(next.plan.nodes, candidate.plan.nodes);
+    assert.ok(next.checks.some(check => check.code === 'S-structural-program' && check.status === 'pass'));
+  }
+  const Ajv2020 = require('ajv/dist/2020').default, { GenerationResultSchema } = require('../../dist/packages/contracts/results');
+  const validate = new Ajv2020({ strict: true }).compile(GenerationResultSchema);
+  assert.ok(validate(partial.result), JSON.stringify(validate.errors));
+});

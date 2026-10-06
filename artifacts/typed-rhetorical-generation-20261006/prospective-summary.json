@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": 1,
+  "methods": {
+    "scope": "Objective source-program diagnostics. No human S/Q, naturalness, humor or style-quality claim.",
+    "bodyComposition": "An independently revalidated STRUCTURAL program with exact source-slot coverage/provenance whose source-bound pieces cover at least two non-context relation roles and actually invert source-role order or change source sentence grouping. The emitted block must differ from its original source block. Source-bound forms count as replaced source roles, separately from copied pieces. Nominalization or fixed wording alone is structural-form-only, not body composition.",
+    "grouping": "Compare number of source GiNZA sentence spans intersecting the block to terminal-delimited output groups in reconstructed block text. This is a finite surface grouping diagnostic, not a syntactic oracle.",
+    "proof": "Production bounded validators are rerun from original IR; this is independent of the submitted plan but not an independently implemented linguistic oracle. Slot span partition/coverage is additionally calculated directly.",
+    "selection": "Pool, displayed, and first displayed counts are separated. Changed order and more candidates do not imply improved quality."
+  },
+  "classifierHash": "ee464d58f0078fa387d24beb903de11b4e1e2d07461f01ed8da0c5c25b3fc798",
+  "before": {
+    "cases": 24,
+    "requests": 48,
+    "errors": 0,
+    "candidates": 100,
+    "displayed": 100,
+    "noDisplay": 0,
+    "fewerThanThree": 22,
+    "rejected": 0,
+    "nonPassingDisplayed": 0,
+    "nonNullSQ": 0,
+    "invalidBoundedProof": 0,
+    "structuralPool": 0,
+    "structuralDisplayed": 0,
+    "structuralTop": 0,
+    "bodyPool": 0,
+    "bodyDisplayed": 0,
+    "bodyTop": 0,
+    "bodyRequests": 0,
+    "bodyDisplayRequests": 0,
+    "movementPool": 0,
+    "movementDisplayed": 0,
+    "groupingPool": 0,
+    "groupingDisplayed": 0,
+    "slotCoverageFailures": 0,
+    "relationProvenanceFailures": 0,
+    "classifications": {
+      "preservation-layout-only": {
+        "pool": 36,
+        "displayed": 36,
+        "top": 28
+      },
+      "ending-only": {
+        "pool": 36,
+        "displayed": 36,
+        "top": 8
+      },
+      "lexical-only": {
+        "pool": 28,
+        "displayed": 28,
+        "top": 12
+      }
+    },
+    "family": {
+      "reason-backed-assertion": {
+        "requests": 12,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "modesty-with-accomplishment": {
+        "requests": 12,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "source-explicit-evidence-request": {
+        "requests": 12,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "control-quoted-other-person-attribution": {
+        "requests": 4,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "control-negated-cause-scope": {
+        "requests": 4,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "control-quantity-and-completion-boundary": {
+        "requests": 4,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      }
+    }
+  },
+  "after": {
+    "cases": 24,
+    "requests": 48,
+    "errors": 0,
+    "candidates": 106,
+    "displayed": 102,
+    "noDisplay": 0,
+    "fewerThanThree": 22,
+    "rejected": 0,
+    "nonPassingDisplayed": 0,
+    "nonNullSQ": 0,
+    "invalidBoundedProof": 0,
+    "structuralPool": 6,
+    "structuralDisplayed": 4,
+    "structuralTop": 4,
+    "bodyPool": 6,
+    "bodyDisplayed": 4,
+    "bodyTop": 4,
+    "bodyRequests": 4,
+    "bodyDisplayRequests": 4,
+    "movementPool": 6,
+    "movementDisplayed": 4,
+    "groupingPool": 6,
+    "groupingDisplayed": 4,
+    "slotCoverageFailures": 0,
+    "relationProvenanceFailures": 0,
+    "classifications": {
+      "preservation-layout-only": {
+        "pool": 36,
+        "displayed": 36,
+        "top": 24
+      },
+      "ending-only": {
+        "pool": 36,
+        "displayed": 34,
+        "top": 8
+      },
+      "body-composition": {
+        "pool": 6,
+        "displayed": 4,
+        "top": 4
+      },
+      "lexical-only": {
+        "pool": 28,
+        "displayed": 28,
+        "top": 12
+      }
+    },
+    "family": {
+      "reason-backed-assertion": {
+        "requests": 12,
+        "bodyRequests": 2,
+        "bodyDisplayRequests": 2,
+        "structuralRequests": 2
+      },
+      "modesty-with-accomplishment": {
+        "requests": 12,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "source-explicit-evidence-request": {
+        "requests": 12,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "control-quoted-other-person-attribution": {
+        "requests": 4,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "control-negated-cause-scope": {
+        "requests": 4,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "structuralRequests": 0
+      },
+      "control-quantity-and-completion-boundary": {
+        "requests": 4,
+        "bodyRequests": 2,
+        "bodyDisplayRequests": 2,
+        "structuralRequests": 2
+      }
+    }
+  },
+  "changedDisplayRequests": 4,
+  "beforeMeta": {
+    "schemaVersion": 1,
+    "testedRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+    "startedAt": "2026-10-06T05:45:27.538Z",
+    "engineHashes": {
+      "dist/packages/contracts/index.d.ts": "c1a86f61c5e45111635d14b4e53c38b3f1d7b20cd68f19284103cf60a9ab02e5",
+      "dist/packages/contracts/index.js": "21c7b510422d171c27ea2099a0f2b9cddc25a3d75af322785c7c1e571e7ea5b7",
+      "dist/packages/contracts/results.d.ts": "971f9b48c5ef02a632493df7c0249eb82c2bb2185276fcb0c629affd9c13b84a",
+      "dist/packages/contracts/results.js": "6e2d97ed79accd3226bdf5e4ec6ae7188926d2e7e76d936575ff16defb2c6580",
+      "dist/packages/core/assets.d.ts": "8482d730063004c3b4184a2d3e66c6005120877f57d17d27b3fb5053a9fa87e1",
+      "dist/packages/core/assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+      "dist/packages/core/bounded-search.d.ts": "a4d21854792c8dcec9102386bc46dc051bec1eb7db391f2af22bdf91589e7154",
+      "dist/packages/core/bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+      "dist/packages/core/capabilities.d.ts": "16214117cf485e6e8865c325a4460ca4e4c51258976d255019796ecdcd66dc32",
+      "dist/packages/core/capabilities.js": "63f56bae2d9b5966d948bed1d0a9c5ecad4613d53e06f05046114d334fbeed27",
+      "dist/packages/core/construction-diagnostics.d.ts": "9b5966d50cb28cbbd96248385eb4aabaae8b0e4b9a111f9403f5b24deea8aa36",
+      "dist/packages/core/construction-diagnostics.js": "2e48b6e5b2b6912052ebf2d1954d9fd6571f2e6f88d83dc83b2edb4c65d9ec0f",
+      "dist/packages/core/construction-edits.d.ts": "da95a5f6643ea1ce76276c68a6e958dcd3ba6bd852909a362f4b051734afd697",
+      "dist/packages/core/construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+      "dist/packages/core/constructions.d.ts": "716400c334267a6278c913ffacc215ecdc82c17cd7de032f4523daed12da9406",
+      "dist/packages/core/constructions.js": "6e7217d7b2cc8f764555d61cbe8003467131e834d5c31f97e22ac57f9beb4a5c",
+      "dist/packages/core/creation.d.ts": "1e03707b5aa825a8d58a06d8b96417c24261762cde00be9b68c6944d2ba46cc7",
+      "dist/packages/core/creation.js": "7995e8220a832136a4efa7137d96d5743ccc025cf552564e22f2db815ad09082",
+      "dist/packages/core/dictionary.d.ts": "fd7e6756df6c13febca45c6d56cc6df49cda5b37ff7485c2296a503e9bcc6965",
+      "dist/packages/core/dictionary.js": "c381f201d08299eca743cb318d15a12be57daf388fb9953aabdfbac09bdaeaf6",
+      "dist/packages/core/discourse-constructions.d.ts": "15a93e5dc361e4cd932e591a2272376ebbc0267497f48626512c4c6bf539eaa1",
+      "dist/packages/core/discourse-constructions.js": "ccbfe039f273048f47b012f8b7d218861a413849a90c20ef9115c41a24237dbc",
+      "dist/packages/core/engine.d.ts": "cc88792aa1a7a190b8a140aea7ea4dab9c7c88dff0d970c6e1690f8e6b4e5a39",
+      "dist/packages/core/engine.js": "efbf2caa7deec2fe8f8d39d839dacf7d223d57409de1f131fdb3242ccdb2b3d7",
+      "dist/packages/core/evaluation.d.ts": "a27aa90ebfc8213bf4df67a1f2a32a2d091abe3bf841626b2c271382ec1f800e",
+      "dist/packages/core/evaluation.js": "270ff007bfcdaef11431073f769f5081406f6d9374bc38142dcc1508a866581b",
+      "dist/packages/core/facts.d.ts": "df334bddf0e4af2987c43c7feda7d8663dcf19027531434e6cbd403c249f0d5f",
+      "dist/packages/core/facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+      "dist/packages/core/grammar-scope.d.ts": "d4d670ca8a71cdfe257fcf3601bfc4b5166a48357450554e21ef48b4b769d915",
+      "dist/packages/core/grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+      "dist/packages/core/lock-compatibility.d.ts": "556b770031a24956cd3b339598379a39fc451d1f44f9ae790c54f406db72b816",
+      "dist/packages/core/lock-compatibility.js": "158374688f91c8b433a461e48f1199e1bdab342deec26e7fdecdf5d094d40506",
+      "dist/packages/core/model-backend.d.ts": "0647d07cbc37481bf6ff894ac9031ef4f75bc78571db9bd6e0802eae65b798c8",
+      "dist/packages/core/model-backend.js": "e6e03e3d0d4f99615bd7bf1af55b47960518d9dc3966c2ca33b854fde4930441",
+      "dist/packages/core/output-features.d.ts": "a727566ce6d44bb1bed16ae8d12838bcc047cab69518a14eb3a2d26cf579075c",
+      "dist/packages/core/output-features.js": "573d1ebe444a2aa867e73fc4396714e6afb1549cff9ecc7ccb8b1d549df1386e",
+      "dist/packages/core/planning.d.ts": "9b887cfd6681f41daa226a3ad73691fc94aa5c7462e163b8eb8d6cdecd4dce7c",
+      "dist/packages/core/planning.js": "0c3ec92e5c98b5ab0006b8436169644a407cf7e9a737b75de05b07528e0dc2d7",
+      "dist/packages/core/quantities.d.ts": "349cac3bada163e88783bb7d5082a5a41f69c59f59ce1f98bf920b83aa92663a",
+      "dist/packages/core/quantities.js": "bae5ca9ace577a6983e0492168768d3873e29fc3c0f07acf2b3fc89b3000b798",
+      "dist/packages/core/replay.d.ts": "7283f87b97a3b75e1dd1221200c3b06a07ff8fb26b6055a6e33d52866b4288c8",
+      "dist/packages/core/replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d",
+      "dist/packages/core/rewrite-rules.d.ts": "0f1d1dd288b09920f481b3b428aa4d7ccf4fdfae2983623689f42b07425dd28a",
+      "dist/packages/core/rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+      "dist/packages/core/rewrite-validation.d.ts": "643d65b4113d61352fbc88e11385f56227ecde2eecbaac8e90d7c5bb2cc62e33",
+      "dist/packages/core/rewrite-validation.js": "785631da3e2d51e479dcf805f3c030854278ccde76f496a4be51b4db67e77e56",
+      "dist/packages/core/rewrite.d.ts": "daebda4e8dd9b857b6cccc7b086379781a1394e28fa161211e665a932a5a969b",
+      "dist/packages/core/rewrite.js": "36e3d042b6c641c3f025d621efbc3d5002a9e418bbca110d174d4affee2066dd",
+      "dist/packages/core/rhetoric-validation.d.ts": "9d9e629bc2f5addeacdde28231504d0c4642a58c8c05296eddd07633d508ebaa",
+      "dist/packages/core/rhetoric-validation.js": "9a5a13bb958d7cf12bea0d535c7328e888cbc9f717d89ad16698e2933c108786",
+      "dist/packages/core/rhetoric.d.ts": "a2a666caa22055917ba2dfb5b9f382e0a1e4e074f994225f8a575111dadb9129",
+      "dist/packages/core/rhetoric.js": "1b65d93830f8eefa880d5dc046ef00b4fb6364d5ba8e911c3b55a2e223800c25",
+      "dist/packages/core/semantic.d.ts": "ba8bfb7126bb10170527551a644e7496d099107d65c95b2d446112b6d3d7af9f",
+      "dist/packages/core/semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+      "dist/packages/core/series.d.ts": "bfaaa2da1f4b8a1adc84c7dd29a8f7af140403f9858bd6b3e98a6f47f0100149",
+      "dist/packages/core/series.js": "d149c880c2c7fe05a76d84d4224a1d83636137a92a18e17c4d88be4694e07b28",
+      "dist/packages/core/source.d.ts": "1cb45e17dd0e9a080409feac3a4018655086d5a4b03e5388e0687ba1e333833a",
+      "dist/packages/core/source.js": "7ea8380547d28df713903e6fb39aa2a7bd36e78a8a18b45b196c4c1f6806ca07",
+      "dist/packages/core/surface.d.ts": "8ec49f4a7e06b74119545ef2b6b740ccaef0025d152f68129842f8f9c6babf9b",
+      "dist/packages/core/surface.js": "6814a43dbb25200553e056cfb63f6bb597aa9de6a291f870630278eeef2548a4",
+      "dist/packages/core/validator.d.ts": "f145ba643e0d566a8ffa1e049cd5f44c3533ee9bf15709bfbe990db3f35f0a85",
+      "dist/packages/core/validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc",
+      "dist/packages/evaluation/dataset.d.ts": "7c93cfd11afe8fd18f0621877bd56c8d0239defffb92487dd45eeca58f1a9593",
+      "dist/packages/evaluation/dataset.js": "6c7cf3eed4ae6e60865693e910cd056a58df10451b76bffe994a81bcca4298df",
+      "dist/packages/evaluation/review-types.d.ts": "68a245b5344dba45ef086315d1cd8800f99f3a94d38f0a02916763de3d5988f2",
+      "dist/packages/evaluation/review-types.js": "7ca3dfb9dda8fdb60dbabf37ac5a0a8245ce664c8800665023b4ce374403ac9b",
+      "dist/packages/evaluation/style-vector.d.ts": "ee54600029a452372486132f6af50d4df3968ea6d66d829f9fe76669abb5e4c2",
+      "dist/packages/evaluation/style-vector.js": "5d891f030e64efe7ab74a4714c6b830e1c8b87810d91c31b6dc3ab3ad1a17ecb",
+      "dist/packages/runtime/bounded-cache.d.ts": "d896869f2562f0351fcc44991dba0e664372a66d03dc3aa5d9831d2a78b2897b",
+      "dist/packages/runtime/bounded-cache.js": "cd294e5d69dc2e7626386ce8990f3d906d427a4c5ea693e24499f76de1e5ef3d",
+      "dist/packages/runtime/coordinator.d.ts": "688602fc0ff7d1d3613b00d6ba44bf63d2b39bbf027135802bd6e903abd67326",
+      "dist/packages/runtime/coordinator.js": "972ac973dafb6e1ac9bcfa3bb59e1ad7b7441a5e911b518f3b92b39d135dc3e4",
+      "dist/packages/runtime/public-files.d.ts": "72513cb8e9dc7079977c9d86511fb597708ff7ed0242abf17cc0a91bf5918366",
+      "dist/packages/runtime/public-files.js": "5ff3a93614b7ec23e4f580f9aefe0a527cf511b35bd517be523edd79fdc9677f",
+      "dist/packages/runtime/python-client.d.ts": "f976a119eb397a70ff3c461f771859c049da1f68e81a7ae0c7f6367d7a5f7b22",
+      "dist/packages/runtime/python-client.js": "b40191d7f7e881cfd656394c51b5041eab3702f24637fda01a67115ab057bd2e",
+      "dist/packages/runtime/review-routes.d.ts": "d4e090cdde2076a47f929a96dd8b1a1ea9870faa7f7a957618b6b6df7351b014",
+      "dist/packages/runtime/review-routes.js": "e991a5afe9a1bf9d0873f9d1553f4f6601ab13893a29b1ac3ee277571dce65da",
+      "dist/packages/runtime/review-store.d.ts": "386819ac8af4baa6e64bada6a69cf4c08000b8f735848f026d12bef7005201b0",
+      "dist/packages/runtime/review-store.js": "5a74ca617dd44445b8388f9dd7b0a87a3b02cb8678980b50837e5298a0a85161",
+      "dist/packages/runtime/semantic-verification.d.ts": "587665a96729f168ca6841a22f9c852c01bdf2d2384688b0d1af454390ece4b6",
+      "dist/packages/runtime/semantic-verification.js": "2eea0211619c98321ec2f5f92385cb12c84199b107fc4b49ae43a3fad7dd5662",
+      "dist/packages/runtime/worker.d.ts": "a8864d40c2b44efddbd831d2823bca035103382f86946aefd122343b0b57798b",
+      "dist/packages/runtime/worker.js": "a6710ec36bc0b404a15545720721e7a17f668c74e5b6ea3d318fa331bad475fe",
+      "packages/contracts/index.ts": "0709461f264418dadcc4907b51806d5aeefdf3d5dca00b8e8ca245d1beb0012c",
+      "packages/contracts/results.ts": "266d22f277db1a0df4d656e0bbf5638d9b189858368df85be72be5871c296aeb",
+      "packages/core/assets.ts": "28a5542f5a4dfa013727b54b71f395ee57887093f2bddae03bebc2df19bd4c30",
+      "packages/core/bounded-search.ts": "22c2350ab051d4b2b8dbd65179e00cc85914e4d7bc16be7202a74e55fdc49ed3",
+      "packages/core/capabilities.ts": "49507f7b1e78d25a8c99adbb514acff4e82207a8ec40ace6790544f6d050748f",
+      "packages/core/construction-diagnostics.ts": "45f972638a9f0481a2327641c2453590d2539c6e26a2f4fa6596543566ae0803",
+      "packages/core/construction-edits.ts": "cee0c07c20673d5b191daa3b9b20ea23f55777f2976f303eadf628a219cbb54d",
+      "packages/core/constructions.ts": "5e829dfc8167270cdf15b07fb6e3d022446aacd66becf47da6ee1f6c9a4c8296",
+      "packages/core/creation.ts": "73bb76e1923dceda465214625fd763444b03e6cc006e92abfa10a5538088f077",
+      "packages/core/dictionary.ts": "e343ceec572632ae15364def66ee65fe2646b6a9352f22c90a80ef9bafb1fcc8",
+      "packages/core/discourse-constructions.ts": "b4e5400f1428fd60b8aadfe1c4b17a5bdc8a41205d86233925deeaf0c977decf",
+      "packages/core/engine.ts": "3b4f93bf7a7ce37445b07bbc971f17ea13f756af9903c3122275e4c445aa4394",
+      "packages/core/evaluation.ts": "df8c51040c4797f70ab43da5fb9e56f8f20999d866a5566cff085b77b431db44",
+      "packages/core/facts.ts": "d8637b21ff3b7b923a6f4a39d34a9fe8d4f7a94bbe3ad1ab2a464145b8834b94",
+      "packages/core/grammar-scope.ts": "f9c209d7f2679c12d1b2202229dee36aeb03e6329bdb8dc3d18438610954b88f",
+      "packages/core/lock-compatibility.ts": "1dcda8f2df347479309113f881eb2bd47b932002dc14cbcf413d840c07d9f598",
+      "packages/core/model-backend.ts": "7e053eff62bd854ef39f3acf1e2a93ca92f0e96843157707cde0731168bd043e",
+      "packages/core/output-features.ts": "8c5900a576d67b848de252477692b786daea947a10a4a4513f358464892cef5e",
+      "packages/core/planning.ts": "ddc715614bf6f74d59c8fb0cae75f4cfc71832c1b24e20fe276aab698c6c52fd",
+      "packages/core/quantities.ts": "befe09b68e90f79c17e7d3a7c3d8bb2f612c17c4a488771c4a815f56066fbe60",
+      "packages/core/replay.ts": "a44625629171834fe34a0367c7bc12226c48a9194707505c8e98b5da11ad7a60",
+      "packages/core/rewrite-rules.ts": "ead0121b5db5982504af531cd0f80e862bb46407dc7fe06fc5dc4818c0155ee4",
+      "packages/core/rewrite-validation.ts": "312fafbc5b9e6195fe05f444ed8de1b7654f46fed848efffcc5bcc556f44c4b7",
+      "packages/core/rewrite.ts": "20d6b1a8645815027baf67e96ffb0451fcb449d29ed6b7fcb6fcdf323d427abd",
+      "packages/core/rhetoric-validation.ts": "5391fc92af2b0c0cb24c50ec1774341b0bf27712a97f7299fdc98e0edba8c885",
+      "packages/core/rhetoric.ts": "61c7b2953c48ea34ae545c2efe392ad7d1559a3b3b07e7ff335ce880f95fdeff",
+      "packages/core/semantic.ts": "c97fdbeda7cbf935d7d5eb776be6388d0639b5865b26f5d65c0931117e919413",
+      "packages/core/series.ts": "696aff4a2fd94bce0f1e418377021f2c2d7783bcd34fecf6edba91a8d89c9b6e",
+      "packages/core/source.ts": "ae5ada42779f9a2b0a516bc450c186f6ee4b512bf80fb07c70d8050984e792dc",
+      "packages/core/surface.ts": "c39f479568e4e60333de1c80fd0e8634a601f6e673c337f7a50037f7b49ecaa8",
+      "packages/core/validator.ts": "6f5b2f3fb7af30f8e9e9bca9ffa547f9cfad186d5f67e6533a807dcb80eca78d",
+      "packages/evaluation/dataset.ts": "beb7a00b7ce08b47cd52ad34b7034037ba3adc2b8b37f8b469706b07a9203707",
+      "packages/evaluation/review-types.ts": "879a4eeccb72dbbd43d3cc0d75ddd302535ed366018f28441ae37e67fa228308",
+      "packages/evaluation/style-vector.ts": "40bf223f1447cce6e920557223ebe1f9a3e0892a780c905b58cf68d323cffdc1",
+      "packages/runtime/bounded-cache.ts": "d3822e550d3dc727d457bcc6e11299bf2a6c31bcfb17a594bb6423d95e4b0cce",
+      "packages/runtime/coordinator.ts": "ca28a05afc6b00b736b3c533e2c89c0e414602c9849595c19f4cbb5e190292ed",
+      "packages/runtime/public-files.ts": "ecc63691076df133df30f3931a869ad45e30b07741f05390a3fc08ac01a79004",
+      "packages/runtime/python-client.ts": "7b0a99bd745d7ebab155e01e1f768bd806561471573c27538e9fe5b66d8425d2",
+      "packages/runtime/review-routes.ts": "753a98f1be5c80068e6c3b2c82f2e1af76d9954d2e0102fc166bb6e8a46d8fa0",
+      "packages/runtime/review-store.ts": "ef756e6646769756570e11cbd00420d66d7bb59b8718cb373e6506e70134ca14",
+      "packages/runtime/semantic-verification.ts": "4b58ca0afccd363ae425d6d75763e84df5a1b38a334f61dca173074a805590ec",
+      "packages/runtime/worker.ts": "c3cd61723330e33897e21f17caec350d6d51456a27b9361e882d5156b6f9574d",
+      "services/japanese-analysis/compare_embeddings.py": "149617aff25259fd1d0518f6a52a07292ebf296cb680eebe0ed096ed55da57c4",
+      "services/japanese-analysis/service.py": "eb10ac33071b09bd96e7a342fff564f4104dc414f4d4d0cb5507eee8a4a4f4b1",
+      "services/japanese-analysis/train_preferences.py": "1ad789cbc1e77812a8dfe4fa838ae3d59e05dc3a323d8d366237a7705e235763"
+    },
+    "engineHash": "a184c3042ad9054ed156989e390ddb726ea6a026ad049d977aaccf815df4855f",
+    "buildInfo": {
+      "schemaVersion": 1,
+      "sourceHash": "767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120",
+      "toolCommit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+      "workingTreeDirty": null,
+      "runtime": "node24-python3.11",
+      "safetyContract": "v1"
+    },
+    "assetFileHash": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+    "assetManifest": {
+      "schemaVersion": 1,
+      "files": {
+        "log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+        "quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+        "archive-series.json": "271646e323a081f5f3ab32547c56eb8faf98f8397762929b181dc7d383121879",
+        "style-model.json": "87e0e6acc8c7703b64864e5b97c6b713d68bd788ff3ae3b0c4c473269979d6e3",
+        "novel-model.json": "2912afb0ec73c015b1a3188803784556948617ebcfb101b6eed80232b957d857"
+      },
+      "compiledEvidence": "4154e91b8f0c0638e54c05b3c3ff8e69c55bc736041f842be31b142b67e859f6",
+      "originalPosts": "2ece95636cd5fbfedb58a6bd5504c85f7d160673bc0fd3225e1074a2dabd598d",
+      "quoteGrouping": "variant-weight/leakage-split-v2",
+      "seriesProfiles": "b3296bd016b498f71c4c37734584792adc72f84502668c701cadc0d71aa85ebe",
+      "engine": {
+        "schemaVersion": 1,
+        "sourceHash": "d87b605957d07029e7096e2ad26573ab4b70ef689ea50349d237153cc43e3f67",
+        "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+        "workingTreeDirty": true,
+        "runtime": "node24-python3.11",
+        "safetyContract": "v1"
+      },
+      "parser": "ja_ginza",
+      "dictionary": "ddfba38955614c6ab52a840ef60b70d1b4054773c7184f8e2b2fa460e6493895",
+      "rules": "3c2d10feb8f699e1300163a2ca077518594c03a43705c7f1c58d812705c28742",
+      "index": "minisearch-7/intl-word-nfkc-grouped-v2",
+      "annotations": "none",
+      "evaluator": "untrained",
+      "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+      "sourceMetadata": {
+        "localLog": {
+          "filename": "burontlog.txt",
+          "bytes": 873652,
+          "sha256": "983ba86ddf086d7bc842d91c66a4bc1bab940c126682b436538d5df7a68df752"
+        },
+        "archive": {
+          "baseUrl": "https://kenkyonanight.xxxxxxxx.jp/",
+          "partHashes": {
+            "buront3_posts_01.js": "22dcae4d06ec9156c5a5bc2fb7755063faeab0fcc9b915559790a47cd6fcbb81",
+            "buront3_posts_02.js": "a1a2badfce760133dc80b2031bc06700796177eb7d36545e1c8e464fe5f1bba2",
+            "buront3_posts_03.js": "33bf0249848a7d538bccb971a4589ba7b4acacdeba259f29b07a2f438a340272",
+            "buront3_posts_04.js": "1a3aebc7e5d8e188065e89be653caf56ca7eae983a5a48fe93a102e24bf4a462",
+            "buront3_posts_05.js": "e5aec590de38eb6b6d637fbae1c8294a76871a2f2100e97e4d4848cc879a3803"
+          }
+        }
+      },
+      "quoteSource": {
+        "url": "https://kenkyonanight.xxxxxxxx.jp/goroku.html",
+        "title": "名言集っぽいの",
+        "encoding": "shift_jis",
+        "bytes": 240539,
+        "sha256": "4e00cf7d842150db81c65525a10fb3bb9a78e9d7666e791ac4f7c403deaa8adf",
+        "decodedSha256": "27845d84e81697f1009c2dd9f3a3644a49309eae76d2a051700aa2102ff6755c",
+        "originalLogSha256": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8"
+      },
+      "rights": "unverified-local-only",
+      "sourceTypes": [
+        "original_posts",
+        "original_sentences",
+        "quote_headings",
+        "quote_emphasis",
+        "adaptation_works"
+      ],
+      "reproducible": true
+    },
+    "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2",
+    "inputSetHash": "980791d2f057ae284875f515bf5a3215420a326bae998e780b902fb777140001",
+    "protocol": "Single prospective synthetic evaluation after explicit final core freeze; unchanged source text and frozen settings. Not a random natural-language sample or human S/Q; subsequent reruns are exposed regressions.",
+    "settings": {
+      "task": "rewrite",
+      "contextMode": "faithful",
+      "noveltyMode": "blend",
+      "intensities": [
+        2,
+        3
+      ],
+      "series": "all",
+      "backend": "structured",
+      "clientRevision": 0,
+      "seed": "structural-body-eval-20261006"
+    },
+    "captureScriptHash": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+    "node": "v24.19.0",
+    "claim": "Exact candidate texts, proofs, checks and display order. No human style or quality ratings; S/Q null is checked.",
+    "parser": {
+      "versions": {
+        "spacy": "3.8.16",
+        "ginza": "5.2.1",
+        "ja-ginza": "5.2.0",
+        "SudachiPy": "0.6.11",
+        "SudachiDict-core": "20260723",
+        "rapidfuzz": "3.14.6",
+        "scikit-learn": "1.9.1"
+      },
+      "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+    },
+    "stableEngine": true,
+    "finishedAt": "2026-10-06T05:45:34.441Z"
+  },
+  "afterMeta": {
+    "schemaVersion": 1,
+    "testedRevision": "sourceHash:66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+    "startedAt": "2026-10-06T05:45:35.282Z",
+    "engineHashes": {
+      "dist/packages/contracts/index.d.ts": "091aba6325f5fd57adcea7f8a1e72f53db7d2fbf65cf2ef8b5d9975d5861884c",
+      "dist/packages/contracts/index.js": "2fee098e918071f031a900ee69e6f3c1ba9ed0b3ee9ee8b2f5b5e4ad0292f18e",
+      "dist/packages/contracts/results.d.ts": "7c0a4703d673ba408e92fc0578b0d2f3471dfecc2cbf865e26bc59d2cd4e650f",
+      "dist/packages/contracts/results.js": "5792059ea913432a9a87af9fa34539022c1ea82c6154c6664e9d412de0b12349",
+      "dist/packages/core/assets.d.ts": "8482d730063004c3b4184a2d3e66c6005120877f57d17d27b3fb5053a9fa87e1",
+      "dist/packages/core/assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+      "dist/packages/core/bounded-search.d.ts": "a4d21854792c8dcec9102386bc46dc051bec1eb7db391f2af22bdf91589e7154",
+      "dist/packages/core/bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+      "dist/packages/core/capabilities.d.ts": "76b98cd8ab66104ada531bc9b6a9185ca9d176f95f17c8dd72da1338f2f41367",
+      "dist/packages/core/capabilities.js": "01b2e88ae94863b6c490105233aacc8e25cb004d9db4162e6bf72deb33e73415",
+      "dist/packages/core/construction-diagnostics.d.ts": "9b5966d50cb28cbbd96248385eb4aabaae8b0e4b9a111f9403f5b24deea8aa36",
+      "dist/packages/core/construction-diagnostics.js": "7288d0c1056b8bc986b6fb3ce4c48e0e172fce76404c091663dcd162fa3179a3",
+      "dist/packages/core/construction-edits.d.ts": "da95a5f6643ea1ce76276c68a6e958dcd3ba6bd852909a362f4b051734afd697",
+      "dist/packages/core/construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+      "dist/packages/core/constructions.d.ts": "716400c334267a6278c913ffacc215ecdc82c17cd7de032f4523daed12da9406",
+      "dist/packages/core/constructions.js": "99ee32cbe83a97e8814ebf31a171b4f21c8acb039422e15a2e8c851ff9f364d3",
+      "dist/packages/core/creation.d.ts": "1e03707b5aa825a8d58a06d8b96417c24261762cde00be9b68c6944d2ba46cc7",
+      "dist/packages/core/creation.js": "7995e8220a832136a4efa7137d96d5743ccc025cf552564e22f2db815ad09082",
+      "dist/packages/core/dictionary.d.ts": "fd7e6756df6c13febca45c6d56cc6df49cda5b37ff7485c2296a503e9bcc6965",
+      "dist/packages/core/dictionary.js": "c381f201d08299eca743cb318d15a12be57daf388fb9953aabdfbac09bdaeaf6",
+      "dist/packages/core/discourse-constructions.d.ts": "15a93e5dc361e4cd932e591a2272376ebbc0267497f48626512c4c6bf539eaa1",
+      "dist/packages/core/discourse-constructions.js": "ccbfe039f273048f47b012f8b7d218861a413849a90c20ef9115c41a24237dbc",
+      "dist/packages/core/engine.d.ts": "cc88792aa1a7a190b8a140aea7ea4dab9c7c88dff0d970c6e1690f8e6b4e5a39",
+      "dist/packages/core/engine.js": "9e5493cdef6a215143cb2ea396d77d0cab6bfb49503cc81e07c71f3a690f6f99",
+      "dist/packages/core/evaluation.d.ts": "a27aa90ebfc8213bf4df67a1f2a32a2d091abe3bf841626b2c271382ec1f800e",
+      "dist/packages/core/evaluation.js": "f1379ab4e1a696cc94c3ca2ab5e9f2efa0ea8ff9c41ebc06f751812246a2fdbe",
+      "dist/packages/core/evidence-request-roles.d.ts": "29b6c1e40842b3be74f9d1c2aa5b7c7171b91ae43b13c3fb6c2ddd0cbd95d4ac",
+      "dist/packages/core/evidence-request-roles.js": "ec040cb9acd46727cdd82340b568597eb0684463f2076fe3f3b7394ee17b6303",
+      "dist/packages/core/facts.d.ts": "df334bddf0e4af2987c43c7feda7d8663dcf19027531434e6cbd403c249f0d5f",
+      "dist/packages/core/facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+      "dist/packages/core/grammar-scope.d.ts": "d4d670ca8a71cdfe257fcf3601bfc4b5166a48357450554e21ef48b4b769d915",
+      "dist/packages/core/grammar-scope.js": "6bb6714a46d59c423be70b2e5a1babcb3df8236c33b9379941c5f410a987302f",
+      "dist/packages/core/lock-compatibility.d.ts": "556b770031a24956cd3b339598379a39fc451d1f44f9ae790c54f406db72b816",
+      "dist/packages/core/lock-compatibility.js": "c2699e6715849481aa6a6c39439f0281316e1198ca1fa9485d333e64412ceae5",
+      "dist/packages/core/model-backend.d.ts": "0647d07cbc37481bf6ff894ac9031ef4f75bc78571db9bd6e0802eae65b798c8",
+      "dist/packages/core/model-backend.js": "e6e03e3d0d4f99615bd7bf1af55b47960518d9dc3966c2ca33b854fde4930441",
+      "dist/packages/core/output-features.d.ts": "a727566ce6d44bb1bed16ae8d12838bcc047cab69518a14eb3a2d26cf579075c",
+      "dist/packages/core/output-features.js": "573d1ebe444a2aa867e73fc4396714e6afb1549cff9ecc7ccb8b1d549df1386e",
+      "dist/packages/core/planning.d.ts": "9b887cfd6681f41daa226a3ad73691fc94aa5c7462e163b8eb8d6cdecd4dce7c",
+      "dist/packages/core/planning.js": "0c3ec92e5c98b5ab0006b8436169644a407cf7e9a737b75de05b07528e0dc2d7",
+      "dist/packages/core/quantities.d.ts": "349cac3bada163e88783bb7d5082a5a41f69c59f59ce1f98bf920b83aa92663a",
+      "dist/packages/core/quantities.js": "bae5ca9ace577a6983e0492168768d3873e29fc3c0f07acf2b3fc89b3000b798",
+      "dist/packages/core/replay.d.ts": "7283f87b97a3b75e1dd1221200c3b06a07ff8fb26b6055a6e33d52866b4288c8",
+      "dist/packages/core/replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d",
+      "dist/packages/core/rewrite-rules.d.ts": "0f1d1dd288b09920f481b3b428aa4d7ccf4fdfae2983623689f42b07425dd28a",
+      "dist/packages/core/rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+      "dist/packages/core/rewrite-validation.d.ts": "643d65b4113d61352fbc88e11385f56227ecde2eecbaac8e90d7c5bb2cc62e33",
+      "dist/packages/core/rewrite-validation.js": "7f9a88dcc545879706f5b37d3e1ea44380e2197d86fe54860d8565013f8b70c4",
+      "dist/packages/core/rewrite.d.ts": "daebda4e8dd9b857b6cccc7b086379781a1394e28fa161211e665a932a5a969b",
+      "dist/packages/core/rewrite.js": "36e3d042b6c641c3f025d621efbc3d5002a9e418bbca110d174d4affee2066dd",
+      "dist/packages/core/rhetoric-validation.d.ts": "9d9e629bc2f5addeacdde28231504d0c4642a58c8c05296eddd07633d508ebaa",
+      "dist/packages/core/rhetoric-validation.js": "9a5a13bb958d7cf12bea0d535c7328e888cbc9f717d89ad16698e2933c108786",
+      "dist/packages/core/rhetoric.d.ts": "a2a666caa22055917ba2dfb5b9f382e0a1e4e074f994225f8a575111dadb9129",
+      "dist/packages/core/rhetoric.js": "1b65d93830f8eefa880d5dc046ef00b4fb6364d5ba8e911c3b55a2e223800c25",
+      "dist/packages/core/rhetorical-evidence.d.ts": "5239b18001f8a423235b9683fc38ee42d53b996165b3621aa9edb09517c921d6",
+      "dist/packages/core/rhetorical-evidence.js": "eef89ed86c3ab7675764f9efc933c50e342c79379df1a4652346d49de5da12e0",
+      "dist/packages/core/rhetorical-grammar.d.ts": "08d9d30fa2813cf532150cb77fe4cd8998fc903b942f9690f5dfcf27d07f2cd9",
+      "dist/packages/core/rhetorical-grammar.js": "d24c01045c782b5d28debc29ab3151e9c83fa1f9c8eda933071ab76978a01851",
+      "dist/packages/core/rhetorical-operators.d.ts": "87ab87465929fd506da250b8a692dcd08b1817839a0936cbb2de5a1106f6a83e",
+      "dist/packages/core/rhetorical-operators.js": "25ee64587f94b18390ded56671d2c12d68bd92ace7bf5c1a6b6dcd0c24bf7d69",
+      "dist/packages/core/rhetorical-recognition.d.ts": "55412d2ea8d037af976d460b02ecff9d3a81a2c6c0020c6ee97ed707d93f3b4e",
+      "dist/packages/core/rhetorical-recognition.js": "b747accf5521cfeebabcc960cc81bc60f16b64991ce71d106a9e5a8932cbe159",
+      "dist/packages/core/semantic.d.ts": "ba8bfb7126bb10170527551a644e7496d099107d65c95b2d446112b6d3d7af9f",
+      "dist/packages/core/semantic.js": "b0e017b27114b5fa7beea18177428197bfd5a9b7b677faaf98888e3893557212",
+      "dist/packages/core/series.d.ts": "bfaaa2da1f4b8a1adc84c7dd29a8f7af140403f9858bd6b3e98a6f47f0100149",
+      "dist/packages/core/series.js": "d149c880c2c7fe05a76d84d4224a1d83636137a92a18e17c4d88be4694e07b28",
+      "dist/packages/core/source.d.ts": "1cb45e17dd0e9a080409feac3a4018655086d5a4b03e5388e0687ba1e333833a",
+      "dist/packages/core/source.js": "7ea8380547d28df713903e6fb39aa2a7bd36e78a8a18b45b196c4c1f6806ca07",
+      "dist/packages/core/structural-planning.d.ts": "0c2b41f5081e196498dc75e732bcb6fe6d36768fbc5340a415273f24c91f2eb3",
+      "dist/packages/core/structural-planning.js": "9dc33084a1251fcd2ec550d98d5ec5246e7222b1f9809209f1715ad5ef54789a",
+      "dist/packages/core/structural-realization.d.ts": "1a0dc94c76de971edf1c15dd02c1f5b197b6c2c772962890a67f6be35ac054df",
+      "dist/packages/core/structural-realization.js": "f9a2fa422174b682ef242b48cf3f614ab8e02c3df90ebe3b3288769197a15986",
+      "dist/packages/core/structural-validation.d.ts": "2f06ea032340fd8b42d58a6fec7b4df63ce8e0372c59fa2258104d7c55837df8",
+      "dist/packages/core/structural-validation.js": "e1865b1271740a0745d9a19bdcba315c8fb09a3602d3442ecc54451d550b6885",
+      "dist/packages/core/surface.d.ts": "8ec49f4a7e06b74119545ef2b6b740ccaef0025d152f68129842f8f9c6babf9b",
+      "dist/packages/core/surface.js": "6814a43dbb25200553e056cfb63f6bb597aa9de6a291f870630278eeef2548a4",
+      "dist/packages/core/validator.d.ts": "f145ba643e0d566a8ffa1e049cd5f44c3533ee9bf15709bfbe990db3f35f0a85",
+      "dist/packages/core/validator.js": "3e55b30b7167d469a3576c3c77e568f5a8266d39e1ca28f57cfa021d8a3d42ea",
+      "dist/packages/evaluation/dataset.d.ts": "7c93cfd11afe8fd18f0621877bd56c8d0239defffb92487dd45eeca58f1a9593",
+      "dist/packages/evaluation/dataset.js": "6c7cf3eed4ae6e60865693e910cd056a58df10451b76bffe994a81bcca4298df",
+      "dist/packages/evaluation/review-types.d.ts": "68a245b5344dba45ef086315d1cd8800f99f3a94d38f0a02916763de3d5988f2",
+      "dist/packages/evaluation/review-types.js": "7ca3dfb9dda8fdb60dbabf37ac5a0a8245ce664c8800665023b4ce374403ac9b",
+      "dist/packages/evaluation/style-vector.d.ts": "ee54600029a452372486132f6af50d4df3968ea6d66d829f9fe76669abb5e4c2",
+      "dist/packages/evaluation/style-vector.js": "5d891f030e64efe7ab74a4714c6b830e1c8b87810d91c31b6dc3ab3ad1a17ecb",
+      "dist/packages/runtime/bounded-cache.d.ts": "d896869f2562f0351fcc44991dba0e664372a66d03dc3aa5d9831d2a78b2897b",
+      "dist/packages/runtime/bounded-cache.js": "cd294e5d69dc2e7626386ce8990f3d906d427a4c5ea693e24499f76de1e5ef3d",
+      "dist/packages/runtime/coordinator.d.ts": "688602fc0ff7d1d3613b00d6ba44bf63d2b39bbf027135802bd6e903abd67326",
+      "dist/packages/runtime/coordinator.js": "972ac973dafb6e1ac9bcfa3bb59e1ad7b7441a5e911b518f3b92b39d135dc3e4",
+      "dist/packages/runtime/public-files.d.ts": "72513cb8e9dc7079977c9d86511fb597708ff7ed0242abf17cc0a91bf5918366",
+      "dist/packages/runtime/public-files.js": "5ff3a93614b7ec23e4f580f9aefe0a527cf511b35bd517be523edd79fdc9677f",
+      "dist/packages/runtime/python-client.d.ts": "f976a119eb397a70ff3c461f771859c049da1f68e81a7ae0c7f6367d7a5f7b22",
+      "dist/packages/runtime/python-client.js": "b40191d7f7e881cfd656394c51b5041eab3702f24637fda01a67115ab057bd2e",
+      "dist/packages/runtime/review-routes.d.ts": "d4e090cdde2076a47f929a96dd8b1a1ea9870faa7f7a957618b6b6df7351b014",
+      "dist/packages/runtime/review-routes.js": "e991a5afe9a1bf9d0873f9d1553f4f6601ab13893a29b1ac3ee277571dce65da",
+      "dist/packages/runtime/review-store.d.ts": "386819ac8af4baa6e64bada6a69cf4c08000b8f735848f026d12bef7005201b0",
+      "dist/packages/runtime/review-store.js": "5a74ca617dd44445b8388f9dd7b0a87a3b02cb8678980b50837e5298a0a85161",
+      "dist/packages/runtime/semantic-verification.d.ts": "587665a96729f168ca6841a22f9c852c01bdf2d2384688b0d1af454390ece4b6",
+      "dist/packages/runtime/semantic-verification.js": "2eea0211619c98321ec2f5f92385cb12c84199b107fc4b49ae43a3fad7dd5662",
+      "dist/packages/runtime/worker.d.ts": "a8864d40c2b44efddbd831d2823bca035103382f86946aefd122343b0b57798b",
+      "dist/packages/runtime/worker.js": "a6710ec36bc0b404a15545720721e7a17f668c74e5b6ea3d318fa331bad475fe",
+      "packages/contracts/index.ts": "6af6a5c318300535b1c43520bd305b8cf40c1a918b328ed57fdb27d56fae145a",
+      "packages/contracts/results.ts": "570185b1b253037cd5fb6d8d78b524b20dd79f94d0aca2da6d95b5e2d6327b8d",
+      "packages/core/assets.ts": "28a5542f5a4dfa013727b54b71f395ee57887093f2bddae03bebc2df19bd4c30",
+      "packages/core/bounded-search.ts": "22c2350ab051d4b2b8dbd65179e00cc85914e4d7bc16be7202a74e55fdc49ed3",
+      "packages/core/capabilities.ts": "c03be0cb47ae6732f28ece3bb7e33501bc483dbadda588abd7fb6c518b9325ac",
+      "packages/core/construction-diagnostics.ts": "16c5c1c23f766565cb1cf8ed067fca06a7f623b59c0a65b82adca28246df4864",
+      "packages/core/construction-edits.ts": "cee0c07c20673d5b191daa3b9b20ea23f55777f2976f303eadf628a219cbb54d",
+      "packages/core/constructions.ts": "8857a60f7f4ea13d64bae2f557ea0d10b27b0d61b16a9281fa1c1512b9ce0167",
+      "packages/core/creation.ts": "73bb76e1923dceda465214625fd763444b03e6cc006e92abfa10a5538088f077",
+      "packages/core/dictionary.ts": "e343ceec572632ae15364def66ee65fe2646b6a9352f22c90a80ef9bafb1fcc8",
+      "packages/core/discourse-constructions.ts": "b4e5400f1428fd60b8aadfe1c4b17a5bdc8a41205d86233925deeaf0c977decf",
+      "packages/core/engine.ts": "09668364aac64e5808d506e7c622dce8a60149b62a3eac32e8f9e96db1827703",
+      "packages/core/evaluation.ts": "059010f22932a75ab0ec548492b020dc5d02db28715157d009733cdc1ccf2977",
+      "packages/core/evidence-request-roles.ts": "d797a363ec0b32cd1fc42ede5b1326046df5baadd71ab4eede1638ef04fe879d",
+      "packages/core/facts.ts": "d8637b21ff3b7b923a6f4a39d34a9fe8d4f7a94bbe3ad1ab2a464145b8834b94",
+      "packages/core/grammar-scope.ts": "06e75c369acb554b695f4a3aa9696f9a33a4f041484523525a15161c9510e6ff",
+      "packages/core/lock-compatibility.ts": "6ae9d8fc9741ba7d55710e6ecd4f545a96cb7a94e8aa5cd54671e7e8a8efbad0",
+      "packages/core/model-backend.ts": "7e053eff62bd854ef39f3acf1e2a93ca92f0e96843157707cde0731168bd043e",
+      "packages/core/output-features.ts": "8c5900a576d67b848de252477692b786daea947a10a4a4513f358464892cef5e",
+      "packages/core/planning.ts": "ddc715614bf6f74d59c8fb0cae75f4cfc71832c1b24e20fe276aab698c6c52fd",
+      "packages/core/quantities.ts": "befe09b68e90f79c17e7d3a7c3d8bb2f612c17c4a488771c4a815f56066fbe60",
+      "packages/core/replay.ts": "a44625629171834fe34a0367c7bc12226c48a9194707505c8e98b5da11ad7a60",
+      "packages/core/rewrite-rules.ts": "ead0121b5db5982504af531cd0f80e862bb46407dc7fe06fc5dc4818c0155ee4",
+      "packages/core/rewrite-validation.ts": "646fac378db08eff3c74754a69b4cccff6b85f90574a94aa1ce453c3409b9fef",
+      "packages/core/rewrite.ts": "20d6b1a8645815027baf67e96ffb0451fcb449d29ed6b7fcb6fcdf323d427abd",
+      "packages/core/rhetoric-validation.ts": "5391fc92af2b0c0cb24c50ec1774341b0bf27712a97f7299fdc98e0edba8c885",
+      "packages/core/rhetoric.ts": "61c7b2953c48ea34ae545c2efe392ad7d1559a3b3b07e7ff335ce880f95fdeff",
+      "packages/core/rhetorical-evidence.ts": "0679899cbb46c21d55fd811a28ea88d3e1d6fac0d9ff0f7f4ffa702ff7543ff2",
+      "packages/core/rhetorical-grammar.ts": "cf76aa6e34d67ef16ed0dc4739a44ff1763973e93560a8b7d7545d58d3aa9e1e",
+      "packages/core/rhetorical-operators.ts": "701faeafa076be5ba322ae13f90602e7561f36949c624f4533ed5031249e4465",
+      "packages/core/rhetorical-recognition.ts": "eb762a6e8092c20189014de5700b1f03edf4b0effbbc49bcc26d0fabba9d2efe",
+      "packages/core/semantic.ts": "a9e27de21e3ef4c224a82aafa1208c0bf159e8d9f1b5130d6b74ffb9b54f7be7",
+      "packages/core/series.ts": "696aff4a2fd94bce0f1e418377021f2c2d7783bcd34fecf6edba91a8d89c9b6e",
+      "packages/core/source.ts": "ae5ada42779f9a2b0a516bc450c186f6ee4b512bf80fb07c70d8050984e792dc",
+      "packages/core/structural-planning.ts": "7a6e66bd6ee1ffbf4e26657c3ff201fb1d94bc60221b3c88ace5c0ed18efd825",
+      "packages/core/structural-realization.ts": "f0232e5849faa1bee14591f1f7e294518a5b581a1def0fcf72338b2424a32667",
+      "packages/core/structural-validation.ts": "4d41fc138f1cad39a19c3b67cde2e8103065cf93ea0ffa5699ccd69ade793708",
+      "packages/core/surface.ts": "c39f479568e4e60333de1c80fd0e8634a601f6e673c337f7a50037f7b49ecaa8",
+      "packages/core/validator.ts": "774623b72e60c2eaa68cc889b580c491f162461db96d148a4d30bd1bec4d5a93",
+      "packages/evaluation/dataset.ts": "beb7a00b7ce08b47cd52ad34b7034037ba3adc2b8b37f8b469706b07a9203707",
+      "packages/evaluation/review-types.ts": "879a4eeccb72dbbd43d3cc0d75ddd302535ed366018f28441ae37e67fa228308",
+      "packages/evaluation/style-vector.ts": "40bf223f1447cce6e920557223ebe1f9a3e0892a780c905b58cf68d323cffdc1",
+      "packages/runtime/bounded-cache.ts": "d3822e550d3dc727d457bcc6e11299bf2a6c31bcfb17a594bb6423d95e4b0cce",
+      "packages/runtime/coordinator.ts": "ca28a05afc6b00b736b3c533e2c89c0e414602c9849595c19f4cbb5e190292ed",
+      "packages/runtime/public-files.ts": "ecc63691076df133df30f3931a869ad45e30b07741f05390a3fc08ac01a79004",
+      "packages/runtime/python-client.ts": "7b0a99bd745d7ebab155e01e1f768bd806561471573c27538e9fe5b66d8425d2",
+      "packages/runtime/review-routes.ts": "753a98f1be5c80068e6c3b2c82f2e1af76d9954d2e0102fc166bb6e8a46d8fa0",
+      "packages/runtime/review-store.ts": "ef756e6646769756570e11cbd00420d66d7bb59b8718cb373e6506e70134ca14",
+      "packages/runtime/semantic-verification.ts": "4b58ca0afccd363ae425d6d75763e84df5a1b38a334f61dca173074a805590ec",
+      "packages/runtime/worker.ts": "c3cd61723330e33897e21f17caec350d6d51456a27b9361e882d5156b6f9574d",
+      "services/japanese-analysis/compare_embeddings.py": "149617aff25259fd1d0518f6a52a07292ebf296cb680eebe0ed096ed55da57c4",
+      "services/japanese-analysis/service.py": "eb10ac33071b09bd96e7a342fff564f4104dc414f4d4d0cb5507eee8a4a4f4b1",
+      "services/japanese-analysis/train_preferences.py": "1ad789cbc1e77812a8dfe4fa838ae3d59e05dc3a323d8d366237a7705e235763"
+    },
+    "engineHash": "774a90fe887aa59b415e74d26a3a49a82c3b2ab345f4809fd2c899a96ac5e388",
+    "buildInfo": {
+      "schemaVersion": 1,
+      "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+      "toolCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+      "workingTreeDirty": true,
+      "runtime": "node24-python3.11",
+      "safetyContract": "v1"
+    },
+    "assetFileHash": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+    "assetManifest": {
+      "schemaVersion": 1,
+      "files": {
+        "log-corpus.json": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8",
+        "quote-corpus.json": "568f3ac505068b3fbcaf4c72ef01e0c3ddec1a04c4528022004ab2a8b1ea556f",
+        "archive-series.json": "271646e323a081f5f3ab32547c56eb8faf98f8397762929b181dc7d383121879",
+        "style-model.json": "87e0e6acc8c7703b64864e5b97c6b713d68bd788ff3ae3b0c4c473269979d6e3",
+        "novel-model.json": "2912afb0ec73c015b1a3188803784556948617ebcfb101b6eed80232b957d857"
+      },
+      "compiledEvidence": "4154e91b8f0c0638e54c05b3c3ff8e69c55bc736041f842be31b142b67e859f6",
+      "originalPosts": "2ece95636cd5fbfedb58a6bd5504c85f7d160673bc0fd3225e1074a2dabd598d",
+      "quoteGrouping": "variant-weight/leakage-split-v2",
+      "seriesProfiles": "b3296bd016b498f71c4c37734584792adc72f84502668c701cadc0d71aa85ebe",
+      "engine": {
+        "schemaVersion": 1,
+        "sourceHash": "d87b605957d07029e7096e2ad26573ab4b70ef689ea50349d237153cc43e3f67",
+        "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+        "workingTreeDirty": true,
+        "runtime": "node24-python3.11",
+        "safetyContract": "v1"
+      },
+      "parser": "ja_ginza",
+      "dictionary": "ddfba38955614c6ab52a840ef60b70d1b4054773c7184f8e2b2fa460e6493895",
+      "rules": "3c2d10feb8f699e1300163a2ca077518594c03a43705c7f1c58d812705c28742",
+      "index": "minisearch-7/intl-word-nfkc-grouped-v2",
+      "annotations": "none",
+      "evaluator": "untrained",
+      "toolCommit": "b5c2d962dd60ba9df7ab0b8d1245fa44b4ecf7bf",
+      "sourceMetadata": {
+        "localLog": {
+          "filename": "burontlog.txt",
+          "bytes": 873652,
+          "sha256": "983ba86ddf086d7bc842d91c66a4bc1bab940c126682b436538d5df7a68df752"
+        },
+        "archive": {
+          "baseUrl": "https://kenkyonanight.xxxxxxxx.jp/",
+          "partHashes": {
+            "buront3_posts_01.js": "22dcae4d06ec9156c5a5bc2fb7755063faeab0fcc9b915559790a47cd6fcbb81",
+            "buront3_posts_02.js": "a1a2badfce760133dc80b2031bc06700796177eb7d36545e1c8e464fe5f1bba2",
+            "buront3_posts_03.js": "33bf0249848a7d538bccb971a4589ba7b4acacdeba259f29b07a2f438a340272",
+            "buront3_posts_04.js": "1a3aebc7e5d8e188065e89be653caf56ca7eae983a5a48fe93a102e24bf4a462",
+            "buront3_posts_05.js": "e5aec590de38eb6b6d637fbae1c8294a76871a2f2100e97e4d4848cc879a3803"
+          }
+        }
+      },
+      "quoteSource": {
+        "url": "https://kenkyonanight.xxxxxxxx.jp/goroku.html",
+        "title": "名言集っぽいの",
+        "encoding": "shift_jis",
+        "bytes": 240539,
+        "sha256": "4e00cf7d842150db81c65525a10fb3bb9a78e9d7666e791ac4f7c403deaa8adf",
+        "decodedSha256": "27845d84e81697f1009c2dd9f3a3644a49309eae76d2a051700aa2102ff6755c",
+        "originalLogSha256": "7911160cbf8240a42072f3bbf99258211d606ffbc9238e3072e76b45501ebdd8"
+      },
+      "rights": "unverified-local-only",
+      "sourceTypes": [
+        "original_posts",
+        "original_sentences",
+        "quote_headings",
+        "quote_emphasis",
+        "adaptation_works"
+      ],
+      "reproducible": true
+    },
+    "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2",
+    "inputSetHash": "980791d2f057ae284875f515bf5a3215420a326bae998e780b902fb777140001",
+    "protocol": "Single prospective synthetic evaluation after explicit final core freeze; unchanged source text and frozen settings. Not a random natural-language sample or human S/Q; subsequent reruns are exposed regressions.",
+    "settings": {
+      "task": "rewrite",
+      "contextMode": "faithful",
+      "noveltyMode": "blend",
+      "intensities": [
+        2,
+        3
+      ],
+      "series": "all",
+      "backend": "structured",
+      "clientRevision": 0,
+      "seed": "structural-body-eval-20261006"
+    },
+    "captureScriptHash": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+    "node": "v24.19.0",
+    "claim": "Exact candidate texts, proofs, checks and display order. No human style or quality ratings; S/Q null is checked.",
+    "parser": {
+      "versions": {
+        "spacy": "3.8.16",
+        "ginza": "5.2.1",
+        "ja-ginza": "5.2.0",
+        "SudachiPy": "0.6.11",
+        "SudachiDict-core": "20260723",
+        "rapidfuzz": "3.14.6",
+        "scikit-learn": "1.9.1"
+      },
+      "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+    },
+    "stableEngine": true,
+    "finishedAt": "2026-10-06T05:45:42.333Z"
+  },
+  "auditVersion": 2,
+  "coverage": {
+    "before": {
+      "family:reason-backed-assertion": {
+        "dimension": "family",
+        "value": "reason-backed-assertion",
+        "cases": 6,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-A",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "origin:third-pass-prospective-synthetic-first-run": {
+        "dimension": "origin",
+        "value": "third-pass-prospective-synthetic-first-run",
+        "cases": 24,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-A",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B",
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B",
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B",
+          "SG3-C01-A",
+          "SG3-C01-B",
+          "SG3-C02-A",
+          "SG3-C02-B",
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-R01": {
+        "dimension": "pair",
+        "value": "SG3-R01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-R02": {
+        "dimension": "pair",
+        "value": "SG3-R02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R02-A",
+          "SG3-R02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-R03": {
+        "dimension": "pair",
+        "value": "SG3-R03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:modesty-with-accomplishment": {
+        "dimension": "family",
+        "value": "modesty-with-accomplishment",
+        "cases": 6,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-M01": {
+        "dimension": "pair",
+        "value": "SG3-M01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-M02": {
+        "dimension": "pair",
+        "value": "SG3-M02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M02-A",
+          "SG3-M02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-M03": {
+        "dimension": "pair",
+        "value": "SG3-M03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:source-explicit-evidence-request": {
+        "dimension": "family",
+        "value": "source-explicit-evidence-request",
+        "cases": 6,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-E01": {
+        "dimension": "pair",
+        "value": "SG3-E01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-E02": {
+        "dimension": "pair",
+        "value": "SG3-E02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E02-A",
+          "SG3-E02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-E03": {
+        "dimension": "pair",
+        "value": "SG3-E03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:control-quoted-other-person-attribution": {
+        "dimension": "family",
+        "value": "control-quoted-other-person-attribution",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C01-A",
+          "SG3-C01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-C01": {
+        "dimension": "pair",
+        "value": "SG3-C01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C01-A",
+          "SG3-C01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:control-negated-cause-scope": {
+        "dimension": "family",
+        "value": "control-negated-cause-scope",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C02-A",
+          "SG3-C02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-C02": {
+        "dimension": "pair",
+        "value": "SG3-C02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C02-A",
+          "SG3-C02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:control-quantity-and-completion-boundary": {
+        "dimension": "family",
+        "value": "control-quantity-and-completion-boundary",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-C03": {
+        "dimension": "pair",
+        "value": "SG3-C03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      }
+    },
+    "after": {
+      "family:reason-backed-assertion": {
+        "dimension": "family",
+        "value": "reason-backed-assertion",
+        "cases": 6,
+        "bodyCases": 1,
+        "bodyDisplayCases": 1,
+        "structuralCases": 1,
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-A",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "bodyCaseIds": [
+          "SG3-R02-A"
+        ],
+        "bodyDisplayCaseIds": [
+          "SG3-R02-A"
+        ]
+      },
+      "origin:third-pass-prospective-synthetic-first-run": {
+        "dimension": "origin",
+        "value": "third-pass-prospective-synthetic-first-run",
+        "cases": 24,
+        "bodyCases": 2,
+        "bodyDisplayCases": 2,
+        "structuralCases": 2,
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-A",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B",
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B",
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B",
+          "SG3-C01-A",
+          "SG3-C01-B",
+          "SG3-C02-A",
+          "SG3-C02-B",
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bodyCaseIds": [
+          "SG3-R02-A",
+          "SG3-C03-A"
+        ],
+        "bodyDisplayCaseIds": [
+          "SG3-R02-A",
+          "SG3-C03-A"
+        ]
+      },
+      "pair:SG3-R01": {
+        "dimension": "pair",
+        "value": "SG3-R01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-R02": {
+        "dimension": "pair",
+        "value": "SG3-R02",
+        "cases": 2,
+        "bodyCases": 1,
+        "bodyDisplayCases": 1,
+        "structuralCases": 1,
+        "caseIds": [
+          "SG3-R02-A",
+          "SG3-R02-B"
+        ],
+        "bodyCaseIds": [
+          "SG3-R02-A"
+        ],
+        "bodyDisplayCaseIds": [
+          "SG3-R02-A"
+        ]
+      },
+      "pair:SG3-R03": {
+        "dimension": "pair",
+        "value": "SG3-R03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:modesty-with-accomplishment": {
+        "dimension": "family",
+        "value": "modesty-with-accomplishment",
+        "cases": 6,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-M01": {
+        "dimension": "pair",
+        "value": "SG3-M01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-M02": {
+        "dimension": "pair",
+        "value": "SG3-M02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M02-A",
+          "SG3-M02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-M03": {
+        "dimension": "pair",
+        "value": "SG3-M03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:source-explicit-evidence-request": {
+        "dimension": "family",
+        "value": "source-explicit-evidence-request",
+        "cases": 6,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-E01": {
+        "dimension": "pair",
+        "value": "SG3-E01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-E02": {
+        "dimension": "pair",
+        "value": "SG3-E02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E02-A",
+          "SG3-E02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-E03": {
+        "dimension": "pair",
+        "value": "SG3-E03",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:control-quoted-other-person-attribution": {
+        "dimension": "family",
+        "value": "control-quoted-other-person-attribution",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C01-A",
+          "SG3-C01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-C01": {
+        "dimension": "pair",
+        "value": "SG3-C01",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C01-A",
+          "SG3-C01-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:control-negated-cause-scope": {
+        "dimension": "family",
+        "value": "control-negated-cause-scope",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C02-A",
+          "SG3-C02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "pair:SG3-C02": {
+        "dimension": "pair",
+        "value": "SG3-C02",
+        "cases": 2,
+        "bodyCases": 0,
+        "bodyDisplayCases": 0,
+        "structuralCases": 0,
+        "caseIds": [
+          "SG3-C02-A",
+          "SG3-C02-B"
+        ],
+        "bodyCaseIds": [],
+        "bodyDisplayCaseIds": []
+      },
+      "family:control-quantity-and-completion-boundary": {
+        "dimension": "family",
+        "value": "control-quantity-and-completion-boundary",
+        "cases": 2,
+        "bodyCases": 1,
+        "bodyDisplayCases": 1,
+        "structuralCases": 1,
+        "caseIds": [
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bodyCaseIds": [
+          "SG3-C03-A"
+        ],
+        "bodyDisplayCaseIds": [
+          "SG3-C03-A"
+        ]
+      },
+      "pair:SG3-C03": {
+        "dimension": "pair",
+        "value": "SG3-C03",
+        "cases": 2,
+        "bodyCases": 1,
+        "bodyDisplayCases": 1,
+        "structuralCases": 1,
+        "caseIds": [
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bodyCaseIds": [
+          "SG3-C03-A"
+        ],
+        "bodyDisplayCaseIds": [
+          "SG3-C03-A"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "sameSourceScalars": true,
+  "poolBefore": 12,
+  "poolAfter": 10,
+  "structuralBefore": 4,
+  "structuralAfter": 2,
+  "retainedStructuralEquivalent": [
+    {
+      "index": 0,
+      "text": true,
+      "plan": true,
+      "spans": true,
+      "checks": true
+    },
+    {
+      "index": 1,
+      "text": true,
+      "plan": true,
+      "spans": true,
+      "checks": true
+    }
+  ],
+  "displayAllPass": true,
+  "beforeTotalMs": 30263.136977000002,
+  "afterTotalMs": 26032.77903,
+  "deadlineHeadroomMs": 3967.2209699999985
+}

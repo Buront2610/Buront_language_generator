@@ -24,7 +24,7 @@ export const PreferenceSchema = Type.Object({
 export const RegenerationSchema = Type.Object({
   analysisId: Type.String({ maxLength: 200 }), candidateId: Type.String({ maxLength: 64 }),
   lockedNodeIds: Type.Array(Type.String({ maxLength: 64 }), { maxItems: 100 }),
-  seed: Type.String({ maxLength: 128 }), operator: Type.Optional(Type.String({ pattern: '^(OP-(0[1-9]|10)|REWRITE|CONSTRUCTION)$' })),
+  seed: Type.String({ maxLength: 128 }), operator: Type.Optional(Type.String({ pattern: '^(OP-(0[1-9]|10)|REWRITE|CONSTRUCTION|STRUCTURAL)$' })),
   series: Type.Optional(Series), clientRevision: Type.Integer({ minimum: 0 }),
 }, { additionalProperties: false });
 export const AnalysisSchema = Type.Object({
@@ -85,8 +85,46 @@ export type ConstructionOperation = { kind: 'replace' } | { kind: 'prefix_source
 export type ConstructionDiagnostic = { inputHash: string; nodeId: string | null; constructionId: string; candidateId: string | null; planId: string | null; stage: 'recognized' | 'relation_not_recognized' | 'unsupported_form' | 'scope_blocked' | 'edit_conflict' | 'planned' | 'verification_rejected' | 'verified' | 'selected' | 'not_selected'; reason: string; sourceSpan?: Span };
 export type ConstructionEdit = { nodeId: string; sourceSpan: Span; operation: ConstructionOperation; relation?: RecognizedDiscourseRelation; constructionId: string; constructionVersion: 1 | 2; realizationId: string; factId: string; from: string; to: string; evidenceIds: string[]; bindings: ConstructionBinding[]; features: Pick<Fact, 'polarity' | 'tense' | 'realization' | 'completion' | 'attribution' | 'voice'> };
 export type ConstructionProgram = { version: 2; seriesId: string; intensity: number; edits: ConstructionEdit[]; lexicalEdits: RewriteEdit[] };
+export type RhetoricalSlot = {
+  role: 'claim' | 'reason' | 'modesty' | 'achievement' | 'target' | 'request' | 'context' | 'carrier';
+  span: Span; tokenIds: number[]; factIds: string[];
+};
+export type RhetoricalMarker = { role: string; span: Span; tokenIds: number[] };
+export type RhetoricalCondition = {
+  predicateTokenId: number; factId: string; polarity: Fact['polarity']; tense: Fact['tense'];
+  realization: Fact['realization']; completion: Fact['completion']; voice: Fact['voice'];
+  attribution: Fact['attribution']; resolution: Fact['resolution'];
+  conditional: boolean; speculative: boolean; prospective: boolean; ambiguous: boolean;
+  nonDeclarative: boolean; reportedContent: boolean;
+  sourceRole: 'assessment-content' | 'asserted-event' | 'embedded-description' | 'causal-proposition' | 'request-shell' | 'mentioned-target' | 'literal-context' | 'relation-marker';
+  illocution: 'assertion' | 'question' | 'request' | 'mentioned-proposition' | 'literal-context';
+  preservation: 'asserted' | 'modality-preserved' | 'literal-copy' | 'embedded-scope';
+};
+export type RhetoricalRelation = {
+  version: 3; id: string; kind: 'reason-claim' | 'modest-achievement' | 'evidence-request';
+  sourceForm: 'causal-clause' | 'trailing-reason' | 'opening-modesty' | 'embedded-evidence-question' | 'embedded-evidence-request' | 'causal-tame' | 'concessive-assessment' | 'trailing-tame' | 'concessive-sentences' | 'carrier-evidence-request';
+  sourceSpan: Span; slots: RhetoricalSlot[]; markers: RhetoricalMarker[];
+  conditions: RhetoricalCondition[];
+  agentResolution?: 'explicit-first-person' | 'source-omitted';
+  selfEvaluation?: 'scale-minimizing' | 'nonboast' | 'limited-competence';
+  achievementKind?: 'completed-event' | 'past-ability' | 'perfective-event' | 'past-event-modality-unresolved';
+  eventBinding?: { predicateTokenId: number; actorTokenIds: number[]; completionTokenIds: number[]; embeddedPredicateTokenIds: number[] };
+  evidenceRequest?: { targetSpan: Span; carrierSpan: Span; actionSpan: Span; terminalSpan: Span; caseSpan: Span; cueTokenIds: number[]; actionKind: 'presentation' | 'inspection-permission' };
+  targetMode?: 'proposition' | 'nominal';
+  targetLink?: 'quotative' | 'genitive' | 'adnominal';
+  provenance: { inputHash: string; parserVersion: string };
+};
+
+/** Versioned source-bound rhetorical program. Each relation block consumes its
+ * original adopted range once; movable slots retain their original source spans.
+ * Forms are registered grammar, never arbitrary planner-authored factual text. */
+export type RhetoricalPiece = { kind: 'source'; role: string; sourceSpan: Span }
+  | { kind: 'form'; formId: string; text: string; anchor: number; sourceSpan?: Span; evidenceIds: string[] };
+export type RhetoricalIntent = { act: 'justify-assertion' | 'modest-self-presentation' | 'request-evidence'; stance: 'assertive' | 'self-limiting' | 'questioning'; targetFactIds: string[]; premiseFactIds: string[] };
+export type RhetoricalBlock = { intent: RhetoricalIntent; nodeId: string; sourceSpan: Span; relation: RhetoricalRelation; operatorId: string; realizationId: string; pieces: RhetoricalPiece[]; evidenceIds: string[] };
+export type StructuralProgram = { version: 3; seriesId: string; intensity: number; blocks: RhetoricalBlock[]; localEdits: RewriteEdit[]; search: { policy: 'bounded-relation-composition-v3'; maxBlocks: number; maxPlans: number } };
 export type PlanNode = { id: string; type: 'FactClause' | 'ProtectedLiteral' | 'RhetoricalClause' | 'Connective' | 'QuoteBoundary' | 'Reference'; text: string; sourceSpan?: Span; factIds: string[]; evidenceIds: string[]; mention?: 'primary' | 'rhetorical_reference' };
-export type QuotePlan = { id: string; intent: string; intentPlan?: IntentPlan; narrative?: NarrativePlan; surface?: SurfacePlan; rhetoric?: RhetoricProgram; rhetoricEdits?: RhetoricEdit[]; rewrite?: RewriteProgram; construction?: ConstructionProgram; mainOperator: string; auxiliaryOperators: string[]; family: string; mapping: { source: string; target: string; relation: string }; backTranslation: string; evidenceIds: string[]; forbiddenEffects: string[]; nodes: PlanNode[]; experimental: boolean };
+export type QuotePlan = { id: string; intent: string; intentPlan?: IntentPlan; narrative?: NarrativePlan; surface?: SurfacePlan; rhetoric?: RhetoricProgram; rhetoricEdits?: RhetoricEdit[]; rewrite?: RewriteProgram; construction?: ConstructionProgram; structural?: StructuralProgram; mainOperator: string; auxiliaryOperators: string[]; family: string; mapping: { source: string; target: string; relation: string }; backTranslation: string; evidenceIds: string[]; forbiddenEffects: string[]; nodes: PlanNode[]; experimental: boolean };
 export type OutputSpan = { span: Span; nodeId: string; origin: 'source_fact' | 'paraphrase' | 'rhetoric' | 'direct_quote' | 'unresolved_copy'; sourceSpan?: Span; factIds: string[]; evidenceIds: string[] };
 export type Novelty = { classification: 'known_quote' | 'adaptation' | 'candidate_novel' | 'undetermined'; text: number | null; structure: number | null; concept: number | null; nearestIds: string[]; datasetId: string; historySnapshot: string; window: string };
 export type Candidate = { id: string; text: string; plan: QuotePlan; spans: OutputSpan[]; checks: Check[]; verificationStatus: 'passed' | 'rejected' | 'needs_review'; verificationScope: string; scores: { S: number | null; Q: number | null; C: number | null; R: number | null }; novelty: Novelty; evidence: { id: string; kind: string; text: string; url?: string }[] };

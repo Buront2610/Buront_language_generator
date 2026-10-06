@@ -1,0 +1,32 @@
+{
+  "prospectivePath": "/workspace/shared/structural-b-evaluation/third-prospective-sealed.json",
+  "prospectiveSHA256": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+  "checkedAtUtc": "2026-10-06T05:18:42Z",
+  "normalization": "Unicode NFKC followed by removal of all Unicode whitespace; exact equality only.",
+  "sourceKeyExtractor": [
+    "source",
+    "sourceText",
+    "source_text",
+    "input"
+  ],
+  "checks": [
+    {
+      "comparisonPath": "/workspace/shared/structural-b-evaluation/third-pass-regression-203.json",
+      "extractedSourceCount": 203,
+      "duplicateCount": 0,
+      "duplicateProspectiveIds": []
+    },
+    {
+      "comparisonPath": "/workspace/shared/style-review-20261006/authored-probes.json",
+      "extractedSourceCount": 20,
+      "duplicateCount": 0,
+      "duplicateProspectiveIds": []
+    }
+  ],
+  "crossDatasetDuplicateCount": 0,
+  "duplicateProspectiveIds": [],
+  "withinSetDuplicateCount": 0,
+  "withinSetDuplicatePairs": [],
+  "resealed": false,
+  "limitation": "Exact normalized-string distinctness only; does not establish thematic independence, random sampling, empirical difficulty, style quality, or human quality ratings."
+}

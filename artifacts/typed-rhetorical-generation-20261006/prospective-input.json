@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "protocol": "Single prospective synthetic evaluation after explicit final core freeze; unchanged source text and frozen settings. Not a random natural-language sample or human S/Q; subsequent reruns are exposed regressions.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "structural-body-eval-20261006"
+  },
+  "cases": [
+    {
+      "id": "SG3-R01-A",
+      "pairId": "SG3-R01",
+      "domain": "reason-backed-assertion",
+      "kind": "ordinary",
+      "source": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The warehouse inspection is scheduled for the morning and is the stated reason.",
+          "The speaker plans to ask for delivery receipt at or after 3 p.m.",
+          "The request remains an intended future action, not an already completed arrangement."
+        ],
+        "forbidden": [
+          "Do not claim that receipt has already been rescheduled or completed.",
+          "Do not remove the morning inspection, the 3 p.m. threshold, or the future-plan modality.",
+          "Do not add praise, an opponent, a complaint, or a new action."
+        ]
+      },
+      "family": "reason-backed-assertion",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-R01-B",
+      "pairId": "SG3-R01",
+      "domain": "reason-backed-assertion",
+      "kind": "ordinary",
+      "source": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The warehouse inspection is scheduled for the morning and is the stated reason.",
+          "The speaker plans to ask for delivery receipt at or after 3 p.m.",
+          "The request remains an intended future action, not an already completed arrangement."
+        ],
+        "forbidden": [
+          "Do not claim that receipt has already been rescheduled or completed.",
+          "Do not remove the morning inspection, the 3 p.m. threshold, or the future-plan modality.",
+          "Do not add praise, an opponent, a complaint, or a new action."
+        ]
+      },
+      "family": "reason-backed-assertion",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-R02-A",
+      "pairId": "SG3-R02",
+      "domain": "reason-backed-assertion",
+      "kind": "ordinary",
+      "source": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "All drawings needed for the equipment layout proposal are available.",
+          "Their availability is the explicit reason the speaker can prepare the proposal today.",
+          "Preparing the proposal today is an ability, not a completed action or unconditional promise."
+        ],
+        "forbidden": [
+          "Do not claim that the proposal has already been made or approved.",
+          "Do not convert ability into certainty, obligation, or a firm undertaking.",
+          "Do not add missing materials, praise, an opponent, or another task."
+        ]
+      },
+      "family": "reason-backed-assertion",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-R02-B",
+      "pairId": "SG3-R02",
+      "domain": "reason-backed-assertion",
+      "kind": "ordinary",
+      "source": "機器の配置案に必要な図面は全部そろっています。そのため、今日のうちに配置案を作ることができます。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "All drawings needed for the equipment layout proposal are available.",
+          "Their availability is the explicit reason the speaker can prepare the proposal today.",
+          "Preparing the proposal today is an ability, not a completed action or unconditional promise."
+        ],
+        "forbidden": [
+          "Do not claim that the proposal has already been made or approved.",
+          "Do not convert ability into certainty, obligation, or a firm undertaking.",
+          "Do not add missing materials, praise, an opponent, or another task."
+        ]
+      },
+      "family": "reason-backed-assertion",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-R03-A",
+      "pairId": "SG3-R03",
+      "domain": "reason-backed-assertion",
+      "kind": "ordinary",
+      "source": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "Last night's rain has made the footpath muddy.",
+          "Because of this condition, the speaker decided to avoid the riverside for this morning's walk.",
+          "The chosen alternative is the paved shopping street."
+        ],
+        "forbidden": [
+          "Do not say that the walk has already been completed or cancelled.",
+          "Do not replace the stated weather and path condition with another reason.",
+          "Do not add criticism of another person or praise for the decision."
+        ]
+      },
+      "family": "reason-backed-assertion",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-R03-B",
+      "pairId": "SG3-R03",
+      "domain": "reason-backed-assertion",
+      "kind": "ordinary",
+      "source": "遊歩道が昨晩の雨でぬかるんでいます。そこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "Last night's rain has made the footpath muddy.",
+          "Because of this condition, the speaker decided to avoid the riverside for this morning's walk.",
+          "The chosen alternative is the paved shopping street."
+        ],
+        "forbidden": [
+          "Do not say that the walk has already been completed or cancelled.",
+          "Do not replace the stated weather and path condition with another reason.",
+          "Do not add criticism of another person or praise for the decision."
+        ]
+      },
+      "family": "reason-backed-assertion",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-M01-A",
+      "pairId": "SG3-M01",
+      "domain": "modesty-with-accomplishment",
+      "kind": "ordinary",
+      "source": "見栄えのよい資料を作るのはまだ苦手ですが、私が担当した会議用の集計表は、昨日のうちに全ページの数値を確認しました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The speaker explicitly assesses their own document presentation skills as still weak.",
+          "The speaker checked the numbers on every page of the meeting summary table they were responsible for.",
+          "The checking was completed yesterday."
+        ],
+        "forbidden": [
+          "Do not turn the completed check into authorship, correction, approval, or proven numerical accuracy.",
+          "Do not attribute the checking or self-assessment to a colleague.",
+          "Do not invent compliments, criticism, or broader claims of competence."
+        ]
+      },
+      "family": "modesty-with-accomplishment",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-M01-B",
+      "pairId": "SG3-M01",
+      "domain": "modesty-with-accomplishment",
+      "kind": "ordinary",
+      "source": "資料の見栄えを整えるのはまだ得意ではありません。それでも、担当した会議用集計表の全ページの数値は、私が昨日確認しました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The speaker explicitly assesses their own document presentation skills as still weak.",
+          "The speaker checked the numbers on every page of the meeting summary table they were responsible for.",
+          "The checking was completed yesterday."
+        ],
+        "forbidden": [
+          "Do not turn the completed check into authorship, correction, approval, or proven numerical accuracy.",
+          "Do not attribute the checking or self-assessment to a colleague.",
+          "Do not invent compliments, criticism, or broader claims of competence."
+        ]
+      },
+      "family": "modesty-with-accomplishment",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-M02-A",
+      "pairId": "SG3-M02",
+      "domain": "modesty-with-accomplishment",
+      "kind": "ordinary",
+      "source": "私は料理の腕にあまり自信がありませんが、今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The speaker explicitly has little confidence in their own cooking.",
+          "The speaker made today's dinner curry alone.",
+          "The speaker also completed the cleanup after eating."
+        ],
+        "forbidden": [
+          "Do not weaken either completed action into only a plan or an attempt.",
+          "Do not claim the food was tasty, praised, or served to any unspecified person.",
+          "Do not invent an opponent or a further domestic achievement."
+        ]
+      },
+      "family": "modesty-with-accomplishment",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-M02-B",
+      "pairId": "SG3-M02",
+      "domain": "modesty-with-accomplishment",
+      "kind": "ordinary",
+      "source": "料理はあまり自信のない私ですが、今日の夕食のカレーは自分一人で作りました。食後の片づけも終えています。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The speaker explicitly has little confidence in their own cooking.",
+          "The speaker made today's dinner curry alone.",
+          "The speaker also completed the cleanup after eating."
+        ],
+        "forbidden": [
+          "Do not weaken either completed action into only a plan or an attempt.",
+          "Do not claim the food was tasty, praised, or served to any unspecified person.",
+          "Do not invent an opponent or a further domestic achievement."
+        ]
+      },
+      "family": "modesty-with-accomplishment",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-M03-A",
+      "pairId": "SG3-M03",
+      "domain": "modesty-with-accomplishment",
+      "kind": "ordinary",
+      "source": "私は説明がうまいほうではありませんが、同僚から頼まれた操作手順のメモは、今朝、私が書いて共有しました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The speaker explicitly considers themself not particularly good at explaining.",
+          "A colleague requested an operating-procedure memo.",
+          "The speaker wrote and shared that memo this morning."
+        ],
+        "forbidden": [
+          "Do not transfer authorship or sharing to the colleague.",
+          "Do not turn a completed memo into a future task or claim it was well received.",
+          "Do not add praise, an adversary, or an additional action."
+        ]
+      },
+      "family": "modesty-with-accomplishment",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-M03-B",
+      "pairId": "SG3-M03",
+      "domain": "modesty-with-accomplishment",
+      "kind": "ordinary",
+      "source": "説明上手とは言えない私ですが、同僚に依頼された操作手順のメモを今朝書き上げ、私から共有しました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The speaker explicitly considers themself not particularly good at explaining.",
+          "A colleague requested an operating-procedure memo.",
+          "The speaker wrote and shared that memo this morning."
+        ],
+        "forbidden": [
+          "Do not transfer authorship or sharing to the colleague.",
+          "Do not turn a completed memo into a future task or claim it was well received.",
+          "Do not add praise, an adversary, or an additional action."
+        ]
+      },
+      "family": "modesty-with-accomplishment",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-E01-A",
+      "pairId": "SG3-E01",
+      "domain": "source-explicit-evidence-request",
+      "kind": "ordinary",
+      "source": "新しい梱包材で破損が減ったという説明について、先月と今月の配送事故記録を並べ、根拠が分かるように見せてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The target is the reported claim that new packaging reduced damage.",
+          "The speaker requests supporting evidence rather than asserting the claim is established.",
+          "The requested evidence is last month's and this month's delivery-incident records, shown side by side."
+        ],
+        "forbidden": [
+          "Do not omit either month, the named records, or the side-by-side presentation request.",
+          "Do not fabricate a damage rate, causal finding, or already performed comparison.",
+          "Do not accuse the claimant of dishonesty or invent an opposing position."
+        ]
+      },
+      "family": "source-explicit-evidence-request",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-E01-B",
+      "pairId": "SG3-E01",
+      "domain": "source-explicit-evidence-request",
+      "kind": "ordinary",
+      "source": "新しい梱包材に替えて破損が減ったとのことですが、裏づけを確かめたいです。先月分と今月分の配送事故記録を並べて見せてもらえますか。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The target is the reported claim that new packaging reduced damage.",
+          "The speaker requests supporting evidence rather than asserting the claim is established.",
+          "The requested evidence is last month's and this month's delivery-incident records, shown side by side."
+        ],
+        "forbidden": [
+          "Do not omit either month, the named records, or the side-by-side presentation request.",
+          "Do not fabricate a damage rate, causal finding, or already performed comparison.",
+          "Do not accuse the claimant of dishonesty or invent an opposing position."
+        ]
+      },
+      "family": "source-explicit-evidence-request",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-E02-A",
+      "pairId": "SG3-E02",
+      "domain": "source-explicit-evidence-request",
+      "kind": "ordinary",
+      "source": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The proposal being questioned claims shorter meetings will reduce overtime.",
+          "The speaker requests evidence for that proposal.",
+          "The requested action is to open the trial-period attendance summary table for the speaker to inspect."
+        ],
+        "forbidden": [
+          "Do not reduce the request to a generic demand for evidence while losing the table and requested inspection.",
+          "Do not claim the table proves the proposal or invent a trial result.",
+          "Do not replace the trial period or introduce blame, praise, or a new operational commitment."
+        ]
+      },
+      "family": "source-explicit-evidence-request",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-E02-B",
+      "pairId": "SG3-E02",
+      "domain": "source-explicit-evidence-request",
+      "kind": "ordinary",
+      "source": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか。試行期間の勤怠集計表を開いて、私に見せてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The proposal being questioned claims shorter meetings will reduce overtime.",
+          "The speaker requests evidence for that proposal.",
+          "The requested action is to open the trial-period attendance summary table for the speaker to inspect."
+        ],
+        "forbidden": [
+          "Do not reduce the request to a generic demand for evidence while losing the table and requested inspection.",
+          "Do not claim the table proves the proposal or invent a trial result.",
+          "Do not replace the trial period or introduce blame, praise, or a new operational commitment."
+        ]
+      },
+      "family": "source-explicit-evidence-request",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-E03-A",
+      "pairId": "SG3-E03",
+      "domain": "source-explicit-evidence-request",
+      "kind": "ordinary",
+      "source": "この自転車は雨の日でもブレーキがよく利くという説明でしたが、その根拠として、雨天時の制動試験報告書を見せてもらえますか。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The reported claim concerns this bicycle's effective braking even in rain.",
+          "The speaker asks for support for that claim.",
+          "The concrete request is to be shown the wet-weather braking test report."
+        ],
+        "forbidden": [
+          "Do not turn a reported claim into a verified safety guarantee.",
+          "Do not drop the wet-weather condition, the report, or the request to see it.",
+          "Do not invent test measurements, personal testing, praise, or a dispute."
+        ]
+      },
+      "family": "source-explicit-evidence-request",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-E03-B",
+      "pairId": "SG3-E03",
+      "domain": "source-explicit-evidence-request",
+      "kind": "ordinary",
+      "source": "雨の日にもこの自転車のブレーキはよく利くと聞きました。裏づけを確認したいので、雨天の制動試験報告書を見せてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The reported claim concerns this bicycle's effective braking even in rain.",
+          "The speaker asks for support for that claim.",
+          "The concrete request is to be shown the wet-weather braking test report."
+        ],
+        "forbidden": [
+          "Do not turn a reported claim into a verified safety guarantee.",
+          "Do not drop the wet-weather condition, the report, or the request to see it.",
+          "Do not invent test measurements, personal testing, praise, or a dispute."
+        ]
+      },
+      "family": "source-explicit-evidence-request",
+      "group": "ordinary",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-C01-A",
+      "pairId": "SG3-C01",
+      "domain": "control-quoted-other-person-attribution",
+      "kind": "control",
+      "source": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました。私はその話を聞いただけです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "Sato, inside the reported quotation, gives the modest self-assessment and claims to have completed the notice.",
+          "The narrator only heard Sato's account.",
+          "Keep the notice completion attributed to Sato and within the reported account."
+        ],
+        "forbidden": [
+          "Do not give the narrator either Sato's self-assessment or Sato's accomplishment.",
+          "Do not claim the narrator independently verified, wrote, or completed the notice.",
+          "Do not invent praise or a contrary speaker."
+        ]
+      },
+      "family": "control-quoted-other-person-attribution",
+      "group": "control",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-C01-B",
+      "pairId": "SG3-C01",
+      "domain": "control-quoted-other-person-attribution",
+      "kind": "control",
+      "source": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました。私自身は聞いただけです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "Sato, inside the reported quotation, gives the modest self-assessment and claims to have completed the notice.",
+          "The narrator only heard Sato's account.",
+          "Keep the notice completion attributed to Sato and within the reported account."
+        ],
+        "forbidden": [
+          "Do not give the narrator either Sato's self-assessment or Sato's accomplishment.",
+          "Do not claim the narrator independently verified, wrote, or completed the notice.",
+          "Do not invent praise or a contrary speaker."
+        ]
+      },
+      "family": "control-quoted-other-person-attribution",
+      "group": "control",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-C02-A",
+      "pairId": "SG3-C02",
+      "domain": "control-negated-cause-scope",
+      "kind": "control",
+      "source": "今日の打ち合わせを延期したのは、資料が足りなかったからではありません。担当者が急に休むことになったためです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "Today's meeting was postponed.",
+          "Insufficient materials are explicitly denied as the reason for postponement.",
+          "The stated reason is the person in charge unexpectedly having to take time off."
+        ],
+        "forbidden": [
+          "Do not make insufficient materials the cause or deny that postponement occurred.",
+          "Do not infer that all materials were sufficient from denial of that causal explanation.",
+          "Do not invent illness, fault, blame, or a replacement meeting date."
+        ]
+      },
+      "family": "control-negated-cause-scope",
+      "group": "control",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-C02-B",
+      "pairId": "SG3-C02",
+      "domain": "control-negated-cause-scope",
+      "kind": "control",
+      "source": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "Today's meeting was postponed.",
+          "Insufficient materials are explicitly denied as the reason for postponement.",
+          "The stated reason is the person in charge unexpectedly having to take time off."
+        ],
+        "forbidden": [
+          "Do not make insufficient materials the cause or deny that postponement occurred.",
+          "Do not infer that all materials were sufficient from denial of that causal explanation.",
+          "Do not invent illness, fault, blame, or a replacement meeting date."
+        ]
+      },
+      "family": "control-negated-cause-scope",
+      "group": "control",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-C03-A",
+      "pairId": "SG3-C03",
+      "domain": "control-quantity-and-completion-boundary",
+      "kind": "control",
+      "source": "頼まれていた五件の領収書の確認は、二件だけ終わりました。残り三件はまだ確認中なので、全部済んだとは言えません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The assigned set contains five receipt checks.",
+          "Exactly two checks are completed; the remaining three are still in progress.",
+          "The full set is explicitly not yet complete."
+        ],
+        "forbidden": [
+          "Do not claim all five are completed or that none are completed.",
+          "Do not change the counts, swap completed and pending subsets, or turn ongoing checks into abandoned work.",
+          "Do not invent a deadline, praise, an opponent, or another completed action."
+        ]
+      },
+      "family": "control-quantity-and-completion-boundary",
+      "group": "control",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    },
+    {
+      "id": "SG3-C03-B",
+      "pairId": "SG3-C03",
+      "domain": "control-quantity-and-completion-boundary",
+      "kind": "control",
+      "source": "依頼された領収書五件のうち、確認を終えたのは二件です。三件は確認中のため、五件すべてが完了したわけではありません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "The assigned set contains five receipt checks.",
+          "Exactly two checks are completed; the remaining three are still in progress.",
+          "The full set is explicitly not yet complete."
+        ],
+        "forbidden": [
+          "Do not claim all five are completed or that none are completed.",
+          "Do not change the counts, swap completed and pending subsets, or turn ongoing checks into abandoned work.",
+          "Do not invent a deadline, praise, an opponent, or another completed action."
+        ]
+      },
+      "family": "control-quantity-and-completion-boundary",
+      "group": "control",
+      "currentRole": "third-pass-prospective-synthetic-first-run"
+    }
+  ]
+}

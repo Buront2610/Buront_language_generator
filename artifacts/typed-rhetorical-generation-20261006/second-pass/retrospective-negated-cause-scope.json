@@ -1,0 +1,28 @@
+{
+  "recordedAtUtc": "2026-10-06T05:11:14.767012+00:00",
+  "sourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+  "classification": "Retrospective semantic acceptance blocker in known175 control U29",
+  "source": "理由が分からないので反対しているのではありません。費用が増えると分かっているので反対しています。",
+  "firstDisplayed": {
+    "id": "798166f626cdcaa637ea5ec9",
+    "planId": "f6db02bbfd121f88ad21119e",
+    "text": "反対しているのではない。何故かというと理由が分からないからだ。費用が増えると分かっているので反対しています。"
+  },
+  "expected": {
+    "premises": [
+      "反対の理由は理由不明ではない",
+      "費用増加を認識",
+      "費用増加が反対の理由"
+    ],
+    "forbidden": [
+      "理由不明だから反対",
+      "費用が減る",
+      "反対していない"
+    ]
+  },
+  "finding": "The source denies that not knowing the reason is the cause of opposition. The split output denies opposition itself and explains that denial by not knowing the reason. Shared bounded checks passed, so they do not establish scope preservation.",
+  "discovery": "Independent B3 review; confirmed in immutable B2 raw capture",
+  "originalCountsAndRawOutputsUnchanged": true,
+  "humanS": null,
+  "humanQ": null
+}

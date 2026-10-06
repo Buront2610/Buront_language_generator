@@ -1,0 +1,4918 @@
+{
+  "schemaVersion": 1,
+  "method": "Small authored prospective synthetic first-run check, not random natural-language evaluation or human S/Q. Source-body classifications unchanged; stricter domain matching requires the expected kind of actual body block. Once opened these24 become exposed regressions, without coverage retuning.",
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "engineHash": "774a90fe887aa59b415e74d26a3a49a82c3b2ab345f4809fd2c899a96ac5e388",
+  "inputHash": "980791d2f057ae284875f515bf5a3215420a326bae998e780b902fb777140001",
+  "assetFileHash": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+  "comparisonHash": "dbb8e18d89abb35ab79948011bdc45a22062c6ccb956d02583c9046a4650153b",
+  "scriptHash": "b2c8aef1aba22267e901f47126719d9e740921b550f9ae982bbb1a6443343fe8",
+  "humanS": null,
+  "humanQ": null,
+  "before": {
+    "all": {
+      "cases": 24,
+      "requests": 48,
+      "structuralPoolCases": 0,
+      "structuralDisplayedCases": 0,
+      "anyBodyPoolCases": 0,
+      "anyBodyDisplayedCases": 0,
+      "domainMatchedBodyPoolCases": 0,
+      "domainMatchedBodyDisplayedCases": 0,
+      "bodyPoolCaseIds": [],
+      "bodyDisplayedCaseIds": [],
+      "noBodyPoolCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-A",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B",
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-A",
+        "SG3-C03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-A",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B",
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-A",
+        "SG3-C03-B"
+      ]
+    },
+    "ordinary": {
+      "cases": 18,
+      "requests": 36,
+      "structuralPoolCases": 0,
+      "structuralDisplayedCases": 0,
+      "anyBodyPoolCases": 0,
+      "anyBodyDisplayedCases": 0,
+      "domainMatchedBodyPoolCases": 0,
+      "domainMatchedBodyDisplayedCases": 0,
+      "bodyPoolCaseIds": [],
+      "bodyDisplayedCaseIds": [],
+      "noBodyPoolCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-A",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-A",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B"
+      ]
+    },
+    "controls": {
+      "cases": 6,
+      "requests": 12,
+      "structuralPoolCases": 0,
+      "structuralDisplayedCases": 0,
+      "anyBodyPoolCases": 0,
+      "anyBodyDisplayedCases": 0,
+      "domainMatchedBodyPoolCases": 0,
+      "domainMatchedBodyDisplayedCases": 0,
+      "bodyPoolCaseIds": [],
+      "bodyDisplayedCaseIds": [],
+      "noBodyPoolCaseIds": [
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-A",
+        "SG3-C03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-A",
+        "SG3-C03-B"
+      ]
+    },
+    "domain": {
+      "reason": {
+        "cases": 6,
+        "requests": 12,
+        "structuralPoolCases": 0,
+        "structuralDisplayedCases": 0,
+        "anyBodyPoolCases": 0,
+        "anyBodyDisplayedCases": 0,
+        "domainMatchedBodyPoolCases": 0,
+        "domainMatchedBodyDisplayedCases": 0,
+        "bodyPoolCaseIds": [],
+        "bodyDisplayedCaseIds": [],
+        "noBodyPoolCaseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-A",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "noBodyDisplayCaseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-A",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ]
+      },
+      "modesty": {
+        "cases": 6,
+        "requests": 12,
+        "structuralPoolCases": 0,
+        "structuralDisplayedCases": 0,
+        "anyBodyPoolCases": 0,
+        "anyBodyDisplayedCases": 0,
+        "domainMatchedBodyPoolCases": 0,
+        "domainMatchedBodyDisplayedCases": 0,
+        "bodyPoolCaseIds": [],
+        "bodyDisplayedCaseIds": [],
+        "noBodyPoolCaseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "noBodyDisplayCaseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ]
+      },
+      "evidence-request": {
+        "cases": 6,
+        "requests": 12,
+        "structuralPoolCases": 0,
+        "structuralDisplayedCases": 0,
+        "anyBodyPoolCases": 0,
+        "anyBodyDisplayedCases": 0,
+        "domainMatchedBodyPoolCases": 0,
+        "domainMatchedBodyDisplayedCases": 0,
+        "bodyPoolCaseIds": [],
+        "bodyDisplayedCaseIds": [],
+        "noBodyPoolCaseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "noBodyDisplayCaseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ]
+      }
+    },
+    "pairs": {
+      "SG3-R01": {
+        "domain": "reason",
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-R02": {
+        "domain": "reason",
+        "caseIds": [
+          "SG3-R02-A",
+          "SG3-R02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-R03": {
+        "domain": "reason",
+        "caseIds": [
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-M01": {
+        "domain": "modesty",
+        "caseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-M02": {
+        "domain": "modesty",
+        "caseIds": [
+          "SG3-M02-A",
+          "SG3-M02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-M03": {
+        "domain": "modesty",
+        "caseIds": [
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-E01": {
+        "domain": "evidence-request",
+        "caseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-E02": {
+        "domain": "evidence-request",
+        "caseIds": [
+          "SG3-E02-A",
+          "SG3-E02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-E03": {
+        "domain": "evidence-request",
+        "caseIds": [
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-C01": {
+        "domain": "control",
+        "caseIds": [
+          "SG3-C01-A",
+          "SG3-C01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-C02": {
+        "domain": "control",
+        "caseIds": [
+          "SG3-C02-A",
+          "SG3-C02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-C03": {
+        "domain": "control",
+        "caseIds": [
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      }
+    },
+    "pairSummary": {
+      "allPairs": 12,
+      "ordinaryPairs": 9,
+      "bothOrdinaryPool": 0,
+      "bothOrdinaryDisplayed": 0
+    },
+    "rows": [
+      {
+        "id": "SG3-R01-A",
+        "source": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R01",
+        "expected": {
+          "preserve": [
+            "The warehouse inspection is scheduled for the morning and is the stated reason.",
+            "The speaker plans to ask for delivery receipt at or after 3 p.m.",
+            "The request remains an intended future action, not an already completed arrangement."
+          ],
+          "forbidden": [
+            "Do not claim that receipt has already been rescheduled or completed.",
+            "Do not remove the morning inspection, the 3 p.m. threshold, or the future-plan modality.",
+            "Do not add praise, an opponent, a complaint, or a new action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3de5f1af8ca7e47143ae7bf0",
+                "planId": "19c16fb7fdc09212785f1e66",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だ"
+              },
+              {
+                "id": "edfe05b9b7a5188268ed28e2",
+                "planId": "af0703f4eb7e8ecda8aa7f47",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です"
+              },
+              {
+                "id": "99831934a02ca63c43637149",
+                "planId": "03479b59205dccc348460ee2",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だからな"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3de5f1af8ca7e47143ae7bf0",
+                "planId": "638c40a67c5f52fcf371c5a6",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だ"
+              },
+              {
+                "id": "edfe05b9b7a5188268ed28e2",
+                "planId": "dbf76f9ee34d23ee13b71c12",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です"
+              },
+              {
+                "id": "99831934a02ca63c43637149",
+                "planId": "579d68f79fddf40948eb87ee",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だからな"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R01-B",
+        "source": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R01",
+        "expected": {
+          "preserve": [
+            "The warehouse inspection is scheduled for the morning and is the stated reason.",
+            "The speaker plans to ask for delivery receipt at or after 3 p.m.",
+            "The request remains an intended future action, not an already completed arrangement."
+          ],
+          "forbidden": [
+            "Do not claim that receipt has already been rescheduled or completed.",
+            "Do not remove the morning inspection, the 3 p.m. threshold, or the future-plan modality.",
+            "Do not add praise, an opponent, a complaint, or a new action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3cb46a2967006817695df8de",
+                "planId": "8e907ca5b14852d5fa203f71",
+                "text": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3cb46a2967006817695df8de",
+                "planId": "f117c12f84113d439000b1a9",
+                "text": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R02-A",
+        "source": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R02",
+        "expected": {
+          "preserve": [
+            "All drawings needed for the equipment layout proposal are available.",
+            "Their availability is the explicit reason the speaker can prepare the proposal today.",
+            "Preparing the proposal today is an ability, not a completed action or unconditional promise."
+          ],
+          "forbidden": [
+            "Do not claim that the proposal has already been made or approved.",
+            "Do not convert ability into certainty, obligation, or a firm undertaking.",
+            "Do not add missing materials, praise, an opponent, or another task."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "cb4e09d2802c10d3d774342f",
+                "planId": "5911d8225da88f76d8827ad1",
+                "text": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "cb4e09d2802c10d3d774342f",
+                "planId": "584947a0496368e307571c17",
+                "text": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R02-B",
+        "source": "機器の配置案に必要な図面は全部そろっています。そのため、今日のうちに配置案を作ることができます。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R02",
+        "expected": {
+          "preserve": [
+            "All drawings needed for the equipment layout proposal are available.",
+            "Their availability is the explicit reason the speaker can prepare the proposal today.",
+            "Preparing the proposal today is an ability, not a completed action or unconditional promise."
+          ],
+          "forbidden": [
+            "Do not claim that the proposal has already been made or approved.",
+            "Do not convert ability into certainty, obligation, or a firm undertaking.",
+            "Do not add missing materials, praise, an opponent, or another task."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "ad025d6e07275025c00638bf",
+                "planId": "82a375b2c76eb06def9b8306",
+                "text": "機器の配置案に必要な図面は全部そろっています\nそのため、今日のうちに配置案を作ることができます"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "ad025d6e07275025c00638bf",
+                "planId": "4912ea28daef623500594274",
+                "text": "機器の配置案に必要な図面は全部そろっています\nそのため、今日のうちに配置案を作ることができます"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R03-A",
+        "source": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R03",
+        "expected": {
+          "preserve": [
+            "Last night's rain has made the footpath muddy.",
+            "Because of this condition, the speaker decided to avoid the riverside for this morning's walk.",
+            "The chosen alternative is the paved shopping street."
+          ],
+          "forbidden": [
+            "Do not say that the walk has already been completed or cancelled.",
+            "Do not replace the stated weather and path condition with another reason.",
+            "Do not add criticism of another person or praise for the decision."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4e4d01bdf879d8029dd220bb",
+                "planId": "1da1f4e01c96a4bf5733a539",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしたからな"
+              },
+              {
+                "id": "c9c750ee0ccefb2dd15c99de",
+                "planId": "da12c3cc51ef4931c6e5d284",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました"
+              },
+              {
+                "id": "126ad60f4adfc443bed52755",
+                "planId": "5d921678914e66d8474c05ad",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにした"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4e4d01bdf879d8029dd220bb",
+                "planId": "ff18aa390f20858de8c31204",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしたからな"
+              },
+              {
+                "id": "c9c750ee0ccefb2dd15c99de",
+                "planId": "5171b127d4944182ad702eae",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました"
+              },
+              {
+                "id": "126ad60f4adfc443bed52755",
+                "planId": "f23fa6f745f1f33917414612",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにした"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R03-B",
+        "source": "遊歩道が昨晩の雨でぬかるんでいます。そこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R03",
+        "expected": {
+          "preserve": [
+            "Last night's rain has made the footpath muddy.",
+            "Because of this condition, the speaker decided to avoid the riverside for this morning's walk.",
+            "The chosen alternative is the paved shopping street."
+          ],
+          "forbidden": [
+            "Do not say that the walk has already been completed or cancelled.",
+            "Do not replace the stated weather and path condition with another reason.",
+            "Do not add criticism of another person or praise for the decision."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4033b6e4ee36fe8b053a0432",
+                "planId": "78eba9f523a7d0dc5c867719",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしたからな"
+              },
+              {
+                "id": "8bba0820d1cd5aa87010a1cc",
+                "planId": "0103200184e153d2684279ad",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました"
+              },
+              {
+                "id": "5ea9b5f6106e3537901efa84",
+                "planId": "e88cd431495021ae68903ba0",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにした"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4033b6e4ee36fe8b053a0432",
+                "planId": "10c921e38abd96ff0127afe0",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしたからな"
+              },
+              {
+                "id": "8bba0820d1cd5aa87010a1cc",
+                "planId": "ec779971584d7a39e0538b8f",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました"
+              },
+              {
+                "id": "5ea9b5f6106e3537901efa84",
+                "planId": "09260b5654c2bea693d36b26",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにした"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M01-A",
+        "source": "見栄えのよい資料を作るのはまだ苦手ですが、私が担当した会議用の集計表は、昨日のうちに全ページの数値を確認しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M01",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly assesses their own document presentation skills as still weak.",
+            "The speaker checked the numbers on every page of the meeting summary table they were responsible for.",
+            "The checking was completed yesterday."
+          ],
+          "forbidden": [
+            "Do not turn the completed check into authorship, correction, approval, or proven numerical accuracy.",
+            "Do not attribute the checking or self-assessment to a colleague.",
+            "Do not invent compliments, criticism, or broader claims of competence."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0b5e8c81987a568d06b5e221",
+                "planId": "bbf3711235670c452ce77932",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認したからな"
+              },
+              {
+                "id": "c5f1182e313a2b5f741f2814",
+                "planId": "738d1a3e4c59f37552185535",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認しました"
+              },
+              {
+                "id": "2460e784057a8b1e4f08d6bf",
+                "planId": "6350d6bb211fd9d30b594e6c",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0b5e8c81987a568d06b5e221",
+                "planId": "664c7b35363f6f9522becac8",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認したからな"
+              },
+              {
+                "id": "c5f1182e313a2b5f741f2814",
+                "planId": "6022442d5b3a2f55575cf46e",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認しました"
+              },
+              {
+                "id": "2460e784057a8b1e4f08d6bf",
+                "planId": "9a8997a64c4462d12315c047",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M01-B",
+        "source": "資料の見栄えを整えるのはまだ得意ではありません。それでも、担当した会議用集計表の全ページの数値は、私が昨日確認しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M01",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly assesses their own document presentation skills as still weak.",
+            "The speaker checked the numbers on every page of the meeting summary table they were responsible for.",
+            "The checking was completed yesterday."
+          ],
+          "forbidden": [
+            "Do not turn the completed check into authorship, correction, approval, or proven numerical accuracy.",
+            "Do not attribute the checking or self-assessment to a colleague.",
+            "Do not invent compliments, criticism, or broader claims of competence."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "757d9be8465ac7833b1e3b50",
+                "planId": "75bf95773e13a4005f3d6997",
+                "text": "資料の見栄えを整えるのはまだ得意ではありません\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "73fb32d0f1ec5e636ca55897",
+                "planId": "b6208f41eb34ece67f4070d1",
+                "text": "資料の見栄えを整えるのはまだ得意ではないからな\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "ca8b8dda7bdc87edb7fe6b36",
+                "planId": "6f409162799f21f3ca92ad3d",
+                "text": "資料の見栄えを整えるのはまだ得意ではない\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "757d9be8465ac7833b1e3b50",
+                "planId": "504e75ad13f80e15596c5a65",
+                "text": "資料の見栄えを整えるのはまだ得意ではありません\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "73fb32d0f1ec5e636ca55897",
+                "planId": "57e81a34b129ed13a241ed3a",
+                "text": "資料の見栄えを整えるのはまだ得意ではないからな\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "ca8b8dda7bdc87edb7fe6b36",
+                "planId": "7d7edc2ff653e7cdd5ada40a",
+                "text": "資料の見栄えを整えるのはまだ得意ではない\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M02-A",
+        "source": "私は料理の腕にあまり自信がありませんが、今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M02",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly has little confidence in their own cooking.",
+            "The speaker made today's dinner curry alone.",
+            "The speaker also completed the cleanup after eating."
+          ],
+          "forbidden": [
+            "Do not weaken either completed action into only a plan or an attempt.",
+            "Do not claim the food was tasty, praised, or served to any unspecified person.",
+            "Do not invent an opponent or a further domestic achievement."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "01e013ed9689d21ca95c89d8",
+                "planId": "2acb2a5c526a2e7c52b22ace",
+                "text": "俺は料理の腕にあまり自信がありませんが今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "01e013ed9689d21ca95c89d8",
+                "planId": "89b6130d6b4cc1b3ca8e213a",
+                "text": "俺は料理の腕にあまり自信がありませんが今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M02-B",
+        "source": "料理はあまり自信のない私ですが、今日の夕食のカレーは自分一人で作りました。食後の片づけも終えています。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M02",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly has little confidence in their own cooking.",
+            "The speaker made today's dinner curry alone.",
+            "The speaker also completed the cleanup after eating."
+          ],
+          "forbidden": [
+            "Do not weaken either completed action into only a plan or an attempt.",
+            "Do not claim the food was tasty, praised, or served to any unspecified person.",
+            "Do not invent an opponent or a further domestic achievement."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "5f8939fa21fff260dd287a0b",
+                "planId": "9dc8b8a8500ee42c608940aa",
+                "text": "料理はあまり自信のない俺ですが今日の夕食のカレーは自分一人で作りました\n食後の片づけも終えています"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "5f8939fa21fff260dd287a0b",
+                "planId": "21df69aa3ac78a3e95558383",
+                "text": "料理はあまり自信のない俺ですが今日の夕食のカレーは自分一人で作りました\n食後の片づけも終えています"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M03-A",
+        "source": "私は説明がうまいほうではありませんが、同僚から頼まれた操作手順のメモは、今朝、私が書いて共有しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M03",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly considers themself not particularly good at explaining.",
+            "A colleague requested an operating-procedure memo.",
+            "The speaker wrote and shared that memo this morning."
+          ],
+          "forbidden": [
+            "Do not transfer authorship or sharing to the colleague.",
+            "Do not turn a completed memo into a future task or claim it was well received.",
+            "Do not add praise, an adversary, or an additional action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8105340b3c71a278bb86a62",
+                "planId": "a66947f9707764fb789e0ab2",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有しました"
+              },
+              {
+                "id": "e46b3a45911e887fe8ed00c6",
+                "planId": "94840cca88367d3cfb7065f7",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有したからな"
+              },
+              {
+                "id": "fcb4333a1af455896b78e7f8",
+                "planId": "cfacd28a378e232a888db5ab",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8105340b3c71a278bb86a62",
+                "planId": "e591057f44fa5650b7685b9c",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有しました"
+              },
+              {
+                "id": "e46b3a45911e887fe8ed00c6",
+                "planId": "e4af7db251d4c2312b92942f",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有したからな"
+              },
+              {
+                "id": "fcb4333a1af455896b78e7f8",
+                "planId": "052d66a0bb6acb87f07565c0",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M03-B",
+        "source": "説明上手とは言えない私ですが、同僚に依頼された操作手順のメモを今朝書き上げ、私から共有しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M03",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly considers themself not particularly good at explaining.",
+            "A colleague requested an operating-procedure memo.",
+            "The speaker wrote and shared that memo this morning."
+          ],
+          "forbidden": [
+            "Do not transfer authorship or sharing to the colleague.",
+            "Do not turn a completed memo into a future task or claim it was well received.",
+            "Do not add praise, an adversary, or an additional action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "633a1eb7c4d91b27558cd33f",
+                "planId": "ede67806bc7ce27af2b2382a",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有しました"
+              },
+              {
+                "id": "0d98debbc772b00675826df9",
+                "planId": "aa9cb205e91bbcc3c87a5404",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有したからな"
+              },
+              {
+                "id": "99960a65e3f83d2328d622dc",
+                "planId": "8c5be9311af8b3abe2e4d88c",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "633a1eb7c4d91b27558cd33f",
+                "planId": "9ad9137aeca558f7c00adfc5",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有しました"
+              },
+              {
+                "id": "0d98debbc772b00675826df9",
+                "planId": "19e48e6c2d992072c9451270",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有したからな"
+              },
+              {
+                "id": "99960a65e3f83d2328d622dc",
+                "planId": "abce84b751baff219e70b29d",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E01-A",
+        "source": "新しい梱包材で破損が減ったという説明について、先月と今月の配送事故記録を並べ、根拠が分かるように見せてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E01",
+        "expected": {
+          "preserve": [
+            "The target is the reported claim that new packaging reduced damage.",
+            "The speaker requests supporting evidence rather than asserting the claim is established.",
+            "The requested evidence is last month's and this month's delivery-incident records, shown side by side."
+          ],
+          "forbidden": [
+            "Do not omit either month, the named records, or the side-by-side presentation request.",
+            "Do not fabricate a damage rate, causal finding, or already performed comparison.",
+            "Do not accuse the claimant of dishonesty or invent an opposing position."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8b5a9d8ee64950c60fc0a99",
+                "planId": "6d7420281c6e5f11cecbd531",
+                "text": "新しい梱包材で破損が減ったという説明について先月と今月の配送事故記録を並べ、根拠が分かるように見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8b5a9d8ee64950c60fc0a99",
+                "planId": "d879aa5150631398a61b30b9",
+                "text": "新しい梱包材で破損が減ったという説明について先月と今月の配送事故記録を並べ、根拠が分かるように見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E01-B",
+        "source": "新しい梱包材に替えて破損が減ったとのことですが、裏づけを確かめたいです。先月分と今月分の配送事故記録を並べて見せてもらえますか。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E01",
+        "expected": {
+          "preserve": [
+            "The target is the reported claim that new packaging reduced damage.",
+            "The speaker requests supporting evidence rather than asserting the claim is established.",
+            "The requested evidence is last month's and this month's delivery-incident records, shown side by side."
+          ],
+          "forbidden": [
+            "Do not omit either month, the named records, or the side-by-side presentation request.",
+            "Do not fabricate a damage rate, causal finding, or already performed comparison.",
+            "Do not accuse the claimant of dishonesty or invent an opposing position."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "fdd4dda66f509671069d1fc2",
+                "planId": "87523e261b51ebb69dec572c",
+                "text": "新しい梱包材に替えて破損が減ったとのことですが裏づけを確かめたいです\n先月分と今月分の配送事故記録を並べて見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "fdd4dda66f509671069d1fc2",
+                "planId": "697872b4b4d6b273c51d90e7",
+                "text": "新しい梱包材に替えて破損が減ったとのことですが裏づけを確かめたいです\n先月分と今月分の配送事故記録を並べて見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E02-A",
+        "source": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E02",
+        "expected": {
+          "preserve": [
+            "The proposal being questioned claims shorter meetings will reduce overtime.",
+            "The speaker requests evidence for that proposal.",
+            "The requested action is to open the trial-period attendance summary table for the speaker to inspect."
+          ],
+          "forbidden": [
+            "Do not reduce the request to a generic demand for evidence while losing the table and requested inspection.",
+            "Do not claim the table proves the proposal or invent a trial result.",
+            "Do not replace the trial period or introduce blame, praise, or a new operational commitment."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "26a6f3d43a98087b0a70c7a0",
+                "planId": "e051c62212086265cf087884",
+                "text": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "26a6f3d43a98087b0a70c7a0",
+                "planId": "a294fc1187f5b3f2d9908438",
+                "text": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E02-B",
+        "source": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか。試行期間の勤怠集計表を開いて、私に見せてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E02",
+        "expected": {
+          "preserve": [
+            "The proposal being questioned claims shorter meetings will reduce overtime.",
+            "The speaker requests evidence for that proposal.",
+            "The requested action is to open the trial-period attendance summary table for the speaker to inspect."
+          ],
+          "forbidden": [
+            "Do not reduce the request to a generic demand for evidence while losing the table and requested inspection.",
+            "Do not claim the table proves the proposal or invent a trial result.",
+            "Do not replace the trial period or introduce blame, praise, or a new operational commitment."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0d9505cfd4b45f7e8f7d0288",
+                "planId": "0d5b139c6e323d9dc5e1f36e",
+                "text": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか\n試行期間の勤怠集計表を開いて私に見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0d9505cfd4b45f7e8f7d0288",
+                "planId": "7f79da620102ab0aee44ae1b",
+                "text": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか\n試行期間の勤怠集計表を開いて私に見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E03-A",
+        "source": "この自転車は雨の日でもブレーキがよく利くという説明でしたが、その根拠として、雨天時の制動試験報告書を見せてもらえますか。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E03",
+        "expected": {
+          "preserve": [
+            "The reported claim concerns this bicycle's effective braking even in rain.",
+            "The speaker asks for support for that claim.",
+            "The concrete request is to be shown the wet-weather braking test report."
+          ],
+          "forbidden": [
+            "Do not turn a reported claim into a verified safety guarantee.",
+            "Do not drop the wet-weather condition, the report, or the request to see it.",
+            "Do not invent test measurements, personal testing, praise, or a dispute."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3b5db4f26ffc2a9f0554aba4",
+                "planId": "638bebb88edda3b9d494e993",
+                "text": "この自転車は雨の日でもブレーキがよく利くという説明でしたがその根拠として雨天時の制動試験報告書を見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3b5db4f26ffc2a9f0554aba4",
+                "planId": "41d923fd7eb9721b34368278",
+                "text": "この自転車は雨の日でもブレーキがよく利くという説明でしたがその根拠として雨天時の制動試験報告書を見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E03-B",
+        "source": "雨の日にもこの自転車のブレーキはよく利くと聞きました。裏づけを確認したいので、雨天の制動試験報告書を見せてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E03",
+        "expected": {
+          "preserve": [
+            "The reported claim concerns this bicycle's effective braking even in rain.",
+            "The speaker asks for support for that claim.",
+            "The concrete request is to be shown the wet-weather braking test report."
+          ],
+          "forbidden": [
+            "Do not turn a reported claim into a verified safety guarantee.",
+            "Do not drop the wet-weather condition, the report, or the request to see it.",
+            "Do not invent test measurements, personal testing, praise, or a dispute."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "54aa06ad88c0b03c3972f4a8",
+                "planId": "5c62b161d6d90a481a4658a7",
+                "text": "雨の日にもこの自転車のブレーキはよく利くと聞きました\n裏づけを確認したいので、雨天の制動試験報告書を見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "54aa06ad88c0b03c3972f4a8",
+                "planId": "ef7f03b14aa3c699dd5d2942",
+                "text": "雨の日にもこの自転車のブレーキはよく利くと聞きました\n裏づけを確認したいので、雨天の制動試験報告書を見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C01-A",
+        "source": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました。私はその話を聞いただけです。",
+        "domain": "control",
+        "authoredDomain": "control-quoted-other-person-attribution",
+        "kind": "control",
+        "pairId": "SG3-C01",
+        "expected": {
+          "preserve": [
+            "Sato, inside the reported quotation, gives the modest self-assessment and claims to have completed the notice.",
+            "The narrator only heard Sato's account.",
+            "Keep the notice completion attributed to Sato and within the reported account."
+          ],
+          "forbidden": [
+            "Do not give the narrator either Sato's self-assessment or Sato's accomplishment.",
+            "Do not claim the narrator independently verified, wrote, or completed the notice.",
+            "Do not invent praise or a contrary speaker."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "f8763a44517e9c0530fb8cea",
+                "planId": "edff871a80be170fa931fb36",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけです"
+              },
+              {
+                "id": "10ece2c40591afe99d11e6dd",
+                "planId": "0747e30047fd6a2dcacda70a",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだからな"
+              },
+              {
+                "id": "bb45df05737965745234a713",
+                "planId": "f7f7eb1bd61db2d4c4346838",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "f8763a44517e9c0530fb8cea",
+                "planId": "5d05212402fcee6e181154f2",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけです"
+              },
+              {
+                "id": "10ece2c40591afe99d11e6dd",
+                "planId": "f7fca441ec536c3c25b26bb3",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだからな"
+              },
+              {
+                "id": "bb45df05737965745234a713",
+                "planId": "937cc9eefa8a23eb3fa64a04",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C01-B",
+        "source": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました。私自身は聞いただけです。",
+        "domain": "control",
+        "authoredDomain": "control-quoted-other-person-attribution",
+        "kind": "control",
+        "pairId": "SG3-C01",
+        "expected": {
+          "preserve": [
+            "Sato, inside the reported quotation, gives the modest self-assessment and claims to have completed the notice.",
+            "The narrator only heard Sato's account.",
+            "Keep the notice completion attributed to Sato and within the reported account."
+          ],
+          "forbidden": [
+            "Do not give the narrator either Sato's self-assessment or Sato's accomplishment.",
+            "Do not claim the narrator independently verified, wrote, or completed the notice.",
+            "Do not invent praise or a contrary speaker."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "7b22bad3d9efba569900c8f7",
+                "planId": "ee40473d20a49b90a070476d",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけです"
+              },
+              {
+                "id": "a0c9dc9dd3d27970a0dd2a14",
+                "planId": "acf4c1a058692f743b1f0284",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだからな"
+              },
+              {
+                "id": "d8db9da3f0f39ab214d89ebe",
+                "planId": "49b2dd410b7dbe2f70918e55",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "7b22bad3d9efba569900c8f7",
+                "planId": "604b71b81588a70a37e6c7e6",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけです"
+              },
+              {
+                "id": "a0c9dc9dd3d27970a0dd2a14",
+                "planId": "dfe48e826962c7423535bcac",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだからな"
+              },
+              {
+                "id": "d8db9da3f0f39ab214d89ebe",
+                "planId": "ef05e79173e73de842f57010",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C02-A",
+        "source": "今日の打ち合わせを延期したのは、資料が足りなかったからではありません。担当者が急に休むことになったためです。",
+        "domain": "control",
+        "authoredDomain": "control-negated-cause-scope",
+        "kind": "control",
+        "pairId": "SG3-C02",
+        "expected": {
+          "preserve": [
+            "Today's meeting was postponed.",
+            "Insufficient materials are explicitly denied as the reason for postponement.",
+            "The stated reason is the person in charge unexpectedly having to take time off."
+          ],
+          "forbidden": [
+            "Do not make insufficient materials the cause or deny that postponement occurred.",
+            "Do not infer that all materials were sufficient from denial of that causal explanation.",
+            "Do not invent illness, fault, blame, or a replacement meeting date."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "cf0acb0835d588d38cd35fca",
+                "planId": "d81d97027e04d74935c61830",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだ"
+              },
+              {
+                "id": "5220030bed41c9d33b562b9b",
+                "planId": "ccedfe0a31d0732733641558",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためです"
+              },
+              {
+                "id": "40ae6169041dea94c8983060",
+                "planId": "49084680d710cc7b9e3716b0",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだからな"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "cf0acb0835d588d38cd35fca",
+                "planId": "8e4bf8fc299a8045bd1af796",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだ"
+              },
+              {
+                "id": "5220030bed41c9d33b562b9b",
+                "planId": "d088f67b3f18b63e0ee14092",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためです"
+              },
+              {
+                "id": "40ae6169041dea94c8983060",
+                "planId": "a1b9a2d77cf266033e8f4e94",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだからな"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C02-B",
+        "source": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました。",
+        "domain": "control",
+        "authoredDomain": "control-negated-cause-scope",
+        "kind": "control",
+        "pairId": "SG3-C02",
+        "expected": {
+          "preserve": [
+            "Today's meeting was postponed.",
+            "Insufficient materials are explicitly denied as the reason for postponement.",
+            "The stated reason is the person in charge unexpectedly having to take time off."
+          ],
+          "forbidden": [
+            "Do not make insufficient materials the cause or deny that postponement occurred.",
+            "Do not infer that all materials were sufficient from denial of that causal explanation.",
+            "Do not invent illness, fault, blame, or a replacement meeting date."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b075af96396c840487d4f855",
+                "planId": "982460cace1ddee53972a1e0",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました"
+              },
+              {
+                "id": "715b67ad28139bf94dec223e",
+                "planId": "b3ad92940a7f8b0aeb5e6421",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期したからな"
+              },
+              {
+                "id": "ba05db28b6c1397086549d7a",
+                "planId": "813ccb295daadb44e1c199f0",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b075af96396c840487d4f855",
+                "planId": "b6ddaa3137e74d5493fa7f09",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました"
+              },
+              {
+                "id": "715b67ad28139bf94dec223e",
+                "planId": "a860a7492916c168d69f4fa3",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期したからな"
+              },
+              {
+                "id": "ba05db28b6c1397086549d7a",
+                "planId": "e6980b6731ac90f4cca5ee02",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C03-A",
+        "source": "頼まれていた五件の領収書の確認は、二件だけ終わりました。残り三件はまだ確認中なので、全部済んだとは言えません。",
+        "domain": "control",
+        "authoredDomain": "control-quantity-and-completion-boundary",
+        "kind": "control",
+        "pairId": "SG3-C03",
+        "expected": {
+          "preserve": [
+            "The assigned set contains five receipt checks.",
+            "Exactly two checks are completed; the remaining three are still in progress.",
+            "The full set is explicitly not yet complete."
+          ],
+          "forbidden": [
+            "Do not claim all five are completed or that none are completed.",
+            "Do not change the counts, swap completed and pending subsets, or turn ongoing checks into abandoned work.",
+            "Do not invent a deadline, praise, an opponent, or another completed action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "028750cc7e96e8c4b5933612",
+                "planId": "789dec640521955647bfd4ad",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わりました\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              },
+              {
+                "id": "958dc076b9028c89525491c4",
+                "planId": "ecf8ac650f63b155bd2976d4",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わったからな\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              },
+              {
+                "id": "0353a5a8406d228665543869",
+                "planId": "b285e13f257baed494cb74fa",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わった\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "028750cc7e96e8c4b5933612",
+                "planId": "782cab5f89bf60028ec54ccb",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わりました\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              },
+              {
+                "id": "958dc076b9028c89525491c4",
+                "planId": "b8ff9548466f09d14a4af1f3",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わったからな\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              },
+              {
+                "id": "0353a5a8406d228665543869",
+                "planId": "832b627c27776480817170e9",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わった\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C03-B",
+        "source": "依頼された領収書五件のうち、確認を終えたのは二件です。三件は確認中のため、五件すべてが完了したわけではありません。",
+        "domain": "control",
+        "authoredDomain": "control-quantity-and-completion-boundary",
+        "kind": "control",
+        "pairId": "SG3-C03",
+        "expected": {
+          "preserve": [
+            "The assigned set contains five receipt checks.",
+            "Exactly two checks are completed; the remaining three are still in progress.",
+            "The full set is explicitly not yet complete."
+          ],
+          "forbidden": [
+            "Do not claim all five are completed or that none are completed.",
+            "Do not change the counts, swap completed and pending subsets, or turn ongoing checks into abandoned work.",
+            "Do not invent a deadline, praise, an opponent, or another completed action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "79968341a020f1a544c725c3",
+                "planId": "104cd465749184cb5cf6c473",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件です\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "8488296a603449ff5530838f",
+                "planId": "c2a38bb9a1502aa1d2d6fe11",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だからな\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "b0c70f7dc1672c0788873853",
+                "planId": "ab84279c0e825258e7de7351",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だ\n三件は確認中のため、五件すべてが完了したわけではありません"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "79968341a020f1a544c725c3",
+                "planId": "7a34b9aea3ad140cc7995db4",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件です\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "8488296a603449ff5530838f",
+                "planId": "93a3baff7f46dd2f9a98a7d2",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だからな\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "b0c70f7dc1672c0788873853",
+                "planId": "880a1dbe4da606dd1cff612c",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だ\n三件は確認中のため、五件すべてが完了したわけではありません"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      }
+    ]
+  },
+  "after": {
+    "all": {
+      "cases": 24,
+      "requests": 48,
+      "structuralPoolCases": 2,
+      "structuralDisplayedCases": 2,
+      "anyBodyPoolCases": 2,
+      "anyBodyDisplayedCases": 2,
+      "domainMatchedBodyPoolCases": 2,
+      "domainMatchedBodyDisplayedCases": 2,
+      "bodyPoolCaseIds": [
+        "SG3-R02-A",
+        "SG3-C03-A"
+      ],
+      "bodyDisplayedCaseIds": [
+        "SG3-R02-A",
+        "SG3-C03-A"
+      ],
+      "noBodyPoolCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B",
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B",
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-B"
+      ]
+    },
+    "ordinary": {
+      "cases": 18,
+      "requests": 36,
+      "structuralPoolCases": 1,
+      "structuralDisplayedCases": 1,
+      "anyBodyPoolCases": 1,
+      "anyBodyDisplayedCases": 1,
+      "domainMatchedBodyPoolCases": 1,
+      "domainMatchedBodyDisplayedCases": 1,
+      "bodyPoolCaseIds": [
+        "SG3-R02-A"
+      ],
+      "bodyDisplayedCaseIds": [
+        "SG3-R02-A"
+      ],
+      "noBodyPoolCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B",
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B",
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B"
+      ]
+    },
+    "controls": {
+      "cases": 6,
+      "requests": 12,
+      "structuralPoolCases": 1,
+      "structuralDisplayedCases": 1,
+      "anyBodyPoolCases": 1,
+      "anyBodyDisplayedCases": 1,
+      "domainMatchedBodyPoolCases": 1,
+      "domainMatchedBodyDisplayedCases": 1,
+      "bodyPoolCaseIds": [
+        "SG3-C03-A"
+      ],
+      "bodyDisplayedCaseIds": [
+        "SG3-C03-A"
+      ],
+      "noBodyPoolCaseIds": [
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-C01-A",
+        "SG3-C01-B",
+        "SG3-C02-A",
+        "SG3-C02-B",
+        "SG3-C03-B"
+      ]
+    },
+    "domain": {
+      "reason": {
+        "cases": 6,
+        "requests": 12,
+        "structuralPoolCases": 1,
+        "structuralDisplayedCases": 1,
+        "anyBodyPoolCases": 1,
+        "anyBodyDisplayedCases": 1,
+        "domainMatchedBodyPoolCases": 1,
+        "domainMatchedBodyDisplayedCases": 1,
+        "bodyPoolCaseIds": [
+          "SG3-R02-A"
+        ],
+        "bodyDisplayedCaseIds": [
+          "SG3-R02-A"
+        ],
+        "noBodyPoolCaseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "noBodyDisplayCaseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B",
+          "SG3-R02-B",
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ]
+      },
+      "modesty": {
+        "cases": 6,
+        "requests": 12,
+        "structuralPoolCases": 0,
+        "structuralDisplayedCases": 0,
+        "anyBodyPoolCases": 0,
+        "anyBodyDisplayedCases": 0,
+        "domainMatchedBodyPoolCases": 0,
+        "domainMatchedBodyDisplayedCases": 0,
+        "bodyPoolCaseIds": [],
+        "bodyDisplayedCaseIds": [],
+        "noBodyPoolCaseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "noBodyDisplayCaseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B",
+          "SG3-M02-A",
+          "SG3-M02-B",
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ]
+      },
+      "evidence-request": {
+        "cases": 6,
+        "requests": 12,
+        "structuralPoolCases": 0,
+        "structuralDisplayedCases": 0,
+        "anyBodyPoolCases": 0,
+        "anyBodyDisplayedCases": 0,
+        "domainMatchedBodyPoolCases": 0,
+        "domainMatchedBodyDisplayedCases": 0,
+        "bodyPoolCaseIds": [],
+        "bodyDisplayedCaseIds": [],
+        "noBodyPoolCaseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "noBodyDisplayCaseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B",
+          "SG3-E02-A",
+          "SG3-E02-B",
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ]
+      }
+    },
+    "pairs": {
+      "SG3-R01": {
+        "domain": "reason",
+        "caseIds": [
+          "SG3-R01-A",
+          "SG3-R01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-R02": {
+        "domain": "reason",
+        "caseIds": [
+          "SG3-R02-A",
+          "SG3-R02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": true,
+        "anyDomainMatchedDisplayed": true
+      },
+      "SG3-R03": {
+        "domain": "reason",
+        "caseIds": [
+          "SG3-R03-A",
+          "SG3-R03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-M01": {
+        "domain": "modesty",
+        "caseIds": [
+          "SG3-M01-A",
+          "SG3-M01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-M02": {
+        "domain": "modesty",
+        "caseIds": [
+          "SG3-M02-A",
+          "SG3-M02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-M03": {
+        "domain": "modesty",
+        "caseIds": [
+          "SG3-M03-A",
+          "SG3-M03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-E01": {
+        "domain": "evidence-request",
+        "caseIds": [
+          "SG3-E01-A",
+          "SG3-E01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-E02": {
+        "domain": "evidence-request",
+        "caseIds": [
+          "SG3-E02-A",
+          "SG3-E02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-E03": {
+        "domain": "evidence-request",
+        "caseIds": [
+          "SG3-E03-A",
+          "SG3-E03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-C01": {
+        "domain": "control",
+        "caseIds": [
+          "SG3-C01-A",
+          "SG3-C01-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-C02": {
+        "domain": "control",
+        "caseIds": [
+          "SG3-C02-A",
+          "SG3-C02-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": false,
+        "anyDomainMatchedDisplayed": false
+      },
+      "SG3-C03": {
+        "domain": "control",
+        "caseIds": [
+          "SG3-C03-A",
+          "SG3-C03-B"
+        ],
+        "bothDomainMatchedPool": false,
+        "bothDomainMatchedDisplayed": false,
+        "anyDomainMatchedPool": true,
+        "anyDomainMatchedDisplayed": true
+      }
+    },
+    "pairSummary": {
+      "allPairs": 12,
+      "ordinaryPairs": 9,
+      "bothOrdinaryPool": 0,
+      "bothOrdinaryDisplayed": 0
+    },
+    "rows": [
+      {
+        "id": "SG3-R01-A",
+        "source": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R01",
+        "expected": {
+          "preserve": [
+            "The warehouse inspection is scheduled for the morning and is the stated reason.",
+            "The speaker plans to ask for delivery receipt at or after 3 p.m.",
+            "The request remains an intended future action, not an already completed arrangement."
+          ],
+          "forbidden": [
+            "Do not claim that receipt has already been rescheduled or completed.",
+            "Do not remove the morning inspection, the 3 p.m. threshold, or the future-plan modality.",
+            "Do not add praise, an opponent, a complaint, or a new action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3de5f1af8ca7e47143ae7bf0",
+                "planId": "19c16fb7fdc09212785f1e66",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だ"
+              },
+              {
+                "id": "edfe05b9b7a5188268ed28e2",
+                "planId": "af0703f4eb7e8ecda8aa7f47",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です"
+              },
+              {
+                "id": "99831934a02ca63c43637149",
+                "planId": "03479b59205dccc348460ee2",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だからな"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3de5f1af8ca7e47143ae7bf0",
+                "planId": "638c40a67c5f52fcf371c5a6",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だ"
+              },
+              {
+                "id": "edfe05b9b7a5188268ed28e2",
+                "planId": "dbf76f9ee34d23ee13b71c12",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定です"
+              },
+              {
+                "id": "99831934a02ca63c43637149",
+                "planId": "579d68f79fddf40948eb87ee",
+                "text": "午前中は倉庫の点検が入るため、納品物の受け取りは午後三時以降にお願いする予定だからな"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R01-B",
+        "source": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R01",
+        "expected": {
+          "preserve": [
+            "The warehouse inspection is scheduled for the morning and is the stated reason.",
+            "The speaker plans to ask for delivery receipt at or after 3 p.m.",
+            "The request remains an intended future action, not an already completed arrangement."
+          ],
+          "forbidden": [
+            "Do not claim that receipt has already been rescheduled or completed.",
+            "Do not remove the morning inspection, the 3 p.m. threshold, or the future-plan modality.",
+            "Do not add praise, an opponent, a complaint, or a new action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3cb46a2967006817695df8de",
+                "planId": "8e907ca5b14852d5fa203f71",
+                "text": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3cb46a2967006817695df8de",
+                "planId": "f117c12f84113d439000b1a9",
+                "text": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R02-A",
+        "source": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R02",
+        "expected": {
+          "preserve": [
+            "All drawings needed for the equipment layout proposal are available.",
+            "Their availability is the explicit reason the speaker can prepare the proposal today.",
+            "Preparing the proposal today is an ability, not a completed action or unconditional promise."
+          ],
+          "forbidden": [
+            "Do not claim that the proposal has already been made or approved.",
+            "Do not convert ability into certainty, obligation, or a firm undertaking.",
+            "Do not add missing materials, praise, an opponent, or another task."
+          ]
+        },
+        "anyBodyPool": true,
+        "anyBodyDisplayed": true,
+        "domainMatchedBodyPool": true,
+        "domainMatchedBodyDisplayed": true,
+        "structuralPool": true,
+        "structuralDisplayed": true,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 1,
+            "structuralDisplayed": 1,
+            "anyBodyPool": 1,
+            "anyBodyDisplayed": 1,
+            "domainMatchedBodyPool": 1,
+            "domainMatchedBodyDisplayed": 1,
+            "selected": [
+              {
+                "id": "b9df652e8169163756d7c3b9",
+                "planId": "5e46febc82cd5c58007bcbf4",
+                "text": "機器の配置案なら今日中に作成できる。何故かというと必要な図面はすべて手元にそろっているからだ。"
+              },
+              {
+                "id": "cb4e09d2802c10d3d774342f",
+                "planId": "5911d8225da88f76d8827ad1",
+                "text": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます"
+              }
+            ],
+            "structuralCandidates": [
+              {
+                "text": "機器の配置案なら今日中に作成できる。何故かというと必要な図面はすべて手元にそろっているからだ。",
+                "displayOrdinal": 1,
+                "classification": "body-composition",
+                "domainMatched": true,
+                "independentBoundedProof": true,
+                "blocks": [
+                  {
+                    "operatorId": "reason-explanation",
+                    "realizationId": "assertion-then-explanation",
+                    "kind": "reason-claim",
+                    "sourceForm": "causal-clause",
+                    "sourceSpan": {
+                      "start": 0,
+                      "end": 40
+                    },
+                    "roles": [
+                      "claim",
+                      "reason"
+                    ],
+                    "emittedRoleOrder": [
+                      "claim",
+                      "claim",
+                      "reason"
+                    ],
+                    "sourceRoleOrder": [
+                      "reason",
+                      "claim"
+                    ],
+                    "sourceRoleOrderInverted": true,
+                    "actualBlockChanged": true,
+                    "sourceBlockText": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます。",
+                    "outputBlockText": "機器の配置案なら今日中に作成できる。何故かというと必要な図面はすべて手元にそろっているからだ。",
+                    "sourceBoundOrderInverted": true,
+                    "copiedOrderInverted": true,
+                    "sourceSentenceCount": 1,
+                    "outputGroupCount": 2,
+                    "groupingChange": 1,
+                    "slotPartition": [
+                      {
+                        "role": "reason",
+                        "span": {
+                          "start": 0,
+                          "end": 18
+                        },
+                        "spans": [
+                          {
+                            "start": 0,
+                            "end": 18
+                          }
+                        ],
+                        "pass": true
+                      },
+                      {
+                        "role": "claim",
+                        "span": {
+                          "start": 21,
+                          "end": 39
+                        },
+                        "spans": [
+                          {
+                            "start": 21,
+                            "end": 35
+                          },
+                          {
+                            "start": 35,
+                            "end": 39
+                          }
+                        ],
+                        "pass": true
+                      }
+                    ],
+                    "slotsCoveredExactlyOnce": true,
+                    "provenanceValid": true,
+                    "formIds": [
+                      "grammar:polite-predicate",
+                      "sentence-boundary",
+                      "explanatory-turn",
+                      "source-cause-close"
+                    ],
+                    "evidenceIds": [
+                      "post_01041_a61029816407677b_3227",
+                      "post_02278_620a09e0e0aee5cd_8838",
+                      "post_02421_ef97fdc26a351d5a_9490",
+                      "post_02331_21fb0e747871e8fb_9047"
+                    ],
+                    "bodyComposition": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 1,
+            "structuralDisplayed": 1,
+            "anyBodyPool": 1,
+            "anyBodyDisplayed": 1,
+            "domainMatchedBodyPool": 1,
+            "domainMatchedBodyDisplayed": 1,
+            "selected": [
+              {
+                "id": "b9df652e8169163756d7c3b9",
+                "planId": "8086fd2768c71df74a6f2aea",
+                "text": "機器の配置案なら今日中に作成できる。何故かというと必要な図面はすべて手元にそろっているからだ。"
+              },
+              {
+                "id": "cb4e09d2802c10d3d774342f",
+                "planId": "584947a0496368e307571c17",
+                "text": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます"
+              }
+            ],
+            "structuralCandidates": [
+              {
+                "text": "機器の配置案なら今日中に作成できる。何故かというと必要な図面はすべて手元にそろっているからだ。",
+                "displayOrdinal": 1,
+                "classification": "body-composition",
+                "domainMatched": true,
+                "independentBoundedProof": true,
+                "blocks": [
+                  {
+                    "operatorId": "reason-explanation",
+                    "realizationId": "assertion-then-explanation",
+                    "kind": "reason-claim",
+                    "sourceForm": "causal-clause",
+                    "sourceSpan": {
+                      "start": 0,
+                      "end": 40
+                    },
+                    "roles": [
+                      "claim",
+                      "reason"
+                    ],
+                    "emittedRoleOrder": [
+                      "claim",
+                      "claim",
+                      "reason"
+                    ],
+                    "sourceRoleOrder": [
+                      "reason",
+                      "claim"
+                    ],
+                    "sourceRoleOrderInverted": true,
+                    "actualBlockChanged": true,
+                    "sourceBlockText": "必要な図面はすべて手元にそろっているので、機器の配置案なら今日中に作成できます。",
+                    "outputBlockText": "機器の配置案なら今日中に作成できる。何故かというと必要な図面はすべて手元にそろっているからだ。",
+                    "sourceBoundOrderInverted": true,
+                    "copiedOrderInverted": true,
+                    "sourceSentenceCount": 1,
+                    "outputGroupCount": 2,
+                    "groupingChange": 1,
+                    "slotPartition": [
+                      {
+                        "role": "reason",
+                        "span": {
+                          "start": 0,
+                          "end": 18
+                        },
+                        "spans": [
+                          {
+                            "start": 0,
+                            "end": 18
+                          }
+                        ],
+                        "pass": true
+                      },
+                      {
+                        "role": "claim",
+                        "span": {
+                          "start": 21,
+                          "end": 39
+                        },
+                        "spans": [
+                          {
+                            "start": 21,
+                            "end": 35
+                          },
+                          {
+                            "start": 35,
+                            "end": 39
+                          }
+                        ],
+                        "pass": true
+                      }
+                    ],
+                    "slotsCoveredExactlyOnce": true,
+                    "provenanceValid": true,
+                    "formIds": [
+                      "grammar:polite-predicate",
+                      "sentence-boundary",
+                      "explanatory-turn",
+                      "source-cause-close"
+                    ],
+                    "evidenceIds": [
+                      "post_01041_a61029816407677b_3227",
+                      "post_02278_620a09e0e0aee5cd_8838",
+                      "post_02421_ef97fdc26a351d5a_9490",
+                      "post_02331_21fb0e747871e8fb_9047"
+                    ],
+                    "bodyComposition": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SG3-R02-B",
+        "source": "機器の配置案に必要な図面は全部そろっています。そのため、今日のうちに配置案を作ることができます。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R02",
+        "expected": {
+          "preserve": [
+            "All drawings needed for the equipment layout proposal are available.",
+            "Their availability is the explicit reason the speaker can prepare the proposal today.",
+            "Preparing the proposal today is an ability, not a completed action or unconditional promise."
+          ],
+          "forbidden": [
+            "Do not claim that the proposal has already been made or approved.",
+            "Do not convert ability into certainty, obligation, or a firm undertaking.",
+            "Do not add missing materials, praise, an opponent, or another task."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "ad025d6e07275025c00638bf",
+                "planId": "82a375b2c76eb06def9b8306",
+                "text": "機器の配置案に必要な図面は全部そろっています\nそのため、今日のうちに配置案を作ることができます"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "ad025d6e07275025c00638bf",
+                "planId": "4912ea28daef623500594274",
+                "text": "機器の配置案に必要な図面は全部そろっています\nそのため、今日のうちに配置案を作ることができます"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R03-A",
+        "source": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R03",
+        "expected": {
+          "preserve": [
+            "Last night's rain has made the footpath muddy.",
+            "Because of this condition, the speaker decided to avoid the riverside for this morning's walk.",
+            "The chosen alternative is the paved shopping street."
+          ],
+          "forbidden": [
+            "Do not say that the walk has already been completed or cancelled.",
+            "Do not replace the stated weather and path condition with another reason.",
+            "Do not add criticism of another person or praise for the decision."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4e4d01bdf879d8029dd220bb",
+                "planId": "1da1f4e01c96a4bf5733a539",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしたからな"
+              },
+              {
+                "id": "c9c750ee0ccefb2dd15c99de",
+                "planId": "da12c3cc51ef4931c6e5d284",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました"
+              },
+              {
+                "id": "126ad60f4adfc443bed52755",
+                "planId": "5d921678914e66d8474c05ad",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにした"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4e4d01bdf879d8029dd220bb",
+                "planId": "ff18aa390f20858de8c31204",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしたからな"
+              },
+              {
+                "id": "c9c750ee0ccefb2dd15c99de",
+                "planId": "5171b127d4944182ad702eae",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました"
+              },
+              {
+                "id": "126ad60f4adfc443bed52755",
+                "planId": "f23fa6f745f1f33917414612",
+                "text": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにした"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-R03-B",
+        "source": "遊歩道が昨晩の雨でぬかるんでいます。そこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました。",
+        "domain": "reason",
+        "authoredDomain": "reason-backed-assertion",
+        "kind": "ordinary",
+        "pairId": "SG3-R03",
+        "expected": {
+          "preserve": [
+            "Last night's rain has made the footpath muddy.",
+            "Because of this condition, the speaker decided to avoid the riverside for this morning's walk.",
+            "The chosen alternative is the paved shopping street."
+          ],
+          "forbidden": [
+            "Do not say that the walk has already been completed or cancelled.",
+            "Do not replace the stated weather and path condition with another reason.",
+            "Do not add criticism of another person or praise for the decision."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4033b6e4ee36fe8b053a0432",
+                "planId": "78eba9f523a7d0dc5c867719",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしたからな"
+              },
+              {
+                "id": "8bba0820d1cd5aa87010a1cc",
+                "planId": "0103200184e153d2684279ad",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました"
+              },
+              {
+                "id": "5ea9b5f6106e3537901efa84",
+                "planId": "e88cd431495021ae68903ba0",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにした"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "4033b6e4ee36fe8b053a0432",
+                "planId": "10c921e38abd96ff0127afe0",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしたからな"
+              },
+              {
+                "id": "8bba0820d1cd5aa87010a1cc",
+                "planId": "ec779971584d7a39e0538b8f",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにしました"
+              },
+              {
+                "id": "5ea9b5f6106e3537901efa84",
+                "planId": "09260b5654c2bea693d36b26",
+                "text": "遊歩道が昨晩の雨でぬかるんでいます\nそこで今朝は川沿いには行かず、舗装された商店街を散歩することにした"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M01-A",
+        "source": "見栄えのよい資料を作るのはまだ苦手ですが、私が担当した会議用の集計表は、昨日のうちに全ページの数値を確認しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M01",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly assesses their own document presentation skills as still weak.",
+            "The speaker checked the numbers on every page of the meeting summary table they were responsible for.",
+            "The checking was completed yesterday."
+          ],
+          "forbidden": [
+            "Do not turn the completed check into authorship, correction, approval, or proven numerical accuracy.",
+            "Do not attribute the checking or self-assessment to a colleague.",
+            "Do not invent compliments, criticism, or broader claims of competence."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0b5e8c81987a568d06b5e221",
+                "planId": "bbf3711235670c452ce77932",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認したからな"
+              },
+              {
+                "id": "c5f1182e313a2b5f741f2814",
+                "planId": "738d1a3e4c59f37552185535",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認しました"
+              },
+              {
+                "id": "2460e784057a8b1e4f08d6bf",
+                "planId": "6350d6bb211fd9d30b594e6c",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0b5e8c81987a568d06b5e221",
+                "planId": "664c7b35363f6f9522becac8",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認したからな"
+              },
+              {
+                "id": "c5f1182e313a2b5f741f2814",
+                "planId": "6022442d5b3a2f55575cf46e",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認しました"
+              },
+              {
+                "id": "2460e784057a8b1e4f08d6bf",
+                "planId": "9a8997a64c4462d12315c047",
+                "text": "見栄えのよい資料を作るのはまだ苦手ですが俺が担当した会議用の集計表は昨日のうちに全ページの数値を確認した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M01-B",
+        "source": "資料の見栄えを整えるのはまだ得意ではありません。それでも、担当した会議用集計表の全ページの数値は、私が昨日確認しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M01",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly assesses their own document presentation skills as still weak.",
+            "The speaker checked the numbers on every page of the meeting summary table they were responsible for.",
+            "The checking was completed yesterday."
+          ],
+          "forbidden": [
+            "Do not turn the completed check into authorship, correction, approval, or proven numerical accuracy.",
+            "Do not attribute the checking or self-assessment to a colleague.",
+            "Do not invent compliments, criticism, or broader claims of competence."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "757d9be8465ac7833b1e3b50",
+                "planId": "1896c1ae331e709bc62ca2f8",
+                "text": "資料の見栄えを整えるのはまだ得意ではありません\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "73fb32d0f1ec5e636ca55897",
+                "planId": "72b1519cc73882c41ab7f07b",
+                "text": "資料の見栄えを整えるのはまだ得意ではないからな\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "ca8b8dda7bdc87edb7fe6b36",
+                "planId": "972845e97294fcdcb9ce7c38",
+                "text": "資料の見栄えを整えるのはまだ得意ではない\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "757d9be8465ac7833b1e3b50",
+                "planId": "bdc2631326be12a8ed64cee8",
+                "text": "資料の見栄えを整えるのはまだ得意ではありません\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "73fb32d0f1ec5e636ca55897",
+                "planId": "8a97431d4b062a7cbf5b427b",
+                "text": "資料の見栄えを整えるのはまだ得意ではないからな\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              },
+              {
+                "id": "ca8b8dda7bdc87edb7fe6b36",
+                "planId": "0a1c12a41eb9407ef2ae92c6",
+                "text": "資料の見栄えを整えるのはまだ得意ではない\nそれでも担当した会議用集計表の全ページの数値は私が昨日確認しました"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M02-A",
+        "source": "私は料理の腕にあまり自信がありませんが、今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M02",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly has little confidence in their own cooking.",
+            "The speaker made today's dinner curry alone.",
+            "The speaker also completed the cleanup after eating."
+          ],
+          "forbidden": [
+            "Do not weaken either completed action into only a plan or an attempt.",
+            "Do not claim the food was tasty, praised, or served to any unspecified person.",
+            "Do not invent an opponent or a further domestic achievement."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "01e013ed9689d21ca95c89d8",
+                "planId": "2acb2a5c526a2e7c52b22ace",
+                "text": "俺は料理の腕にあまり自信がありませんが今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "01e013ed9689d21ca95c89d8",
+                "planId": "89b6130d6b4cc1b3ca8e213a",
+                "text": "俺は料理の腕にあまり自信がありませんが今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M02-B",
+        "source": "料理はあまり自信のない私ですが、今日の夕食のカレーは自分一人で作りました。食後の片づけも終えています。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M02",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly has little confidence in their own cooking.",
+            "The speaker made today's dinner curry alone.",
+            "The speaker also completed the cleanup after eating."
+          ],
+          "forbidden": [
+            "Do not weaken either completed action into only a plan or an attempt.",
+            "Do not claim the food was tasty, praised, or served to any unspecified person.",
+            "Do not invent an opponent or a further domestic achievement."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "5f8939fa21fff260dd287a0b",
+                "planId": "9dc8b8a8500ee42c608940aa",
+                "text": "料理はあまり自信のない俺ですが今日の夕食のカレーは自分一人で作りました\n食後の片づけも終えています"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "5f8939fa21fff260dd287a0b",
+                "planId": "21df69aa3ac78a3e95558383",
+                "text": "料理はあまり自信のない俺ですが今日の夕食のカレーは自分一人で作りました\n食後の片づけも終えています"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M03-A",
+        "source": "私は説明がうまいほうではありませんが、同僚から頼まれた操作手順のメモは、今朝、私が書いて共有しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M03",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly considers themself not particularly good at explaining.",
+            "A colleague requested an operating-procedure memo.",
+            "The speaker wrote and shared that memo this morning."
+          ],
+          "forbidden": [
+            "Do not transfer authorship or sharing to the colleague.",
+            "Do not turn a completed memo into a future task or claim it was well received.",
+            "Do not add praise, an adversary, or an additional action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8105340b3c71a278bb86a62",
+                "planId": "a66947f9707764fb789e0ab2",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有しました"
+              },
+              {
+                "id": "e46b3a45911e887fe8ed00c6",
+                "planId": "94840cca88367d3cfb7065f7",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有したからな"
+              },
+              {
+                "id": "fcb4333a1af455896b78e7f8",
+                "planId": "cfacd28a378e232a888db5ab",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8105340b3c71a278bb86a62",
+                "planId": "e591057f44fa5650b7685b9c",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有しました"
+              },
+              {
+                "id": "e46b3a45911e887fe8ed00c6",
+                "planId": "e4af7db251d4c2312b92942f",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有したからな"
+              },
+              {
+                "id": "fcb4333a1af455896b78e7f8",
+                "planId": "052d66a0bb6acb87f07565c0",
+                "text": "俺は説明がうまいほうではありませんが同僚から頼まれた操作手順のメモは今朝、俺が書いて共有した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-M03-B",
+        "source": "説明上手とは言えない私ですが、同僚に依頼された操作手順のメモを今朝書き上げ、私から共有しました。",
+        "domain": "modesty",
+        "authoredDomain": "modesty-with-accomplishment",
+        "kind": "ordinary",
+        "pairId": "SG3-M03",
+        "expected": {
+          "preserve": [
+            "The speaker explicitly considers themself not particularly good at explaining.",
+            "A colleague requested an operating-procedure memo.",
+            "The speaker wrote and shared that memo this morning."
+          ],
+          "forbidden": [
+            "Do not transfer authorship or sharing to the colleague.",
+            "Do not turn a completed memo into a future task or claim it was well received.",
+            "Do not add praise, an adversary, or an additional action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "633a1eb7c4d91b27558cd33f",
+                "planId": "ede67806bc7ce27af2b2382a",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有しました"
+              },
+              {
+                "id": "0d98debbc772b00675826df9",
+                "planId": "aa9cb205e91bbcc3c87a5404",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有したからな"
+              },
+              {
+                "id": "99960a65e3f83d2328d622dc",
+                "planId": "8c5be9311af8b3abe2e4d88c",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "633a1eb7c4d91b27558cd33f",
+                "planId": "9ad9137aeca558f7c00adfc5",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有しました"
+              },
+              {
+                "id": "0d98debbc772b00675826df9",
+                "planId": "19e48e6c2d992072c9451270",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有したからな"
+              },
+              {
+                "id": "99960a65e3f83d2328d622dc",
+                "planId": "abce84b751baff219e70b29d",
+                "text": "説明上手とは言えない俺ですが同僚に依頼された操作手順のメモを今朝書き上げ、俺から共有した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E01-A",
+        "source": "新しい梱包材で破損が減ったという説明について、先月と今月の配送事故記録を並べ、根拠が分かるように見せてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E01",
+        "expected": {
+          "preserve": [
+            "The target is the reported claim that new packaging reduced damage.",
+            "The speaker requests supporting evidence rather than asserting the claim is established.",
+            "The requested evidence is last month's and this month's delivery-incident records, shown side by side."
+          ],
+          "forbidden": [
+            "Do not omit either month, the named records, or the side-by-side presentation request.",
+            "Do not fabricate a damage rate, causal finding, or already performed comparison.",
+            "Do not accuse the claimant of dishonesty or invent an opposing position."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8b5a9d8ee64950c60fc0a99",
+                "planId": "6d7420281c6e5f11cecbd531",
+                "text": "新しい梱包材で破損が減ったという説明について先月と今月の配送事故記録を並べ、根拠が分かるように見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b8b5a9d8ee64950c60fc0a99",
+                "planId": "d879aa5150631398a61b30b9",
+                "text": "新しい梱包材で破損が減ったという説明について先月と今月の配送事故記録を並べ、根拠が分かるように見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E01-B",
+        "source": "新しい梱包材に替えて破損が減ったとのことですが、裏づけを確かめたいです。先月分と今月分の配送事故記録を並べて見せてもらえますか。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E01",
+        "expected": {
+          "preserve": [
+            "The target is the reported claim that new packaging reduced damage.",
+            "The speaker requests supporting evidence rather than asserting the claim is established.",
+            "The requested evidence is last month's and this month's delivery-incident records, shown side by side."
+          ],
+          "forbidden": [
+            "Do not omit either month, the named records, or the side-by-side presentation request.",
+            "Do not fabricate a damage rate, causal finding, or already performed comparison.",
+            "Do not accuse the claimant of dishonesty or invent an opposing position."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "fdd4dda66f509671069d1fc2",
+                "planId": "87523e261b51ebb69dec572c",
+                "text": "新しい梱包材に替えて破損が減ったとのことですが裏づけを確かめたいです\n先月分と今月分の配送事故記録を並べて見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "fdd4dda66f509671069d1fc2",
+                "planId": "697872b4b4d6b273c51d90e7",
+                "text": "新しい梱包材に替えて破損が減ったとのことですが裏づけを確かめたいです\n先月分と今月分の配送事故記録を並べて見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E02-A",
+        "source": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E02",
+        "expected": {
+          "preserve": [
+            "The proposal being questioned claims shorter meetings will reduce overtime.",
+            "The speaker requests evidence for that proposal.",
+            "The requested action is to open the trial-period attendance summary table for the speaker to inspect."
+          ],
+          "forbidden": [
+            "Do not reduce the request to a generic demand for evidence while losing the table and requested inspection.",
+            "Do not claim the table proves the proposal or invent a trial result.",
+            "Do not replace the trial period or introduce blame, praise, or a new operational commitment."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "26a6f3d43a98087b0a70c7a0",
+                "planId": "e051c62212086265cf087884",
+                "text": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "26a6f3d43a98087b0a70c7a0",
+                "planId": "a294fc1187f5b3f2d9908438",
+                "text": "会議を短くすれば残業も減るという提案の根拠を知りたいので、試行期間の勤怠集計表を開き、確認させてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E02-B",
+        "source": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか。試行期間の勤怠集計表を開いて、私に見せてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E02",
+        "expected": {
+          "preserve": [
+            "The proposal being questioned claims shorter meetings will reduce overtime.",
+            "The speaker requests evidence for that proposal.",
+            "The requested action is to open the trial-period attendance summary table for the speaker to inspect."
+          ],
+          "forbidden": [
+            "Do not reduce the request to a generic demand for evidence while losing the table and requested inspection.",
+            "Do not claim the table proves the proposal or invent a trial result.",
+            "Do not replace the trial period or introduce blame, praise, or a new operational commitment."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0d9505cfd4b45f7e8f7d0288",
+                "planId": "0d5b139c6e323d9dc5e1f36e",
+                "text": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか\n試行期間の勤怠集計表を開いて私に見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "0d9505cfd4b45f7e8f7d0288",
+                "planId": "7f79da620102ab0aee44ae1b",
+                "text": "会議時間の短縮で残業が減る、という提案を裏づけるものはありますか\n試行期間の勤怠集計表を開いて私に見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E03-A",
+        "source": "この自転車は雨の日でもブレーキがよく利くという説明でしたが、その根拠として、雨天時の制動試験報告書を見せてもらえますか。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E03",
+        "expected": {
+          "preserve": [
+            "The reported claim concerns this bicycle's effective braking even in rain.",
+            "The speaker asks for support for that claim.",
+            "The concrete request is to be shown the wet-weather braking test report."
+          ],
+          "forbidden": [
+            "Do not turn a reported claim into a verified safety guarantee.",
+            "Do not drop the wet-weather condition, the report, or the request to see it.",
+            "Do not invent test measurements, personal testing, praise, or a dispute."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3b5db4f26ffc2a9f0554aba4",
+                "planId": "638bebb88edda3b9d494e993",
+                "text": "この自転車は雨の日でもブレーキがよく利くという説明でしたがその根拠として雨天時の制動試験報告書を見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "3b5db4f26ffc2a9f0554aba4",
+                "planId": "41d923fd7eb9721b34368278",
+                "text": "この自転車は雨の日でもブレーキがよく利くという説明でしたがその根拠として雨天時の制動試験報告書を見せてもらえますか"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-E03-B",
+        "source": "雨の日にもこの自転車のブレーキはよく利くと聞きました。裏づけを確認したいので、雨天の制動試験報告書を見せてください。",
+        "domain": "evidence-request",
+        "authoredDomain": "source-explicit-evidence-request",
+        "kind": "ordinary",
+        "pairId": "SG3-E03",
+        "expected": {
+          "preserve": [
+            "The reported claim concerns this bicycle's effective braking even in rain.",
+            "The speaker asks for support for that claim.",
+            "The concrete request is to be shown the wet-weather braking test report."
+          ],
+          "forbidden": [
+            "Do not turn a reported claim into a verified safety guarantee.",
+            "Do not drop the wet-weather condition, the report, or the request to see it.",
+            "Do not invent test measurements, personal testing, praise, or a dispute."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "54aa06ad88c0b03c3972f4a8",
+                "planId": "5c62b161d6d90a481a4658a7",
+                "text": "雨の日にもこの自転車のブレーキはよく利くと聞きました\n裏づけを確認したいので、雨天の制動試験報告書を見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "54aa06ad88c0b03c3972f4a8",
+                "planId": "ef7f03b14aa3c699dd5d2942",
+                "text": "雨の日にもこの自転車のブレーキはよく利くと聞きました\n裏づけを確認したいので、雨天の制動試験報告書を見せてください"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C01-A",
+        "source": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました。私はその話を聞いただけです。",
+        "domain": "control",
+        "authoredDomain": "control-quoted-other-person-attribution",
+        "kind": "control",
+        "pairId": "SG3-C01",
+        "expected": {
+          "preserve": [
+            "Sato, inside the reported quotation, gives the modest self-assessment and claims to have completed the notice.",
+            "The narrator only heard Sato's account.",
+            "Keep the notice completion attributed to Sato and within the reported account."
+          ],
+          "forbidden": [
+            "Do not give the narrator either Sato's self-assessment or Sato's accomplishment.",
+            "Do not claim the narrator independently verified, wrote, or completed the notice.",
+            "Do not invent praise or a contrary speaker."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "f8763a44517e9c0530fb8cea",
+                "planId": "edff871a80be170fa931fb36",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけです"
+              },
+              {
+                "id": "10ece2c40591afe99d11e6dd",
+                "planId": "0747e30047fd6a2dcacda70a",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだからな"
+              },
+              {
+                "id": "bb45df05737965745234a713",
+                "planId": "f7f7eb1bd61db2d4c4346838",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "f8763a44517e9c0530fb8cea",
+                "planId": "5d05212402fcee6e181154f2",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけです"
+              },
+              {
+                "id": "10ece2c40591afe99d11e6dd",
+                "planId": "f7fca441ec536c3c25b26bb3",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだからな"
+              },
+              {
+                "id": "bb45df05737965745234a713",
+                "planId": "937cc9eefa8a23eb3fa64a04",
+                "text": "佐藤さんは「文章を書くのは苦手だけれど、今回の案内文は私が仕上げた」と言っていました\n俺はその話を聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C01-B",
+        "source": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました。私自身は聞いただけです。",
+        "domain": "control",
+        "authoredDomain": "control-quoted-other-person-attribution",
+        "kind": "control",
+        "pairId": "SG3-C01",
+        "expected": {
+          "preserve": [
+            "Sato, inside the reported quotation, gives the modest self-assessment and claims to have completed the notice.",
+            "The narrator only heard Sato's account.",
+            "Keep the notice completion attributed to Sato and within the reported account."
+          ],
+          "forbidden": [
+            "Do not give the narrator either Sato's self-assessment or Sato's accomplishment.",
+            "Do not claim the narrator independently verified, wrote, or completed the notice.",
+            "Do not invent praise or a contrary speaker."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "7b22bad3d9efba569900c8f7",
+                "planId": "ee40473d20a49b90a070476d",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけです"
+              },
+              {
+                "id": "a0c9dc9dd3d27970a0dd2a14",
+                "planId": "acf4c1a058692f743b1f0284",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだからな"
+              },
+              {
+                "id": "d8db9da3f0f39ab214d89ebe",
+                "planId": "49b2dd410b7dbe2f70918e55",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "7b22bad3d9efba569900c8f7",
+                "planId": "604b71b81588a70a37e6c7e6",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけです"
+              },
+              {
+                "id": "a0c9dc9dd3d27970a0dd2a14",
+                "planId": "dfe48e826962c7423535bcac",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだからな"
+              },
+              {
+                "id": "d8db9da3f0f39ab214d89ebe",
+                "planId": "ef05e79173e73de842f57010",
+                "text": "「文章は得意ではないけれど、今回の案内文は自分で完成させた」と佐藤さんが話していました\n私自身は聞いただけだ"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C02-A",
+        "source": "今日の打ち合わせを延期したのは、資料が足りなかったからではありません。担当者が急に休むことになったためです。",
+        "domain": "control",
+        "authoredDomain": "control-negated-cause-scope",
+        "kind": "control",
+        "pairId": "SG3-C02",
+        "expected": {
+          "preserve": [
+            "Today's meeting was postponed.",
+            "Insufficient materials are explicitly denied as the reason for postponement.",
+            "The stated reason is the person in charge unexpectedly having to take time off."
+          ],
+          "forbidden": [
+            "Do not make insufficient materials the cause or deny that postponement occurred.",
+            "Do not infer that all materials were sufficient from denial of that causal explanation.",
+            "Do not invent illness, fault, blame, or a replacement meeting date."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "cf0acb0835d588d38cd35fca",
+                "planId": "d81d97027e04d74935c61830",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだ"
+              },
+              {
+                "id": "5220030bed41c9d33b562b9b",
+                "planId": "ccedfe0a31d0732733641558",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためです"
+              },
+              {
+                "id": "40ae6169041dea94c8983060",
+                "planId": "49084680d710cc7b9e3716b0",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだからな"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "cf0acb0835d588d38cd35fca",
+                "planId": "8e4bf8fc299a8045bd1af796",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだ"
+              },
+              {
+                "id": "5220030bed41c9d33b562b9b",
+                "planId": "d088f67b3f18b63e0ee14092",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためです"
+              },
+              {
+                "id": "40ae6169041dea94c8983060",
+                "planId": "a1b9a2d77cf266033e8f4e94",
+                "text": "今日の打ち合わせを延期したのは資料が足りなかったからではありません\n担当者が急に休むことになったためだからな"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C02-B",
+        "source": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました。",
+        "domain": "control",
+        "authoredDomain": "control-negated-cause-scope",
+        "kind": "control",
+        "pairId": "SG3-C02",
+        "expected": {
+          "preserve": [
+            "Today's meeting was postponed.",
+            "Insufficient materials are explicitly denied as the reason for postponement.",
+            "The stated reason is the person in charge unexpectedly having to take time off."
+          ],
+          "forbidden": [
+            "Do not make insufficient materials the cause or deny that postponement occurred.",
+            "Do not infer that all materials were sufficient from denial of that causal explanation.",
+            "Do not invent illness, fault, blame, or a replacement meeting date."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b075af96396c840487d4f855",
+                "planId": "982460cace1ddee53972a1e0",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました"
+              },
+              {
+                "id": "715b67ad28139bf94dec223e",
+                "planId": "b3ad92940a7f8b0aeb5e6421",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期したからな"
+              },
+              {
+                "id": "ba05db28b6c1397086549d7a",
+                "planId": "813ccb295daadb44e1c199f0",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期した"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "b075af96396c840487d4f855",
+                "planId": "b6ddaa3137e74d5493fa7f09",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期しました"
+              },
+              {
+                "id": "715b67ad28139bf94dec223e",
+                "planId": "a860a7492916c168d69f4fa3",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期したからな"
+              },
+              {
+                "id": "ba05db28b6c1397086549d7a",
+                "planId": "e6980b6731ac90f4cca5ee02",
+                "text": "資料不足で今日の打ち合わせを延ばしたわけではなく、担当者が急きょ休むことになったので延期した"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      },
+      {
+        "id": "SG3-C03-A",
+        "source": "頼まれていた五件の領収書の確認は、二件だけ終わりました。残り三件はまだ確認中なので、全部済んだとは言えません。",
+        "domain": "control",
+        "authoredDomain": "control-quantity-and-completion-boundary",
+        "kind": "control",
+        "pairId": "SG3-C03",
+        "expected": {
+          "preserve": [
+            "The assigned set contains five receipt checks.",
+            "Exactly two checks are completed; the remaining three are still in progress.",
+            "The full set is explicitly not yet complete."
+          ],
+          "forbidden": [
+            "Do not claim all five are completed or that none are completed.",
+            "Do not change the counts, swap completed and pending subsets, or turn ongoing checks into abandoned work.",
+            "Do not invent a deadline, praise, an opponent, or another completed action."
+          ]
+        },
+        "anyBodyPool": true,
+        "anyBodyDisplayed": true,
+        "domainMatchedBodyPool": true,
+        "domainMatchedBodyDisplayed": true,
+        "structuralPool": true,
+        "structuralDisplayed": true,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 2,
+            "structuralDisplayed": 1,
+            "anyBodyPool": 2,
+            "anyBodyDisplayed": 1,
+            "domainMatchedBodyPool": 2,
+            "domainMatchedBodyDisplayed": 1,
+            "selected": [
+              {
+                "id": "a841333757ac2980faef2d4a",
+                "planId": "d525f363338f117dcde097a6",
+                "text": "頼まれていた五件の領収書の確認は、二件だけ終わった。全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。"
+              },
+              {
+                "id": "028750cc7e96e8c4b5933612",
+                "planId": "789dec640521955647bfd4ad",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わりました\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              },
+              {
+                "id": "958dc076b9028c89525491c4",
+                "planId": "ecf8ac650f63b155bd2976d4",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わったからな\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              }
+            ],
+            "structuralCandidates": [
+              {
+                "text": "頼まれていた五件の領収書の確認は、二件だけ終わりました。全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                "displayOrdinal": null,
+                "classification": "body-composition",
+                "domainMatched": true,
+                "independentBoundedProof": true,
+                "blocks": [
+                  {
+                    "operatorId": "reason-explanation",
+                    "realizationId": "assertion-then-explanation",
+                    "kind": "reason-claim",
+                    "sourceForm": "causal-clause",
+                    "sourceSpan": {
+                      "start": 28,
+                      "end": 55
+                    },
+                    "roles": [
+                      "claim",
+                      "reason"
+                    ],
+                    "emittedRoleOrder": [
+                      "claim",
+                      "claim",
+                      "reason"
+                    ],
+                    "sourceRoleOrder": [
+                      "reason",
+                      "claim"
+                    ],
+                    "sourceRoleOrderInverted": true,
+                    "actualBlockChanged": true,
+                    "sourceBlockText": "残り三件はまだ確認中なので、全部済んだとは言えません。",
+                    "outputBlockText": "全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                    "sourceBoundOrderInverted": true,
+                    "copiedOrderInverted": true,
+                    "sourceSentenceCount": 1,
+                    "outputGroupCount": 2,
+                    "groupingChange": 1,
+                    "slotPartition": [
+                      {
+                        "role": "reason",
+                        "span": {
+                          "start": 28,
+                          "end": 38
+                        },
+                        "spans": [
+                          {
+                            "start": 28,
+                            "end": 38
+                          }
+                        ],
+                        "pass": true
+                      },
+                      {
+                        "role": "claim",
+                        "span": {
+                          "start": 42,
+                          "end": 54
+                        },
+                        "spans": [
+                          {
+                            "start": 42,
+                            "end": 49
+                          },
+                          {
+                            "start": 49,
+                            "end": 54
+                          }
+                        ],
+                        "pass": true
+                      }
+                    ],
+                    "slotsCoveredExactlyOnce": true,
+                    "provenanceValid": true,
+                    "formIds": [
+                      "grammar:polite-predicate",
+                      "sentence-boundary",
+                      "explanatory-turn",
+                      "grammar:declarative-copula",
+                      "source-cause-close"
+                    ],
+                    "evidenceIds": [
+                      "post_01041_a61029816407677b_3227",
+                      "post_02278_620a09e0e0aee5cd_8838",
+                      "post_02421_ef97fdc26a351d5a_9490",
+                      "post_02331_21fb0e747871e8fb_9047"
+                    ],
+                    "bodyComposition": true
+                  }
+                ]
+              },
+              {
+                "text": "頼まれていた五件の領収書の確認は、二件だけ終わった。全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                "displayOrdinal": 1,
+                "classification": "body-composition",
+                "domainMatched": true,
+                "independentBoundedProof": true,
+                "blocks": [
+                  {
+                    "operatorId": "reason-explanation",
+                    "realizationId": "assertion-then-explanation",
+                    "kind": "reason-claim",
+                    "sourceForm": "causal-clause",
+                    "sourceSpan": {
+                      "start": 28,
+                      "end": 55
+                    },
+                    "roles": [
+                      "claim",
+                      "reason"
+                    ],
+                    "emittedRoleOrder": [
+                      "claim",
+                      "claim",
+                      "reason"
+                    ],
+                    "sourceRoleOrder": [
+                      "reason",
+                      "claim"
+                    ],
+                    "sourceRoleOrderInverted": true,
+                    "actualBlockChanged": true,
+                    "sourceBlockText": "残り三件はまだ確認中なので、全部済んだとは言えません。",
+                    "outputBlockText": "全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                    "sourceBoundOrderInverted": true,
+                    "copiedOrderInverted": true,
+                    "sourceSentenceCount": 1,
+                    "outputGroupCount": 2,
+                    "groupingChange": 1,
+                    "slotPartition": [
+                      {
+                        "role": "reason",
+                        "span": {
+                          "start": 28,
+                          "end": 38
+                        },
+                        "spans": [
+                          {
+                            "start": 28,
+                            "end": 38
+                          }
+                        ],
+                        "pass": true
+                      },
+                      {
+                        "role": "claim",
+                        "span": {
+                          "start": 42,
+                          "end": 54
+                        },
+                        "spans": [
+                          {
+                            "start": 42,
+                            "end": 49
+                          },
+                          {
+                            "start": 49,
+                            "end": 54
+                          }
+                        ],
+                        "pass": true
+                      }
+                    ],
+                    "slotsCoveredExactlyOnce": true,
+                    "provenanceValid": true,
+                    "formIds": [
+                      "grammar:polite-predicate",
+                      "sentence-boundary",
+                      "explanatory-turn",
+                      "grammar:declarative-copula",
+                      "source-cause-close"
+                    ],
+                    "evidenceIds": [
+                      "post_01041_a61029816407677b_3227",
+                      "post_02278_620a09e0e0aee5cd_8838",
+                      "post_02421_ef97fdc26a351d5a_9490",
+                      "post_02331_21fb0e747871e8fb_9047"
+                    ],
+                    "bodyComposition": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 2,
+            "structuralDisplayed": 1,
+            "anyBodyPool": 2,
+            "anyBodyDisplayed": 1,
+            "domainMatchedBodyPool": 2,
+            "domainMatchedBodyDisplayed": 1,
+            "selected": [
+              {
+                "id": "a841333757ac2980faef2d4a",
+                "planId": "dc31125c5de928c6f6b584d6",
+                "text": "頼まれていた五件の領収書の確認は、二件だけ終わった。全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。"
+              },
+              {
+                "id": "028750cc7e96e8c4b5933612",
+                "planId": "782cab5f89bf60028ec54ccb",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わりました\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              },
+              {
+                "id": "958dc076b9028c89525491c4",
+                "planId": "b8ff9548466f09d14a4af1f3",
+                "text": "頼まれていた五件の領収書の確認は二件だけ終わったからな\n残り三件はまだ確認中なので、全部済んだとは言えません"
+              }
+            ],
+            "structuralCandidates": [
+              {
+                "text": "頼まれていた五件の領収書の確認は、二件だけ終わりました。全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                "displayOrdinal": null,
+                "classification": "body-composition",
+                "domainMatched": true,
+                "independentBoundedProof": true,
+                "blocks": [
+                  {
+                    "operatorId": "reason-explanation",
+                    "realizationId": "assertion-then-explanation",
+                    "kind": "reason-claim",
+                    "sourceForm": "causal-clause",
+                    "sourceSpan": {
+                      "start": 28,
+                      "end": 55
+                    },
+                    "roles": [
+                      "claim",
+                      "reason"
+                    ],
+                    "emittedRoleOrder": [
+                      "claim",
+                      "claim",
+                      "reason"
+                    ],
+                    "sourceRoleOrder": [
+                      "reason",
+                      "claim"
+                    ],
+                    "sourceRoleOrderInverted": true,
+                    "actualBlockChanged": true,
+                    "sourceBlockText": "残り三件はまだ確認中なので、全部済んだとは言えません。",
+                    "outputBlockText": "全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                    "sourceBoundOrderInverted": true,
+                    "copiedOrderInverted": true,
+                    "sourceSentenceCount": 1,
+                    "outputGroupCount": 2,
+                    "groupingChange": 1,
+                    "slotPartition": [
+                      {
+                        "role": "reason",
+                        "span": {
+                          "start": 28,
+                          "end": 38
+                        },
+                        "spans": [
+                          {
+                            "start": 28,
+                            "end": 38
+                          }
+                        ],
+                        "pass": true
+                      },
+                      {
+                        "role": "claim",
+                        "span": {
+                          "start": 42,
+                          "end": 54
+                        },
+                        "spans": [
+                          {
+                            "start": 42,
+                            "end": 49
+                          },
+                          {
+                            "start": 49,
+                            "end": 54
+                          }
+                        ],
+                        "pass": true
+                      }
+                    ],
+                    "slotsCoveredExactlyOnce": true,
+                    "provenanceValid": true,
+                    "formIds": [
+                      "grammar:polite-predicate",
+                      "sentence-boundary",
+                      "explanatory-turn",
+                      "grammar:declarative-copula",
+                      "source-cause-close"
+                    ],
+                    "evidenceIds": [
+                      "post_01041_a61029816407677b_3227",
+                      "post_02278_620a09e0e0aee5cd_8838",
+                      "post_02421_ef97fdc26a351d5a_9490",
+                      "post_02331_21fb0e747871e8fb_9047"
+                    ],
+                    "bodyComposition": true
+                  }
+                ]
+              },
+              {
+                "text": "頼まれていた五件の領収書の確認は、二件だけ終わった。全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                "displayOrdinal": 1,
+                "classification": "body-composition",
+                "domainMatched": true,
+                "independentBoundedProof": true,
+                "blocks": [
+                  {
+                    "operatorId": "reason-explanation",
+                    "realizationId": "assertion-then-explanation",
+                    "kind": "reason-claim",
+                    "sourceForm": "causal-clause",
+                    "sourceSpan": {
+                      "start": 28,
+                      "end": 55
+                    },
+                    "roles": [
+                      "claim",
+                      "reason"
+                    ],
+                    "emittedRoleOrder": [
+                      "claim",
+                      "claim",
+                      "reason"
+                    ],
+                    "sourceRoleOrder": [
+                      "reason",
+                      "claim"
+                    ],
+                    "sourceRoleOrderInverted": true,
+                    "actualBlockChanged": true,
+                    "sourceBlockText": "残り三件はまだ確認中なので、全部済んだとは言えません。",
+                    "outputBlockText": "全部済んだとは言えない。何故かというと残り三件はまだ確認中だからだ。",
+                    "sourceBoundOrderInverted": true,
+                    "copiedOrderInverted": true,
+                    "sourceSentenceCount": 1,
+                    "outputGroupCount": 2,
+                    "groupingChange": 1,
+                    "slotPartition": [
+                      {
+                        "role": "reason",
+                        "span": {
+                          "start": 28,
+                          "end": 38
+                        },
+                        "spans": [
+                          {
+                            "start": 28,
+                            "end": 38
+                          }
+                        ],
+                        "pass": true
+                      },
+                      {
+                        "role": "claim",
+                        "span": {
+                          "start": 42,
+                          "end": 54
+                        },
+                        "spans": [
+                          {
+                            "start": 42,
+                            "end": 49
+                          },
+                          {
+                            "start": 49,
+                            "end": 54
+                          }
+                        ],
+                        "pass": true
+                      }
+                    ],
+                    "slotsCoveredExactlyOnce": true,
+                    "provenanceValid": true,
+                    "formIds": [
+                      "grammar:polite-predicate",
+                      "sentence-boundary",
+                      "explanatory-turn",
+                      "grammar:declarative-copula",
+                      "source-cause-close"
+                    ],
+                    "evidenceIds": [
+                      "post_01041_a61029816407677b_3227",
+                      "post_02278_620a09e0e0aee5cd_8838",
+                      "post_02421_ef97fdc26a351d5a_9490",
+                      "post_02331_21fb0e747871e8fb_9047"
+                    ],
+                    "bodyComposition": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SG3-C03-B",
+        "source": "依頼された領収書五件のうち、確認を終えたのは二件です。三件は確認中のため、五件すべてが完了したわけではありません。",
+        "domain": "control",
+        "authoredDomain": "control-quantity-and-completion-boundary",
+        "kind": "control",
+        "pairId": "SG3-C03",
+        "expected": {
+          "preserve": [
+            "The assigned set contains five receipt checks.",
+            "Exactly two checks are completed; the remaining three are still in progress.",
+            "The full set is explicitly not yet complete."
+          ],
+          "forbidden": [
+            "Do not claim all five are completed or that none are completed.",
+            "Do not change the counts, swap completed and pending subsets, or turn ongoing checks into abandoned work.",
+            "Do not invent a deadline, praise, an opponent, or another completed action."
+          ]
+        },
+        "anyBodyPool": false,
+        "anyBodyDisplayed": false,
+        "domainMatchedBodyPool": false,
+        "domainMatchedBodyDisplayed": false,
+        "structuralPool": false,
+        "structuralDisplayed": false,
+        "results": [
+          {
+            "intensity": 2,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "79968341a020f1a544c725c3",
+                "planId": "b72bbecf924bf6753c78afda",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件です\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "8488296a603449ff5530838f",
+                "planId": "591cea3239b899ddf8b21124",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だからな\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "b0c70f7dc1672c0788873853",
+                "planId": "216c1b015815ac141e12c545",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だ\n三件は確認中のため、五件すべてが完了したわけではありません"
+              }
+            ],
+            "structuralCandidates": []
+          },
+          {
+            "intensity": 3,
+            "error": null,
+            "structuralPool": 0,
+            "structuralDisplayed": 0,
+            "anyBodyPool": 0,
+            "anyBodyDisplayed": 0,
+            "domainMatchedBodyPool": 0,
+            "domainMatchedBodyDisplayed": 0,
+            "selected": [
+              {
+                "id": "79968341a020f1a544c725c3",
+                "planId": "22c2d47ecfd43f60539803ba",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件です\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "8488296a603449ff5530838f",
+                "planId": "3c55ebddc699c1af47c5fb8f",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だからな\n三件は確認中のため、五件すべてが完了したわけではありません"
+              },
+              {
+                "id": "b0c70f7dc1672c0788873853",
+                "planId": "560cc57603d18caa6915adff",
+                "text": "依頼された領収書五件のうち、確認を終えたのは二件だ\n三件は確認中のため、五件すべてが完了したわけではありません"
+              }
+            ],
+            "structuralCandidates": []
+          }
+        ]
+      }
+    ]
+  }
+}

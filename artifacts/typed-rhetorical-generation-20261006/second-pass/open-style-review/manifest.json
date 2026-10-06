@@ -1,0 +1,45 @@
+{
+  "reviewType": "assistant qualitative analysis, not human S/Q",
+  "datasetRole": "open diagnostics, never unseen",
+  "evaluatedBuild": {
+    "schemaVersion": 1,
+    "sourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+    "toolCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "engineHash": "f6887896990060a747e65f3617e501808c727992a86f24529ddb045f01682366",
+  "assetFileHash": "70917229ac40208a52c2eceb06ace4a751828d67750d12d34ecc47973f03950c",
+  "stableEngine": true,
+  "historicalBuild": "ac495c64799c496e904ae6c09e43d7a5218429aec38824f44a5f4746777723d0",
+  "changedCandidateTextInputsFromHistorical": [],
+  "files": {
+    "authored-probes.json": {
+      "bytes": 3064,
+      "sha256": "aa6ad4e8bab13dcbd9f9996662ce484e407b1b545f35eb42bf65d9879f2acb72"
+    },
+    "initial-exposed-excerpts.json": {
+      "bytes": 28032,
+      "sha256": "8d521868e4f4dd5bc9a727d3df3be3e69495d517755ba2b963b93f5aaa4f20ce"
+    },
+    "v2-probe-excerpts.json": {
+      "bytes": 45635,
+      "sha256": "c8f09065a3998c3de03185a68cc7d6463198cd446af347bd5e9b66c605bcd02f"
+    },
+    "v2-authored-probes.json.gz": {
+      "bytes": 153938,
+      "sha256": "89b6fa49ea97a2a11159fdab8e7ba156ff961e2525b69a2bbced7733ff3c9c44"
+    },
+    "qualitative-source-review.md": {
+      "bytes": 11951,
+      "sha256": "f555658f4e3b0c40ad8d7c647d53ae3f87005d09566a69bd48007bb041622078"
+    }
+  },
+  "historicalFiles": [
+    "historical-ac495c64-v2-probe-excerpts.json",
+    "historical-ac495c64-qualitative-source-review.md",
+    "historical-ac495c64-v2-authored-probes.json.gz",
+    "historical-ac495c64-manifest.json"
+  ]
+}

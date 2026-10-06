@@ -4,6 +4,9 @@ import { Assets, retrievalFor } from './assets';
 import { sourceDocument, hash } from './source';
 import { extractFacts } from './facts';
 import { makeRewritePlans } from './rewrite';
+import { makeStructuralPlans } from './structural-planning';
+import { validateStructural } from './structural-validation';
+import { refreshStructuralPlan, contained } from './structural-realization';
 import { makeConstructionPlans, constructionFamily } from './constructions';
 import { compareSourceEdits } from './rewrite-validation';
 import { updateConstructionOutcomes } from './construction-diagnostics';
@@ -28,19 +31,25 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
   const unsupported = unsupportedGenerationMode(request);
   const rewrites = unsupported ? [] : makeRewritePlans(ir, request, assets);
   const diagnostics: ConstructionDiagnostic[] = [];
-  const plans = unsupported ? [] : [...makeConstructionPlans(ir, request, assets, rewrites, diagnostics), ...rewrites].filter(plan => !options.operator || plan.mainOperator === options.operator);
+  const plans = unsupported ? [] : [...makeStructuralPlans(ir, request, assets, rewrites, diagnostics), ...makeConstructionPlans(ir, request, assets, rewrites, diagnostics), ...rewrites].filter(plan => !options.operator || plan.mainOperator === options.operator);
   if (options.lockedNodeIds?.length && options.operator && options.lockedPlan && options.operator !== options.lockedPlan.mainOperator) throw new Error('LOCK_CONFLICT');
+  if (options.lockedNodeIds?.length && options.lockedPlan?.structural && !validateStructural(ir, options.lockedPlan, new Map(assets.evidence.map(item => [item.id, item.text])))) throw new Error('LOCK_CONFLICT');
   const retrieval = retrievalFor(assets), evidenceIds = new Set(assets.evidence.map(item => item.id));
   const generated: Candidate[] = []; let total = 0;
   checkpoint('generating');
   for (const original of plans.slice(0, 36)) {
-    if (options.lockedNodeIds?.length && options.lockedPlan && !!original.construction !== !!options.lockedPlan.construction) continue;
+    if (options.lockedNodeIds?.length && options.lockedPlan && (!!original.construction !== !!options.lockedPlan.construction || !!original.structural !== !!options.lockedPlan.structural)) continue;
     checkpoint('generating');
     const plan = structuredClone(original);
     for (const id of options.lockedNodeIds ?? []) {
       const node = options.lockedPlan?.nodes.find(node => node.id === id), index = plan.nodes.findIndex(node => node.id === id);
       if (!node || index < 0) throw new Error('LOCK_CONFLICT');
       plan.nodes[index] = structuredClone(node);
+      if (plan.structural && options.lockedPlan?.structural) {
+        const range = node.sourceSpan!;
+        plan.structural.blocks = plan.structural.blocks.map(block => block.nodeId === id ? structuredClone(options.lockedPlan!.structural!.blocks.find(value => value.nodeId === id)!) : block);
+        plan.structural.localEdits = [...plan.structural.localEdits.filter(edit => !contained(edit.sourceSpan, range)), ...structuredClone(options.lockedPlan.structural.localEdits.filter(edit => contained(edit.sourceSpan, range)))].sort(compareSourceEdits);
+      }
       if (plan.construction && options.lockedPlan?.construction) {
         for (const key of ['edits', 'lexicalEdits'] as const) {
           const retained = plan.construction[key].filter(edit => edit.nodeId !== id);
@@ -62,6 +71,7 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
       plan.evidenceIds = [...new Set(plan.nodes.flatMap(node => node.evidenceIds))];
       if (options.operator && options.operator !== plan.mainOperator) throw new Error('LOCK_CONFLICT');
     }
+    if (plan.structural) refreshStructuralPlan(ir, plan);
     if (plan.construction) { plan.family = constructionFamily(plan.construction.edits); plan.id = hash({ ...plan, id: '' }).slice(0, 24); }
     if (plan.rewrite) { plan.family = plan.rewrite.edits.map(edit => edit.ruleId).join('+'); plan.id = hash({ ...plan, id: '' }).slice(0, 24); }
     // Dictionary changes only editable rhetoric; factual, quoted and opaque source
@@ -79,12 +89,18 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
     total += length;
     checkpoint('validating');
     const checks = validateCandidate(ir, plan, text, spans, evidenceIds, undefined, new Map(assets.evidence.map(item => [item.id, item.text])), assets.seriesProfiles);
-    if ((plan.rewrite || plan.construction) && request.customRules?.length) checks.push({ code: 'V-dictionary', status: 'unknown', required: true, explanation: '本文の自由置換は出典付きの有限変換として検証できないため適用していません。辞書を外すか、本文変換とは別に確認してください。', factIds: [], checkerVersion: 'bounded-body-rewrite-v1' });
-    const quality = ruleQuality(ir, plan);
-    const candidate: Candidate = { id: hash({ inputHash: source.inputHash, text, datasetId: assets.datasetId }).slice(0, 24), text, plan, spans, checks, verificationStatus: verification(checks), verificationScope: plan.construction ? '登録済みの意味構文について原文のスロット・適用条件・活用・出典を再束縛して照合。任意の言い換え・自然さ・文体品質は未保証。' : plan.rewrite ? '原文範囲・保護値・引用の保持と、出典付き有限変換の適用条件を検査。自然さ・文体の良さは未評価。' : '原文を保持した事実節・型付き修辞の構成検査（修辞の品質は実験段階）',
+    if ((plan.rewrite || plan.construction || plan.structural) && request.customRules?.length) checks.push({ code: 'V-dictionary', status: 'unknown', required: true, explanation: '本文の自由置換は出典付きの有限変換として検証できないため適用していません。辞書を外すか、本文変換とは別に確認してください。', factIds: [], checkerVersion: 'bounded-body-rewrite-v1' });
+    // Bounded pipelines have already been independently verified above. C/R
+    // reuse that proof rather than re-running it solely to derive a boolean
+    // score. Final semantic verification still rebinds every program afresh.
+    // The selected check is produced here, never accepted from a submitted plan.
+    const proofCode = plan.structural ? 'V-structural' : plan.construction ? 'V-construction' : plan.rewrite ? 'V-rewrite' : null;
+    const boundedValid = proofCode ? checks.some(check => check.code === proofCode && check.required && check.status === 'pass') : false;
+    const quality = proofCode ? { C: boundedValid ? 1 : 0, R: boundedValid && length <= Math.max(100, ir.source.scalarToUtf16.length * 2) ? 1 : 0 } : ruleQuality(ir, plan);
+    const candidate: Candidate = { id: hash({ inputHash: source.inputHash, text, datasetId: assets.datasetId }).slice(0, 24), text, plan, spans, checks, verificationStatus: verification(checks), verificationScope: plan.structural ? '原文の命題・明示関係・発話種別を再束縛し、節計画と登録文法、原文被覆、局所編集、出典を独立照合。自由な意味同値性や文体品質は未保証。' : plan.construction ? '登録済みの意味構文について原文のスロット・適用条件・活用・出典を再束縛して照合。任意の言い換え・自然さ・文体品質は未保証。' : plan.rewrite ? '原文範囲・保護値・引用の保持と、出典付き有限変換の適用条件を検査。自然さ・文体の良さは未評価。' : '原文を保持した事実節・型付き修辞の構成検査（修辞の品質は実験段階）',
       scores: { S: null, Q: null, ...quality },
       novelty: { classification: 'undetermined', text: null, structure: null, concept: null, nearestIds: [], datasetId: assets.datasetId, historySnapshot: hash(options.history ?? []), window: '' },
-      evidence: plan.evidenceIds.map(id => assets.evidence.find(item => item.id === id)).filter(item => !!item).map(item => ({ id: item!.id, kind: plan.rewrite || plan.construction ? 'construction_evidence' : plan.mainOperator === 'QUOTE' ? 'direct_quote' : (plan.surface?.evidenceIds.includes(item!.id) || plan.rhetoric?.discourseEvidenceIds.includes(item!.id)) ? 'construction_evidence' : 'related_example', text: item!.text, ...(typeof item!.url === 'string' && item!.url ? { url: item!.url } : {}) })) };
+      evidence: plan.evidenceIds.map(id => assets.evidence.find(item => item.id === id)).filter(item => !!item).map(item => ({ id: item!.id, kind: plan.rewrite || plan.construction || plan.structural ? 'construction_evidence' : plan.mainOperator === 'QUOTE' ? 'direct_quote' : (plan.surface?.evidenceIds.includes(item!.id) || plan.rhetoric?.discourseEvidenceIds.includes(item!.id)) ? 'construction_evidence' : 'related_example', text: item!.text, ...(typeof item!.url === 'string' && item!.url ? { url: item!.url } : {}) })) };
     checkpoint('evaluating'); candidate.novelty = evaluateNovelty(candidate, assets, retrieval, options.history ?? []);
     if (plan.mainOperator === 'QUOTE') candidate.novelty = { ...candidate.novelty, classification: 'known_quote', text: 0, structure: 0, concept: null, nearestIds: plan.evidenceIds };
     candidate.scores.S = score(candidate, assets.evaluators?.S); candidate.scores.Q = score(candidate, assets.evaluators?.Q);
@@ -96,10 +112,10 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
     fallback: candidates.length ? null : { text: request.source, reason: shortfallReason! }, shortfallReason, ir, diagnostics,
     replayManifest: { schemaVersion: 1, request, seed: request.seed ?? source.inputHash, inputHash: source.inputHash, candidateSetHash: hash(generated.map(candidate => ({ id: candidate.id, text: candidate.text })).sort((a, b) => a.id.localeCompare(b.id))),
       historySnapshot: hash(options.history ?? []), history: options.history ?? [], datasetId: assets.datasetId, assets: assets.manifest, parserVersion: analysis.parserVersion,
-      engineVersion: options.engineVersion ?? assets.manifest.engine?.sourceHash ?? 'structured-v1', backend: request.backend, profile: 'composable-constructions-and-rewrites-36drafts-3results', deterministic: true, generated: generated.length,
+      engineVersion: options.engineVersion ?? assets.manifest.engine?.sourceHash ?? 'structured-v1', backend: request.backend, profile: 'typed-rhetorical-composition-v3-36drafts-3results', deterministic: true, generated: generated.length,
       replayDepth: options.replayParent ? Number(options.replayParent.replayDepth ?? 0) + 1 : 0,
       experimentalOperators: options.experimentalOperators ?? false, regeneration: options.lockedPlan ? { lockedPlan: options.lockedPlan, lockedNodeIds: options.lockedNodeIds, operator: options.operator, parent: options.replayParent, candidateId: options.parentCandidateId } : null,
-      evaluator: { S: assets.evaluators?.S ? { version: hash(assets.evaluators.S), personal: assets.evaluators.S.personal, meaning: 'relative-preference-not-probability' } : 'untrained', Q: assets.evaluators?.Q ? { version: hash(assets.evaluators.Q), personal: assets.evaluators.Q.personal, meaning: 'relative-preference-not-probability' } : 'untrained', C: 'finite-rewrite-and-composable-construction-proof-v3', R: 'bounded-adaptation-size-v2', featureVersion }, experimental: true } };
+      evaluator: { S: assets.evaluators?.S ? { version: hash(assets.evaluators.S), personal: assets.evaluators.S.personal, meaning: 'relative-preference-not-probability' } : 'untrained', Q: assets.evaluators?.Q ? { version: hash(assets.evaluators.Q), personal: assets.evaluators.Q.personal, meaning: 'relative-preference-not-probability' } : 'untrained', C: 'typed-rhetorical-and-local-proof-v5', R: 'bounded-adaptation-size-v2', featureVersion }, experimental: true } };
   updateConstructionOutcomes(result, generated, 'finite_validation');
   if (!validateResult(result)) throw Object.assign(new Error('INVALID_RESULT_CONTRACT'), { validationErrors: validateResult.errors });
   return result;

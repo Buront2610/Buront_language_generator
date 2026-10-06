@@ -1,0 +1,15 @@
+{"source":"家族が安全であるために、防犯設備を整えました。","recognized":[],"outputs":[]}
+{"source":"部屋が清潔であるために、毎日掃除します。","recognized":[],"outputs":[]}
+{"source":"誰にも見えないために、物陰に隠れました。","recognized":[],"outputs":[]}
+{"source":"家族が安全なために、防犯設備を整えました。","recognized":[],"outputs":[]}
+{"source":"家族が安全でいるために、防犯設備を整えました。","recognized":[],"outputs":[]}
+{"source":"部屋が清潔なために、毎日掃除します。","recognized":[],"outputs":[]}
+{"source":"事故が少ないために、制限速度を守ります。","recognized":[],"outputs":[]}
+{"source":"間違いがないために、私は書類を確認しました。","recognized":[],"outputs":[]}
+{"source":"問題がないために、私は動作確認を行いました。","recognized":[],"outputs":[]}
+{"source":"迷わないために、私は地図を持ちました。","recognized":[],"outputs":[]}
+{"source":"誰にも見えないため、物陰に隠れました。","recognized":[],"outputs":[]}
+{"source":"誰にも見られないために、物陰に隠れました。","recognized":[],"outputs":[]}
+{"source":"子供が安全だったため、私は外へ出た。","recognized":[{"kind":"reason-claim","form":"causal-tame","conditions":[{"polarity":"positive","tense":"past","realization":"actual","preservation":"asserted","voice":"active","attribution":{"kind":"narrator","speaker":null},"illocution":"assertion"},{"polarity":"positive","tense":"past","realization":"actual","preservation":"modality-preserved","voice":"active","attribution":{"kind":"narrator","speaker":null},"illocution":"assertion"}]}],"outputs":[{"text":"私は外へ出た。何故かというと子供が安全だったからだ。","valid":true},{"text":"俺は外へ出た。何故かというと子供が安全だったからだ。","valid":true}]}
+{"source":"部屋が清潔だったため、私は掃除しなかった。","recognized":[{"kind":"reason-claim","form":"causal-tame","conditions":[{"polarity":"positive","tense":"past","realization":"actual","preservation":"asserted","voice":"active","attribution":{"kind":"narrator","speaker":null},"illocution":"assertion"},{"polarity":"negative","tense":"past","realization":"actual","preservation":"asserted","voice":"active","attribution":{"kind":"narrator","speaker":null},"illocution":"assertion"}]}],"outputs":[{"text":"私は掃除しなかった。何故かというと部屋が清潔だったからだ。","valid":true},{"text":"俺は掃除しなかった。何故かというと部屋が清潔だったからだ。","valid":true},{"text":"部屋が清潔だったから私は掃除しなかったということ。","valid":true},{"text":"部屋が清潔だったから俺は掃除しなかったということ。","valid":true},{"text":"部屋が清潔だったから私は掃除しなかったという事実。","valid":true},{"text":"部屋が清潔だったから俺は掃除しなかったという事実。","valid":true}]}
+{"source":"視界が悪いために、私は運転をやめました。","recognized":[],"outputs":[]}

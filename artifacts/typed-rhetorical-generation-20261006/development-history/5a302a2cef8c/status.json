@@ -1,0 +1,27 @@
+{
+  "sourceHash": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+  "classification": "interim development record; one near-limit API deadline failure, not final accepted build",
+  "recordedAtUtc": "2026-10-06T05:33:21.985305+00:00",
+  "known203": {
+    "cases": 203,
+    "requests": 406,
+    "finiteErrors": 0,
+    "ordinaryDomainMatchedPool": 50,
+    "ordinaryDomainMatchedDisplayed": 49
+  },
+  "reportedValidation": {
+    "aggregateTestsPassed": 413,
+    "independentTestsPassed": 23,
+    "sourceScopeAndRequestActionRepairsObserved": true
+  },
+  "knownBlocker": {
+    "type": "near-limit latency",
+    "workload": "reason-pairs4991",
+    "sourceScalars": 4991,
+    "finding": "One of six isolated HTTP API workloads reached the30-second deadline with four structural variants; otherfive passed",
+    "repairScope": "Parent authorized only a generic maximum of two structural plans above2000 scalars, retaining grammar-only and lexical-composed plans; no deadline increase"
+  },
+  "apiRecordHash": "a0756451a01d8d4e22f5f5f747b787f64df6ea0d77ecab38f3f662554ee45d64",
+  "prospectiveInputUnopened": true,
+  "noFinalFreeze": true
+}

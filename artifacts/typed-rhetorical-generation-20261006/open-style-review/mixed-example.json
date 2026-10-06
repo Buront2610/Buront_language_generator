@@ -1,0 +1,248 @@
+{
+  "note": "Re-run of existing mixed example; no new diagnostic input. Not part of20 denominator. Same source/settings as /tmp/b3-mixed-final.json and /tmp/b3-mixed-final.cjs. CompileAssets was regenerated for final engine; no publication or repository edits.",
+  "buildInfo": {
+    "schemaVersion": 1,
+    "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+    "toolCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "stableEngine": true,
+  "engineHash": "774a90fe887aa59b415e74d26a3a49a82c3b2ab345f4809fd2c899a96ac5e388",
+  "assetFileHash": "d0266677036d0409f0a467d3f19b68d5f72a491973ab2519ce37da21a3e36c2b",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "b3-mixed-lexical-structural"
+  },
+  "input": "速度が重要なので、私はこの方法を選びました。この装置が安全だという証拠を見せてください。",
+  "selected": [
+    {
+      "rank": 1,
+      "text": "俺はこの方法を選んだ。何故かというと速度が重要だからだ。見せてくれるか、この装置が安全だという証拠を。",
+      "structural": true
+    },
+    {
+      "rank": 2,
+      "text": "速さとスピードが重要なので、俺はこの方法を選びました\nこの装置が安全だという証拠を見せてください",
+      "structural": false
+    },
+    {
+      "rank": 3,
+      "text": "速度が重要なので、俺はこの方法を選びました\nこの装置が安全だという証拠を見せてください",
+      "structural": false
+    }
+  ],
+  "structuralPool": [
+    {
+      "text": "私はこの方法を選んだ。何故かというと速度が重要だからだ。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-explanation/assertion-then-explanation",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [],
+      "sourceIds": [
+        "post_01041_a61029816407677b_3227",
+        "post_02278_620a09e0e0aee5cd_8838",
+        "post_02421_ef97fdc26a351d5a_9490",
+        "post_02331_21fb0e747871e8fb_9047",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "俺はこの方法を選んだ。何故かというと速さとスピードが重要だからだ。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-explanation/assertion-then-explanation",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [
+        "velocity-doubling",
+        "narrator-watashi"
+      ],
+      "sourceIds": [
+        "post_01041_a61029816407677b_3227",
+        "post_02278_620a09e0e0aee5cd_8838",
+        "post_02421_ef97fdc26a351d5a_9490",
+        "post_02331_21fb0e747871e8fb_9047",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323",
+        "post_00016_82d78e65bd643a54_22"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "俺はこの方法を選んだ。何故かというと速度が重要だからだ。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": 1,
+      "operators": [
+        "reason-explanation/assertion-then-explanation",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [
+        "narrator-watashi"
+      ],
+      "sourceIds": [
+        "post_01041_a61029816407677b_3227",
+        "post_02278_620a09e0e0aee5cd_8838",
+        "post_02421_ef97fdc26a351d5a_9490",
+        "post_02331_21fb0e747871e8fb_9047",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323",
+        "post_00016_82d78e65bd643a54_22"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "速度が重要だから私はこの方法を選んだということ。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-nominalized-conclusion/premise-then-nominalized-conclusion",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [],
+      "sourceIds": [
+        "post_02026_4dc2474bff1f1aaa_7525",
+        "post_02223_d646bc4708a3c5e0_8497",
+        "post_02107_8608932d4f4ac31d_7882",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "速さとスピードが重要だから俺はこの方法を選んだということ。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-nominalized-conclusion/premise-then-nominalized-conclusion",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [
+        "velocity-doubling",
+        "narrator-watashi"
+      ],
+      "sourceIds": [
+        "post_02026_4dc2474bff1f1aaa_7525",
+        "post_02223_d646bc4708a3c5e0_8497",
+        "post_02107_8608932d4f4ac31d_7882",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323",
+        "post_02421_ef97fdc26a351d5a_9490",
+        "post_00016_82d78e65bd643a54_22"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "速度が重要だから俺はこの方法を選んだということ。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-nominalized-conclusion/premise-then-nominalized-conclusion",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [
+        "narrator-watashi"
+      ],
+      "sourceIds": [
+        "post_02026_4dc2474bff1f1aaa_7525",
+        "post_02223_d646bc4708a3c5e0_8497",
+        "post_02107_8608932d4f4ac31d_7882",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323",
+        "post_00016_82d78e65bd643a54_22"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "速度が重要だから私はこの方法を選んだという事実。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-nominalized-conclusion/premise-then-fact-conclusion",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [],
+      "sourceIds": [
+        "post_02026_4dc2474bff1f1aaa_7525",
+        "post_02223_d646bc4708a3c5e0_8497",
+        "post_02107_8608932d4f4ac31d_7882",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "速さとスピードが重要だから俺はこの方法を選んだという事実。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-nominalized-conclusion/premise-then-fact-conclusion",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [
+        "velocity-doubling",
+        "narrator-watashi"
+      ],
+      "sourceIds": [
+        "post_02026_4dc2474bff1f1aaa_7525",
+        "post_02223_d646bc4708a3c5e0_8497",
+        "post_02107_8608932d4f4ac31d_7882",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323",
+        "post_02421_ef97fdc26a351d5a_9490",
+        "post_00016_82d78e65bd643a54_22"
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "text": "速度が重要だから俺はこの方法を選んだという事実。見せてくれるか、この装置が安全だという証拠を。",
+      "displayOrdinal": null,
+      "operators": [
+        "reason-nominalized-conclusion/premise-then-fact-conclusion",
+        "carrier-evidence-request/request-then-carrier"
+      ],
+      "localRuleIds": [
+        "narrator-watashi"
+      ],
+      "sourceIds": [
+        "post_02026_4dc2474bff1f1aaa_7525",
+        "post_02223_d646bc4708a3c5e0_8497",
+        "post_02107_8608932d4f4ac31d_7882",
+        "post_01345_aae925d37360c57c_4231",
+        "post_01904_94d1e3084483dd25_6841",
+        "post_02200_13ca24afe21445ab_8323",
+        "post_00016_82d78e65bd643a54_22"
+      ],
+      "S": null,
+      "Q": null
+    }
+  ],
+  "rawCapture": {
+    "path": "/workspace/shared/style-review-b3-20261006/mixed-66c681f3d2f4-capture.json.gz",
+    "sha256": "046fb006c91fcd976cb2494b0555b98aa94c6f05861719d709e6535f59612f89"
+  },
+  "displayedTextMatches5a": true
+}

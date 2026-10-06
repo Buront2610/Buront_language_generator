@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-06T03:31:45.939495+00:00",
+  "scope": "First unseen run and structural-evaluation integrity; finite guard/program evidence, not a human style or quality rating.",
+  "sealedInput": {
+    "sha256": "6e5dc7195c8b020c20204845af7283e169aaf733a79e55a381c8d56db3b02729",
+    "count": 30,
+    "sealed_at_utc": "2026-10-06T03:04:28.271134+00:00",
+    "implementation_seen": false,
+    "publicFile": "unseen-cases.json",
+    "distinctness": {
+      "sealedFileSha256": "6e5dc7195c8b020c20204845af7283e169aaf733a79e55a381c8d56db3b02729",
+      "sealedCases": 30,
+      "overlapWithPrior127AndExposed18": 0,
+      "sealedDuplicateTextCount": 0,
+      "normalization": "remove whitespace only; exact duplicates, not semantic independence",
+      "claim": "Small synthetic prospective work/day-to-day generalization set, not random sample or human rating. Exact cases unseen by implementer before code freeze."
+    }
+  },
+  "freezeAndExecution": {
+    "sealedAt": "2026-10-06T03:04:28.271134+00:00",
+    "coreFreezeConfirmedAt": "2026-10-06T03:29:28Z",
+    "clockVerifiedBeforeExecution": "2026-10-06T03:29:43Z",
+    "executionAuthorizedAfterFullSuite": true,
+    "firstExecutionStart": "2026-10-06T03:30:00.699Z",
+    "baselineRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+    "finalCoreSourceHash": "a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504",
+    "sealSha256": "6e5dc7195c8b020c20204845af7283e169aaf733a79e55a381c8d56db3b02729",
+    "derivedInputSha256": "fbd5e545ec6eb8037f6c4d2dc0aa92fdebe97d5162a3faee41b16f94ee97ac31",
+    "count": 30,
+    "beforeRunStarted": "2026-10-06T03:30:01.314Z",
+    "beforeRunFinished": "2026-10-06T03:30:07.736Z",
+    "afterRunStarted": "2026-10-06T03:30:08.525Z",
+    "afterRunFinished": "2026-10-06T03:30:15.991Z",
+    "noPostfreezeCoreChanges": true,
+    "currentCoreMatchesFrozenSnapshot": true,
+    "sealedFailureRetuning": false
+  },
+  "parser": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "assets": {
+    "sha256": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+    "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2"
+  },
+  "captureScriptHash": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+  "classifierHash": "fad49f8eb3d897d4366cb31e27ec8b34346ae7e5456142f8dea0adbdf422aae7",
+  "engines": {
+    "before": {
+      "revision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+      "engineHash": "a184c3042ad9054ed156989e390ddb726ea6a026ad049d977aaccf815df4855f",
+      "sourceHash": "767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120"
+    },
+    "after": {
+      "revision": "sourceHash:a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504",
+      "engineHash": "22904f698f7dcaf57f7a2def561fe7dd1254b7c26562fd3f41cecfdff8f2a407",
+      "sourceHash": "a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504"
+    }
+  },
+  "suiteSummary": {
+    "regression": {
+      "cases": 127,
+      "requestsPerVersion": 254,
+      "beforeBodyPool": 0,
+      "afterBodyPool": 187,
+      "afterBodyDisplayed": 70,
+      "afterBodyTop": 70,
+      "afterStructuralPool": 199,
+      "afterStructuralDisplayed": 72,
+      "afterMovementPool": 167,
+      "afterMovementDisplayed": 62,
+      "afterGroupingPool": 167,
+      "afterGroupingDisplayed": 60,
+      "beforeDisplayed": 605,
+      "afterDisplayed": 609,
+      "changedDisplayRequests": 72,
+      "stableBefore": true,
+      "stableAfter": true,
+      "rejected": 0,
+      "nonPassingDisplayed": 0,
+      "nonNullSQ": 0
+    },
+    "exposed": {
+      "cases": 18,
+      "requestsPerVersion": 36,
+      "beforeBodyPool": 0,
+      "afterBodyPool": 29,
+      "afterBodyDisplayed": 14,
+      "afterBodyTop": 14,
+      "afterStructuralPool": 34,
+      "afterStructuralDisplayed": 18,
+      "afterMovementPool": 21,
+      "afterMovementDisplayed": 14,
+      "afterGroupingPool": 19,
+      "afterGroupingDisplayed": 6,
+      "beforeDisplayed": 89,
+      "afterDisplayed": 89,
+      "changedDisplayRequests": 18,
+      "stableBefore": true,
+      "stableAfter": true,
+      "rejected": 0,
+      "nonPassingDisplayed": 0,
+      "nonNullSQ": 0
+    },
+    "unseen": {
+      "cases": 30,
+      "requestsPerVersion": 60,
+      "beforeBodyPool": 0,
+      "afterBodyPool": 6,
+      "afterBodyDisplayed": 4,
+      "afterBodyTop": 4,
+      "afterStructuralPool": 15,
+      "afterStructuralDisplayed": 8,
+      "afterMovementPool": 6,
+      "afterMovementDisplayed": 4,
+      "afterGroupingPool": 6,
+      "afterGroupingDisplayed": 4,
+      "beforeDisplayed": 108,
+      "afterDisplayed": 116,
+      "changedDisplayRequests": 4,
+      "stableBefore": true,
+      "stableAfter": true,
+      "rejected": 0,
+      "nonPassingDisplayed": 0,
+      "nonNullSQ": 0
+    }
+  },
+  "initialExposedFinding": {
+    "description": "Before final freeze, initial X13 and X16 contrast-prefix evidence-question plans failed bounded proof because emitted marker source spans were outside content slots. Four candidates were rejected; none displayed. Recognition/validator alignment was repaired on exposed cases, then final exposed rerun had zero rejected plans. Sealed inputs were not used for this repair.",
+    "initialSnapshotHash": "b9ada9855833ad7c3a14557e193adb7f9843ee835bb4242838463f556d0434a6",
+    "rawInitialAttempts": "Retained outside repository; not represented as final success or unseen runs."
+  },
+  "generalizationLimit": {
+    "ordinaryUnseenCases": 18,
+    "ordinaryUnseenBodyCases": 1,
+    "ordinaryReasonBodyCases": "1/6",
+    "ordinaryModestyBodyCases": "0/6",
+    "ordinaryEvidenceBodyCases": "0/6",
+    "hostileControlBodyCases": "1/12; source-preserving actor-role case U25",
+    "unseenBodyCaseIds": [
+      "U03",
+      "U25"
+    ],
+    "claim": "This first unseen set does not establish broad ordinary-language structural coverage. All 30 inputs remain in denominators."
+  },
+  "readback": {
+    "losslessCompactorChecks": "Full plans, evidence, checks, candidate text and display order exactly matched raw captures before public compaction.",
+    "publicVerifier": "node scripts/verify-typed-rhetorical-evaluation.cjs artifacts/typed-rhetorical-generation-20261006"
+  },
+  "reproductionChecks": {
+    "frozenAssetsRecreatedFromPR5Baseline": true,
+    "recreatedAssetsSha256": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+    "recreatedAssetBytesIdentical": true,
+    "publishedUnseenFixtureProducesByteIdenticalExecutionInput": true
+  }
+}

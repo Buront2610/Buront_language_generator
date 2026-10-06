@@ -1,0 +1,11 @@
+{
+  "verifiedAtUtc": "2026-10-06T03:36:14.927164+00:00",
+  "baselineCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "patchFile": "first-core.patch.gz",
+  "patchSha256": "3cabcabdeef51e54e1543a1342d8fce9a3c0bb8156bad6fb0a26d6da16c6c2d7",
+  "gitApplyCheckPassed": true,
+  "buildPassed": true,
+  "sourceHash": "a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504",
+  "allSourceAndCompiledModulesMatchFirstFrozenEngine": true,
+  "moduleFileCount": 150
+}
