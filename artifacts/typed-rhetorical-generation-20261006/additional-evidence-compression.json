@@ -1,0 +1,35 @@
+{
+  "losslessReadbackVerified": true,
+  "files": [
+    {
+      "file": "development-report.json.gz",
+      "uncompressedBytes": 1626688,
+      "uncompressedSha256": "a046f4d31f9548ab660549b101196da7f93281c84ae3ff61358a95ab691e72e1",
+      "compressedBytes": 117806
+    },
+    {
+      "file": "development-history/5a302a2cef8c/report.json.gz",
+      "uncompressedBytes": 1626688,
+      "uncompressedSha256": "16a54ef779faa18dfac1abac23dc05bb1e0bde1cc768eb6a6d904bd828d41b46",
+      "compressedBytes": 117803
+    },
+    {
+      "file": "development-history/7c31be2e6ea3/report.json.gz",
+      "uncompressedBytes": 1623432,
+      "uncompressedSha256": "f44d8fa2d0d3b0edd19311eb09e2f337acbcf849a9e61afd0c20b15214ad7c92",
+      "compressedBytes": 117485
+    },
+    {
+      "file": "development-history/b5cb309d67f4/report.json.gz",
+      "uncompressedBytes": 1664837,
+      "uncompressedSha256": "2fb8e1ccdd71d035365764286b7e8d371087c899bcb3d5bb3a9e715f888b895c",
+      "compressedBytes": 120908
+    },
+    {
+      "file": "independent-safety-evidence/structural-v3-review-bounded-results.jsonl.gz",
+      "uncompressedBytes": 4405970,
+      "uncompressedSha256": "ca838243d076affa6b4bcbea0c5ab224e056513c060289bd9b1932bfd4d4364b",
+      "compressedBytes": 204034
+    }
+  ]
+}

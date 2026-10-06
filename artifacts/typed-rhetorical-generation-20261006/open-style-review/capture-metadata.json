@@ -1,0 +1,63 @@
+{
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "engineHash": "774a90fe887aa59b415e74d26a3a49a82c3b2ab345f4809fd2c899a96ac5e388",
+  "stableEngine": true,
+  "assetFileHash": "70917229ac40208a52c2eceb06ace4a751828d67750d12d34ecc47973f03950c",
+  "inputSetHash": "aa6ad4e8bab13dcbd9f9996662ce484e407b1b545f35eb42bf65d9879f2acb72",
+  "parser": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "counts": {
+    "generatedCandidates": 138,
+    "structuralCandidates": 74,
+    "inputsWithStructural": 17,
+    "displayedStructural": 18,
+    "firstDisplayedStructural": 17,
+    "nonNullSQ": 0
+  },
+  "errors": 0,
+  "oldAssetBytesIdentical": true,
+  "oldSettingsIdentical": true,
+  "changedSelectedTextInputIdsVsV2": [
+    "Q08",
+    "Q11",
+    "Q12",
+    "Q15",
+    "Q17",
+    "Q19"
+  ],
+  "fullRaw20": {
+    "path": "/workspace/shared/style-review-b3-20261006/b3-66c681f3d2f4-authored-probes.json.gz",
+    "bytes": 161253,
+    "sha256": "78f1c9b302f8dc60629352cbdcf66d91fb68ac6d00e6f71abae2f27c41113f34"
+  },
+  "evaluator203": {
+    "path": "/workspace/shared/structural-b-evaluation/third-development-66c681f3d2f4-after.json.gz",
+    "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+    "bytes": 1998524,
+    "sha256": "06829f2c82bcb31e638c7505df779eb1d3b44d06c6f657be0a9d3a8b5fb89b9b",
+    "summary": {
+      "cases": 203,
+      "requests": 406,
+      "errors": 0
+    },
+    "note": "Previously exposed known203 development/regression capture. Referenced rather than duplicated."
+  },
+  "comparisonTo5a302": {
+    "style20DisplayedTextsIdentical": true,
+    "style20AllCandidateTextsIdentical": true,
+    "known203Differences": {
+      "display": [],
+      "candidatePool": []
+    }
+  }
+}

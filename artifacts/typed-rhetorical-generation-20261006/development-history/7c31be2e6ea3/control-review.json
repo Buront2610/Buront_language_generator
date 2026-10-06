@@ -1,0 +1,1343 @@
+{
+  "recordedAtUtc": "2026-10-06T05:11:14.395018+00:00",
+  "sourceHash": "7c31be2e6ea3610830b0d01d563b6d165423008cc87d0c5046a9a7adada9496b",
+  "type": "Assistant direct inspection, not human S/Q or safety certification",
+  "scope": "All22 known controls, all displayed outputs at intensities2/3 and all structural pool outputs; source expected/forbidden readings are authored review aids",
+  "blockerIds": [
+    "U29"
+  ],
+  "other21": "No additional obvious meaning/scope/role/quantity/quotation/duplicate-premise break found in this inspection",
+  "rows": [
+    {
+      "id": "U19",
+      "source": "もし担当者が休暇中なら見積もりへの回答は明日になりますが、今はまだ出勤予定を確認していません。",
+      "expected": {
+        "premises": [
+          "担当者の休暇は未確定の条件",
+          "条件が真なら回答は明日",
+          "出勤予定未確認"
+        ],
+        "forbidden": [
+          "担当者が休暇中だと断定",
+          "回答が明日だと無条件に断定"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "586ee95a7abd83f9bbd3ba24",
+              "planId": "ac2ee0a2752d0fe866ebb223",
+              "text": "もし担当者が休暇中なら見積もりへの回答は明日になりますが今はまだ出勤予定を確認していません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "586ee95a7abd83f9bbd3ba24",
+              "planId": "32c175322b102e10ff945e8e",
+              "text": "もし担当者が休暇中なら見積もりへの回答は明日になりますが今はまだ出勤予定を確認していません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "U20",
+      "source": "私が得意なら重複行を三つ直せるはずですが、今日は一つも修正していません。",
+      "expected": {
+        "premises": [
+          "得意であることは仮定",
+          "三つ直せるのは条件付きの見込み",
+          "今日は修正ゼロ"
+        ],
+        "forbidden": [
+          "三つ修正した",
+          "少し直した",
+          "得意と断定"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "1948f86df3f612546968006b",
+              "planId": "63e42abcb44cd5331d93905a",
+              "text": "私が得意なら重複行を三つ直せるはずですが今日は一つも修正していないからな"
+            },
+            {
+              "id": "71a4ca8d58d92ae76b328035",
+              "planId": "89d8169365a9fba3310e1053",
+              "text": "私が得意なら重複行を三つ直せるはずですが今日は一つも修正していません"
+            },
+            {
+              "id": "8df946a222eebe06eaaeca15",
+              "planId": "708570289e69bc778756a33b",
+              "text": "私が得意なら重複行を三つ直せるはずですが今日は一つも修正していない"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "1948f86df3f612546968006b",
+              "planId": "83536d2d9d9d985ad99fa6ff",
+              "text": "私が得意なら重複行を三つ直せるはずですが今日は一つも修正していないからな"
+            },
+            {
+              "id": "71a4ca8d58d92ae76b328035",
+              "planId": "a8b1fdcc633949939623f27d",
+              "text": "私が得意なら重複行を三つ直せるはずですが今日は一つも修正していません"
+            },
+            {
+              "id": "8df946a222eebe06eaaeca15",
+              "planId": "9cd0a1b45b382f9929aae87a",
+              "text": "私が得意なら重複行を三つ直せるはずですが今日は一つも修正していない"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "U21",
+      "source": "議事録には「担当者が休暇中なので回答は明日」とありますが、実際の回答予定はまだ不明です。",
+      "expected": {
+        "premises": [
+          "休暇と明日回答は議事録中の引用",
+          "実際の回答予定はまだ不明"
+        ],
+        "forbidden": [
+          "明日回答を事実として確定",
+          "引用の発言者を話者へ置換"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "f2aba196c1f2123d6e791760",
+              "planId": "3bb6eb035164f6d012edd8c0",
+              "text": "議事録には「担当者が休暇中なので回答は明日」とありますが実際の回答予定はまだ不明だからな"
+            },
+            {
+              "id": "973bf517e6506d01178aa830",
+              "planId": "9544e8dd3492ebe3c81143ed",
+              "text": "議事録には「担当者が休暇中なので回答は明日」とありますが実際の回答予定はまだ不明です"
+            },
+            {
+              "id": "5596efb866c8968b657590f1",
+              "planId": "e4f12ba8c066fd9ffec13d00",
+              "text": "議事録には「担当者が休暇中なので回答は明日」とありますが実際の回答予定はまだ不明だ"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "f2aba196c1f2123d6e791760",
+              "planId": "e962a06c19b06843e6175563",
+              "text": "議事録には「担当者が休暇中なので回答は明日」とありますが実際の回答予定はまだ不明だからな"
+            },
+            {
+              "id": "973bf517e6506d01178aa830",
+              "planId": "ebc8451173c6330c7bd98c8a",
+              "text": "議事録には「担当者が休暇中なので回答は明日」とありますが実際の回答予定はまだ不明です"
+            },
+            {
+              "id": "5596efb866c8968b657590f1",
+              "planId": "839f78f8976f32ecb1262a30",
+              "text": "議事録には「担当者が休暇中なので回答は明日」とありますが実際の回答予定はまだ不明だ"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "U22",
+      "source": "研修では「賛成ですが根拠を示してください」という例文を読みました。私はこの案にはまだ賛成していません。",
+      "expected": {
+        "premises": [
+          "賛成と根拠要求は研修の例文",
+          "話者はこの案にまだ賛成していない"
+        ],
+        "forbidden": [
+          "話者が賛成",
+          "話者からの実際の根拠要求を創作"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "e16aca2107a8757321b35212",
+              "planId": "fd3182ae0cc10de9f19bf5bb",
+              "text": "研修では「賛成ですが根拠を示してください」という例文を読みました\n俺はこの案にはまだ賛成していないからな"
+            },
+            {
+              "id": "90096abea43086a9c97ffae7",
+              "planId": "43cb0129649e3a876864f6c8",
+              "text": "研修では「賛成ですが根拠を示してください」という例文を読みました\n俺はこの案にはまだ賛成していません"
+            },
+            {
+              "id": "eb23210c2e49abcc228a6d1f",
+              "planId": "8ee1a4f187d170a49cacb211",
+              "text": "研修では「賛成ですが根拠を示してください」という例文を読みました\n俺はこの案にはまだ賛成していない"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "e16aca2107a8757321b35212",
+              "planId": "30ce409c4dd23b456605dc0e",
+              "text": "研修では「賛成ですが根拠を示してください」という例文を読みました\n俺はこの案にはまだ賛成していないからな"
+            },
+            {
+              "id": "90096abea43086a9c97ffae7",
+              "planId": "a1b1f27f3d1f18b76b001162",
+              "text": "研修では「賛成ですが根拠を示してください」という例文を読みました\n俺はこの案にはまだ賛成していません"
+            },
+            {
+              "id": "eb23210c2e49abcc228a6d1f",
+              "planId": "42c4560390eed365907bb0d9",
+              "text": "研修では「賛成ですが根拠を示してください」という例文を読みました\n俺はこの案にはまだ賛成していない"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "U23",
+      "source": "得意とは言えませんが、五つの資料のうち一つだけ確認しました。残る四つはまだ見ていません。",
+      "expected": {
+        "premises": [
+          "得意とは言えない",
+          "資料五つのうち一つだけ確認",
+          "四つは未確認"
+        ],
+        "forbidden": [
+          "全部確認",
+          "半分確認",
+          "四つ確認"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "6b7b673e4d65405accdf0bb2",
+              "planId": "5479eaa585004e1a4d0900a8",
+              "text": "得意とは言えない。とはいえ、五つの資料のうち一つだけ確認した。残る四つはまだ見ていません。"
+            },
+            {
+              "id": "ebebfaba140b84764da6c45c",
+              "planId": "7243c5e86614a4e9897fabb9",
+              "text": "得意とは言えませんが五つの資料のうち一つだけ確認したからな\n残る四つはまだ見ていません"
+            },
+            {
+              "id": "2a62681d47d76b61c17b67f7",
+              "planId": "bd7f54e2e4bf4a9a019e618c",
+              "text": "得意とは言えませんが五つの資料のうち一つだけ確認しました\n残る四つはまだ見ていません"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "得意とは言えない。とはいえ、五つの資料のうち一つだけ確認した。残る四つはまだ見ていません。",
+              "displayOrdinal": 1,
+              "planId": "5479eaa585004e1a4d0900a8",
+              "independentBoundedProof": true
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "6b7b673e4d65405accdf0bb2",
+              "planId": "d8d8eb23751be5920d8ec2cf",
+              "text": "得意とは言えない。とはいえ、五つの資料のうち一つだけ確認した。残る四つはまだ見ていません。"
+            },
+            {
+              "id": "ebebfaba140b84764da6c45c",
+              "planId": "ba2da4744ef771e209ed85f6",
+              "text": "得意とは言えませんが五つの資料のうち一つだけ確認したからな\n残る四つはまだ見ていません"
+            },
+            {
+              "id": "2a62681d47d76b61c17b67f7",
+              "planId": "777ee5495cf1a61372ee0459",
+              "text": "得意とは言えませんが五つの資料のうち一つだけ確認しました\n残る四つはまだ見ていません"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "得意とは言えない。とはいえ、五つの資料のうち一つだけ確認した。残る四つはまだ見ていません。",
+              "displayOrdinal": 1,
+              "planId": "d8d8eb23751be5920d8ec2cf",
+              "independentBoundedProof": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U24",
+      "source": "在庫は二箱しかないので、今日は三箱の注文を全部は発送できません。",
+      "expected": {
+        "premises": [
+          "在庫二箱のみ",
+          "注文は三箱",
+          "今日は注文全部の発送不可"
+        ],
+        "forbidden": [
+          "一箱も発送できない",
+          "三箱発送済み",
+          "二箱注文"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "c8439c7571fef4172a6143fe",
+              "planId": "dd445ade32f696addc2cabda",
+              "text": "今日は三箱の注文を全部は発送できない。何故かというと在庫は二箱しかないからだ。"
+            },
+            {
+              "id": "3763d6d623b33c08a051ba58",
+              "planId": "62891e5fdb691a4c6c032515",
+              "text": "在庫は二箱しかないので、今日は三箱の注文を全部は発送できません"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "今日は三箱の注文を全部は発送できない。何故かというと在庫は二箱しかないからだ。",
+              "displayOrdinal": 1,
+              "planId": "dd445ade32f696addc2cabda",
+              "independentBoundedProof": true
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "c8439c7571fef4172a6143fe",
+              "planId": "89a48f82547729fc1195cdbf",
+              "text": "今日は三箱の注文を全部は発送できない。何故かというと在庫は二箱しかないからだ。"
+            },
+            {
+              "id": "3763d6d623b33c08a051ba58",
+              "planId": "0fbf9764cb48388f954eaa39",
+              "text": "在庫は二箱しかないので、今日は三箱の注文を全部は発送できません"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "今日は三箱の注文を全部は発送できない。何故かというと在庫は二箱しかないからだ。",
+              "displayOrdinal": 1,
+              "planId": "89a48f82547729fc1195cdbf",
+              "independentBoundedProof": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U25",
+      "source": "私が佐藤さんに確認を頼んだので、佐藤さんから私に結果が届きます。",
+      "expected": {
+        "premises": [
+          "依頼者は私",
+          "確認する人は佐藤",
+          "結果の送り手は佐藤",
+          "受け手は私"
+        ],
+        "forbidden": [
+          "佐藤が私に確認を依頼",
+          "私が佐藤に結果を送る"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "4f877b6e5e2ed21e7a56938c",
+              "planId": "2fb15d5811daf03a506c81f9",
+              "text": "佐藤さんから私に結果が届く。何故かというと私が佐藤さんに確認を頼んだからだ。"
+            },
+            {
+              "id": "089cc2a4d2f9b881a93af347",
+              "planId": "e4e1de4e77f7c9d54cb48a48",
+              "text": "俺が佐藤さんに確認を頼んだので、佐藤さんから俺に結果が届きます"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "佐藤さんから私に結果が届く。何故かというと私が佐藤さんに確認を頼んだからだ。",
+              "displayOrdinal": 1,
+              "planId": "2fb15d5811daf03a506c81f9",
+              "independentBoundedProof": true
+            },
+            {
+              "text": "佐藤さんから俺に結果が届く。何故かというと俺が佐藤さんに確認を頼んだからだ。",
+              "displayOrdinal": null,
+              "planId": "f1532ca63d73050688cdd74a",
+              "independentBoundedProof": true
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "4f877b6e5e2ed21e7a56938c",
+              "planId": "58ec4bfbbb333221abd048c5",
+              "text": "佐藤さんから私に結果が届く。何故かというと私が佐藤さんに確認を頼んだからだ。"
+            },
+            {
+              "id": "089cc2a4d2f9b881a93af347",
+              "planId": "0d78de1181b0561954bef233",
+              "text": "俺が佐藤さんに確認を頼んだので、佐藤さんから俺に結果が届きます"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "佐藤さんから私に結果が届く。何故かというと私が佐藤さんに確認を頼んだからだ。",
+              "displayOrdinal": 1,
+              "planId": "58ec4bfbbb333221abd048c5",
+              "independentBoundedProof": true
+            },
+            {
+              "text": "佐藤さんから俺に結果が届く。何故かというと俺が佐藤さんに確認を頼んだからだ。",
+              "displayOrdinal": null,
+              "planId": "3b2b8a6a508e3d21a377651b",
+              "independentBoundedProof": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U26",
+      "source": "田中さんは私の案に賛成だと言いましたが、私は田中さんに費用の根拠を示すよう求めました。",
+      "expected": {
+        "premises": [
+          "賛成する人は田中",
+          "案の持ち主は私",
+          "費用の根拠を求める人は私",
+          "提示を求められる人は田中"
+        ],
+        "forbidden": [
+          "私が田中の案に賛成",
+          "田中が私に根拠を要求"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "e3dff3c3fa1ee13cec93da5f",
+              "planId": "304ddab3b7efb9b61a387cb4",
+              "text": "田中さんは私の案に賛成だと言いましたが俺は田中さんに費用の根拠を示すよう求めました"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "e3dff3c3fa1ee13cec93da5f",
+              "planId": "cae74fcb90843f437631a401",
+              "text": "田中さんは私の案に賛成だと言いましたが俺は田中さんに費用の根拠を示すよう求めました"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "U27",
+      "source": "配達が遅れているので、会議資料の配布は午後です。理由は配達の遅れです。",
+      "expected": {
+        "premises": [
+          "配達遅延",
+          "会議資料の配布は午後"
+        ],
+        "forbidden": [
+          "二つの別の遅延",
+          "午前配布",
+          "会議そのものが午後と断定"
+        ],
+        "relation": "同じ遅延理由の重複を新たな理由に増殖させない"
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "2f539d37eb221336b2f44d6a",
+              "planId": "f79082e30148f5ce86e42385",
+              "text": "配達が遅れているので、会議資料の配布は午後です\n理由は配達の遅れです"
+            },
+            {
+              "id": "949f66e00cca2703d291de94",
+              "planId": "815ff6a09c15fe67cf165276",
+              "text": "配達が遅れているので、会議資料の配布は午後だからな\n理由は配達の遅れだ"
+            },
+            {
+              "id": "c89957e38925e44c477d6c71",
+              "planId": "1b9249f00c6244b4ecc1d136",
+              "text": "配達が遅れているので、会議資料の配布は午後だ\n理由は配達の遅れだ"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "2f539d37eb221336b2f44d6a",
+              "planId": "51ae45a8bbed07df1c2e23af",
+              "text": "配達が遅れているので、会議資料の配布は午後です\n理由は配達の遅れです"
+            },
+            {
+              "id": "8bed3e6bb766aa9997e7be68",
+              "planId": "f91b1dd176a27dbdcbfff481",
+              "text": "配達が遅れているので、会議資料の配布は午後だからな\n理由は配達の遅れだからな"
+            },
+            {
+              "id": "c89957e38925e44c477d6c71",
+              "planId": "8ac2b192e704871193ff914b",
+              "text": "配達が遅れているので、会議資料の配布は午後だ\n理由は配達の遅れだ"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "U28",
+      "source": "大きな成果ではありませんが、見出しを一か所だけ直しました。修正したのは、その一か所だけです。",
+      "expected": {
+        "premises": [
+          "大きな成果ではないという評価",
+          "見出しを一か所だけ修正"
+        ],
+        "forbidden": [
+          "二か所修正",
+          "本文全体を修正"
+        ],
+        "relation": "一つの修正の言い換え重複"
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "4912046025db64d6711dee08",
+              "planId": "ce98a3f9bbf31a735dc5a7e3",
+              "text": "大きな成果ではない。とはいえ、見出しを一か所だけ直した。修正したのは、その一か所だけです。"
+            },
+            {
+              "id": "e7b5e2825a1758198ff8c3b7",
+              "planId": "739252d311c4cdeab7c6775d",
+              "text": "大きな成果ではありませんが見出しを一か所だけ直しました\n修正したのはその一か所だけだからな"
+            },
+            {
+              "id": "6391a68677f91459314f402f",
+              "planId": "5cc01e4328858844188a99d2",
+              "text": "大きな成果ではありませんが見出しを一か所だけ直しました\n修正したのはその一か所だけです"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "大きな成果ではない。とはいえ、見出しを一か所だけ直した。修正したのは、その一か所だけです。",
+              "displayOrdinal": 1,
+              "planId": "ce98a3f9bbf31a735dc5a7e3",
+              "independentBoundedProof": true
+            },
+            {
+              "text": "大きな成果ではない。とはいえ、見出しを一か所だけ直した。修正したのは、その一か所だけだ。",
+              "displayOrdinal": null,
+              "planId": "2e8515866ee38270e20c365c",
+              "independentBoundedProof": true
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "4912046025db64d6711dee08",
+              "planId": "afa52f4b3a931ffdd4150d3c",
+              "text": "大きな成果ではない。とはいえ、見出しを一か所だけ直した。修正したのは、その一か所だけです。"
+            },
+            {
+              "id": "e7b5e2825a1758198ff8c3b7",
+              "planId": "3e526178078f234f89537a7f",
+              "text": "大きな成果ではありませんが見出しを一か所だけ直しました\n修正したのはその一か所だけだからな"
+            },
+            {
+              "id": "6391a68677f91459314f402f",
+              "planId": "99381ab774c806a6e3e6f1c3",
+              "text": "大きな成果ではありませんが見出しを一か所だけ直しました\n修正したのはその一か所だけです"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "大きな成果ではない。とはいえ、見出しを一か所だけ直した。修正したのは、その一か所だけです。",
+              "displayOrdinal": 1,
+              "planId": "afa52f4b3a931ffdd4150d3c",
+              "independentBoundedProof": true
+            },
+            {
+              "text": "大きな成果ではない。とはいえ、見出しを一か所だけ直した。修正したのは、その一か所だけだ。",
+              "displayOrdinal": null,
+              "planId": "9b8055959939f68cbdb8f6e9",
+              "independentBoundedProof": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U29",
+      "source": "理由が分からないので反対しているのではありません。費用が増えると分かっているので反対しています。",
+      "expected": {
+        "premises": [
+          "反対の理由は理由不明ではない",
+          "費用増加を認識",
+          "費用増加が反対の理由"
+        ],
+        "forbidden": [
+          "理由不明だから反対",
+          "費用が減る",
+          "反対していない"
+        ]
+      },
+      "review": "negated-causal-scope corruption, acceptance blocker",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "ff9d9e900b0f44d85bb7c4c7",
+              "planId": "7dce9efb8a86979872f4e8fd",
+              "text": "反対しているのではない。何故かというと理由が分からないからだ。反対している。何故かというと費用が増えると分かっているからだ。"
+            },
+            {
+              "id": "7238d74a19c600d76f7befbc",
+              "planId": "fd7e328ba88931a1ec2d8d84",
+              "text": "理由が分からないので反対しているのではありません\n費用が増えると分かっているので反対しています"
+            },
+            {
+              "id": "e38ebe96b501a1255aec8528",
+              "planId": "f68fcc5fdfcfb611601fa4e7",
+              "text": "理由が分からないので反対しているのではない\n費用が増えると分かっているので反対している"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "反対しているのではない。何故かというと理由が分からないからだ。反対している。何故かというと費用が増えると分かっているからだ。",
+              "displayOrdinal": 1,
+              "planId": "7dce9efb8a86979872f4e8fd",
+              "independentBoundedProof": true
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "ff9d9e900b0f44d85bb7c4c7",
+              "planId": "a6d002591347826cbedd24d4",
+              "text": "反対しているのではない。何故かというと理由が分からないからだ。反対している。何故かというと費用が増えると分かっているからだ。"
+            },
+            {
+              "id": "7238d74a19c600d76f7befbc",
+              "planId": "2225f9cb8c6ad98f58ca69b6",
+              "text": "理由が分からないので反対しているのではありません\n費用が増えると分かっているので反対しています"
+            },
+            {
+              "id": "e38ebe96b501a1255aec8528",
+              "planId": "bbf5f4fc94a570b7d20b715a",
+              "text": "理由が分からないので反対しているのではない\n費用が増えると分かっているので反対している"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "反対しているのではない。何故かというと理由が分からないからだ。反対している。何故かというと費用が増えると分かっているからだ。",
+              "displayOrdinal": 1,
+              "planId": "a6d002591347826cbedd24d4",
+              "independentBoundedProof": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U30",
+      "source": "新しい機械を買うことには反対ですが、買わずに済むという根拠を私から示すよう求めないでください。",
+      "expected": {
+        "premises": [
+          "新しい機械購入に反対",
+          "話者から非購入の根拠を出すよう要求しないでほしい"
+        ],
+        "forbidden": [
+          "話者が根拠提示を相手に要求",
+          "購入に賛成",
+          "話者が根拠を示すと約束"
+        ]
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "766f59efefe81162221b861e",
+              "planId": "481b42ae5eb198d411841323",
+              "text": "新しい機械を買うことには反対ですが買わずに済むという根拠を私から示すよう求めないでください"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "766f59efefe81162221b861e",
+              "planId": "5f17253a5a9ed1a91b67f08f",
+              "text": "新しい機械を買うことには反対ですが買わずに済むという根拠を私から示すよう求めないでください"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C01A",
+      "source": "棚を固定したからといって、倉庫全体が安全になったとは言えません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "棚は固定した",
+            "棚の固定だけでは倉庫全体の安全を断言できない",
+            "倉庫全体が危険だとは断言していない"
+          ],
+          "structuralOpportunity": "Abstain or preserve the denial of causal sufficiency; never emit the embedded positive safety assertion.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "negated-inference",
+            "scope"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "4cc3fcdae149e3f418f83833",
+              "planId": "70d2b2c480b12b0e4dc2a02e",
+              "text": "棚を固定したからといって倉庫全体が安全になったとは言えません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "4cc3fcdae149e3f418f83833",
+              "planId": "87442a8b5c8e2cba4f4332fc",
+              "text": "棚を固定したからといって倉庫全体が安全になったとは言えません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C01B",
+      "source": "棚の取り付けを直したことだけを理由に、倉庫のすべてが安全だと結論付けるわけにはいきません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "棚は固定した",
+            "棚の固定だけでは倉庫全体の安全を断言できない",
+            "倉庫全体が危険だとは断言していない"
+          ],
+          "structuralOpportunity": "Preserve limited causal support and negation scope.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "negated-inference",
+            "scope"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "d3b070ca9cc66bde2850e011",
+              "planId": "0fc35e80070dbf0f5f7d0134",
+              "text": "棚の取り付けを直したことだけを理由に倉庫のすべてが安全だと結論付けるわけにはいきません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "d3b070ca9cc66bde2850e011",
+              "planId": "89cb09d3db5887cbeb843c3f",
+              "text": "棚の取り付けを直したことだけを理由に倉庫のすべてが安全だと結論付けるわけにはいきません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C02A",
+      "source": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言です。私が引き受けたという意味ではありません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "引用は加藤さんの発言",
+            "引用内容は「手が空いているので、明日は配送を担当できます」",
+            "語り手自身の引き受けではない"
+          ],
+          "structuralOpportunity": "Preserve attribution and the literal quotation; do not recast the quoted ability as the narrator’s promise.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "quotation",
+            "speaker-attribution",
+            "future-ability"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "db5abbaeaeaa15d1599dea67",
+              "planId": "9f2ce6055667b478967c76c5",
+              "text": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言です\n俺が引き受けたという意味ではありません"
+            },
+            {
+              "id": "e3cf17aa14dd7fe76f4ff553",
+              "planId": "21dff8ac220e5caa17b247de",
+              "text": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言だからな\n俺が引き受けたという意味ではない"
+            },
+            {
+              "id": "bc062f5921891cb15813aeaf",
+              "planId": "9e5610f3defcd3ebd1d760f4",
+              "text": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言だ\n俺が引き受けたという意味ではない"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "b953ad4b48bd98df56a8319b",
+              "planId": "4befbd715679650d72def9cc",
+              "text": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言だからな\n俺が引き受けたという意味ではないからな"
+            },
+            {
+              "id": "db5abbaeaeaa15d1599dea67",
+              "planId": "dee95385766b8add6f12eff3",
+              "text": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言です\n俺が引き受けたという意味ではありません"
+            },
+            {
+              "id": "bc062f5921891cb15813aeaf",
+              "planId": "6c21c46f005390a0042438fe",
+              "text": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言だ\n俺が引き受けたという意味ではない"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C02B",
+      "source": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは、加藤さんが言ったことです。私の申し出ではありません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "引用は加藤さんの発言",
+            "引用内容は「手が空いているので、明日は配送を担当できます」",
+            "語り手自身の引き受けではない"
+          ],
+          "structuralOpportunity": "Keep quotation text and speaker roles even when the quoted sentence appears first.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "quotation",
+            "speaker-attribution",
+            "future-ability"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "3d0cf309b320e5ac50ca4e8b",
+              "planId": "e8b71e1350b5a363ad1072c3",
+              "text": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは加藤さんが言ったことだからな\n俺の申し出ではない"
+            },
+            {
+              "id": "d67555389d0719a4ae63643b",
+              "planId": "7a3c51a678c813c381030329",
+              "text": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは加藤さんが言ったことです\n俺の申し出ではありません"
+            },
+            {
+              "id": "2c53e59c764f38399403961d",
+              "planId": "b7eb36074b0bbc42d09cd63d",
+              "text": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは加藤さんが言ったことだ\n俺の申し出ではない"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "8408c511f47b32a5b3308c7c",
+              "planId": "4169c23d3806217034bfd051",
+              "text": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは加藤さんが言ったことだからな\n俺の申し出ではないからな"
+            },
+            {
+              "id": "d67555389d0719a4ae63643b",
+              "planId": "cc23423a3a68cce52f2fc104",
+              "text": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは加藤さんが言ったことです\n俺の申し出ではありません"
+            },
+            {
+              "id": "2c53e59c764f38399403961d",
+              "planId": "235c948ab7d5b949b7da3a2e",
+              "text": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは加藤さんが言ったことだ\n俺の申し出ではない"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C03A",
+      "source": "私は配置変更に賛成ですが、佐伯さんは反対しています。作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "語り手は配置変更に賛成",
+            "佐伯さんは配置変更に反対",
+            "作業日誌の提示を依頼しているのは佐伯さん",
+            "語り手はその提示依頼をしていない"
+          ],
+          "structuralOpportunity": "Preserve separate subjects for acceptance, opposition, and evidence demand.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "role",
+            "stance-attribution",
+            "request-attribution"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "0eb0abc71ff2c3ffafc47d05",
+              "planId": "33ebfb63122029c9c735b8fd",
+              "text": "俺は配置変更に賛成ですが佐伯さんは反対している\n作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません"
+            },
+            {
+              "id": "8654b9c689393b60c2d384b3",
+              "planId": "544cd621ffe95aa023d73c68",
+              "text": "俺は配置変更に賛成ですが佐伯さんは反対しています\n作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません"
+            },
+            {
+              "id": "8c7684658debe24f3c4fbdc3",
+              "planId": "cee87b75c38604c0c7ef1144",
+              "text": "俺は配置変更に賛成ですが佐伯さんは反対しているからな\n作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "0eb0abc71ff2c3ffafc47d05",
+              "planId": "031020e2f1ad7b0b144302e2",
+              "text": "俺は配置変更に賛成ですが佐伯さんは反対している\n作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません"
+            },
+            {
+              "id": "8654b9c689393b60c2d384b3",
+              "planId": "7184a247a129576d9cda5ce8",
+              "text": "俺は配置変更に賛成ですが佐伯さんは反対しています\n作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません"
+            },
+            {
+              "id": "8c7684658debe24f3c4fbdc3",
+              "planId": "99e6ef99289075a6eab949db",
+              "text": "俺は配置変更に賛成ですが佐伯さんは反対しているからな\n作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C03B",
+      "source": "配置を変える案は私は支持し、佐伯さんは支持していません。作業の記録を確認させてほしいと言っているのも、私ではなく佐伯さんです。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "語り手は配置変更に賛成",
+            "佐伯さんは配置変更に反対",
+            "作業日誌の提示を依頼しているのは佐伯さん",
+            "語り手はその提示依頼をしていない"
+          ],
+          "structuralOpportunity": "Keep the source request and negative stance assigned to the other person.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "role",
+            "stance-attribution",
+            "request-attribution"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "9456b847eaca256619a7bfa3",
+              "planId": "7f1d14a171ba0e14ac38a604",
+              "text": "配置を変える案は俺は支持し、佐伯さんは支持していません\n作業の記録を確認させてほしいと言っているのも俺ではなく佐伯さんです"
+            },
+            {
+              "id": "a59250fe0334d8f32d4ae26d",
+              "planId": "9c869b18af7cbe11f2875da1",
+              "text": "配置を変える案は俺は支持し、佐伯さんは支持していないからな\n作業の記録を確認させてほしいと言っているのも俺ではなく佐伯さんだ"
+            },
+            {
+              "id": "31e1261356baf68b475fd8b9",
+              "planId": "dda9a8ec3d166e65bc30160b",
+              "text": "配置を変える案は俺は支持し、佐伯さんは支持していない\n作業の記録を確認させてほしいと言っているのも俺ではなく佐伯さんだ"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "9456b847eaca256619a7bfa3",
+              "planId": "60b8c98174bc6e4efb103f29",
+              "text": "配置を変える案は俺は支持し、佐伯さんは支持していません\n作業の記録を確認させてほしいと言っているのも俺ではなく佐伯さんです"
+            },
+            {
+              "id": "aa43fe125114fca54a9e286a",
+              "planId": "dc02f7ed0cb26c6c202a87cb",
+              "text": "配置を変える案は俺は支持し、佐伯さんは支持していないからな\n作業の記録を確認させてほしいと言っているのも俺ではなく佐伯さんだからな"
+            },
+            {
+              "id": "31e1261356baf68b475fd8b9",
+              "planId": "55b9f563d0003033e859783d",
+              "text": "配置を変える案は俺は支持し、佐伯さんは支持していない\n作業の記録を確認させてほしいと言っているのも俺ではなく佐伯さんだ"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C04A",
+      "source": "計算は得意ではありませんが、五枚の精算書のうち三枚だけは確認を終えました。残り二枚はまだ見ていません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "計算が得意ではない",
+            "精算書は全部で五枚",
+            "確認を終えたのは三枚だけ",
+            "二枚は未確認"
+          ],
+          "structuralOpportunity": "Retain the modesty/completion contrast without upgrading partial completion into total completion.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "quantity",
+            "partial-completion",
+            "only"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "c0149dd5d4d2077f58af219a",
+              "planId": "b54f4d051871d1e697317fb7",
+              "text": "計算は得意ではない。とはいえ、五枚の精算書のうち三枚だけは確認を終えた。残り二枚はまだ見ていません。"
+            },
+            {
+              "id": "df37c4ea2d748319f64571b6",
+              "planId": "d1148abfc3ab5a55c2000c57",
+              "text": "計算は得意ではありませんが五枚の精算書のうち三枚だけは確認を終えました\n残り二枚はまだ見ていません"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "計算は得意ではない。とはいえ、五枚の精算書のうち三枚だけは確認を終えた。残り二枚はまだ見ていません。",
+              "displayOrdinal": 1,
+              "planId": "b54f4d051871d1e697317fb7",
+              "independentBoundedProof": true
+            }
+          ]
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "c0149dd5d4d2077f58af219a",
+              "planId": "f540b0cfe94e49aff9ae81fd",
+              "text": "計算は得意ではない。とはいえ、五枚の精算書のうち三枚だけは確認を終えた。残り二枚はまだ見ていません。"
+            },
+            {
+              "id": "df37c4ea2d748319f64571b6",
+              "planId": "8d6695b1f9257be13a7af292",
+              "text": "計算は得意ではありませんが五枚の精算書のうち三枚だけは確認を終えました\n残り二枚はまだ見ていません"
+            }
+          ],
+          "structuralCandidates": [
+            {
+              "text": "計算は得意ではない。とはいえ、五枚の精算書のうち三枚だけは確認を終えた。残り二枚はまだ見ていません。",
+              "displayOrdinal": 1,
+              "planId": "f540b0cfe94e49aff9ae81fd",
+              "independentBoundedProof": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SG2-C04B",
+      "source": "数字の扱いには自信がありません。それでも精算書は全五枚中の三枚を確認済みで、ほかの二枚にはまだ目を通していません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "計算が得意ではない",
+            "精算書は全部で五枚",
+            "確認を終えたのは三枚だけ",
+            "二枚は未確認"
+          ],
+          "structuralOpportunity": "Maintain all three quantities and their completed versus unfinished scopes.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "quantity",
+            "partial-completion",
+            "only"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "dd8f06e1b5f075301e09884f",
+              "planId": "67a8c0878eba3b08dafa03e3",
+              "text": "数字の扱いには自信がありません\nそれでも精算書は全五枚中の三枚を確認済みでほかの二枚にはまだ目を通していません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "dd8f06e1b5f075301e09884f",
+              "planId": "c0281193097c52a113ef8c30",
+              "text": "数字の扱いには自信がありません\nそれでも精算書は全五枚中の三枚を確認済みでほかの二枚にはまだ目を通していません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C05A",
+      "source": "提出記録には「鍵が返却されたので閉館できる」とあります。別の欄にも「鍵が返却された」とありますが、二度の返却を意味しているわけではありません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "記録上の閉館可能の理由は鍵の返却",
+            "同じ鍵の返却が二つの欄に重複記載されている",
+            "二度返却されたという意味ではない",
+            "実際に閉館したとは述べていない"
+          ],
+          "structuralOpportunity": "Treat repeated premise wording as one event; preserve quote scope and possibility rather than completed closure.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "duplicate-premise",
+            "quotation",
+            "event-count",
+            "ability"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "45a12a0c0b0581dd0b03aed2",
+              "planId": "b0b234618e6a33fa898036e6",
+              "text": "提出記録には「鍵が返却されたので閉館できる」とあります\n別の欄にも「鍵が返却された」とありますが二度の返却を意味しているわけではありません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "45a12a0c0b0581dd0b03aed2",
+              "planId": "4158cc548d4ccc835f4f592a",
+              "text": "提出記録には「鍵が返却されたので閉館できる」とあります\n別の欄にも「鍵が返却された」とありますが二度の返却を意味しているわけではありません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "SG2-C05B",
+      "source": "「鍵が返却されたので閉館できる」という提出記録と、別欄の「鍵が返却された」は、同じ返却についての記載です。二回返されたという話ではありません。",
+      "expected": {
+        "expected": {
+          "preserve": [
+            "記録上の閉館可能の理由は鍵の返却",
+            "同じ鍵の返却が二つの欄に重複記載されている",
+            "二度返却されたという意味ではない",
+            "実際に閉館したとは述べていない"
+          ],
+          "structuralOpportunity": "Preserve the same-event duplicate and explicit rejection of a two-event reading.",
+          "unsupportedAdditionsForbidden": true,
+          "abstentionAllowed": true,
+          "risks": [
+            "duplicate-premise",
+            "quotation",
+            "event-count",
+            "ability"
+          ]
+        }
+      },
+      "review": "No additional obvious violation found in inspected displayed/structural texts; not a general safety judgment",
+      "requests": [
+        {
+          "intensity": 2,
+          "displayed": [
+            {
+              "id": "2e4567a9a45bcede133908e0",
+              "planId": "db8d60937b8c9b7cc5b7d4b5",
+              "text": "「鍵が返却されたので閉館できる」という提出記録と別欄の「鍵が返却された」は同じ返却についての記載です\n二回返されたという話ではありません"
+            },
+            {
+              "id": "b8586d31bd6c7e0f3c38456f",
+              "planId": "cf02d80dd4f738d485ee03cb",
+              "text": "「鍵が返却されたので閉館できる」という提出記録と別欄の「鍵が返却された」は同じ返却についての記載だからな\n二回返されたという話ではありません"
+            },
+            {
+              "id": "5e54e98de7d8502d1ff8114b",
+              "planId": "83ee7fcaca4808dda4d28fb4",
+              "text": "「鍵が返却されたので閉館できる」という提出記録と別欄の「鍵が返却された」は同じ返却についての記載だ\n二回返されたという話ではありません"
+            }
+          ],
+          "structuralCandidates": []
+        },
+        {
+          "intensity": 3,
+          "displayed": [
+            {
+              "id": "2e4567a9a45bcede133908e0",
+              "planId": "24abc142b6b67a9c3376c24e",
+              "text": "「鍵が返却されたので閉館できる」という提出記録と別欄の「鍵が返却された」は同じ返却についての記載です\n二回返されたという話ではありません"
+            },
+            {
+              "id": "b8586d31bd6c7e0f3c38456f",
+              "planId": "52ff2a96ed64ed55e9e36350",
+              "text": "「鍵が返却されたので閉館できる」という提出記録と別欄の「鍵が返却された」は同じ返却についての記載だからな\n二回返されたという話ではありません"
+            },
+            {
+              "id": "5e54e98de7d8502d1ff8114b",
+              "planId": "51b09cb5640d7143d7261f82",
+              "text": "「鍵が返却されたので閉館できる」という提出記録と別欄の「鍵が返却された」は同じ返却についての記載だ\n二回返されたという話ではありません"
+            }
+          ],
+          "structuralCandidates": []
+        }
+      ]
+    }
+  ],
+  "humanS": null,
+  "humanQ": null
+}

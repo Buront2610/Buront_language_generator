@@ -3,6 +3,7 @@ import { extractFacts } from './facts';
 import { hash, slice, sourceDocument } from './source';
 import { validateRewrite } from './rewrite-validation';
 import { realize, verification } from './validator';
+import { validateStructural } from './structural-validation';
 import { validateConstruction } from './constructions';
 import { select } from './evaluation';
 import { updateConstructionOutcomes } from './construction-diagnostics';
@@ -70,7 +71,7 @@ export function verificationPool(result: GenerationResult): Candidate[] {
   return [...pool];
 }
 export function semanticTexts(result: GenerationResult): string[] {
-  return [...new Set(verificationPool(result).flatMap(candidate => { if (candidate.plan.rewrite || candidate.plan.construction) return []; const pair = factualPair(result, candidate); return pair.source === pair.output ? [] : [pair.source, pair.output]; }))];
+  return [...new Set(verificationPool(result).flatMap(candidate => { if (candidate.plan.rewrite || candidate.plan.construction || candidate.plan.structural) return []; const pair = factualPair(result, candidate); return pair.source === pair.output ? [] : [pair.source, pair.output]; }))];
 }
 export function finishSemanticVerification(result: GenerationResult, analyses: Record<string, Analysis>): GenerationResult {
   const irs = new Map<string, DocumentIR>();
@@ -86,13 +87,13 @@ export function finishSemanticVerification(result: GenerationResult, analyses: R
   const candidates = verificationPool(result);
   for (const candidate of candidates) {
     const pair = factualPair(result, candidate);
-    const checks: Check[] = candidate.plan.construction ? [{ code: 'S-bounded-construction', status: !candidate.plan.rewrite && validateConstruction(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '登録済みの閉じた構文について、原文への再束縛・使用条件・事実の特徴・出典を独立照合。自由な言い換えの意味同値性や、文体の自然さを保証する判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'registered-composable-construction-proof-v2' }] : candidate.plan.rewrite ? [{ code: 'S-bounded-rewrite', status: validateRewrite(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '有限の本文変換を原文・適用条件・出典から再照合。自由な意味同値性の判定や、変換後全文の構文解析による一致判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'bounded-body-rewrite-v1' }] : pair.source === pair.output ? [{ code: 'S-literal', status: 'pass', required: true, explanation: '事実節を原文順に戻して全文一致を確認。変更がないため再解析を省略。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: semanticVersion }] : compareSemantics(irFor(pair.source), irFor(pair.output));
+    const checks: Check[] = candidate.plan.structural ? [{ code: 'S-structural-program', status: validateStructural(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '原文から明示関係と命題の発話種別を再束縛し、登録節計画・原文被覆・局所文法・出典を独立照合。任意の言い換えや文体品質の同値性判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'typed-rhetorical-program-proof-v3' }] : candidate.plan.construction ? [{ code: 'S-bounded-construction', status: !candidate.plan.rewrite && validateConstruction(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '登録済みの閉じた構文について、原文への再束縛・使用条件・事実の特徴・出典を独立照合。自由な言い換えの意味同値性や、文体の自然さを保証する判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'registered-composable-construction-proof-v2' }] : candidate.plan.rewrite ? [{ code: 'S-bounded-rewrite', status: validateRewrite(result.ir, candidate.plan, new Map(candidate.evidence.map(item => [item.id, item.text]))) ? 'pass' : 'fail', required: true, explanation: '有限の本文変換を原文・適用条件・出典から再照合。自由な意味同値性の判定や、変換後全文の構文解析による一致判定ではない。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: 'bounded-body-rewrite-v1' }] : pair.source === pair.output ? [{ code: 'S-literal', status: 'pass', required: true, explanation: '事実節を原文順に戻して全文一致を確認。変更がないため再解析を省略。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: semanticVersion }] : compareSemantics(irFor(pair.source), irFor(pair.output));
     const rendered = realize(candidate.plan, result.ir);
     checks.push({ code: 'S-realization', status: rendered.text === candidate.text && hash(rendered.spans) === hash(candidate.spans) ? 'pass' : 'fail', required: true, explanation: '検査した計画と、返却する本文・出力範囲の一致を確認。', factIds: candidate.plan.nodes.flatMap(node => node.factIds), checkerVersion: semanticVersion });
     candidate.checks = [...candidate.checks.filter(check => !check.code.startsWith('S-')), ...checks];
     candidate.verificationStatus = verification(candidate.checks);
     if (candidate.checks.some(check => check.required && check.status === 'fail')) candidate.scores.C = 0;
-    candidate.verificationScope = candidate.plan.construction ? '原文に再束縛した登録構文・事実の特徴・参照対象・保護値・出典を閉じた文法で検査。自由な意味同値性・自然さ・文体の良さは未評価。' : candidate.plan.rewrite ? '原文範囲・保護値・引用の保持と、出典付き有限変換の適用条件を検査。自然さ・文体の良さは未評価。' : '原文の保持・限定した丁寧形変換・構成と出典の照合。変更した事実節は別途再解析（任意の言い換えの意味同値性や修辞の品質は未保証）。';
+    candidate.verificationScope = candidate.plan.structural ? '原文の命題・明示関係・発話種別・原文被覆・数量・登録文法・出典を独立再照合。自由な意味同値性や文体の良さは未評価。' : candidate.plan.construction ? '原文に再束縛した登録構文・事実の特徴・参照対象・保護値・出典を閉じた文法で検査。自由な意味同値性・自然さ・文体の良さは未評価。' : candidate.plan.rewrite ? '原文範囲・保護値・引用の保持と、出典付き有限変換の適用条件を検査。自然さ・文体の良さは未評価。' : '原文の保持・限定した丁寧形変換・構成と出典の照合。変更した事実節は別途再解析（任意の言い換えの意味同値性や修辞の品質は未保証）。';
   }
   // Keep the entire internal pool through independent verification. A failed
   // provisional winner must not starve a valid alternative ranked fourth.

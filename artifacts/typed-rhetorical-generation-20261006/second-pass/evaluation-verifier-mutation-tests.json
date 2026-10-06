@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "mutation": "slot coverage forgery",
+      "rejected": true,
+      "reason": "Error: Slot coverage diagnostic mismatch"
+    },
+    {
+      "mutation": "grouping forgery",
+      "rejected": true,
+      "reason": "Error: Split/fusion diagnostic mismatch"
+    },
+    {
+      "mutation": "summary forgery",
+      "rejected": true,
+      "reason": "Error: Summary mismatch unseen-comparison.json.gz/after/bodyPool"
+    },
+    {
+      "mutation": "engine hash forgery",
+      "rejected": true,
+      "reason": "Error: Engine inventory/hash mismatch"
+    },
+    {
+      "mutation": "body role order forgery",
+      "rejected": true,
+      "reason": "Error: Role order diagnostic mismatch"
+    }
+  ]
+}

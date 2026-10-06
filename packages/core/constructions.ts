@@ -158,7 +158,7 @@ export function makeConstructionPlans(ir: DocumentIR, request: GenerationRequest
 // validate lexical edits separately, then reconstruct every output scalar.
 export function validateConstruction(ir: DocumentIR, plan: QuotePlan, references?: Map<string, string>): boolean {
   const program = plan.construction;
-  if (!program || program.version !== 2 || ![2, 3].includes(program.intensity) || !program.edits.length || plan.mainOperator !== 'CONSTRUCTION' || plan.rewrite || plan.surface || plan.rhetoric || plan.rhetoricEdits?.length || plan.nodes.some(node => node.type !== 'FactClause' || !node.sourceSpan)) return false;
+  if (!program || program.version !== 2 || ![2, 3].includes(program.intensity) || !program.edits.length || plan.mainOperator !== 'CONSTRUCTION' || plan.structural || plan.rewrite || plan.surface || plan.rhetoric || plan.rhetoricEdits?.length || plan.nodes.some(node => node.type !== 'FactClause' || !node.sourceSpan)) return false;
   if (program.edits.some(edit => !plan.nodes.some(node => node.id === edit.nodeId))) return false;
   const narrative = planNarrative(ir, 'source_order'), intent = planIntent(ir);
   if (!plan.narrative || !plan.intentPlan) return false;

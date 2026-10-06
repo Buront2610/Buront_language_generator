@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "verifiedAtUtc": "2026-10-06T04:20:29.379832+00:00",
+  "sourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+  "baselineCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "baselineTree": "98c517fa6dfc4451460231741e114120f50e050f",
+  "checks": {
+    "npmTest": {
+      "passed": 376,
+      "failed": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "durationMs": 91051.188442,
+      "logSha256": "01e93851a4f5220be00cd6bb0197e5a7abae1907846ce92e5da1f40bf9892584"
+    },
+    "typecheck": {
+      "passed": true,
+      "logSha256": "9198b286dd126fb9d732bf7c8fdcd0f130b67b18ea52fe245067cffdd5f57be4"
+    },
+    "engineBuild": {
+      "passed": true,
+      "includedIn": "npm test"
+    },
+    "webBuild": {
+      "passed": true,
+      "includedIn": "npm test"
+    },
+    "assetsBuild": {
+      "passed": true,
+      "logSha256": "d531406968fcf522a2036f545ad69ed906e52eca89bfdde0feb2ff33b046aaee"
+    },
+    "diagnose": {
+      "passed": true,
+      "logSha256": "7caf184761db8fedeb6251654c909fc7bfff3e9dcb9e191bf8092d701557c1f8"
+    },
+    "nearLimitHttpApi": {
+      "passed": true,
+      "workloads": 6,
+      "record": "near-limit-api.json",
+      "sha256": "a9bfa98a7a6753bc6377874857468a6e1ad998a1b4b43f1de365cad54abe42e0"
+    }
+  },
+  "independentReview": {
+    "tests": 12,
+    "targetedGrammarRechecks": 9,
+    "openStyleProbes": 20,
+    "styleInterpretation": "Assistant qualitative review, not human S/Q; ordinary recomposition and source-distinctive expression distinguished",
+    "safetyReport": "independent-safety-review.md",
+    "styleReport": "open-style-review/qualitative-source-review.md"
+  },
+  "findingsFixedBeforeSecondUnseal": [
+    "passive/causative negative polite past misclassified as copula",
+    "lexical potential omitted from conservative modality gate",
+    "na-adjective POS conflated with i-adjective inflection",
+    "missing limited-competence and past-ability variants",
+    "movement-specific presentation priority removed"
+  ],
+  "history": {
+    "firstFrozenSourceHash": "a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504",
+    "firstUnseenNowRegression": 30,
+    "firstPassAcceptance": "Rejected as insufficient structural coverage; preserved under first-pass",
+    "interruptedAggregate": "Stopped after na-adjective blocker; rerun on final code from scratch"
+  },
+  "limitations": [
+    "Finite registered-language proof; verifier shares recognizer/grammar primitives and is not universal linguistic equivalence",
+    "No human quality/style rating or all-seven-mechanism completion",
+    "Modesty references share one leakage group, so multiple IDs are not independent corroboration",
+    "Near-limit results are six authored workloads, not universal latency guarantees",
+    "No GitHub CI result claimed by this local record"
+  ],
+  "postFreezeCoreChanges": []
+}

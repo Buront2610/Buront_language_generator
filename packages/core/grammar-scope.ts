@@ -9,7 +9,7 @@ export type PropositionScope = {
   ambiguous: boolean; nonDeclarative: boolean; reportedContent: boolean;
   attribution: Fact['attribution']['kind']; reportHead?: Token; reportSource?: Token;
 };
-const predicateDependencies = new Set(['ROOT', 'advcl', 'conj', 'ccomp', 'acl', 'nmod']);
+const predicateDependencies = new Set(['ROOT', 'advcl', 'conj', 'ccomp', 'csubj', 'acl', 'nmod']);
 const reports = new Set(['言う', 'いう', '話す', '聞く', '述べる', '報告', '伝える', '話', 'こと']);
 const thoughts = new Set(['思う', '考える', '推測', '予想']);
 const modalNouns = new Set(['はず', '筈', 'つもり']);
@@ -75,14 +75,15 @@ export function propositionScopes(source: SourceDocument, analysis: Pick<Analysi
       const concessiveTe = predicate.dep === 'advcl' && children.some(token => ['て', 'で'].includes(token.text) && ['mark', 'cop', 'aux'].includes(token.dep)) && children.some(token => token.text === 'も' && ['case', 'mark'].includes(token.dep));
       const assumedComplement = predicate.dep === 'advcl' && head?.lemma === 'する' && quotative;
       const assumptionPredicate = predicate.dep === 'advcl' && predicate.lemma === 'する' && tokens.some(child => child.head === predicate.id && child.id !== predicate.id && ['VERB', 'ADJ'].includes(child.pos) && tokens.some(marker => marker.head === child.id && marker.dep === 'case' && marker.text === 'と'));
-      const conditional = assumptionPredicate || conditionalTo || concessiveIf || concessiveTe || assumedComplement || associated.some(token => hasInflection(token, '仮定形') || grammatical(token) && ['ば', 'なら', 'たら'].includes(token.text))
+      const politePotentialStem = predicate.pos === 'VERB' && hasInflection(predicate, '五段') && associated.some(aux => aux.lemma === 'ます' && aux.pos === 'AUX');
+      const conditional = assumptionPredicate || conditionalTo || concessiveIf || concessiveTe || assumedComplement || associated.some(token => hasInflection(token, '仮定形') && !(token.id === predicate.id && politePotentialStem) || grammatical(token) && ['ば', 'なら', 'たら'].includes(token.text))
         || scoped.some(token => ['もし', 'もしも'].includes(token.lemma) && token.pos === 'ADV')
         || predicate.dep === 'acl' && head?.lemma === '場合';
       const speculative = scoped.some(token => token.pos === 'ADV' && token.dep === 'advmod' && epistemicAdverbs.has(token.lemma)) || !!possibility || modalAux.length > 0 || associated.some(token => hasInflection(token, '意志推量形'))
         || !!thoughtComplement || thoughts.has(predicate.lemma) || modalNouns.has(predicate.lemma) || predicate.dep === 'acl' && !!head && modalNouns.has(head.lemma);
       const negative = associated.some(token => negativeLemmas.has(token.lemma) && ['ADJ', 'AUX'].includes(token.pos) && (!possibility || token.head !== possibility.id));
       const temporalTopic = predicate.dep === 'acl' && !!head && temporalNouns.has(head.lemma) && head.lemma !== '場合' && tokens.some(token => token.head === head.id && token.dep === 'case' && token.text === 'は');
-      const ambiguous = temporalTopic || scoped.some(token => ['誰', 'それ', 'これ', 'あれ'].includes(token.lemma))
+      const ambiguous = temporalTopic || scoped.some(token => ['PRON', 'NOUN'].includes(token.pos) && ['誰', 'それ', 'これ', 'あれ'].includes(token.lemma))
         || (['わけ', '訳', '限る'].includes(predicate.lemma) && negative)
         || !!head && ['わけ', '訳', '限る'].includes(head.lemma)
         || associated.filter(token => negativeLemmas.has(token.lemma) && (!possibility || token.head !== possibility.id)).length > 1;
@@ -90,7 +91,7 @@ export function propositionScopes(source: SourceDocument, analysis: Pick<Analysi
       const quoted = source.opaqueSpans.some(span => overlaps(span, predicate.span));
       const hearsay = !!reportSource || !!reportHead || modalAux.some(token => ['らしい', 'そう'].includes(token.lemma))
         || ['報告', '話', 'こと'].includes(predicate.lemma) && tokens.some(token => token.head === predicate.id && tokens.some(child => child.head === token.id && child.text === 'と'));
-      const nonDeclarative = associated.some(token => hasInflection(token, '命令形') || token.text === 'か' && token.dep === 'mark')
+      const nonDeclarative = associated.some(token => hasInflection(token, '命令形') && !(token.id === predicate.id && politePotentialStem) || token.text === 'か' && token.dep === 'mark')
         || scoped.some(token => ['?', '？'].includes(token.text) || ['ありがとう', '感謝', 'お礼', 'ごめん', 'すみません', '申し訳'].includes(token.lemma));
       const reportedContent = reports.has(predicate.lemma) && tokens.some(token => token.head === predicate.id && token.id !== predicate.id && (token.dep === 'ccomp' || tokens.some(child => child.head === token.id && child.text === 'と')));
       result.push({ predicate, tokens: scoped, associated, children, span: extent(scoped), conditional, speculative, negative, prospective, ambiguous, nonDeclarative, reportedContent,

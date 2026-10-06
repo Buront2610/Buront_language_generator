@@ -1,0 +1,744 @@
+{
+  "source": "initial frozen B capture, not v2",
+  "engineHash": "22904f698f7dcaf57f7a2def561fe7dd1254b7c26562fd3f41cecfdff8f2a407",
+  "sourceHash": "a471e987b69958a2cc2c5dea21d3e7ab0c58468795fe2e29581ba4efc4a30504",
+  "rows": [
+    {
+      "id": "X01",
+      "source": "朝の連絡はメールにした。相手が会議中だからだ。",
+      "before": [
+        {
+          "id": "b0b09ece894b42a2174688a5",
+          "planId": "bb8b5272e6136d44253d0e4e",
+          "text": "朝の連絡はメールにしたからな\n何故なら相手が会議中だからだ"
+        },
+        {
+          "id": "214996272e1ca4f582e68395",
+          "planId": "9e59a7d308d4536d5c5e60d5",
+          "text": "朝の連絡はメールにした\n相手が会議中だからだ"
+        },
+        {
+          "id": "a0c15d49065c351cb548e1f4",
+          "planId": "e1858deb4eb3bd53c10c7bfb",
+          "text": "朝の連絡はメールにしたからな\n相手が会議中だからだ"
+        }
+      ],
+      "after": [
+        {
+          "id": "628006d5c8dc82b1b25acc2e",
+          "planId": "aadb66cb4cbf39a13a9abee3",
+          "text": "相手が会議中だから朝の連絡はメールにしたということ。"
+        },
+        {
+          "id": "b0b09ece894b42a2174688a5",
+          "planId": "bb8b5272e6136d44253d0e4e",
+          "text": "朝の連絡はメールにしたからな\n何故なら相手が会議中だからだ"
+        },
+        {
+          "id": "214996272e1ca4f582e68395",
+          "planId": "9e59a7d308d4536d5c5e60d5",
+          "text": "朝の連絡はメールにした\n相手が会議中だからだ"
+        }
+      ],
+      "structural": [
+        {
+          "text": "相手が会議中だから朝の連絡はメールにしたということ。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "相手が会議中だから朝の連絡はメールにしたという事実。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X02",
+      "source": "徒歩で帰った。バスが運休していたからです。",
+      "before": [
+        {
+          "id": "bc5ca19afec8eb9bc560df74",
+          "planId": "bb03c89c316416b4e92d1569",
+          "text": "徒歩で帰ったからな\n何故ならバスが運休していたからだ"
+        },
+        {
+          "id": "e2b72dfcc859693b44871427",
+          "planId": "a1105769084eb71cf6086e54",
+          "text": "徒歩で帰った\nバスが運休していたからです"
+        },
+        {
+          "id": "96dff0597d8951babdb4902f",
+          "planId": "7a5a0f15f3a1ec2443791b0d",
+          "text": "徒歩で帰った\nバスが運休していたからだ"
+        }
+      ],
+      "after": [
+        {
+          "id": "19bdc3c40a18c8f11bed2255",
+          "planId": "54651f681ec7c7fbc8cba04f",
+          "text": "バスが運休していたから徒歩で帰ったということ。"
+        },
+        {
+          "id": "b78049791b1fa4c4db7e7f36",
+          "planId": "a5580ae44aa12c776efdfb4e",
+          "text": "徒歩で帰った\n何故ならバスが運休していたからです"
+        },
+        {
+          "id": "96dff0597d8951babdb4902f",
+          "planId": "7a5a0f15f3a1ec2443791b0d",
+          "text": "徒歩で帰った\nバスが運休していたからだ"
+        }
+      ],
+      "structural": [
+        {
+          "text": "バスが運休していたから徒歩で帰ったということ。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "バスが運休していたから徒歩で帰ったという事実。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X03",
+      "source": "この資料は保存する。来週の説明に必要だからだ。",
+      "before": [
+        {
+          "id": "30b454ac014bc92aafa91508",
+          "planId": "edc19996a937cc2015b5877a",
+          "text": "この資料は保存する\n来週の説明に必要だからだ"
+        },
+        {
+          "id": "5b8224252874962dde36ad8a",
+          "planId": "bb3adefff198b91262341a6a",
+          "text": "この資料は保存するからな\n来週の説明に必要だからだ"
+        }
+      ],
+      "after": [
+        {
+          "id": "30b454ac014bc92aafa91508",
+          "planId": "edc19996a937cc2015b5877a",
+          "text": "この資料は保存する\n来週の説明に必要だからだ"
+        },
+        {
+          "id": "5b8224252874962dde36ad8a",
+          "planId": "bb3adefff198b91262341a6a",
+          "text": "この資料は保存するからな\n来週の説明に必要だからだ"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X04",
+      "source": "今日は窓を閉めた。外の音が大きいからだ。",
+      "before": [
+        {
+          "id": "0d42185c75c0fb70d3532898",
+          "planId": "5ee6f53e21c6cac38aa878a0",
+          "text": "今日は窓を閉めたからな\n何故なら外の音が大きいからだ"
+        },
+        {
+          "id": "098a068f3f23b7c0f2e76b8a",
+          "planId": "f174558f55832934985b6908",
+          "text": "今日は窓を閉めた\n外の音が大きいからだ"
+        },
+        {
+          "id": "e866e2baa33825f7d809a248",
+          "planId": "ca776e69804dc459e99ebc18",
+          "text": "今日は窓を閉めたからな\n外の音が大きいからだ"
+        }
+      ],
+      "after": [
+        {
+          "id": "4becd8a451658be2a14f8cc5",
+          "planId": "2c65d396c07da02f9b853977",
+          "text": "外の音が大きいから今日は窓を閉めたということ。"
+        },
+        {
+          "id": "0d42185c75c0fb70d3532898",
+          "planId": "5ee6f53e21c6cac38aa878a0",
+          "text": "今日は窓を閉めたからな\n何故なら外の音が大きいからだ"
+        },
+        {
+          "id": "098a068f3f23b7c0f2e76b8a",
+          "planId": "f174558f55832934985b6908",
+          "text": "今日は窓を閉めた\n外の音が大きいからだ"
+        }
+      ],
+      "structural": [
+        {
+          "text": "外の音が大きいから今日は窓を閉めたということ。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "外の音が大きいから今日は窓を閉めたという事実。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X05",
+      "source": "印刷機が故障しているので、受付の案内は手書きにしました。",
+      "before": [
+        {
+          "id": "128092013743b03d6ec685f6",
+          "planId": "6a3c6a0fb75add86877a78e2",
+          "text": "印刷機が故障しているので、受付の案内は手書きにしたからな"
+        },
+        {
+          "id": "f3c62d6df75c80afa138cc87",
+          "planId": "63ca8a1ea903220278a2db98",
+          "text": "印刷機が故障しているので、受付の案内は手書きにしました"
+        },
+        {
+          "id": "8890cb1da6f61db2daafcbea",
+          "planId": "424b00f9af3e6cab3aab5588",
+          "text": "印刷機が故障しているので、受付の案内は手書きにした"
+        }
+      ],
+      "after": [
+        {
+          "id": "c7c393e7081b4b655aa8117d",
+          "planId": "720bc514f7bedc5554517c4b",
+          "text": "印刷機が故障しているから受付の案内は手書きにしたということ。"
+        },
+        {
+          "id": "f3c62d6df75c80afa138cc87",
+          "planId": "63ca8a1ea903220278a2db98",
+          "text": "印刷機が故障しているので、受付の案内は手書きにしました"
+        },
+        {
+          "id": "128092013743b03d6ec685f6",
+          "planId": "6a3c6a0fb75add86877a78e2",
+          "text": "印刷機が故障しているので、受付の案内は手書きにしたからな"
+        }
+      ],
+      "structural": [
+        {
+          "text": "受付の案内は手書きにした。何故かというと印刷機が故障しているからだ。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        },
+        {
+          "text": "印刷機が故障しているから受付の案内は手書きにしたということ。",
+          "displayOrdinal": 1,
+          "classification": "structural-fixed-form-only"
+        },
+        {
+          "text": "印刷機が故障しているから受付の案内は手書きにしたという事実。",
+          "displayOrdinal": null,
+          "classification": "structural-fixed-form-only"
+        }
+      ]
+    },
+    {
+      "id": "X06",
+      "source": "道路が混んでいたため、到着は予定より十分遅れました。",
+      "before": [
+        {
+          "id": "761be31d2b64366252483dd6",
+          "planId": "5a7b93b0cad6093f98c95f24",
+          "text": "道路が混んでいたため、到着は予定より十分遅れました"
+        }
+      ],
+      "after": [
+        {
+          "id": "761be31d2b64366252483dd6",
+          "planId": "5a7b93b0cad6093f98c95f24",
+          "text": "道路が混んでいたため、到着は予定より十分遅れました"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X07",
+      "source": "大したことはしていない。机を片付けただけだ。",
+      "before": [
+        {
+          "id": "11b827bbdecae18979e1f0ef",
+          "planId": "33917d1190277d5a921bacea",
+          "text": "それほどでもない\n机を片付けただけだからな"
+        },
+        {
+          "id": "d97c1b555390f4f76b47cff1",
+          "planId": "73e2d2b9797f922e44a01413",
+          "text": "大したことはしていない\n机を片付けただけだ"
+        },
+        {
+          "id": "c3908ee6fd35999677aef5f9",
+          "planId": "e3f99f71d9494d723928d077",
+          "text": "大したことはしていないからな\n机を片付けただけだからな"
+        }
+      ],
+      "after": [
+        {
+          "id": "f23b4f66142e7981f4000843",
+          "planId": "5c1fd0a62a9dfef858bf9038",
+          "text": "机を片付けただけだ。それほどでもない。"
+        },
+        {
+          "id": "c3908ee6fd35999677aef5f9",
+          "planId": "e3f99f71d9494d723928d077",
+          "text": "大したことはしていないからな\n机を片付けただけだからな"
+        },
+        {
+          "id": "11b827bbdecae18979e1f0ef",
+          "planId": "33917d1190277d5a921bacea",
+          "text": "それほどでもない\n机を片付けただけだからな"
+        }
+      ],
+      "structural": [
+        {
+          "text": "机を片付けただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "それほどでもないが、机を片付けただけだ。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X08",
+      "source": "大したことはしていない。資料を一つ渡しただけだ。",
+      "before": [
+        {
+          "id": "78657aaf1781721b1a0a92c5",
+          "planId": "43888d1da5dd34184e751ffe",
+          "text": "それほどでもない\n資料を一つ渡しただけだからな"
+        },
+        {
+          "id": "db2030563347e99419296255",
+          "planId": "a276cef2df221373eff8691a",
+          "text": "大したことはしていない\n資料を一つ渡しただけだ"
+        },
+        {
+          "id": "9dddfdbadff627a7cf6d8504",
+          "planId": "12194552439ca6895dac541c",
+          "text": "大したことはしていないからな\n資料を一つ渡しただけだからな"
+        }
+      ],
+      "after": [
+        {
+          "id": "746b154428713e2090cfe81f",
+          "planId": "dfcb7755aa26ae1997ce1eff",
+          "text": "資料を一つ渡しただけだ。それほどでもない。"
+        },
+        {
+          "id": "9dddfdbadff627a7cf6d8504",
+          "planId": "12194552439ca6895dac541c",
+          "text": "大したことはしていないからな\n資料を一つ渡しただけだからな"
+        },
+        {
+          "id": "78657aaf1781721b1a0a92c5",
+          "planId": "43888d1da5dd34184e751ffe",
+          "text": "それほどでもない\n資料を一つ渡しただけだからな"
+        }
+      ],
+      "structural": [
+        {
+          "text": "資料を一つ渡しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "それほどでもないが、資料を一つ渡しただけだ。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X09",
+      "source": "大したことはしていない。玄関の電球を直しただけだ。",
+      "before": [
+        {
+          "id": "87045c97a10d401a6a3689cc",
+          "planId": "9c0d39bb94568dbb4f1b6ae2",
+          "text": "それほどでもない\n玄関の電球を直しただけだからな"
+        },
+        {
+          "id": "e9baecaa0a68a4ec9b9e3cb7",
+          "planId": "dbd53cf88b5385d661f3ad7f",
+          "text": "大したことはしていない\n玄関の電球を直しただけだ"
+        },
+        {
+          "id": "c85ca98e83b49786dd7bfea9",
+          "planId": "d15e8455939d37a2b814ad6f",
+          "text": "大したことはしていないからな\n玄関の電球を直しただけだからな"
+        }
+      ],
+      "after": [
+        {
+          "id": "5ae32845dac9c5591b83b46f",
+          "planId": "9cd6f4d0601ea54aef25ebae",
+          "text": "玄関の電球を直しただけだ。それほどでもない。"
+        },
+        {
+          "id": "c85ca98e83b49786dd7bfea9",
+          "planId": "d15e8455939d37a2b814ad6f",
+          "text": "大したことはしていないからな\n玄関の電球を直しただけだからな"
+        },
+        {
+          "id": "87045c97a10d401a6a3689cc",
+          "planId": "9c0d39bb94568dbb4f1b6ae2",
+          "text": "それほどでもない\n玄関の電球を直しただけだからな"
+        }
+      ],
+      "structural": [
+        {
+          "text": "玄関の電球を直しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "それほどでもないが、玄関の電球を直しただけだ。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X10",
+      "source": "大したことはしていない。住所を確認しただけだ。",
+      "before": [
+        {
+          "id": "b21799990162371b05a16bdf",
+          "planId": "a792864b4c3db09ac428cd04",
+          "text": "それほどでもない\n住所を確認しただけだからな"
+        },
+        {
+          "id": "d22edbb8c79bd2821e0f2687",
+          "planId": "cd2c47f100f5f2cbfb4b8247",
+          "text": "大したことはしていない\n住所を確認しただけだ"
+        },
+        {
+          "id": "c568001e211fc6a13879c0c7",
+          "planId": "d9378c53e1ace43547ca4e99",
+          "text": "大したことはしていないからな\n住所を確認しただけだからな"
+        }
+      ],
+      "after": [
+        {
+          "id": "24ce42acfb2ad4c9234452df",
+          "planId": "bf0a893903654c5e3c077dc4",
+          "text": "住所を確認しただけだ。それほどでもない。"
+        },
+        {
+          "id": "c568001e211fc6a13879c0c7",
+          "planId": "d9378c53e1ace43547ca4e99",
+          "text": "大したことはしていないからな\n住所を確認しただけだからな"
+        },
+        {
+          "id": "b21799990162371b05a16bdf",
+          "planId": "a792864b4c3db09ac428cd04",
+          "text": "それほどでもない\n住所を確認しただけだからな"
+        }
+      ],
+      "structural": [
+        {
+          "text": "住所を確認しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "classification": "body-composition"
+        },
+        {
+          "text": "それほどでもないが、住所を確認しただけだ。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X11",
+      "source": "褒められるほどではありませんが、誤記を二か所だけ訂正しました。",
+      "before": [
+        {
+          "id": "9f41ad68c5815f4295bf0181",
+          "planId": "12792805aa2451609e4c044e",
+          "text": "褒められるほどではありませんが誤記を二か所だけ訂正したからな"
+        },
+        {
+          "id": "a8aa1071ddea42c176f13ce8",
+          "planId": "fba6ab89ae418b5f7f37c31e",
+          "text": "褒められるほどではありませんが誤記を二か所だけ訂正しました"
+        },
+        {
+          "id": "43d3d8de8401082f09261176",
+          "planId": "832bc27dda3b882077f30f46",
+          "text": "褒められるほどではありませんが誤記を二か所だけ訂正した"
+        }
+      ],
+      "after": [
+        {
+          "id": "9f41ad68c5815f4295bf0181",
+          "planId": "12792805aa2451609e4c044e",
+          "text": "褒められるほどではありませんが誤記を二か所だけ訂正したからな"
+        },
+        {
+          "id": "a8aa1071ddea42c176f13ce8",
+          "planId": "fba6ab89ae418b5f7f37c31e",
+          "text": "褒められるほどではありませんが誤記を二か所だけ訂正しました"
+        },
+        {
+          "id": "43d3d8de8401082f09261176",
+          "planId": "832bc27dda3b882077f30f46",
+          "text": "褒められるほどではありませんが誤記を二か所だけ訂正した"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X12",
+      "source": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+      "before": [
+        {
+          "id": "4eeebf2f128259e57ef5df3c",
+          "planId": "ebb5b39281d7e60a490a51f8",
+          "text": "まだ経験は浅いですけど箱を少しだけ運べました"
+        }
+      ],
+      "after": [
+        {
+          "id": "4eeebf2f128259e57ef5df3c",
+          "planId": "ebb5b39281d7e60a490a51f8",
+          "text": "まだ経験は浅いですけど箱を少しだけ運べました"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X13",
+      "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+      "before": [
+        {
+          "id": "2779dab0d743910fab5c3ca4",
+          "planId": "c0bc2c378c100ce16cd628dd",
+          "text": "便利なのは分かった\nだが安全だという証拠を見せてほしい"
+        },
+        {
+          "id": "684d4bb4b83e0c70dba42cad",
+          "planId": "68b13cfa3640992afe61e3ee",
+          "text": "便利なのは分かったからな\nしかし安全だという証拠を見せてほしい"
+        },
+        {
+          "id": "a7de6096e4a39d992857a0cf",
+          "planId": "6b642e139bbe090620bcd195",
+          "text": "便利なのは分かった\nしかし安全だという証拠を見せてほしい"
+        }
+      ],
+      "after": [
+        {
+          "id": "d3d36d31ee9d4f4695c12883",
+          "planId": "f88e08e6ee6fad99fc0c853f",
+          "text": "便利なのは分かった。しかし安全だっていうどういう証拠があるのかよ？"
+        },
+        {
+          "id": "068535b56ab996137cc810fc",
+          "planId": "ddb990e39dec82ef10ca6129",
+          "text": "便利なのは分かったからな\nだが安全だという証拠を見せてほしい"
+        },
+        {
+          "id": "a7de6096e4a39d992857a0cf",
+          "planId": "6b642e139bbe090620bcd195",
+          "text": "便利なのは分かった\nしかし安全だという証拠を見せてほしい"
+        }
+      ],
+      "structural": [
+        {
+          "text": "便利なのは分かった。しかし安全だっていうどういう証拠があるのかよ？",
+          "displayOrdinal": 1,
+          "classification": "structural-fixed-form-only"
+        },
+        {
+          "text": "便利なのは分かった。しかしどういう証拠があるのかよ、安全だって。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X14",
+      "source": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。",
+      "before": [
+        {
+          "id": "8d3078285436f0aaf6803b08",
+          "planId": "0f2ede758ac5a354a362851e",
+          "text": "費用を抑える方針には賛成だからな\nしかしその予測の根拠を教えてください"
+        },
+        {
+          "id": "135f2eac1ad9adc7642b228f",
+          "planId": "badb762332acf06933db1038",
+          "text": "費用を抑える方針には賛成だ\nしかしその予測の根拠を教えてください"
+        }
+      ],
+      "after": [
+        {
+          "id": "8d3078285436f0aaf6803b08",
+          "planId": "0f2ede758ac5a354a362851e",
+          "text": "費用を抑える方針には賛成だからな\nしかしその予測の根拠を教えてください"
+        },
+        {
+          "id": "135f2eac1ad9adc7642b228f",
+          "planId": "badb762332acf06933db1038",
+          "text": "費用を抑える方針には賛成だ\nしかしその予測の根拠を教えてください"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X15",
+      "source": "急ぎの案件なのは理解した。しかしこの数値を裏付ける資料を求める。",
+      "before": [
+        {
+          "id": "0f58f5b6131529924c0a333f",
+          "planId": "b462fbc790bc78b86c18533d",
+          "text": "急ぎの案件なのは理解したからな\nだがこの数値を裏付ける資料を求めるからな"
+        },
+        {
+          "id": "aff07dc49bc10eee0919f8a1",
+          "planId": "d9ff56e0c7da7901aa0ab53a",
+          "text": "急ぎの案件なのは理解した\nしかしこの数値を裏付ける資料を求める"
+        },
+        {
+          "id": "fb520750d606a80b76af7ce1",
+          "planId": "b43f88640770d4d03c350c41",
+          "text": "急ぎの案件なのは理解したからな\nしかしこの数値を裏付ける資料を求めるからな"
+        }
+      ],
+      "after": [
+        {
+          "id": "0f58f5b6131529924c0a333f",
+          "planId": "b462fbc790bc78b86c18533d",
+          "text": "急ぎの案件なのは理解したからな\nだがこの数値を裏付ける資料を求めるからな"
+        },
+        {
+          "id": "aff07dc49bc10eee0919f8a1",
+          "planId": "d9ff56e0c7da7901aa0ab53a",
+          "text": "急ぎの案件なのは理解した\nしかしこの数値を裏付ける資料を求める"
+        },
+        {
+          "id": "fb520750d606a80b76af7ce1",
+          "planId": "b43f88640770d4d03c350c41",
+          "text": "急ぎの案件なのは理解したからな\nしかしこの数値を裏付ける資料を求めるからな"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X16",
+      "source": "説明は聞いた。しかしこの方法が確実だという証拠が欲しい。",
+      "before": [
+        {
+          "id": "bf10e3779e2348edaf9769e6",
+          "planId": "cebbb928d86efdc0474c9d4a",
+          "text": "説明は聞いたからな\nだがこの方法が確実だという証拠が欲しい"
+        },
+        {
+          "id": "96bf8687ce5602c90448e551",
+          "planId": "ca801d892b4d91605131d220",
+          "text": "説明は聞いた\nしかしこの方法が確実だという証拠が欲しい"
+        },
+        {
+          "id": "292c5a9063ac6c6c2f0dbd6b",
+          "planId": "7c12170ab4dac659f3183891",
+          "text": "説明は聞いたからな\nしかしこの方法が確実だという証拠が欲しい"
+        }
+      ],
+      "after": [
+        {
+          "id": "5081b6de20aa08795909777b",
+          "planId": "dd4a774939d6d458658c2843",
+          "text": "説明は聞いた。しかしこの方法が確実だっていうどういう証拠があるのかよ？"
+        },
+        {
+          "id": "bf10e3779e2348edaf9769e6",
+          "planId": "cebbb928d86efdc0474c9d4a",
+          "text": "説明は聞いたからな\nだがこの方法が確実だという証拠が欲しい"
+        },
+        {
+          "id": "96bf8687ce5602c90448e551",
+          "planId": "ca801d892b4d91605131d220",
+          "text": "説明は聞いた\nしかしこの方法が確実だという証拠が欲しい"
+        }
+      ],
+      "structural": [
+        {
+          "text": "説明は聞いた。しかしこの方法が確実だっていうどういう証拠があるのかよ？",
+          "displayOrdinal": 1,
+          "classification": "structural-fixed-form-only"
+        },
+        {
+          "text": "説明は聞いた。しかしどういう証拠があるのかよ、この方法が確実だって。",
+          "displayOrdinal": null,
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X17",
+      "source": "便利そうですが、なぜ必要なのかを示す記録を確認させてください。",
+      "before": [
+        {
+          "id": "c8aee7e6c39dd3a12ffc0f0f",
+          "planId": "fb2072a924cefde9f0a75d08",
+          "text": "便利そうですがなぜ必要なのかを示す記録を確認させてください"
+        }
+      ],
+      "after": [
+        {
+          "id": "c8aee7e6c39dd3a12ffc0f0f",
+          "planId": "fb2072a924cefde9f0a75d08",
+          "text": "便利そうですがなぜ必要なのかを示す記録を確認させてください"
+        }
+      ],
+      "structural": []
+    },
+    {
+      "id": "X18",
+      "source": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+      "before": [
+        {
+          "id": "a8711560aa44047f3854dc23",
+          "planId": "631be841411e0b203a4b930c",
+          "text": "値段には納得しているからな\nただ消費電力が減るという測定結果を教えてもらえますか"
+        },
+        {
+          "id": "2a0531b1b8022dc5e7ebf168",
+          "planId": "00a1a0016e85e4dfc84b7867",
+          "text": "値段には納得しています\nただ消費電力が減るという測定結果を教えてもらえますか"
+        },
+        {
+          "id": "8cf1a688cf802097d176b7a3",
+          "planId": "ff8089e664194034a4dd088d",
+          "text": "値段には納得している\nただ消費電力が減るという測定結果を教えてもらえますか"
+        }
+      ],
+      "after": [
+        {
+          "id": "a8711560aa44047f3854dc23",
+          "planId": "631be841411e0b203a4b930c",
+          "text": "値段には納得しているからな\nただ消費電力が減るという測定結果を教えてもらえますか"
+        },
+        {
+          "id": "2a0531b1b8022dc5e7ebf168",
+          "planId": "00a1a0016e85e4dfc84b7867",
+          "text": "値段には納得しています\nただ消費電力が減るという測定結果を教えてもらえますか"
+        },
+        {
+          "id": "8cf1a688cf802097d176b7a3",
+          "planId": "ff8089e664194034a4dd088d",
+          "text": "値段には納得している\nただ消費電力が減るという測定結果を教えてもらえますか"
+        }
+      ],
+      "structural": []
+    }
+  ]
+}

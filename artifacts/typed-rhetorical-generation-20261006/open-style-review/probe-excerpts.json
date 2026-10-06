@@ -1,0 +1,1675 @@
+{
+  "reviewType": "assistant qualitative review; S/Q null, no human ratings",
+  "datasetRole": "Previously exposed20 style diagnostics, not unseen",
+  "buildInfo": {
+    "schemaVersion": 1,
+    "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+    "toolCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "qualitative-source-review-20261006"
+  },
+  "rows": [
+    {
+      "id": "Q01",
+      "input": "速度が重要なので、私はこの方法を選びました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "速度が重要だから俺はこの方法を選んだということ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "速さとスピードが重要なので、俺はこの方法を選びました",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "速度が重要なので、俺はこの方法を選びました",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私はこの方法を選んだ。何故かというと速度が重要だからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "俺はこの方法を選んだ。何故かというと速さとスピードが重要だからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "俺はこの方法を選んだ。何故かというと速度が重要だからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "速度が重要だから私はこの方法を選んだということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "速さとスピードが重要だから俺はこの方法を選んだということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "速度が重要だから俺はこの方法を選んだということ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "速度が重要だから私はこの方法を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "速さとスピードが重要だから俺はこの方法を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "速度が重要だから俺はこの方法を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "input": "全然動かなかったので、私は装置を修理しました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "全然全く動かなかったから俺は装置を修理したということ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "全然動かなかったので、俺は装置を修理したからな",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "全然全く動かなかったので、俺は装置を修理した",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私は装置を修理した。何故かというと全然動かなかったからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "俺は装置を修理した。何故かというと全然全く動かなかったからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "negative-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_02029_95798251b01b7494_7533",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "全然動かなかったから私は装置を修理したということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "全然全く動かなかったから俺は装置を修理したということ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "negative-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02029_95798251b01b7494_7533",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "全然動かなかったから私は装置を修理したという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "全然全く動かなかったから俺は装置を修理したという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "negative-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02029_95798251b01b7494_7533",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "input": "私は助言しました。経験が足りなかったからです。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "経験が足りなかったから私は助言したということ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "俺はアドバイスを助言しました\n何故なら経験が足りなかったからです",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "俺は助言したからな\n経験が足りなかったからだ",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "経験が足りなかったから、私は助言した。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "経験が足りなかったから、俺はアドバイスを助言した。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "advice-doubling"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22",
+            "post_01805_0227b0b27aaf7c48_6214"
+          ]
+        },
+        {
+          "text": "経験が足りなかったから私は助言したということ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "経験が足りなかったから俺はアドバイスを助言したということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "advice-doubling"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22",
+            "post_01805_0227b0b27aaf7c48_6214"
+          ]
+        },
+        {
+          "text": "経験が足りなかったから私は助言したという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "経験が足りなかったから俺はアドバイスを助言したという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "advice-doubling"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22",
+            "post_01805_0227b0b27aaf7c48_6214"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "input": "この資料は貴重なので、私は保管しました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "俺は保管した。何故かというとこの資料は貴重だからだ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "この資料は貴重なので、俺は保管しました",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "この資料は貴重なので、俺は保管したからな",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私は保管した。何故かというとこの資料は貴重だからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "俺は保管した。何故かというとこの資料は貴重だからだ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "この資料は貴重だから私は保管したということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "この資料は貴重だから俺は保管したということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "この資料は貴重だから私は保管したという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "この資料は貴重だから俺は保管したという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "input": "価格が高すぎるので、私は購入をやめました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "俺は購入をやめた。何故かというと価格が高すぐるからだ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "価格が高すぎるので、俺は購入をやめました",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "価格が高すぐるので、俺は購入をやめました",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私は購入をやめた。何故かというと価格が高すぎるからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "俺は購入をやめた。何故かというと価格が高すぐるからだ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "suguru",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_01653_8e421a4e4cb481c1_5516",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "俺は購入をやめた。何故かというと価格が高すぎるからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "input": "もちろん速度が重要なので、私はこの方法を選びました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "俺はこの方法を選んだ。何故かというとむちろん速度が重要だからだ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "むちろん速さとスピードが重要なので、俺はこの方法を選びました",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "むちろん速度が重要なので、俺はこの方法を選びました",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私はこの方法を選んだ。何故かというともちろん速度が重要だからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "俺はこの方法を選んだ。何故かというとむちろん速さとスピードが重要だからだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "muchiron",
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_02189_550fd44ba9504790_8266",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "俺はこの方法を選んだ。何故かというとむちろん速度が重要だからだ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-explanation/assertion-then-explanation"
+          ],
+          "localRuleIds": [
+            "muchiron",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_02189_550fd44ba9504790_8266",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "もちろん速度が重要だから私はこの方法を選んだということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "むちろん速さとスピードが重要だから俺はこの方法を選んだということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "muchiron",
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02189_550fd44ba9504790_8266",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "むちろん速度が重要だから俺はこの方法を選んだということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "muchiron",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02189_550fd44ba9504790_8266",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "もちろん速度が重要だから私はこの方法を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "むちろん速さとスピードが重要だから俺はこの方法を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "muchiron",
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02189_550fd44ba9504790_8266",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "むちろん速度が重要だから俺はこの方法を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "muchiron",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_02189_550fd44ba9504790_8266",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "input": "自慢ではありません。私は最短時間で三件の不具合を解決しました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "自慢ではないが、私は最短時間で三件の不具合を解決した。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "自慢ではありません\n俺は最短時間で三件の不具合を解決しました",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "自慢ではないからな\n俺は最短時間で三件の不具合を解決したからな",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私は最短時間で三件の不具合を解決した。自慢ではない。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        },
+        {
+          "text": "俺は最短時間で三件の不具合を解決した。自慢ではない。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "自慢ではないが、私は最短時間で三件の不具合を解決した。",
+          "displayOrdinal": 1,
+          "operators": [
+            "modesty-achievement-focus/modesty-with-deed"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        },
+        {
+          "text": "自慢ではないが、俺は最短時間で三件の不具合を解決した。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/modesty-with-deed"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "input": "褒められるほどではありませんが、私は全員分の資料を用意しました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "褒められるほどではありません。とはいえ、私は全員分の資料を用意した。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "褒められるほどではありませんが俺は全員分の資料を用意しました",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "褒められるほどではありませんが俺は全員分の資料を用意したからな",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "褒められるほどではありません。とはいえ、私は全員分の資料を用意した。",
+          "displayOrdinal": 1,
+          "operators": [
+            "modesty-achievement-focus/assessment-then-event-split"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        },
+        {
+          "text": "褒められるほどではありません。とはいえ、俺は全員分の資料を用意した。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/assessment-then-event-split"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "input": "大したことはしていない。机を片付けただけだ。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "机を片付けただけだ。それほどでもない。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "大したことはしていないからな\n机を片付けただけだからな",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "それほどでもない\n机を片付けただけだからな",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "机を片付けただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        },
+        {
+          "text": "それほどでもないが、机を片付けただけだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/modesty-with-deed"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "input": "私が失敗したという証拠はありますか。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "どういう証拠があるのかよ、私が失敗したって。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "俺が失敗したという証拠はありますか",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "俺が失敗したっていうどういう証拠があるのかよ？",
+          "structural": true
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私が失敗したっていうどういう証拠があるのかよ？",
+          "displayOrdinal": null,
+          "operators": [
+            "targeted-evidence-question/target-then-mixed-question"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336"
+          ]
+        },
+        {
+          "text": "俺が失敗したっていうどういう証拠があるのかよ？",
+          "displayOrdinal": 3,
+          "operators": [
+            "targeted-evidence-question/target-then-mixed-question"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "どういう証拠があるのかよ、私が失敗したって。",
+          "displayOrdinal": 1,
+          "operators": [
+            "targeted-evidence-question/question-then-target"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336"
+          ]
+        },
+        {
+          "text": "どういう証拠があるのかよ、俺が失敗したって。",
+          "displayOrdinal": null,
+          "operators": [
+            "targeted-evidence-question/question-then-target"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "input": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "便利なのは分かった。しかし見せてくれるか、安全だという証拠を。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "便利なのは分かったからな\nだが安全だという証拠を見せてほしい",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "便利なのは分かった\nしかし安全だという証拠を見せてほしい",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "便利なのは分かった。しかし見せてくれるか、安全だという証拠を。",
+          "displayOrdinal": 1,
+          "operators": [
+            "carrier-evidence-request/request-then-carrier"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01345_aae925d37360c57c_4231",
+            "post_01904_94d1e3084483dd25_6841",
+            "post_02200_13ca24afe21445ab_8323"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "input": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "費用を抑える方針には賛成だ。しかし教えてくれるか、その予測の根拠を。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "費用を抑える方針には賛成だからな\nしかしその予測の根拠を教えてください",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "費用を抑える方針には賛成だ\nしかしその予測の根拠を教えてください",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "費用を抑える方針には賛成だ。しかし教えてくれるか、その予測の根拠を。",
+          "displayOrdinal": 1,
+          "operators": [
+            "carrier-evidence-request/request-then-carrier"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01345_aae925d37360c57c_4231",
+            "post_01904_94d1e3084483dd25_6841",
+            "post_02200_13ca24afe21445ab_8323"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "input": "この方法は少しだけ最高です。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "この方法は少しだけ最高だ",
+          "structural": false
+        },
+        {
+          "rank": 2,
+          "text": "この方法は少しだけ最高です",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "この方法は少しだけ最高だからな",
+          "structural": false
+        }
+      ],
+      "structuralPool": []
+    },
+    {
+      "id": "Q14",
+      "input": "会議は午後三時に始まります。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "会議は午後三時に始まります",
+          "structural": false
+        }
+      ],
+      "structuralPool": []
+    },
+    {
+      "id": "Q15",
+      "input": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "まだ経験は浅いですけど箱を少しだけ運べました",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。",
+          "displayOrdinal": 1,
+          "operators": [
+            "modesty-achievement-focus/assessment-then-event-split"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "input": "大したことではありません。私は報告書を提出しました。速度が重要なので、この方法を選びました。しかし私が失敗したという証拠はありますか。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "私は報告書を提出した。それほどでもない。この方法を選んだ。何故かというと速度が重要だからだ。しかし私が失敗したっていうどういう証拠があるのかよ？",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "大したことではありません\n俺は報告書を提出しました\n速さとスピードが重要なので、この方法を選びました\nしかし俺が失敗したという証拠はありますか",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "大したことではないからな\n俺は報告書を提出したからな\n速度が重要なので、この方法を選びました\nしかし俺が失敗したという証拠はありますか",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "私は報告書を提出した。それほどでもない。速度が重要だからこの方法を選んだということ。しかし私が失敗したっていうどういう証拠があるのかよ？",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty",
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion",
+            "targeted-evidence-question/target-then-mixed-question"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336"
+          ]
+        },
+        {
+          "text": "俺は報告書を提出した。それほどでもない。速さとスピードが重要だからこの方法を選んだということ。しかし俺が失敗したっていうどういう証拠があるのかよ？",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty",
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion",
+            "targeted-evidence-question/target-then-mixed-question"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336",
+            "post_00016_82d78e65bd643a54_22",
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "text": "それほどでもないが、私は報告書を提出した。速度が重要だからこの方法を選んだという事実。しかしどういう証拠があるのかよ、私が失敗したって。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/modesty-with-deed",
+            "reason-nominalized-conclusion/premise-then-fact-conclusion",
+            "targeted-evidence-question/question-then-target"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336"
+          ]
+        },
+        {
+          "text": "それほどでもないが、俺は報告書を提出した。速さとスピードが重要だからこの方法を選んだという事実。しかしどういう証拠があるのかよ、俺が失敗したって。",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/modesty-with-deed",
+            "reason-nominalized-conclusion/premise-then-fact-conclusion",
+            "targeted-evidence-question/question-then-target"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336",
+            "post_00016_82d78e65bd643a54_22",
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "text": "私は報告書を提出した。それほどでもない。この方法を選んだ。何故かというと速度が重要だからだ。しかし私が失敗したっていうどういう証拠があるのかよ？",
+          "displayOrdinal": 1,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty",
+            "reason-explanation/assertion-then-explanation",
+            "targeted-evidence-question/target-then-mixed-question"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336"
+          ]
+        },
+        {
+          "text": "俺は報告書を提出した。それほどでもない。この方法を選んだ。何故かというと速さとスピードが重要だからだ。しかし俺が失敗したっていうどういう証拠があるのかよ？",
+          "displayOrdinal": null,
+          "operators": [
+            "modesty-achievement-focus/deed-then-modesty",
+            "reason-explanation/assertion-then-explanation",
+            "targeted-evidence-question/target-then-mixed-question"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "velocity-doubling",
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01092_7d511557129472bf_3433",
+            "post_01309_8c6dc8c23e4f2d30_4103",
+            "post_01690_01eabacc0c5882f8_5672",
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00050_7911117f148beb34_76",
+            "post_00074_5e7996bff1eb05b0_110",
+            "post_01607_a816269c46e1a468_5331",
+            "post_01608_9d1a10cf7bd2b13e_5336",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "input": "どちらかというとこの案に大反対です。費用が高すぎるからです。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "費用が高すぎるから、どちらかというとこの案に大反対だ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "どちらかというとこの案に大反対です\n費用が高すぐるからです",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "どちらかというとこの案に大反対だ\n費用が高すぎるからだ",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "費用が高すぎるから、どちらかというとこの案に大反対だ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "費用が高すぐるから、どちらかというとこの案に大反対だ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [
+            "suguru"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_01653_8e421a4e4cb481c1_5516"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "input": "どちらかというとこの案に大反対です。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "どちらかというとこの案に大反対です",
+          "structural": false
+        },
+        {
+          "rank": 2,
+          "text": "どちらかというとこの案に大反対だからな",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "どちらかというとこの案に大反対だ",
+          "structural": false
+        }
+      ],
+      "structuralPool": []
+    },
+    {
+      "id": "Q19",
+      "input": "私は成果をアピールしました。報告の時間が短かったからです。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "報告の時間が短かったから、俺は成果をアッピルした。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "俺は成果をアッピルした\n何故なら報告の時間が短かったからだ",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "俺は成果をアッピルしました\n報告の時間が短かったからです",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "報告の時間が短かったから、私は成果をアピールした。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "報告の時間が短かったから、俺は成果をアッピルした。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "appiru"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22",
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "text": "報告の時間が短かったから私は成果をアピールしたということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "報告の時間が短かったから俺は成果をアッピルしたということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "appiru"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22",
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "text": "報告の時間が短かったから私は成果をアピールしたという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "報告の時間が短かったから俺は成果をアッピルしたという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi",
+            "appiru"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22",
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "input": "私はこの資料を選びました。内容が貴重だからです。",
+      "selected": [
+        {
+          "rank": 1,
+          "text": "内容が貴重だから俺はこの資料を選んだということ。",
+          "structural": true
+        },
+        {
+          "rank": 2,
+          "text": "俺はこの資料を選びました\n何故なら内容が貴重だからです",
+          "structural": false
+        },
+        {
+          "rank": 3,
+          "text": "俺はこの資料を選びました\n内容が貴重だからだ",
+          "structural": false
+        }
+      ],
+      "structuralPool": [
+        {
+          "text": "内容が貴重だから、私はこの資料を選んだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047"
+          ]
+        },
+        {
+          "text": "内容が貴重だから、俺はこの資料を選んだ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-explanation/explanation-then-bounded-claim"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_01041_a61029816407677b_3227",
+            "post_02278_620a09e0e0aee5cd_8838",
+            "post_02421_ef97fdc26a351d5a_9490",
+            "post_02331_21fb0e747871e8fb_9047",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "内容が貴重だから私はこの資料を選んだということ。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "内容が貴重だから俺はこの資料を選んだということ。",
+          "displayOrdinal": 1,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-nominalized-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "text": "内容が貴重だから私はこの資料を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882"
+          ]
+        },
+        {
+          "text": "内容が貴重だから俺はこの資料を選んだという事実。",
+          "displayOrdinal": null,
+          "operators": [
+            "reason-nominalized-conclusion/premise-then-fact-conclusion"
+          ],
+          "localRuleIds": [
+            "narrator-watashi"
+          ],
+          "sourceIds": [
+            "post_02026_4dc2474bff1f1aaa_7525",
+            "post_02223_d646bc4708a3c5e0_8497",
+            "post_02107_8608932d4f4ac31d_7882",
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ]
+    }
+  ]
+}

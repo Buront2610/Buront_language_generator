@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 3,
+  "recordedAtUtc": "2026-10-06T05:51:56.728959+00:00",
+  "status": "Broad structural usefulness not established; final prospective ordinary coverage1/18. No coverage retuning after exposure.",
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "baselineRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "freeze": {
+    "frozenAt": "2026-10-06T05:44:14Z",
+    "recordedAtUtc": "2026-10-06T05:44:49.902696+00:00",
+    "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+    "engineHash": "774a90fe887aa59b415e74d26a3a49a82c3b2ab345f4809fd2c899a96ac5e388",
+    "prospectiveEvaluationAuthorized": true,
+    "parentExplicitFreezeSignal": "EXPLICIT FINAL FREEZE:2026-10-06T05:44:14Z, sourceHash66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092. You may now record first exposure, verify seal, derive input and run baseline+final once with unchanged assets/settings. No coverage tuning after this run.",
+    "expectedSealHash": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+    "caseCount": 24,
+    "snapshotPath": "/workspace/shared/structural-b-evaluation/third-development-engine-66c681f3d2f4",
+    "snapshotManifestHash": "9d1de2e22042d5e85cebf02f5c5cea397b8419a563d4e49a7e3c90eec3c31eb4",
+    "currentSourceAndCompiledModulesMatchSnapshot": true,
+    "historicalDevelopmentSnapshotExplicitlyAuthorizedAsFinal": true
+  },
+  "firstExposure": {
+    "schemaVersion": 1,
+    "firstExposureAt": "2026-10-06T05:45:26.896Z",
+    "frozenAt": "2026-10-06T05:44:14Z",
+    "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+    "freezeRecordHash": "8529a9cbe378d97e7505f140fc8a04e52c5bd2e2b756ee52c68a40d3fb3b6f21",
+    "sealedInputHash": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+    "adapterHash": "415887a732243ddbab68fa2a34ed8c31be31277d7c64bb81a698a217f6fa13b5",
+    "role": "first prospective synthetic run only; every later rerun is exposed regression",
+    "noPostfreezeCoverageRetuning": true,
+    "status": "input prepared; neither engine invoked by adapter",
+    "caseCount": 24,
+    "sourceFields": [
+      "source"
+    ],
+    "executionInputHash": "980791d2f057ae284875f515bf5a3215420a326bae998e780b902fb777140001",
+    "mapping": "Preserve all original case fields; source/input/text copied to source unchanged; family defaults to domain and group to kind only when absent"
+  },
+  "preflightMetadataNormalization": "Original seal metadata used uppercase SHA256; copied to lowercase sha256 before reading input. Original bytes, adapter, settings and classifier unchanged.",
+  "seal": {
+    "file": "prospective-cases.json",
+    "sha256": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+    "authoredAt": "2026-10-06T05:18:42Z",
+    "ordinary": 18,
+    "controls": 6,
+    "pairs": 12
+  },
+  "engines": {
+    "before": {
+      "engineHash": "a184c3042ad9054ed156989e390ddb726ea6a026ad049d977aaccf815df4855f",
+      "sourceHash": "767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120"
+    },
+    "after": {
+      "engineHash": "774a90fe887aa59b415e74d26a3a49a82c3b2ab345f4809fd2c899a96ac5e388",
+      "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092"
+    }
+  },
+  "parser": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "assets": {
+    "sha256": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+    "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2",
+    "sameBothEnginesAndSuites": true
+  },
+  "captureScriptHash": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+  "classifierHash": "ee464d58f0078fa387d24beb903de11b4e1e2d07461f01ed8da0c5c25b3fc798",
+  "scripts": {
+    "audit-typed-rhetorical-development-stages.cjs": "e46fac656e9a12f36de8bd8e30535713bccfc80689c2d9010cb43d3c9cdc5d6a",
+    "compact-typed-rhetorical-evaluation.cjs": "29ae940ab725dfb861074b6e866592cde9bc2d9375df8576eff78372257ed91d",
+    "compare-typed-rhetorical-generation.cjs": "ee464d58f0078fa387d24beb903de11b4e1e2d07461f01ed8da0c5c25b3fc798",
+    "evaluate-typed-rhetorical-generation.cjs": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+    "prepare-typed-rhetorical-evaluation-input.cjs": "415887a732243ddbab68fa2a34ed8c31be31277d7c64bb81a698a217f6fa13b5",
+    "recreate-composition-evaluation-assets.cjs": "0f6bac3f816e3a6038eee44050905c823c68f4f6b4bcaedf92148fe78ad54b8f",
+    "report-typed-rhetorical-development.cjs": "b894f37aa801f8cce7a0f200e30ade8794dc5a2055c177df218ed4a170b25d2f",
+    "report-typed-rhetorical-domain-matches.cjs": "3a3ca0853d451274d47bd93cdefce9d5d9ccc8299b054507ea0116ef0cbfa98f",
+    "report-typed-rhetorical-prospective.cjs": "b2c8aef1aba22267e901f47126719d9e740921b550f9ae982bbb1a6443343fe8",
+    "verify-typed-rhetorical-evaluation.cjs": "873b1a70b855cfbcc761f2737007e219b4aaf4aa00e616899c89bcf1bb4888bd"
+  },
+  "rawCaptureFiles": {
+    "third-before-regression.json.gz": {
+      "sha256": "30f829c269252a45371e722d1d6af1f2547fee8166f3b8a195942897ba37c268",
+      "bytes": 1483720,
+      "startedAt": "2026-10-06T04:29:29.113Z",
+      "finishedAt": "2026-10-06T04:30:12.241Z",
+      "stableEngine": true,
+      "errors": 0,
+      "retainedOutsideRepository": true
+    },
+    "third-development-66c681f3d2f4-after.json.gz": {
+      "sha256": "06829f2c82bcb31e638c7505df779eb1d3b44d06c6f657be0a9d3a8b5fb89b9b",
+      "bytes": 1998524,
+      "startedAt": "2026-10-06T05:42:03.226Z",
+      "finishedAt": "2026-10-06T05:43:02.091Z",
+      "stableEngine": true,
+      "errors": 0,
+      "retainedOutsideRepository": true
+    },
+    "third-before-prospective.json.gz": {
+      "sha256": "caa7598981388b435ddf04b815684e0d288d939ca3dafe05240d75dfbbf9b1eb",
+      "bytes": 195668,
+      "startedAt": "2026-10-06T05:45:27.538Z",
+      "finishedAt": "2026-10-06T05:45:34.441Z",
+      "stableEngine": true,
+      "errors": 0,
+      "retainedOutsideRepository": true,
+      "includedInPackage": true,
+      "packagedFile": "prospective-raw-before.json.gz"
+    },
+    "third-after-prospective.json.gz": {
+      "sha256": "da85d98b3cf5753c6cf7505f8407eb9519a820bc848bdf486b1ea3fb2d56e757",
+      "bytes": 213785,
+      "startedAt": "2026-10-06T05:45:35.282Z",
+      "finishedAt": "2026-10-06T05:45:42.333Z",
+      "stableEngine": true,
+      "errors": 0,
+      "retainedOutsideRepository": true,
+      "includedInPackage": true,
+      "packagedFile": "prospective-raw-after.json.gz"
+    }
+  },
+  "developmentOrdinary54": {
+    "domainMatchedBodyPoolCases": 50,
+    "domainMatchedBodyDisplayedCases": 49,
+    "exposed": true
+  },
+  "prospectiveOrdinary18": {
+    "cases": 18,
+    "requests": 36,
+    "structuralPoolCases": 1,
+    "structuralDisplayedCases": 1,
+    "anyBodyPoolCases": 1,
+    "anyBodyDisplayedCases": 1,
+    "domainMatchedBodyPoolCases": 1,
+    "domainMatchedBodyDisplayedCases": 1,
+    "bodyPoolCaseIds": [
+      "SG3-R02-A"
+    ],
+    "bodyDisplayedCaseIds": [
+      "SG3-R02-A"
+    ],
+    "noBodyPoolCaseIds": [
+      "SG3-R01-A",
+      "SG3-R01-B",
+      "SG3-R02-B",
+      "SG3-R03-A",
+      "SG3-R03-B",
+      "SG3-M01-A",
+      "SG3-M01-B",
+      "SG3-M02-A",
+      "SG3-M02-B",
+      "SG3-M03-A",
+      "SG3-M03-B",
+      "SG3-E01-A",
+      "SG3-E01-B",
+      "SG3-E02-A",
+      "SG3-E02-B",
+      "SG3-E03-A",
+      "SG3-E03-B"
+    ],
+    "noBodyDisplayCaseIds": [
+      "SG3-R01-A",
+      "SG3-R01-B",
+      "SG3-R02-B",
+      "SG3-R03-A",
+      "SG3-R03-B",
+      "SG3-M01-A",
+      "SG3-M01-B",
+      "SG3-M02-A",
+      "SG3-M02-B",
+      "SG3-M03-A",
+      "SG3-M03-B",
+      "SG3-E01-A",
+      "SG3-E01-B",
+      "SG3-E02-A",
+      "SG3-E02-B",
+      "SG3-E03-A",
+      "SG3-E03-B"
+    ]
+  },
+  "prospectiveFamilies": {
+    "reason": {
+      "cases": 6,
+      "requests": 12,
+      "structuralPoolCases": 1,
+      "structuralDisplayedCases": 1,
+      "anyBodyPoolCases": 1,
+      "anyBodyDisplayedCases": 1,
+      "domainMatchedBodyPoolCases": 1,
+      "domainMatchedBodyDisplayedCases": 1,
+      "bodyPoolCaseIds": [
+        "SG3-R02-A"
+      ],
+      "bodyDisplayedCaseIds": [
+        "SG3-R02-A"
+      ],
+      "noBodyPoolCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-R01-A",
+        "SG3-R01-B",
+        "SG3-R02-B",
+        "SG3-R03-A",
+        "SG3-R03-B"
+      ]
+    },
+    "modesty": {
+      "cases": 6,
+      "requests": 12,
+      "structuralPoolCases": 0,
+      "structuralDisplayedCases": 0,
+      "anyBodyPoolCases": 0,
+      "anyBodyDisplayedCases": 0,
+      "domainMatchedBodyPoolCases": 0,
+      "domainMatchedBodyDisplayedCases": 0,
+      "bodyPoolCaseIds": [],
+      "bodyDisplayedCaseIds": [],
+      "noBodyPoolCaseIds": [
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-M01-A",
+        "SG3-M01-B",
+        "SG3-M02-A",
+        "SG3-M02-B",
+        "SG3-M03-A",
+        "SG3-M03-B"
+      ]
+    },
+    "evidence-request": {
+      "cases": 6,
+      "requests": 12,
+      "structuralPoolCases": 0,
+      "structuralDisplayedCases": 0,
+      "anyBodyPoolCases": 0,
+      "anyBodyDisplayedCases": 0,
+      "domainMatchedBodyPoolCases": 0,
+      "domainMatchedBodyDisplayedCases": 0,
+      "bodyPoolCaseIds": [],
+      "bodyDisplayedCaseIds": [],
+      "noBodyPoolCaseIds": [
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B"
+      ],
+      "noBodyDisplayCaseIds": [
+        "SG3-E01-A",
+        "SG3-E01-B",
+        "SG3-E02-A",
+        "SG3-E02-B",
+        "SG3-E03-A",
+        "SG3-E03-B"
+      ]
+    }
+  },
+  "prospectivePairs": {
+    "allPairs": 12,
+    "ordinaryPairs": 9,
+    "bothOrdinaryPool": 0,
+    "bothOrdinaryDisplayed": 0
+  },
+  "allSAndQNull": true,
+  "noPostfreezeCoreEdits": true,
+  "noPostExposureCoverageTuning": true,
+  "identityCaveats": [
+    "Raw recorder replayManifest.engineVersion inherits frozen historical asset identity; tested code is identified by source/module inventories and buildInfo.sourceHash.",
+    "Archived buildInfo.toolCommit may be historical; baseline revision plus rebuilt matching module hashes establishes source identity.",
+    "Open-style20 is assistant qualitative evidence, not human S/Q and not part of prospective24."
+  ],
+  "historicalFailuresPreserved": [
+    "first-pass",
+    "second-pass",
+    "development-history/b5cb309d67f4",
+    "development-history/7c31be2e6ea3",
+    "development-history/5a302a2cef8c"
+  ],
+  "readOnlyFailureDiagnosis": {
+    "document": "failure-diagnosis.md",
+    "trace": "failure-diagnosis-trace.json",
+    "status": "WIP / failed acceptance, not ready to merge",
+    "newInputsOrGeneration": false,
+    "implementationOrEvaluationChanges": false
+  }
+}

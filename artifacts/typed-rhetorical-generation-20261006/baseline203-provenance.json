@@ -1,0 +1,13 @@
+{
+  "verifiedAtUtc": "2026-10-06T04:31:48.971678+00:00",
+  "inputHash": "ee75c2b0b655609626f270e4f59dcbf0dfea7f622a27a4e7ccfdca904356a1f5",
+  "engineHash": "a184c3042ad9054ed156989e390ddb726ea6a026ad049d977aaccf815df4855f",
+  "assetFileHash": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+  "stableEngine": true,
+  "cases": 203,
+  "requests": 406,
+  "errors": 0,
+  "sameSourceAnalysisCandidatesSelectionIRReplayAsOriginal175Plus28": true,
+  "freshBaselineCapture": true,
+  "noNewHoldoutCreatedOrRead": true
+}

@@ -1,0 +1,70 @@
+{
+  "createdAtUtc": "2026-10-06T04:29:28.512762+00:00",
+  "inputFile": "third-pass-regression-203.json",
+  "inputSha256": "ee75c2b0b655609626f270e4f59dcbf0dfea7f622a27a4e7ccfdca904356a1f5",
+  "sourceProvenance": [
+    {
+      "input": "second-pass-regression-175.json",
+      "inputSha256": "f667206b45dc29ff5d5968064bbed997481e3a3e1d0724cd390b71a917cdcc97",
+      "baselineRaw": "second-before-regression.json.gz",
+      "baselineRawSha256": "c23fbf602b3df5d788db90620167b242ed7bb2b95943ca11a0c3acc5cf9982af",
+      "engineHash": "a184c3042ad9054ed156989e390ddb726ea6a026ad049d977aaccf815df4855f",
+      "assetFileHash": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+      "captureScriptHash": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+      "parser": {
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+      },
+      "rowCount": 175
+    },
+    {
+      "input": "second-unseen-input.json",
+      "inputSha256": "234ec2e70712f87e0f99756a9efe9ff63fb4b245ac57935573ea18fae123b157",
+      "baselineRaw": "second-before-unseen.json.gz",
+      "baselineRawSha256": "dfb3fcba29c740d0738deff7de0dbc9d40d3be55b8fbb22144680a50c0dd196d",
+      "engineHash": "a184c3042ad9054ed156989e390ddb726ea6a026ad049d977aaccf815df4855f",
+      "assetFileHash": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404",
+      "captureScriptHash": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+      "parser": {
+        "versions": {
+          "spacy": "3.8.16",
+          "ginza": "5.2.1",
+          "ja-ginza": "5.2.0",
+          "SudachiPy": "0.6.11",
+          "SudachiDict-core": "20260723",
+          "rapidfuzz": "3.14.6",
+          "scikit-learn": "1.9.1"
+        },
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+      },
+      "rowCount": 28
+    }
+  ],
+  "cohortCounts": {
+    "first-exposed-controls12": 12,
+    "first-exposed-ordinary18": 18,
+    "original-exposed18": 18,
+    "prior127": 127,
+    "second-exposed-controls10": 10,
+    "second-exposed-ordinary18": 18
+  },
+  "ordinaryDevelopmentCases": 54,
+  "ordinaryDomains": {
+    "reason": 18,
+    "modesty": 18,
+    "evidence-request": 18
+  },
+  "priorCases": 127,
+  "controlCases": 22,
+  "recaptureBaselineRatherThanMerge": true,
+  "unseen": false,
+  "instruction": "Do not create or open another holdout before broad all-family development evidence."
+}

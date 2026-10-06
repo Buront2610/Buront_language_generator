@@ -1,0 +1,1235 @@
+{
+  "method": "Read-only replay of frozen recognition/scope/inflection helpers on existing captured intensity-3 IR. No new inputs, engine generations, benchmark changes or implementation changes.",
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "inputCapture": "prospective-raw-after.json.gz",
+  "inputCaptureSha256": "da85d98b3cf5753c6cf7505f8407eb9519a820bc848bdf486b1ea3fb2d56e757",
+  "ordinaryRecognized": [
+    "SG3-R02-A",
+    "SG3-R03-A"
+  ],
+  "rows": [
+    {
+      "id": "SG3-R01-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "185966cc770ada0f3850001f124f8b44e56fb9083fe939608614429ed7663086",
+      "relations": []
+    },
+    {
+      "id": "SG3-R01-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "d68d108e3d36c45607a6005bca52ae0b09f5b73f3696fa9df255341239dc6341",
+      "relations": [],
+      "source": "倉庫を午前中に点検するので、納品物は午後三時以降に受け取るようお願いするつもりです。",
+      "scopes": [
+        {
+          "id": 4,
+          "text": "点検",
+          "dep": "acl",
+          "head": 21,
+          "children": [
+            {
+              "id": 0,
+              "text": "倉庫",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 2,
+              "text": "午前中",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 5,
+              "text": "する",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 6,
+              "text": "の",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 8,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": true,
+          "prospective": true,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 17,
+          "text": "受け取る",
+          "dep": "advcl",
+          "head": 19,
+          "children": [
+            {
+              "id": 15,
+              "text": "以降",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 18,
+              "text": "よう",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": true,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 19,
+          "text": "お願い",
+          "dep": "acl",
+          "head": 21,
+          "children": [
+            {
+              "id": 20,
+              "text": "する",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": true,
+          "prospective": true,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 21,
+          "text": "つもり",
+          "dep": "ROOT",
+          "head": 21,
+          "children": [
+            {
+              "id": 10,
+              "text": "物",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 22,
+              "text": "です",
+              "pos": "AUX",
+              "dep": "cop"
+            },
+            {
+              "id": 23,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": true,
+          "prospective": true,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        }
+      ]
+    },
+    {
+      "id": "SG3-R02-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "d8306c385ce3f1255c64a319e1fdde5c2e5b02633f3c8b62e45538d73a8f728c",
+      "relations": [
+        {
+          "id": "rhetorical-c4f4a810ac59ea0dce42a793",
+          "kind": "reason-claim",
+          "sourceForm": "causal-clause"
+        }
+      ]
+    },
+    {
+      "id": "SG3-R02-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "32888ad55d7f589586b212037f6e76f71ac99efaff23011f013daa0aaabda42f",
+      "relations": []
+    },
+    {
+      "id": "SG3-R03-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "ed05c20c3d8ffbef24f100e41f960ebc30289d3ac6cb55837762dc26a6dc040f",
+      "relations": [
+        {
+          "id": "rhetorical-9aa5e849870f462343ec9f92",
+          "kind": "reason-claim",
+          "sourceForm": "causal-tame"
+        }
+      ],
+      "source": "昨夜の雨で遊歩道がぬかるんでいるため、今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました。",
+      "scopes": [
+        {
+          "id": 6,
+          "text": "ぬかるん",
+          "dep": "acl",
+          "head": 9,
+          "children": [
+            {
+              "id": 2,
+              "text": "雨",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 4,
+              "text": "遊歩道",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 7,
+              "text": "で",
+              "pos": "SCONJ",
+              "dep": "mark"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 17,
+          "text": "避け",
+          "dep": "advcl",
+          "head": 25,
+          "children": [
+            {
+              "id": 13,
+              "text": "散歩",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 15,
+              "text": "川沿い",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 18,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 19,
+          "text": "舗装",
+          "dep": "acl",
+          "head": 23,
+          "children": [
+            {
+              "id": 20,
+              "text": "さ",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 21,
+              "text": "れ",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 22,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 25,
+          "text": "歩く",
+          "dep": "ROOT",
+          "head": 25,
+          "children": [
+            {
+              "id": 9,
+              "text": "ため",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 23,
+              "text": "商店街",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 26,
+              "text": "こと",
+              "pos": "NOUN",
+              "dep": "compound"
+            },
+            {
+              "id": 29,
+              "text": "まし",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 30,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 31,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        }
+      ],
+      "realizationFacts": [
+        {
+          "role": "reason",
+          "source": "昨夜の雨で遊歩道がぬかるんでいる",
+          "clauseInflection": null,
+          "rawEmbeddable": true
+        },
+        {
+          "role": "claim",
+          "source": "今朝の散歩は川沿いを避け、舗装された商店街を歩くことにしました",
+          "clauseInflection": null,
+          "rawEmbeddable": false
+        }
+      ]
+    },
+    {
+      "id": "SG3-R03-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "512e4eaae2306742ba383c777fc42d0861a8589741d0f8573a01b9955eb7acb3",
+      "relations": []
+    },
+    {
+      "id": "SG3-M01-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "f9b6108aaa3cc902c37b0a74442ee5535de7da811f4bf9791b543178f62327ff",
+      "relations": [],
+      "source": "見栄えのよい資料を作るのはまだ苦手ですが、私が担当した会議用の集計表は、昨日のうちに全ページの数値を確認しました。",
+      "scopes": [
+        {
+          "id": 2,
+          "text": "よい",
+          "dep": "acl",
+          "head": 3,
+          "children": [
+            {
+              "id": 0,
+              "text": "見栄え",
+              "pos": "NOUN",
+              "dep": "nmod"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 5,
+          "text": "作る",
+          "dep": "advcl",
+          "head": 9,
+          "children": [
+            {
+              "id": 3,
+              "text": "資料",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 6,
+              "text": "の",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 7,
+              "text": "は",
+              "pos": "ADP",
+              "dep": "case"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 9,
+          "text": "苦手",
+          "dep": "advcl",
+          "head": 32,
+          "children": [
+            {
+              "id": 8,
+              "text": "まだ",
+              "pos": "ADV",
+              "dep": "advmod"
+            },
+            {
+              "id": 10,
+              "text": "です",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 11,
+              "text": "が",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 12,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 15,
+          "text": "担当",
+          "dep": "acl",
+          "head": 20,
+          "children": [
+            {
+              "id": 13,
+              "text": "私",
+              "pos": "PRON",
+              "dep": "nsubj"
+            },
+            {
+              "id": 16,
+              "text": "し",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 17,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 32,
+          "text": "確認",
+          "dep": "ROOT",
+          "head": 32,
+          "children": [
+            {
+              "id": 20,
+              "text": "集計表",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 25,
+              "text": "うち",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 30,
+              "text": "数値",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 33,
+              "text": "し",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 34,
+              "text": "まし",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 35,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 36,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        }
+      ]
+    },
+    {
+      "id": "SG3-M01-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "440755eca4b7d1b670a2294260790cc287470d23734c6723b5d4b66b8ebf5b59",
+      "relations": [],
+      "source": "資料の見栄えを整えるのはまだ得意ではありません。それでも、担当した会議用集計表の全ページの数値は、私が昨日確認しました。",
+      "scopes": [
+        {
+          "id": 4,
+          "text": "整える",
+          "dep": "csubj",
+          "head": 8,
+          "children": [
+            {
+              "id": 2,
+              "text": "見栄え",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 5,
+              "text": "の",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 6,
+              "text": "は",
+              "pos": "ADP",
+              "dep": "case"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 8,
+          "text": "得意",
+          "dep": "ROOT",
+          "head": 8,
+          "children": [
+            {
+              "id": 7,
+              "text": "まだ",
+              "pos": "ADV",
+              "dep": "advmod"
+            },
+            {
+              "id": 9,
+              "text": "で",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 14,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 19,
+          "text": "担当",
+          "dep": "acl",
+          "head": 23,
+          "children": [
+            {
+              "id": 20,
+              "text": "し",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 21,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 34,
+          "text": "確認",
+          "dep": "ROOT",
+          "head": 34,
+          "children": [
+            {
+              "id": 15,
+              "text": "それ",
+              "pos": "PRON",
+              "dep": "cc"
+            },
+            {
+              "id": 28,
+              "text": "数値",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 31,
+              "text": "私",
+              "pos": "PRON",
+              "dep": "nsubj"
+            },
+            {
+              "id": 33,
+              "text": "昨日",
+              "pos": "ADV",
+              "dep": "advmod"
+            },
+            {
+              "id": 35,
+              "text": "し",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 36,
+              "text": "まし",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 37,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 38,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": true,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        }
+      ]
+    },
+    {
+      "id": "SG3-M02-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "7b9cd4ba4e17c532d4fe269b89c7b285b307cd6676ad91e257695be3dd4453b3",
+      "relations": [],
+      "source": "私は料理の腕にあまり自信がありませんが、今日の夕飯のカレーは一人で作り、食べ終わったあとの片づけまで済ませました。",
+      "scopes": [
+        {
+          "id": 9,
+          "text": "あり",
+          "dep": "advcl",
+          "head": 22,
+          "children": [
+            {
+              "id": 0,
+              "text": "私",
+              "pos": "PRON",
+              "dep": "dislocated"
+            },
+            {
+              "id": 4,
+              "text": "腕",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 6,
+              "text": "あまり",
+              "pos": "ADV",
+              "dep": "advmod"
+            },
+            {
+              "id": 7,
+              "text": "自信",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 10,
+              "text": "ませ",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 11,
+              "text": "ん",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 12,
+              "text": "が",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 13,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 22,
+          "text": "作り",
+          "dep": "advcl",
+          "head": 31,
+          "children": [
+            {
+              "id": 18,
+              "text": "カレー",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 20,
+              "text": "一人",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 23,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 24,
+          "text": "食べ",
+          "dep": "acl",
+          "head": 27,
+          "children": [
+            {
+              "id": 26,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 25,
+          "text": "終わっ",
+          "dep": "advcl",
+          "head": 24,
+          "children": [],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 31,
+          "text": "済ま",
+          "dep": "ROOT",
+          "head": 31,
+          "children": [
+            {
+              "id": 29,
+              "text": "片づけ",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 32,
+              "text": "せ",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 33,
+              "text": "まし",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 34,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 35,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        }
+      ]
+    },
+    {
+      "id": "SG3-M02-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "f00b314707e5b21adcc4e479e3cee1ee51daaedee28ad1af7a50646d256c9cb1",
+      "relations": []
+    },
+    {
+      "id": "SG3-M03-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "15ea2587ead6bb31caf3bfc9cc3bf9bdb6e959639e839a78268ac2777e9fc5db",
+      "relations": []
+    },
+    {
+      "id": "SG3-M03-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "1e9877d6c3f567bbac5e97ea2e82f64e50a032427e7157d8a66aa0181fe58181",
+      "relations": []
+    },
+    {
+      "id": "SG3-E01-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "44b96bc805ee073b91f83551e7f668530d9a909a17ffa3f9c6593458df6bd04e",
+      "relations": [],
+      "source": "新しい梱包材で破損が減ったという説明について、先月と今月の配送事故記録を並べ、根拠が分かるように見せてください。",
+      "scopes": [
+        {
+          "id": 0,
+          "text": "新しい",
+          "dep": "acl",
+          "head": 1,
+          "children": [],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 5,
+          "text": "減っ",
+          "dep": "acl",
+          "head": 9,
+          "children": [
+            {
+              "id": 1,
+              "text": "梱包材",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 3,
+              "text": "破損",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 6,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 7,
+              "text": "と",
+              "pos": "ADP",
+              "dep": "case"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 22,
+          "text": "並べ",
+          "dep": "advcl",
+          "head": 26,
+          "children": [
+            {
+              "id": 9,
+              "text": "説明",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 20,
+              "text": "記録",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 23,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 26,
+          "text": "分かる",
+          "dep": "advcl",
+          "head": 29,
+          "children": [
+            {
+              "id": 24,
+              "text": "根拠",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 27,
+              "text": "よう",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 28,
+              "text": "に",
+              "pos": "AUX",
+              "dep": "aux"
+            }
+          ],
+          "speculative": true,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 29,
+          "text": "見せ",
+          "dep": "ROOT",
+          "head": 29,
+          "children": [
+            {
+              "id": 30,
+              "text": "て",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 32,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": true,
+          "attribution": "narrator"
+        }
+      ]
+    },
+    {
+      "id": "SG3-E01-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "77eb0ff8ee4aeda244aa10fdc3bf0b586478ee152140783a0e4d59f2daa6a86b",
+      "relations": []
+    },
+    {
+      "id": "SG3-E02-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "6b5ac5a974fa77bf357c8fb186d507bed52198be232d18095f60b82bf14b02e1",
+      "relations": []
+    },
+    {
+      "id": "SG3-E02-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "a0d8feebc6659567ab43d8c05995487529e7f46e933e36ecd81fae8464a58c25",
+      "relations": []
+    },
+    {
+      "id": "SG3-E03-A",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "0940e72835b05dec9fbe2a7d48716bdf1225aa6878b206f22249880c806015be",
+      "relations": []
+    },
+    {
+      "id": "SG3-E03-B",
+      "kind": "ordinary",
+      "sourceAnalysisHash": "58b3b5a3c5299046e57a6fb845a0cb23c75e5a4ee612d60f5cdb6558d8d37016",
+      "relations": [],
+      "source": "雨の日にもこの自転車のブレーキはよく利くと聞きました。裏づけを確認したいので、雨天の制動試験報告書を見せてください。",
+      "scopes": [
+        {
+          "id": 11,
+          "text": "利く",
+          "dep": "ccomp",
+          "head": 13,
+          "children": [
+            {
+              "id": 2,
+              "text": "日",
+              "pos": "NOUN",
+              "dep": "obl"
+            },
+            {
+              "id": 8,
+              "text": "ブレーキ",
+              "pos": "NOUN",
+              "dep": "nsubj"
+            },
+            {
+              "id": 10,
+              "text": "よく",
+              "pos": "ADV",
+              "dep": "advmod"
+            },
+            {
+              "id": 12,
+              "text": "と",
+              "pos": "ADP",
+              "dep": "case"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "hearsay"
+        },
+        {
+          "id": 13,
+          "text": "聞き",
+          "dep": "ROOT",
+          "head": 13,
+          "children": [
+            {
+              "id": 14,
+              "text": "まし",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 15,
+              "text": "た",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 16,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 19,
+          "text": "確認",
+          "dep": "advcl",
+          "head": 31,
+          "children": [
+            {
+              "id": 17,
+              "text": "裏づけ",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 20,
+              "text": "し",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 21,
+              "text": "たい",
+              "pos": "AUX",
+              "dep": "aux"
+            },
+            {
+              "id": 22,
+              "text": "の",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 24,
+              "text": "、",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": false,
+          "attribution": "narrator"
+        },
+        {
+          "id": 31,
+          "text": "見せ",
+          "dep": "ROOT",
+          "head": 31,
+          "children": [
+            {
+              "id": 29,
+              "text": "報告書",
+              "pos": "NOUN",
+              "dep": "obj"
+            },
+            {
+              "id": 32,
+              "text": "て",
+              "pos": "SCONJ",
+              "dep": "mark"
+            },
+            {
+              "id": 34,
+              "text": "。",
+              "pos": "PUNCT",
+              "dep": "punct"
+            }
+          ],
+          "speculative": false,
+          "prospective": false,
+          "ambiguous": false,
+          "nonDeclarative": true,
+          "attribution": "narrator"
+        }
+      ]
+    },
+    {
+      "id": "SG3-C01-A",
+      "kind": "control",
+      "sourceAnalysisHash": "6ffcb59ed8b3e84ec6be55d62b6bc3a4b973839a18f2d2f255d6f3e97c56ce06",
+      "relations": []
+    },
+    {
+      "id": "SG3-C01-B",
+      "kind": "control",
+      "sourceAnalysisHash": "03ef8c7ced820eeb7286d12cd39cd8ae59edccc798d4a4538385a559d8115152",
+      "relations": []
+    },
+    {
+      "id": "SG3-C02-A",
+      "kind": "control",
+      "sourceAnalysisHash": "70cf6d2f7c9bbd13d707ab7ac068e9bf719ee65eb328cd948e85f6474646a0e7",
+      "relations": []
+    },
+    {
+      "id": "SG3-C02-B",
+      "kind": "control",
+      "sourceAnalysisHash": "a502b0044d61f8b9fe7c26d1e0fcf84f762f09bd027827f1c41d188d983bf554",
+      "relations": []
+    },
+    {
+      "id": "SG3-C03-A",
+      "kind": "control",
+      "sourceAnalysisHash": "f74e3a4bd750f3f8fd20ab9a0807379b8881fcdd8fe3294a9f2056cd2783560a",
+      "relations": [
+        {
+          "id": "rhetorical-ef9f497ae050c829ed101559",
+          "kind": "reason-claim",
+          "sourceForm": "causal-clause"
+        }
+      ]
+    },
+    {
+      "id": "SG3-C03-B",
+      "kind": "control",
+      "sourceAnalysisHash": "155093d0bf4d52067752590e30f2dfaf6b2232b69b901919558b22378fc18b2a",
+      "relations": []
+    }
+  ],
+  "originalInputCapture": "third-after-prospective.json.gz"
+}

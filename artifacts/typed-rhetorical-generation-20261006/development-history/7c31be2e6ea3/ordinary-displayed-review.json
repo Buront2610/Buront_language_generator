@@ -1,0 +1,611 @@
+{
+  "recordedAtUtc": "2026-10-06T05:16:43.728320+00:00",
+  "sourceHash": "7c31be2e6ea3610830b0d01d563b6d165423008cc87d0c5046a9a7adada9496b",
+  "type": "Assistant direct reading, not human S/Q or safety certification",
+  "scope": "All displayed structural outputs at intensity3 among ordinary54: 50 input cases. Does not cover the entire non-displayed pool.",
+  "finding": "No additional obvious major fact/action/actor/quantity loss found in these inspected outputs. Requests retain concrete verbs on this build. Neutral recomposition and mixed polite/plain endings are not claims of distinctive Buront style or naturalness. Separate U29 control blocker prevents acceptance.",
+  "humanS": null,
+  "humanQ": null,
+  "rows": [
+    {
+      "id": "X01",
+      "source": "朝の連絡はメールにした。相手が会議中だからだ。",
+      "displayedStructural": [
+        {
+          "text": "相手が会議中だから朝の連絡はメールにしたということ。",
+          "displayOrdinal": 1,
+          "planId": "caffbb0a313728c58f67052f",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X02",
+      "source": "徒歩で帰った。バスが運休していたからです。",
+      "displayedStructural": [
+        {
+          "text": "バスが運休していたから徒歩で帰ったということ。",
+          "displayOrdinal": 1,
+          "planId": "05aa6700792a253a1596e871",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X03",
+      "source": "この資料は保存する。来週の説明に必要だからだ。",
+      "displayedStructural": [
+        {
+          "text": "来週の説明に必要だから、この資料は保存する。",
+          "displayOrdinal": 1,
+          "planId": "4f112f2d27cfb6e24e99ceec",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X04",
+      "source": "今日は窓を閉めた。外の音が大きいからだ。",
+      "displayedStructural": [
+        {
+          "text": "外の音が大きいから、今日は窓を閉めた。",
+          "displayOrdinal": 1,
+          "planId": "337033a9116f5a4785e2cdc9",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X05",
+      "source": "印刷機が故障しているので、受付の案内は手書きにしました。",
+      "displayedStructural": [
+        {
+          "text": "印刷機が故障しているから受付の案内は手書きにしたということ。",
+          "displayOrdinal": 1,
+          "planId": "402af7009eb93b1c41906054",
+          "classification": "structural-fixed-form-only"
+        }
+      ]
+    },
+    {
+      "id": "X06",
+      "source": "道路が混んでいたため、到着は予定より十分遅れました。",
+      "displayedStructural": [
+        {
+          "text": "到着は予定より十分遅れた。何故かというと道路が混んでいたからだ。",
+          "displayOrdinal": 1,
+          "planId": "77a0edc8b1581dfcf6045248",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X07",
+      "source": "大したことはしていない。机を片付けただけだ。",
+      "displayedStructural": [
+        {
+          "text": "机を片付けただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "dc5e2ca4f0433d3453f18476",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X08",
+      "source": "大したことはしていない。資料を一つ渡しただけだ。",
+      "displayedStructural": [
+        {
+          "text": "資料を一つ渡しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "4739c961053e1a414bb16817",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X09",
+      "source": "大したことはしていない。玄関の電球を直しただけだ。",
+      "displayedStructural": [
+        {
+          "text": "玄関の電球を直しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "b9621553c959b927ffc328a2",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X10",
+      "source": "大したことはしていない。住所を確認しただけだ。",
+      "displayedStructural": [
+        {
+          "text": "住所を確認しただけだ。それほどでもない。",
+          "displayOrdinal": 1,
+          "planId": "8bb834ad16ca0a22d9befbfc",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X11",
+      "source": "褒められるほどではありませんが、誤記を二か所だけ訂正しました。",
+      "displayedStructural": [
+        {
+          "text": "褒められるほどではありません。とはいえ、誤記を二か所だけ訂正した。",
+          "displayOrdinal": 1,
+          "planId": "d26a52824892c6918f06257c",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X12",
+      "source": "まだ経験は浅いですけど、箱を少しだけ運べました。",
+      "displayedStructural": [
+        {
+          "text": "まだ経験は浅い。とはいえ、箱を少しだけ運べた。",
+          "displayOrdinal": 1,
+          "planId": "3fa2e2f50a5a0c924692c857",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X13",
+      "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+      "displayedStructural": [
+        {
+          "text": "便利なのは分かった。しかし見せてくれるか、安全だという証拠を。",
+          "displayOrdinal": 1,
+          "planId": "564fc00ac851b3a9cb1b6b6a",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X14",
+      "source": "費用を抑える方針には賛成だ。しかしその予測の根拠を教えてください。",
+      "displayedStructural": [
+        {
+          "text": "費用を抑える方針には賛成だ。しかし教えてくれるか、その予測の根拠を。",
+          "displayOrdinal": 1,
+          "planId": "47dd601e06a171ee7c36eb9d",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "X18",
+      "source": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+      "displayedStructural": [
+        {
+          "text": "値段には納得しています。ただ、教えてくれるか、消費電力が減るという測定結果を。",
+          "displayOrdinal": 1,
+          "planId": "c382275d5536d26be0e28da2",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U01",
+      "source": "担当者が休暇中なので、この見積もりへの回答は明日になります。",
+      "displayedStructural": [
+        {
+          "text": "この見積もりへの回答は明日になる。何故かというと担当者が休暇中だからだ。",
+          "displayOrdinal": 1,
+          "planId": "66c661047c848482b4b4925f",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "source": "窓口の人がお休みのため、金額の問い合わせには翌日お返事します。",
+      "displayedStructural": [
+        {
+          "text": "金額の問い合わせには翌日お返事する。何故かというと窓口の人がお休みだからだ。",
+          "displayOrdinal": 1,
+          "planId": "207bfd515ab116051e10b036",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U03",
+      "source": "駅前の店は改装中ですから、昼ご飯は会社の食堂で食べます。",
+      "displayedStructural": [
+        {
+          "text": "昼ご飯は会社の食堂で食べる。何故かというと駅前の店は改装中だからだ。",
+          "displayOrdinal": 1,
+          "planId": "3768698196fedd66c8c6c7c2",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U04",
+      "source": "いつもの喫茶店が工事で休んでいるため、お昼は職場の食事スペースを使います。",
+      "displayedStructural": [
+        {
+          "text": "お昼は職場の食事スペースを使う。何故かというといつもの喫茶店が工事で休んでいるからだ。",
+          "displayOrdinal": 1,
+          "planId": "e93cffa9681fbe30b23be0f4",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U05",
+      "source": "添付の写真では型番が読めないので、交換部品はまだ注文できません。",
+      "displayedStructural": [
+        {
+          "text": "交換部品はまだ注文できない。何故かというと添付の写真では型番が読めないからだ。",
+          "displayOrdinal": 1,
+          "planId": "1032abc2aff1f28a2a87205d",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U06",
+      "source": "送られてきた画像の品番が判別できないため、取り替える部材の発注は保留にしています。",
+      "displayedStructural": [
+        {
+          "text": "取り替える部材の発注は保留にしている。何故かというと送られてきた画像の品番が判別できないからだ。",
+          "displayOrdinal": 1,
+          "planId": "eef9d251678dd7f63c066b24",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U07",
+      "source": "得意というほどではありませんが、共有表の重複行を三つだけ整理しました。",
+      "displayedStructural": [
+        {
+          "text": "得意というほどではない。とはいえ、共有表の重複行を三つだけ整理した。",
+          "displayOrdinal": 1,
+          "planId": "e245f519790a55ccedba6c52",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U08",
+      "source": "まだ不慣れですが、共同の一覧に二重で入っていた記録を三件だけ片づけました。",
+      "displayedStructural": [
+        {
+          "text": "まだ不慣れだ。とはいえ、共同の一覧に二重で入っていた記録を三件だけ片づけた。",
+          "displayOrdinal": 1,
+          "planId": "2f8d67ca5ecbbb4750b98432",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U09",
+      "source": "料理に自信はありませんが、今朝は家族の分のおにぎりだけ作れました。",
+      "displayedStructural": [
+        {
+          "text": "料理に自信はない。とはいえ、今朝は家族の分のおにぎりだけ作れた。",
+          "displayOrdinal": 1,
+          "planId": "baad146141f3f2f7562846d8",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U10",
+      "source": "台所仕事はまだ苦手ですけど、今日は家の人が食べる握り飯だけは用意できました。",
+      "displayedStructural": [
+        {
+          "text": "台所仕事はまだ苦手だ。とはいえ、今日は家の人が食べる握り飯だけは用意できた。",
+          "displayOrdinal": 1,
+          "planId": "bf4e7bc38a021380454f61f3",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U11",
+      "source": "大したことはしていませんが、新人向けの説明文の誤字を少し直しました。",
+      "displayedStructural": [
+        {
+          "text": "大したことはしていない。とはいえ、新人向けの説明文の誤字を少し直した。",
+          "displayOrdinal": 1,
+          "planId": "a317e001ef0e365f619c183c",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U12",
+      "source": "胸を張れるほどの仕事ではないですが、初めて来る人用の案内にある打ち間違いを少しだけ修正しました。",
+      "displayedStructural": [
+        {
+          "text": "胸を張れるほどの仕事ではないです。とはいえ、初めて来る人用の案内にある打ち間違いを少しだけ修正した。",
+          "displayOrdinal": 1,
+          "planId": "53e616c2c9a798f282d0eea8",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U13",
+      "source": "早く決めたい気持ちは分かりますが、この契約が必要だという根拠を見せてください。",
+      "displayedStructural": [
+        {
+          "text": "早く決めたい気持ちは分かりますが、見せてくれるか、この契約が必要だという根拠を。",
+          "displayOrdinal": 1,
+          "planId": "8e2d3979fc766509c833ccf5",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U14",
+      "source": "急いで結論を出したいのは理解できます。ただ、その取り決めを結ぶ必要性が分かる資料を提示してください。",
+      "displayedStructural": [
+        {
+          "text": "急いで結論を出したいのは理解できます。ただ、提示してくれるか、その取り決めを結ぶ必要性が分かる資料を。",
+          "displayOrdinal": 1,
+          "planId": "6c8c978f592ecd2b4cd0957e",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U15",
+      "source": "評判が良いことは聞いていますが、この浄水器が水質を改善するという試験結果を教えてください。",
+      "displayedStructural": [
+        {
+          "text": "評判が良いことは聞いていますが、教えてくれるか、この浄水器が水質を改善するという試験結果を。",
+          "displayOrdinal": 1,
+          "planId": "de3ff04b9c5d3318f17b87bc",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U16",
+      "source": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データを見せてもらえますか。",
+      "displayedStructural": [
+        {
+          "text": "口コミが好評なのは承知しています。ただ、見せてくれるか、このろ過装置で水がきれいになると判断した検証データを。",
+          "displayOrdinal": 1,
+          "planId": "8b77690a92e760aa06becf45",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U17",
+      "source": "作業を減らす案には賛成ですけれど、点検を週一回にしても安全だと判断した理由を説明してください。",
+      "displayedStructural": [
+        {
+          "text": "作業を減らす案には賛成ですけれど、説明してくれるか、点検を週一回にしても安全だと判断した理由を。",
+          "displayOrdinal": 1,
+          "planId": "54daf2d6fba96f211e3f93c5",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "U18",
+      "source": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けを出してください。",
+      "displayedStructural": [
+        {
+          "text": "手間を省く方向には異論はありませんが、出してくれるか、確認を一週間に一度へ変えて問題がないとする裏付けを。",
+          "displayOrdinal": 1,
+          "planId": "4bcb598c679a524e0d2c0ae2",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-R01A",
+      "source": "冷蔵庫に十分な食材があるので、明日の夕食は買い足さずに用意できます。",
+      "displayedStructural": [
+        {
+          "text": "明日の夕食は買い足さずに用意できる。何故かというと冷蔵庫に十分な食材があるからだ。",
+          "displayOrdinal": 1,
+          "planId": "4e02b17cb7807803e4c35c6c",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-R01B",
+      "source": "明日の晩ごはんなら、新たに買い物をしなくても作れます。冷蔵庫の食材が足りているからです。",
+      "displayedStructural": [
+        {
+          "text": "冷蔵庫の食材が足りているから、明日の晩ごはんなら、新たに買い物をしなくても作れる。",
+          "displayOrdinal": 1,
+          "planId": "3c7577870e4b7512b76c87a0",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-R02A",
+      "source": "手首を痛めているため、今週は重い箱を運べません。",
+      "displayedStructural": [
+        {
+          "text": "今週は重い箱を運べない。何故かというと手首を痛めているからだ。",
+          "displayOrdinal": 1,
+          "planId": "5239f06567c9ec1fd86a4678",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-R02B",
+      "source": "今週、重量のある箱を持ち運ぶのは無理です。手首が痛んでいるからです。",
+      "displayedStructural": [
+        {
+          "text": "手首が痛んでいるから、今週、重量のある箱を持ち運ぶのは無理だ。",
+          "displayOrdinal": 1,
+          "planId": "9b170e3851471c5c7be80344",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-R03A",
+      "source": "会議室の予約が二重になっているので、今日の打ち合わせは別の部屋が必要です。",
+      "displayedStructural": [
+        {
+          "text": "今日の打ち合わせは別の部屋が必要だ。何故かというと会議室の予約が二重になっているからだ。",
+          "displayOrdinal": 1,
+          "planId": "61754647b8f05e82f6aa8027",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-R03B",
+      "source": "今日の打ち合わせには、ほかの部屋を用意する必要があります。会議室の予約が重なっているためです。",
+      "displayedStructural": [
+        {
+          "text": "会議室の予約が重なっているから、今日の打ち合わせには、ほかの部屋を用意する必要がある。",
+          "displayOrdinal": 1,
+          "planId": "607bf79a95711ef7bac13fcf",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-M01A",
+      "source": "整理整頓は得意ではありませんが、共有棚のファイルには全部ラベルを付け終えました。",
+      "displayedStructural": [
+        {
+          "text": "整理整頓は得意ではない。とはいえ、共有棚のファイルには全部ラベルを付け終えた。",
+          "displayOrdinal": 1,
+          "planId": "9b042553b7e0282b8cc1fd0d",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-M02A",
+      "source": "料理に自信があるわけではないですが、今朝は家族三人分の弁当を作りました。",
+      "displayedStructural": [
+        {
+          "text": "料理に自信があるわけではないです。とはいえ、今朝は家族三人分の弁当を作った。",
+          "displayOrdinal": 1,
+          "planId": "6b2ae33811a579b119cec4cd",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-M02B",
+      "source": "腕前を誇れるほどではありません。それでも今朝、家族の弁当を三人分用意しました。",
+      "displayedStructural": [
+        {
+          "text": "腕前を誇れるほどではないが、それでも今朝、家族の弁当を三人分用意した。",
+          "displayOrdinal": 1,
+          "planId": "6f3cbf8be91a31382e2b990c",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-M03A",
+      "source": "人前で話すのは苦手ですが、昨日の説明会では参加者からの質問に最後まで答えました。",
+      "displayedStructural": [
+        {
+          "text": "人前で話すのは苦手です。とはいえ、昨日の説明会では参加者からの質問に最後まで答えた。",
+          "displayOrdinal": 1,
+          "planId": "9c176627205d1d3c7a459d5c",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-M03B",
+      "source": "大勢を前にすると話し慣れていないのが出ますが、昨日の案内会では参加者の問いに終わりまで応じました。",
+      "displayedStructural": [
+        {
+          "text": "大勢を前にすると話し慣れていないのが出ます。とはいえ、昨日の案内会では参加者の問いに終わりまで応じた。",
+          "displayOrdinal": 1,
+          "planId": "12aa61ae84c93086b812705b",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-E01A",
+      "source": "受付の応援を頼む案には賛成です。ただ、午前中に来訪者が増えたという根拠になった来訪記録を見せてください。",
+      "displayedStructural": [
+        {
+          "text": "受付の応援を頼む案には賛成です。ただ、見せてくれるか、午前中に来訪者が増えたという根拠になった来訪記録を。",
+          "displayOrdinal": 1,
+          "planId": "e16f061eecb9303a328ad22e",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-E01B",
+      "source": "受付を手伝う人を増やすことには同意します。朝の時間帯の訪問が増えたと判断した元の来訪記録を確認させてください。",
+      "displayedStructural": [
+        {
+          "text": "受付を手伝う人を増やすことには同意します。確認させてくれるか、朝の時間帯の訪問が増えたと判断した元の来訪記録を。",
+          "displayOrdinal": 1,
+          "planId": "8c860965bd4b054ad014cd22",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-E02A",
+      "source": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、先月の点検表を出してください。",
+      "displayedStructural": [
+        {
+          "text": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、出してくれるか、先月の点検表を。",
+          "displayOrdinal": 1,
+          "planId": "f9aa22d63a50f3d84cd985dd",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-E02B",
+      "source": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、前の月の点検記録を提示してください。",
+      "displayedStructural": [
+        {
+          "text": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、提示してくれるか、前の月の点検記録を。",
+          "displayOrdinal": 1,
+          "planId": "2c1b629e7faed58e615dc462",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-E03A",
+      "source": "工具の交換を進めることには異論ありません。その前に、故障が増えていると分かるメーカーの点検報告書を読ませてください。",
+      "displayedStructural": [
+        {
+          "text": "工具の交換を進めることには異論ありません。その前に、読ませてくれるか、故障が増えていると分かるメーカーの点検報告書を。",
+          "displayOrdinal": 1,
+          "planId": "d7617ce23f20387e1da100d5",
+          "classification": "body-composition"
+        }
+      ]
+    },
+    {
+      "id": "SG2-E03B",
+      "source": "道具を取り替える方針は受け入れます。ただ、着手するより先に、故障件数が増えた根拠となる製造元の検査報告を確認させてください。",
+      "displayedStructural": [
+        {
+          "text": "道具を取り替える方針は受け入れます。ただ、着手するより先に、確認させてくれるか、故障件数が増えた根拠となる製造元の検査報告を。",
+          "displayOrdinal": 1,
+          "planId": "f039ee3d4a98188a2075e429",
+          "classification": "body-composition"
+        }
+      ]
+    }
+  ]
+}

@@ -47,7 +47,7 @@ async function worker(job) {
       sample = setInterval(memory, 25); memory();
       const session = await app.inject({ method: 'POST', url: '/api/v1/session', headers: { 'x-buront-client': '1' }, payload: {} });
       const headers = { authorization: `Bearer ${session.json().token}`, cookie: session.headers['set-cookie'].split(';')[0] };
-      const start = performance.now(), accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: request(job.source) });
+      const start = performance.now(), accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: { ...request(job.source), ...(job.requestOverrides ?? {}) } });
       if (accepted.statusCode !== 202) return { status: 'admission_failed', code: accepted.statusCode, body: accepted.body };
       let response;
       do { await new Promise(resolve => setTimeout(resolve, 25)); response = (await app.inject({ url: `/api/v1/generations/${accepted.json().jobId}`, headers })).json(); } while (!['completed', 'failed', 'cancelled'].includes(response.state) && performance.now() - start < 45000);

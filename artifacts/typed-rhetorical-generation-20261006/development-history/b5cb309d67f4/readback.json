@@ -1,0 +1,1862 @@
+{
+  "passed": true,
+  "files": 2,
+  "suites": [
+    {
+      "file": "development-comparison.json.gz",
+      "auditVersion": 2,
+      "before": {
+        "cases": 203,
+        "requests": 406,
+        "errors": 0,
+        "candidates": 1096,
+        "displayed": 908,
+        "noDisplay": 6,
+        "fewerThanThree": 206,
+        "rejected": 0,
+        "nonPassingDisplayed": 0,
+        "nonNullSQ": 0,
+        "invalidBoundedProof": 0,
+        "structuralPool": 0,
+        "structuralDisplayed": 0,
+        "structuralTop": 0,
+        "bodyPool": 0,
+        "bodyDisplayed": 0,
+        "bodyTop": 0,
+        "bodyRequests": 0,
+        "bodyDisplayRequests": 0,
+        "movementPool": 0,
+        "movementDisplayed": 0,
+        "groupingPool": 0,
+        "groupingDisplayed": 0,
+        "slotCoverageFailures": 0,
+        "relationProvenanceFailures": 0,
+        "classifications": {
+          "lexical-only": {
+            "pool": 342,
+            "displayed": 283,
+            "top": 85
+          },
+          "preservation-layout-only": {
+            "pool": 270,
+            "displayed": 270,
+            "top": 130
+          },
+          "ending-only": {
+            "pool": 250,
+            "displayed": 244,
+            "top": 80
+          },
+          "fixed-phrase-construction": {
+            "pool": 234,
+            "displayed": 111,
+            "top": 105
+          }
+        },
+        "family": {
+          "日常の手順": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "業務連絡と数値": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "根拠を伴う比較": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "反論と根拠": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "謙遜を伴う達成": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "感謝と対人関係": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "依頼と提案": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "情景描写": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "弱い不満": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "感情の対象": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "条件・否定・推量": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "引用を含む会話": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "疑問": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "譲歩と評価": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "出来事の展開": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "喜びと今後の行動": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "陽性対照・怒り構文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "陽性対照・悲しみ構文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "陽性対照・時間切れ構文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加確認・挨拶": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加確認・疑問": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加確認・引用だけ": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "理由終止・名詞": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "理由終止・動詞": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "比較と根拠・別内容": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "反対と複数理由・別内容": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "謙遜と達成・別内容": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "譲歩と評価・別内容": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "因果のない隣接文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "引用内部の理由": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "未確定の理由": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "未達の謙遜": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "他者の謙遜": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "逆接と否定評価": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加陽性確認・明示的逆接": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexeme / plain": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexeme / polite": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexeme / past plain": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexeme / past polite": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "standalone permitted lexical edit": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "same reason without lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / た": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / だ": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / repaired た": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / open た": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / absent past": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / negation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / attributed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / negative other clause": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "contrast / lexical composition": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "contrast / compound connective": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "temporal から / plain": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason / nonassertive": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason / quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "multiple constructions and lexical": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new reason topic with lexical edit": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "past copular reason in narrative": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new compound modest achievement": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new limited achievement lexeme": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new contrast with lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "mixed relation paragraph": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "lexical trigger inside quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason has temporal origin": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "unrealized modest deed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quoted achievement and narrator contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary fresh narrative": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary fresh request": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new lexical trigger inside reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new reason topic with polite copula": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new voiced-past limited deed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new completed deed and object": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new negative premise": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "fresh attributed contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "fresh protected value and contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason expression confined to quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary new thanks": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary new conditional uncertainty": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary new narrative": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "temporal source with first person": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: explicit reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: four polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: narrator and lexeme": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: composed reason and tails": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Negative and progressive controls": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Copula and adjective controls including unsupported past polite adjective": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Quoted and unsupported tails beside permitted tails": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Construction replacement overlapping tail sites": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Longest lexical replacement overlapping tail": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Registered irregular past verbs": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Protected and uncertain tails preserve control": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Plain clauses and polite tail sites with insistence budget": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexical plain": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexical polite": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexical with values": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexical contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason two distinct lexical triggers": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason ending without lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason repeated lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "two explicit reason relations": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "everyday sequence": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "office request with date value": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary comparative reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quiet scene": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "thanks and observed action": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "negated decision and contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "question and intention": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary dissatisfaction without extreme emotion": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quoted reason and lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "uncertain reason ending": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "temporal origin not reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "negative explicit reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "conditional lexical reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "question then whitespace and reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "unrealized modest desire": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "named subject and protected quantity": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "four ordinary past-polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "four nonpast polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "five-predicate ordinary instructions and observations": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "uniform polite lexical and reason combination": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "alternating original plain and polite": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "plain statements surrounding polite request": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quoted polite material remains attributed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reported uncertain nonasserted commitment": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "uniform polite negation and past-negation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quantities date person and quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "conditional and uncertain polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "polite contrast lexical and reason plus question": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason_assertion": {
+            "requests": 24,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "modesty_limited_achievement": {
+            "requests": 24,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "adversative_evidence_request": {
+            "requests": 24,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_condition": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_quote": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_quantity": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_reversed_roles": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_duplicate_premise": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_negation_scope": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_request_scope": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason-backed-assertion": {
+            "requests": 12,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "modesty-with-accomplishment": {
+            "requests": 12,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "source-explicit-evidence-request": {
+            "requests": 12,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "scope-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quotation-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "role-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quantity-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "duplicate-premise-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          }
+        }
+      },
+      "after": {
+        "cases": 203,
+        "requests": 406,
+        "errors": 0,
+        "candidates": 1503,
+        "displayed": 977,
+        "noDisplay": 6,
+        "fewerThanThree": 185,
+        "rejected": 0,
+        "nonPassingDisplayed": 0,
+        "nonNullSQ": 0,
+        "invalidBoundedProof": 0,
+        "structuralPool": 407,
+        "structuralDisplayed": 184,
+        "structuralTop": 178,
+        "bodyPool": 384,
+        "bodyDisplayed": 173,
+        "bodyTop": 170,
+        "bodyRequests": 178,
+        "bodyDisplayRequests": 173,
+        "movementPool": 316,
+        "movementDisplayed": 129,
+        "groupingPool": 334,
+        "groupingDisplayed": 140,
+        "slotCoverageFailures": 0,
+        "relationProvenanceFailures": 0,
+        "classifications": {
+          "lexical-only": {
+            "pool": 342,
+            "displayed": 247,
+            "top": 81
+          },
+          "preservation-layout-only": {
+            "pool": 270,
+            "displayed": 240,
+            "top": 66
+          },
+          "ending-only": {
+            "pool": 250,
+            "displayed": 199,
+            "top": 58
+          },
+          "body-composition": {
+            "pool": 384,
+            "displayed": 173,
+            "top": 170
+          },
+          "fixed-phrase-construction": {
+            "pool": 234,
+            "displayed": 107,
+            "top": 17
+          },
+          "structural-fixed-form-only": {
+            "pool": 23,
+            "displayed": 11,
+            "top": 8
+          }
+        },
+        "family": {
+          "日常の手順": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "業務連絡と数値": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "根拠を伴う比較": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "反論と根拠": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "謙遜を伴う達成": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "感謝と対人関係": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "依頼と提案": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "情景描写": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "弱い不満": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "感情の対象": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "条件・否定・推量": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "引用を含む会話": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "疑問": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "譲歩と評価": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "出来事の展開": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "喜びと今後の行動": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "陽性対照・怒り構文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "陽性対照・悲しみ構文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "陽性対照・時間切れ構文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加確認・挨拶": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加確認・疑問": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加確認・引用だけ": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "理由終止・名詞": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "理由終止・動詞": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "比較と根拠・別内容": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "反対と複数理由・別内容": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "謙遜と達成・別内容": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "譲歩と評価・別内容": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "因果のない隣接文": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "引用内部の理由": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "未確定の理由": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "未達の謙遜": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "他者の謙遜": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "逆接と否定評価": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "追加陽性確認・明示的逆接": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexeme / plain": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason lexeme / polite": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason lexeme / past plain": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexeme / past polite": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "standalone permitted lexical edit": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "same reason without lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "limited deed / た": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "limited deed / だ": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "limited deed / repaired た": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "limited deed / open た": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "limited deed / absent past": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / negation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / attributed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "limited deed / negative other clause": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "contrast / lexical composition": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "contrast / compound connective": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "temporal から / plain": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason / nonassertive": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason / quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "multiple constructions and lexical": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new reason topic with lexical edit": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "past copular reason in narrative": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new compound modest achievement": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new limited achievement lexeme": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new contrast with lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "mixed relation paragraph": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "lexical trigger inside quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason has temporal origin": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "unrealized modest deed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quoted achievement and narrator contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary fresh narrative": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary fresh request": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "new lexical trigger inside reason": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new reason topic with polite copula": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new voiced-past limited deed": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new completed deed and object": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "new negative premise": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "fresh attributed contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "fresh protected value and contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason expression confined to quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary new thanks": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary new conditional uncertainty": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary new narrative": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "temporal source with first person": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: explicit reason": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "Original diagnostic: four polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: narrator and lexeme": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Original diagnostic: composed reason and tails": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "Negative and progressive controls": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Copula and adjective controls including unsupported past polite adjective": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Quoted and unsupported tails beside permitted tails": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Construction replacement overlapping tail sites": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Longest lexical replacement overlapping tail": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Registered irregular past verbs": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Protected and uncertain tails preserve control": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "Plain clauses and polite tail sites with insistence budget": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason lexical plain": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason lexical polite": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason lexical with values": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason lexical contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason two distinct lexical triggers": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason ending without lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason repeated lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "two explicit reason relations": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "everyday sequence": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "office request with date value": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary comparative reason": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "quiet scene": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "thanks and observed action": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "negated decision and contrast": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "question and intention": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "ordinary dissatisfaction without extreme emotion": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "quoted reason and lexical trigger": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "uncertain reason ending": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "temporal origin not reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "negative explicit reason": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "conditional lexical reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "question then whitespace and reason": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "unrealized modest desire": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "named subject and protected quantity": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "four ordinary past-polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "four nonpast polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "five-predicate ordinary instructions and observations": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "uniform polite lexical and reason combination": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "alternating original plain and polite": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "plain statements surrounding polite request": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quoted polite material remains attributed": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reported uncertain nonasserted commitment": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "uniform polite negation and past-negation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quantities date person and quotation": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "conditional and uncertain polite clauses": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "polite contrast lexical and reason plus question": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "reason_assertion": {
+            "requests": 24,
+            "bodyRequests": 22,
+            "bodyDisplayRequests": 20,
+            "structuralRequests": 22
+          },
+          "modesty_limited_achievement": {
+            "requests": 24,
+            "bodyRequests": 24,
+            "bodyDisplayRequests": 24,
+            "structuralRequests": 24
+          },
+          "adversative_evidence_request": {
+            "requests": 24,
+            "bodyRequests": 10,
+            "bodyDisplayRequests": 7,
+            "structuralRequests": 10
+          },
+          "hostile_condition": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_quote": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "hostile_quantity": {
+            "requests": 4,
+            "bodyRequests": 4,
+            "bodyDisplayRequests": 4,
+            "structuralRequests": 4
+          },
+          "hostile_reversed_roles": {
+            "requests": 4,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "hostile_duplicate_premise": {
+            "requests": 4,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "hostile_negation_scope": {
+            "requests": 2,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "hostile_request_scope": {
+            "requests": 2,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "reason-backed-assertion": {
+            "requests": 12,
+            "bodyRequests": 12,
+            "bodyDisplayRequests": 12,
+            "structuralRequests": 12
+          },
+          "modesty-with-accomplishment": {
+            "requests": 12,
+            "bodyRequests": 12,
+            "bodyDisplayRequests": 12,
+            "structuralRequests": 12
+          },
+          "source-explicit-evidence-request": {
+            "requests": 12,
+            "bodyRequests": 6,
+            "bodyDisplayRequests": 6,
+            "structuralRequests": 6
+          },
+          "scope-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quotation-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "role-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          },
+          "quantity-control": {
+            "requests": 4,
+            "bodyRequests": 2,
+            "bodyDisplayRequests": 2,
+            "structuralRequests": 2
+          },
+          "duplicate-premise-control": {
+            "requests": 4,
+            "bodyRequests": 0,
+            "bodyDisplayRequests": 0,
+            "structuralRequests": 0
+          }
+        }
+      }
+    }
+  ]
+}

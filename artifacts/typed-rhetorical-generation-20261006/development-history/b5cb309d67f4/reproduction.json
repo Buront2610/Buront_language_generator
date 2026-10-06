@@ -1,0 +1,12 @@
+{
+  "verifiedAtUtc": "2026-10-06T05:50:18.764424+00:00",
+  "baselineRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "sourceHash": "b5cb309d67f4a932239c108e006da2cb7384e1de86eb052889d3bafcf088cb6a",
+  "corePatchApplyCheck": true,
+  "validationPatchApplyCheck": true,
+  "engineBuildPassed": true,
+  "allSourceAndCompiledModulesMatchRecordedSnapshot": true,
+  "engineModuleFileCount": 153,
+  "allValidationFilesMatchSnapshot": true,
+  "fullHistoricalTestsRerunByThisPackagingCheck": false
+}

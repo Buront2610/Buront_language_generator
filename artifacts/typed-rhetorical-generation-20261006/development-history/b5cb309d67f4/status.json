@@ -1,0 +1,53 @@
+{
+  "sourceHash": "b5cb309d67f4a932239c108e006da2cb7384e1de86eb052889d3bafcf088cb6a",
+  "classification": "interim exposed-development record; known safety blocker; not final/accepted",
+  "recordedAtUtc": "2026-10-06T04:43:59.111503+00:00",
+  "captureCompleted": true,
+  "all203Known": true,
+  "captureAndSnapshotRemainUnmodified": true,
+  "knownBlocker": {
+    "reportedBy": "integration worker",
+    "source": "田中が確認したと佐藤が言った",
+    "failure": "Embedded confirmation attributed to narrator instead of hearsay in aggregate test",
+    "causeReported": "Generic と particle disambiguation",
+    "repairPending": true
+  },
+  "interpretation": "Zero finite failures in the 203-case capture does not override the separate aggregate attribution failure. A corrected build requires a separate capture and record.",
+  "additionalKnownBlocker": {
+    "reportedBy": "independent source-style reviewer",
+    "classification": "Evidence-request action/acquisition-desire loss in first displayed outputs; repair pending",
+    "cases": [
+      {
+        "id": "X13",
+        "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+        "firstDisplayed": "便利なのは分かった。しかし安全だっていうどういう証拠があるのかよ？"
+      },
+      {
+        "id": "X16",
+        "source": "説明は聞いた。しかしこの方法が確実だという証拠が欲しい。",
+        "firstDisplayed": "説明は聞いた。しかしこの方法が確実だっていうどういう証拠があるのかよ？"
+      },
+      {
+        "id": "X18",
+        "source": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+        "firstDisplayed": "値段には納得しています。ただ、どういう測定結果があるのかよ、消費電力が減るって。"
+      },
+      {
+        "id": "U15",
+        "source": "評判が良いことは聞いていますが、この浄水器が水質を改善するという試験結果を教えてください。",
+        "firstDisplayed": "評判が良いことは聞いていますが、どういう試験結果があるのかよ、この浄水器が水質を改善するって。"
+      },
+      {
+        "id": "U16",
+        "source": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データを見せてもらえますか。",
+        "firstDisplayed": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データっていうのはどういう検証データなんだ？"
+      },
+      {
+        "id": "U18",
+        "source": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けを出してください。",
+        "firstDisplayed": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けっていうのはどういう裏付けなんだ？"
+      }
+    ],
+    "interpretation": "Domain-matched structural coverage does not prove preservation of the source request action."
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "schemaVersion": "buront.structural-second-sealed.v1",
+  "authoredAt": "2026-10-06T03:33:20Z",
+  "authorshipCondition": "Authored and sealed before reading implementation, prior fixtures, prior test cases, or production outputs.",
+  "evaluationIntent": "A new independently authored synthetic Japanese holdout for non-LLM structural generation. Paired ordinary-language paraphrases test three structural domains. Hostile controls permit abstention while requiring content preservation. No human scores are supplied.",
+  "caseCount": 28,
+  "pairCount": 14,
+  "counts": {
+    "structural": 18,
+    "hostileControls": 10
+  },
+  "cases": [
+    {
+      "id": "SG2-R01A",
+      "domain": "reason-backed-assertion",
+      "pairId": "SG2-R01",
+      "kind": "structural",
+      "input": "冷蔵庫に十分な食材があるので、明日の夕食は買い足さずに用意できます。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "食材が十分にあることが理由",
+          "明日の夕食という未来時点",
+          "追加購入なしで用意できるという可能判断"
+        ],
+        "structuralOpportunity": "Connect the stated premise to the bounded future ability claim; do not turn ability into a completed action.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-R01B",
+      "domain": "reason-backed-assertion",
+      "pairId": "SG2-R01",
+      "kind": "structural",
+      "input": "明日の晩ごはんなら、新たに買い物をしなくても作れます。冷蔵庫の食材が足りているからです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "食材が十分にあることが理由",
+          "明日の夕食という未来時点",
+          "追加購入なしで用意できるという可能判断"
+        ],
+        "structuralOpportunity": "Express the same reason-to-conclusion relation despite conclusion-first order.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-R02A",
+      "domain": "reason-backed-assertion",
+      "pairId": "SG2-R02",
+      "kind": "structural",
+      "input": "手首を痛めているため、今週は重い箱を運べません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "手首を痛めていることが理由",
+          "今週に限定された不能",
+          "重い箱の運搬が対象"
+        ],
+        "structuralOpportunity": "Connect the physical limitation to the bounded negative ability assertion without claiming refusal or permanent inability.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-R02B",
+      "domain": "reason-backed-assertion",
+      "pairId": "SG2-R02",
+      "kind": "structural",
+      "input": "今週、重量のある箱を持ち運ぶのは無理です。手首が痛んでいるからです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "手首を痛めていることが理由",
+          "今週に限定された不能",
+          "重い箱の運搬が対象"
+        ],
+        "structuralOpportunity": "Retain negative ability and time scope while restructuring the explicit reason.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-R03A",
+      "domain": "reason-backed-assertion",
+      "pairId": "SG2-R03",
+      "kind": "structural",
+      "input": "会議室の予約が二重になっているので、今日の打ち合わせは別の部屋が必要です。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "会議室予約の重複が理由",
+          "今日の打ち合わせが対象",
+          "別室が必要という結論"
+        ],
+        "structuralOpportunity": "Make the stated cause support the necessity claim; do not invent a chosen room or a completed reservation.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-R03B",
+      "domain": "reason-backed-assertion",
+      "pairId": "SG2-R03",
+      "kind": "structural",
+      "input": "今日の打ち合わせには、ほかの部屋を用意する必要があります。会議室の予約が重なっているためです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "会議室予約の重複が理由",
+          "今日の打ち合わせが対象",
+          "別室が必要という結論"
+        ],
+        "structuralOpportunity": "Keep the same premise and necessity despite reversed discourse order.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-M01A",
+      "domain": "modesty-with-accomplishment",
+      "pairId": "SG2-M01",
+      "kind": "structural",
+      "input": "整理整頓は得意ではありませんが、共有棚のファイルには全部ラベルを付け終えました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "整理整頓が得意ではないという控えめな自己評価",
+          "共有棚の全ファイルへのラベル付け",
+          "ラベル付けは完了済み"
+        ],
+        "structuralOpportunity": "Reframe modesty against the actual completed accomplishment without inventing broader skill or praise.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-M01B",
+      "domain": "modesty-with-accomplishment",
+      "pairId": "SG2-M01",
+      "kind": "structural",
+      "input": "片付けが上手なほうではないものの、共有の棚にあるファイルのラベル付けはすべて済ませています。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "整理整頓が得意ではないという控えめな自己評価",
+          "共有棚の全ファイルへのラベル付け",
+          "ラベル付けは完了済み"
+        ],
+        "structuralOpportunity": "Preserve the modesty/accomplishment contrast across different wording.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-M02A",
+      "domain": "modesty-with-accomplishment",
+      "pairId": "SG2-M02",
+      "kind": "structural",
+      "input": "料理に自信があるわけではないですが、今朝は家族三人分の弁当を作りました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "料理への自信が強くないという自己評価",
+          "今朝という時点",
+          "家族三人分の弁当を作った実績"
+        ],
+        "structuralOpportunity": "Highlight the real accomplishment while preserving modesty, quantity, and time.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-M02B",
+      "domain": "modesty-with-accomplishment",
+      "pairId": "SG2-M02",
+      "kind": "structural",
+      "input": "腕前を誇れるほどではありません。それでも今朝、家族の弁当を三人分用意しました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "料理への自信が強くないという自己評価",
+          "今朝という時点",
+          "家族三人分の弁当を作った実績"
+        ],
+        "structuralOpportunity": "Join the modest self-assessment to the completed accomplishment without claiming professional ability.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-M03A",
+      "domain": "modesty-with-accomplishment",
+      "pairId": "SG2-M03",
+      "kind": "structural",
+      "input": "人前で話すのは苦手ですが、昨日の説明会では参加者からの質問に最後まで答えました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "人前で話すことが苦手という自己評価",
+          "昨日の説明会という場と時点",
+          "参加者の質問に最後まで答えた実績"
+        ],
+        "structuralOpportunity": "Use the accomplishment to contrast the stated limitation, without adding correctness or audience approval.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-M03B",
+      "domain": "modesty-with-accomplishment",
+      "pairId": "SG2-M03",
+      "kind": "structural",
+      "input": "大勢を前にすると話し慣れていないのが出ますが、昨日の案内会では参加者の問いに終わりまで応じました。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "人前で話すことが苦手という自己評価",
+          "昨日の説明会という場と時点",
+          "参加者の質問に最後まで答えた実績"
+        ],
+        "structuralOpportunity": "Retain modesty and completed response behavior despite paraphrased event and question wording.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-E01A",
+      "domain": "source-explicit-evidence-request",
+      "pairId": "SG2-E01",
+      "kind": "structural",
+      "input": "受付の応援を頼む案には賛成です。ただ、午前中に来訪者が増えたという根拠になった来訪記録を見せてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "受付応援案に賛成している",
+          "午前中の来訪者増加という検証対象",
+          "根拠となった来訪記録を提示してほしいという依頼"
+        ],
+        "structuralOpportunity": "Pair acceptance with the evidence request and preserve the named record source; do not assert the increase is proven.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-E01B",
+      "domain": "source-explicit-evidence-request",
+      "pairId": "SG2-E01",
+      "kind": "structural",
+      "input": "受付を手伝う人を増やすことには同意します。朝の時間帯の訪問が増えたと判断した元の来訪記録を確認させてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "受付応援案に賛成している",
+          "午前中の来訪者増加という検証対象",
+          "根拠となった来訪記録を提示してほしいという依頼"
+        ],
+        "structuralOpportunity": "Keep approval attached to the staffing proposal and evidence demand attached to the visit-increase claim.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-E02A",
+      "domain": "source-explicit-evidence-request",
+      "pairId": "SG2-E02",
+      "kind": "structural",
+      "input": "清掃の回数を減らすことには反対です。汚れが少なくなったという説明の裏付けとして、先月の点検表を出してください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "清掃頻度を減らすことに反対している",
+          "汚れの減少という検証対象",
+          "先月の点検表を根拠として求める依頼"
+        ],
+        "structuralOpportunity": "Pair opposition with a demand for the specified source, without substituting proof of cleanliness or supporting the reduction.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-E02B",
+      "domain": "source-explicit-evidence-request",
+      "pairId": "SG2-E02",
+      "kind": "structural",
+      "input": "掃除をする頻度は下げたくありません。汚れが減ったという話を確かめたいので、前の月の点検記録を提示してください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "清掃頻度を減らすことに反対している",
+          "汚れの減少という検証対象",
+          "先月の点検表を根拠として求める依頼"
+        ],
+        "structuralOpportunity": "Retain the negative stance, the claim being checked, and the previous-month inspection source.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-E03A",
+      "domain": "source-explicit-evidence-request",
+      "pairId": "SG2-E03",
+      "kind": "structural",
+      "input": "工具の交換を進めることには異論ありません。その前に、故障が増えていると分かるメーカーの点検報告書を読ませてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "工具交換を進めることに異論がない",
+          "交換を進める前に確認したい",
+          "故障増加を裏付けるメーカー点検報告書という明示された出典"
+        ],
+        "structuralOpportunity": "Preserve qualified acceptance and the prior evidence review request; do not convert it to unconditional authorization or a proven failure trend.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-E03B",
+      "domain": "source-explicit-evidence-request",
+      "pairId": "SG2-E03",
+      "kind": "structural",
+      "input": "道具を取り替える方針は受け入れます。ただ、着手するより先に、故障件数が増えた根拠となる製造元の検査報告を確認させてください。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "工具交換を進めることに異論がない",
+          "交換を進める前に確認したい",
+          "故障増加を裏付けるメーカー点検報告書という明示された出典"
+        ],
+        "structuralOpportunity": "Retain the temporal qualification and the manufacturer as the evidence source.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": false,
+        "risks": []
+      }
+    },
+    {
+      "id": "SG2-C01A",
+      "domain": "scope-control",
+      "pairId": "SG2-C01",
+      "kind": "hostile-control",
+      "input": "棚を固定したからといって、倉庫全体が安全になったとは言えません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "棚は固定した",
+          "棚の固定だけでは倉庫全体の安全を断言できない",
+          "倉庫全体が危険だとは断言していない"
+        ],
+        "structuralOpportunity": "Abstain or preserve the denial of causal sufficiency; never emit the embedded positive safety assertion.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "negated-inference",
+          "scope"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C01B",
+      "domain": "scope-control",
+      "pairId": "SG2-C01",
+      "kind": "hostile-control",
+      "input": "棚の取り付けを直したことだけを理由に、倉庫のすべてが安全だと結論付けるわけにはいきません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "棚は固定した",
+          "棚の固定だけでは倉庫全体の安全を断言できない",
+          "倉庫全体が危険だとは断言していない"
+        ],
+        "structuralOpportunity": "Preserve limited causal support and negation scope.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "negated-inference",
+          "scope"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C02A",
+      "domain": "quotation-control",
+      "pairId": "SG2-C02",
+      "kind": "hostile-control",
+      "input": "議事録の「手が空いているので、明日は配送を担当できます」は加藤さんの発言です。私が引き受けたという意味ではありません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "引用は加藤さんの発言",
+          "引用内容は「手が空いているので、明日は配送を担当できます」",
+          "語り手自身の引き受けではない"
+        ],
+        "structuralOpportunity": "Preserve attribution and the literal quotation; do not recast the quoted ability as the narrator’s promise.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "quotation",
+          "speaker-attribution",
+          "future-ability"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C02B",
+      "domain": "quotation-control",
+      "pairId": "SG2-C02",
+      "kind": "hostile-control",
+      "input": "「手が空いているので、明日は配送を担当できます」と議事録にあるのは、加藤さんが言ったことです。私の申し出ではありません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "引用は加藤さんの発言",
+          "引用内容は「手が空いているので、明日は配送を担当できます」",
+          "語り手自身の引き受けではない"
+        ],
+        "structuralOpportunity": "Keep quotation text and speaker roles even when the quoted sentence appears first.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "quotation",
+          "speaker-attribution",
+          "future-ability"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C03A",
+      "domain": "role-control",
+      "pairId": "SG2-C03",
+      "kind": "hostile-control",
+      "input": "私は配置変更に賛成ですが、佐伯さんは反対しています。作業日誌を見せてほしいと頼んでいるのは佐伯さんで、私ではありません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "語り手は配置変更に賛成",
+          "佐伯さんは配置変更に反対",
+          "作業日誌の提示を依頼しているのは佐伯さん",
+          "語り手はその提示依頼をしていない"
+        ],
+        "structuralOpportunity": "Preserve separate subjects for acceptance, opposition, and evidence demand.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "role",
+          "stance-attribution",
+          "request-attribution"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C03B",
+      "domain": "role-control",
+      "pairId": "SG2-C03",
+      "kind": "hostile-control",
+      "input": "配置を変える案は私は支持し、佐伯さんは支持していません。作業の記録を確認させてほしいと言っているのも、私ではなく佐伯さんです。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "語り手は配置変更に賛成",
+          "佐伯さんは配置変更に反対",
+          "作業日誌の提示を依頼しているのは佐伯さん",
+          "語り手はその提示依頼をしていない"
+        ],
+        "structuralOpportunity": "Keep the source request and negative stance assigned to the other person.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "role",
+          "stance-attribution",
+          "request-attribution"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C04A",
+      "domain": "quantity-control",
+      "pairId": "SG2-C04",
+      "kind": "hostile-control",
+      "input": "計算は得意ではありませんが、五枚の精算書のうち三枚だけは確認を終えました。残り二枚はまだ見ていません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "計算が得意ではない",
+          "精算書は全部で五枚",
+          "確認を終えたのは三枚だけ",
+          "二枚は未確認"
+        ],
+        "structuralOpportunity": "Retain the modesty/completion contrast without upgrading partial completion into total completion.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "quantity",
+          "partial-completion",
+          "only"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C04B",
+      "domain": "quantity-control",
+      "pairId": "SG2-C04",
+      "kind": "hostile-control",
+      "input": "数字の扱いには自信がありません。それでも精算書は全五枚中の三枚を確認済みで、ほかの二枚にはまだ目を通していません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "計算が得意ではない",
+          "精算書は全部で五枚",
+          "確認を終えたのは三枚だけ",
+          "二枚は未確認"
+        ],
+        "structuralOpportunity": "Maintain all three quantities and their completed versus unfinished scopes.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "quantity",
+          "partial-completion",
+          "only"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C05A",
+      "domain": "duplicate-premise-control",
+      "pairId": "SG2-C05",
+      "kind": "hostile-control",
+      "input": "提出記録には「鍵が返却されたので閉館できる」とあります。別の欄にも「鍵が返却された」とありますが、二度の返却を意味しているわけではありません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "記録上の閉館可能の理由は鍵の返却",
+          "同じ鍵の返却が二つの欄に重複記載されている",
+          "二度返却されたという意味ではない",
+          "実際に閉館したとは述べていない"
+        ],
+        "structuralOpportunity": "Treat repeated premise wording as one event; preserve quote scope and possibility rather than completed closure.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "duplicate-premise",
+          "quotation",
+          "event-count",
+          "ability"
+        ]
+      }
+    },
+    {
+      "id": "SG2-C05B",
+      "domain": "duplicate-premise-control",
+      "pairId": "SG2-C05",
+      "kind": "hostile-control",
+      "input": "「鍵が返却されたので閉館できる」という提出記録と、別欄の「鍵が返却された」は、同じ返却についての記載です。二回返されたという話ではありません。",
+      "humanS": null,
+      "humanQ": null,
+      "expected": {
+        "preserve": [
+          "記録上の閉館可能の理由は鍵の返却",
+          "同じ鍵の返却が二つの欄に重複記載されている",
+          "二度返却されたという意味ではない",
+          "実際に閉館したとは述べていない"
+        ],
+        "structuralOpportunity": "Preserve the same-event duplicate and explicit rejection of a two-event reading.",
+        "unsupportedAdditionsForbidden": true,
+        "abstentionAllowed": true,
+        "risks": [
+          "duplicate-premise",
+          "quotation",
+          "event-count",
+          "ability"
+        ]
+      }
+    }
+  ]
+}

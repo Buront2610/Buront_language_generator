@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "assistant qualitative source review, not human S/Q",
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "status": "Existing20/203 and existing mixed-example qualitative recheck complete; no prospective set read or aggregate acceptance claim",
+  "files": {
+    "capture-metadata.json": {
+      "bytes": 2064,
+      "sha256": "d7127a79ce932b5b2c540fa2c0588cd6e703c9af2d989d1bd0ca3bbd85196624"
+    },
+    "mixed-example.json": {
+      "bytes": 9284,
+      "sha256": "75b272e8d94023e550d25150d47d66ebeb02840cd7bf6b4cac90bd3c11dda685"
+    },
+    "probe-excerpts.json": {
+      "bytes": 59473,
+      "sha256": "fb65157b15ff6f6b684113bbabfe1b583d30cc31b2741e202b7fd0d900c379f8"
+    },
+    "qualitative-source-review.md": {
+      "bytes": 18297,
+      "sha256": "063cabe5e103e4a37ccd4bcf4c4e01c1f83030cb90bf280519cb4caeb0fa4f48"
+    },
+    "source-witnesses.json": {
+      "bytes": 13934,
+      "sha256": "5d029433a3b7fa3a01a00c6597c0a6ebb3545bae7fee2ebecbbcc9f05853acfe"
+    }
+  }
+}

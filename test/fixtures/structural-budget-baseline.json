@@ -1,0 +1,331 @@
+{
+  "source": "私は電車を選んだ。私は速さを重視するからです。",
+  "analysis": {
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+    "tokens": [
+      {
+        "id": 0,
+        "text": "私",
+        "lemma": "私",
+        "reading": "ワタクシ",
+        "pos": "PRON",
+        "tag": "代名詞",
+        "dep": "nsubj",
+        "head": 4,
+        "span": {
+          "start": 0,
+          "end": 1
+        },
+        "morphology": [
+          "Reading=ワタクシ"
+        ]
+      },
+      {
+        "id": 1,
+        "text": "は",
+        "lemma": "は",
+        "reading": "ハ",
+        "pos": "ADP",
+        "tag": "助詞-係助詞",
+        "dep": "case",
+        "head": 0,
+        "span": {
+          "start": 1,
+          "end": 2
+        },
+        "morphology": [
+          "Reading=ハ"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "電車",
+        "lemma": "電車",
+        "reading": "デンシャ",
+        "pos": "NOUN",
+        "tag": "名詞-普通名詞-一般",
+        "dep": "obj",
+        "head": 4,
+        "span": {
+          "start": 2,
+          "end": 4
+        },
+        "morphology": [
+          "Reading=デンシャ"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "を",
+        "lemma": "を",
+        "reading": "ヲ",
+        "pos": "ADP",
+        "tag": "助詞-格助詞",
+        "dep": "case",
+        "head": 2,
+        "span": {
+          "start": 4,
+          "end": 5
+        },
+        "morphology": [
+          "Reading=ヲ"
+        ]
+      },
+      {
+        "id": 4,
+        "text": "選ん",
+        "lemma": "選ぶ",
+        "reading": "エラン",
+        "pos": "VERB",
+        "tag": "動詞-一般",
+        "dep": "ROOT",
+        "head": 4,
+        "span": {
+          "start": 5,
+          "end": 7
+        },
+        "morphology": [
+          "Inflection=五段-バ行;連用形-撥音便",
+          "Reading=エラン"
+        ]
+      },
+      {
+        "id": 5,
+        "text": "だ",
+        "lemma": "だ",
+        "reading": "ダ",
+        "pos": "AUX",
+        "tag": "助動詞",
+        "dep": "aux",
+        "head": 4,
+        "span": {
+          "start": 7,
+          "end": 8
+        },
+        "morphology": [
+          "Inflection=助動詞-タ;終止形-一般",
+          "Reading=ダ"
+        ]
+      },
+      {
+        "id": 6,
+        "text": "。",
+        "lemma": "。",
+        "reading": "。",
+        "pos": "PUNCT",
+        "tag": "補助記号-句点",
+        "dep": "punct",
+        "head": 4,
+        "span": {
+          "start": 8,
+          "end": 9
+        },
+        "morphology": [
+          "Reading=。"
+        ]
+      },
+      {
+        "id": 7,
+        "text": "私",
+        "lemma": "私",
+        "reading": "ワタクシ",
+        "pos": "PRON",
+        "tag": "代名詞",
+        "dep": "nsubj",
+        "head": 11,
+        "span": {
+          "start": 9,
+          "end": 10
+        },
+        "morphology": [
+          "Reading=ワタクシ"
+        ]
+      },
+      {
+        "id": 8,
+        "text": "は",
+        "lemma": "は",
+        "reading": "ハ",
+        "pos": "ADP",
+        "tag": "助詞-係助詞",
+        "dep": "case",
+        "head": 7,
+        "span": {
+          "start": 10,
+          "end": 11
+        },
+        "morphology": [
+          "Reading=ハ"
+        ]
+      },
+      {
+        "id": 9,
+        "text": "速さ",
+        "lemma": "速さ",
+        "reading": "ハヤサ",
+        "pos": "NOUN",
+        "tag": "名詞-普通名詞-一般",
+        "dep": "obj",
+        "head": 11,
+        "span": {
+          "start": 11,
+          "end": 13
+        },
+        "morphology": [
+          "Reading=ハヤサ"
+        ]
+      },
+      {
+        "id": 10,
+        "text": "を",
+        "lemma": "を",
+        "reading": "ヲ",
+        "pos": "ADP",
+        "tag": "助詞-格助詞",
+        "dep": "case",
+        "head": 9,
+        "span": {
+          "start": 13,
+          "end": 14
+        },
+        "morphology": [
+          "Reading=ヲ"
+        ]
+      },
+      {
+        "id": 11,
+        "text": "重視",
+        "lemma": "重視",
+        "reading": "ジュウシ",
+        "pos": "VERB",
+        "tag": "名詞-普通名詞-サ変可能",
+        "dep": "ROOT",
+        "head": 11,
+        "span": {
+          "start": 14,
+          "end": 16
+        },
+        "morphology": [
+          "Reading=ジュウシ"
+        ]
+      },
+      {
+        "id": 12,
+        "text": "する",
+        "lemma": "する",
+        "reading": "スル",
+        "pos": "AUX",
+        "tag": "動詞-非自立可能",
+        "dep": "aux",
+        "head": 11,
+        "span": {
+          "start": 16,
+          "end": 18
+        },
+        "morphology": [
+          "Inflection=サ行変格;終止形-一般",
+          "Reading=スル"
+        ]
+      },
+      {
+        "id": 13,
+        "text": "から",
+        "lemma": "から",
+        "reading": "カラ",
+        "pos": "SCONJ",
+        "tag": "助詞-接続助詞",
+        "dep": "mark",
+        "head": 11,
+        "span": {
+          "start": 18,
+          "end": 20
+        },
+        "morphology": [
+          "Reading=カラ"
+        ]
+      },
+      {
+        "id": 14,
+        "text": "です",
+        "lemma": "です",
+        "reading": "デス",
+        "pos": "AUX",
+        "tag": "助動詞",
+        "dep": "aux",
+        "head": 11,
+        "span": {
+          "start": 20,
+          "end": 22
+        },
+        "morphology": [
+          "Inflection=助動詞-デス;終止形-一般",
+          "Reading=デス"
+        ]
+      },
+      {
+        "id": 15,
+        "text": "。",
+        "lemma": "。",
+        "reading": "。",
+        "pos": "PUNCT",
+        "tag": "補助記号-句点",
+        "dep": "punct",
+        "head": 11,
+        "span": {
+          "start": 22,
+          "end": 23
+        },
+        "morphology": [
+          "Reading=。"
+        ]
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 9
+      },
+      {
+        "start": 9,
+        "end": 23
+      }
+    ],
+    "warnings": []
+  },
+  "sourceEngineHash": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+  "claim": "Pre-budget B3 planner outputs on captured small parse and synthetic tiling. Equivalence regression only; not a real long-input parse or latency claim.",
+  "rows": [
+    {
+      "repeats": 3,
+      "scalars": 69,
+      "planHashes": [
+        "6061677cdcc1a8f2dd832cb50345dc0c04ed1449e2dc3d01132ce65b3f2fed3a",
+        "9c4e1c10a682b90ed2d7ca926abb69ee8f8a28109f10b4735af6ba97372c4e8e",
+        "9d9f0182837045e099b41578d2a46899c14ba28f63b4d6c0d60a9112b78517ac",
+        "e0e212bb2c5c60728059dcdc8a78ae8177ed2d24a22a50037e880eae18a1506a"
+      ],
+      "textHashes": [
+        "9053a35beb603fb615a99882335e9acb73c1f84d9fb59504706cb4d060c46173",
+        "ffba7f2851b656e54ca7c33d0e9e5e97923b64ef9b145b5ebbfe8cc3e690b20a",
+        "db972e5fba3894b923cbab7b3e8f4980beb3026530da1c12c855a28815cab26b",
+        "37aff3f230e6af5770ce13378195261cc32b23c38ee6a7c8267a4b0d225d639b"
+      ]
+    },
+    {
+      "repeats": 87,
+      "scalars": 2001,
+      "planHashes": [
+        "a5b062a5d04d309b33fac2b5d395f05daaa66dac5cb76a058ad2783d68684243",
+        "7fdacf1692ad64869ee2dd42ffd9ff03f4d933c75512d86723b3cd1b8819173d",
+        "856354db94994c6a94bcf7a3aba0b1b3f3f73a6784e347dfa92b20ce9ba3ad48",
+        "dccb4032ccf3ded11b18455993f4b8aa4b2bb60ac68483e0140edf8e9e1c56fd"
+      ],
+      "textHashes": [
+        "a32aeead5bb10c5a9eddc67d507c6f4cbc3afa5de7c4d69437c9811192c12ef4",
+        "06149686f869684df3f8d8dd0ac7708358904abc3734dcf57f2ec08a5a50298a",
+        "a04e1cc1b0c1c320d6a9ac36d0daf3012592f831d240a87004398a585cfe2656",
+        "dac1a17cbc432bf5e7708bd8af17abe3363f0a852011fd9208fa8fe2d32ff4ed"
+      ]
+    }
+  ]
+}

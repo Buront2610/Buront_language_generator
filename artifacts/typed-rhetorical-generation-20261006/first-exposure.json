@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "firstExposureAt": "2026-10-06T05:45:26.896Z",
+  "frozenAt": "2026-10-06T05:44:14Z",
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "freezeRecordHash": "8529a9cbe378d97e7505f140fc8a04e52c5bd2e2b756ee52c68a40d3fb3b6f21",
+  "sealedInputHash": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+  "adapterHash": "415887a732243ddbab68fa2a34ed8c31be31277d7c64bb81a698a217f6fa13b5",
+  "role": "first prospective synthetic run only; every later rerun is exposed regression",
+  "noPostfreezeCoverageRetuning": true,
+  "status": "input prepared; neither engine invoked by adapter",
+  "caseCount": 24,
+  "sourceFields": [
+    "source"
+  ],
+  "executionInputHash": "980791d2f057ae284875f515bf5a3215420a326bae998e780b902fb777140001",
+  "mapping": "Preserve all original case fields; source/input/text copied to source unchanged; family defaults to domain and group to kind only when absent"
+}

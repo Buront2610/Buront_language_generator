@@ -1,0 +1,16 @@
+{
+  "sealedInputNotRead": true,
+  "expectedSealedInputHash": "a75a9467b7a1fc9a80cf293437e5dd3c2592d7e5375b48900f97e0f6a91e07a9",
+  "expectedCount": 24,
+  "expectedOrdinary": 18,
+  "expectedControls": 6,
+  "expectedPairs": 12,
+  "scripts": {
+    "evaluate-typed-rhetorical-generation.cjs": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd",
+    "compare-typed-rhetorical-generation.cjs": "ee464d58f0078fa387d24beb903de11b4e1e2d07461f01ed8da0c5c25b3fc798",
+    "compact-typed-rhetorical-evaluation.cjs": "29ae940ab725dfb861074b6e866592cde9bc2d9375df8576eff78372257ed91d",
+    "verify-typed-rhetorical-evaluation.cjs": "873b1a70b855cfbcc761f2737007e219b4aaf4aa00e616899c89bcf1bb4888bd",
+    "prepare-typed-rhetorical-evaluation-input.cjs": "415887a732243ddbab68fa2a34ed8c31be31277d7c64bb81a698a217f6fa13b5",
+    "report-typed-rhetorical-prospective.cjs": "b2c8aef1aba22267e901f47126719d9e740921b550f9ae982bbb1a6443343fe8"
+  }
+}

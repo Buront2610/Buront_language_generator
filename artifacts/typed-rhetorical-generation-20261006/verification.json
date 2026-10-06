@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 3,
+  "verifiedAtUtc": "2026-10-06T05:46:03.068144+00:00",
+  "frozenAtUtc": "2026-10-06T05:44:14Z",
+  "sourceHash": "66c681f3d2f48ff6bb7d218711da08be4ea948c06d6d5a861d83b2364e491092",
+  "baselineCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "baselineTree": "98c517fa6dfc4451460231741e114120f50e050f",
+  "checks": {
+    "engineBuild": {
+      "exitCode": 0,
+      "log": "validation-logs/build.log.gz",
+      "logSha256": "24032a8642066c92bd187fbe8f86bc3a2b54d44105ca29f9640eb2376e0c1d69"
+    },
+    "typecheck": {
+      "exitCode": 0,
+      "log": "validation-logs/typecheck.log.gz",
+      "logSha256": "9198b286dd126fb9d732bf7c8fdcd0f130b67b18ea52fe245067cffdd5f57be4"
+    },
+    "webBuild": {
+      "exitCode": 0,
+      "log": "validation-logs/web-build.log.gz",
+      "logSha256": "2fb184ac3464823c8ca367af874097697644d6b2ca1e2cd0d1192794206c4590"
+    },
+    "assetsBuild": {
+      "exitCode": 0,
+      "log": "validation-logs/assets.log.gz",
+      "logSha256": "982066b9115df189c68a29c4cfb8c6800ecd459cde174a1adb003bbecb92b719"
+    },
+    "diagnose": {
+      "exitCode": 0,
+      "log": "validation-logs/diagnose.log.gz",
+      "logSha256": "7caf184761db8fedeb6251654c909fc7bfff3e9dcb9e191bf8092d701557c1f8"
+    },
+    "fullTests": {
+      "tests": 416,
+      "passed": 416,
+      "failed": 0,
+      "durationMs": 97456.442619,
+      "exitCode": 0,
+      "command": "node --test --test-concurrency=2 test/*.test.js test/v1/*.test.js",
+      "log": "validation-logs/all-tests.log.gz",
+      "logSha256": "d7d3d2a83d15be6ffa419292aa9f926aacca19db5a07be4b5f29d11885686099",
+      "note": "Engine and Web builds ran separately before this exact npm-test test stage; no claim that the npm test wrapper itself was invoked"
+    },
+    "budgetRegression": {
+      "tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "exitCode": 0,
+      "log": "validation-logs/tests.log.gz",
+      "logSha256": "8daadccd6af6c1e3670dc81fd8aee5bc85c0db7f2569d3fb09eef8f8a69939c0"
+    },
+    "isolatedApi": {
+      "passed": true,
+      "workloads": 6,
+      "record": "near-limit-api.json",
+      "sha256": "babf0be6c77d26c75f378ec84d91b723005d1f77aa04dac53ad5409a17bc926c",
+      "coordinatorMs": [
+        24542,
+        10510,
+        6971,
+        7580,
+        12323,
+        9189
+      ],
+      "maxCombinedRssBytes": 1587929088
+    }
+  },
+  "independentReview": {
+    "finalLinguisticTestGroups": 23,
+    "includedInFinalAggregate": true,
+    "diagnosticSources": 235,
+    "diagnosticPlans": 193,
+    "diagnosticSourceHashBeforePerformanceOnlyBudget": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+    "openStyleProbes": 20,
+    "styleRatings": "No human S/Q; assistant qualitative inspection only"
+  },
+  "performancePolicy": "At most two distinct structural plans for inputs above 2000 Unicode scalars; complete source and independent proof unchanged; no verifier memoization or deadline change",
+  "failedHistory": {
+    "firstPass": "first-pass/README.md",
+    "secondPass": "second-pass/README.md",
+    "laterFindings": [
+      "inherited explicit-request action loss",
+      "inherited negated-cause scope loss",
+      "temporary reporting-attribution regression",
+      "generic assessment ownership ambiguities",
+      "4991-scalar repeated-reason deadline exceeded before long-input budget"
+    ]
+  },
+  "limitations": [
+    "Closed transformation-language verification, not universal semantic equivalence or style quality",
+    "Verifier shares source recognizer and grammar primitives; language counterexamples remain necessary",
+    "Original seven mechanisms and free Bront-style writing are not complete",
+    "Modesty witnesses share a leakage group and do not independently establish the completed-event adaptation",
+    "Six authored API workloads do not guarantee latency for every maximum-length input or machine",
+    "GitHub CI is checked separately on the published SHA"
+  ],
+  "postFreezeCoreChanges": []
+}

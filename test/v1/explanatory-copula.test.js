@@ -79,7 +79,10 @@ test('the railway regression retains its explanation without adding からだか
     for (const candidate of result.candidatePool) {
       assert.doesNotMatch(candidate.text, /からだからな/u);
       assert.match(candidate.text, /車より電車で行くほうがよいと思う/u);
-      assert.match(candidate.text, /駐車場を探す必要がなく、到着時刻も読みやすいからだ/u);
+      if (candidate.plan.structural) {
+        assert.match(candidate.text, /駐車場を探す必要がなく、到着時刻も読みやすいから、車より電車で行くほうがよいと思う/u);
+        assert.ok(candidate.plan.structural.blocks.every(block => block.operatorId === 'reason-explanation'));
+      } else assert.match(candidate.text, /駐車場を探す必要がなく、到着時刻も読みやすいからだ/u);
       if (candidate.plan.rewrite) assert.equal(validateRewrite(result.ir, candidate.plan, references), true);
     }
   }

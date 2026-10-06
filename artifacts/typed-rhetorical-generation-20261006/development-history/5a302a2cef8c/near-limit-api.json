@@ -1,0 +1,1189 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-06T05:22:06.209Z",
+  "node": "v24.19.0",
+  "buildInfo": {
+    "schemaVersion": 1,
+    "sourceHash": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+    "toolCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+    "workingTreeDirty": true,
+    "runtime": "node24-python3.11",
+    "safetyContract": "v1"
+  },
+  "runtimeRoot": "/tmp/buront-structural-api-JTIFB9",
+  "distCoreHash": "49b0932658afa8119bc1e7b70ac5d73e2ca1f5be66a08e1ba736db3f8ae3560c",
+  "method": "Serialized fresh API child processes, default V8 heap/no execArgv overrides; original benchmark-near-limit API worker + small internal pool/source-mapping instrumentation. Fresh isolated runtime .runtime cache, copied final build-info and dist; corpus/service links. Real full-input GiNZA and production 30,000ms deadline. Startup excluded from coordinator time. Authored/repeated stress probes, not a general latency guarantee.",
+  "rows": [
+    {
+      "name": "reason-pairs4991",
+      "sourceScalars": 4991,
+      "sourceHash": "4bfd9352bd43a4fc4b18a2b0ceb7a222966ff2535964ce69ba4581f4423fefa2",
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1",
+      "status": "failed",
+      "error": "DEADLINE_EXCEEDED",
+      "apiAssetsHash": "bab5a5bf73f571613956c3d8d09d59b7753042e31def7fcae960e9b120d05136",
+      "apiDatasetId": "bfe603da25cd34a31fc99e7a7468b68037cb2cabc2d04d1f400e322951bfb4d5",
+      "startupMs": 2934.576,
+      "apiWallMs": 30059.465,
+      "coordinatorMs": 30000,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 20492.106
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 6183.105
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 4991,
+          "ms": 3322.032
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 886030336,
+      "peakPythonRssBytes": 698269696,
+      "peakCombinedRssBytes": 1580425216,
+      "internalPool": {
+        "generated": 12,
+        "totalOutputScalars": 70740,
+        "maxOutputScalars": 6943,
+        "maxNodes": 434,
+        "maxStructuralBlocks": 8,
+        "structuralCandidates": 4,
+        "maxRewriteEdits": 1303,
+        "allSourceMappingsPreserved": true
+      },
+      "workerWallMs": 33247.09,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "passing": false
+    },
+    {
+      "name": "repeated5000",
+      "sourceScalars": 5000,
+      "sourceHash": "3cccd863a567f19a017e67df54bed05b7947ff5c23153e0fadcc060b1da18ed7",
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1",
+      "status": "completed",
+      "apiAssetsHash": "bab5a5bf73f571613956c3d8d09d59b7753042e31def7fcae960e9b120d05136",
+      "apiDatasetId": "bfe603da25cd34a31fc99e7a7468b68037cb2cabc2d04d1f400e322951bfb4d5",
+      "declaredEngineVersion": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+      "startupMs": 2592.835,
+      "apiWallMs": 10632.049,
+      "coordinatorMs": 10559,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 5617.651
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 955.72
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 5000,
+          "ms": 3980.937
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 758284288,
+      "peakPythonRssBytes": 730443776,
+      "peakCombinedRssBytes": 1462108160,
+      "selectedCount": 2,
+      "poolCount": 2,
+      "shortfallReason": "candidate_shortage",
+      "semanticHash": "fe6fd26e9a9c96c9abebf64436cf387896ad183ea452eaa8d042869ed5499277",
+      "irHash": "61b8bfc79a49276c837a661b14a91243df4181765176fb1463e707846c6c4b96",
+      "poolLanguageHash": "20ecde0d26365433f505a749cf0204be9e2d893d7d365dca93c60dabebb0b52f",
+      "candidates": [
+        {
+          "outputScalars": 5002,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 5003,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "c5edb3571a664bed32fdb9c0",
+          "d6825f5d86574323430ca60f"
+        ],
+        "selectionHash": "26ca2e44d935990a5840670a70b224fbd70899a8976e0a746f337ab223cbf5a5"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "internalPool": {
+        "generated": 2,
+        "totalOutputScalars": 10005,
+        "maxOutputScalars": 5003,
+        "maxNodes": 1,
+        "maxStructuralBlocks": 0,
+        "structuralCandidates": 0,
+        "maxRewriteEdits": 1001,
+        "allSourceMappingsPreserved": true
+      },
+      "workerWallMs": 13513.51,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "passing": true
+    },
+    {
+      "name": "authored-quantity-quote4928",
+      "sourceScalars": 4928,
+      "sourceHash": "4df817d1b8b0016cfff6a1f73e5fc9fffae0c3cd4860b3646a45a54bde5020ef",
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1",
+      "status": "completed",
+      "apiAssetsHash": "bab5a5bf73f571613956c3d8d09d59b7753042e31def7fcae960e9b120d05136",
+      "apiDatasetId": "bfe603da25cd34a31fc99e7a7468b68037cb2cabc2d04d1f400e322951bfb4d5",
+      "declaredEngineVersion": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+      "startupMs": 2430.245,
+      "apiWallMs": 6963.231,
+      "coordinatorMs": 6865,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 3514.284
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 581.73
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 4928,
+          "ms": 2765.379
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 765747200,
+      "peakPythonRssBytes": 697401344,
+      "peakCombinedRssBytes": 1433395200,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "89ffae421c77598ffa40671c2d72f523e4d9be3ae3e6a7295a2f652af3a3fea2",
+      "irHash": "342b71f403bd86dc59c66c0b17633b1c99ad2d4790d053afc3085e1cce06543c",
+      "poolLanguageHash": "69fc22feed84a28db799ea86b0c0f1b9b1ff2789489be98233868b229f042ddb",
+      "candidates": [
+        {
+          "outputScalars": 4371,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4816,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4368,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "31643b228456dd62a320d96d",
+          "1c2bc0df6144319c64b50a1e",
+          "39505a83a0412796e1fd4fe8"
+        ],
+        "selectionHash": "b9e2487b7ac307e1ec25cd3c871069b5e571e20070f6444d2a28c7daf9d1d8a6"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "internalPool": {
+        "generated": 3,
+        "totalOutputScalars": 13555,
+        "maxOutputScalars": 4816,
+        "maxNodes": 337,
+        "maxStructuralBlocks": 0,
+        "structuralCandidates": 0,
+        "maxRewriteEdits": 728,
+        "allSourceMappingsPreserved": true
+      },
+      "workerWallMs": 9697.21,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "passing": true
+    },
+    {
+      "name": "dense-polite5000",
+      "sourceScalars": 5000,
+      "sourceHash": "22fe3b0b9ea75d80e212e4cdc85c0bfe86a1c95b792e958dcaef5ce9d64a574a",
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1",
+      "status": "completed",
+      "apiAssetsHash": "bab5a5bf73f571613956c3d8d09d59b7753042e31def7fcae960e9b120d05136",
+      "apiDatasetId": "bfe603da25cd34a31fc99e7a7468b68037cb2cabc2d04d1f400e322951bfb4d5",
+      "declaredEngineVersion": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+      "startupMs": 2586.287,
+      "apiWallMs": 7885.074,
+      "coordinatorMs": 7782,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 4002.616
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 848.562
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 5000,
+          "ms": 2927.084
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 773750784,
+      "peakPythonRssBytes": 692199424,
+      "peakCombinedRssBytes": 1432526848,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "b257ccd3b4dd0294335ff62b1e5eeb924c4434e7411be2b056175151d38de2ed",
+      "irHash": "a528f9c0340c84ec5b7433deb596919161c17339d5ff6d6843aacb1204d6e261",
+      "poolLanguageHash": "62f611e3b7079b7011c1c35ed2fe75079c015e0c8bcaaa4681eaaf6df56037e0",
+      "candidates": [
+        {
+          "outputScalars": 4999,
+          "nodes": 500,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4127,
+          "nodes": 500,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4124,
+          "nodes": 500,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "e641b369dc56590916e43fc8",
+          "92a2c77ce1de7a087f34b3e4",
+          "c588da6288e38d36de7c93d0"
+        ],
+        "selectionHash": "8d7473632cb32a5ac031dcd74fd0bfbcba59c889baf5b8d314b6f3af2ab28d34"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "internalPool": {
+        "generated": 3,
+        "totalOutputScalars": 13250,
+        "maxOutputScalars": 4999,
+        "maxNodes": 500,
+        "maxStructuralBlocks": 0,
+        "structuralCandidates": 0,
+        "maxRewriteEdits": 1125,
+        "allSourceMappingsPreserved": true
+      },
+      "workerWallMs": 10793.01,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "passing": true
+    },
+    {
+      "name": "causal-body-near5000",
+      "sourceScalars": 4994,
+      "sourceHash": "f405126471954676ddc8a83da71525f7f336be93be491d32b30c07462ed85908",
+      "requestIntensity": 3,
+      "requestSeed": "rewrite-scope-benchmark-v1",
+      "status": "completed",
+      "apiAssetsHash": "bab5a5bf73f571613956c3d8d09d59b7753042e31def7fcae960e9b120d05136",
+      "apiDatasetId": "bfe603da25cd34a31fc99e7a7468b68037cb2cabc2d04d1f400e322951bfb4d5",
+      "declaredEngineVersion": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+      "startupMs": 2445.373,
+      "apiWallMs": 19380.622,
+      "coordinatorMs": 19287,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 11697.829
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 4567.55
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 4994,
+          "ms": 3017.379
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 925167616,
+      "peakPythonRssBytes": 712667136,
+      "peakCombinedRssBytes": 1605722112,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "b247acfaed3f482bef793b840f0f7bbd417b43b3cedbef3f2d9cee5205b0a3a3",
+      "irHash": "e6ab7fd6c6e6d9fa8ca06fc3a18b7ce35e09ea9d778bcb405590ff2fe8ef5211",
+      "poolLanguageHash": "fdbdba3c39d80ddc9d1078312346950bb11cb40db5e420f7d4024556f53af545",
+      "candidates": [
+        {
+          "outputScalars": 5022,
+          "nodes": 227,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-structural",
+              "pass"
+            ],
+            [
+              "S-structural-program",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 6128,
+          "nodes": 227,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 6153,
+          "nodes": 227,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-structural",
+              "pass"
+            ],
+            [
+              "S-structural-program",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 9,
+        "selectedIds": [
+          "8922467bac4e7c716454b251",
+          "2e4e1991a60a8ea358e969c5",
+          "f05af2f6b0ce7722819dc429"
+        ],
+        "selectionHash": "7e065e0a10765bc7026dcf819697a318dae96bfa732542693fb9e78bbcf52f0b"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "internalPool": {
+        "generated": 9,
+        "totalOutputScalars": 50778,
+        "maxOutputScalars": 6157,
+        "maxNodes": 227,
+        "maxStructuralBlocks": 8,
+        "structuralCandidates": 6,
+        "maxRewriteEdits": 681,
+        "allSourceMappingsPreserved": true
+      },
+      "workerWallMs": 22114.87,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "passing": true
+    },
+    {
+      "name": "evidence-target-near5000",
+      "sourceScalars": 5000,
+      "sourceHash": "63cc32f53aa0ab1ca11a8d45c8ddee40e1a69787b7d9a967d6a7d5fc358870ef",
+      "requestIntensity": 3,
+      "requestSeed": "rewrite-scope-benchmark-v1",
+      "status": "completed",
+      "apiAssetsHash": "bab5a5bf73f571613956c3d8d09d59b7753042e31def7fcae960e9b120d05136",
+      "apiDatasetId": "bfe603da25cd34a31fc99e7a7468b68037cb2cabc2d04d1f400e322951bfb4d5",
+      "declaredEngineVersion": "5a302a2cef8c11a54a9322a7157348db2279860e5cb7af0ea77d7f1ee9c27428",
+      "startupMs": 2707.388,
+      "apiWallMs": 13304.768,
+      "coordinatorMs": 13213,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 7368.67
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 2669.085
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 5000,
+          "ms": 3170.939
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 1094266880,
+      "peakPythonRssBytes": 699219968,
+      "peakCombinedRssBytes": 1765044224,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "46f46a4c33e78027c7edb8d256f0c6f43015feb1b4b11a13b7c481a568f73bb3",
+      "irHash": "40314b97867b9c68c19fd031ecebad9cf35417b8f392187f72c1c032ce94cc75",
+      "poolLanguageHash": "d9e779c63adccd7391cb76972f937b435862e1eca091a5400c2fae3d21fd9c8f",
+      "candidates": [
+        {
+          "outputScalars": 5036,
+          "nodes": 250,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-structural",
+              "pass"
+            ],
+            [
+              "S-structural-program",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4999,
+          "nodes": 250,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 5036,
+          "nodes": 250,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-structural",
+              "pass"
+            ],
+            [
+              "S-structural-program",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 5,
+        "selectedIds": [
+          "2c9933d81e48075ec551615e",
+          "c1700bdd42d77a0e81e80126",
+          "73e8b325bd3d0f5527f72739"
+        ],
+        "selectionHash": "6e316629a4e569bd37d4f37482abc7a9d2baac34ee1222ed819b256f7e37f8b0"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "internalPool": {
+        "generated": 5,
+        "totalOutputScalars": 25143,
+        "maxOutputScalars": 5036,
+        "maxNodes": 250,
+        "maxStructuralBlocks": 8,
+        "structuralCandidates": 4,
+        "maxRewriteEdits": 500,
+        "allSourceMappingsPreserved": true
+      },
+      "workerWallMs": 16322.33,
+      "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n",
+      "passing": true
+    }
+  ],
+  "finishedAt": "2026-10-06T05:23:51.907Z",
+  "passed": false
+}

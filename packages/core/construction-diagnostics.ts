@@ -8,7 +8,7 @@ export function updateConstructionOutcomes(result: Pick<GenerationResult, 'input
   const diagnostics = (result.diagnostics ?? []).filter(item => !outcomes.has(item.stage));
   const selected = new Set(result.candidates.map(candidate => `${candidate.id}:${candidate.plan.id}`));
   for (const candidate of pool) {
-    const edits = candidate.plan.construction?.edits ?? [];
+    const edits = [...(candidate.plan.construction?.edits ?? []), ...(candidate.plan.structural?.blocks ?? []).map(block => ({ ...block, constructionId: `structural:${block.operatorId}` }))];
     for (const edit of edits) {
       const base = { inputHash: result.inputHash, nodeId: edit.nodeId, constructionId: edit.constructionId, candidateId: candidate.id, planId: candidate.plan.id, sourceSpan: edit.sourceSpan };
       if (candidate.verificationStatus !== 'passed') diagnostics.push({ ...base, stage: 'verification_rejected', reason: `${phase}:${candidate.verificationStatus}:${candidate.checks.filter(check => check.required && check.status !== 'pass').map(check => check.code).join(',')}` });

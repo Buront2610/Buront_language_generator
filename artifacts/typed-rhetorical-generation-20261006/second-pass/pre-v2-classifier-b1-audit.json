@@ -1,0 +1,44 @@
+{
+  "noSecondSealedInputRead": true,
+  "reports": [
+    {
+      "suite": "regression",
+      "countsUnchanged": true,
+      "counts": {
+        "bodyPool": 187,
+        "bodyDisplayed": 70,
+        "bodyTop": 70,
+        "movementPool": 167,
+        "movementDisplayed": 62,
+        "groupingPool": 167,
+        "groupingDisplayed": 60
+      }
+    },
+    {
+      "suite": "exposed",
+      "countsUnchanged": true,
+      "counts": {
+        "bodyPool": 29,
+        "bodyDisplayed": 14,
+        "bodyTop": 14,
+        "movementPool": 21,
+        "movementDisplayed": 14,
+        "groupingPool": 19,
+        "groupingDisplayed": 6
+      }
+    },
+    {
+      "suite": "unseen",
+      "countsUnchanged": true,
+      "counts": {
+        "bodyPool": 6,
+        "bodyDisplayed": 4,
+        "bodyTop": 4,
+        "movementPool": 6,
+        "movementDisplayed": 4,
+        "groupingPool": 6,
+        "groupingDisplayed": 4
+      }
+    }
+  ]
+}

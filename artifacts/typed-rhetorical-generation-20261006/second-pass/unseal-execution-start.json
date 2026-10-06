@@ -1,0 +1,18 @@
+{
+  "startedAt": "2026-10-06T04:21:39.377Z",
+  "freezeManifest": "/workspace/shared/structural-b-evaluation/second-frozen-engine-manifest.json",
+  "freezeManifestHash": "8ef17ec7c73d2756ebe6a56405c7ee0b9a524e1b88473b25d3610fbf265ef9a8",
+  "frozenAt": "2026-10-06T04:20:12Z",
+  "sourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+  "sealSha256": "b1a2573ef1d94951fb11618d1a7891077464dcf7b7d368e4a7015d93aaa7ea3e",
+  "initialExposure": true,
+  "noPostfreezeRetuning": true,
+  "caseCount": 28,
+  "derivedInputSha256": "234ec2e70712f87e0f99756a9efe9ff63fb4b245ac57935573ea18fae123b157",
+  "inputAdapterCorrection": {
+    "at": "2026-10-06T04:22:12.024635+00:00",
+    "initialFailure": "Expected text/source field, sealed fixture uses input. Failure occurred before either engine generated any sealed case.",
+    "mapping": "input -> source; domain copied to family; kind copied to group; all other case metadata retained.",
+    "engineOrSettingsChanged": false
+  }
+}

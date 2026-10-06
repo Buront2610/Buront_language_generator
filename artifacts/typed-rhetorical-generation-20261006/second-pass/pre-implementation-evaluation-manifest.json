@@ -1,0 +1,54 @@
+{
+  "createdAt": "2026-10-06T03:08:31.650564+00:00",
+  "baselineRevision": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "files": {
+    "sealed-unseen-workday-30.json": {
+      "bytes": 12597,
+      "sha256": "6e5dc7195c8b020c20204845af7283e169aaf733a79e55a381c8d56db3b02729"
+    },
+    "sealed-unseen-workday-30.seal.json": {
+      "bytes": 270,
+      "sha256": "647fca4555dc677d23b65769a5bdeed249748013d137164b63308272916c3f9e"
+    },
+    "sealed-distinctness.json": {
+      "bytes": 444,
+      "sha256": "f7362644b56acfb93165d3febaf34dffcb46ce4cd1af06c905a384491c4eea00"
+    },
+    "exposed-workday-18.json": {
+      "bytes": 5172,
+      "sha256": "b93d68b1681304929826fd5a4dc9aca8d23719944f02c0518a5097575455dd3d"
+    },
+    "prior-regression-127.json": {
+      "bytes": 52940,
+      "sha256": "539d53954979319f4bd05bd7e38286cc32811e6fd7e1a69e2fb73ee5479cb047"
+    },
+    "capture-structural-evaluation.cjs": {
+      "bytes": 4753,
+      "sha256": "c9898e8da64580bdac426310e17ccb4877de0e498f75ab3c969784cc42d8afbd"
+    },
+    "before-exposed.json.gz": {
+      "bytes": 134437,
+      "sha256": "b8efac43d53c834e324bf2f92a705989b80ea8b9f176f95b62ec3025510fda5b"
+    },
+    "before-regression.json.gz": {
+      "bytes": 981878,
+      "sha256": "98e67008d04fb0b517364d3952867a698368e508868e007cfa80cc4764592a2b"
+    },
+    "before-exposed-summary.json": {
+      "bytes": 944,
+      "sha256": "5f392eb4a6005267810f177687d889226da2dd7856d8ed1f066bb9825350e222"
+    },
+    "before-regression-summary.json": {
+      "bytes": 951,
+      "sha256": "5be65a7c4044213495df087f8671f748e6d5cce74fe3ad1f54bfc18690b8f406"
+    },
+    "frozen-assets.json": {
+      "bytes": 6949811,
+      "sha256": "3ec6501a86329cf5776d3fc487590c424b112e75d65da749fe7378662c6f7404"
+    },
+    "evaluation-protocol.md": {
+      "bytes": 3620,
+      "sha256": "6b3f18036db1d98bb5533fe484f1f22fe6c27834d44f93825b9fa4eb8d42a170"
+    }
+  }
+}

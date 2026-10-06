@@ -1,0 +1,12 @@
+{
+  "verifiedAtUtc": "2026-10-06T04:23:19.543032+00:00",
+  "baselineCommit": "a25c40a82c80dd9f8209aecf21b669ede8d5619a",
+  "patchFile": "second-core.patch.gz",
+  "patchSha256": "ab5e4dd80a733cc5a2a12ca4213eb7693e29a6434e672cefc4a4af647f560838",
+  "gitApplyCheckPassed": true,
+  "buildPassed": true,
+  "sourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+  "allSourceAndCompiledModulesMatchFrozenEngine": true,
+  "currentMainSourceAndCompiledModulesMatchFrozenEngine": true,
+  "moduleFileCount": 150
+}

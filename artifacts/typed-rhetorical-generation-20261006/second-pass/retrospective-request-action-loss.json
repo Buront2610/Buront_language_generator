@@ -1,0 +1,72 @@
+{
+  "recordedAtUtc": "2026-10-06T04:53:15.393258+00:00",
+  "sourceHash": "59e92db20f2688cc77eade171432a663085f9d7dba00884c5c2d388fd8265e21",
+  "classification": "Retrospective semantic acceptance blocker in known development cases",
+  "discovery": "Independent B3 style review identified action/desire loss; evaluation worker confirmed identical outputs in immutable B2 known175 capture.",
+  "finding": "Concrete requests to show/tell/provide evidence, or desire to acquire it, are replaced by evidence-existence/definition questions. Passing shared bounded recipes does not certify preservation of the source action.",
+  "scope": "These are known175 cases, not the14 structural candidates in the fresh28 suite inspected during B2 packaging. Original raw outputs and counts remain unchanged.",
+  "cases": [
+    {
+      "id": "X13",
+      "source": "便利なのは分かった。しかし安全だという証拠を見せてほしい。",
+      "intensity": 3,
+      "firstDisplayed": "便利なのは分かった。しかし安全だっていうどういう証拠があるのかよ？",
+      "planId": "a9f5dec1ef83f9ab2c769497",
+      "classification": "structural-fixed-form-only",
+      "independentBoundedProof": true,
+      "allChecksPass": true
+    },
+    {
+      "id": "X16",
+      "source": "説明は聞いた。しかしこの方法が確実だという証拠が欲しい。",
+      "intensity": 3,
+      "firstDisplayed": "説明は聞いた。しかしこの方法が確実だっていうどういう証拠があるのかよ？",
+      "planId": "111e37cdf0c1f7d1d90c6a82",
+      "classification": "structural-fixed-form-only",
+      "independentBoundedProof": true,
+      "allChecksPass": true
+    },
+    {
+      "id": "X18",
+      "source": "値段には納得しています。ただ、消費電力が減るという測定結果を教えてもらえますか。",
+      "intensity": 3,
+      "firstDisplayed": "値段には納得しています。ただ、どういう測定結果があるのかよ、消費電力が減るって。",
+      "planId": "bd72d9387c9993aa9a985423",
+      "classification": "body-composition",
+      "independentBoundedProof": true,
+      "allChecksPass": true
+    },
+    {
+      "id": "U15",
+      "source": "評判が良いことは聞いていますが、この浄水器が水質を改善するという試験結果を教えてください。",
+      "intensity": 3,
+      "firstDisplayed": "評判が良いことは聞いていますが、どういう試験結果があるのかよ、この浄水器が水質を改善するって。",
+      "planId": "0b01038dc411a803877452c5",
+      "classification": "body-composition",
+      "independentBoundedProof": true,
+      "allChecksPass": true
+    },
+    {
+      "id": "U16",
+      "source": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データを見せてもらえますか。",
+      "intensity": 3,
+      "firstDisplayed": "口コミが好評なのは承知しています。ただ、このろ過装置で水がきれいになると判断した検証データっていうのはどういう検証データなんだ？",
+      "planId": "fb7e67e8cb9d939c7212f9b0",
+      "classification": "structural-fixed-form-only",
+      "independentBoundedProof": true,
+      "allChecksPass": true
+    },
+    {
+      "id": "U18",
+      "source": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けを出してください。",
+      "intensity": 3,
+      "firstDisplayed": "手間を省く方向には異論はありませんが、確認を一週間に一度へ変えて問題がないとする裏付けっていうのはどういう裏付けなんだ？",
+      "planId": "bcde158a73c37ccae9f40584",
+      "classification": "structural-fixed-form-only",
+      "independentBoundedProof": true,
+      "allChecksPass": true
+    }
+  ],
+  "humanS": null,
+  "humanQ": null
+}
