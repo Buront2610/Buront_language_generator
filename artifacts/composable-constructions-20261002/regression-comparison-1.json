@@ -1,0 +1,1576 @@
+[
+  {
+    "type": "input",
+    "id": "N01",
+    "group": "ordinary",
+    "category": "日常の手順",
+    "source": "私は朝七時に起きて、駅まで歩いた。電車は五分遅れていたが、会議には間に合った。"
+  },
+  {
+    "type": "run",
+    "id": "N01",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 1681.539,
+      "selectedCandidateId": "399affcc105ac64e4d076b57",
+      "displayedIds": [
+        {
+          "id": "399affcc105ac64e4d076b57",
+          "planId": "7728f25c326bc703bb38eb05"
+        },
+        {
+          "id": "6ebd196f402e27736c6dea8c",
+          "planId": "e21b5c790fc96cc28bd89bdf"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "399affcc105ac64e4d076b57",
+          "6ebd196f402e27736c6dea8c"
+        ],
+        "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 1527.309,
+      "selectedCandidateId": "399affcc105ac64e4d076b57",
+      "displayedIds": [
+        {
+          "id": "399affcc105ac64e4d076b57",
+          "planId": "7728f25c326bc703bb38eb05"
+        },
+        {
+          "id": "6ebd196f402e27736c6dea8c",
+          "planId": "e21b5c790fc96cc28bd89bdf"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "399affcc105ac64e4d076b57",
+          "6ebd196f402e27736c6dea8c"
+        ],
+        "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "6ebd196f402e27736c6dea8c",
+      "planId": "e21b5c790fc96cc28bd89bdf",
+      "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "399affcc105ac64e4d076b57",
+      "planId": "7728f25c326bc703bb38eb05",
+      "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "6ebd196f402e27736c6dea8c",
+      "planId": "e21b5c790fc96cc28bd89bdf",
+      "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "399affcc105ac64e4d076b57",
+      "planId": "7728f25c326bc703bb38eb05",
+      "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "N01",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 75.75,
+      "selectedCandidateId": "399affcc105ac64e4d076b57",
+      "displayedIds": [
+        {
+          "id": "399affcc105ac64e4d076b57",
+          "planId": "65653a597f19f32f5383f2d2"
+        },
+        {
+          "id": "6ebd196f402e27736c6dea8c",
+          "planId": "474df2f66125e6269c681d2f"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "399affcc105ac64e4d076b57",
+          "6ebd196f402e27736c6dea8c"
+        ],
+        "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 68.483,
+      "selectedCandidateId": "399affcc105ac64e4d076b57",
+      "displayedIds": [
+        {
+          "id": "399affcc105ac64e4d076b57",
+          "planId": "65653a597f19f32f5383f2d2"
+        },
+        {
+          "id": "6ebd196f402e27736c6dea8c",
+          "planId": "474df2f66125e6269c681d2f"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "399affcc105ac64e4d076b57",
+          "6ebd196f402e27736c6dea8c"
+        ],
+        "selectionHash": "00cb4d451b7dc9017988ba9ef143bce33beb93cb3138fd0154843d1da9f05cfb"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "6ebd196f402e27736c6dea8c",
+      "planId": "474df2f66125e6269c681d2f",
+      "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "399affcc105ac64e4d076b57",
+      "planId": "65653a597f19f32f5383f2d2",
+      "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "6ebd196f402e27736c6dea8c",
+      "planId": "474df2f66125e6269c681d2f",
+      "text": "俺は朝七時に起きて駅まで歩いた\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "399affcc105ac64e4d076b57",
+      "planId": "65653a597f19f32f5383f2d2",
+      "text": "俺は朝七時に起きて駅まで歩いたからな\n電車は五分遅れていたが会議には間に合った",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "956a3c4f2f0ca1f671ba0ab8360dd5cd03a3a78026fa32e0f63131cf21b2cf80",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 17,
+        "end": 39
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "N02",
+    "group": "ordinary",
+    "category": "業務連絡と数値",
+    "source": "明日の会議は午後三時からです。資料を二部ずつ持ってきてください。"
+  }
+]

@@ -1,0 +1,480 @@
+{
+  "recordedAt": "2026-10-02T08:36:27.676378+00:00",
+  "status": "Initial one-shot H01–H12 evaluated against initial frozen engine; now audit-exposed and not untouched final-engine evidence.",
+  "correctionReason": "After the first holdout run, independent live source-review probes found a pre-existing safety gap permitting modesty after a past-desire predicate (運びたかっただけだ). The guard was tightened before final freeze. This correction was not prompted by holdout outputs.",
+  "initialHeldout": {
+    "controlled": {
+      "sameDataset": true,
+      "sameAssetBytes": true,
+      "sameInputs": true,
+      "sameSettings": true,
+      "sameParser": true,
+      "stableEngines": true,
+      "sameCasesOrder": true,
+      "sameSourceAnalyses": true
+    },
+    "caseArtifactFiles": {
+      "H01": [
+        "heldout-comparison-1.json",
+        "heldout-comparison-2.json",
+        "heldout-comparison-3.json",
+        "heldout-comparison-4.json"
+      ],
+      "H02": [
+        "heldout-comparison-4.json",
+        "heldout-comparison-5.json"
+      ],
+      "H03": [
+        "heldout-comparison-5.json",
+        "heldout-comparison-6.json",
+        "heldout-comparison-7.json"
+      ],
+      "H04": [
+        "heldout-comparison-7.json",
+        "heldout-comparison-8.json"
+      ],
+      "H05": [
+        "heldout-comparison-8.json",
+        "heldout-comparison-9.json",
+        "heldout-comparison-10.json"
+      ],
+      "H06": [
+        "heldout-comparison-10.json",
+        "heldout-comparison-11.json",
+        "heldout-comparison-12.json",
+        "heldout-comparison-13.json"
+      ],
+      "H07": [
+        "heldout-comparison-13.json",
+        "heldout-comparison-14.json"
+      ],
+      "H08": [
+        "heldout-comparison-14.json",
+        "heldout-comparison-15.json"
+      ],
+      "H09": [
+        "heldout-comparison-15.json",
+        "heldout-comparison-16.json"
+      ],
+      "H10": [
+        "heldout-comparison-16.json",
+        "heldout-comparison-17.json"
+      ],
+      "H11": [
+        "heldout-comparison-17.json",
+        "heldout-comparison-18.json"
+      ],
+      "H12": [
+        "heldout-comparison-18.json"
+      ]
+    },
+    "before": {
+      "cases": 12,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "poolCandidates": 30,
+          "displayedCandidates": 26,
+          "casesWithDiscourseMarker": 2,
+          "casesWithClauseStructure": 1,
+          "displayedCategoryCounts": {
+            "person_punctuation": 26,
+            "ending": 14,
+            "lexical": 3,
+            "discourse_marker": 2,
+            "clause_structure": 1
+          },
+          "poolLexicalAndReason": 0,
+          "poolLexicalInsideReason": 0,
+          "displayedLexicalInsideReason": 0,
+          "verificationRejected": 0,
+          "notSelected": 4,
+          "zeroCandidateCases": 0,
+          "shortCases": 9,
+          "allDisplayedVerified": true,
+          "allScoresUntrained": true,
+          "allUsedLexicalEditsIndependentlyPermitted": true,
+          "stageEventCounts": {},
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "poolCandidates": 32,
+          "displayedCandidates": 27,
+          "casesWithDiscourseMarker": 3,
+          "casesWithClauseStructure": 1,
+          "displayedCategoryCounts": {
+            "person_punctuation": 27,
+            "ending": 14,
+            "lexical": 4,
+            "discourse_marker": 4,
+            "clause_structure": 1
+          },
+          "poolLexicalAndReason": 0,
+          "poolLexicalInsideReason": 0,
+          "displayedLexicalInsideReason": 0,
+          "verificationRejected": 0,
+          "notSelected": 5,
+          "zeroCandidateCases": 0,
+          "shortCases": 8,
+          "allDisplayedVerified": true,
+          "allScoresUntrained": true,
+          "allUsedLexicalEditsIndependentlyPermitted": true,
+          "stageEventCounts": {},
+          "errors": 0
+        }
+      ]
+    },
+    "after": {
+      "cases": 12,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "poolCandidates": 33,
+          "displayedCandidates": 27,
+          "casesWithDiscourseMarker": 2,
+          "casesWithClauseStructure": 2,
+          "displayedCategoryCounts": {
+            "person_punctuation": 27,
+            "ending": 14,
+            "lexical": 4,
+            "discourse_marker": 2,
+            "clause_structure": 2
+          },
+          "poolLexicalAndReason": 3,
+          "poolLexicalInsideReason": 3,
+          "displayedLexicalInsideReason": 1,
+          "verificationRejected": 0,
+          "notSelected": 6,
+          "zeroCandidateCases": 0,
+          "shortCases": 8,
+          "allDisplayedVerified": true,
+          "allScoresUntrained": true,
+          "allUsedLexicalEditsIndependentlyPermitted": true,
+          "stageEventCounts": {
+            "relation_not_recognized": 154,
+            "recognized": 6,
+            "planned": 8,
+            "verified": 8,
+            "not_selected": 4,
+            "selected": 4,
+            "edit_conflict": 2,
+            "unsupported_form": 2,
+            "scope_blocked": 2
+          },
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "poolCandidates": 35,
+          "displayedCandidates": 28,
+          "casesWithDiscourseMarker": 3,
+          "casesWithClauseStructure": 2,
+          "displayedCategoryCounts": {
+            "person_punctuation": 28,
+            "ending": 13,
+            "lexical": 5,
+            "discourse_marker": 4,
+            "clause_structure": 2
+          },
+          "poolLexicalAndReason": 3,
+          "poolLexicalInsideReason": 3,
+          "displayedLexicalInsideReason": 1,
+          "verificationRejected": 0,
+          "notSelected": 7,
+          "zeroCandidateCases": 0,
+          "shortCases": 7,
+          "allDisplayedVerified": true,
+          "allScoresUntrained": true,
+          "allUsedLexicalEditsIndependentlyPermitted": true,
+          "stageEventCounts": {
+            "relation_not_recognized": 154,
+            "recognized": 6,
+            "planned": 12,
+            "verified": 12,
+            "not_selected": 5,
+            "selected": 7,
+            "edit_conflict": 2,
+            "scope_blocked": 2
+          },
+          "errors": 0
+        }
+      ]
+    },
+    "byOriginalGroup": {
+      "held_out": {
+        "before": {
+          "cases": 12,
+          "byIntensity": [
+            {
+              "intensity": 2,
+              "poolCandidates": 30,
+              "displayedCandidates": 26,
+              "casesWithDiscourseMarker": 2,
+              "casesWithClauseStructure": 1,
+              "displayedCategoryCounts": {
+                "person_punctuation": 26,
+                "ending": 14,
+                "lexical": 3,
+                "discourse_marker": 2,
+                "clause_structure": 1
+              },
+              "poolLexicalAndReason": 0,
+              "poolLexicalInsideReason": 0,
+              "displayedLexicalInsideReason": 0,
+              "verificationRejected": 0,
+              "notSelected": 4,
+              "zeroCandidateCases": 0,
+              "shortCases": 9,
+              "allDisplayedVerified": true,
+              "allScoresUntrained": true,
+              "allUsedLexicalEditsIndependentlyPermitted": true,
+              "stageEventCounts": {},
+              "errors": 0
+            },
+            {
+              "intensity": 3,
+              "poolCandidates": 32,
+              "displayedCandidates": 27,
+              "casesWithDiscourseMarker": 3,
+              "casesWithClauseStructure": 1,
+              "displayedCategoryCounts": {
+                "person_punctuation": 27,
+                "ending": 14,
+                "lexical": 4,
+                "discourse_marker": 4,
+                "clause_structure": 1
+              },
+              "poolLexicalAndReason": 0,
+              "poolLexicalInsideReason": 0,
+              "displayedLexicalInsideReason": 0,
+              "verificationRejected": 0,
+              "notSelected": 5,
+              "zeroCandidateCases": 0,
+              "shortCases": 8,
+              "allDisplayedVerified": true,
+              "allScoresUntrained": true,
+              "allUsedLexicalEditsIndependentlyPermitted": true,
+              "stageEventCounts": {},
+              "errors": 0
+            }
+          ]
+        },
+        "after": {
+          "cases": 12,
+          "byIntensity": [
+            {
+              "intensity": 2,
+              "poolCandidates": 33,
+              "displayedCandidates": 27,
+              "casesWithDiscourseMarker": 2,
+              "casesWithClauseStructure": 2,
+              "displayedCategoryCounts": {
+                "person_punctuation": 27,
+                "ending": 14,
+                "lexical": 4,
+                "discourse_marker": 2,
+                "clause_structure": 2
+              },
+              "poolLexicalAndReason": 3,
+              "poolLexicalInsideReason": 3,
+              "displayedLexicalInsideReason": 1,
+              "verificationRejected": 0,
+              "notSelected": 6,
+              "zeroCandidateCases": 0,
+              "shortCases": 8,
+              "allDisplayedVerified": true,
+              "allScoresUntrained": true,
+              "allUsedLexicalEditsIndependentlyPermitted": true,
+              "stageEventCounts": {
+                "relation_not_recognized": 154,
+                "recognized": 6,
+                "planned": 8,
+                "verified": 8,
+                "not_selected": 4,
+                "selected": 4,
+                "edit_conflict": 2,
+                "unsupported_form": 2,
+                "scope_blocked": 2
+              },
+              "errors": 0
+            },
+            {
+              "intensity": 3,
+              "poolCandidates": 35,
+              "displayedCandidates": 28,
+              "casesWithDiscourseMarker": 3,
+              "casesWithClauseStructure": 2,
+              "displayedCategoryCounts": {
+                "person_punctuation": 28,
+                "ending": 13,
+                "lexical": 5,
+                "discourse_marker": 4,
+                "clause_structure": 2
+              },
+              "poolLexicalAndReason": 3,
+              "poolLexicalInsideReason": 3,
+              "displayedLexicalInsideReason": 1,
+              "verificationRejected": 0,
+              "notSelected": 7,
+              "zeroCandidateCases": 0,
+              "shortCases": 7,
+              "allDisplayedVerified": true,
+              "allScoresUntrained": true,
+              "allUsedLexicalEditsIndependentlyPermitted": true,
+              "stageEventCounts": {
+                "relation_not_recognized": 154,
+                "recognized": 6,
+                "planned": 12,
+                "verified": 12,
+                "not_selected": 5,
+                "selected": 7,
+                "edit_conflict": 2,
+                "scope_blocked": 2
+              },
+              "errors": 0
+            }
+          ]
+        }
+      }
+    },
+    "changedCaseIds": [
+      "H01",
+      "H03"
+    ],
+    "unchangedCaseIds": [
+      "H02",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H10",
+      "H11",
+      "H12"
+    ]
+  },
+  "artifactFiles": [
+    {
+      "file": "heldout-cases.json",
+      "bytes": 3259,
+      "sha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+    },
+    {
+      "file": "heldout-before-metadata.json",
+      "bytes": 12254,
+      "sha256": "b50950536f0ad0f63a4c8aaf80219f4d7f3e426e8a0af6f17443c23bec2daa87"
+    },
+    {
+      "file": "heldout-after-metadata.json",
+      "bytes": 12776,
+      "sha256": "b0405f4ef23753fa54df90461af1c88eb9f2ec63af288fcabd1a85e47d0dd0ae"
+    },
+    {
+      "file": "heldout-comparison-1.json",
+      "bytes": 38186,
+      "sha256": "73b37adf565215090cc1c9dec7ef409e47348d55df7ce8e41570380f9603a2b9"
+    },
+    {
+      "file": "heldout-comparison-2.json",
+      "bytes": 41547,
+      "sha256": "d322396f272f2907ae2a6b0616c803591733d3a3dda2fcddf69b26d34637f3b7"
+    },
+    {
+      "file": "heldout-comparison-3.json",
+      "bytes": 36205,
+      "sha256": "334f372166d8a272a419c7988a5ec33103589834b2b7e2095f548b10aefddcbb"
+    },
+    {
+      "file": "heldout-comparison-4.json",
+      "bytes": 42271,
+      "sha256": "30edc3f5eab9c9e5089f4ef4063dfc3b9e8db748919321ccf9f27e82bb7fdb1a"
+    },
+    {
+      "file": "heldout-comparison-5.json",
+      "bytes": 37726,
+      "sha256": "f6545720a27f0bba374b2d11ddb2cafa4393d6912b7dfaa3243aadbadf17bd7d"
+    },
+    {
+      "file": "heldout-comparison-6.json",
+      "bytes": 42945,
+      "sha256": "ffae11f2d37ed544bed915d6bf9f9a710e06c2d332172e536e47a66e55aac636"
+    },
+    {
+      "file": "heldout-comparison-7.json",
+      "bytes": 40343,
+      "sha256": "47900004dcdf873e5eb76090e1f13e177e8058cc75109e0db00c97f0a7fa7472"
+    },
+    {
+      "file": "heldout-comparison-8.json",
+      "bytes": 42989,
+      "sha256": "70be85bf15dd0a385a472a7cd3ec8d5da6dfa5f5216a4e1f995b1e0ae6acfe21"
+    },
+    {
+      "file": "heldout-comparison-9.json",
+      "bytes": 40630,
+      "sha256": "2532d8b1efa73f62dcfedbb65b30a4f5718a9259c6c77236afad4717dc7923f6"
+    },
+    {
+      "file": "heldout-comparison-10.json",
+      "bytes": 36631,
+      "sha256": "5031530ed7ad120707dd4c58c12e740c19415b93b1803bb88d61755c3a8d54b7"
+    },
+    {
+      "file": "heldout-comparison-11.json",
+      "bytes": 41518,
+      "sha256": "9a72ef3cc0d0279869a4abfebc11d1349a2104c8c5b8f3ff22749bbdbd7eee6d"
+    },
+    {
+      "file": "heldout-comparison-12.json",
+      "bytes": 39119,
+      "sha256": "dc5a4abc9a02e3947eef807aa09499f79ddcfe06ff8dcb73590373538ea52068"
+    },
+    {
+      "file": "heldout-comparison-13.json",
+      "bytes": 42306,
+      "sha256": "19f0478d77af9e93df6fe77bd0aec438b79672b281307991d8cabe568b2aac76"
+    },
+    {
+      "file": "heldout-comparison-14.json",
+      "bytes": 41592,
+      "sha256": "9f6e83c4864ec43280e26ac08f3aa206220efd41dfd140a4d4aef10c0dfa5954"
+    },
+    {
+      "file": "heldout-comparison-15.json",
+      "bytes": 42570,
+      "sha256": "355b2500d7c4525e3d624fbde2f9d3f00c3d7f88f33db4753b92341b233b1020"
+    },
+    {
+      "file": "heldout-comparison-16.json",
+      "bytes": 41700,
+      "sha256": "2a15a3e12287bbe6cf78a21ffc109da63cb9cf16bca17a5d40e805e92347f4ee"
+    },
+    {
+      "file": "heldout-comparison-17.json",
+      "bytes": 42403,
+      "sha256": "345425145f4fea5009934910803906e39c0912ef395cd4546c64f7fa4b56aef5"
+    },
+    {
+      "file": "heldout-comparison-18.json",
+      "bytes": 39571,
+      "sha256": "720c4b6dcf472d58baef9f2123c90f2948e260b9ec2448a91bb8ba985c7eee78"
+    },
+    {
+      "file": "holdout-seal.json",
+      "bytes": 474,
+      "sha256": "776743ffac3e679e31415637a06c8996377eded498b41ea3a49b0c367f9fdb98"
+    },
+    {
+      "file": "holdout-distinctness.json",
+      "bytes": 1118,
+      "sha256": "552b2ded17270e518021d1398a4298119570d90af376f9bfed3783b3bd4562f9"
+    },
+    {
+      "file": "code-freeze.json",
+      "bytes": 20393,
+      "sha256": "ac800690585ef5bee1065a4111b879d19de1b357f56acfb972c1c2f799ae98d3"
+    }
+  ]
+}

@@ -1,0 +1,1582 @@
+[
+  {
+    "type": "candidate",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "b50dbcf3da52b5a305031a7e",
+      "planId": "0175b305d475d0c82b807f5b",
+      "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "T06",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 56.761,
+      "selectedCandidateId": "b50dbcf3da52b5a305031a7e",
+      "displayedIds": [
+        {
+          "id": "b50dbcf3da52b5a305031a7e",
+          "planId": "daa3212d75eaf983ed36668f"
+        },
+        {
+          "id": "7d61968e719de0744d2115ea",
+          "planId": "26218faca217634d0d044412"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "b50dbcf3da52b5a305031a7e",
+          "7d61968e719de0744d2115ea"
+        ],
+        "selectionHash": "61bc11918bb34efd4688afad1e6ec6ab727b162c20b7475d422d14bfe1eabf8d"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 40.466,
+      "selectedCandidateId": "b50dbcf3da52b5a305031a7e",
+      "displayedIds": [
+        {
+          "id": "b50dbcf3da52b5a305031a7e",
+          "planId": "daa3212d75eaf983ed36668f"
+        },
+        {
+          "id": "7d61968e719de0744d2115ea",
+          "planId": "26218faca217634d0d044412"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "b50dbcf3da52b5a305031a7e",
+          "7d61968e719de0744d2115ea"
+        ],
+        "selectionHash": "61bc11918bb34efd4688afad1e6ec6ab727b162c20b7475d422d14bfe1eabf8d"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "7d61968e719de0744d2115ea",
+      "planId": "26218faca217634d0d044412",
+      "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "b50dbcf3da52b5a305031a7e",
+      "planId": "daa3212d75eaf983ed36668f",
+      "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "7d61968e719de0744d2115ea",
+      "planId": "26218faca217634d0d044412",
+      "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "b50dbcf3da52b5a305031a7e",
+      "planId": "daa3212d75eaf983ed36668f",
+      "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 41,
+            "end": 42
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T06",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "46c6d51878533340ccf7341c50b4aba311b7effdae527684da9a6cf0e6d47d4a",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "T07",
+    "group": "targeted_regression",
+    "category": "因果のない隣接文",
+    "source": "私は手順書を読んだ。隣の部屋では誰かが電話していた。"
+  },
+  {
+    "type": "run",
+    "id": "T07",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 63.189,
+      "selectedCandidateId": "0b6f31cd9d1d72d81848ceb5",
+      "displayedIds": [
+        {
+          "id": "0b6f31cd9d1d72d81848ceb5",
+          "planId": "331c2dbb2baf091e9e5b7c84"
+        },
+        {
+          "id": "e41937dea553a502f8c252b9",
+          "planId": "80424273ec25f470e382556d"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "0b6f31cd9d1d72d81848ceb5",
+          "e41937dea553a502f8c252b9"
+        ],
+        "selectionHash": "e8818d18c790dcbb9e48ad199fa65a66b1980e03fb3e075a6219ab6c08a5bc65"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 39.507,
+      "selectedCandidateId": "0b6f31cd9d1d72d81848ceb5",
+      "displayedIds": [
+        {
+          "id": "0b6f31cd9d1d72d81848ceb5",
+          "planId": "331c2dbb2baf091e9e5b7c84"
+        },
+        {
+          "id": "e41937dea553a502f8c252b9",
+          "planId": "80424273ec25f470e382556d"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "0b6f31cd9d1d72d81848ceb5",
+          "e41937dea553a502f8c252b9"
+        ],
+        "selectionHash": "e8818d18c790dcbb9e48ad199fa65a66b1980e03fb3e075a6219ab6c08a5bc65"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "e41937dea553a502f8c252b9",
+      "planId": "80424273ec25f470e382556d",
+      "text": "俺は手順書を読んだ\n隣の部屋では誰かが電話していた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "0b6f31cd9d1d72d81848ceb5",
+      "planId": "331c2dbb2baf091e9e5b7c84",
+      "text": "俺は手順書を読んだからな\n隣の部屋では誰かが電話していた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-11+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "e41937dea553a502f8c252b9",
+      "planId": "80424273ec25f470e382556d",
+      "text": "俺は手順書を読んだ\n隣の部屋では誰かが電話していた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "0b6f31cd9d1d72d81848ceb5",
+      "planId": "331c2dbb2baf091e9e5b7c84",
+      "text": "俺は手順書を読んだからな\n隣の部屋では誰かが電話していた",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-11+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 10,
+        "end": 26
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T07",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "56afbdb7d3baae9aed319cadbf8870e72093c38492653720910eccf9f5f81d7b",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 10,
+        "end": 26
+      }
+    }
+  }
+]

@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-02T08:29:10.631Z",
+  "node": "v24.19.0",
+  "heapLimitBytes": 2348810240,
+  "sourceUnit": "私は電車を選んだ。私は速さを重視するからです。",
+  "sourceHash": "4bfd9352bd43a4fc4b18a2b0ceb7a222966ff2535964ce69ba4581f4423fefa2",
+  "sourceScalars": 4991,
+  "request": {
+    "source": "[repeated authored unit]",
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensity": 3,
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "composable-performance-review"
+  },
+  "codeHashesStart": {
+    "assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+    "bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+    "capabilities.js": "63f56bae2d9b5966d948bed1d0a9c5ecad4613d53e06f05046114d334fbeed27",
+    "construction-diagnostics.js": "2e48b6e5b2b6912052ebf2d1954d9fd6571f2e6f88d83dc83b2edb4c65d9ec0f",
+    "construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+    "constructions.js": "0e6f9b0d93abbdadd98069dac38f2d9d8191f83481d2aea3e91bd5bdeea79a82",
+    "creation.js": "7995e8220a832136a4efa7137d96d5743ccc025cf552564e22f2db815ad09082",
+    "dictionary.js": "c381f201d08299eca743cb318d15a12be57daf388fb9953aabdfbac09bdaeaf6",
+    "discourse-constructions.js": "44fa42e7261edf506b6f6e4f09acf010775642e5874c72895e0d77b9694311e5",
+    "engine.js": "efbf2caa7deec2fe8f8d39d839dacf7d223d57409de1f131fdb3242ccdb2b3d7",
+    "evaluation.js": "270ff007bfcdaef11431073f769f5081406f6d9374bc38142dcc1508a866581b",
+    "facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+    "grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+    "lock-compatibility.js": "158374688f91c8b433a461e48f1199e1bdab342deec26e7fdecdf5d094d40506",
+    "model-backend.js": "e6e03e3d0d4f99615bd7bf1af55b47960518d9dc3966c2ca33b854fde4930441",
+    "output-features.js": "573d1ebe444a2aa867e73fc4396714e6afb1549cff9ecc7ccb8b1d549df1386e",
+    "planning.js": "0c3ec92e5c98b5ab0006b8436169644a407cf7e9a737b75de05b07528e0dc2d7",
+    "quantities.js": "885d9f23a4565ec7bb519aaa731e2f2609ec6c89974735e4b8eb201abe73dee1",
+    "replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d",
+    "rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+    "rewrite-validation.js": "296b51df06c3ab1a7410fb130bd2d543adf1a0f75e5dbc20ace0b0a645df4ee7",
+    "rewrite.js": "a95d3e056fe572e38a54681f82d1779a506db028605b31a2961af6d11212dcf0",
+    "rhetoric-validation.js": "9a5a13bb958d7cf12bea0d535c7328e888cbc9f717d89ad16698e2933c108786",
+    "rhetoric.js": "1b65d93830f8eefa880d5dc046ef00b4fb6364d5ba8e911c3b55a2e223800c25",
+    "semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+    "series.js": "d149c880c2c7fe05a76d84d4224a1d83636137a92a18e17c4d88be4694e07b28",
+    "source.js": "6678c832880a00d05c96308ce820181efe781c2a82c31a6cb22cd3967d552db6",
+    "surface.js": "6814a43dbb25200553e056cfb63f6bb597aa9de6a291f870630278eeef2548a4",
+    "validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc"
+  },
+  "limits": {
+    "inputScalars": 5000,
+    "outputScalars": 12000
+  },
+  "method": "Real full-input GiNZA; warm one source unit, then time generation and independent proof separately. Mapping assertions verify every copied scalar and edited span in the full pool. Node/Python high-water RSS are separate peaks, not simultaneous. API rows use the existing benchmark-near-limit worker at intensity 2, seed rewrite-scope-benchmark-v1, with the production deadline/default heap in isolated serialized child processes.",
+  "runtime": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "startupMs": 1062.662,
+  "compileAssetsMs": 292.768,
+  "assetHash": "7d77d6b3f3563d5e77d819abd0d025d63619e4358ae7454da4e4d6220e12824c",
+  "parserMs": 2856.9,
+  "analysisHash": "d824aaca7acd7878dc85be53a50b32af88fb5d1b01001eed6f3d07c0e81596b9",
+  "tokens": 3472,
+  "sentences": 434,
+  "pythonMemory": {
+    "rssBytes": 688779264,
+    "hwmBytes": 691101696
+  },
+  "generationMs": 31451.569,
+  "poolCount": 8,
+  "constructionCount": 4,
+  "reasonFrames": [
+    217,
+    217,
+    217,
+    217
+  ],
+  "mappingCount": 7380,
+  "independentProofMs": 10458.584,
+  "displayedCount": 3,
+  "displayedOutputScalars": [
+    6945,
+    4992,
+    6075
+  ],
+  "nodeMaxRssBytes": 664506368,
+  "mappingPassed": true,
+  "api": [
+    {
+      "name": "composition-dense",
+      "sourceScalars": 4991,
+      "sourceHash": "4bfd9352bd43a4fc4b18a2b0ceb7a222966ff2535964ce69ba4581f4423fefa2",
+      "status": "failed",
+      "error": "DEADLINE_EXCEEDED",
+      "apiAssetsHash": "7d77d6b3f3563d5e77d819abd0d025d63619e4358ae7454da4e4d6220e12824c",
+      "apiDatasetId": "0ea43ed615a113cea0d1e907cf9a4b6d962e5b979b73048b519003e861721d86",
+      "startupMs": 2319.538,
+      "apiWallMs": 30049.721,
+      "coordinatorMs": 30000,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 27172.437
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 4991,
+          "ms": 2826.078
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 779833344,
+      "peakPythonRssBytes": 690847744,
+      "peakCombinedRssBytes": 1465761792,
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1"
+    },
+    {
+      "name": "repeated5000",
+      "sourceScalars": 5000,
+      "sourceHash": "3cccd863a567f19a017e67df54bed05b7947ff5c23153e0fadcc060b1da18ed7",
+      "status": "completed",
+      "apiAssetsHash": "7d77d6b3f3563d5e77d819abd0d025d63619e4358ae7454da4e4d6220e12824c",
+      "apiDatasetId": "0ea43ed615a113cea0d1e907cf9a4b6d962e5b979b73048b519003e861721d86",
+      "declaredEngineVersion": "222bef205d6bc44f41605e221e397ed61d5434c489680684e6334622a6a488c5",
+      "startupMs": 2292.763,
+      "apiWallMs": 17281.926,
+      "coordinatorMs": 17207,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 12421.735
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 828.678
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 5000,
+          "ms": 3952.278
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 845516800,
+      "peakPythonRssBytes": 724471808,
+      "peakCombinedRssBytes": 1540599808,
+      "selectedCount": 2,
+      "poolCount": 2,
+      "shortfallReason": "candidate_shortage",
+      "semanticHash": "0341a4478777833f8860a6af6e1d4a510bc05afa0246c94cb1ec59eb242c74d1",
+      "irHash": "61b8bfc79a49276c837a661b14a91243df4181765176fb1463e707846c6c4b96",
+      "poolLanguageHash": "93842227af3d7c573940148dbd3c34ee18c9e85ca2c1b0c7cc904f6210ce8b4d",
+      "candidates": [
+        {
+          "outputScalars": 5002,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 5003,
+          "nodes": 1,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "dba5354cf99ee7c711b968e4",
+          "db639b7781ef883c687958ab"
+        ],
+        "selectionHash": "f22a9b00dbd3908b18afc8321c4eccf1dc8311ef19e445323d871debedc326b2"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1"
+    },
+    {
+      "name": "authored-prose",
+      "sourceScalars": 4928,
+      "sourceHash": "4df817d1b8b0016cfff6a1f73e5fc9fffae0c3cd4860b3646a45a54bde5020ef",
+      "status": "completed",
+      "apiAssetsHash": "7d77d6b3f3563d5e77d819abd0d025d63619e4358ae7454da4e4d6220e12824c",
+      "apiDatasetId": "0ea43ed615a113cea0d1e907cf9a4b6d962e5b979b73048b519003e861721d86",
+      "declaredEngineVersion": "222bef205d6bc44f41605e221e397ed61d5434c489680684e6334622a6a488c5",
+      "startupMs": 2408.381,
+      "apiWallMs": 8498.945,
+      "coordinatorMs": 8414,
+      "stages": [
+        {
+          "stage": "engine",
+          "ms": 5026.195
+        },
+        {
+          "stage": "independent-proof",
+          "ms": 429.487
+        }
+      ],
+      "analyses": [
+        {
+          "scalars": 4928,
+          "ms": 2954.56
+        }
+      ],
+      "environment": {
+        "heapLimitBytes": 2348810240,
+        "execArgv": []
+      },
+      "maxRssBytes": 821235712,
+      "peakPythonRssBytes": 688922624,
+      "peakCombinedRssBytes": 1477836800,
+      "selectedCount": 3,
+      "poolCount": 3,
+      "shortfallReason": null,
+      "semanticHash": "f0a7a1aeef42a39d3a69e7f6b96d8fd64adae35d3ba1e30478b05c83464b083c",
+      "irHash": "b9d0ed5daddd436e755d84f6e20c364b6f0a462613acb44ecef22dc8526878e6",
+      "poolLanguageHash": "2bf8a0d7f8eea8e16c0ea15fa8deaad79b8c6a6340cfa5d0b8d72e2283428532",
+      "candidates": [
+        {
+          "outputScalars": 4817,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4816,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        },
+        {
+          "outputScalars": 4814,
+          "nodes": 337,
+          "checks": [
+            [
+              "V-span",
+              "pass"
+            ],
+            [
+              "V-coverage",
+              "pass"
+            ],
+            [
+              "V-plan",
+              "pass"
+            ],
+            [
+              "V-quantity",
+              "pass"
+            ],
+            [
+              "V-roles",
+              "pass"
+            ],
+            [
+              "V-polarity",
+              "pass"
+            ],
+            [
+              "V-temporal",
+              "pass"
+            ],
+            [
+              "V-attribution",
+              "pass"
+            ],
+            [
+              "V-rhetoric",
+              "pass"
+            ],
+            [
+              "V-rewrite",
+              "pass"
+            ],
+            [
+              "S-bounded-rewrite",
+              "pass"
+            ],
+            [
+              "S-realization",
+              "pass"
+            ]
+          ],
+          "status": "passed"
+        }
+      ],
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "268bfccdde200174f290f879",
+          "767f5855e955205dead536c5",
+          "4e0c3dd0f05add480dc60854"
+        ],
+        "selectionHash": "30b02f8fb4cf3d0474bc32370c87b568eb1d9fc0c0fc58c402db23aeba95fc3b"
+      },
+      "analysisIdPresent": true,
+      "publicPoolHidden": true,
+      "requestIntensity": 2,
+      "requestSeed": "rewrite-scope-benchmark-v1"
+    }
+  ],
+  "codeHashesEnd": {
+    "assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+    "bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+    "capabilities.js": "63f56bae2d9b5966d948bed1d0a9c5ecad4613d53e06f05046114d334fbeed27",
+    "construction-diagnostics.js": "2e48b6e5b2b6912052ebf2d1954d9fd6571f2e6f88d83dc83b2edb4c65d9ec0f",
+    "construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+    "constructions.js": "0e6f9b0d93abbdadd98069dac38f2d9d8191f83481d2aea3e91bd5bdeea79a82",
+    "creation.js": "7995e8220a832136a4efa7137d96d5743ccc025cf552564e22f2db815ad09082",
+    "dictionary.js": "c381f201d08299eca743cb318d15a12be57daf388fb9953aabdfbac09bdaeaf6",
+    "discourse-constructions.js": "44fa42e7261edf506b6f6e4f09acf010775642e5874c72895e0d77b9694311e5",
+    "engine.js": "efbf2caa7deec2fe8f8d39d839dacf7d223d57409de1f131fdb3242ccdb2b3d7",
+    "evaluation.js": "270ff007bfcdaef11431073f769f5081406f6d9374bc38142dcc1508a866581b",
+    "facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+    "grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+    "lock-compatibility.js": "158374688f91c8b433a461e48f1199e1bdab342deec26e7fdecdf5d094d40506",
+    "model-backend.js": "e6e03e3d0d4f99615bd7bf1af55b47960518d9dc3966c2ca33b854fde4930441",
+    "output-features.js": "573d1ebe444a2aa867e73fc4396714e6afb1549cff9ecc7ccb8b1d549df1386e",
+    "planning.js": "0c3ec92e5c98b5ab0006b8436169644a407cf7e9a737b75de05b07528e0dc2d7",
+    "quantities.js": "885d9f23a4565ec7bb519aaa731e2f2609ec6c89974735e4b8eb201abe73dee1",
+    "replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d",
+    "rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+    "rewrite-validation.js": "296b51df06c3ab1a7410fb130bd2d543adf1a0f75e5dbc20ace0b0a645df4ee7",
+    "rewrite.js": "a95d3e056fe572e38a54681f82d1779a506db028605b31a2961af6d11212dcf0",
+    "rhetoric-validation.js": "9a5a13bb958d7cf12bea0d535c7328e888cbc9f717d89ad16698e2933c108786",
+    "rhetoric.js": "1b65d93830f8eefa880d5dc046ef00b4fb6364d5ba8e911c3b55a2e223800c25",
+    "semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+    "series.js": "d149c880c2c7fe05a76d84d4224a1d83636137a92a18e17c4d88be4694e07b28",
+    "source.js": "6678c832880a00d05c96308ce820181efe781c2a82c31a6cb22cd3967d552db6",
+    "surface.js": "6814a43dbb25200553e056cfb63f6bb597aa9de6a291f870630278eeef2548a4",
+    "validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc"
+  },
+  "stableCode": true,
+  "finishedAt": "2026-10-02T08:31:02.185Z",
+  "passed": false
+}

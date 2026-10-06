@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-02T08:33:33.077Z",
+  "method": "Same real GiNZA source analysis and same compiled assets; isolated default-heap processes, one-unit warmup. Current dist is frozen snapshot. Timings include bounded verification inside engine, with independent proof timed separately. CPU profile samples summarized separately.",
+  "unit": "私は電車を選んだ。私は速さを重視するからです。",
+  "sourceScalars": 4991,
+  "sourceHash": "4bfd9352bd43a4fc4b18a2b0ceb7a222966ff2535964ce69ba4581f4423fefa2",
+  "analysisHash": "d824aaca7acd7878dc85be53a50b32af88fb5d1b01001eed6f3d07c0e81596b9",
+  "assetsHash": "7d77d6b3f3563d5e77d819abd0d025d63619e4358ae7454da4e4d6220e12824c",
+  "parserMs": 2876.711,
+  "runtime": {
+    "versions": {
+      "spacy": "3.8.16",
+      "ginza": "5.2.1",
+      "ja-ginza": "5.2.0",
+      "SudachiPy": "0.6.11",
+      "SudachiDict-core": "20260723",
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+  },
+  "workspace": "/tmp/buront-composable-compare-SZiJVp",
+  "rows": [
+    {
+      "label": "baseline24972be7",
+      "coreHashes": {
+        "assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+        "bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+        "capabilities.js": "63f56bae2d9b5966d948bed1d0a9c5ecad4613d53e06f05046114d334fbeed27",
+        "constructions.js": "5c94594cacf8bf9cab1ad67d3b9ddc0471121c93096098bc545166eb5f74527c",
+        "creation.js": "7995e8220a832136a4efa7137d96d5743ccc025cf552564e22f2db815ad09082",
+        "dictionary.js": "c381f201d08299eca743cb318d15a12be57daf388fb9953aabdfbac09bdaeaf6",
+        "discourse-constructions.js": "c79fceebb1ebbc9c794abdc6d7d86ae18cb4ae56c9011bc8a1c1d63a24cf2ffb",
+        "engine.js": "eed290f3744f650c79b98bccaabbc67457afba9ba720422e95be442ff75ae886",
+        "evaluation.js": "270ff007bfcdaef11431073f769f5081406f6d9374bc38142dcc1508a866581b",
+        "facts.js": "3f39900502b835e3ba82f6ccc01e7004a6c0f5828ef6a229dab118f5817012e6",
+        "grammar-scope.js": "56bf2255db62822464fd084e3dfdd4f8234bbe18b8960e55b392cd1e301765ff",
+        "lock-compatibility.js": "d2c56c88fe3f85eb2ce36eb3894524857f59d01bd80f5a9d72c5cd0e8f953c64",
+        "model-backend.js": "e6e03e3d0d4f99615bd7bf1af55b47960518d9dc3966c2ca33b854fde4930441",
+        "output-features.js": "573d1ebe444a2aa867e73fc4396714e6afb1549cff9ecc7ccb8b1d549df1386e",
+        "planning.js": "0c3ec92e5c98b5ab0006b8436169644a407cf7e9a737b75de05b07528e0dc2d7",
+        "quantities.js": "885d9f23a4565ec7bb519aaa731e2f2609ec6c89974735e4b8eb201abe73dee1",
+        "replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d",
+        "rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+        "rewrite-validation.js": "6a83681aa1f13655e2f56fe5f28395e3126028d7d5adf2d65a639811452a4272",
+        "rewrite.js": "a95d3e056fe572e38a54681f82d1779a506db028605b31a2961af6d11212dcf0",
+        "rhetoric-validation.js": "9a5a13bb958d7cf12bea0d535c7328e888cbc9f717d89ad16698e2933c108786",
+        "rhetoric.js": "1b65d93830f8eefa880d5dc046ef00b4fb6364d5ba8e911c3b55a2e223800c25",
+        "semantic.js": "de6237e53f0e4d1ee4b3543e969c944ff341f4adc34402df52ba1f262db0b350",
+        "series.js": "d149c880c2c7fe05a76d84d4224a1d83636137a92a18e17c4d88be4694e07b28",
+        "source.js": "6678c832880a00d05c96308ce820181efe781c2a82c31a6cb22cd3967d552db6",
+        "surface.js": "6814a43dbb25200553e056cfb63f6bb597aa9de6a291f870630278eeef2548a4",
+        "validator.js": "841e1fe294e386ce9bd2cb062588f395fcafcaa701347827abc6ef8662a996d3"
+      },
+      "wallMs": 30851.843,
+      "status": "ok",
+      "generationMs": 22215.594,
+      "independentProofMs": 6283.426,
+      "nodeMaxRssBytes": 657928192,
+      "pool": 6,
+      "constructions": 2,
+      "outputScalars": [
+        5858,
+        6078,
+        4989
+      ],
+      "selected": 3,
+      "allPoolPassed": true,
+      "profileTop": [
+        {
+          "function": "(garbage collector)",
+          "file": "",
+          "line": 0,
+          "hits": 3332
+        },
+        {
+          "function": "executor.executeQuery",
+          "file": "file://[baseline]/dist/packages/core/bounded-search.js",
+          "line": 37,
+          "hits": 2762
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 1350
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 1268
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 1249
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[baseline]/dist/packages/core/grammar-scope.js",
+          "line": 138,
+          "hits": 1020
+        },
+        {
+          "function": "search",
+          "file": "file://[root]/node_modules/minisearch/dist/cjs/index.cjs",
+          "line": 1281,
+          "hits": 810
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 798
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 619
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 603
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 601
+        },
+        {
+          "function": "hash",
+          "file": "file://[baseline]/dist/packages/core/source.js",
+          "line": 8,
+          "hits": 518
+        },
+        {
+          "function": "hash",
+          "file": "file://[baseline]/dist/packages/core/source.js",
+          "line": 8,
+          "hits": 489
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[baseline]/dist/packages/core/grammar-scope.js",
+          "line": 138,
+          "hits": 487
+        },
+        {
+          "function": "hash",
+          "file": "file://[baseline]/dist/packages/core/source.js",
+          "line": 8,
+          "hits": 485
+        },
+        {
+          "function": "add",
+          "file": "file://[root]/node_modules/minisearch/dist/cjs/index.cjs",
+          "line": 705,
+          "hits": 467
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[baseline]/dist/packages/core/grammar-scope.js",
+          "line": 138,
+          "hits": 447
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[baseline]/dist/packages/core/grammar-scope.js",
+          "line": 138,
+          "hits": 440
+        },
+        {
+          "function": "tokenize",
+          "file": "file://[baseline]/dist/packages/core/assets.js",
+          "line": 124,
+          "hits": 372
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 353
+        }
+      ],
+      "profileInclusive": {
+        "samples": 28008,
+        "assertivePredicate": 11190,
+        "constructionEditsConflict": 0,
+        "updateConstructionOutcomes": 0,
+        "validateConstruction": 11465,
+        "makeConstructionPlans": 2050,
+        "insideEnclosure": 3462,
+        "executeQuery": 2958,
+        "hash": 10306
+      }
+    },
+    {
+      "label": "current",
+      "coreHashes": {
+        "assets.js": "c7b74ecf76ec98ee69c0c1e6a1a811f2d2147c976956a74b3352bd0905bd46b1",
+        "bounded-search.js": "e1ee27f4b3b96bd20d153cc63f22bcaf9e5579f1f06e3873b4705b919f634b1e",
+        "capabilities.js": "63f56bae2d9b5966d948bed1d0a9c5ecad4613d53e06f05046114d334fbeed27",
+        "construction-diagnostics.js": "2e48b6e5b2b6912052ebf2d1954d9fd6571f2e6f88d83dc83b2edb4c65d9ec0f",
+        "construction-edits.js": "afa43c69de171c26902cfd7848659bade632ae98443c59a8c3f23e7937fc1048",
+        "constructions.js": "0e6f9b0d93abbdadd98069dac38f2d9d8191f83481d2aea3e91bd5bdeea79a82",
+        "creation.js": "7995e8220a832136a4efa7137d96d5743ccc025cf552564e22f2db815ad09082",
+        "dictionary.js": "c381f201d08299eca743cb318d15a12be57daf388fb9953aabdfbac09bdaeaf6",
+        "discourse-constructions.js": "44fa42e7261edf506b6f6e4f09acf010775642e5874c72895e0d77b9694311e5",
+        "engine.js": "efbf2caa7deec2fe8f8d39d839dacf7d223d57409de1f131fdb3242ccdb2b3d7",
+        "evaluation.js": "270ff007bfcdaef11431073f769f5081406f6d9374bc38142dcc1508a866581b",
+        "facts.js": "77ff0acf9a094e5fca0070dcdd97796fd6e51278a9388435ac0ad4bca3a5b0d1",
+        "grammar-scope.js": "8f179ccb11e91649fa49ebb549c93c720e7f6170e85427fcbc11d2322c5682c4",
+        "lock-compatibility.js": "158374688f91c8b433a461e48f1199e1bdab342deec26e7fdecdf5d094d40506",
+        "model-backend.js": "e6e03e3d0d4f99615bd7bf1af55b47960518d9dc3966c2ca33b854fde4930441",
+        "output-features.js": "573d1ebe444a2aa867e73fc4396714e6afb1549cff9ecc7ccb8b1d549df1386e",
+        "planning.js": "0c3ec92e5c98b5ab0006b8436169644a407cf7e9a737b75de05b07528e0dc2d7",
+        "quantities.js": "885d9f23a4565ec7bb519aaa731e2f2609ec6c89974735e4b8eb201abe73dee1",
+        "replay.js": "b7b5aa663b89f0130276ad72dcc2e8956f5dd82a85490194d9349d1f27a9568d",
+        "rewrite-rules.js": "9707ba4c82ed007a5f4ae64a772ac50c8d4483e0bac9b9ba8df2bfd075a369ef",
+        "rewrite-validation.js": "296b51df06c3ab1a7410fb130bd2d543adf1a0f75e5dbc20ace0b0a645df4ee7",
+        "rewrite.js": "a95d3e056fe572e38a54681f82d1779a506db028605b31a2961af6d11212dcf0",
+        "rhetoric-validation.js": "9a5a13bb958d7cf12bea0d535c7328e888cbc9f717d89ad16698e2933c108786",
+        "rhetoric.js": "1b65d93830f8eefa880d5dc046ef00b4fb6364d5ba8e911c3b55a2e223800c25",
+        "semantic.js": "4851228aff68f7b6c9c9041866aa57e6bb6cb6cd9aab99a6f83cf78e744d4d53",
+        "series.js": "d149c880c2c7fe05a76d84d4224a1d83636137a92a18e17c4d88be4694e07b28",
+        "source.js": "6678c832880a00d05c96308ce820181efe781c2a82c31a6cb22cd3967d552db6",
+        "surface.js": "6814a43dbb25200553e056cfb63f6bb597aa9de6a291f870630278eeef2548a4",
+        "validator.js": "f12e310ee5c085d2deace4e3d0b752a8c28a870b57dbfd8f20dd2ac0a58adacc"
+      },
+      "wallMs": 46487.511,
+      "status": "ok",
+      "generationMs": 33024.134,
+      "independentProofMs": 10582.77,
+      "nodeMaxRssBytes": 664354816,
+      "pool": 8,
+      "constructions": 4,
+      "outputScalars": [
+        5857,
+        6078,
+        4989
+      ],
+      "selected": 3,
+      "allPoolPassed": true,
+      "profileTop": [
+        {
+          "function": "(garbage collector)",
+          "file": "",
+          "line": 0,
+          "hits": 5843
+        },
+        {
+          "function": "executor.executeQuery",
+          "file": "file://[snapshot]/dist/packages/core/bounded-search.js",
+          "line": 37,
+          "hits": 3622
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 1697
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 1626
+        },
+        {
+          "function": "Hash",
+          "file": "node:internal/crypto/hash",
+          "line": 97,
+          "hits": 1599
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 1197
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 1155
+        },
+        {
+          "function": "search",
+          "file": "file://[root]/node_modules/minisearch/dist/cjs/index.cjs",
+          "line": 1281,
+          "hits": 1142
+        },
+        {
+          "function": "digest",
+          "file": "node:internal/crypto/hash",
+          "line": 163,
+          "hits": 1103
+        },
+        {
+          "function": "hash",
+          "file": "file://[snapshot]/dist/packages/core/source.js",
+          "line": 8,
+          "hits": 987
+        },
+        {
+          "function": "hash",
+          "file": "file://[snapshot]/dist/packages/core/source.js",
+          "line": 8,
+          "hits": 962
+        },
+        {
+          "function": "hash",
+          "file": "file://[snapshot]/dist/packages/core/source.js",
+          "line": 8,
+          "hits": 924
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[snapshot]/dist/packages/core/grammar-scope.js",
+          "line": 144,
+          "hits": 869
+        },
+        {
+          "function": "update",
+          "file": "node:internal/crypto/hash",
+          "line": 145,
+          "hits": 659
+        },
+        {
+          "function": "update",
+          "file": "node:internal/crypto/hash",
+          "line": 145,
+          "hits": 638
+        },
+        {
+          "function": "update",
+          "file": "node:internal/crypto/hash",
+          "line": 145,
+          "hits": 635
+        },
+        {
+          "function": "add",
+          "file": "file://[root]/node_modules/minisearch/dist/cjs/index.cjs",
+          "line": 705,
+          "hits": 611
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[snapshot]/dist/packages/core/grammar-scope.js",
+          "line": 144,
+          "hits": 513
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[snapshot]/dist/packages/core/grammar-scope.js",
+          "line": 144,
+          "hits": 482
+        },
+        {
+          "function": "insideEnclosure",
+          "file": "file://[snapshot]/dist/packages/core/grammar-scope.js",
+          "line": 144,
+          "hits": 449
+        }
+      ],
+      "profileInclusive": {
+        "samples": 42204,
+        "assertivePredicate": 16703,
+        "constructionEditsConflict": 186,
+        "updateConstructionOutcomes": 3,
+        "validateConstruction": 21089,
+        "makeConstructionPlans": 1713,
+        "insideEnclosure": 5154,
+        "executeQuery": 3893,
+        "hash": 15028
+      }
+    }
+  ],
+  "finishedAt": "2026-10-02T08:34:50.485Z"
+}

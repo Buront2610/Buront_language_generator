@@ -1,0 +1,1504 @@
+[
+  {
+    "type": "candidate",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "0b14f9d6f02ba53c1a81bfd7",
+      "planId": "e6e2f0dbcc9e94616d7054da",
+      "text": "この方法は便利だからな\nだが速さとスピードが不足している",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 15
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 9,
+            "end": 12
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 9
+              },
+              "text": "この方法は便利だ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 9,
+                "end": 22
+              },
+              "text": "しかし、速度が不足している",
+              "tokenIds": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 9,
+                "end": 12
+              },
+              "text": "しかし",
+              "tokenIds": [
+                6
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "不足",
+              "tokenIds": [
+                10
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 9
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              {
+                "role": "contrast",
+                "span": {
+                  "start": 9,
+                  "end": 22
+                },
+                "tokenIds": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 6,
+                "span": {
+                  "start": 9,
+                  "end": 12
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 10,
+                "span": {
+                  "start": 16,
+                  "end": 18
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 10,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "ongoing",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "ongoing",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 13,
+            "end": 15
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "0f194a399733fe30ff06e718",
+      "planId": "00b542bb7b66b01f4644a4d3",
+      "text": "この方法は便利だ\nだが速度が不足している",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 9,
+            "end": 12
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 9
+              },
+              "text": "この方法は便利だ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 9,
+                "end": 22
+              },
+              "text": "しかし、速度が不足している",
+              "tokenIds": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 9,
+                "end": 12
+              },
+              "text": "しかし",
+              "tokenIds": [
+                6
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 16,
+                "end": 18
+              },
+              "text": "不足",
+              "tokenIds": [
+                10
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 9
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              {
+                "role": "contrast",
+                "span": {
+                  "start": 9,
+                  "end": 22
+                },
+                "tokenIds": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 6,
+                "span": {
+                  "start": 9,
+                  "end": 12
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 10,
+                "span": {
+                  "start": 16,
+                  "end": 18
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 10,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "ongoing",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "ongoing",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "6912a14169669db864a22787",
+      "planId": "c7a0fc8576bd3bd73a9d2547",
+      "text": "この方法は便利だ\nしかし速さとスピードが不足している",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 15
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 13,
+            "end": 15
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "06753cbdb476f4f1a6030a04",
+      "planId": "fbd8e041dcd41db84cded3ca",
+      "text": "この方法は便利だからな\nしかし速さとスピードが不足している",
+      "operator": "REWRITE",
+      "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-comma-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 15
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 13,
+            "end": 15
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "1d90365e5339c5b8efc6f8ba",
+      "planId": "a369f67cf47012843e807720",
+      "text": "この方法は便利だ\nしかし速度が不足している",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 22,
+            "end": 23
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 9,
+        "end": 23
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 9,
+        "end": 23
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 9,
+        "end": 23
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 9,
+        "end": 23
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 9,
+        "end": 23
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 9,
+        "end": 23
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": "50e5bc85b21f6ef054ef7019",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": "e6e2f0dbcc9e94616d7054da",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": "00b542bb7b66b01f4644a4d3",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": "23fc9baaf1686506816cc2e3",
+      "planId": "50e5bc85b21f6ef054ef7019",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": "23fc9baaf1686506816cc2e3",
+      "planId": "50e5bc85b21f6ef054ef7019",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": "0b14f9d6f02ba53c1a81bfd7",
+      "planId": "e6e2f0dbcc9e94616d7054da",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": "0b14f9d6f02ba53c1a81bfd7",
+      "planId": "e6e2f0dbcc9e94616d7054da",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": "0f194a399733fe30ff06e718",
+      "planId": "00b542bb7b66b01f4644a4d3",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C15",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "51d6f07543f0f46844b7a6b261f4949b811e26947d73c4767d2fcb32ce3a150c",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": "0f194a399733fe30ff06e718",
+      "planId": "00b542bb7b66b01f4644a4d3",
+      "sourceSpan": {
+        "start": 9,
+        "end": 12
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "input",
+    "id": "C16",
+    "group": "controlled_diagnostic",
+    "category": "contrast / compound connective",
+    "source": "この方法は便利だ。しかしながら、速度が不足している。"
+  },
+  {
+    "type": "run",
+    "id": "C16",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 67.636,
+      "selectedCandidateId": "c393a19b490db900db90a37c",
+      "displayedIds": [
+        {
+          "id": "c393a19b490db900db90a37c",
+          "planId": "57c8052686aa785adc78b08b"
+        },
+        {
+          "id": "61843766081f27af759613fc",
+          "planId": "cefb6c70d9f9088ae813a844"
+        },
+        {
+          "id": "1983b4f2cff8b588e92f3d73",
+          "planId": "7dbafc407b21de044c217471"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "c393a19b490db900db90a37c",
+          "61843766081f27af759613fc",
+          "1983b4f2cff8b588e92f3d73"
+        ],
+        "selectionHash": "1da98aafe094271908b11b20b8ff58cbf072ccbaf9e5d86df1ba8d8cc17e4ee5"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 68.991,
+      "selectedCandidateId": "c393a19b490db900db90a37c",
+      "displayedIds": [
+        {
+          "id": "c393a19b490db900db90a37c",
+          "planId": "57c8052686aa785adc78b08b"
+        },
+        {
+          "id": "61843766081f27af759613fc",
+          "planId": "cefb6c70d9f9088ae813a844"
+        },
+        {
+          "id": "1983b4f2cff8b588e92f3d73",
+          "planId": "7dbafc407b21de044c217471"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "c393a19b490db900db90a37c",
+          "61843766081f27af759613fc",
+          "1983b4f2cff8b588e92f3d73"
+        ],
+        "selectionHash": "1da98aafe094271908b11b20b8ff58cbf072ccbaf9e5d86df1ba8d8cc17e4ee5"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C16",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "c393a19b490db900db90a37c",
+      "planId": "57c8052686aa785adc78b08b",
+      "text": "この方法は便利だ\nしかしながら速さとスピードが不足している",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 18
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 16,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

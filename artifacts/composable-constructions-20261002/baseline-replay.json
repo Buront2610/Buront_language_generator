@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-02T08:23:18.470787+00:00",
+  "originalCasesSha256": "8e2826176b06d2274241160582c485972e098aae75db47c7c4069912fc629828",
+  "regressionCasesSha256": "fad4884e18244e282ab7a3b7659a836daf12b2c399a4dea0e4f61d97398277b8",
+  "sameCasesAndOrder": true,
+  "sameSettings": true,
+  "baselineMatchesPriorReportAll35AtBothIntensities": true,
+  "baselineRevision": "24972be7eab0530f7c1e895d4912dca7cc258209",
+  "baselineGitTree": "609dc92de5603392127c35c8bcf410ead257f99d"
+}

@@ -1,0 +1,6 @@
+{
+  "authoredAt": "2026-10-02T08:15:14.752737+00:00",
+  "heldoutFileSha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69",
+  "count": 12,
+  "protocol": "Sealed before final implementation; evaluator has inspected baseline implementation but does not share held-out sources or outputs with implementation workers until frozen-code evaluation. This is a small manually authored holdout from tuning, not a blinded natural corpus or human quality test."
+}

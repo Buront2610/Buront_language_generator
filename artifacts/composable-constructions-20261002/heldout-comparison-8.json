@@ -1,0 +1,1573 @@
+[
+  {
+    "type": "candidate",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "ad1bed6345b7796468994990",
+      "planId": "c7fe3c7c6c5678db0fdf7976",
+      "text": "大したことはしていない\n倉庫から道具を外へ運んだだけだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "4c1ca450228d8a47bcf2131d",
+      "planId": "2fd6cd3c05820978ae15cec7",
+      "text": "大したことはしていないからな\n倉庫から道具を外へ運んだだけだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "b7c0ea9d57a4e0b37f301b8b",
+      "planId": "6f822fa3273f78548cfde828",
+      "text": "それほどでもない\n倉庫から道具を外へ運んだだけだ",
+      "operator": "CONSTRUCTION",
+      "family": "modest-achievement-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "modest-achievement",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 11
+          },
+          "from": "大したことはしていない",
+          "to": "それほどでもない",
+          "bindings": [
+            {
+              "slot": "modesty",
+              "span": {
+                "start": 0,
+                "end": 11
+              },
+              "text": "大したことはしていない",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "achievement",
+              "span": {
+                "start": 12,
+                "end": 28
+              },
+              "text": "倉庫から道具を外へ運んだだけだ。",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 6,
+                "end": 7
+              },
+              "text": "し",
+              "tokenIds": [
+                3
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "role": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 28
+                },
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "predicate",
+                "tokenId": 3,
+                "span": {
+                  "start": 6,
+                  "end": 7
+                }
+              },
+              {
+                "role": "past",
+                "tokenId": 15,
+                "span": {
+                  "start": 23,
+                  "end": 24
+                }
+              },
+              {
+                "role": "limit",
+                "tokenId": 16,
+                "span": {
+                  "start": 24,
+                  "end": 26
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 17,
+                "span": {
+                  "start": 26,
+                  "end": 27
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 14,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "ad1bed6345b7796468994990",
+      "planId": "c7fe3c7c6c5678db0fdf7976",
+      "text": "大したことはしていない\n倉庫から道具を外へ運んだだけだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "4c1ca450228d8a47bcf2131d",
+      "planId": "2fd6cd3c05820978ae15cec7",
+      "text": "大したことはしていないからな\n倉庫から道具を外へ運んだだけだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 27,
+            "end": 28
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 28
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": "6f822fa3273f78548cfde828",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": "2fd6cd3c05820978ae15cec7",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-insistence-16",
+      "sourceSpan": {
+        "start": 9,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": "b7c0ea9d57a4e0b37f301b8b",
+      "planId": "6f822fa3273f78548cfde828",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "F03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "67cfa068d1bc6341680c981b3eb807917efe70140b66bb89662abbbf6aabad5d",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": "b7c0ea9d57a4e0b37f301b8b",
+      "planId": "6f822fa3273f78548cfde828",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "input",
+    "id": "F04",
+    "group": "final_held_out",
+    "category": "new completed deed and object",
+    "source": "大したことはしていない。余った板で小さな棚を作っただけだ。"
+  },
+  {
+    "type": "run",
+    "id": "F04",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 69.733,
+      "selectedCandidateId": "5ea88c48815e8e5ac975514a",
+      "displayedIds": [
+        {
+          "id": "5ea88c48815e8e5ac975514a",
+          "planId": "21d03809f57fb9f5a919860a"
+        },
+        {
+          "id": "8f728170f673380908380a27",
+          "planId": "542fdce6e8ebad6a45b2a172"
+        },
+        {
+          "id": "880a8a212a31b54b2954b8ce",
+          "planId": "ea1374c5e4a4afe14e6d8c9d"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "5ea88c48815e8e5ac975514a",
+          "8f728170f673380908380a27",
+          "880a8a212a31b54b2954b8ce"
+        ],
+        "selectionHash": "fc52662df9c6a1011afc7562bc42b211e688049bf5dc57817a917c10f8833bb4"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 86.629,
+      "selectedCandidateId": "5ea88c48815e8e5ac975514a",
+      "displayedIds": [
+        {
+          "id": "5ea88c48815e8e5ac975514a",
+          "planId": "5910fdf23e8225d301eb18ad"
+        },
+        {
+          "id": "8f728170f673380908380a27",
+          "planId": "542fdce6e8ebad6a45b2a172"
+        },
+        {
+          "id": "880a8a212a31b54b2954b8ce",
+          "planId": "ea1374c5e4a4afe14e6d8c9d"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "5ea88c48815e8e5ac975514a",
+          "8f728170f673380908380a27",
+          "880a8a212a31b54b2954b8ce"
+        ],
+        "selectionHash": "03a7059b8a309130e25bb59c85d24828f21649f058ffa43bf43f1eef5ec568a2"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F04",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "5ea88c48815e8e5ac975514a",
+      "planId": "21d03809f57fb9f5a919860a",
+      "text": "それほどでもない\n余った板で小さな棚を作っただけだ",
+      "operator": "CONSTRUCTION",
+      "family": "modest-achievement-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "modest-achievement",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 11
+          },
+          "from": "大したことはしていない",
+          "to": "それほどでもない",
+          "bindings": [
+            {
+              "slot": "modesty",
+              "span": {
+                "start": 0,
+                "end": 11
+              },
+              "text": "大したことはしていない",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "achievement",
+              "span": {
+                "start": 12,
+                "end": 29
+              },
+              "text": "余った板で小さな棚を作っただけだ。",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 6,
+                "end": 7
+              },
+              "text": "し",
+              "tokenIds": [
+                3
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F04",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "880a8a212a31b54b2954b8ce",
+      "planId": "ea1374c5e4a4afe14e6d8c9d",
+      "text": "大したことはしていない\n余った板で小さな棚を作っただけだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F04",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "8f728170f673380908380a27",
+      "planId": "542fdce6e8ebad6a45b2a172",
+      "text": "大したことはしていないからな\n余った板で小さな棚を作っただけだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "F04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "5ea88c48815e8e5ac975514a",
+      "planId": "5910fdf23e8225d301eb18ad",
+      "text": "それほどでもない\n余った板で小さな棚を作っただけだ",
+      "operator": "CONSTRUCTION",
+      "family": "modest-achievement-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "clause_structure"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 28,
+            "end": 29
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "clause_structure",
+          "ruleId": null,
+          "constructionId": "modest-achievement",
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 11
+          },
+          "from": "大したことはしていない",
+          "to": "それほどでもない",
+          "bindings": [
+            {
+              "slot": "modesty",
+              "span": {
+                "start": 0,
+                "end": 11
+              },
+              "text": "大したことはしていない",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "slot": "achievement",
+              "span": {
+                "start": 12,
+                "end": 29
+              },
+              "text": "余った板で小さな棚を作っただけだ。",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 6,
+                "end": 7
+              },
+              "text": "し",
+              "tokenIds": [
+                3
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "modest-achievement",
+            "factId": "fact-0",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "modesty",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              },
+              {
+                "role": "achievement",
+                "span": {
+                  "start": 12,
+                  "end": 29
+                },
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "predicate",
+                "tokenId": 3,
+                "span": {
+                  "start": 6,
+                  "end": 7
+                }
+              },
+              {
+                "role": "past",
+                "tokenId": 16,
+                "span": {
+                  "start": 24,
+                  "end": 25
+                }
+              },
+              {
+                "role": "limit",
+                "tokenId": 17,
+                "span": {
+                  "start": 25,
+                  "end": 27
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 18,
+                "span": {
+                  "start": 27,
+                  "end": 28
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 8,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 15,
+                "factId": "fact-2",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "5d4d2ba77c8e49ca607ef6a622aac6137785e96ef59e5e1213c613d196f89013",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01690_01eabacc0c5882f8_5672"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "modest-achievement"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

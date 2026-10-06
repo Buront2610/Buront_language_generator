@@ -25,7 +25,8 @@
     "release:bundle": "node scripts/package-release.js",
     "replay": "node dist/scripts/v1/replay.js",
     "assets": "node dist/scripts/v1/assets-command.js",
-    "train:preferences": ".venv/Scripts/python.exe services/japanese-analysis/train_preferences.py",
+    "prepare:preferences": "node scripts/prepare-preferences.js",
+    "train:preferences": "node scripts/train-preferences.js",
     "evaluate:audit": "node scripts/evaluate-audit-fixes.cjs",
     "evaluate:style": "node dist/scripts/v1/audit-style.js",
     "evaluate:constructions": "npm run build:engine && node scripts/evaluate-construction-repair.js"

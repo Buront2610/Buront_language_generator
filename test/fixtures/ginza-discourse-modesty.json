@@ -1,0 +1,477 @@
+{
+  "capturedAt": "2026-10-02T04:46:15.803Z",
+  "command": "node scripts/capture-discourse-fixtures.js",
+  "cases": [
+    {
+      "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+      "analysis": {
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+        "tokens": [
+          {
+            "id": 0,
+            "text": "大した",
+            "lemma": "大した",
+            "reading": "タイシタ",
+            "pos": "ADJ",
+            "tag": "連体詞",
+            "dep": "amod",
+            "head": 1,
+            "span": {
+              "start": 0,
+              "end": 3
+            },
+            "morphology": [
+              "Reading=タイシタ"
+            ]
+          },
+          {
+            "id": 1,
+            "text": "こと",
+            "lemma": "こと",
+            "reading": "コト",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "nsubj",
+            "head": 3,
+            "span": {
+              "start": 3,
+              "end": 5
+            },
+            "morphology": [
+              "Reading=コト"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "は",
+            "lemma": "は",
+            "reading": "ハ",
+            "pos": "ADP",
+            "tag": "助詞-係助詞",
+            "dep": "case",
+            "head": 1,
+            "span": {
+              "start": 5,
+              "end": 6
+            },
+            "morphology": [
+              "Reading=ハ"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "し",
+            "lemma": "する",
+            "reading": "シ",
+            "pos": "VERB",
+            "tag": "動詞-非自立可能",
+            "dep": "ROOT",
+            "head": 3,
+            "span": {
+              "start": 6,
+              "end": 7
+            },
+            "morphology": [
+              "Inflection=サ行変格;連用形-一般",
+              "Reading=シ"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "て",
+            "lemma": "て",
+            "reading": "テ",
+            "pos": "SCONJ",
+            "tag": "助詞-接続助詞",
+            "dep": "mark",
+            "head": 3,
+            "span": {
+              "start": 7,
+              "end": 8
+            },
+            "morphology": [
+              "Reading=テ"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "い",
+            "lemma": "いる",
+            "reading": "イ",
+            "pos": "VERB",
+            "tag": "動詞-非自立可能",
+            "dep": "fixed",
+            "head": 4,
+            "span": {
+              "start": 8,
+              "end": 9
+            },
+            "morphology": [
+              "Inflection=上一段-ア行;未然形-一般",
+              "Reading=イ"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "ない",
+            "lemma": "ない",
+            "reading": "ナイ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 3,
+            "span": {
+              "start": 9,
+              "end": 11
+            },
+            "morphology": [
+              "Inflection=助動詞-ナイ;終止形-一般",
+              "Reading=ナイ"
+            ]
+          },
+          {
+            "id": 7,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 3,
+            "span": {
+              "start": 11,
+              "end": 12
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          },
+          {
+            "id": 8,
+            "text": "故障",
+            "lemma": "故障",
+            "reading": "コショウ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-サ変可能",
+            "dep": "nmod",
+            "head": 10,
+            "span": {
+              "start": 12,
+              "end": 14
+            },
+            "morphology": [
+              "Reading=コショウ"
+            ]
+          },
+          {
+            "id": 9,
+            "text": "の",
+            "lemma": "の",
+            "reading": "ノ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 8,
+            "span": {
+              "start": 14,
+              "end": 15
+            },
+            "morphology": [
+              "Reading=ノ"
+            ]
+          },
+          {
+            "id": 10,
+            "text": "原因",
+            "lemma": "原因",
+            "reading": "ゲンイン",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-サ変可能",
+            "dep": "obj",
+            "head": 12,
+            "span": {
+              "start": 15,
+              "end": 17
+            },
+            "morphology": [
+              "Reading=ゲンイン"
+            ]
+          },
+          {
+            "id": 11,
+            "text": "を",
+            "lemma": "を",
+            "reading": "ヲ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 10,
+            "span": {
+              "start": 17,
+              "end": 18
+            },
+            "morphology": [
+              "Reading=ヲ"
+            ]
+          },
+          {
+            "id": 12,
+            "text": "見つけ",
+            "lemma": "見つける",
+            "reading": "ミツケ",
+            "pos": "VERB",
+            "tag": "動詞-一般",
+            "dep": "advcl",
+            "head": 21,
+            "span": {
+              "start": 18,
+              "end": 21
+            },
+            "morphology": [
+              "Inflection=下一段-カ行;連用形-一般",
+              "Reading=ミツケ"
+            ]
+          },
+          {
+            "id": 13,
+            "text": "て",
+            "lemma": "て",
+            "reading": "テ",
+            "pos": "SCONJ",
+            "tag": "助詞-接続助詞",
+            "dep": "mark",
+            "head": 12,
+            "span": {
+              "start": 21,
+              "end": 22
+            },
+            "morphology": [
+              "Reading=テ"
+            ]
+          },
+          {
+            "id": 14,
+            "text": "、",
+            "lemma": "、",
+            "reading": "、",
+            "pos": "PUNCT",
+            "tag": "補助記号-読点",
+            "dep": "punct",
+            "head": 12,
+            "span": {
+              "start": 22,
+              "end": 23
+            },
+            "morphology": [
+              "Reading=、"
+            ]
+          },
+          {
+            "id": 15,
+            "text": "止まっ",
+            "lemma": "止まる",
+            "reading": "トマッ",
+            "pos": "VERB",
+            "tag": "動詞-一般",
+            "dep": "acl",
+            "head": 19,
+            "span": {
+              "start": 23,
+              "end": 26
+            },
+            "morphology": [
+              "Inflection=五段-ラ行;連用形-促音便",
+              "Reading=トマッ"
+            ]
+          },
+          {
+            "id": 16,
+            "text": "て",
+            "lemma": "て",
+            "reading": "テ",
+            "pos": "SCONJ",
+            "tag": "助詞-接続助詞",
+            "dep": "mark",
+            "head": 15,
+            "span": {
+              "start": 26,
+              "end": 27
+            },
+            "morphology": [
+              "Reading=テ"
+            ]
+          },
+          {
+            "id": 17,
+            "text": "い",
+            "lemma": "いる",
+            "reading": "イ",
+            "pos": "VERB",
+            "tag": "動詞-非自立可能",
+            "dep": "fixed",
+            "head": 16,
+            "span": {
+              "start": 27,
+              "end": 28
+            },
+            "morphology": [
+              "Inflection=上一段-ア行;連用形-一般",
+              "Reading=イ"
+            ]
+          },
+          {
+            "id": 18,
+            "text": "た",
+            "lemma": "た",
+            "reading": "タ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 15,
+            "span": {
+              "start": 28,
+              "end": 29
+            },
+            "morphology": [
+              "Inflection=助動詞-タ;連体形-一般",
+              "Reading=タ"
+            ]
+          },
+          {
+            "id": 19,
+            "text": "機械",
+            "lemma": "機械",
+            "reading": "キカイ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "obj",
+            "head": 21,
+            "span": {
+              "start": 29,
+              "end": 31
+            },
+            "morphology": [
+              "Reading=キカイ"
+            ]
+          },
+          {
+            "id": 20,
+            "text": "を",
+            "lemma": "を",
+            "reading": "ヲ",
+            "pos": "ADP",
+            "tag": "助詞-格助詞",
+            "dep": "case",
+            "head": 19,
+            "span": {
+              "start": 31,
+              "end": 32
+            },
+            "morphology": [
+              "Reading=ヲ"
+            ]
+          },
+          {
+            "id": 21,
+            "text": "動かし",
+            "lemma": "動かす",
+            "reading": "ウゴカシ",
+            "pos": "VERB",
+            "tag": "動詞-一般",
+            "dep": "ROOT",
+            "head": 21,
+            "span": {
+              "start": 32,
+              "end": 35
+            },
+            "morphology": [
+              "Inflection=五段-サ行;連用形-一般",
+              "Reading=ウゴカシ"
+            ]
+          },
+          {
+            "id": 22,
+            "text": "た",
+            "lemma": "た",
+            "reading": "タ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 21,
+            "span": {
+              "start": 35,
+              "end": 36
+            },
+            "morphology": [
+              "Inflection=助動詞-タ;連体形-一般",
+              "Reading=タ"
+            ]
+          },
+          {
+            "id": 23,
+            "text": "だけ",
+            "lemma": "だけ",
+            "reading": "ダケ",
+            "pos": "PART",
+            "tag": "助詞-副助詞",
+            "dep": "mark",
+            "head": 21,
+            "span": {
+              "start": 36,
+              "end": 38
+            },
+            "morphology": [
+              "Reading=ダケ"
+            ]
+          },
+          {
+            "id": 24,
+            "text": "だ",
+            "lemma": "だ",
+            "reading": "ダ",
+            "pos": "AUX",
+            "tag": "助動詞",
+            "dep": "aux",
+            "head": 21,
+            "span": {
+              "start": 38,
+              "end": 39
+            },
+            "morphology": [
+              "Inflection=助動詞-ダ;終止形-一般",
+              "Reading=ダ"
+            ]
+          },
+          {
+            "id": 25,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 21,
+            "span": {
+              "start": 39,
+              "end": 40
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          }
+        ],
+        "sentences": [
+          {
+            "start": 0,
+            "end": 12
+          },
+          {
+            "start": 12,
+            "end": 40
+          }
+        ],
+        "warnings": []
+      }
+    }
+  ]
+}

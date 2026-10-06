@@ -1,0 +1,4055 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-02T08:43:14.531Z",
+  "method": "Same-asset, same-parser before/after audit. Regression, controlled diagnostic and sealed one-shot held-out cases reported separately. Source parsing and bounded proof are not human quality evaluation.",
+  "suites": {
+    "regression": {
+      "evaluationRole": "regression",
+      "controlled": {
+        "sameDataset": true,
+        "sameAssetBytes": true,
+        "sameInputs": true,
+        "sameSettings": true,
+        "sameParser": true,
+        "stableEngines": true,
+        "sameCasesOrder": true,
+        "sameSourceAnalyses": true
+      },
+      "caseArtifactFiles": {
+        "N01": [
+          "regression-comparison-1.json"
+        ],
+        "N02": [
+          "regression-comparison-1.json",
+          "regression-comparison-2.json"
+        ],
+        "N03": [
+          "regression-comparison-2.json",
+          "regression-comparison-3.json",
+          "regression-comparison-4.json"
+        ],
+        "N04": [
+          "regression-comparison-4.json",
+          "regression-comparison-5.json",
+          "regression-comparison-6.json",
+          "regression-comparison-7.json"
+        ],
+        "N05": [
+          "regression-comparison-7.json",
+          "regression-comparison-8.json"
+        ],
+        "N06": [
+          "regression-comparison-8.json",
+          "regression-comparison-9.json"
+        ],
+        "N07": [
+          "regression-comparison-9.json",
+          "regression-comparison-10.json"
+        ],
+        "N08": [
+          "regression-comparison-10.json",
+          "regression-comparison-11.json"
+        ],
+        "N09": [
+          "regression-comparison-11.json"
+        ],
+        "N10": [
+          "regression-comparison-11.json",
+          "regression-comparison-12.json"
+        ],
+        "N11": [
+          "regression-comparison-12.json",
+          "regression-comparison-13.json"
+        ],
+        "N12": [
+          "regression-comparison-13.json",
+          "regression-comparison-14.json"
+        ],
+        "N13": [
+          "regression-comparison-14.json"
+        ],
+        "N14": [
+          "regression-comparison-14.json",
+          "regression-comparison-15.json"
+        ],
+        "N15": [
+          "regression-comparison-15.json",
+          "regression-comparison-16.json",
+          "regression-comparison-17.json"
+        ],
+        "N16": [
+          "regression-comparison-17.json"
+        ],
+        "P01": [
+          "regression-comparison-17.json",
+          "regression-comparison-18.json"
+        ],
+        "P02": [
+          "regression-comparison-18.json",
+          "regression-comparison-19.json"
+        ],
+        "P03": [
+          "regression-comparison-19.json",
+          "regression-comparison-20.json",
+          "regression-comparison-21.json"
+        ],
+        "B01": [
+          "regression-comparison-21.json"
+        ],
+        "B02": [
+          "regression-comparison-21.json"
+        ],
+        "B03": [
+          "regression-comparison-21.json"
+        ],
+        "T01": [
+          "regression-comparison-21.json",
+          "regression-comparison-22.json",
+          "regression-comparison-23.json"
+        ],
+        "T02": [
+          "regression-comparison-23.json",
+          "regression-comparison-24.json",
+          "regression-comparison-25.json"
+        ],
+        "T03": [
+          "regression-comparison-25.json",
+          "regression-comparison-26.json",
+          "regression-comparison-27.json"
+        ],
+        "T04": [
+          "regression-comparison-27.json",
+          "regression-comparison-28.json",
+          "regression-comparison-29.json"
+        ],
+        "T05": [
+          "regression-comparison-29.json",
+          "regression-comparison-30.json"
+        ],
+        "T06": [
+          "regression-comparison-30.json",
+          "regression-comparison-31.json"
+        ],
+        "T07": [
+          "regression-comparison-31.json",
+          "regression-comparison-32.json"
+        ],
+        "T08": [
+          "regression-comparison-32.json",
+          "regression-comparison-33.json"
+        ],
+        "T09": [
+          "regression-comparison-33.json",
+          "regression-comparison-34.json"
+        ],
+        "T10": [
+          "regression-comparison-34.json",
+          "regression-comparison-35.json"
+        ],
+        "T11": [
+          "regression-comparison-35.json"
+        ],
+        "T12": [
+          "regression-comparison-35.json",
+          "regression-comparison-36.json"
+        ],
+        "T13": [
+          "regression-comparison-36.json",
+          "regression-comparison-37.json",
+          "regression-comparison-38.json"
+        ]
+      },
+      "before": {
+        "cases": 35,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 75,
+            "displayedCandidates": 71,
+            "casesWithDiscourseMarker": 6,
+            "casesWithClauseStructure": 4,
+            "displayedCategoryCounts": {
+              "person_punctuation": 71,
+              "ending": 32,
+              "lexical": 0,
+              "discourse_marker": 6,
+              "clause_structure": 4
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 4,
+            "zeroCandidateCases": 3,
+            "shortCases": 26,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 77,
+            "displayedCandidates": 72,
+            "casesWithDiscourseMarker": 7,
+            "casesWithClauseStructure": 4,
+            "displayedCategoryCounts": {
+              "person_punctuation": 72,
+              "ending": 33,
+              "lexical": 0,
+              "discourse_marker": 7,
+              "clause_structure": 4
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 5,
+            "zeroCandidateCases": 3,
+            "shortCases": 25,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          }
+        ]
+      },
+      "after": {
+        "cases": 35,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 76,
+            "displayedCandidates": 71,
+            "casesWithDiscourseMarker": 6,
+            "casesWithClauseStructure": 4,
+            "displayedCategoryCounts": {
+              "person_punctuation": 71,
+              "ending": 33,
+              "lexical": 0,
+              "discourse_marker": 6,
+              "clause_structure": 4
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 5,
+            "zeroCandidateCases": 3,
+            "shortCases": 26,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 387,
+              "recognized": 11,
+              "planned": 14,
+              "verified": 14,
+              "selected": 10,
+              "not_selected": 4,
+              "edit_conflict": 4,
+              "scope_blocked": 4,
+              "unsupported_form": 1
+            },
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 78,
+            "displayedCandidates": 72,
+            "casesWithDiscourseMarker": 7,
+            "casesWithClauseStructure": 4,
+            "displayedCategoryCounts": {
+              "person_punctuation": 72,
+              "ending": 34,
+              "lexical": 0,
+              "discourse_marker": 7,
+              "clause_structure": 4
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 6,
+            "zeroCandidateCases": 3,
+            "shortCases": 25,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 387,
+              "recognized": 11,
+              "planned": 16,
+              "verified": 16,
+              "selected": 11,
+              "not_selected": 5,
+              "edit_conflict": 4,
+              "scope_blocked": 4
+            },
+            "errors": 0
+          }
+        ]
+      },
+      "byOriginalGroup": {
+        "ordinary": {
+          "before": {
+            "cases": 16,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 35,
+                "displayedCandidates": 34,
+                "casesWithDiscourseMarker": 2,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 34,
+                  "ending": 16,
+                  "lexical": 0,
+                  "discourse_marker": 2,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 12,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 35,
+                "displayedCandidates": 34,
+                "casesWithDiscourseMarker": 2,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 34,
+                  "ending": 16,
+                  "lexical": 0,
+                  "discourse_marker": 2,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 12,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 16,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 35,
+                "displayedCandidates": 34,
+                "casesWithDiscourseMarker": 2,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 34,
+                  "ending": 16,
+                  "lexical": 0,
+                  "discourse_marker": 2,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 12,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 195,
+                  "recognized": 3,
+                  "planned": 4,
+                  "verified": 4,
+                  "selected": 3,
+                  "not_selected": 1,
+                  "edit_conflict": 1
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 35,
+                "displayedCandidates": 34,
+                "casesWithDiscourseMarker": 2,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 34,
+                  "ending": 16,
+                  "lexical": 0,
+                  "discourse_marker": 2,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 12,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 195,
+                  "recognized": 3,
+                  "planned": 4,
+                  "verified": 4,
+                  "selected": 3,
+                  "not_selected": 1,
+                  "edit_conflict": 1
+                },
+                "errors": 0
+              }
+            ]
+          }
+        },
+        "positive_control": {
+          "before": {
+            "cases": 3,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 9,
+                "displayedCandidates": 8,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 3,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 8,
+                  "ending": 2,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 3
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 1,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 9,
+                "displayedCandidates": 8,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 3,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 8,
+                  "ending": 2,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 3
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 1,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 3,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 9,
+                "displayedCandidates": 8,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 3,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 8,
+                  "ending": 2,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 3
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 1,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 15,
+                  "recognized": 3,
+                  "planned": 3,
+                  "verified": 3,
+                  "selected": 3,
+                  "edit_conflict": 3
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 9,
+                "displayedCandidates": 8,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 3,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 8,
+                  "ending": 2,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 3
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 1,
+                "zeroCandidateCases": 0,
+                "shortCases": 1,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 15,
+                  "recognized": 3,
+                  "planned": 3,
+                  "verified": 3,
+                  "selected": 3,
+                  "edit_conflict": 3
+                },
+                "errors": 0
+              }
+            ]
+          }
+        },
+        "abstention_control": {
+          "before": {
+            "cases": 3,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 0,
+                "displayedCandidates": 0,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 0,
+                  "ending": 0,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 0,
+                "zeroCandidateCases": 3,
+                "shortCases": 3,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 0,
+                "displayedCandidates": 0,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 0,
+                  "ending": 0,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 0,
+                "zeroCandidateCases": 3,
+                "shortCases": 3,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 3,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 0,
+                "displayedCandidates": 0,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 0,
+                  "ending": 0,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 0,
+                "zeroCandidateCases": 3,
+                "shortCases": 3,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 18
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 0,
+                "displayedCandidates": 0,
+                "casesWithDiscourseMarker": 0,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 0,
+                  "ending": 0,
+                  "lexical": 0,
+                  "discourse_marker": 0,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 0,
+                "zeroCandidateCases": 3,
+                "shortCases": 3,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 18
+                },
+                "errors": 0
+              }
+            ]
+          }
+        },
+        "targeted_regression": {
+          "before": {
+            "cases": 13,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 31,
+                "displayedCandidates": 29,
+                "casesWithDiscourseMarker": 4,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 29,
+                  "ending": 14,
+                  "lexical": 0,
+                  "discourse_marker": 4,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 2,
+                "zeroCandidateCases": 0,
+                "shortCases": 10,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 33,
+                "displayedCandidates": 30,
+                "casesWithDiscourseMarker": 5,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 30,
+                  "ending": 15,
+                  "lexical": 0,
+                  "discourse_marker": 5,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 3,
+                "zeroCandidateCases": 0,
+                "shortCases": 9,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 13,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 32,
+                "displayedCandidates": 29,
+                "casesWithDiscourseMarker": 4,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 29,
+                  "ending": 15,
+                  "lexical": 0,
+                  "discourse_marker": 4,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 3,
+                "zeroCandidateCases": 0,
+                "shortCases": 10,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 159,
+                  "recognized": 5,
+                  "planned": 7,
+                  "verified": 7,
+                  "not_selected": 3,
+                  "selected": 4,
+                  "scope_blocked": 4,
+                  "unsupported_form": 1
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 34,
+                "displayedCandidates": 30,
+                "casesWithDiscourseMarker": 5,
+                "casesWithClauseStructure": 0,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 30,
+                  "ending": 16,
+                  "lexical": 0,
+                  "discourse_marker": 5,
+                  "clause_structure": 0
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 4,
+                "zeroCandidateCases": 0,
+                "shortCases": 9,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 159,
+                  "recognized": 5,
+                  "planned": 9,
+                  "verified": 9,
+                  "not_selected": 4,
+                  "selected": 5,
+                  "scope_blocked": 4
+                },
+                "errors": 0
+              }
+            ]
+          }
+        }
+      },
+      "changedCaseIds": [
+        "T01"
+      ],
+      "unchangedCaseIds": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "P01",
+        "P02",
+        "P03",
+        "B01",
+        "B02",
+        "B03",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ]
+    },
+    "controlled": {
+      "evaluationRole": "controlled",
+      "controlled": {
+        "sameDataset": true,
+        "sameAssetBytes": true,
+        "sameInputs": true,
+        "sameSettings": true,
+        "sameParser": true,
+        "stableEngines": true,
+        "sameCasesOrder": true,
+        "sameSourceAnalyses": true
+      },
+      "caseArtifactFiles": {
+        "C01": [
+          "controlled-comparison-1.json",
+          "controlled-comparison-2.json",
+          "controlled-comparison-3.json",
+          "controlled-comparison-4.json"
+        ],
+        "C02": [
+          "controlled-comparison-4.json",
+          "controlled-comparison-5.json",
+          "controlled-comparison-6.json",
+          "controlled-comparison-7.json",
+          "controlled-comparison-8.json"
+        ],
+        "C03": [
+          "controlled-comparison-8.json",
+          "controlled-comparison-9.json"
+        ],
+        "C04": [
+          "controlled-comparison-9.json",
+          "controlled-comparison-10.json"
+        ],
+        "C05": [
+          "controlled-comparison-10.json",
+          "controlled-comparison-11.json"
+        ],
+        "C06": [
+          "controlled-comparison-11.json",
+          "controlled-comparison-12.json",
+          "controlled-comparison-13.json",
+          "controlled-comparison-14.json"
+        ],
+        "C07": [
+          "controlled-comparison-14.json",
+          "controlled-comparison-15.json"
+        ],
+        "C08": [
+          "controlled-comparison-15.json",
+          "controlled-comparison-16.json"
+        ],
+        "C09": [
+          "controlled-comparison-16.json",
+          "controlled-comparison-17.json",
+          "controlled-comparison-18.json"
+        ],
+        "C10": [
+          "controlled-comparison-18.json"
+        ],
+        "C11": [
+          "controlled-comparison-18.json",
+          "controlled-comparison-19.json"
+        ],
+        "C12": [
+          "controlled-comparison-19.json",
+          "controlled-comparison-20.json"
+        ],
+        "C13": [
+          "controlled-comparison-20.json"
+        ],
+        "C14": [
+          "controlled-comparison-20.json",
+          "controlled-comparison-21.json"
+        ],
+        "C15": [
+          "controlled-comparison-21.json",
+          "controlled-comparison-22.json",
+          "controlled-comparison-23.json"
+        ],
+        "C16": [
+          "controlled-comparison-23.json",
+          "controlled-comparison-24.json",
+          "controlled-comparison-25.json"
+        ],
+        "C17": [
+          "controlled-comparison-25.json"
+        ],
+        "C18": [
+          "controlled-comparison-25.json",
+          "controlled-comparison-26.json"
+        ],
+        "C19": [
+          "controlled-comparison-26.json"
+        ],
+        "C20": [
+          "controlled-comparison-26.json",
+          "controlled-comparison-27.json",
+          "controlled-comparison-28.json",
+          "controlled-comparison-29.json",
+          "controlled-comparison-30.json"
+        ]
+      },
+      "before": {
+        "cases": 20,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 56,
+            "displayedCandidates": 49,
+            "casesWithDiscourseMarker": 3,
+            "casesWithClauseStructure": 2,
+            "displayedCategoryCounts": {
+              "person_punctuation": 49,
+              "ending": 25,
+              "lexical": 14,
+              "discourse_marker": 3,
+              "clause_structure": 2
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 7,
+            "zeroCandidateCases": 0,
+            "shortCases": 9,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 62,
+            "displayedCandidates": 49,
+            "casesWithDiscourseMarker": 5,
+            "casesWithClauseStructure": 2,
+            "displayedCategoryCounts": {
+              "person_punctuation": 49,
+              "ending": 24,
+              "lexical": 14,
+              "discourse_marker": 5,
+              "clause_structure": 2
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 13,
+            "zeroCandidateCases": 0,
+            "shortCases": 9,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          }
+        ]
+      },
+      "after": {
+        "cases": 20,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 62,
+            "displayedCandidates": 50,
+            "casesWithDiscourseMarker": 3,
+            "casesWithClauseStructure": 4,
+            "displayedCategoryCounts": {
+              "person_punctuation": 50,
+              "ending": 25,
+              "lexical": 16,
+              "discourse_marker": 3,
+              "clause_structure": 4
+            },
+            "poolLexicalAndReason": 5,
+            "poolLexicalInsideReason": 5,
+            "displayedLexicalInsideReason": 2,
+            "verificationRejected": 0,
+            "notSelected": 12,
+            "zeroCandidateCases": 0,
+            "shortCases": 8,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 209,
+              "recognized": 9,
+              "planned": 14,
+              "verified": 14,
+              "not_selected": 7,
+              "selected": 7,
+              "edit_conflict": 5,
+              "scope_blocked": 10,
+              "unsupported_form": 2
+            },
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 65,
+            "displayedCandidates": 50,
+            "casesWithDiscourseMarker": 5,
+            "casesWithClauseStructure": 4,
+            "displayedCategoryCounts": {
+              "person_punctuation": 50,
+              "ending": 23,
+              "lexical": 16,
+              "discourse_marker": 5,
+              "clause_structure": 4
+            },
+            "poolLexicalAndReason": 5,
+            "poolLexicalInsideReason": 5,
+            "displayedLexicalInsideReason": 2,
+            "verificationRejected": 0,
+            "notSelected": 15,
+            "zeroCandidateCases": 0,
+            "shortCases": 8,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 209,
+              "recognized": 9,
+              "planned": 19,
+              "verified": 19,
+              "not_selected": 10,
+              "selected": 9,
+              "edit_conflict": 5,
+              "scope_blocked": 10
+            },
+            "errors": 0
+          }
+        ]
+      },
+      "byOriginalGroup": {
+        "controlled_diagnostic": {
+          "before": {
+            "cases": 20,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 56,
+                "displayedCandidates": 49,
+                "casesWithDiscourseMarker": 3,
+                "casesWithClauseStructure": 2,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 49,
+                  "ending": 25,
+                  "lexical": 14,
+                  "discourse_marker": 3,
+                  "clause_structure": 2
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 7,
+                "zeroCandidateCases": 0,
+                "shortCases": 9,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 62,
+                "displayedCandidates": 49,
+                "casesWithDiscourseMarker": 5,
+                "casesWithClauseStructure": 2,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 49,
+                  "ending": 24,
+                  "lexical": 14,
+                  "discourse_marker": 5,
+                  "clause_structure": 2
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 13,
+                "zeroCandidateCases": 0,
+                "shortCases": 9,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 20,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 62,
+                "displayedCandidates": 50,
+                "casesWithDiscourseMarker": 3,
+                "casesWithClauseStructure": 4,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 50,
+                  "ending": 25,
+                  "lexical": 16,
+                  "discourse_marker": 3,
+                  "clause_structure": 4
+                },
+                "poolLexicalAndReason": 5,
+                "poolLexicalInsideReason": 5,
+                "displayedLexicalInsideReason": 2,
+                "verificationRejected": 0,
+                "notSelected": 12,
+                "zeroCandidateCases": 0,
+                "shortCases": 8,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 209,
+                  "recognized": 9,
+                  "planned": 14,
+                  "verified": 14,
+                  "not_selected": 7,
+                  "selected": 7,
+                  "edit_conflict": 5,
+                  "scope_blocked": 10,
+                  "unsupported_form": 2
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 65,
+                "displayedCandidates": 50,
+                "casesWithDiscourseMarker": 5,
+                "casesWithClauseStructure": 4,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 50,
+                  "ending": 23,
+                  "lexical": 16,
+                  "discourse_marker": 5,
+                  "clause_structure": 4
+                },
+                "poolLexicalAndReason": 5,
+                "poolLexicalInsideReason": 5,
+                "displayedLexicalInsideReason": 2,
+                "verificationRejected": 0,
+                "notSelected": 15,
+                "zeroCandidateCases": 0,
+                "shortCases": 8,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 209,
+                  "recognized": 9,
+                  "planned": 19,
+                  "verified": 19,
+                  "not_selected": 10,
+                  "selected": 9,
+                  "edit_conflict": 5,
+                  "scope_blocked": 10
+                },
+                "errors": 0
+              }
+            ]
+          }
+        }
+      },
+      "changedCaseIds": [
+        "C01",
+        "C02",
+        "C08",
+        "C20"
+      ],
+      "unchangedCaseIds": [
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19"
+      ]
+    },
+    "exposed": {
+      "evaluationRole": "initial_holdout_now_exposed_regression",
+      "controlled": {
+        "sameDataset": true,
+        "sameAssetBytes": true,
+        "sameInputs": true,
+        "sameSettings": true,
+        "sameParser": true,
+        "stableEngines": true,
+        "sameCasesOrder": true,
+        "sameSourceAnalyses": true
+      },
+      "caseArtifactFiles": {
+        "H01": [
+          "exposed-comparison-1.json",
+          "exposed-comparison-2.json",
+          "exposed-comparison-3.json",
+          "exposed-comparison-4.json"
+        ],
+        "H02": [
+          "exposed-comparison-4.json",
+          "exposed-comparison-5.json"
+        ],
+        "H03": [
+          "exposed-comparison-5.json",
+          "exposed-comparison-6.json",
+          "exposed-comparison-7.json"
+        ],
+        "H04": [
+          "exposed-comparison-7.json",
+          "exposed-comparison-8.json"
+        ],
+        "H05": [
+          "exposed-comparison-8.json",
+          "exposed-comparison-9.json",
+          "exposed-comparison-10.json"
+        ],
+        "H06": [
+          "exposed-comparison-10.json",
+          "exposed-comparison-11.json",
+          "exposed-comparison-12.json",
+          "exposed-comparison-13.json"
+        ],
+        "H07": [
+          "exposed-comparison-13.json",
+          "exposed-comparison-14.json"
+        ],
+        "H08": [
+          "exposed-comparison-14.json",
+          "exposed-comparison-15.json"
+        ],
+        "H09": [
+          "exposed-comparison-15.json",
+          "exposed-comparison-16.json"
+        ],
+        "H10": [
+          "exposed-comparison-16.json",
+          "exposed-comparison-17.json"
+        ],
+        "H11": [
+          "exposed-comparison-17.json",
+          "exposed-comparison-18.json"
+        ],
+        "H12": [
+          "exposed-comparison-18.json"
+        ]
+      },
+      "before": {
+        "cases": 12,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 30,
+            "displayedCandidates": 26,
+            "casesWithDiscourseMarker": 2,
+            "casesWithClauseStructure": 1,
+            "displayedCategoryCounts": {
+              "person_punctuation": 26,
+              "ending": 14,
+              "lexical": 3,
+              "discourse_marker": 2,
+              "clause_structure": 1
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 4,
+            "zeroCandidateCases": 0,
+            "shortCases": 9,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 32,
+            "displayedCandidates": 27,
+            "casesWithDiscourseMarker": 3,
+            "casesWithClauseStructure": 1,
+            "displayedCategoryCounts": {
+              "person_punctuation": 27,
+              "ending": 14,
+              "lexical": 4,
+              "discourse_marker": 4,
+              "clause_structure": 1
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 5,
+            "zeroCandidateCases": 0,
+            "shortCases": 8,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          }
+        ]
+      },
+      "after": {
+        "cases": 12,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 33,
+            "displayedCandidates": 27,
+            "casesWithDiscourseMarker": 2,
+            "casesWithClauseStructure": 2,
+            "displayedCategoryCounts": {
+              "person_punctuation": 27,
+              "ending": 14,
+              "lexical": 4,
+              "discourse_marker": 2,
+              "clause_structure": 2
+            },
+            "poolLexicalAndReason": 3,
+            "poolLexicalInsideReason": 3,
+            "displayedLexicalInsideReason": 1,
+            "verificationRejected": 0,
+            "notSelected": 6,
+            "zeroCandidateCases": 0,
+            "shortCases": 8,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 154,
+              "recognized": 6,
+              "planned": 8,
+              "verified": 8,
+              "not_selected": 4,
+              "selected": 4,
+              "edit_conflict": 2,
+              "unsupported_form": 2,
+              "scope_blocked": 2
+            },
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 35,
+            "displayedCandidates": 28,
+            "casesWithDiscourseMarker": 3,
+            "casesWithClauseStructure": 2,
+            "displayedCategoryCounts": {
+              "person_punctuation": 28,
+              "ending": 13,
+              "lexical": 5,
+              "discourse_marker": 4,
+              "clause_structure": 2
+            },
+            "poolLexicalAndReason": 3,
+            "poolLexicalInsideReason": 3,
+            "displayedLexicalInsideReason": 1,
+            "verificationRejected": 0,
+            "notSelected": 7,
+            "zeroCandidateCases": 0,
+            "shortCases": 7,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 154,
+              "recognized": 6,
+              "planned": 12,
+              "verified": 12,
+              "not_selected": 5,
+              "selected": 7,
+              "edit_conflict": 2,
+              "scope_blocked": 2
+            },
+            "errors": 0
+          }
+        ]
+      },
+      "byOriginalGroup": {
+        "held_out": {
+          "before": {
+            "cases": 12,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 30,
+                "displayedCandidates": 26,
+                "casesWithDiscourseMarker": 2,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 26,
+                  "ending": 14,
+                  "lexical": 3,
+                  "discourse_marker": 2,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 4,
+                "zeroCandidateCases": 0,
+                "shortCases": 9,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 32,
+                "displayedCandidates": 27,
+                "casesWithDiscourseMarker": 3,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 27,
+                  "ending": 14,
+                  "lexical": 4,
+                  "discourse_marker": 4,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 5,
+                "zeroCandidateCases": 0,
+                "shortCases": 8,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 12,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 33,
+                "displayedCandidates": 27,
+                "casesWithDiscourseMarker": 2,
+                "casesWithClauseStructure": 2,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 27,
+                  "ending": 14,
+                  "lexical": 4,
+                  "discourse_marker": 2,
+                  "clause_structure": 2
+                },
+                "poolLexicalAndReason": 3,
+                "poolLexicalInsideReason": 3,
+                "displayedLexicalInsideReason": 1,
+                "verificationRejected": 0,
+                "notSelected": 6,
+                "zeroCandidateCases": 0,
+                "shortCases": 8,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 154,
+                  "recognized": 6,
+                  "planned": 8,
+                  "verified": 8,
+                  "not_selected": 4,
+                  "selected": 4,
+                  "edit_conflict": 2,
+                  "unsupported_form": 2,
+                  "scope_blocked": 2
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 35,
+                "displayedCandidates": 28,
+                "casesWithDiscourseMarker": 3,
+                "casesWithClauseStructure": 2,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 28,
+                  "ending": 13,
+                  "lexical": 5,
+                  "discourse_marker": 4,
+                  "clause_structure": 2
+                },
+                "poolLexicalAndReason": 3,
+                "poolLexicalInsideReason": 3,
+                "displayedLexicalInsideReason": 1,
+                "verificationRejected": 0,
+                "notSelected": 7,
+                "zeroCandidateCases": 0,
+                "shortCases": 7,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 154,
+                  "recognized": 6,
+                  "planned": 12,
+                  "verified": 12,
+                  "not_selected": 5,
+                  "selected": 7,
+                  "edit_conflict": 2,
+                  "scope_blocked": 2
+                },
+                "errors": 0
+              }
+            ]
+          }
+        }
+      },
+      "changedCaseIds": [
+        "H01",
+        "H03"
+      ],
+      "unchangedCaseIds": [
+        "H02",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12"
+      ]
+    },
+    "heldout": {
+      "evaluationRole": "final_one_shot_holdout",
+      "controlled": {
+        "sameDataset": true,
+        "sameAssetBytes": true,
+        "sameInputs": true,
+        "sameSettings": true,
+        "sameParser": true,
+        "stableEngines": true,
+        "sameCasesOrder": true,
+        "sameSourceAnalyses": true
+      },
+      "caseArtifactFiles": {
+        "F01": [
+          "heldout-comparison-1.json",
+          "heldout-comparison-2.json",
+          "heldout-comparison-3.json"
+        ],
+        "F02": [
+          "heldout-comparison-3.json",
+          "heldout-comparison-4.json",
+          "heldout-comparison-5.json",
+          "heldout-comparison-6.json",
+          "heldout-comparison-7.json"
+        ],
+        "F03": [
+          "heldout-comparison-7.json",
+          "heldout-comparison-8.json"
+        ],
+        "F04": [
+          "heldout-comparison-8.json",
+          "heldout-comparison-9.json"
+        ],
+        "F05": [
+          "heldout-comparison-9.json",
+          "heldout-comparison-10.json",
+          "heldout-comparison-11.json",
+          "heldout-comparison-12.json"
+        ],
+        "F06": [
+          "heldout-comparison-12.json"
+        ],
+        "F07": [
+          "heldout-comparison-12.json",
+          "heldout-comparison-13.json",
+          "heldout-comparison-14.json"
+        ],
+        "F08": [
+          "heldout-comparison-14.json",
+          "heldout-comparison-15.json"
+        ],
+        "F09": [
+          "heldout-comparison-15.json"
+        ],
+        "F10": [
+          "heldout-comparison-15.json",
+          "heldout-comparison-16.json"
+        ],
+        "F11": [
+          "heldout-comparison-16.json",
+          "heldout-comparison-17.json"
+        ],
+        "F12": [
+          "heldout-comparison-17.json",
+          "heldout-comparison-18.json"
+        ]
+      },
+      "before": {
+        "cases": 12,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 34,
+            "displayedCandidates": 29,
+            "casesWithDiscourseMarker": 3,
+            "casesWithClauseStructure": 1,
+            "displayedCategoryCounts": {
+              "person_punctuation": 29,
+              "ending": 17,
+              "lexical": 3,
+              "discourse_marker": 3,
+              "clause_structure": 1
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 5,
+            "zeroCandidateCases": 0,
+            "shortCases": 7,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 36,
+            "displayedCandidates": 30,
+            "casesWithDiscourseMarker": 4,
+            "casesWithClauseStructure": 1,
+            "displayedCategoryCounts": {
+              "person_punctuation": 30,
+              "ending": 18,
+              "lexical": 3,
+              "discourse_marker": 4,
+              "clause_structure": 1
+            },
+            "poolLexicalAndReason": 0,
+            "poolLexicalInsideReason": 0,
+            "displayedLexicalInsideReason": 0,
+            "verificationRejected": 0,
+            "notSelected": 6,
+            "zeroCandidateCases": 0,
+            "shortCases": 6,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {},
+            "errors": 0
+          }
+        ]
+      },
+      "after": {
+        "cases": 12,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "poolCandidates": 37,
+            "displayedCandidates": 30,
+            "casesWithDiscourseMarker": 3,
+            "casesWithClauseStructure": 2,
+            "displayedCategoryCounts": {
+              "person_punctuation": 30,
+              "ending": 16,
+              "lexical": 4,
+              "discourse_marker": 4,
+              "clause_structure": 2
+            },
+            "poolLexicalAndReason": 5,
+            "poolLexicalInsideReason": 5,
+            "displayedLexicalInsideReason": 2,
+            "verificationRejected": 0,
+            "notSelected": 7,
+            "zeroCandidateCases": 0,
+            "shortCases": 6,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 134,
+              "recognized": 6,
+              "planned": 10,
+              "verified": 10,
+              "selected": 6,
+              "not_selected": 4,
+              "edit_conflict": 2,
+              "scope_blocked": 4,
+              "unsupported_form": 1
+            },
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "poolCandidates": 39,
+            "displayedCandidates": 31,
+            "casesWithDiscourseMarker": 4,
+            "casesWithClauseStructure": 2,
+            "displayedCategoryCounts": {
+              "person_punctuation": 31,
+              "ending": 16,
+              "lexical": 4,
+              "discourse_marker": 5,
+              "clause_structure": 2
+            },
+            "poolLexicalAndReason": 5,
+            "poolLexicalInsideReason": 5,
+            "displayedLexicalInsideReason": 2,
+            "verificationRejected": 0,
+            "notSelected": 8,
+            "zeroCandidateCases": 0,
+            "shortCases": 5,
+            "allDisplayedVerified": true,
+            "allScoresUntrained": true,
+            "allUsedLexicalEditsIndependentlyPermitted": true,
+            "stageEventCounts": {
+              "relation_not_recognized": 134,
+              "recognized": 6,
+              "planned": 12,
+              "verified": 12,
+              "selected": 7,
+              "not_selected": 5,
+              "edit_conflict": 2,
+              "scope_blocked": 4
+            },
+            "errors": 0
+          }
+        ]
+      },
+      "byOriginalGroup": {
+        "final_held_out": {
+          "before": {
+            "cases": 12,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 34,
+                "displayedCandidates": 29,
+                "casesWithDiscourseMarker": 3,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 29,
+                  "ending": 17,
+                  "lexical": 3,
+                  "discourse_marker": 3,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 5,
+                "zeroCandidateCases": 0,
+                "shortCases": 7,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 36,
+                "displayedCandidates": 30,
+                "casesWithDiscourseMarker": 4,
+                "casesWithClauseStructure": 1,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 30,
+                  "ending": 18,
+                  "lexical": 3,
+                  "discourse_marker": 4,
+                  "clause_structure": 1
+                },
+                "poolLexicalAndReason": 0,
+                "poolLexicalInsideReason": 0,
+                "displayedLexicalInsideReason": 0,
+                "verificationRejected": 0,
+                "notSelected": 6,
+                "zeroCandidateCases": 0,
+                "shortCases": 6,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {},
+                "errors": 0
+              }
+            ]
+          },
+          "after": {
+            "cases": 12,
+            "byIntensity": [
+              {
+                "intensity": 2,
+                "poolCandidates": 37,
+                "displayedCandidates": 30,
+                "casesWithDiscourseMarker": 3,
+                "casesWithClauseStructure": 2,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 30,
+                  "ending": 16,
+                  "lexical": 4,
+                  "discourse_marker": 4,
+                  "clause_structure": 2
+                },
+                "poolLexicalAndReason": 5,
+                "poolLexicalInsideReason": 5,
+                "displayedLexicalInsideReason": 2,
+                "verificationRejected": 0,
+                "notSelected": 7,
+                "zeroCandidateCases": 0,
+                "shortCases": 6,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 134,
+                  "recognized": 6,
+                  "planned": 10,
+                  "verified": 10,
+                  "selected": 6,
+                  "not_selected": 4,
+                  "edit_conflict": 2,
+                  "scope_blocked": 4,
+                  "unsupported_form": 1
+                },
+                "errors": 0
+              },
+              {
+                "intensity": 3,
+                "poolCandidates": 39,
+                "displayedCandidates": 31,
+                "casesWithDiscourseMarker": 4,
+                "casesWithClauseStructure": 2,
+                "displayedCategoryCounts": {
+                  "person_punctuation": 31,
+                  "ending": 16,
+                  "lexical": 4,
+                  "discourse_marker": 5,
+                  "clause_structure": 2
+                },
+                "poolLexicalAndReason": 5,
+                "poolLexicalInsideReason": 5,
+                "displayedLexicalInsideReason": 2,
+                "verificationRejected": 0,
+                "notSelected": 8,
+                "zeroCandidateCases": 0,
+                "shortCases": 5,
+                "allDisplayedVerified": true,
+                "allScoresUntrained": true,
+                "allUsedLexicalEditsIndependentlyPermitted": true,
+                "stageEventCounts": {
+                  "relation_not_recognized": 134,
+                  "recognized": 6,
+                  "planned": 12,
+                  "verified": 12,
+                  "selected": 7,
+                  "not_selected": 5,
+                  "edit_conflict": 2,
+                  "scope_blocked": 4
+                },
+                "errors": 0
+              }
+            ]
+          }
+        }
+      },
+      "changedCaseIds": [
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "unchangedCaseIds": [
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    }
+  },
+  "compositionDemo": {
+    "before": {
+      "source": "私はこの方法を選んだ。速度が重要だからだ。",
+      "intensity": 3,
+      "lexicalOnly": {
+        "id": "4a1da89f47f77ffa57455da2",
+        "planId": "f8656b7e178806d67ca730be",
+        "text": "俺はこの方法を選んだ\n速さとスピードが重要だからだ",
+        "operator": "REWRITE",
+        "family": "narrator-watashi+punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+        "displayedOrdinal": 2,
+        "isTopSelection": false,
+        "finalStage": "selected",
+        "preVerificationStatus": "passed",
+        "verificationStatus": "passed",
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        },
+        "checkCount": 12,
+        "nonPassingChecks": [],
+        "changeCategories": [
+          "person_punctuation",
+          "lexical"
+        ],
+        "edits": [
+          {
+            "kind": "person_punctuation",
+            "ruleId": "narrator-watashi",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 0,
+              "end": 1
+            },
+            "from": "私",
+            "to": "俺",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "person_punctuation",
+            "ruleId": "punctuation-linebreak-0",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 10,
+              "end": 11
+            },
+            "from": "。",
+            "to": "\n",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "lexical",
+            "ruleId": "velocity-doubling",
+            "constructionId": null,
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 11,
+              "end": 13
+            },
+            "from": "速度",
+            "to": "速さとスピード",
+            "evidenceIds": [
+              "post_02421_ef97fdc26a351d5a_9490"
+            ]
+          },
+          {
+            "kind": "person_punctuation",
+            "ruleId": "punctuation-end-0",
+            "constructionId": null,
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 20,
+              "end": 21
+            },
+            "from": "。",
+            "to": "",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          }
+        ],
+        "constructionIds": [],
+        "lexicalPermission": [
+          {
+            "ruleId": "velocity-doubling",
+            "sourceSpan": {
+              "start": 11,
+              "end": 13
+            },
+            "independentlyPermitted": true
+          }
+        ],
+        "standaloneRewriteProof": true,
+        "composition": {
+          "lexicalOnly": true,
+          "reasonOnly": false,
+          "lexicalAndReason": false,
+          "lexicalInsideReason": false
+        }
+      },
+      "reasonOnly": {
+        "mode": "isolated_ablation_not_production_candidate",
+        "planId": "e5c601491c0fd8d3d51d781b",
+        "text": "私はこの方法を選んだ。何故なら速度が重要だからだ。",
+        "constructionIds": [
+          "explicit-reason"
+        ],
+        "lexicalEditCount": 0,
+        "independentConstructionProof": true,
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-plan",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-roles",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-construction",
+            "status": "pass",
+            "required": true
+          }
+        ],
+        "displayedOrdinal": null,
+        "changeCategories": [
+          "discourse_marker"
+        ],
+        "explanation": "makeConstructionPlans(originalIR, request, assets, []) excludes rewrite bases. The production finite validator and independently rebound construction proof are applied. This output was not offered to production selection."
+      },
+      "combined": null
+    },
+    "after": {
+      "source": "私はこの方法を選んだ。速度が重要だからだ。",
+      "intensity": 3,
+      "lexicalOnly": {
+        "id": "4a1da89f47f77ffa57455da2",
+        "planId": "f8656b7e178806d67ca730be",
+        "text": "俺はこの方法を選んだ\n速さとスピードが重要だからだ",
+        "operator": "REWRITE",
+        "family": "narrator-watashi+punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+        "displayedOrdinal": 3,
+        "isTopSelection": false,
+        "finalStage": "selected",
+        "preVerificationStatus": "passed",
+        "verificationStatus": "passed",
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        },
+        "checkCount": 12,
+        "nonPassingChecks": [],
+        "changeCategories": [
+          "person_punctuation",
+          "lexical"
+        ],
+        "edits": [
+          {
+            "kind": "person_punctuation",
+            "ruleId": "narrator-watashi",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 0,
+              "end": 1
+            },
+            "from": "私",
+            "to": "俺",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "person_punctuation",
+            "ruleId": "punctuation-linebreak-0",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 10,
+              "end": 11
+            },
+            "from": "。",
+            "to": "\n",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "lexical",
+            "ruleId": "velocity-doubling",
+            "constructionId": null,
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 11,
+              "end": 13
+            },
+            "from": "速度",
+            "to": "速さとスピード",
+            "evidenceIds": [
+              "post_02421_ef97fdc26a351d5a_9490"
+            ]
+          },
+          {
+            "kind": "person_punctuation",
+            "ruleId": "punctuation-end-0",
+            "constructionId": null,
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 20,
+              "end": 21
+            },
+            "from": "。",
+            "to": "",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          }
+        ],
+        "constructionIds": [],
+        "lexicalPermission": [
+          {
+            "ruleId": "velocity-doubling",
+            "sourceSpan": {
+              "start": 11,
+              "end": 13
+            },
+            "independentlyPermitted": true
+          }
+        ],
+        "standaloneRewriteProof": true,
+        "composition": {
+          "lexicalOnly": true,
+          "reasonOnly": false,
+          "lexicalAndReason": false,
+          "lexicalInsideReason": false
+        }
+      },
+      "reasonOnly": {
+        "mode": "isolated_ablation_not_production_candidate",
+        "planId": "91b8dfec3a333c9df2be99fa",
+        "text": "私はこの方法を選んだ。何故なら速度が重要だからだ。",
+        "constructionIds": [
+          "explicit-reason"
+        ],
+        "lexicalEditCount": 0,
+        "independentConstructionProof": true,
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-plan",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-roles",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass",
+            "required": true
+          },
+          {
+            "code": "V-construction",
+            "status": "pass",
+            "required": true
+          }
+        ],
+        "displayedOrdinal": null,
+        "changeCategories": [
+          "discourse_marker"
+        ],
+        "explanation": "makeConstructionPlans(originalIR, request, assets, []) excludes rewrite bases. The production finite validator and independently rebound construction proof are applied. This output was not offered to production selection."
+      },
+      "combined": {
+        "id": "b0c1c197a9a0653e9d46dd03",
+        "planId": "7b2725ca9d27cbbfc81f1bb9",
+        "text": "俺はこの方法を選んだからな\n何故なら速さとスピードが重要だからだ",
+        "operator": "CONSTRUCTION",
+        "family": "explicit-reason-frame",
+        "displayedOrdinal": 1,
+        "isTopSelection": true,
+        "finalStage": "selected",
+        "preVerificationStatus": "passed",
+        "verificationStatus": "passed",
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        },
+        "checkCount": 12,
+        "nonPassingChecks": [],
+        "changeCategories": [
+          "person_punctuation",
+          "ending",
+          "lexical",
+          "discourse_marker"
+        ],
+        "edits": [
+          {
+            "kind": "person_punctuation",
+            "ruleId": "narrator-watashi",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 0,
+              "end": 1
+            },
+            "from": "私",
+            "to": "俺",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "ending",
+            "ruleId": "ending-insistence-11",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 9,
+              "end": 10
+            },
+            "from": "だ",
+            "to": "だからな",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "person_punctuation",
+            "ruleId": "punctuation-linebreak-0",
+            "constructionId": null,
+            "nodeId": "fact-node-0",
+            "sourceSpan": {
+              "start": 10,
+              "end": 11
+            },
+            "from": "。",
+            "to": "\n",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "lexical",
+            "ruleId": "velocity-doubling",
+            "constructionId": null,
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 11,
+              "end": 13
+            },
+            "from": "速度",
+            "to": "速さとスピード",
+            "evidenceIds": [
+              "post_02421_ef97fdc26a351d5a_9490"
+            ]
+          },
+          {
+            "kind": "person_punctuation",
+            "ruleId": "punctuation-end-0",
+            "constructionId": null,
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 20,
+              "end": 21
+            },
+            "from": "。",
+            "to": "",
+            "evidenceIds": [
+              "post_00016_82d78e65bd643a54_22"
+            ]
+          },
+          {
+            "kind": "discourse_marker",
+            "ruleId": null,
+            "constructionId": "explicit-reason",
+            "nodeId": "fact-node-1",
+            "sourceSpan": {
+              "start": 11,
+              "end": 11
+            },
+            "from": "",
+            "to": "何故なら",
+            "bindings": [
+              {
+                "slot": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "text": "私はこの方法を選んだ。",
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "slot": "reason",
+                "span": {
+                  "start": 11,
+                  "end": 20
+                },
+                "text": "速度が重要だからだ",
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              },
+              {
+                "slot": "marker",
+                "span": {
+                  "start": 17,
+                  "end": 19
+                },
+                "text": "から",
+                "tokenIds": [
+                  12
+                ]
+              },
+              {
+                "slot": "predicate",
+                "span": {
+                  "start": 14,
+                  "end": 16
+                },
+                "text": "重要",
+                "tokenIds": [
+                  10
+                ]
+              }
+            ],
+            "relation": {
+              "version": 1,
+              "kind": "explicit-reason",
+              "factId": "fact-1",
+              "certainty": "explicit",
+              "clauses": [
+                {
+                  "role": "claim",
+                  "span": {
+                    "start": 0,
+                    "end": 11
+                  },
+                  "tokenIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ]
+                },
+                {
+                  "role": "reason",
+                  "span": {
+                    "start": 11,
+                    "end": 20
+                  },
+                  "tokenIds": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ]
+                }
+              ],
+              "evidenceTokens": [
+                {
+                  "role": "marker",
+                  "tokenId": 12,
+                  "span": {
+                    "start": 17,
+                    "end": 19
+                  }
+                },
+                {
+                  "role": "predicate",
+                  "tokenId": 10,
+                  "span": {
+                    "start": 14,
+                    "end": 16
+                  }
+                },
+                {
+                  "role": "copula",
+                  "tokenId": 13,
+                  "span": {
+                    "start": 19,
+                    "end": 20
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "predicateTokenId": 5,
+                  "factId": "fact-0",
+                  "polarity": "positive",
+                  "tense": "past",
+                  "realization": "actual",
+                  "completion": "completed",
+                  "voice": "active",
+                  "attribution": {
+                    "kind": "narrator",
+                    "speaker": null
+                  },
+                  "conditional": false,
+                  "speculative": false,
+                  "prospective": false,
+                  "ambiguous": false,
+                  "nonDeclarative": false,
+                  "reportedContent": false
+                },
+                {
+                  "predicateTokenId": 10,
+                  "factId": "fact-1",
+                  "polarity": "positive",
+                  "tense": "nonpast",
+                  "realization": "actual",
+                  "completion": "unknown",
+                  "voice": "active",
+                  "attribution": {
+                    "kind": "narrator",
+                    "speaker": null
+                  },
+                  "conditional": false,
+                  "speculative": false,
+                  "prospective": false,
+                  "ambiguous": false,
+                  "nonDeclarative": false,
+                  "reportedContent": false
+                }
+              ],
+              "provenance": {
+                "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+                "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+              }
+            },
+            "operation": {
+              "kind": "prefix_source_body",
+              "prefix": "何故なら",
+              "bodySourceSpan": {
+                "start": 11,
+                "end": 20
+              },
+              "permittedLocalEdits": "independently_verified_rewrites"
+            },
+            "preservedFeatures": {
+              "polarity": "positive",
+              "tense": "nonpast",
+              "realization": "actual",
+              "completion": "unknown",
+              "attribution": {
+                "kind": "narrator",
+                "speaker": null
+              },
+              "voice": "active"
+            },
+            "evidenceIds": [
+              "post_02421_ef97fdc26a351d5a_9490"
+            ]
+          }
+        ],
+        "constructionIds": [
+          "explicit-reason"
+        ],
+        "lexicalPermission": [
+          {
+            "ruleId": "velocity-doubling",
+            "sourceSpan": {
+              "start": 11,
+              "end": 13
+            },
+            "independentlyPermitted": true
+          }
+        ],
+        "standaloneRewriteProof": null,
+        "composition": {
+          "lexicalOnly": false,
+          "reasonOnly": false,
+          "lexicalAndReason": true,
+          "lexicalInsideReason": true
+        }
+      }
+    },
+    "standaloneLexical": {
+      "id": "C05",
+      "group": "controlled_diagnostic",
+      "category": "standalone permitted lexical edit",
+      "source": "速度が重要だ。",
+      "contrastSet": "lexical-ablation",
+      "contrastVariant": "lexical-only",
+      "results": [
+        {
+          "intensity": 2,
+          "generationMs": 43.347,
+          "selectedCandidateId": "3e3ec2ca44a1c2df4e917fd3",
+          "displayedIds": [
+            {
+              "id": "3e3ec2ca44a1c2df4e917fd3",
+              "planId": "581e3245e203f68571712980"
+            },
+            {
+              "id": "1fd695bdfd265e666b5704ab",
+              "planId": "c3107dc09e15b62d3ff3706f"
+            },
+            {
+              "id": "14f293d4e8335c5c93da2202",
+              "planId": "b3ca90a37af37bdfd86d8e04"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "3e3ec2ca44a1c2df4e917fd3",
+              "planId": "581e3245e203f68571712980",
+              "text": "速さとスピードが重要だ",
+              "operator": "REWRITE",
+              "family": "velocity-doubling+punctuation-end-0",
+              "displayedOrdinal": 1,
+              "isTopSelection": true,
+              "finalStage": "selected",
+              "preVerificationStatus": "passed",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "checkCount": 12,
+              "nonPassingChecks": [],
+              "changeCategories": [
+                "person_punctuation",
+                "lexical"
+              ],
+              "edits": [
+                {
+                  "kind": "lexical",
+                  "ruleId": "velocity-doubling",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "from": "速度",
+                  "to": "速さとスピード",
+                  "evidenceIds": [
+                    "post_02421_ef97fdc26a351d5a_9490"
+                  ]
+                },
+                {
+                  "kind": "person_punctuation",
+                  "ruleId": "punctuation-end-0",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 6,
+                    "end": 7
+                  },
+                  "from": "。",
+                  "to": "",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                }
+              ],
+              "constructionIds": [],
+              "lexicalPermission": [
+                {
+                  "ruleId": "velocity-doubling",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "independentlyPermitted": true
+                }
+              ],
+              "standaloneRewriteProof": true,
+              "composition": {
+                "lexicalOnly": true,
+                "reasonOnly": false,
+                "lexicalAndReason": false,
+                "lexicalInsideReason": false
+              }
+            },
+            {
+              "id": "14f293d4e8335c5c93da2202",
+              "planId": "b3ca90a37af37bdfd86d8e04",
+              "text": "速さとスピードが重要だからな",
+              "operator": "REWRITE",
+              "family": "velocity-doubling+ending-insistence-11+punctuation-end-0",
+              "displayedOrdinal": 3,
+              "isTopSelection": false,
+              "finalStage": "selected",
+              "preVerificationStatus": "passed",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "checkCount": 12,
+              "nonPassingChecks": [],
+              "changeCategories": [
+                "person_punctuation",
+                "ending",
+                "lexical"
+              ],
+              "edits": [
+                {
+                  "kind": "lexical",
+                  "ruleId": "velocity-doubling",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "from": "速度",
+                  "to": "速さとスピード",
+                  "evidenceIds": [
+                    "post_02421_ef97fdc26a351d5a_9490"
+                  ]
+                },
+                {
+                  "kind": "ending",
+                  "ruleId": "ending-insistence-11",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 5,
+                    "end": 6
+                  },
+                  "from": "だ",
+                  "to": "だからな",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                },
+                {
+                  "kind": "person_punctuation",
+                  "ruleId": "punctuation-end-0",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 6,
+                    "end": 7
+                  },
+                  "from": "。",
+                  "to": "",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                }
+              ],
+              "constructionIds": [],
+              "lexicalPermission": [
+                {
+                  "ruleId": "velocity-doubling",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "independentlyPermitted": true
+                }
+              ],
+              "standaloneRewriteProof": true,
+              "composition": {
+                "lexicalOnly": true,
+                "reasonOnly": false,
+                "lexicalAndReason": false,
+                "lexicalInsideReason": false
+              }
+            },
+            {
+              "id": "1fd695bdfd265e666b5704ab",
+              "planId": "c3107dc09e15b62d3ff3706f",
+              "text": "速度が重要だからな",
+              "operator": "REWRITE",
+              "family": "ending-insistence-11+punctuation-end-0",
+              "displayedOrdinal": 2,
+              "isTopSelection": false,
+              "finalStage": "selected",
+              "preVerificationStatus": "passed",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "checkCount": 12,
+              "nonPassingChecks": [],
+              "changeCategories": [
+                "person_punctuation",
+                "ending"
+              ],
+              "edits": [
+                {
+                  "kind": "ending",
+                  "ruleId": "ending-insistence-11",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 5,
+                    "end": 6
+                  },
+                  "from": "だ",
+                  "to": "だからな",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                },
+                {
+                  "kind": "person_punctuation",
+                  "ruleId": "punctuation-end-0",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 6,
+                    "end": 7
+                  },
+                  "from": "。",
+                  "to": "",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                }
+              ],
+              "constructionIds": [],
+              "lexicalPermission": [],
+              "standaloneRewriteProof": true,
+              "composition": {
+                "lexicalOnly": false,
+                "reasonOnly": false,
+                "lexicalAndReason": false,
+                "lexicalInsideReason": false
+              }
+            }
+          ],
+          "diagnosticEvents": [
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "explicit-reason",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "explicit_reason_shape_missing",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "explicit-contrast",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "explicit_contrast_shape_missing",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "modest-achievement",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "opening_modesty_shape_missing",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "anger-peak",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "no_registered_local_source_binding",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "deep-sadness",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "no_registered_local_source_binding",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "time-expired",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "no_registered_local_source_binding",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            }
+          ],
+          "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+          "fallback": null,
+          "shortfallReason": null,
+          "semanticVerification": {
+            "version": "independent-factual-reparse-v2",
+            "verifiedCount": 3,
+            "selectedIds": [
+              "3e3ec2ca44a1c2df4e917fd3",
+              "1fd695bdfd265e666b5704ab",
+              "14f293d4e8335c5c93da2202"
+            ],
+            "selectionHash": "7f26c74162c5bb6590ab88cb8f6f9a52062e702458d339f1621a4ef0c8a182ab"
+          }
+        },
+        {
+          "intensity": 3,
+          "generationMs": 30.977,
+          "selectedCandidateId": "3e3ec2ca44a1c2df4e917fd3",
+          "displayedIds": [
+            {
+              "id": "3e3ec2ca44a1c2df4e917fd3",
+              "planId": "33c7485d9c3d80af429a3d67"
+            },
+            {
+              "id": "1fd695bdfd265e666b5704ab",
+              "planId": "29ebd17f29ccc2b1c07b6322"
+            },
+            {
+              "id": "14f293d4e8335c5c93da2202",
+              "planId": "a63c264cf685e217fc539750"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "3e3ec2ca44a1c2df4e917fd3",
+              "planId": "33c7485d9c3d80af429a3d67",
+              "text": "速さとスピードが重要だ",
+              "operator": "REWRITE",
+              "family": "velocity-doubling+punctuation-end-0",
+              "displayedOrdinal": 1,
+              "isTopSelection": true,
+              "finalStage": "selected",
+              "preVerificationStatus": "passed",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "checkCount": 12,
+              "nonPassingChecks": [],
+              "changeCategories": [
+                "person_punctuation",
+                "lexical"
+              ],
+              "edits": [
+                {
+                  "kind": "lexical",
+                  "ruleId": "velocity-doubling",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "from": "速度",
+                  "to": "速さとスピード",
+                  "evidenceIds": [
+                    "post_02421_ef97fdc26a351d5a_9490"
+                  ]
+                },
+                {
+                  "kind": "person_punctuation",
+                  "ruleId": "punctuation-end-0",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 6,
+                    "end": 7
+                  },
+                  "from": "。",
+                  "to": "",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                }
+              ],
+              "constructionIds": [],
+              "lexicalPermission": [
+                {
+                  "ruleId": "velocity-doubling",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "independentlyPermitted": true
+                }
+              ],
+              "standaloneRewriteProof": true,
+              "composition": {
+                "lexicalOnly": true,
+                "reasonOnly": false,
+                "lexicalAndReason": false,
+                "lexicalInsideReason": false
+              }
+            },
+            {
+              "id": "14f293d4e8335c5c93da2202",
+              "planId": "a63c264cf685e217fc539750",
+              "text": "速さとスピードが重要だからな",
+              "operator": "REWRITE",
+              "family": "velocity-doubling+ending-insistence-11+punctuation-end-0",
+              "displayedOrdinal": 3,
+              "isTopSelection": false,
+              "finalStage": "selected",
+              "preVerificationStatus": "passed",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "checkCount": 12,
+              "nonPassingChecks": [],
+              "changeCategories": [
+                "person_punctuation",
+                "ending",
+                "lexical"
+              ],
+              "edits": [
+                {
+                  "kind": "lexical",
+                  "ruleId": "velocity-doubling",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "from": "速度",
+                  "to": "速さとスピード",
+                  "evidenceIds": [
+                    "post_02421_ef97fdc26a351d5a_9490"
+                  ]
+                },
+                {
+                  "kind": "ending",
+                  "ruleId": "ending-insistence-11",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 5,
+                    "end": 6
+                  },
+                  "from": "だ",
+                  "to": "だからな",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                },
+                {
+                  "kind": "person_punctuation",
+                  "ruleId": "punctuation-end-0",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 6,
+                    "end": 7
+                  },
+                  "from": "。",
+                  "to": "",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                }
+              ],
+              "constructionIds": [],
+              "lexicalPermission": [
+                {
+                  "ruleId": "velocity-doubling",
+                  "sourceSpan": {
+                    "start": 0,
+                    "end": 2
+                  },
+                  "independentlyPermitted": true
+                }
+              ],
+              "standaloneRewriteProof": true,
+              "composition": {
+                "lexicalOnly": true,
+                "reasonOnly": false,
+                "lexicalAndReason": false,
+                "lexicalInsideReason": false
+              }
+            },
+            {
+              "id": "1fd695bdfd265e666b5704ab",
+              "planId": "29ebd17f29ccc2b1c07b6322",
+              "text": "速度が重要だからな",
+              "operator": "REWRITE",
+              "family": "ending-insistence-11+punctuation-end-0",
+              "displayedOrdinal": 2,
+              "isTopSelection": false,
+              "finalStage": "selected",
+              "preVerificationStatus": "passed",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "checkCount": 12,
+              "nonPassingChecks": [],
+              "changeCategories": [
+                "person_punctuation",
+                "ending"
+              ],
+              "edits": [
+                {
+                  "kind": "ending",
+                  "ruleId": "ending-insistence-11",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 5,
+                    "end": 6
+                  },
+                  "from": "だ",
+                  "to": "だからな",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                },
+                {
+                  "kind": "person_punctuation",
+                  "ruleId": "punctuation-end-0",
+                  "constructionId": null,
+                  "nodeId": "fact-node-0",
+                  "sourceSpan": {
+                    "start": 6,
+                    "end": 7
+                  },
+                  "from": "。",
+                  "to": "",
+                  "evidenceIds": [
+                    "post_00016_82d78e65bd643a54_22"
+                  ]
+                }
+              ],
+              "constructionIds": [],
+              "lexicalPermission": [],
+              "standaloneRewriteProof": true,
+              "composition": {
+                "lexicalOnly": false,
+                "reasonOnly": false,
+                "lexicalAndReason": false,
+                "lexicalInsideReason": false
+              }
+            }
+          ],
+          "diagnosticEvents": [
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "explicit-reason",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "explicit_reason_shape_missing",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "explicit-contrast",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "explicit_contrast_shape_missing",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "modest-achievement",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "opening_modesty_shape_missing",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "anger-peak",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "no_registered_local_source_binding",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "deep-sadness",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "no_registered_local_source_binding",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            },
+            {
+              "inputHash": "d250337a1b4d70e8ce83fa34212fcbdc32840e1427d543fa81079d1d510917dc",
+              "nodeId": "fact-node-0",
+              "constructionId": "time-expired",
+              "candidateId": null,
+              "planId": null,
+              "stage": "relation_not_recognized",
+              "reason": "no_registered_local_source_binding",
+              "sourceSpan": {
+                "start": 0,
+                "end": 7
+              }
+            }
+          ],
+          "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+          "fallback": null,
+          "shortfallReason": null,
+          "semanticVerification": {
+            "version": "independent-factual-reparse-v2",
+            "verifiedCount": 3,
+            "selectedIds": [
+              "3e3ec2ca44a1c2df4e917fd3",
+              "1fd695bdfd265e666b5704ab",
+              "14f293d4e8335c5c93da2202"
+            ],
+            "selectionHash": "7f26c74162c5bb6590ab88cb8f6f9a52062e702458d339f1621a4ef0c8a182ab"
+          }
+        }
+      ],
+      "sourceAnalysisHash": "67ed1588ce8dba9fa382623de3e2bfc43153e6fd71ad52596e8dbad9f93d368d"
+    },
+    "note": "Same-source C01: lexical-only and combined are production pool candidates with displayed ordinal (null means valid but not displayed). Reason-only is an explicitly labeled isolated valid ablation, excluded from production selection. Lexical-only may include punctuation/person rules. C05 independently demonstrates the standalone lexical rule."
+  },
+  "artifactFiles": [
+    {
+      "file": "regression-cases.json",
+      "bytes": 8624,
+      "sha256": "fad4884e18244e282ab7a3b7659a836daf12b2c399a4dea0e4f61d97398277b8"
+    },
+    {
+      "file": "regression-before-metadata.json",
+      "bytes": 12119,
+      "sha256": "b61d0594c28ac6a6ed8aad356ed5db73007569532328976ab0157391654a81ee"
+    },
+    {
+      "file": "regression-after-metadata.json",
+      "bytes": 12641,
+      "sha256": "1eb13ded57d7dc3dbf7b14a7951882a5c493a0f7de1c0096457a66d4b4280da4"
+    },
+    {
+      "file": "regression-comparison-1.json",
+      "bytes": 42769,
+      "sha256": "639641d153259106f3de69f50460a630a7ffbd80bcc65c27aa725a6c75bfd560"
+    },
+    {
+      "file": "regression-comparison-2.json",
+      "bytes": 42283,
+      "sha256": "3abfef063f3d9769242bb6022abb3a92feeb8e76dfc930c97fca44586cb6d764"
+    },
+    {
+      "file": "regression-comparison-3.json",
+      "bytes": 36429,
+      "sha256": "a2d21a9d8fc75f201887c76bfff9685e52e00fa986fed6961d6deb90b3eafb32"
+    },
+    {
+      "file": "regression-comparison-4.json",
+      "bytes": 37607,
+      "sha256": "b4dfec00de8478a7207dd001a276fb426671a164a7e935c0d900c017af272ab0"
+    },
+    {
+      "file": "regression-comparison-5.json",
+      "bytes": 42677,
+      "sha256": "da50a5d7ce17ba634b2a12b271ba1f6087d105f48ac741b4d3f411b30c292e97"
+    },
+    {
+      "file": "regression-comparison-6.json",
+      "bytes": 42897,
+      "sha256": "b6daea05d4b181275c187d781350e35abf30566d69233cf352ff408400a63bff"
+    },
+    {
+      "file": "regression-comparison-7.json",
+      "bytes": 39748,
+      "sha256": "ad4eedfcda33318de62a6cc2daac6822b530ab39f4b86cee726e64190609d0b3"
+    },
+    {
+      "file": "regression-comparison-8.json",
+      "bytes": 42512,
+      "sha256": "87832138cc1c6b28f63dd8ae1607995ec6ec8ba172a38ea84a45f37688ad79dc"
+    },
+    {
+      "file": "regression-comparison-9.json",
+      "bytes": 42602,
+      "sha256": "e4e423c454e4733232a38822de92498fcd7fa76871caf45684590940aa711607"
+    },
+    {
+      "file": "regression-comparison-10.json",
+      "bytes": 42388,
+      "sha256": "07020b617526815621459ae3d6f87604100c6915bc22fd3c71648086cacef7e8"
+    },
+    {
+      "file": "regression-comparison-11.json",
+      "bytes": 41191,
+      "sha256": "a4b5d11a8fd07078be4cac9203c7e644ed7d2d017c11b346f65a7ea5267099d5"
+    },
+    {
+      "file": "regression-comparison-12.json",
+      "bytes": 41149,
+      "sha256": "2f49f3963331987dac35a9276efedf1d8f78263c2f22ae82179ad38fe51c5e08"
+    },
+    {
+      "file": "regression-comparison-13.json",
+      "bytes": 41721,
+      "sha256": "5638f600bffad82a846927a2b370244e00264c61c0b683192c6cee898c1da335"
+    },
+    {
+      "file": "regression-comparison-14.json",
+      "bytes": 41135,
+      "sha256": "0d044b91217d92ca6e93d196ed815ceab36db7f7fc2f0e9d1699e71452468810"
+    },
+    {
+      "file": "regression-comparison-15.json",
+      "bytes": 42237,
+      "sha256": "874089134b7456b3e11410ad977c7baeb499f3f9ca90d87055caa4b24ffa45b7"
+    },
+    {
+      "file": "regression-comparison-16.json",
+      "bytes": 42679,
+      "sha256": "0c8f2ac9ccd645ad82c085a116f3224c8a09bd88bd2f7e81b3fec4fcafe18daf"
+    },
+    {
+      "file": "regression-comparison-17.json",
+      "bytes": 42416,
+      "sha256": "fc7c1f17964107db8b389b6f0c6946c5e3eeccc64a8e763ecc7ce05e0a21ecd2"
+    },
+    {
+      "file": "regression-comparison-18.json",
+      "bytes": 41559,
+      "sha256": "43a8c50aa41bdf712316046609b8180e06f71ec93363e84d88e35724e5c6a29a"
+    },
+    {
+      "file": "regression-comparison-19.json",
+      "bytes": 41664,
+      "sha256": "05f26a10a9bb407293035a96069a6d4fda879d192f868553fdf3050e7806530a"
+    },
+    {
+      "file": "regression-comparison-20.json",
+      "bytes": 42739,
+      "sha256": "5d7bfdf970f7f6dee8234549a4b61f0fca534d483454b08605a2d053e4baa7d5"
+    },
+    {
+      "file": "regression-comparison-21.json",
+      "bytes": 39750,
+      "sha256": "274bc08bbb99cc7a45af52cfdcde656ba3af4d58615307a785369c7ecdae53c2"
+    },
+    {
+      "file": "regression-comparison-22.json",
+      "bytes": 38049,
+      "sha256": "fb3174a8a5658890e2815a74503e99544235ed7e4f302bbfd0bcb12a4c3c61f1"
+    },
+    {
+      "file": "regression-comparison-23.json",
+      "bytes": 42588,
+      "sha256": "e71ca1e3abff00295cfd64b1ffe36339f44adcc56907f19be01c04a3e1cebe4b"
+    },
+    {
+      "file": "regression-comparison-24.json",
+      "bytes": 42526,
+      "sha256": "a33073de7a8b84ee3ea4361bd2740c3b421ae52a1727267f41dfbb25cd9c2043"
+    },
+    {
+      "file": "regression-comparison-25.json",
+      "bytes": 36703,
+      "sha256": "2bfe9b1179af0bd32cd42d07a62cdbb8f119acdfe5c3cb85ded9272a3881fcc6"
+    },
+    {
+      "file": "regression-comparison-26.json",
+      "bytes": 42051,
+      "sha256": "b532ce567daa89c25b4a52c02b7c73552e6153ff7955f07f193b9f3830b9fbdf"
+    },
+    {
+      "file": "regression-comparison-27.json",
+      "bytes": 35780,
+      "sha256": "f9378b54dc262ba3fc292ad2ecc9baa299ea559118b131e93d8ba366bf4d8733"
+    },
+    {
+      "file": "regression-comparison-28.json",
+      "bytes": 40941,
+      "sha256": "19fcbd2838c35c3b2ae14d024e949dd2aa81308df1a8bf6e162d39fe785254c2"
+    },
+    {
+      "file": "regression-comparison-29.json",
+      "bytes": 42733,
+      "sha256": "a82a8e83a7cd6b09a0ec64921580bcdb715ebb9d6a2e45d94b3334cee07c0e5f"
+    },
+    {
+      "file": "regression-comparison-30.json",
+      "bytes": 41138,
+      "sha256": "aa45c6377a1086d392221527627a0901bcbd2805f91cf13694ca46cf56a315f9"
+    },
+    {
+      "file": "regression-comparison-31.json",
+      "bytes": 42687,
+      "sha256": "527a841ef627d21da811c5a6654b120a3eb6d1cd2914c6f1a3ab647b7a626119"
+    },
+    {
+      "file": "regression-comparison-32.json",
+      "bytes": 42032,
+      "sha256": "849cbfdffdd4cb69faf35bd703f898282bafae42dfcb5d68c78db7e73a3f5047"
+    },
+    {
+      "file": "regression-comparison-33.json",
+      "bytes": 42791,
+      "sha256": "1be4702a1bcfa8ef03afb4fa7bb3896ba401f79ecaf866b5b271106e510221ef"
+    },
+    {
+      "file": "regression-comparison-34.json",
+      "bytes": 42855,
+      "sha256": "b0901c3eb6dd5b1a5f53eb36b2ece538e22ed7672c3b99bd4550229d0dc2938a"
+    },
+    {
+      "file": "regression-comparison-35.json",
+      "bytes": 41443,
+      "sha256": "4e5cdcf1091e4dcc631ef5aad91493e889c96e89a5a4d6dc128df6bb507bb197"
+    },
+    {
+      "file": "regression-comparison-36.json",
+      "bytes": 40955,
+      "sha256": "63cdf65bc2eda529fef4ac39214ce8b87e2b4ccddefc1865e374d337a1ff43bd"
+    },
+    {
+      "file": "regression-comparison-37.json",
+      "bytes": 35478,
+      "sha256": "3c4b422a488058f3a3644832d85f9de97034e49608cc0420770aa4618eda46e2"
+    },
+    {
+      "file": "regression-comparison-38.json",
+      "bytes": 22498,
+      "sha256": "169ea508567789db5b38d9e29343495ed0552fe6a6604d11e8765d6f4e36b837"
+    },
+    {
+      "file": "controlled-cases.json",
+      "bytes": 6255,
+      "sha256": "3882b2c111d951d7b847b696bc0b9ccabdbb2c62e4157c32598a5abebfd6e1d5"
+    },
+    {
+      "file": "controlled-before-metadata.json",
+      "bytes": 12175,
+      "sha256": "3cfc9f30ba8933e27830b070a076d38f410878a68044170dec9cc0fbce7b7bde"
+    },
+    {
+      "file": "controlled-after-metadata.json",
+      "bytes": 12697,
+      "sha256": "08a48b57602b56506142022f2d5123cfcb0aa60240930872269d9e00546af2ac"
+    },
+    {
+      "file": "controlled-comparison-1.json",
+      "bytes": 41486,
+      "sha256": "444b4a02ac9e98e77d7486c70fc2aea9e74e9134fb88da942b50a62b2e4853af"
+    },
+    {
+      "file": "controlled-comparison-2.json",
+      "bytes": 42564,
+      "sha256": "945e2eadc2719beb802eeb9617cdfcc67de76c72a1827a3e9151875dbda70e43"
+    },
+    {
+      "file": "controlled-comparison-3.json",
+      "bytes": 42952,
+      "sha256": "cb93ea0dd4e9908a5e6080f7fcef3956e2b37d9f1b3f45d860c4b5ee1771200a"
+    },
+    {
+      "file": "controlled-comparison-4.json",
+      "bytes": 41863,
+      "sha256": "6b81ea6944bf736bc32504b6a64ee5c7f8d9fac70ce0adadcf626fe820ffe3c1"
+    },
+    {
+      "file": "controlled-comparison-5.json",
+      "bytes": 42565,
+      "sha256": "d5a61493e7526ec42e7b823a726f1d8a96629542f28687fb552fdb3ffb847356"
+    },
+    {
+      "file": "controlled-comparison-6.json",
+      "bytes": 40119,
+      "sha256": "17f321c3f43ae4b04de2553410bf4bd058d641ae3d625a69399914329908142f"
+    },
+    {
+      "file": "controlled-comparison-7.json",
+      "bytes": 42825,
+      "sha256": "93e188f3a61f2b56a23b7d966a5369b458cf65748ac840a7481f8645566ce91a"
+    },
+    {
+      "file": "controlled-comparison-8.json",
+      "bytes": 41932,
+      "sha256": "d169a1790c6bf87ec7ceff83a3dfb73a39614b28e7f62f27901a4909132638dc"
+    },
+    {
+      "file": "controlled-comparison-9.json",
+      "bytes": 40703,
+      "sha256": "b0eaa2fd5d90d02724099a7d4845fb4baa93b87e45d92fc7f8fc726d4709ab32"
+    },
+    {
+      "file": "controlled-comparison-10.json",
+      "bytes": 42164,
+      "sha256": "21f3103d02fbf30ac810d337f8129e5288937504c86e2ab0020ab19f8aa16c27"
+    },
+    {
+      "file": "controlled-comparison-11.json",
+      "bytes": 41997,
+      "sha256": "2df01d47da5399e985e5df789bddd802740a8a435428233b767c8b652cceb6fb"
+    },
+    {
+      "file": "controlled-comparison-12.json",
+      "bytes": 41921,
+      "sha256": "30d7547925bd49a3175caf047483c938e98bcee4ded4a60433b8ad13bda4798a"
+    },
+    {
+      "file": "controlled-comparison-13.json",
+      "bytes": 42538,
+      "sha256": "805551085e08dc97d02659acd9aa650c5c6b3fbebeab4b3b8a4714596b23c687"
+    },
+    {
+      "file": "controlled-comparison-14.json",
+      "bytes": 41153,
+      "sha256": "22d60de85865e568d1ca30a838c4d7b08229dd246f2e085636986f931d1934c7"
+    },
+    {
+      "file": "controlled-comparison-15.json",
+      "bytes": 42577,
+      "sha256": "90ce485a171a1ab4bbeea36c9647c3b6877b10875272f5bb69cd2c965d442cc0"
+    },
+    {
+      "file": "controlled-comparison-16.json",
+      "bytes": 38305,
+      "sha256": "2d141d9c632fb3f6707c97b6b77f7625abb687614017a953eb4e1bdc7af57671"
+    },
+    {
+      "file": "controlled-comparison-17.json",
+      "bytes": 42689,
+      "sha256": "90e47c0b43cea2a4b02c7fb4e3f7c9870dc5a15ee22443ffae8fe58b1b556fe3"
+    },
+    {
+      "file": "controlled-comparison-18.json",
+      "bytes": 42442,
+      "sha256": "96068ab119f345c0cd85b97ef2eda7f0e8f0fb831d6aabc3c1428642833ed63d"
+    },
+    {
+      "file": "controlled-comparison-19.json",
+      "bytes": 42825,
+      "sha256": "f5c7065903cb2b139594d55544568d4a9241df31da3f1968fdde370c9d4482b4"
+    },
+    {
+      "file": "controlled-comparison-20.json",
+      "bytes": 41366,
+      "sha256": "fe33bf79e1b04aae5c26fe6d2f059c161e17760ca8a14a1ca3f15378f3895151"
+    },
+    {
+      "file": "controlled-comparison-21.json",
+      "bytes": 41529,
+      "sha256": "09512d41a9cd04d8ad76c2d1a5973079b073e9e553cbfffd7d6f47c6551c0232"
+    },
+    {
+      "file": "controlled-comparison-22.json",
+      "bytes": 42016,
+      "sha256": "3f0236dbc6c1663b44eaacbc6a165915088497113d2209042a5392d21ee3ec73"
+    },
+    {
+      "file": "controlled-comparison-23.json",
+      "bytes": 40320,
+      "sha256": "eedb6a33e7228cfec731f248dc8fc7af988d15589636ecd799e9e97b6db23ceb"
+    },
+    {
+      "file": "controlled-comparison-24.json",
+      "bytes": 42607,
+      "sha256": "468d1c00f80787088c90fb81187c62cf17c38127300f9e931a96412d5deccea0"
+    },
+    {
+      "file": "controlled-comparison-25.json",
+      "bytes": 42741,
+      "sha256": "222d274935e406442b52923f7bc4e50d092d4d4203f0219bd4f96e4d37e93811"
+    },
+    {
+      "file": "controlled-comparison-26.json",
+      "bytes": 41929,
+      "sha256": "06c223137f2d416e1bb9a6792b13fabf47fd187be6497e03120a6796bd0ea65e"
+    },
+    {
+      "file": "controlled-comparison-27.json",
+      "bytes": 42707,
+      "sha256": "94895830cb794bfade00c09394963f7a819a1468d7e8c682ccfe1e5837b30ac3"
+    },
+    {
+      "file": "controlled-comparison-28.json",
+      "bytes": 37033,
+      "sha256": "23114b8c314732b6e2af60026e39a6f5d29c045369c3b21f0bcd1fb95724b72e"
+    },
+    {
+      "file": "controlled-comparison-29.json",
+      "bytes": 42980,
+      "sha256": "53b0bcf1597c819540cb140e575d65444b92de6526d1984092451567bfb4723f"
+    },
+    {
+      "file": "controlled-comparison-30.json",
+      "bytes": 10903,
+      "sha256": "5d1ba144ea957081f57a04f874a7d313abfbcafd1dd7fc534356e479f0bb6e2c"
+    },
+    {
+      "file": "exposed-cases.json",
+      "bytes": 3259,
+      "sha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+    },
+    {
+      "file": "exposed-before-metadata.json",
+      "bytes": 12254,
+      "sha256": "b50950536f0ad0f63a4c8aaf80219f4d7f3e426e8a0af6f17443c23bec2daa87"
+    },
+    {
+      "file": "exposed-after-metadata.json",
+      "bytes": 12776,
+      "sha256": "5b7284edb3a4ac6b335e50219c4c2d1a4534dcdb0c1c189d4a8191fde1b36702"
+    },
+    {
+      "file": "exposed-comparison-1.json",
+      "bytes": 38186,
+      "sha256": "108a522bf377db0cff1551b0276da30db8185354a05dc5b55947ce911d403fc0"
+    },
+    {
+      "file": "exposed-comparison-2.json",
+      "bytes": 41547,
+      "sha256": "894f5d3d50db84342a79ea2ce1b4d6b9d14990202b603281258653c23e9df4b2"
+    },
+    {
+      "file": "exposed-comparison-3.json",
+      "bytes": 36205,
+      "sha256": "334f372166d8a272a419c7988a5ec33103589834b2b7e2095f548b10aefddcbb"
+    },
+    {
+      "file": "exposed-comparison-4.json",
+      "bytes": 42272,
+      "sha256": "75df02b0fd4aa8413dc27021651e794f7c9447180581ff6212a02f90e4a325c4"
+    },
+    {
+      "file": "exposed-comparison-5.json",
+      "bytes": 37726,
+      "sha256": "db907255ceab7b9fd836e7104d71afb9d43636762abaa469cd0b8c9288dc145f"
+    },
+    {
+      "file": "exposed-comparison-6.json",
+      "bytes": 42945,
+      "sha256": "be8e7ed86e3aedafa27c7dcc2708f39c2dfb05024a38351032866bf2384022a0"
+    },
+    {
+      "file": "exposed-comparison-7.json",
+      "bytes": 40343,
+      "sha256": "d386f08bfabdbb4aa4af565945ad06b6da6c420c2033976e5af67cb8a3059fba"
+    },
+    {
+      "file": "exposed-comparison-8.json",
+      "bytes": 42989,
+      "sha256": "51af3b7753e17230fb1be2652e26baac2c31df9673c7cf2f5ac2a89ea94ca872"
+    },
+    {
+      "file": "exposed-comparison-9.json",
+      "bytes": 40630,
+      "sha256": "97bea5ad19da183b9843862f535e81ff4f01596b3968cda5e78c258c1647bdce"
+    },
+    {
+      "file": "exposed-comparison-10.json",
+      "bytes": 36631,
+      "sha256": "7f887d5f15e9a4bd71f9be797feda6104cc80ed9f0b684f0a3c2add3c4509271"
+    },
+    {
+      "file": "exposed-comparison-11.json",
+      "bytes": 41518,
+      "sha256": "9a72ef3cc0d0279869a4abfebc11d1349a2104c8c5b8f3ff22749bbdbd7eee6d"
+    },
+    {
+      "file": "exposed-comparison-12.json",
+      "bytes": 39119,
+      "sha256": "33dba0c3e435051f01b343c6c573550c19a3eb3d3fd4ae04bb5958a5220b459a"
+    },
+    {
+      "file": "exposed-comparison-13.json",
+      "bytes": 42305,
+      "sha256": "95e1100fb9c94428c0aa040521b5bbc435187ea85af134ba016f991bb4318564"
+    },
+    {
+      "file": "exposed-comparison-14.json",
+      "bytes": 41591,
+      "sha256": "0216479b9266fa3661d3ed8f7869eb38d27bd3cb59b7b3ef16d91dc862c186f9"
+    },
+    {
+      "file": "exposed-comparison-15.json",
+      "bytes": 42569,
+      "sha256": "84ff6688e706d915ac57dce348011466b869dad98a3391e3216302f17fad2a0d"
+    },
+    {
+      "file": "exposed-comparison-16.json",
+      "bytes": 41700,
+      "sha256": "85f2eebadf953fe35094c428abf95107237923f4f8f722aee6825f65d7316060"
+    },
+    {
+      "file": "exposed-comparison-17.json",
+      "bytes": 42403,
+      "sha256": "f065fdf519e2fe2466d57e5a526bdd1e61da1f179241be45a440bd9082963498"
+    },
+    {
+      "file": "exposed-comparison-18.json",
+      "bytes": 39570,
+      "sha256": "e16073a2124630dc3defe25349c3344a9a28e9d729be630713573cc4f3ab21a7"
+    },
+    {
+      "file": "heldout-cases.json",
+      "bytes": 3518,
+      "sha256": "3ddcad8069eb8a60343ffab099047fdcafbb96fdb4ccd415d9254f699ba7197b"
+    },
+    {
+      "file": "heldout-before-metadata.json",
+      "bytes": 12510,
+      "sha256": "04efc922bb56a0ad523829b038adc8e76b2b6ea9158a5e62475f2687a80d1a87"
+    },
+    {
+      "file": "heldout-after-metadata.json",
+      "bytes": 13032,
+      "sha256": "4b35dd9fd6f5adbc2b0472794cd3c60426d583ceb84783c8716304eeacbb5ccc"
+    },
+    {
+      "file": "heldout-comparison-1.json",
+      "bytes": 42720,
+      "sha256": "01efa62d552e0e158344b42308a796e02a69b6de5d60eeb7f11638e2a6ce860c"
+    },
+    {
+      "file": "heldout-comparison-2.json",
+      "bytes": 42518,
+      "sha256": "bb87ce83c7403cdda132d29b73669bfcd6ffecde70b40c481d0c4ff9ae6a06fb"
+    },
+    {
+      "file": "heldout-comparison-3.json",
+      "bytes": 36480,
+      "sha256": "7672e3c73d6ebc0699d0583ceaef4f2a9952e1ad23fae53160017d61d3dbe235"
+    },
+    {
+      "file": "heldout-comparison-4.json",
+      "bytes": 40851,
+      "sha256": "a3bcca4743eb721694a9af5c6d69ac72777a74b32c440991f413b6e58b7cb24f"
+    },
+    {
+      "file": "heldout-comparison-5.json",
+      "bytes": 35945,
+      "sha256": "16689f4ed83e3c2ac87d32e53f4a37e824c459c2a1619502de2040d3263a18a2"
+    },
+    {
+      "file": "heldout-comparison-6.json",
+      "bytes": 41617,
+      "sha256": "6e982c2c1b92bc0606ce66145f2d6ca2fde86329996adcc0e99716ceeb03d52a"
+    },
+    {
+      "file": "heldout-comparison-7.json",
+      "bytes": 42600,
+      "sha256": "c028442d16bd9c708a57fac902e60271f2a5135df7c5289fb10c1b3d0e072b03"
+    },
+    {
+      "file": "heldout-comparison-8.json",
+      "bytes": 42293,
+      "sha256": "74ad33638d8fa7a5a5cd63768d8278aeb33212dbd290a907a4be97a205c2331c"
+    },
+    {
+      "file": "heldout-comparison-9.json",
+      "bytes": 42995,
+      "sha256": "2f3e4108ce350013b2e4d9ebee3e066fc4a5ef3ef2ddb009ee90a5110a50e448"
+    },
+    {
+      "file": "heldout-comparison-10.json",
+      "bytes": 42945,
+      "sha256": "cf5eef3ceabdcdf44e74aecc60bffae89d6fd57fdf9921a34279ae9c782adca7"
+    },
+    {
+      "file": "heldout-comparison-11.json",
+      "bytes": 42950,
+      "sha256": "d77f98f6494f48a4aab10ed05648cf8caff6ba9cf581dd3dcc1dad4343d96b2f"
+    },
+    {
+      "file": "heldout-comparison-12.json",
+      "bytes": 42318,
+      "sha256": "b9e509f1bb89861c500af14657c1086ae02aa29b66594f7b5408e1f704d4f8e6"
+    },
+    {
+      "file": "heldout-comparison-13.json",
+      "bytes": 40128,
+      "sha256": "6b874764e63038db6965dddc8418c75c28076dec85f2a99d9093169172f0d3c1"
+    },
+    {
+      "file": "heldout-comparison-14.json",
+      "bytes": 42611,
+      "sha256": "10e373e8fca9305796d0cdc4dd36704013d40605262f28265306ca9335db552a"
+    },
+    {
+      "file": "heldout-comparison-15.json",
+      "bytes": 41522,
+      "sha256": "89385ebe9499dfdf6db7037799818f4a6fb72d198cd4e41ab1c1a6f58b6ae731"
+    },
+    {
+      "file": "heldout-comparison-16.json",
+      "bytes": 42860,
+      "sha256": "ba71d294fdd23c514487e28316758793be4cad2c85324af15d3f9f5ecd062740"
+    },
+    {
+      "file": "heldout-comparison-17.json",
+      "bytes": 41269,
+      "sha256": "e246bed07220edb1d3dbfedf019623d8389813c082fd577fc7b8f911079a0c5b"
+    },
+    {
+      "file": "heldout-comparison-18.json",
+      "bytes": 35365,
+      "sha256": "615c1b0b7eb2cc3cac90fee9d4fac345d621d0c202d2393bb8201d16edd75720"
+    },
+    {
+      "file": "composition-demo.json",
+      "bytes": 41393,
+      "sha256": "6a2c43c13ab8a7d401584f2c3a77eb8763ea01cadd1de2856d994d9cbdd09044"
+    },
+    {
+      "file": "holdout-seal.json",
+      "bytes": 718,
+      "sha256": "5dfafdb3ecef10bd00b1350d6c713491630c360ec4694b2d42ff4e72563ec4fe"
+    },
+    {
+      "file": "holdout-distinctness.json",
+      "bytes": 1138,
+      "sha256": "dc55f91f2cdd3980b1521439ba80c33af6eda77c81a2c9018f13121985871bc9"
+    },
+    {
+      "file": "baseline-replay.json",
+      "bytes": 486,
+      "sha256": "4ff278a8376ad8a31c6c34284824f62fc04433e82b48a0b04dea0e90e787f99f"
+    },
+    {
+      "file": "frozen-asset-manifest.json",
+      "bytes": 3202,
+      "sha256": "87f81b4500fbbd1f74f42a18dc865814cbbc9d0f959819c7a0847745f04558b5"
+    },
+    {
+      "file": "code-freeze.json",
+      "bytes": 20591,
+      "sha256": "aacf698727173d5be4e4339f88e1f00211bfef883a487873bae0ef556d2d2cbe"
+    },
+    {
+      "file": "production-smoke-metadata.json",
+      "bytes": 12641,
+      "sha256": "4d6c70dd5b07c36a7d33265d3567d6d547c4e97b80751a1d5e271a5fd8b198e2"
+    },
+    {
+      "file": "production-smoke-1.json",
+      "bytes": 41486,
+      "sha256": "f4e4d9de26f75312ce74ba3424c2052d474063db2d0136bc56201b79fdc4a0ac"
+    },
+    {
+      "file": "production-smoke-2.json",
+      "bytes": 40081,
+      "sha256": "28ffa05982209c94b7d8239961076b7ccbf7724e17ec39d75d42259f339db151"
+    },
+    {
+      "file": "production-smoke-3.json",
+      "bytes": 24220,
+      "sha256": "1bab2eb027a8dcf436915e47e5aa417e58fa525b15a755794d2f4bf731e998fa"
+    }
+  ],
+  "productionSmoke": {
+    "datasetId": "88bf704b4fb7f06effbd662d4976ff58cc45f323c1d3d80158a41696b5cc2b51",
+    "sameFrozenEngine": true,
+    "allSourceAnalysesIdentical": true,
+    "summary": {
+      "cases": 35,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "poolCandidates": 76,
+          "displayedCandidates": 71,
+          "casesWithDiscourseMarker": 6,
+          "casesWithClauseStructure": 4,
+          "displayedCategoryCounts": {
+            "person_punctuation": 71,
+            "ending": 33,
+            "lexical": 0,
+            "discourse_marker": 6,
+            "clause_structure": 4
+          },
+          "poolLexicalAndReason": 0,
+          "poolLexicalInsideReason": 0,
+          "displayedLexicalInsideReason": 0,
+          "verificationRejected": 0,
+          "notSelected": 5,
+          "zeroCandidateCases": 3,
+          "shortCases": 26,
+          "allDisplayedVerified": true,
+          "allScoresUntrained": true,
+          "allUsedLexicalEditsIndependentlyPermitted": true,
+          "stageEventCounts": {
+            "relation_not_recognized": 387,
+            "recognized": 11,
+            "planned": 14,
+            "verified": 14,
+            "selected": 10,
+            "not_selected": 4,
+            "edit_conflict": 4,
+            "scope_blocked": 4,
+            "unsupported_form": 1
+          },
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "poolCandidates": 78,
+          "displayedCandidates": 72,
+          "casesWithDiscourseMarker": 7,
+          "casesWithClauseStructure": 4,
+          "displayedCategoryCounts": {
+            "person_punctuation": 72,
+            "ending": 34,
+            "lexical": 0,
+            "discourse_marker": 7,
+            "clause_structure": 4
+          },
+          "poolLexicalAndReason": 0,
+          "poolLexicalInsideReason": 0,
+          "displayedLexicalInsideReason": 0,
+          "verificationRejected": 0,
+          "notSelected": 6,
+          "zeroCandidateCases": 3,
+          "shortCases": 25,
+          "allDisplayedVerified": true,
+          "allScoresUntrained": true,
+          "allUsedLexicalEditsIndependentlyPermitted": true,
+          "stageEventCounts": {
+            "relation_not_recognized": 387,
+            "recognized": 11,
+            "planned": 16,
+            "verified": 16,
+            "selected": 11,
+            "not_selected": 5,
+            "edit_conflict": 4,
+            "scope_blocked": 4
+          },
+          "errors": 0
+        }
+      ]
+    },
+    "displayedTextOrderDifferences": [
+      "N07"
+    ],
+    "scope": "Separate final-production-asset smoke on the35 regression sources only; not pooled into the fixed-asset comparison or heldout evaluation. Full displayed outputs retained; repeated nondisplayed pool bodies represented by hashes."
+  }
+}

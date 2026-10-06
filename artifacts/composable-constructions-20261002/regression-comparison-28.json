@@ -1,0 +1,1513 @@
+[
+  {
+    "type": "candidate",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "0d9afbd3a2fc053439c50d5c",
+      "planId": "fd8aced6029e44d3a1cf3a3f",
+      "text": "その日程には賛成できないからな\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 49,
+            "end": 50
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 13
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 13
+              },
+              "text": "その日程には賛成できない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 13,
+                "end": 33
+              },
+              "text": "担当者が不在で、確認にも三日かかるからだ",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 30,
+                "end": 32
+              },
+              "text": "から",
+              "tokenIds": [
+                19
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 27,
+                "end": 30
+              },
+              "text": "かかる",
+              "tokenIds": [
+                18
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 13
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 13,
+                  "end": 33
+                },
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 19,
+                "span": {
+                  "start": 30,
+                  "end": 32
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 18,
+                "span": {
+                  "start": 27,
+                  "end": 30
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 20,
+                "span": {
+                  "start": 32,
+                  "end": 33
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 10,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 18,
+                "factId": "fact-2",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 13,
+              "end": 33
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "d06e3963ab844d8920160845",
+      "planId": "656ff591e2026b16b61d0296",
+      "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 49,
+            "end": 50
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "a5ad5d06c31c955b149ae033",
+      "planId": "1704ab9219cfa091d9dddd89",
+      "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 49,
+            "end": 50
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 13,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 13,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 13,
+        "end": 34
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 34,
+        "end": 50
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 34,
+        "end": 50
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-2",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 34,
+        "end": 50
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-2",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 34,
+        "end": 50
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-2",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 34,
+        "end": 50
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-2",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 34,
+        "end": 50
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "31ed48bdb4cf3f754f6c646c",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "fd8aced6029e44d3a1cf3a3f",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "30fccfd5ccf7b343d62247f0",
+      "planId": "31ed48bdb4cf3f754f6c646c",
+      "sourceSpan": {
+        "start": 13,
+        "end": 13
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "30fccfd5ccf7b343d62247f0",
+      "planId": "31ed48bdb4cf3f754f6c646c",
+      "sourceSpan": {
+        "start": 13,
+        "end": 13
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "0d9afbd3a2fc053439c50d5c",
+      "planId": "fd8aced6029e44d3a1cf3a3f",
+      "sourceSpan": {
+        "start": 13,
+        "end": 13
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "d3edb4379c85835adbf8e97daee284cf58d2f9e628be7efece68a951b466d0b7",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "0d9afbd3a2fc053439c50d5c",
+      "planId": "fd8aced6029e44d3a1cf3a3f",
+      "sourceSpan": {
+        "start": 13,
+        "end": 13
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "run",
+    "id": "T04",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 122.65,
+      "selectedCandidateId": "0d9afbd3a2fc053439c50d5c",
+      "displayedIds": [
+        {
+          "id": "0d9afbd3a2fc053439c50d5c",
+          "planId": "35c4d42e2fb0f98826e52d7f"
+        },
+        {
+          "id": "d06e3963ab844d8920160845",
+          "planId": "4e23edacd84b29c2df696518"
+        },
+        {
+          "id": "a5ad5d06c31c955b149ae033",
+          "planId": "628cdc0088674a674fba2722"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "0d9afbd3a2fc053439c50d5c",
+          "d06e3963ab844d8920160845",
+          "a5ad5d06c31c955b149ae033"
+        ],
+        "selectionHash": "722db655e6bc78628fdd4b8093dadeb4032cdf5c7fa4cd000466a1e48fd1dbca"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 97.119,
+      "selectedCandidateId": "0d9afbd3a2fc053439c50d5c",
+      "displayedIds": [
+        {
+          "id": "0d9afbd3a2fc053439c50d5c",
+          "planId": "f55c5e8497bf8d17f354a109"
+        },
+        {
+          "id": "d06e3963ab844d8920160845",
+          "planId": "4e23edacd84b29c2df696518"
+        },
+        {
+          "id": "a5ad5d06c31c955b149ae033",
+          "planId": "628cdc0088674a674fba2722"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "0d9afbd3a2fc053439c50d5c",
+          "d06e3963ab844d8920160845",
+          "a5ad5d06c31c955b149ae033"
+        ],
+        "selectionHash": "29aab8570470d89a78f67366a34e5e6d9f7abbd61e0be3f447221c2ba6189337"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T04",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "30fccfd5ccf7b343d62247f0",
+      "planId": "e3b2778d37a399d315f41f9a",
+      "text": "その日程には賛成できない\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 49,
+            "end": 50
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 33
+          },
+          "from": "担当者が不在で、確認にも三日かかるからだ",
+          "to": "何故なら担当者が不在で、確認にも三日かかるからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 13
+              },
+              "text": "その日程には賛成できない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 13,
+                "end": 33
+              },
+              "text": "担当者が不在で、確認にも三日かかるからだ",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 30,
+                "end": 32
+              },
+              "text": "から",
+              "tokenIds": [
+                19
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 27,
+                "end": 30
+              },
+              "text": "かかる",
+              "tokenIds": [
+                18
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T04",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "0d9afbd3a2fc053439c50d5c",
+      "planId": "35c4d42e2fb0f98826e52d7f",
+      "text": "その日程には賛成できないからな\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 12
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 49,
+            "end": 50
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 33
+          },
+          "from": "担当者が不在で、確認にも三日かかるからだ",
+          "to": "何故なら担当者が不在で、確認にも三日かかるからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 13
+              },
+              "text": "その日程には賛成できない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 13,
+                "end": 33
+              },
+              "text": "担当者が不在で、確認にも三日かかるからだ",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 30,
+                "end": 32
+              },
+              "text": "から",
+              "tokenIds": [
+                19
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 27,
+                "end": 30
+              },
+              "text": "かかる",
+              "tokenIds": [
+                18
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T04",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "d06e3963ab844d8920160845",
+      "planId": "4e23edacd84b29c2df696518",
+      "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 13
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 33,
+            "end": 34
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 49,
+            "end": 50
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

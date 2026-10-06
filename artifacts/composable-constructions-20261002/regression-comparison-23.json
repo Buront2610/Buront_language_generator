@@ -1,0 +1,1609 @@
+[
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "d4de10c5a314005e93c74caa",
+      "planId": "fe4227fc8212d6c71852a2fd",
+      "text": "今日は休みます\n何故なら熱があるからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 8,
+            "end": 8
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 8
+              },
+              "text": "今日は休みます。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 8,
+                "end": 16
+              },
+              "text": "熱があるからです",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 12,
+                "end": 14
+              },
+              "text": "から",
+              "tokenIds": [
+                8
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 10,
+                "end": 12
+              },
+              "text": "ある",
+              "tokenIds": [
+                7
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 8
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 8,
+                  "end": 16
+                },
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 8,
+                "span": {
+                  "start": 12,
+                  "end": 14
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 7,
+                "span": {
+                  "start": 10,
+                  "end": 12
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 9,
+                "span": {
+                  "start": 14,
+                  "end": 16
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 2,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 7,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 8,
+              "end": 16
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "33ceae6e7f3f7265e2fbdaed",
+      "planId": "df950048f5bfb595b2a509f5",
+      "text": "今日は休みます\n何故なら熱があるからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 16
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 8,
+            "end": 8
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 8
+              },
+              "text": "今日は休みます。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 8,
+                "end": 16
+              },
+              "text": "熱があるからです",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 12,
+                "end": 14
+              },
+              "text": "から",
+              "tokenIds": [
+                8
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 10,
+                "end": 12
+              },
+              "text": "ある",
+              "tokenIds": [
+                7
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 8
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 8,
+                  "end": 16
+                },
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 8,
+                "span": {
+                  "start": 12,
+                  "end": 14
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 7,
+                "span": {
+                  "start": 10,
+                  "end": 12
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 9,
+                "span": {
+                  "start": 14,
+                  "end": 16
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 2,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 7,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 8,
+              "end": 16
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "b85a20a36d2c5a920f0b9849",
+      "planId": "ef09e66e14383584691b44b4",
+      "text": "今日は休みます\n熱があるからです",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "54b01d60cc4b94567cd20704",
+      "planId": "28fa25eb85d759608e50a849",
+      "text": "今日は休みます\n熱があるからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 16
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 8,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 17
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "fe4227fc8212d6c71852a2fd",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "df950048f5bfb595b2a509f5",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "d4de10c5a314005e93c74caa",
+      "planId": "fe4227fc8212d6c71852a2fd",
+      "sourceSpan": {
+        "start": 8,
+        "end": 8
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "d4de10c5a314005e93c74caa",
+      "planId": "fe4227fc8212d6c71852a2fd",
+      "sourceSpan": {
+        "start": 8,
+        "end": 8
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "33ceae6e7f3f7265e2fbdaed",
+      "planId": "df950048f5bfb595b2a509f5",
+      "sourceSpan": {
+        "start": 8,
+        "end": 8
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c8723df0d038eebfb5a8bb882df4f4044dc57c1a87a389a33d49ac3960b9ce39",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "33ceae6e7f3f7265e2fbdaed",
+      "planId": "df950048f5bfb595b2a509f5",
+      "sourceSpan": {
+        "start": 8,
+        "end": 8
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "input",
+    "id": "T02",
+    "group": "targeted_regression",
+    "category": "理由終止・動詞",
+    "source": "この道を選んだ。駅まで近いからだ。"
+  },
+  {
+    "type": "run",
+    "id": "T02",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 44.018,
+      "selectedCandidateId": "f2f80179f8b7b226319a250d",
+      "displayedIds": [
+        {
+          "id": "f2f80179f8b7b226319a250d",
+          "planId": "b620e5788f01188a8eae968a"
+        },
+        {
+          "id": "7f33f883421019f63d83cacb",
+          "planId": "40431cb0fcbcf2a4a7bc2d1d"
+        },
+        {
+          "id": "7a68f670b1416570132902ba",
+          "planId": "45a8f75ec19d373eef220751"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "f2f80179f8b7b226319a250d",
+          "7f33f883421019f63d83cacb",
+          "7a68f670b1416570132902ba"
+        ],
+        "selectionHash": "22637693df210a20d7a80fa3296df20223e2b38addf88ce4b13bf2fdaa681af7"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 32.251,
+      "selectedCandidateId": "f2f80179f8b7b226319a250d",
+      "displayedIds": [
+        {
+          "id": "f2f80179f8b7b226319a250d",
+          "planId": "cc358cb862a91fe360ceb4a8"
+        },
+        {
+          "id": "7f33f883421019f63d83cacb",
+          "planId": "40431cb0fcbcf2a4a7bc2d1d"
+        },
+        {
+          "id": "7a68f670b1416570132902ba",
+          "planId": "45a8f75ec19d373eef220751"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "f2f80179f8b7b226319a250d",
+          "7f33f883421019f63d83cacb",
+          "7a68f670b1416570132902ba"
+        ],
+        "selectionHash": "9659c9396f103af4a11310aa892a5e395964438789194910755cea011950168c"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "f9edf1bfba00fb49de272a08",
+      "planId": "48bf8e6922011fa1ec6e7b96",
+      "text": "この道を選んだ\n何故なら駅まで近いからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 8,
+            "end": 16
+          },
+          "from": "駅まで近いからだ",
+          "to": "何故なら駅まで近いからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 8
+              },
+              "text": "この道を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 8,
+                "end": 16
+              },
+              "text": "駅まで近いからだ",
+              "tokenIds": [
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 13,
+                "end": 15
+              },
+              "text": "から",
+              "tokenIds": [
+                9
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 11,
+                "end": 13
+              },
+              "text": "近い",
+              "tokenIds": [
+                8
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "f2f80179f8b7b226319a250d",
+      "planId": "b620e5788f01188a8eae968a",
+      "text": "この道を選んだからな\n何故なら駅まで近いからだ",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 8,
+            "end": 16
+          },
+          "from": "駅まで近いからだ",
+          "to": "何故なら駅まで近いからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 8
+              },
+              "text": "この道を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 8,
+                "end": 16
+              },
+              "text": "駅まで近いからだ",
+              "tokenIds": [
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 13,
+                "end": 15
+              },
+              "text": "から",
+              "tokenIds": [
+                9
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 11,
+                "end": 13
+              },
+              "text": "近い",
+              "tokenIds": [
+                8
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "7f33f883421019f63d83cacb",
+      "planId": "40431cb0fcbcf2a4a7bc2d1d",
+      "text": "この道を選んだ\n駅まで近いからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "7a68f670b1416570132902ba",
+      "planId": "45a8f75ec19d373eef220751",
+      "text": "この道を選んだからな\n駅まで近いからだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

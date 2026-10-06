@@ -1,10 +1,12 @@
-import type { Analysis, Candidate, GenerationRequest, GenerationResult, QuotePlan } from '../contracts';
+import type { Analysis, Candidate, ConstructionDiagnostic, GenerationRequest, GenerationResult, QuotePlan } from '../contracts';
 import { validateRequest } from '../contracts';
 import { Assets, retrievalFor } from './assets';
 import { sourceDocument, hash } from './source';
 import { extractFacts } from './facts';
 import { makeRewritePlans } from './rewrite';
 import { makeConstructionPlans, constructionFamily } from './constructions';
+import { compareSourceEdits } from './rewrite-validation';
+import { updateConstructionOutcomes } from './construction-diagnostics';
 import { lockedEvidenceCompatible } from './lock-compatibility';
 import { unsupportedGenerationMode } from './capabilities';
 import { realize, validateCandidate, verification } from './validator';
@@ -25,7 +27,8 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
   const source = sourceDocument(request.source), ir = extractFacts(source, analysis, request);
   const unsupported = unsupportedGenerationMode(request);
   const rewrites = unsupported ? [] : makeRewritePlans(ir, request, assets);
-  const plans = unsupported ? [] : [...makeConstructionPlans(ir, request, assets, rewrites), ...rewrites].filter(plan => !options.operator || plan.mainOperator === options.operator);
+  const diagnostics: ConstructionDiagnostic[] = [];
+  const plans = unsupported ? [] : [...makeConstructionPlans(ir, request, assets, rewrites, diagnostics), ...rewrites].filter(plan => !options.operator || plan.mainOperator === options.operator);
   if (options.lockedNodeIds?.length && options.operator && options.lockedPlan && options.operator !== options.lockedPlan.mainOperator) throw new Error('LOCK_CONFLICT');
   const retrieval = retrievalFor(assets), evidenceIds = new Set(assets.evidence.map(item => item.id));
   const generated: Candidate[] = []; let total = 0;
@@ -42,13 +45,13 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
         for (const key of ['edits', 'lexicalEdits'] as const) {
           const retained = plan.construction[key].filter(edit => edit.nodeId !== id);
           const locked = structuredClone(options.lockedPlan.construction[key].filter(edit => edit.nodeId === id));
-          (plan.construction[key] as any[]) = [...retained, ...locked].sort((a, b) => a.sourceSpan.start - b.sourceSpan.start);
+          (plan.construction[key] as any[]) = [...retained, ...locked].sort(compareSourceEdits);
         }
-        const edits = [...plan.construction.edits, ...plan.construction.lexicalEdits].sort((a, b) => a.sourceSpan.start - b.sourceSpan.start);
+        const edits = [...plan.construction.edits, ...plan.construction.lexicalEdits].sort(compareSourceEdits);
         plan.evidenceIds = [...new Set(edits.flatMap(edit => edit.evidenceIds))];
       }
       if (plan.rewrite && options.lockedPlan?.rewrite) {
-        plan.rewrite.edits = [...plan.rewrite.edits.filter(edit => edit.nodeId !== id), ...structuredClone(options.lockedPlan.rewrite.edits.filter(edit => edit.nodeId === id))].sort((a, b) => a.sourceSpan.start - b.sourceSpan.start);
+        plan.rewrite.edits = [...plan.rewrite.edits.filter(edit => edit.nodeId !== id), ...structuredClone(options.lockedPlan.rewrite.edits.filter(edit => edit.nodeId === id))].sort(compareSourceEdits);
         plan.evidenceIds = [...new Set(plan.rewrite.edits.flatMap(edit => edit.evidenceIds))];
       }
     }
@@ -90,13 +93,14 @@ export function generate(request: GenerationRequest, analysis: Analysis, assets:
   const candidates = select(generated, request.noveltyMode, request.seed ?? source.inputHash);
   const shortfallReason = unsupported ? 'unsupported_generation_mode' : candidates.length === 3 ? null : candidates.length ? 'candidate_shortage' : generated.some(candidate => candidate.verificationStatus === 'needs_review' && candidate.checks.some(check => check.code === 'V-dictionary' && check.status === 'unknown')) ? 'dictionary_needs_review' : generated.some(candidate => candidate.checks.some(check => check.code === 'V-dictionary' && check.status === 'fail')) ? 'dictionary_rejected' : !plans.length ? 'unsupported_relation' : generated.every(candidate => candidate.verificationStatus !== 'passed') ? 'no_valid_candidate' : request.noveltyMode === 'invent' ? 'no_novel_candidate' : 'quality_rejected';
   const result: GenerationResult = { inputHash: source.inputHash, clientRevision: request.clientRevision, selectedCandidateId: candidates[0]?.id ?? null, candidates, candidatePool: generated, reviewCandidates: generated.filter(candidate => candidate.verificationStatus === 'needs_review').slice(0, 3),
-    fallback: candidates.length ? null : { text: request.source, reason: shortfallReason! }, shortfallReason, ir,
+    fallback: candidates.length ? null : { text: request.source, reason: shortfallReason! }, shortfallReason, ir, diagnostics,
     replayManifest: { schemaVersion: 1, request, seed: request.seed ?? source.inputHash, inputHash: source.inputHash, candidateSetHash: hash(generated.map(candidate => ({ id: candidate.id, text: candidate.text })).sort((a, b) => a.id.localeCompare(b.id))),
       historySnapshot: hash(options.history ?? []), history: options.history ?? [], datasetId: assets.datasetId, assets: assets.manifest, parserVersion: analysis.parserVersion,
-      engineVersion: options.engineVersion ?? assets.manifest.engine?.sourceHash ?? 'structured-v1', backend: request.backend, profile: 'registered-constructions-and-rewrites-36drafts-3results', deterministic: true, generated: generated.length,
+      engineVersion: options.engineVersion ?? assets.manifest.engine?.sourceHash ?? 'structured-v1', backend: request.backend, profile: 'composable-constructions-and-rewrites-36drafts-3results', deterministic: true, generated: generated.length,
       replayDepth: options.replayParent ? Number(options.replayParent.replayDepth ?? 0) + 1 : 0,
       experimentalOperators: options.experimentalOperators ?? false, regeneration: options.lockedPlan ? { lockedPlan: options.lockedPlan, lockedNodeIds: options.lockedNodeIds, operator: options.operator, parent: options.replayParent, candidateId: options.parentCandidateId } : null,
-      evaluator: { S: assets.evaluators?.S ? { version: hash(assets.evaluators.S), personal: assets.evaluators.S.personal, meaning: 'relative-preference-not-probability' } : 'untrained', Q: assets.evaluators?.Q ? { version: hash(assets.evaluators.Q), personal: assets.evaluators.Q.personal, meaning: 'relative-preference-not-probability' } : 'untrained', C: 'finite-rewrite-and-registered-construction-proof-v2', R: 'bounded-adaptation-size-v2', featureVersion }, experimental: true } };
+      evaluator: { S: assets.evaluators?.S ? { version: hash(assets.evaluators.S), personal: assets.evaluators.S.personal, meaning: 'relative-preference-not-probability' } : 'untrained', Q: assets.evaluators?.Q ? { version: hash(assets.evaluators.Q), personal: assets.evaluators.Q.personal, meaning: 'relative-preference-not-probability' } : 'untrained', C: 'finite-rewrite-and-composable-construction-proof-v3', R: 'bounded-adaptation-size-v2', featureVersion }, experimental: true } };
+  updateConstructionOutcomes(result, generated, 'finite_validation');
   if (!validateResult(result)) throw Object.assign(new Error('INVALID_RESULT_CONTRACT'), { validationErrors: validateResult.errors });
   return result;
 }

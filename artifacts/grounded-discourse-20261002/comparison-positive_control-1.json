@@ -1,0 +1,1033 @@
+[
+  {
+    "id": "P01",
+    "group": "positive_control",
+    "category": "陽性対照・怒り構文",
+    "source": "私の怒りは頂点に達しました。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "ed125ccb53390051562fb225",
+          "displayed": [
+            {
+              "id": "ed125ccb53390051562fb225",
+              "text": "俺の怒りは有頂天になった",
+              "operator": "CONSTRUCTION",
+              "family": "anger-maximum",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "anger-peak",
+                  "from": "怒りは頂点に達しました",
+                  "to": "怒りは有頂天になった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c851090f9f7e8badcbf64c54",
+              "text": "俺の怒りは頂点に達しました",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 1,
+          "verifiedCount": 2,
+          "selectionHash": "9a81cdee78f272faa0facb744a4aedfff6044d53deddbf603bd49ab56e57cec2"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "ed125ccb53390051562fb225",
+          "displayed": [
+            {
+              "id": "ed125ccb53390051562fb225",
+              "text": "俺の怒りは有頂天になった",
+              "operator": "CONSTRUCTION",
+              "family": "anger-maximum",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "anger-peak",
+                  "from": "怒りは頂点に達しました",
+                  "to": "怒りは有頂天になった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c851090f9f7e8badcbf64c54",
+              "text": "俺の怒りは頂点に達しました",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 1,
+          "verifiedCount": 2,
+          "selectionHash": "9a81cdee78f272faa0facb744a4aedfff6044d53deddbf603bd49ab56e57cec2"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "ed125ccb53390051562fb225",
+          "displayed": [
+            {
+              "id": "ed125ccb53390051562fb225",
+              "text": "俺の怒りは有頂天になった",
+              "operator": "CONSTRUCTION",
+              "family": "anger-maximum",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "anger-peak",
+                  "from": "怒りは頂点に達しました",
+                  "to": "怒りは有頂天になった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c851090f9f7e8badcbf64c54",
+              "text": "俺の怒りは頂点に達しました",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 1,
+          "verifiedCount": 2,
+          "selectionHash": "9a81cdee78f272faa0facb744a4aedfff6044d53deddbf603bd49ab56e57cec2"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "ed125ccb53390051562fb225",
+          "displayed": [
+            {
+              "id": "ed125ccb53390051562fb225",
+              "text": "俺の怒りは有頂天になった",
+              "operator": "CONSTRUCTION",
+              "family": "anger-maximum",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "anger-peak",
+                  "from": "怒りは頂点に達しました",
+                  "to": "怒りは有頂天になった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "c851090f9f7e8badcbf64c54",
+              "text": "俺の怒りは頂点に達しました",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 1,
+          "verifiedCount": 2,
+          "selectionHash": "9a81cdee78f272faa0facb744a4aedfff6044d53deddbf603bd49ab56e57cec2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "P02",
+    "group": "positive_control",
+    "category": "陽性対照・悲しみ構文",
+    "source": "私はとても悲しかった。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "248f2e53de8212e373ec9a47",
+          "displayed": [
+            {
+              "id": "248f2e53de8212e373ec9a47",
+              "text": "俺は深い悲しみに包まれた",
+              "operator": "CONSTRUCTION",
+              "family": "sadness-high",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "deep-sadness",
+                  "from": "とても悲しかった",
+                  "to": "深い悲しみに包まれた"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "f2c900cda29f33e7144acfc3",
+              "text": "俺はとても悲しかったからな",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+ending-insistence-17+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6f834f95cf2973614002e831",
+              "text": "俺はとても悲しかった",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 1,
+          "verifiedCount": 3,
+          "selectionHash": "fdc5d4ab2867771ddd2996d9d6795c1832ca1104e8241326305452123f9cef01"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "248f2e53de8212e373ec9a47",
+          "displayed": [
+            {
+              "id": "248f2e53de8212e373ec9a47",
+              "text": "俺は深い悲しみに包まれた",
+              "operator": "CONSTRUCTION",
+              "family": "sadness-high",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "deep-sadness",
+                  "from": "とても悲しかった",
+                  "to": "深い悲しみに包まれた"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "f2c900cda29f33e7144acfc3",
+              "text": "俺はとても悲しかったからな",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+ending-insistence-17+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6f834f95cf2973614002e831",
+              "text": "俺はとても悲しかった",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 1,
+          "verifiedCount": 3,
+          "selectionHash": "fdc5d4ab2867771ddd2996d9d6795c1832ca1104e8241326305452123f9cef01"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "248f2e53de8212e373ec9a47",
+          "displayed": [
+            {
+              "id": "248f2e53de8212e373ec9a47",
+              "text": "俺は深い悲しみに包まれた",
+              "operator": "CONSTRUCTION",
+              "family": "sadness-high",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "deep-sadness",
+                  "from": "とても悲しかった",
+                  "to": "深い悲しみに包まれた"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "f2c900cda29f33e7144acfc3",
+              "text": "俺はとても悲しかったからな",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+ending-insistence-17+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6f834f95cf2973614002e831",
+              "text": "俺はとても悲しかった",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 1,
+          "verifiedCount": 3,
+          "selectionHash": "fdc5d4ab2867771ddd2996d9d6795c1832ca1104e8241326305452123f9cef01"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "248f2e53de8212e373ec9a47",
+          "displayed": [
+            {
+              "id": "248f2e53de8212e373ec9a47",
+              "text": "俺は深い悲しみに包まれた",
+              "operator": "CONSTRUCTION",
+              "family": "sadness-high",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "deep-sadness",
+                  "from": "とても悲しかった",
+                  "to": "深い悲しみに包まれた"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "f2c900cda29f33e7144acfc3",
+              "text": "俺はとても悲しかったからな",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+ending-insistence-17+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "ending-insistence-17",
+                  "from": "かった",
+                  "to": "かったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "6f834f95cf2973614002e831",
+              "text": "俺はとても悲しかった",
+              "operator": "REWRITE",
+              "family": "narrator-watashi+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "narrator-watashi",
+                  "from": "私",
+                  "to": "俺"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 3,
+          "poolConstructionCount": 1,
+          "verifiedCount": 3,
+          "selectionHash": "fdc5d4ab2867771ddd2996d9d6795c1832ca1104e8241326305452123f9cef01"
+        }
+      }
+    ]
+  },
+  {
+    "id": "P03",
+    "group": "positive_control",
+    "category": "陽性対照・時間切れ構文",
+    "source": "もう時間切れでした。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "03e2d171ba59c33f9b4aff04",
+          "displayed": [
+            {
+              "id": "03e2d171ba59c33f9b4aff04",
+              "text": "時既に時間切れだった",
+              "operator": "CONSTRUCTION",
+              "family": "already-expired",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "time-expired",
+                  "from": "もう時間切れでした",
+                  "to": "時既に時間切れだった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "97dafe2025cc04476caee462",
+              "text": "もう時間切れでした",
+              "operator": "REWRITE",
+              "family": "punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "5351bac6144538daf837e3c0",
+              "text": "もう時間切れだったからな",
+              "operator": "REWRITE",
+              "family": "ending-insistence-9+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-9",
+                  "from": "でした",
+                  "to": "だったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 1,
+          "verifiedCount": 4,
+          "selectionHash": "d8148e4930d60f4ba44cc2ef4aae54c0406c3a2a24b655e07ec6334b6950fde0"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "03e2d171ba59c33f9b4aff04",
+          "displayed": [
+            {
+              "id": "03e2d171ba59c33f9b4aff04",
+              "text": "時既に時間切れだった",
+              "operator": "CONSTRUCTION",
+              "family": "already-expired",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "time-expired",
+                  "from": "もう時間切れでした",
+                  "to": "時既に時間切れだった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "97dafe2025cc04476caee462",
+              "text": "もう時間切れでした",
+              "operator": "REWRITE",
+              "family": "punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "5351bac6144538daf837e3c0",
+              "text": "もう時間切れだったからな",
+              "operator": "REWRITE",
+              "family": "ending-insistence-9+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-9",
+                  "from": "でした",
+                  "to": "だったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 1,
+          "verifiedCount": 4,
+          "selectionHash": "d8148e4930d60f4ba44cc2ef4aae54c0406c3a2a24b655e07ec6334b6950fde0"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "03e2d171ba59c33f9b4aff04",
+          "displayed": [
+            {
+              "id": "03e2d171ba59c33f9b4aff04",
+              "text": "時既に時間切れだった",
+              "operator": "CONSTRUCTION",
+              "family": "already-expired",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "time-expired",
+                  "from": "もう時間切れでした",
+                  "to": "時既に時間切れだった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "97dafe2025cc04476caee462",
+              "text": "もう時間切れでした",
+              "operator": "REWRITE",
+              "family": "punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "5351bac6144538daf837e3c0",
+              "text": "もう時間切れだったからな",
+              "operator": "REWRITE",
+              "family": "ending-insistence-9+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-9",
+                  "from": "でした",
+                  "to": "だったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 1,
+          "verifiedCount": 4,
+          "selectionHash": "d8148e4930d60f4ba44cc2ef4aae54c0406c3a2a24b655e07ec6334b6950fde0"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "03e2d171ba59c33f9b4aff04",
+          "displayed": [
+            {
+              "id": "03e2d171ba59c33f9b4aff04",
+              "text": "時既に時間切れだった",
+              "operator": "CONSTRUCTION",
+              "family": "already-expired",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "time-expired",
+                  "from": "もう時間切れでした",
+                  "to": "時既に時間切れだった"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "97dafe2025cc04476caee462",
+              "text": "もう時間切れでした",
+              "operator": "REWRITE",
+              "family": "punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "5351bac6144538daf837e3c0",
+              "text": "もう時間切れだったからな",
+              "operator": "REWRITE",
+              "family": "ending-insistence-9+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-9",
+                  "from": "でした",
+                  "to": "だったからな"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 1,
+          "verifiedCount": 4,
+          "selectionHash": "d8148e4930d60f4ba44cc2ef4aae54c0406c3a2a24b655e07ec6334b6950fde0"
+        }
+      }
+    ]
+  }
+]

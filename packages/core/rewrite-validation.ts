@@ -1,10 +1,13 @@
-import type { DocumentIR, QuotePlan, RewriteEdit, PlanNode } from '../contracts';
+import type { DocumentIR, QuotePlan, RewriteEdit, PlanNode, Span } from '../contracts';
 import { hash, slice } from './source';
 import { createRewritePermission, rewriteRuleById } from './rewrite-rules';
 
+// Zero-width registered prefixes sort before a body edit at the same source offset.
+export const compareSourceEdits = (a: { sourceSpan: Span }, b: { sourceSpan: Span }) => a.sourceSpan.start - b.sourceSpan.start || a.sourceSpan.end - b.sourceSpan.end;
+
 export function renderEdits(raw: string, node: PlanNode, edits: RewriteEdit[]): string {
   let cursor = node.sourceSpan!.start, text = '';
-  for (const edit of [...edits].sort((a, b) => a.sourceSpan.start - b.sourceSpan.start)) {
+  for (const edit of [...edits].sort(compareSourceEdits)) {
     text += slice(raw, { start: cursor, end: edit.sourceSpan.start }) + edit.to;
     cursor = edit.sourceSpan.end;
   }
@@ -22,7 +25,7 @@ export function validateRewrite(ir: DocumentIR, plan: QuotePlan, references?: Ma
   const permits = createRewritePermission(ir);
   for (const node of plan.nodes) {
     if (!node.sourceSpan) return false;
-    const edits = program.edits.filter(edit => edit.nodeId === node.id).sort((a, b) => a.sourceSpan.start - b.sourceSpan.start);
+    const edits = program.edits.filter(edit => edit.nodeId === node.id).sort(compareSourceEdits);
     let cursor = node.sourceSpan.start;
     for (const edit of edits) {
       const rule = rewriteRuleById.get(edit.ruleId);

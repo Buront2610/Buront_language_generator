@@ -1,0 +1,1510 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T10",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "c5f64353c8f9dbf9e99ba8007a371afb557801aa5ab5d649bf026fbd05b1f07b",
+      "nodeId": "fact-node-2",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 28,
+        "end": 42
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "T11",
+    "group": "targeted_regression",
+    "category": "他者の謙遜",
+    "source": "田中は大したことはしていないと言った。彼が故障の原因を見つけて、止まっていた機械を動かした。"
+  },
+  {
+    "type": "run",
+    "id": "T11",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 69.446,
+      "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+      "displayedIds": [
+        {
+          "id": "9a14b4de805af22815dcb3cd",
+          "planId": "ffcf723c509bb4bf9fb30590"
+        },
+        {
+          "id": "2ba22e83f2968697649b310e",
+          "planId": "9944bb99fd9593806c94106a"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "9a14b4de805af22815dcb3cd",
+          "2ba22e83f2968697649b310e"
+        ],
+        "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 69.878,
+      "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+      "displayedIds": [
+        {
+          "id": "9a14b4de805af22815dcb3cd",
+          "planId": "ffcf723c509bb4bf9fb30590"
+        },
+        {
+          "id": "2ba22e83f2968697649b310e",
+          "planId": "9944bb99fd9593806c94106a"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "9a14b4de805af22815dcb3cd",
+          "2ba22e83f2968697649b310e"
+        ],
+        "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "2ba22e83f2968697649b310e",
+      "planId": "9944bb99fd9593806c94106a",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "9a14b4de805af22815dcb3cd",
+      "planId": "ffcf723c509bb4bf9fb30590",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 44,
+            "end": 45
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "2ba22e83f2968697649b310e",
+      "planId": "9944bb99fd9593806c94106a",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "9a14b4de805af22815dcb3cd",
+      "planId": "ffcf723c509bb4bf9fb30590",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 44,
+            "end": 45
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "T11",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 72.601,
+      "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+      "displayedIds": [
+        {
+          "id": "9a14b4de805af22815dcb3cd",
+          "planId": "6bbcc55a8f802f55aec7a921"
+        },
+        {
+          "id": "2ba22e83f2968697649b310e",
+          "planId": "8d3fd6476f5816e3bd2f9c0a"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "9a14b4de805af22815dcb3cd",
+          "2ba22e83f2968697649b310e"
+        ],
+        "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 57.15,
+      "selectedCandidateId": "9a14b4de805af22815dcb3cd",
+      "displayedIds": [
+        {
+          "id": "9a14b4de805af22815dcb3cd",
+          "planId": "6bbcc55a8f802f55aec7a921"
+        },
+        {
+          "id": "2ba22e83f2968697649b310e",
+          "planId": "8d3fd6476f5816e3bd2f9c0a"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "9a14b4de805af22815dcb3cd",
+          "2ba22e83f2968697649b310e"
+        ],
+        "selectionHash": "269179399636fe1034d4db66df9600096af4633323011e27b26319c1b4f47661"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "2ba22e83f2968697649b310e",
+      "planId": "8d3fd6476f5816e3bd2f9c0a",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "9a14b4de805af22815dcb3cd",
+      "planId": "6bbcc55a8f802f55aec7a921",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 44,
+            "end": 45
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "2ba22e83f2968697649b310e",
+      "planId": "8d3fd6476f5816e3bd2f9c0a",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "9a14b4de805af22815dcb3cd",
+      "planId": "6bbcc55a8f802f55aec7a921",
+      "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 18,
+            "end": 19
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-21",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 44,
+            "end": 45
+          },
+          "from": "た",
+          "to": "たからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 45,
+            "end": 46
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 19
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "T11",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "1598d134497f1ae59c4c63855c9e001ae895f7991d268b9fd16eec18097757b5",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 19,
+        "end": 46
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "T12",
+    "group": "targeted_regression",
+    "category": "逆接と否定評価",
+    "source": "このかばんは小さくて軽い。値段は少し高かったが、使いにくいので満足していない。"
+  },
+  {
+    "type": "run",
+    "id": "T12",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 39.576,
+      "selectedCandidateId": "b1897aacd7daf5a378ac20ec",
+      "displayedIds": [
+        {
+          "id": "b1897aacd7daf5a378ac20ec",
+          "planId": "88ea3c52bb16bcc8f7866018"
+        },
+        {
+          "id": "c933d01217e9bcab9794b404",
+          "planId": "0f816823c35ebe94e88fe17e"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "b1897aacd7daf5a378ac20ec",
+          "c933d01217e9bcab9794b404"
+        ],
+        "selectionHash": "fc43d525d202d6ab0b6f84bdbe08cbe6aa32f74283b541e0eeaf46b229d4d692"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 39.75,
+      "selectedCandidateId": "b1897aacd7daf5a378ac20ec",
+      "displayedIds": [
+        {
+          "id": "b1897aacd7daf5a378ac20ec",
+          "planId": "88ea3c52bb16bcc8f7866018"
+        },
+        {
+          "id": "c933d01217e9bcab9794b404",
+          "planId": "0f816823c35ebe94e88fe17e"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "b1897aacd7daf5a378ac20ec",
+          "c933d01217e9bcab9794b404"
+        ],
+        "selectionHash": "fc43d525d202d6ab0b6f84bdbe08cbe6aa32f74283b541e0eeaf46b229d4d692"
+      }
+    }
+  }
+]

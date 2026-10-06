@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import MiniSearch from 'minisearch';
+import type MiniSearch from 'minisearch';
+import { boundedExactSearch } from './bounded-search';
 import { execFileSync } from 'node:child_process';
 import { randomUUID } from 'node:crypto';
 import { hash } from './source';
@@ -139,9 +140,9 @@ export class Retrieval {
     const documents = assets.evidence.filter(item => !explicitlyExcluded(item) && (!item.leakageGroupId || !blockedLeakageGroups.has(item.leakageGroupId)));
     const canonical = deduplicateRetrievalEvidence(documents);
     const originals = canonical.filter(item => item.sourceType === 'original_post');
-    this.content = new MiniSearch({ fields: ['text'], storeFields: ['series'], tokenize }); this.content.addAll(originals);
-    this.usage = new MiniSearch({ fields: ['family', 'text'], storeFields: ['series'], tokenize }); this.usage.addAll(canonical);
-    this.novelty = new MiniSearch({ fields: ['text'], storeFields: ['series'], tokenize }); this.novelty.addAll(canonical);
+    this.content = boundedExactSearch<Evidence>(['text'], tokenize); this.content.addAll(originals);
+    this.usage = boundedExactSearch<Evidence>(['family', 'text'], tokenize); this.usage.addAll(canonical);
+    this.novelty = boundedExactSearch<Evidence>(['text'], tokenize); this.novelty.addAll(canonical);
     this.byId = new Map(canonical.map(item => [item.id, item]));
   }
   search(query: string, series = 'all', purpose: 'content' | 'usage' | 'novelty' = 'content', limit = 12) {

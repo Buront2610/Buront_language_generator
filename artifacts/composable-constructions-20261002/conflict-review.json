@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "kind": "deterministic adversarial interval helper property test",
+  "seed": 351,
+  "arrays": 10000,
+  "maxEdits": 8,
+  "passed": true
+}

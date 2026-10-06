@@ -1,0 +1,1440 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": "a7cd85b13f81aab6eac4a5b3",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": "6e34d52a9c72df44698d7a61",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-plain-9",
+      "sourceSpan": {
+        "start": 6,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": "a2be3b85e776acf78ef18e34",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-insistence-9",
+      "sourceSpan": {
+        "start": 6,
+        "end": 9
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": "03e2d171ba59c33f9b4aff04",
+      "planId": "a7cd85b13f81aab6eac4a5b3",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "P03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "07d9eea91d1199056e724229a193ba5e113896541f45885a7ca1d6aea0b6e26e",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": "03e2d171ba59c33f9b4aff04",
+      "planId": "a7cd85b13f81aab6eac4a5b3",
+      "sourceSpan": {
+        "start": 0,
+        "end": 9
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "input",
+    "id": "B01",
+    "group": "abstention_control",
+    "category": "追加確認・挨拶",
+    "source": "おはよう"
+  },
+  {
+    "type": "run",
+    "id": "B01",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 3.527,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": {
+        "text": "おはよう",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 3.467,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": {
+        "text": "おはよう",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "B01",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 2.872,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": {
+        "text": "おはよう",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 3.025,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": {
+        "text": "おはよう",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4314662c3426676a1dd586be6a6f1bddf8dae143c7e8514c50af525f9dc6cec8",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "B02",
+    "group": "abstention_control",
+    "category": "追加確認・疑問",
+    "source": "明日の集合場所はどこ？"
+  },
+  {
+    "type": "run",
+    "id": "B02",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 4.017,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": {
+        "text": "明日の集合場所はどこ？",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 3.642,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": {
+        "text": "明日の集合場所はどこ？",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "B02",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 3.139,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": {
+        "text": "明日の集合場所はどこ？",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 2.951,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": {
+        "text": "明日の集合場所はどこ？",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "9899839b11b162fe59a72f4e26a78c2ee6199bd2442841818d092f400b98f8f4",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "B03",
+    "group": "abstention_control",
+    "category": "追加確認・引用だけ",
+    "source": "「明日は行けません」"
+  },
+  {
+    "type": "run",
+    "id": "B03",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 3.723,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": {
+        "text": "「明日は行けません」",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 3.264,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": {
+        "text": "「明日は行けません」",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "B03",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 3.031,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": {
+        "text": "「明日は行けません」",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 3.141,
+      "selectedCandidateId": null,
+      "displayedIds": [],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": {
+        "text": "「明日は行けません」",
+        "reason": "unsupported_relation"
+      },
+      "shortfallReason": "unsupported_relation",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 0,
+        "selectedIds": [],
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "B03",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "240c65b8d163d1e75984483a7ab038aa794ca5d124de770d35f72c8ff745d03f",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "T01",
+    "group": "targeted_regression",
+    "category": "理由終止・名詞",
+    "source": "今日は休みます。熱があるからです。"
+  },
+  {
+    "type": "run",
+    "id": "T01",
+    "intensity": 2,
+    "displayedTextOrderChanged": true,
+    "before": {
+      "intensity": 2,
+      "generationMs": 57.401,
+      "selectedCandidateId": "d4de10c5a314005e93c74caa",
+      "displayedIds": [
+        {
+          "id": "d4de10c5a314005e93c74caa",
+          "planId": "e8797f92a6b898069cb72803"
+        },
+        {
+          "id": "54b01d60cc4b94567cd20704",
+          "planId": "850d815de0d38ef49d088147"
+        },
+        {
+          "id": "b85a20a36d2c5a920f0b9849",
+          "planId": "2b99ccf87b1b47d8b39b7d93"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "d4de10c5a314005e93c74caa",
+          "54b01d60cc4b94567cd20704",
+          "b85a20a36d2c5a920f0b9849"
+        ],
+        "selectionHash": "3cca9029d9e80152c647fe19f0b50c15f88b6c6ef1f358c418fd54d7cc5b9ae4"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 41.142,
+      "selectedCandidateId": "33ceae6e7f3f7265e2fbdaed",
+      "displayedIds": [
+        {
+          "id": "33ceae6e7f3f7265e2fbdaed",
+          "planId": "120f2faed891512722f8f777"
+        },
+        {
+          "id": "b85a20a36d2c5a920f0b9849",
+          "planId": "2b99ccf87b1b47d8b39b7d93"
+        },
+        {
+          "id": "54b01d60cc4b94567cd20704",
+          "planId": "850d815de0d38ef49d088147"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "33ceae6e7f3f7265e2fbdaed",
+          "b85a20a36d2c5a920f0b9849",
+          "54b01d60cc4b94567cd20704"
+        ],
+        "selectionHash": "9e5332211116f1da7e31487bf2b927120b6fed21186fdbbde54c9e8db3f9341e"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "d4de10c5a314005e93c74caa",
+      "planId": "e8797f92a6b898069cb72803",
+      "text": "今日は休みます\n何故なら熱があるからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 8,
+            "end": 16
+          },
+          "from": "熱があるからです",
+          "to": "何故なら熱があるからです",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 8
+              },
+              "text": "今日は休みます。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 8,
+                "end": 16
+              },
+              "text": "熱があるからです",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 12,
+                "end": 14
+              },
+              "text": "から",
+              "tokenIds": [
+                8
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 10,
+                "end": 12
+              },
+              "text": "ある",
+              "tokenIds": [
+                7
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "b85a20a36d2c5a920f0b9849",
+      "planId": "2b99ccf87b1b47d8b39b7d93",
+      "text": "今日は休みます\n熱があるからです",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "T01",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "54b01d60cc4b94567cd20704",
+      "planId": "850d815de0d38ef49d088147",
+      "text": "今日は休みます\n熱があるからだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 16
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 16,
+            "end": 17
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

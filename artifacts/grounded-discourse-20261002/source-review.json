@@ -1,0 +1,31 @@
+{
+  "reviewedAt": "2026-10-02",
+  "reviewerType": "model qualitative source inspection; no human taste evaluation",
+  "scope": "Bounded readable passages, not the entire works, corpus, or a human-rated style benchmark.",
+  "sources": [
+    {
+      "url": "https://syosetu.org/novel/107412/4.html",
+      "title": "ブロント語改変集・寺生まれのBさん",
+      "inspected": "Parts 1–2, including opening self-description, the causal/contrast sequence at the end of part 1, and the concluding comparison of part 2.",
+      "observation": "The narrator places events inside self-serving explanation and comparison, often presenting an evaluation after several reasons. Modest self-presentation sits beside accounts of ability. This is discourse organization and stance as well as recognizable phrases."
+    },
+    {
+      "url": "https://kenkyonanight.xxxxxxxx.jp/oii.html",
+      "title": "謎の改変物",
+      "inspected": "カサブロント opening; 矛盾; ボダブレ; 方丈記 variants 1–2.",
+      "observation": "The examples intertwine claims, reasons, contrast and self-positioning. The two 方丈記 variants show that changing vocabulary and reframing a story are different operations. Some reframing invents narrative material; a faithful rewrite must not imitate that factual freedom."
+    }
+  ],
+  "accessLimitations": [
+    "https://syosetu.org/novel/107412/12.html returned an inaccessible-page error twice in this pass. The prior evaluation's account of it is historical context only, not newly verified evidence.",
+    "oii.html contains mojibake in some other sections. No conclusion relies on unreadable text."
+  ],
+  "comparisonDimensions": [
+    "Local phrase and ending changes versus source-grounded relations between clauses",
+    "Explicit premise, reason, contrast and conclusion progression",
+    "Modesty juxtaposed with an achievement already present in the source",
+    "Preservation of actors, events, quantities, negation, uncertainty, attribution and quoted text",
+    "Residual distance from sustained narrative voice, contextual humor and individual reader taste"
+  ],
+  "evaluationBoundary": "Counting constructions or passed verification cannot establish naturalness, humor, preference, or equivalence to these works. S/Q remain untrained and null. Reusing previous ordinary cases is a regression comparison, not a fresh held-out generalization benchmark."
+}

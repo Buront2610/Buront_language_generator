@@ -1,0 +1,74 @@
+{
+  "reviewedAt": "2026-10-02",
+  "reviewType": "model inspection of actual before/after candidate texts; no human taste evaluation",
+  "conclusion": "A narrow, source-grounded improvement is observed in N03/N04 reason presentation and N05 modesty framing. Thirteen of the sixteen ordinary passages keep exactly the same candidate text/order. This is not evidence of broad literary-style success.",
+  "contentPreservation": {
+    "method": "Read all 35 before/after case outputs and inspect the changed ordinary/targeted outputs against the source. Automated reparse/verification separately passed on every displayed candidate.",
+    "findings": [
+      "N03 retains the opinion shell と思う and both the no-parking-search and predictable-arrival reasons; 何故なら makes the existing causal relationship overt.",
+      "N04 retains opposition, high cost, one-week preparation and the proposal to try on a small scale. It does not add another reason or convert the recommendation into a completed act.",
+      "N05 retains finding the fault and restarting the stopped machine, including だけだ. The new opening changes self-presentation but adds no praise, opponent or extra achievement.",
+      "T01–T04 similarly retain the fever, distance, electronic-search advantages and three-day timing. T13 retains proximity and difficulty walking at night.",
+      "Quoted T08, uncertain T09, unrealized T10 and other-actor T11 gain no discourse construction. Unrelated adjacent T07 gains no new reason frame. Existing narrator/ending rewrites still affect pragmatic stance.",
+      "No introduced actor, event, changed number, removed negation or promoted uncertainty was found in this bounded surface inspection. This is not a proof for arbitrary inputs or all pragmatic interpretations."
+    ]
+  },
+  "ordinaryStructure": [
+    {
+      "cases": [
+        "N03",
+        "N04"
+      ],
+      "change": "An explicit 何故なら introducer is inserted before an already marked reason.",
+      "limit": "No clause reordering, new premise or richer argument sequence is generated. N04 still contains the pre-existing insistence ending."
+    },
+    {
+      "cases": [
+        "N05"
+      ],
+      "change": "Opening modesty is realized as それほどでもない before the same limited achievement.",
+      "limit": "The narrow supported deed/context does not generalize to T05 opening a door, which is unchanged."
+    },
+    {
+      "cases": [
+        "N14",
+        "T06"
+      ],
+      "change": "None; embedded concessive が remains unchanged.",
+      "limit": "The separate T13 sentence-initial しかし diagnostic gains だが only at intensity 3. This is not general concession/contrast reconstruction."
+    },
+    {
+      "cases": [
+        "N01",
+        "N02",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16"
+      ],
+      "change": "All surfaced text/order remains exactly the same.",
+      "limit": "Ordinary variety, sustained narrator stance, contextual humor and dialogue flow remain mostly outside this repair."
+    }
+  ],
+  "endingDistinction": {
+    "fixedObservedCases": [
+      "N03",
+      "T01",
+      "T03"
+    ],
+    "remainingLiteralCase": "N02 retains 午後三時からだからな because から marks a start time, not an explanatory causal clause. Literal substring counts alone are not an error metric."
+  },
+  "scores": {
+    "S": null,
+    "Q": null,
+    "interpretation": "Untrained; C/R=1 and passed checks are not learned style/quality ratings."
+  },
+  "nextEvaluation": "Use fresh ordinary material selected before outputs and independent human ratings for naturalness, style resemblance, humor and content preservation before claiming broader quality improvement."
+}

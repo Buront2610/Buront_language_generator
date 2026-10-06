@@ -1,0 +1,527 @@
+{
+  "generatedAt": "2026-10-02T04:55:15.766Z",
+  "method": "Controlled regression comparison plus separately labeled current-dataset smoke. Actual displayed outputs; no human preference/style quality ratings.",
+  "controlled": {
+    "sameDataset": true,
+    "sameAssetBytes": true,
+    "sameSettings": true,
+    "sameInputsAndOrder": true,
+    "sameParserVersion": true,
+    "allSourceAnalysesIdentical": true,
+    "stableBeforeAndAfterEngines": true
+  },
+  "before": {
+    "ordinary": {
+      "cases": 16,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 32,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 14,
+          "literalKaraDakaraNaOccurrences": 2,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 32,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 14,
+          "literalKaraDakaraNaOccurrences": 2,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 16
+    },
+    "positive_control": {
+      "cases": 3,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 8,
+          "displayedConstructions": 3,
+          "casesWithDisplayedConstruction": 3,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 1,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 8,
+          "displayedConstructions": 3,
+          "casesWithDisplayedConstruction": 3,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 1,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 3
+    },
+    "abstention_control": {
+      "cases": 3,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 0,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 3,
+          "casesWithFewerThanThree": 3,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 0,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 3,
+          "casesWithFewerThanThree": 3,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 3
+    },
+    "targeted_regression": {
+      "cases": 13,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 27,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 12,
+          "literalKaraDakaraNaOccurrences": 2,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 27,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 12,
+          "literalKaraDakaraNaOccurrences": 2,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 13
+    }
+  },
+  "after": {
+    "ordinary": {
+      "cases": 16,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 34,
+          "displayedConstructions": 3,
+          "casesWithDisplayedConstruction": 3,
+          "displayedDiscourseConstructions": 3,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 12,
+          "literalKaraDakaraNaOccurrences": 1,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 34,
+          "displayedConstructions": 3,
+          "casesWithDisplayedConstruction": 3,
+          "displayedDiscourseConstructions": 3,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 12,
+          "literalKaraDakaraNaOccurrences": 1,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 16
+    },
+    "positive_control": {
+      "cases": 3,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 8,
+          "displayedConstructions": 3,
+          "casesWithDisplayedConstruction": 3,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 1,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 8,
+          "displayedConstructions": 3,
+          "casesWithDisplayedConstruction": 3,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 1,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 3
+    },
+    "abstention_control": {
+      "cases": 3,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 0,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 3,
+          "casesWithFewerThanThree": 3,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 0,
+          "displayedConstructions": 0,
+          "casesWithDisplayedConstruction": 0,
+          "displayedDiscourseConstructions": 0,
+          "zeroCandidateCases": 3,
+          "casesWithFewerThanThree": 3,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 3
+    },
+    "targeted_regression": {
+      "cases": 13,
+      "byIntensity": [
+        {
+          "intensity": 2,
+          "displayedCandidates": 29,
+          "displayedConstructions": 4,
+          "casesWithDisplayedConstruction": 4,
+          "displayedDiscourseConstructions": 4,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 10,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        },
+        {
+          "intensity": 3,
+          "displayedCandidates": 30,
+          "displayedConstructions": 5,
+          "casesWithDisplayedConstruction": 5,
+          "displayedDiscourseConstructions": 5,
+          "zeroCandidateCases": 0,
+          "casesWithFewerThanThree": 9,
+          "literalKaraDakaraNaOccurrences": 0,
+          "allDisplayedVerified": true,
+          "allDisplayedSQNull": true,
+          "errors": 0
+        }
+      ],
+      "sameTextOrderAtBothIntensities": 12
+    }
+  },
+  "changedCases": [
+    "N03",
+    "N04",
+    "N05",
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T13"
+  ],
+  "productionSmoke": {
+    "datasetId": "0fd001528a59d2fe9b35d63310acba66cc6fa65de362f1f17044ea81fc89b1f8",
+    "sameTestedRevisionAsControlledAfter": true,
+    "sameEngineHashesAsControlledAfter": true,
+    "stableEngine": true,
+    "summary": {
+      "ordinary": {
+        "cases": 16,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "displayedCandidates": 34,
+            "displayedConstructions": 3,
+            "casesWithDisplayedConstruction": 3,
+            "displayedDiscourseConstructions": 3,
+            "zeroCandidateCases": 0,
+            "casesWithFewerThanThree": 12,
+            "literalKaraDakaraNaOccurrences": 1,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "displayedCandidates": 34,
+            "displayedConstructions": 3,
+            "casesWithDisplayedConstruction": 3,
+            "displayedDiscourseConstructions": 3,
+            "zeroCandidateCases": 0,
+            "casesWithFewerThanThree": 12,
+            "literalKaraDakaraNaOccurrences": 1,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          }
+        ],
+        "sameTextOrderAtBothIntensities": 16
+      },
+      "positive_control": {
+        "cases": 3,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "displayedCandidates": 8,
+            "displayedConstructions": 3,
+            "casesWithDisplayedConstruction": 3,
+            "displayedDiscourseConstructions": 0,
+            "zeroCandidateCases": 0,
+            "casesWithFewerThanThree": 1,
+            "literalKaraDakaraNaOccurrences": 0,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "displayedCandidates": 8,
+            "displayedConstructions": 3,
+            "casesWithDisplayedConstruction": 3,
+            "displayedDiscourseConstructions": 0,
+            "zeroCandidateCases": 0,
+            "casesWithFewerThanThree": 1,
+            "literalKaraDakaraNaOccurrences": 0,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          }
+        ],
+        "sameTextOrderAtBothIntensities": 3
+      },
+      "abstention_control": {
+        "cases": 3,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "displayedCandidates": 0,
+            "displayedConstructions": 0,
+            "casesWithDisplayedConstruction": 0,
+            "displayedDiscourseConstructions": 0,
+            "zeroCandidateCases": 3,
+            "casesWithFewerThanThree": 3,
+            "literalKaraDakaraNaOccurrences": 0,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "displayedCandidates": 0,
+            "displayedConstructions": 0,
+            "casesWithDisplayedConstruction": 0,
+            "displayedDiscourseConstructions": 0,
+            "zeroCandidateCases": 3,
+            "casesWithFewerThanThree": 3,
+            "literalKaraDakaraNaOccurrences": 0,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          }
+        ],
+        "sameTextOrderAtBothIntensities": 3
+      },
+      "targeted_regression": {
+        "cases": 13,
+        "byIntensity": [
+          {
+            "intensity": 2,
+            "displayedCandidates": 29,
+            "displayedConstructions": 4,
+            "casesWithDisplayedConstruction": 4,
+            "displayedDiscourseConstructions": 4,
+            "zeroCandidateCases": 0,
+            "casesWithFewerThanThree": 10,
+            "literalKaraDakaraNaOccurrences": 0,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          },
+          {
+            "intensity": 3,
+            "displayedCandidates": 30,
+            "displayedConstructions": 5,
+            "casesWithDisplayedConstruction": 5,
+            "displayedDiscourseConstructions": 5,
+            "zeroCandidateCases": 0,
+            "casesWithFewerThanThree": 9,
+            "literalKaraDakaraNaOccurrences": 0,
+            "allDisplayedVerified": true,
+            "allDisplayedSQNull": true,
+            "errors": 0
+          }
+        ],
+        "sameTextOrderAtBothIntensities": 12
+      }
+    },
+    "textOrderDifferentFromControlledAfter": []
+  },
+  "artifactFiles": [
+    {
+      "file": "before-metadata.json",
+      "bytes": 14046,
+      "sha256": "b58205c3e2aa4b0cf51aa130917a6fcc43d8965a39d72751398d0a9813db7101"
+    },
+    {
+      "file": "after-metadata.json",
+      "bytes": 14595,
+      "sha256": "656d3260567295a3922ce259dcd7dfff0cf882711455a54be5e11881d326fe19"
+    },
+    {
+      "file": "production-smoke-metadata.json",
+      "bytes": 14595,
+      "sha256": "d7af1b96905aa0127a7497c99bf6c01d97e6d02830d355a6abf7989e448b34c5"
+    },
+    {
+      "file": "comparison-ordinary-1.json",
+      "bytes": 39632,
+      "sha256": "d0ff5836948c4e40b82424f39b99ef795cbc63dad00e007f9dab6a3a48a9daaf"
+    },
+    {
+      "file": "comparison-ordinary-2.json",
+      "bytes": 38471,
+      "sha256": "659286d54fefd7e0bafe86606dfddb32495fa34eb395b6c4da80b6d2d110e88b"
+    },
+    {
+      "file": "comparison-ordinary-3.json",
+      "bytes": 35806,
+      "sha256": "5320cbd3656f135298516b88dd86ccf732f27b93a097fb466be7452d2019cc21"
+    },
+    {
+      "file": "comparison-ordinary-4.json",
+      "bytes": 37466,
+      "sha256": "5ef681de9329df698e12b6a6d2a01f0ff93ce5fd0c4f3e97d30b269be595d131"
+    },
+    {
+      "file": "comparison-ordinary-5.json",
+      "bytes": 29761,
+      "sha256": "8ef646a3ed6c35265a47ba93565f0a9a5dd657aa6392c0ff9a1b34e8391b71f7"
+    },
+    {
+      "file": "comparison-ordinary-6.json",
+      "bytes": 13610,
+      "sha256": "8e8b781293c11aee04b93d3e7ad103da157b0689c8b9fde8121a709a8b0ba13b"
+    },
+    {
+      "file": "comparison-positive_control-1.json",
+      "bytes": 32860,
+      "sha256": "9f8f34180b684ce8289601dff95c7a8e49bf6680e576fadfac85dacddd24bf75"
+    },
+    {
+      "file": "comparison-abstention_control-1.json",
+      "bytes": 7059,
+      "sha256": "5283cc03db7c60340a221c8b8ee0840474d2b6fd307ee2adc417fa8ffe5115f2"
+    },
+    {
+      "file": "comparison-targeted_regression-1.json",
+      "bytes": 35567,
+      "sha256": "38809591b7c2e4ec6333ab6134823c5aa6febd762495b7a24948af8e6c47cacb"
+    },
+    {
+      "file": "comparison-targeted_regression-2.json",
+      "bytes": 38217,
+      "sha256": "d457f286084fe61c44a484f03ffcfe441372b029272699ad11ada3d117fac0b7"
+    },
+    {
+      "file": "comparison-targeted_regression-3.json",
+      "bytes": 33825,
+      "sha256": "1744251d6e92b76ac58eec5d31bae9b33521a9554d355b81c41da7a7072b357a"
+    },
+    {
+      "file": "comparison-targeted_regression-4.json",
+      "bytes": 36150,
+      "sha256": "039865189e824e636e35c9c7be9735445c873456cfd6a42e9499eb915d7748e3"
+    },
+    {
+      "file": "comparison-targeted_regression-5.json",
+      "bytes": 12231,
+      "sha256": "d24dd99556848ea2dda0b7f2859905c05c4a070861319cf13a4fa45b7cfa329c"
+    },
+    {
+      "file": "production-smoke-1.json",
+      "bytes": 38256,
+      "sha256": "60ba3dc58965a139a0e93fda22650a704a127675a48414385e9c0b24a655ed68"
+    },
+    {
+      "file": "production-smoke-2.json",
+      "bytes": 39942,
+      "sha256": "23521e42537455d7c611dc7b481ae56de3f96208342d1eef32faa23fca8f68b0"
+    },
+    {
+      "file": "production-smoke-3.json",
+      "bytes": 39256,
+      "sha256": "b8d2552f3365685372fa740626beb7827bec34aebc06743c491a5ca5f7cc11b9"
+    },
+    {
+      "file": "production-smoke-4.json",
+      "bytes": 40735,
+      "sha256": "c8bf36e940779dbde5585c299918ae5b7d140323dc9649c020e2e0d8cb197611"
+    },
+    {
+      "file": "production-smoke-5.json",
+      "bytes": 27889,
+      "sha256": "7fdb96839743e321f0001d2386160c1f43695faadd62eaf28cf441d449fece00"
+    }
+  ]
+}

@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "T04",
+    "group": "targeted_regression",
+    "category": "反対と複数理由・別内容",
+    "source": "その日程には賛成できない。担当者が不在で、確認にも三日かかるからだ。まず予定を確認するべきだと思う。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "a5ad5d06c31c955b149ae033",
+          "displayed": [
+            {
+              "id": "a5ad5d06c31c955b149ae033",
+              "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d06e3963ab844d8920160845",
+              "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "990ab28b3d888217b62aade55325a2cf13c958bb85a303212ec8c3a54b56de06"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "0d9afbd3a2fc053439c50d5c",
+          "displayed": [
+            {
+              "id": "0d9afbd3a2fc053439c50d5c",
+              "text": "その日程には賛成できないからな\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-reason-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-reason",
+                  "from": "担当者が不在で、確認にも三日かかるからだ",
+                  "to": "何故なら担当者が不在で、確認にも三日かかるからだ"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d06e3963ab844d8920160845",
+              "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a5ad5d06c31c955b149ae033",
+              "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 2,
+          "verifiedCount": 4,
+          "selectionHash": "722db655e6bc78628fdd4b8093dadeb4032cdf5c7fa4cd000466a1e48fd1dbca"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "a5ad5d06c31c955b149ae033",
+          "displayed": [
+            {
+              "id": "a5ad5d06c31c955b149ae033",
+              "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d06e3963ab844d8920160845",
+              "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "990ab28b3d888217b62aade55325a2cf13c958bb85a303212ec8c3a54b56de06"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "0d9afbd3a2fc053439c50d5c",
+          "displayed": [
+            {
+              "id": "0d9afbd3a2fc053439c50d5c",
+              "text": "その日程には賛成できないからな\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-reason-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-reason",
+                  "from": "担当者が不在で、確認にも三日かかるからだ",
+                  "to": "何故なら担当者が不在で、確認にも三日かかるからだ"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "d06e3963ab844d8920160845",
+              "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "a5ad5d06c31c955b149ae033",
+              "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 2,
+          "verifiedCount": 4,
+          "selectionHash": "722db655e6bc78628fdd4b8093dadeb4032cdf5c7fa4cd000466a1e48fd1dbca"
+        }
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "group": "targeted_regression",
+    "category": "謙遜と達成・別内容",
+    "source": "大したことはしていない。なくした鍵を見つけて、閉まっていた扉を開けただけだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "910310a5ccb67e9c384b42da",
+          "displayed": [
+            {
+              "id": "910310a5ccb67e9c384b42da",
+              "text": "大したことはしていないからな\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "dfffc191a95ef7adea51e5d5",
+              "text": "大したことはしていない\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f283d6129a903708c6eb9e37fb441156b40893a5bf797a7a48e35bd63fae81a9"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "910310a5ccb67e9c384b42da",
+          "displayed": [
+            {
+              "id": "910310a5ccb67e9c384b42da",
+              "text": "大したことはしていないからな\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "dfffc191a95ef7adea51e5d5",
+              "text": "大したことはしていない\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f283d6129a903708c6eb9e37fb441156b40893a5bf797a7a48e35bd63fae81a9"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "910310a5ccb67e9c384b42da",
+          "displayed": [
+            {
+              "id": "910310a5ccb67e9c384b42da",
+              "text": "大したことはしていないからな\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "dfffc191a95ef7adea51e5d5",
+              "text": "大したことはしていない\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f283d6129a903708c6eb9e37fb441156b40893a5bf797a7a48e35bd63fae81a9"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "910310a5ccb67e9c384b42da",
+          "displayed": [
+            {
+              "id": "910310a5ccb67e9c384b42da",
+              "text": "大したことはしていないからな\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-16",
+                  "from": "ない",
+                  "to": "ないからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "dfffc191a95ef7adea51e5d5",
+              "text": "大したことはしていない\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "f283d6129a903708c6eb9e37fb441156b40893a5bf797a7a48e35bd63fae81a9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "group": "targeted_regression",
+    "category": "譲歩と評価・別内容",
+    "source": "このかばんは小さくて軽い。値段は少し高かったが、毎日持ち歩くものなので満足している。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "b50dbcf3da52b5a305031a7e",
+          "displayed": [
+            {
+              "id": "b50dbcf3da52b5a305031a7e",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "7d61968e719de0744d2115ea",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "61bc11918bb34efd4688afad1e6ec6ab727b162c20b7475d422d14bfe1eabf8d"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "b50dbcf3da52b5a305031a7e",
+          "displayed": [
+            {
+              "id": "b50dbcf3da52b5a305031a7e",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "7d61968e719de0744d2115ea",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "61bc11918bb34efd4688afad1e6ec6ab727b162c20b7475d422d14bfe1eabf8d"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "b50dbcf3da52b5a305031a7e",
+          "displayed": [
+            {
+              "id": "b50dbcf3da52b5a305031a7e",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "7d61968e719de0744d2115ea",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "61bc11918bb34efd4688afad1e6ec6ab727b162c20b7475d422d14bfe1eabf8d"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "b50dbcf3da52b5a305031a7e",
+          "displayed": [
+            {
+              "id": "b50dbcf3da52b5a305031a7e",
+              "text": "このかばんは小さくて軽いからな\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "7d61968e719de0744d2115ea",
+              "text": "このかばんは小さくて軽い\n値段は少し高かったが毎日持ち歩くものなので満足している",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "61bc11918bb34efd4688afad1e6ec6ab727b162c20b7475d422d14bfe1eabf8d"
+        }
+      }
+    ]
+  }
+]

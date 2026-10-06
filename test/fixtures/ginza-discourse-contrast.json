@@ -1,0 +1,197 @@
+{
+  "capturedAt": "2026-10-02T04:46:15.718Z",
+  "command": "node scripts/capture-discourse-fixtures.js",
+  "cases": [
+    {
+      "source": "この傘は軽い。しかし値段は高い。",
+      "analysis": {
+        "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6",
+        "tokens": [
+          {
+            "id": 0,
+            "text": "この",
+            "lemma": "この",
+            "reading": "コノ",
+            "pos": "DET",
+            "tag": "連体詞",
+            "dep": "det",
+            "head": 1,
+            "span": {
+              "start": 0,
+              "end": 2
+            },
+            "morphology": [
+              "Reading=コノ"
+            ]
+          },
+          {
+            "id": 1,
+            "text": "傘",
+            "lemma": "傘",
+            "reading": "カサ",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "nsubj",
+            "head": 3,
+            "span": {
+              "start": 2,
+              "end": 3
+            },
+            "morphology": [
+              "Reading=カサ"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "は",
+            "lemma": "は",
+            "reading": "ハ",
+            "pos": "ADP",
+            "tag": "助詞-係助詞",
+            "dep": "case",
+            "head": 1,
+            "span": {
+              "start": 3,
+              "end": 4
+            },
+            "morphology": [
+              "Reading=ハ"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "軽い",
+            "lemma": "軽い",
+            "reading": "カルイ",
+            "pos": "ADJ",
+            "tag": "形容詞-一般",
+            "dep": "ROOT",
+            "head": 3,
+            "span": {
+              "start": 4,
+              "end": 6
+            },
+            "morphology": [
+              "Inflection=形容詞;終止形-一般",
+              "Reading=カルイ"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 3,
+            "span": {
+              "start": 6,
+              "end": 7
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "しかし",
+            "lemma": "しかし",
+            "reading": "シカシ",
+            "pos": "CCONJ",
+            "tag": "接続詞",
+            "dep": "cc",
+            "head": 8,
+            "span": {
+              "start": 7,
+              "end": 10
+            },
+            "morphology": [
+              "Reading=シカシ"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "値段",
+            "lemma": "値段",
+            "reading": "ネダン",
+            "pos": "NOUN",
+            "tag": "名詞-普通名詞-一般",
+            "dep": "nsubj",
+            "head": 8,
+            "span": {
+              "start": 10,
+              "end": 12
+            },
+            "morphology": [
+              "Reading=ネダン"
+            ]
+          },
+          {
+            "id": 7,
+            "text": "は",
+            "lemma": "は",
+            "reading": "ハ",
+            "pos": "ADP",
+            "tag": "助詞-係助詞",
+            "dep": "case",
+            "head": 6,
+            "span": {
+              "start": 12,
+              "end": 13
+            },
+            "morphology": [
+              "Reading=ハ"
+            ]
+          },
+          {
+            "id": 8,
+            "text": "高い",
+            "lemma": "高い",
+            "reading": "タカイ",
+            "pos": "ADJ",
+            "tag": "形容詞-一般",
+            "dep": "ROOT",
+            "head": 8,
+            "span": {
+              "start": 13,
+              "end": 15
+            },
+            "morphology": [
+              "Inflection=形容詞;終止形-一般",
+              "Reading=タカイ"
+            ]
+          },
+          {
+            "id": 9,
+            "text": "。",
+            "lemma": "。",
+            "reading": "。",
+            "pos": "PUNCT",
+            "tag": "補助記号-句点",
+            "dep": "punct",
+            "head": 8,
+            "span": {
+              "start": 15,
+              "end": 16
+            },
+            "morphology": [
+              "Reading=。"
+            ]
+          }
+        ],
+        "sentences": [
+          {
+            "start": 0,
+            "end": 7
+          },
+          {
+            "start": 7,
+            "end": 16
+          }
+        ],
+        "warnings": []
+      }
+    }
+  ]
+}

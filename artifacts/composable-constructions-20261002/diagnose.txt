@@ -1,0 +1,59 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> buront-language-generator@1.0.0-experimental.3 diagnose
+> node scripts/diagnose.js
+
+{
+  "platform": "linux",
+  "architecture": "x64",
+  "checks": [
+    {
+      "name": "Node.js 24",
+      "ok": true,
+      "version": "v24.19.0",
+      "repair": "Node.js 24系をインストールしてください。"
+    },
+    {
+      "name": "node_modules/fastify/package.json",
+      "ok": true,
+      "repair": "setup.ps1 を実行してください。データは元のローカル資産を使います。"
+    },
+    {
+      "name": "dist/apps/server/index.js",
+      "ok": true,
+      "repair": "setup.ps1 を実行してください。データは元のローカル資産を使います。"
+    },
+    {
+      "name": "apps/web/dist/index.html",
+      "ok": true,
+      "repair": "setup.ps1 を実行してください。データは元のローカル資産を使います。"
+    },
+    {
+      "name": "data/log-corpus.json",
+      "ok": true,
+      "repair": "setup.ps1 を実行してください。データは元のローカル資産を使います。"
+    },
+    {
+      "name": "data/quote-corpus.json",
+      "ok": true,
+      "repair": "setup.ps1 を実行してください。データは元のローカル資産を使います。"
+    },
+    {
+      "name": "data/archive-series.json",
+      "ok": true,
+      "repair": "setup.ps1 を実行してください。データは元のローカル資産を使います。"
+    },
+    {
+      "name": "Python 3.11 / GiNZA",
+      "ok": true,
+      "versions": {
+        "python": "3.11.15",
+        "ginza": "5.2.1",
+        "model": "5.2.0",
+        "dictionary": "20260723"
+      },
+      "repair": "setup.ps1 で固定依存をインストールしてください。起動時にモデル取得は行いません。"
+    }
+  ],
+  "ready": true
+}

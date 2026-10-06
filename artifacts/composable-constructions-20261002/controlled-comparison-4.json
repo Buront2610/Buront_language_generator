@@ -1,0 +1,1579 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 11,
+        "end": 21
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 11,
+        "end": 21
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 11,
+        "end": 21
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 11,
+        "end": 21
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 11,
+        "end": 21
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 11,
+        "end": 21
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "687bc5c5c5e5958562be1fda",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "7b2725ca9d27cbbfc81f1bb9",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "7c64a222b2849b118b2feae5",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "e25028fa623ea01adfef0066",
+      "planId": "687bc5c5c5e5958562be1fda",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "e25028fa623ea01adfef0066",
+      "planId": "687bc5c5c5e5958562be1fda",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "b0c1c197a9a0653e9d46dd03",
+      "planId": "7b2725ca9d27cbbfc81f1bb9",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "b0c1c197a9a0653e9d46dd03",
+      "planId": "7b2725ca9d27cbbfc81f1bb9",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "90cc4bcf1f56aeba77e637f0",
+      "planId": "7c64a222b2849b118b2feae5",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C01",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "82766c392c127b3e6f73bad4832fdedd24f1f7b8a4848b97e6da7af4fceb4360",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "90cc4bcf1f56aeba77e637f0",
+      "planId": "7c64a222b2849b118b2feae5",
+      "sourceSpan": {
+        "start": 11,
+        "end": 11
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "input",
+    "id": "C02",
+    "group": "controlled_diagnostic",
+    "category": "reason lexeme / polite",
+    "source": "私はこの方法を選んだ。速度が重要だからです。"
+  },
+  {
+    "type": "run",
+    "id": "C02",
+    "intensity": 2,
+    "displayedTextOrderChanged": true,
+    "before": {
+      "intensity": 2,
+      "generationMs": 141.438,
+      "selectedCandidateId": "ed954d8d5f8b5418ce24ccc6",
+      "displayedIds": [
+        {
+          "id": "ed954d8d5f8b5418ce24ccc6",
+          "planId": "a8d8f6216be811c0313e201d"
+        },
+        {
+          "id": "66c144dc13bd242f8ed4104d",
+          "planId": "40124d94402071d57f65d5d2"
+        },
+        {
+          "id": "97f68ebf666596dd4c2d2dfb",
+          "planId": "b6696c1357fe5853b0f444fd"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 6,
+        "selectedIds": [
+          "ed954d8d5f8b5418ce24ccc6",
+          "66c144dc13bd242f8ed4104d",
+          "97f68ebf666596dd4c2d2dfb"
+        ],
+        "selectionHash": "c602e349888227c8c80a911a1fd0349450d2d55cae923b353d2e2db4e335ddd1"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 183.745,
+      "selectedCandidateId": "7383b5f786f423407e36b99e",
+      "displayedIds": [
+        {
+          "id": "7383b5f786f423407e36b99e",
+          "planId": "ab75034f21e7dd46a54f0b58"
+        },
+        {
+          "id": "97f68ebf666596dd4c2d2dfb",
+          "planId": "b6696c1357fe5853b0f444fd"
+        },
+        {
+          "id": "66c144dc13bd242f8ed4104d",
+          "planId": "40124d94402071d57f65d5d2"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 8,
+        "selectedIds": [
+          "7383b5f786f423407e36b99e",
+          "97f68ebf666596dd4c2d2dfb",
+          "66c144dc13bd242f8ed4104d"
+        ],
+        "selectionHash": "b93cc1763663b55334ef9cd8a138fa0171ce5ab9599999bf65333e8608aaf7ed"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "4383b1d2138f88534282e87d",
+      "planId": "061222636fdf8d1dce63b856",
+      "text": "俺はこの方法を選んだ\n何故なら速度が重要だからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 21
+          },
+          "from": "速度が重要だからです",
+          "to": "何故なら速度が重要だからです",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 11
+              },
+              "text": "私はこの方法を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 11,
+                "end": 21
+              },
+              "text": "速度が重要だからです",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 17,
+                "end": 19
+              },
+              "text": "から",
+              "tokenIds": [
+                12
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 14,
+                "end": 16
+              },
+              "text": "重要",
+              "tokenIds": [
+                10
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "ed954d8d5f8b5418ce24ccc6",
+      "planId": "a8d8f6216be811c0313e201d",
+      "text": "俺はこの方法を選んだからな\n何故なら速度が重要だからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 21
+          },
+          "from": "速度が重要だからです",
+          "to": "何故なら速度が重要だからです",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 11
+              },
+              "text": "私はこの方法を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 11,
+                "end": 21
+              },
+              "text": "速度が重要だからです",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 17,
+                "end": 19
+              },
+              "text": "から",
+              "tokenIds": [
+                12
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 14,
+                "end": 16
+              },
+              "text": "重要",
+              "tokenIds": [
+                10
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "ef5e98c7643b31eba451a840",
+      "planId": "df5021e7090bfec59fb684da",
+      "text": "俺はこの方法を選んだ\n速さとスピードが重要だからです",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "66c144dc13bd242f8ed4104d",
+      "planId": "40124d94402071d57f65d5d2",
+      "text": "俺はこの方法を選んだ\n速さとスピードが重要だからだ",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-linebreak-0+velocity-doubling+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 19,
+            "end": 21
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "e3dc0eb0dc8aef2959dd9cae",
+      "planId": "cfd189e2d38c6b994b07dbe5",
+      "text": "俺はこの方法を選んだからな\n速さとスピードが重要だからです",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+ending-insistence-11+punctuation-linebreak-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "97f68ebf666596dd4c2d2dfb",
+      "planId": "b6696c1357fe5853b0f444fd",
+      "text": "俺はこの方法を選んだ\n速度が重要だからだ",
+      "operator": "REWRITE",
+      "family": "narrator-watashi+punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 19,
+            "end": 21
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C02",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "c1373af385fc7cf320123224",
+      "planId": "880bba66d8ad76a3499d5027",
+      "text": "俺はこの方法を選んだ\n何故なら速さとスピードが重要だからです",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "narrator-watashi",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 0,
+            "end": 1
+          },
+          "from": "私",
+          "to": "俺",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 10,
+            "end": 11
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 11,
+            "end": 11
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 11
+              },
+              "text": "私はこの方法を選んだ。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 11,
+                "end": 21
+              },
+              "text": "速度が重要だからです",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 17,
+                "end": 19
+              },
+              "text": "から",
+              "tokenIds": [
+                12
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 14,
+                "end": 16
+              },
+              "text": "重要",
+              "tokenIds": [
+                10
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 11
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 11,
+                  "end": 21
+                },
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 12,
+                "span": {
+                  "start": 17,
+                  "end": 19
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 10,
+                "span": {
+                  "start": 14,
+                  "end": 16
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 13,
+                "span": {
+                  "start": 19,
+                  "end": 21
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 5,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "past",
+                "realization": "actual",
+                "completion": "completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 10,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "17866d646fa7b0585e67aafdd5d36490784040cd296c1906bddc96797390e67e",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 11,
+              "end": 21
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 11,
+            "end": 13
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": true,
+        "lexicalInsideReason": true
+      }
+    }
+  }
+]

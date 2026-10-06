@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "N14",
+    "source": "この傘は軽くて丈夫だ。値段は少し高かったが、毎日使うものなので満足している。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "e57d35afc6f0b26e5a17feee",
+            "text": "この傘は軽くて丈夫だからな\n値段は少し高かったが毎日使うものなので満足している",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "d66a9bc7df89fa6bb4e13a6d",
+            "text": "この傘は軽くて丈夫だ\n値段は少し高かったが毎日使うものなので満足している",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "a21c2d94b189cb28cc807f86277452f7977eb6cdadf5a6b134d7dcf6a783fe42",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "e57d35afc6f0b26e5a17feee",
+            "text": "この傘は軽くて丈夫だからな\n値段は少し高かったが毎日使うものなので満足している",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "d66a9bc7df89fa6bb4e13a6d",
+            "text": "この傘は軽くて丈夫だ\n値段は少し高かったが毎日使うものなので満足している",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "7ede63923275d328d68df0d0bbcd2aa1e426e7ece45e42eddae417152065888b",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "N15",
+    "source": "帰り道で、子どもが落とした帽子を拾った。追いかけて渡すと、母親が何度も礼を言った。私は軽く会釈して、そのまま駅へ向かった。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "40db122ab0c32c9f39b24dc7",
+            "text": "帰り道で子どもが落とした帽子を拾ったからな\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "b7f0d5ebbade5f6348884f95",
+            "text": "帰り道で子どもが落とした帽子を拾った\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "9f386e8579da424eb4a7d0030a085c58814c4bc86916c4777086d2e6a20aa83c",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "40db122ab0c32c9f39b24dc7",
+            "text": "帰り道で子どもが落とした帽子を拾ったからな\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "b7f0d5ebbade5f6348884f95",
+            "text": "帰り道で子どもが落とした帽子を拾った\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "267ed529619c0831f602caf8900df4e6a3264e05c00088bf1068d2b9b0b268b1",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "N16",
+    "source": "試験に合格したと聞いて、とても嬉しかった。今日は家族と夕食を食べて、明日からまた勉強を続けるつもりだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "d3bf0557b45bc398edb8e265",
+            "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "767c6970c9fef84417a1b433",
+            "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "382e438df996febad24429659a47eb93a355cf7bdefb227b56b3023b971273c0",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "d3bf0557b45bc398edb8e265",
+            "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "767c6970c9fef84417a1b433",
+            "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "cf2a4093541ba5521d1b70af8401d925e81a3c0c34cea9373ad1412feecc9319",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "P01",
+    "source": "私の怒りは頂点に達しました。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "531151ff99d83e601fcf388d",
+            "text": "俺の怒りは有頂天になった",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "clause_structure"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "0a9c5d00c10e64d9b6a5c23a",
+            "text": "俺の怒りは頂点に達しました",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "57e1ef6a77961e116fef4194d4cdfb3e18b04648081d1ce4c9d44cea375a13ec",
+        "diagnosticEventCount": 9,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "531151ff99d83e601fcf388d",
+            "text": "俺の怒りは有頂天になった",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "clause_structure"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "0a9c5d00c10e64d9b6a5c23a",
+            "text": "俺の怒りは頂点に達しました",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "a30d10364806590e2b90be4b8f1ac47801fcd9e2c2f02430492f2c9e72812df9",
+        "diagnosticEventCount": 9,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "P02",
+    "source": "私はとても悲しかった。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "8d96495027f17631293df4ed",
+            "text": "俺は深い悲しみに包まれた",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "clause_structure"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "9ffcfb1eb1eacef90fb603b6",
+            "text": "俺はとても悲しかったからな",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "90b7bbe65b17728b192fecf2",
+            "text": "俺はとても悲しかった",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 3,
+        "poolSha256": "b2a3b0c808ec6cb706f36d5dff340ad61de79835bc98feac3ae02bdb51ce71ee",
+        "diagnosticEventCount": 10,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "8d96495027f17631293df4ed",
+            "text": "俺は深い悲しみに包まれた",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "clause_structure"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "9ffcfb1eb1eacef90fb603b6",
+            "text": "俺はとても悲しかったからな",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "90b7bbe65b17728b192fecf2",
+            "text": "俺はとても悲しかった",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 3,
+        "poolSha256": "29a0313c71d372a7e92eb4f1cd3173416627d833d38d56cbd181d00eef9209cc",
+        "diagnosticEventCount": 10,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "P03",
+    "source": "もう時間切れでした。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "7740c90c6bc30d5ae3341df8",
+            "text": "時既に時間切れだった",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "clause_structure"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "6b6ae3f84536b4cf7957431a",
+            "text": "もう時間切れでした",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "13d56818419a1a2a3eaa2ff1",
+            "text": "もう時間切れだったからな",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "4b173de9e97257ab901f6fc8515835a1bbf48cf46a265c80c762f2513ced725b",
+        "diagnosticEventCount": 11,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "7740c90c6bc30d5ae3341df8",
+            "text": "時既に時間切れだった",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "clause_structure"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "6b6ae3f84536b4cf7957431a",
+            "text": "もう時間切れでした",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "13d56818419a1a2a3eaa2ff1",
+            "text": "もう時間切れだったからな",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "9ad4908b75e3b648a5f7760ea168f828a00bdc35eac71ac0fa87733b635d2a5b",
+        "diagnosticEventCount": 11,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "B01",
+    "source": "おはよう",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [],
+        "poolCount": 0,
+        "poolSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "diagnosticEventCount": 6,
+        "fallback": {
+          "text": "おはよう",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [],
+        "poolCount": 0,
+        "poolSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "diagnosticEventCount": 6,
+        "fallback": {
+          "text": "おはよう",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "B02",
+    "source": "明日の集合場所はどこ？",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [],
+        "poolCount": 0,
+        "poolSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "diagnosticEventCount": 6,
+        "fallback": {
+          "text": "明日の集合場所はどこ？",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [],
+        "poolCount": 0,
+        "poolSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "diagnosticEventCount": 6,
+        "fallback": {
+          "text": "明日の集合場所はどこ？",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "B03",
+    "source": "「明日は行けません」",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [],
+        "poolCount": 0,
+        "poolSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "diagnosticEventCount": 6,
+        "fallback": {
+          "text": "「明日は行けません」",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [],
+        "poolCount": 0,
+        "poolSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "diagnosticEventCount": 6,
+        "fallback": {
+          "text": "「明日は行けません」",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T01",
+    "source": "今日は休みます。熱があるからです。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "10de9de7badb412c521204d8",
+            "text": "今日は休みます\n何故なら熱があるからだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "cd127bcf2a3061ea08e21e34",
+            "text": "今日は休みます\n熱があるからです",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "92f1f1dae783f0f05fe6f62e",
+            "text": "今日は休みます\n熱があるからだ",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "612cb2ba9a2c3196f0ea4e048b65772ebe55438ffe833540d5bff03f8aac4d20",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "10de9de7badb412c521204d8",
+            "text": "今日は休みます\n何故なら熱があるからだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "cd127bcf2a3061ea08e21e34",
+            "text": "今日は休みます\n熱があるからです",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "92f1f1dae783f0f05fe6f62e",
+            "text": "今日は休みます\n熱があるからだ",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "565b7e3daf345f59e42ed4c18fa20da91ace97018c49006e8916e88df7f4cdeb",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "source": "この道を選んだ。駅まで近いからだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "2b9ac507e775b2a4e5e4ae23",
+            "text": "この道を選んだからな\n何故なら駅まで近いからだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "c6177bb87579b4ad92b29ff0",
+            "text": "この道を選んだ\n駅まで近いからだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "882035ae7c5a0546e37d8f16",
+            "text": "この道を選んだからな\n駅まで近いからだ",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "89a9208d60b4459914679ce348b046cd78edae243c4c0ed73f6ee5349a5c2ff2",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "2b9ac507e775b2a4e5e4ae23",
+            "text": "この道を選んだからな\n何故なら駅まで近いからだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "c6177bb87579b4ad92b29ff0",
+            "text": "この道を選んだ\n駅まで近いからだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "882035ae7c5a0546e37d8f16",
+            "text": "この道を選んだからな\n駅まで近いからだ",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "3c34b43c0c5312044603741b2a3d7af2e7bf697ac6de66c070da42b8b5af93b6",
+        "diagnosticEventCount": 18,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "source": "紙より電子版を使うほうが便利だと思う。重い本を運ばずに済み、必要な語も検索できるからだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "7945e7016951a9d55f232a90",
+            "text": "紙より電子版を使うほうが便利だと思う\n何故なら重い本を運ばずに済み、必要な語も検索できるからだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "cf869274954de314ea5b875d",
+            "text": "紙より電子版を使うほうが便利だと思う\n重い本を運ばずに済み、必要な語も検索できるからだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "96747b01e5718d2087f6dd81c75015251a0c9f0f64269a19becd2a7c7dc00401",
+        "diagnosticEventCount": 15,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "7945e7016951a9d55f232a90",
+            "text": "紙より電子版を使うほうが便利だと思う\n何故なら重い本を運ばずに済み、必要な語も検索できるからだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "cf869274954de314ea5b875d",
+            "text": "紙より電子版を使うほうが便利だと思う\n重い本を運ばずに済み、必要な語も検索できるからだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "e64a5c459dbd1105e8a01a173ffb95dc3965d6ca975ca50c47ee411d0635b8e0",
+        "diagnosticEventCount": 15,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "source": "その日程には賛成できない。担当者が不在で、確認にも三日かかるからだ。まず予定を確認するべきだと思う。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "033d3084ba27d0d00755487c",
+            "text": "その日程には賛成できないからな\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "8e7b78b176495e97d25f42e4",
+            "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "c941230b67714b5d78c855be",
+            "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "7142b8b6286c6df2f58304b7815848244833e40af4c153d55620de586451f63d",
+        "diagnosticEventCount": 24,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "033d3084ba27d0d00755487c",
+            "text": "その日程には賛成できないからな\n何故なら担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending",
+              "discourse_marker"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "8e7b78b176495e97d25f42e4",
+            "text": "その日程には賛成できない\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "c941230b67714b5d78c855be",
+            "text": "その日程には賛成できないからな\n担当者が不在で、確認にも三日かかるからだ\nまず予定を確認するべきだと思う",
+            "displayedOrdinal": 3,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 4,
+        "poolSha256": "56c31a85eaf938232e6e1c79a7f25c233e4a6bb63a517530f4eea825156229e6",
+        "diagnosticEventCount": 24,
+        "fallback": null,
+        "shortfallReason": null,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "source": "大したことはしていない。なくした鍵を見つけて、閉まっていた扉を開けただけだ。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "51abe6c5de7b7f2724bc1379",
+            "text": "大したことはしていないからな\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "cf957b7319354248592cf021",
+            "text": "大したことはしていない\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "0340d68750008df02cb659b7fefec183c3d4c9728a1fd2252d00b596da222a40",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderIdentical": true,
+        "displayed": [
+          {
+            "id": "51abe6c5de7b7f2724bc1379",
+            "text": "大したことはしていないからな\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+            "displayedOrdinal": 1,
+            "changeCategories": [
+              "person_punctuation",
+              "ending"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          },
+          {
+            "id": "cf957b7319354248592cf021",
+            "text": "大したことはしていない\nなくした鍵を見つけて閉まっていた扉を開けただけだ",
+            "displayedOrdinal": 2,
+            "changeCategories": [
+              "person_punctuation"
+            ],
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            }
+          }
+        ],
+        "poolCount": 2,
+        "poolSha256": "e9d47fbfdb538339b84b4fce9d8cfc699eeced6c91c745041331cc0d669d84bd",
+        "diagnosticEventCount": 12,
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "error": null
+      }
+    ]
+  }
+]

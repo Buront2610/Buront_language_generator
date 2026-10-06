@@ -1,0 +1,1583 @@
+[
+  {
+    "type": "candidate",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "5d36e0a7000568bf1b1d1cba",
+      "planId": "8efb55b89334c3c032553b5e",
+      "text": "出発は金曜日だからな\n集合は駅からだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "grammatical_reason_marker_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "H08",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 26.548,
+      "selectedCandidateId": "447d0ecd5c22a8201a80a819",
+      "displayedIds": [
+        {
+          "id": "447d0ecd5c22a8201a80a819",
+          "planId": "28db719bb30b7b6d1b0a374f"
+        },
+        {
+          "id": "5d36e0a7000568bf1b1d1cba",
+          "planId": "9a83b6e03f3a61062ee07eb0"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "447d0ecd5c22a8201a80a819",
+          "5d36e0a7000568bf1b1d1cba"
+        ],
+        "selectionHash": "1692fb1d5c8db6cfd06df59ccbc29167967117c95d091c658439ca7948b3b169"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 18.728,
+      "selectedCandidateId": "447d0ecd5c22a8201a80a819",
+      "displayedIds": [
+        {
+          "id": "447d0ecd5c22a8201a80a819",
+          "planId": "28db719bb30b7b6d1b0a374f"
+        },
+        {
+          "id": "5d36e0a7000568bf1b1d1cba",
+          "planId": "9a83b6e03f3a61062ee07eb0"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "447d0ecd5c22a8201a80a819",
+          "5d36e0a7000568bf1b1d1cba"
+        ],
+        "selectionHash": "1692fb1d5c8db6cfd06df59ccbc29167967117c95d091c658439ca7948b3b169"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "447d0ecd5c22a8201a80a819",
+      "planId": "28db719bb30b7b6d1b0a374f",
+      "text": "出発は金曜日だ\n集合は駅からだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "5d36e0a7000568bf1b1d1cba",
+      "planId": "9a83b6e03f3a61062ee07eb0",
+      "text": "出発は金曜日だからな\n集合は駅からだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "447d0ecd5c22a8201a80a819",
+      "planId": "28db719bb30b7b6d1b0a374f",
+      "text": "出発は金曜日だ\n集合は駅からだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "5d36e0a7000568bf1b1d1cba",
+      "planId": "9a83b6e03f3a61062ee07eb0",
+      "text": "出発は金曜日だからな\n集合は駅からだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-11+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-11",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 6,
+            "end": 7
+          },
+          "from": "だ",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 7,
+            "end": 8
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 15,
+            "end": 16
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 8
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "grammatical_reason_marker_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H08",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "4c3d195a12b99da97055b7862a12895ac0f47f2a6a99e805efd3f8105a0c5b81",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 8,
+        "end": 16
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "H09",
+    "group": "held_out",
+    "category": "unrealized modest deed",
+    "source": "大したことはしていない。壊れた時計を直すつもりだっただけだ。"
+  },
+  {
+    "type": "run",
+    "id": "H09",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 55.793,
+      "selectedCandidateId": "06c512821630bcea9d4d3668",
+      "displayedIds": [
+        {
+          "id": "06c512821630bcea9d4d3668",
+          "planId": "ca78e93d86a6b56df32723ff"
+        },
+        {
+          "id": "2c44868e28a1543251cdcdb4",
+          "planId": "4f61b730ecc1fa960e956f87"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "06c512821630bcea9d4d3668",
+          "2c44868e28a1543251cdcdb4"
+        ],
+        "selectionHash": "0e2269118300bb06bee1f854e19c9fb554442623902ff353c8284b2a8a10011d"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 47.219,
+      "selectedCandidateId": "06c512821630bcea9d4d3668",
+      "displayedIds": [
+        {
+          "id": "06c512821630bcea9d4d3668",
+          "planId": "ca78e93d86a6b56df32723ff"
+        },
+        {
+          "id": "2c44868e28a1543251cdcdb4",
+          "planId": "4f61b730ecc1fa960e956f87"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "06c512821630bcea9d4d3668",
+          "2c44868e28a1543251cdcdb4"
+        ],
+        "selectionHash": "0e2269118300bb06bee1f854e19c9fb554442623902ff353c8284b2a8a10011d"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "2c44868e28a1543251cdcdb4",
+      "planId": "4f61b730ecc1fa960e956f87",
+      "text": "大したことはしていない\n壊れた時計を直すつもりだっただけだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 29,
+            "end": 30
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "06c512821630bcea9d4d3668",
+      "planId": "ca78e93d86a6b56df32723ff",
+      "text": "大したことはしていないからな\n壊れた時計を直すつもりだっただけだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 29,
+            "end": 30
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "2c44868e28a1543251cdcdb4",
+      "planId": "4f61b730ecc1fa960e956f87",
+      "text": "大したことはしていない\n壊れた時計を直すつもりだっただけだ",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 29,
+            "end": 30
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "06c512821630bcea9d4d3668",
+      "planId": "ca78e93d86a6b56df32723ff",
+      "text": "大したことはしていないからな\n壊れた時計を直すつもりだっただけだ",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 29,
+            "end": 30
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "scope_blocked",
+      "reason": "unsafe_modesty_context",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 30
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 30
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 30
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 30
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 30
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H09",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "44447e929f0a7e07b84261cc98fb06a57ce243baaaa62cd68622497ea0a032bf",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 30
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "H09",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 73.884,
+      "selectedCandidateId": "06c512821630bcea9d4d3668",
+      "displayedIds": [
+        {
+          "id": "06c512821630bcea9d4d3668",
+          "planId": "553d6fb8d175d18788a9c617"
+        },
+        {
+          "id": "2c44868e28a1543251cdcdb4",
+          "planId": "d83eb42024f19c3edd3e18b2"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "06c512821630bcea9d4d3668",
+          "2c44868e28a1543251cdcdb4"
+        ],
+        "selectionHash": "0e2269118300bb06bee1f854e19c9fb554442623902ff353c8284b2a8a10011d"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 42.23,
+      "selectedCandidateId": "06c512821630bcea9d4d3668",
+      "displayedIds": [
+        {
+          "id": "06c512821630bcea9d4d3668",
+          "planId": "553d6fb8d175d18788a9c617"
+        },
+        {
+          "id": "2c44868e28a1543251cdcdb4",
+          "planId": "d83eb42024f19c3edd3e18b2"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": "candidate_shortage",
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 2,
+        "selectedIds": [
+          "06c512821630bcea9d4d3668",
+          "2c44868e28a1543251cdcdb4"
+        ],
+        "selectionHash": "0e2269118300bb06bee1f854e19c9fb554442623902ff353c8284b2a8a10011d"
+      }
+    }
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-02T08:15:14.752737+00:00",
+  "protocol": "Authored and sealed before final implementation. Do not read, tune on, or test this set before code freeze. One-shot evaluation; failures remain findings unless reclassified as regression.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "literary-style-eval-20261002",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "H01",
+      "group": "held_out",
+      "category": "new reason topic with lexical edit",
+      "source": "手作業より自動処理を選んだ。処理の速度が十分だからです。"
+    },
+    {
+      "id": "H02",
+      "group": "held_out",
+      "category": "past copular reason in narrative",
+      "source": "昨年は小さな会場を予約した。参加者が少なかったからだった。"
+    },
+    {
+      "id": "H03",
+      "group": "held_out",
+      "category": "new compound modest achievement",
+      "source": "大したことはしていない。書類を調べて、箱を隣の部屋へ運んだだけだ。"
+    },
+    {
+      "id": "H04",
+      "group": "held_out",
+      "category": "new limited achievement lexeme",
+      "source": "大したことはしていない。散らかった棚を整理しただけだ。"
+    },
+    {
+      "id": "H05",
+      "group": "held_out",
+      "category": "new contrast with lexical trigger",
+      "source": "このゲームは面白い。しかし、アピールが足りない。"
+    },
+    {
+      "id": "H06",
+      "group": "held_out",
+      "category": "mixed relation paragraph",
+      "source": "この橋は短い。しかし、道幅は狭い。私は遠回りした。荷物が重かったからだ。"
+    },
+    {
+      "id": "H07",
+      "group": "held_out",
+      "category": "lexical trigger inside quotation",
+      "source": "私は「速度が重要だ」と書いた。翌朝、その紙を机に置いた。"
+    },
+    {
+      "id": "H08",
+      "group": "held_out",
+      "category": "reason has temporal origin",
+      "source": "出発は金曜日だ。集合は駅からだ。"
+    },
+    {
+      "id": "H09",
+      "group": "held_out",
+      "category": "unrealized modest deed",
+      "source": "大したことはしていない。壊れた時計を直すつもりだっただけだ。"
+    },
+    {
+      "id": "H10",
+      "group": "held_out",
+      "category": "quoted achievement and narrator contrast",
+      "source": "鈴木は「荷物を運んだだけだ」と話した。しかし、私はその場にいなかった。"
+    },
+    {
+      "id": "H11",
+      "group": "held_out",
+      "category": "ordinary fresh narrative",
+      "source": "昼休みに庭へ出た。風が弱く、木の葉がゆっくり揺れていた。私はベンチで弁当を食べた。"
+    },
+    {
+      "id": "H12",
+      "group": "held_out",
+      "category": "ordinary fresh request",
+      "source": "明日の午後までに資料を確認してもらえますか。疑問点があれば、担当者に聞いてください。"
+    }
+  ]
+}

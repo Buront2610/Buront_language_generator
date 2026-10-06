@@ -1,0 +1,1567 @@
+[
+  {
+    "type": "candidate",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "f897fc3ebe53462bbaca4988",
+      "planId": "69f6ad50441555fd5992922b",
+      "text": "その案には賛成できない\n何故なら費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 36,
+            "end": 37
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 50,
+            "end": 51
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 12
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 12
+              },
+              "text": "その案には賛成できない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 12,
+                "end": 36
+              },
+              "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 33,
+                "end": 35
+              },
+              "text": "から",
+              "tokenIds": [
+                21
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 30,
+                "end": 33
+              },
+              "text": "かかる",
+              "tokenIds": [
+                20
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 36
+                },
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 21,
+                "span": {
+                  "start": 33,
+                  "end": 35
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 20,
+                "span": {
+                  "start": 30,
+                  "end": 33
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 22,
+                "span": {
+                  "start": 35,
+                  "end": 36
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 10,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 20,
+                "factId": "fact-2",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 12,
+              "end": 36
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "d7419800d45261ed1fcf456f",
+      "planId": "8c3c8fe6c0a81db01dc7dd44",
+      "text": "その案には賛成できないからな\n何故なら費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 36,
+            "end": 37
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 50,
+            "end": 51
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 12
+          },
+          "from": "",
+          "to": "何故なら",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 12
+              },
+              "text": "その案には賛成できない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 12,
+                "end": 36
+              },
+              "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 33,
+                "end": 35
+              },
+              "text": "から",
+              "tokenIds": [
+                21
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 30,
+                "end": 33
+              },
+              "text": "かかる",
+              "tokenIds": [
+                20
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-reason",
+            "factId": "fact-2",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "claim",
+                "span": {
+                  "start": 0,
+                  "end": 12
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "role": "reason",
+                "span": {
+                  "start": 12,
+                  "end": 36
+                },
+                "tokenIds": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 21,
+                "span": {
+                  "start": 33,
+                  "end": 35
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 20,
+                "span": {
+                  "start": 30,
+                  "end": 33
+                }
+              },
+              {
+                "role": "copula",
+                "tokenId": 22,
+                "span": {
+                  "start": 35,
+                  "end": 36
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 4,
+                "factId": "fact-0",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 10,
+                "factId": "fact-1",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 20,
+                "factId": "fact-2",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "prefix_source_body",
+            "prefix": "何故なら",
+            "bodySourceSpan": {
+              "start": 12,
+              "end": 36
+            },
+            "permittedLocalEdits": "independently_verified_rewrites"
+          },
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "8747a612f8019337d8c3c47e",
+      "planId": "4831d5e2e2683e3b4848b51a",
+      "text": "その案には賛成できない\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 36,
+            "end": 37
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 50,
+            "end": 51
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "9d0ae407dd17339af7cb4b7c",
+      "planId": "c1e16e7ffcdcb9b4934d2d57",
+      "text": "その案には賛成できないからな\n費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 36,
+            "end": 37
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 50,
+            "end": 51
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 12,
+        "end": 37
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 37
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 12,
+        "end": 37
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 37
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 37
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 37
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 37,
+        "end": 51
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 37,
+        "end": 51
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-2",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 37,
+        "end": 51
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-2",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 37,
+        "end": 51
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-2",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 37,
+        "end": 51
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-2",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 37,
+        "end": 51
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "69f6ad50441555fd5992922b",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": "8c3c8fe6c0a81db01dc7dd44",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "f897fc3ebe53462bbaca4988",
+      "planId": "69f6ad50441555fd5992922b",
+      "sourceSpan": {
+        "start": 12,
+        "end": 12
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "f897fc3ebe53462bbaca4988",
+      "planId": "69f6ad50441555fd5992922b",
+      "sourceSpan": {
+        "start": 12,
+        "end": 12
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "d7419800d45261ed1fcf456f",
+      "planId": "8c3c8fe6c0a81db01dc7dd44",
+      "sourceSpan": {
+        "start": 12,
+        "end": 12
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N04",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "b576b3ec0afe5c489b83ca78b4da6f000d441e2c3e58d8746204512515b0732d",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": "d7419800d45261ed1fcf456f",
+      "planId": "8c3c8fe6c0a81db01dc7dd44",
+      "sourceSpan": {
+        "start": 12,
+        "end": 12
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "run",
+    "id": "N04",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 120.348,
+      "selectedCandidateId": "d7419800d45261ed1fcf456f",
+      "displayedIds": [
+        {
+          "id": "d7419800d45261ed1fcf456f",
+          "planId": "56afd467ed5adca3a2290040"
+        },
+        {
+          "id": "8747a612f8019337d8c3c47e",
+          "planId": "b8a089ee992ba2b2a4eecee6"
+        },
+        {
+          "id": "9d0ae407dd17339af7cb4b7c",
+          "planId": "f23cd43136d8ccd17524bff8"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "d7419800d45261ed1fcf456f",
+          "8747a612f8019337d8c3c47e",
+          "9d0ae407dd17339af7cb4b7c"
+        ],
+        "selectionHash": "5d83630fcf0a54eb2048f74d024391715f8ad7d6ead03231af3740f5d6830210"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 90.238,
+      "selectedCandidateId": "d7419800d45261ed1fcf456f",
+      "displayedIds": [
+        {
+          "id": "d7419800d45261ed1fcf456f",
+          "planId": "100b8702b88c2605b02fea4f"
+        },
+        {
+          "id": "8747a612f8019337d8c3c47e",
+          "planId": "b8a089ee992ba2b2a4eecee6"
+        },
+        {
+          "id": "9d0ae407dd17339af7cb4b7c",
+          "planId": "f23cd43136d8ccd17524bff8"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "d7419800d45261ed1fcf456f",
+          "8747a612f8019337d8c3c47e",
+          "9d0ae407dd17339af7cb4b7c"
+        ],
+        "selectionHash": "ced86443588ea9db7da1235c80505b056b1dc17a906bbe1a16368dbfcd84d853"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N04",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "f897fc3ebe53462bbaca4988",
+      "planId": "31099515bc44af97deae5d14",
+      "text": "その案には賛成できない\n何故なら費用が高いだけでなく、準備に一週間もかかるからだ\nまず小さく試すべきだと思う",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-reason-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 36,
+            "end": 37
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 50,
+            "end": 51
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-reason",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 12,
+            "end": 36
+          },
+          "from": "費用が高いだけでなく、準備に一週間もかかるからだ",
+          "to": "何故なら費用が高いだけでなく、準備に一週間もかかるからだ",
+          "bindings": [
+            {
+              "slot": "claim",
+              "span": {
+                "start": 0,
+                "end": 12
+              },
+              "text": "その案には賛成できない。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "slot": "reason",
+              "span": {
+                "start": 12,
+                "end": 36
+              },
+              "text": "費用が高いだけでなく、準備に一週間もかかるからだ",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 33,
+                "end": 35
+              },
+              "text": "から",
+              "tokenIds": [
+                21
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 30,
+                "end": 33
+              },
+              "text": "かかる",
+              "tokenIds": [
+                20
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "unknown",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-reason"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

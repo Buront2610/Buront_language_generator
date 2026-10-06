@@ -1,0 +1,870 @@
+[
+  {
+    "id": "T09",
+    "group": "targeted_regression",
+    "source": "この道は近いかもしれない。駅までの距離が短いからだろうか。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "e581cb92e4b66783434daf4f",
+        "displayed": [
+          {
+            "id": "e581cb92e4b66783434daf4f",
+            "text": "この道は近いかもしれないからな\n駅までの距離が短いからだろうか",
+            "operator": "REWRITE",
+            "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-16",
+                "from": "ない",
+                "to": "ないからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "2dc8a1a782b9a41f0248de00",
+            "text": "この道は近いかもしれない\n駅までの距離が短いからだろうか",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "bdc75fb9814c15f43f438ab394667eeaaca08b964b9a7053f37061423828bc37"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "e581cb92e4b66783434daf4f",
+        "displayed": [
+          {
+            "id": "e581cb92e4b66783434daf4f",
+            "text": "この道は近いかもしれないからな\n駅までの距離が短いからだろうか",
+            "operator": "REWRITE",
+            "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-16",
+                "from": "ない",
+                "to": "ないからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "2dc8a1a782b9a41f0248de00",
+            "text": "この道は近いかもしれない\n駅までの距離が短いからだろうか",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "bdc75fb9814c15f43f438ab394667eeaaca08b964b9a7053f37061423828bc37"
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "group": "targeted_regression",
+    "source": "大したことはしていない。故障の原因はまだ見つけていない。機械を動かしたわけでもない。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "89c061e46b1e09dca08e55b9",
+        "displayed": [
+          {
+            "id": "89c061e46b1e09dca08e55b9",
+            "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "operator": "REWRITE",
+            "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-16",
+                "from": "ない",
+                "to": "ないからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "61d452720db13b836382578d",
+            "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "ecedb8e86a0a768ed29a5cc0b1a00a6b08399d1f6fc2977b217d43fd550b7f47"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "89c061e46b1e09dca08e55b9",
+        "displayed": [
+          {
+            "id": "89c061e46b1e09dca08e55b9",
+            "text": "大したことはしていないからな\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "operator": "REWRITE",
+            "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-16",
+                "from": "ない",
+                "to": "ないからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "61d452720db13b836382578d",
+            "text": "大したことはしていない\n故障の原因はまだ見つけていない\n機械を動かしたわけでもない",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "ecedb8e86a0a768ed29a5cc0b1a00a6b08399d1f6fc2977b217d43fd550b7f47"
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "group": "targeted_regression",
+    "source": "田中は大したことはしていないと言った。彼が故障の原因を見つけて、止まっていた機械を動かした。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "f5954f6050e47d6fc8806193",
+        "displayed": [
+          {
+            "id": "f5954f6050e47d6fc8806193",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "6669815150896277ecd2cb1f",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "31e7eb89f4d414b3686e95d8e10e3946093801f32a67ac47edbbefdf057abc3f"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "f5954f6050e47d6fc8806193",
+        "displayed": [
+          {
+            "id": "f5954f6050e47d6fc8806193",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かしたからな",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+ending-insistence-21+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "6669815150896277ecd2cb1f",
+            "text": "田中は大したことはしていないと言った\n彼が故障の原因を見つけて止まっていた機械を動かした",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "31e7eb89f4d414b3686e95d8e10e3946093801f32a67ac47edbbefdf057abc3f"
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "group": "targeted_regression",
+    "source": "このかばんは小さくて軽い。値段は少し高かったが、使いにくいので満足していない。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "29b8f7c099d43012a5ac481c",
+        "displayed": [
+          {
+            "id": "29b8f7c099d43012a5ac481c",
+            "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+            "operator": "REWRITE",
+            "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-18",
+                "from": "い",
+                "to": "いからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "85b481fa5442518daaf226e1",
+            "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "fcfdce5b7e8471d315ba842541f055afbe4accb23e2831f3a11c334d4eeb8ff8"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "29b8f7c099d43012a5ac481c",
+        "displayed": [
+          {
+            "id": "29b8f7c099d43012a5ac481c",
+            "text": "このかばんは小さくて軽いからな\n値段は少し高かったが使いにくいので満足していない",
+            "operator": "REWRITE",
+            "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-18",
+                "from": "い",
+                "to": "いからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "85b481fa5442518daaf226e1",
+            "text": "このかばんは小さくて軽い\n値段は少し高かったが使いにくいので満足していない",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "fcfdce5b7e8471d315ba842541f055afbe4accb23e2831f3a11c334d4eeb8ff8"
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "group": "targeted_regression",
+    "source": "この道は近い。しかし、夜は暗くて歩きにくい。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "74f62528355c1cb2cc9c6847",
+        "displayed": [
+          {
+            "id": "74f62528355c1cb2cc9c6847",
+            "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+            "operator": "REWRITE",
+            "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-18",
+                "from": "い",
+                "to": "いからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "82f2ece27a727fd1a0240127",
+            "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "3ce18a1f9874ca853bd4fed735a03295a8fd7466d7393dba15d8af1cfef0991b"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "c274ffd80dcddcb76c716c8f",
+        "displayed": [
+          {
+            "id": "c274ffd80dcddcb76c716c8f",
+            "text": "この道は近いからな\nだが夜は暗くて歩きにくい",
+            "operator": "CONSTRUCTION",
+            "family": "explicit-contrast-frame",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "explicit-contrast",
+                "from": "しかし",
+                "to": "だが"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "82f2ece27a727fd1a0240127",
+            "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "74f62528355c1cb2cc9c6847",
+            "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+            "operator": "REWRITE",
+            "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-18",
+                "from": "い",
+                "to": "いからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 4,
+        "poolConstructionCount": 2,
+        "verifiedCount": 4,
+        "selectionHash": "84686fea928d533db919575a6d92f94427e52dd780e57b82b529d416aadc9f65"
+      }
+    ]
+  }
+]

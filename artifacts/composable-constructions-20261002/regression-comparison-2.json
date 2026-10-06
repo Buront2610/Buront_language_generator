@@ -1,0 +1,1573 @@
+[
+  {
+    "type": "run",
+    "id": "N02",
+    "intensity": 2,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 2,
+      "generationMs": 78.066,
+      "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+      "displayedIds": [
+        {
+          "id": "9c7ae61698efacab1177d9f1",
+          "planId": "e5d05a8633a5add86afc484f"
+        },
+        {
+          "id": "a290370e3454c684254aa62a",
+          "planId": "533997d45b280b6236ba9474"
+        },
+        {
+          "id": "671cf10c40024b42c0b589bc",
+          "planId": "6e16005f1f4bfc52a552ab30"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "9c7ae61698efacab1177d9f1",
+          "a290370e3454c684254aa62a",
+          "671cf10c40024b42c0b589bc"
+        ],
+        "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+      }
+    },
+    "after": {
+      "intensity": 2,
+      "generationMs": 54.29,
+      "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+      "displayedIds": [
+        {
+          "id": "9c7ae61698efacab1177d9f1",
+          "planId": "e5d05a8633a5add86afc484f"
+        },
+        {
+          "id": "a290370e3454c684254aa62a",
+          "planId": "533997d45b280b6236ba9474"
+        },
+        {
+          "id": "671cf10c40024b42c0b589bc",
+          "planId": "6e16005f1f4bfc52a552ab30"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "9c7ae61698efacab1177d9f1",
+          "a290370e3454c684254aa62a",
+          "671cf10c40024b42c0b589bc"
+        ],
+        "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "a290370e3454c684254aa62a",
+      "planId": "533997d45b280b6236ba9474",
+      "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "671cf10c40024b42c0b589bc",
+      "planId": "6e16005f1f4bfc52a552ab30",
+      "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "before",
+    "candidate": {
+      "id": "9c7ae61698efacab1177d9f1",
+      "planId": "e5d05a8633a5add86afc484f",
+      "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "a290370e3454c684254aa62a",
+      "planId": "533997d45b280b6236ba9474",
+      "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "671cf10c40024b42c0b589bc",
+      "planId": "6e16005f1f4bfc52a552ab30",
+      "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "candidate": {
+      "id": "9c7ae61698efacab1177d9f1",
+      "planId": "e5d05a8633a5add86afc484f",
+      "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "N02",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 66.607,
+      "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+      "displayedIds": [
+        {
+          "id": "9c7ae61698efacab1177d9f1",
+          "planId": "7602845412b9bc5ec95164ae"
+        },
+        {
+          "id": "a290370e3454c684254aa62a",
+          "planId": "5f13cfd7fc7a6034ccfdda48"
+        },
+        {
+          "id": "671cf10c40024b42c0b589bc",
+          "planId": "2055e4a08f2e4398ca20cc94"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "9c7ae61698efacab1177d9f1",
+          "a290370e3454c684254aa62a",
+          "671cf10c40024b42c0b589bc"
+        ],
+        "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 50.261,
+      "selectedCandidateId": "9c7ae61698efacab1177d9f1",
+      "displayedIds": [
+        {
+          "id": "9c7ae61698efacab1177d9f1",
+          "planId": "7602845412b9bc5ec95164ae"
+        },
+        {
+          "id": "a290370e3454c684254aa62a",
+          "planId": "5f13cfd7fc7a6034ccfdda48"
+        },
+        {
+          "id": "671cf10c40024b42c0b589bc",
+          "planId": "2055e4a08f2e4398ca20cc94"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 3,
+        "selectedIds": [
+          "9c7ae61698efacab1177d9f1",
+          "a290370e3454c684254aa62a",
+          "671cf10c40024b42c0b589bc"
+        ],
+        "selectionHash": "6a94e35d1371db633d0f252eb943262251af9fe22ba246b1f553bc7e8130ab7c"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "a290370e3454c684254aa62a",
+      "planId": "5f13cfd7fc7a6034ccfdda48",
+      "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "671cf10c40024b42c0b589bc",
+      "planId": "2055e4a08f2e4398ca20cc94",
+      "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "9c7ae61698efacab1177d9f1",
+      "planId": "7602845412b9bc5ec95164ae",
+      "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "a290370e3454c684254aa62a",
+      "planId": "5f13cfd7fc7a6034ccfdda48",
+      "text": "明日の会議は午後三時からです\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "671cf10c40024b42c0b589bc",
+      "planId": "2055e4a08f2e4398ca20cc94",
+      "text": "明日の会議は午後三時からだ\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-plain-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-plain-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だ",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "9c7ae61698efacab1177d9f1",
+      "planId": "7602845412b9bc5ec95164ae",
+      "text": "明日の会議は午後三時からだからな\n資料を二部ずつ持ってきてください",
+      "operator": "REWRITE",
+      "family": "ending-insistence-10+punctuation-linebreak-0+punctuation-end-0",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-10",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 12,
+            "end": 14
+          },
+          "from": "です",
+          "to": "だからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 14,
+            "end": 15
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 31,
+            "end": 32
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 15
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "N02",
+    "intensity": 3,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "e9d6c89c05cbe923ab0036ad9ae61379c6dde97663a8c7a162db891a6b2e3dbc",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 15,
+        "end": 32
+      }
+    }
+  },
+  {
+    "type": "input",
+    "id": "N03",
+    "group": "ordinary",
+    "category": "根拠を伴う比較",
+    "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。"
+  }
+]

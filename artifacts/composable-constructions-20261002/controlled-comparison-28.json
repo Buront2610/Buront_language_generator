@@ -1,0 +1,1401 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 12,
+        "end": 22
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "unsupported_form",
+      "reason": "requested_intensity_has_no_registered_form",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-2",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 22,
+        "end": 35
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": "4f2e8bcef9acb9e69ada80cb",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": "431b77ac49041de826a4e493",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-insistence-16",
+      "sourceSpan": {
+        "start": 9,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": "9acf5a97a65c655b59f9cc0a",
+      "stage": "edit_conflict",
+      "reason": "local_rewrite_excluded:ending-insistence-16",
+      "sourceSpan": {
+        "start": 9,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": "147f7295e89084607def345a",
+      "stage": "planned",
+      "reason": "original_source_edit_program",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": "9376e70b7084c8e1bf2f9a5b",
+      "planId": "4f2e8bcef9acb9e69ada80cb",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": "9376e70b7084c8e1bf2f9a5b",
+      "planId": "4f2e8bcef9acb9e69ada80cb",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      },
+      "stage": "selected",
+      "reason": "displayed_after_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": "03a90d04e7a9cf288e8acd68",
+      "planId": "147f7295e89084607def345a",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      },
+      "stage": "verified",
+      "reason": "independent_validation"
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "C20",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "97cb4e04eaefe11c5d7c26a85d8ed961829c2e455b9d78d1d1e85716fa602462",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": "03a90d04e7a9cf288e8acd68",
+      "planId": "147f7295e89084607def345a",
+      "sourceSpan": {
+        "start": 0,
+        "end": 11
+      },
+      "stage": "not_selected",
+      "reason": "valid_but_not_displayed_by_quality_diversity_cap"
+    }
+  },
+  {
+    "type": "run",
+    "id": "C20",
+    "intensity": 3,
+    "displayedTextOrderChanged": true,
+    "before": {
+      "intensity": 3,
+      "generationMs": 214.495,
+      "selectedCandidateId": "39725f85d0c32796011fbffe",
+      "displayedIds": [
+        {
+          "id": "39725f85d0c32796011fbffe",
+          "planId": "b4138b7206e1ce99fefe86ff"
+        },
+        {
+          "id": "81e0ec1ea57c94d1d9ffade9",
+          "planId": "bf2b76818480d9beb9ee2df4"
+        },
+        {
+          "id": "3d408a8a807c9a3c44996776",
+          "planId": "e3fa968d099fbcf38f2ac15c"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 6,
+        "selectedIds": [
+          "39725f85d0c32796011fbffe",
+          "81e0ec1ea57c94d1d9ffade9",
+          "3d408a8a807c9a3c44996776"
+        ],
+        "selectionHash": "ad8647824b94906cbee85b1bc15ba1bc69a99d70c3bcf0ecc99c0cd4a3ca5391"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 124.482,
+      "selectedCandidateId": "783fe0c02f05a67264d6ab1e",
+      "displayedIds": [
+        {
+          "id": "783fe0c02f05a67264d6ab1e",
+          "planId": "9877c63942a0fb0ae172ca40"
+        },
+        {
+          "id": "81e0ec1ea57c94d1d9ffade9",
+          "planId": "bf2b76818480d9beb9ee2df4"
+        },
+        {
+          "id": "3d408a8a807c9a3c44996776",
+          "planId": "e3fa968d099fbcf38f2ac15c"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 5,
+        "selectedIds": [
+          "783fe0c02f05a67264d6ab1e",
+          "81e0ec1ea57c94d1d9ffade9",
+          "3d408a8a807c9a3c44996776"
+        ],
+        "selectionHash": "fe0880d089fb770ede6ffa8b485acc474dca3ba9317b11f83a07968274a6a896"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C20",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "39725f85d0c32796011fbffe",
+      "planId": "b4138b7206e1ce99fefe86ff",
+      "text": "大したことはしていない\n荷物を運んだだけだ\nだが速さとスピードが重要だった",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 22,
+            "end": 25
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 12,
+                "end": 22
+              },
+              "text": "荷物を運んだだけだ。",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 22,
+                "end": 34
+              },
+              "text": "しかし、速度が重要だった",
+              "tokenIds": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 22,
+                "end": 25
+              },
+              "text": "しかし",
+              "tokenIds": [
+                15
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 29,
+                "end": 31
+              },
+              "text": "重要",
+              "tokenIds": [
+                19
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C20",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "b022211bf1be2e201f4ca934",
+      "planId": "2fbd20155906dcaac63fb734",
+      "text": "大したことはしていないからな\n荷物を運んだだけだ\nだが速さとスピードが重要だった",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 22,
+            "end": 25
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 12,
+                "end": 22
+              },
+              "text": "荷物を運んだだけだ。",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 22,
+                "end": 34
+              },
+              "text": "しかし、速度が重要だった",
+              "tokenIds": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 22,
+                "end": 25
+              },
+              "text": "しかし",
+              "tokenIds": [
+                15
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 29,
+                "end": 31
+              },
+              "text": "重要",
+              "tokenIds": [
+                19
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C20",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "6a2769387478de1c980c7c30",
+      "planId": "bece0602ada072435c592e48",
+      "text": "大したことはしていないからな\n荷物を運んだだけだ\nだが速度が重要だった",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 22,
+            "end": 25
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 12,
+                "end": 22
+              },
+              "text": "荷物を運んだだけだ。",
+              "tokenIds": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 22,
+                "end": 34
+              },
+              "text": "しかし、速度が重要だった",
+              "tokenIds": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 22,
+                "end": 25
+              },
+              "text": "しかし",
+              "tokenIds": [
+                15
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 29,
+                "end": 31
+              },
+              "text": "重要",
+              "tokenIds": [
+                19
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "positive",
+            "tense": "past",
+            "realization": "actual",
+            "completion": "completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C20",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "a2e033cc35de5fa939fdbc02",
+      "planId": "78010196a9201aed52b8dac2",
+      "text": "大したことはしていない\n荷物を運んだだけだ\nしかし速さとスピードが重要だった",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-linebreak-0+punctuation-comma-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C20",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "3d408a8a807c9a3c44996776",
+      "planId": "e3fa968d099fbcf38f2ac15c",
+      "text": "大したことはしていないからな\n荷物を運んだだけだ\nしかし速さとスピードが重要だった",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-comma-0+velocity-doubling+punctuation-end-0",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "velocity-doubling",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "from": "速度",
+          "to": "速さとスピード",
+          "evidenceIds": [
+            "post_02421_ef97fdc26a351d5a_9490"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "velocity-doubling",
+          "sourceSpan": {
+            "start": 26,
+            "end": 28
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "C20",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "81e0ec1ea57c94d1d9ffade9",
+      "planId": "bf2b76818480d9beb9ee2df4",
+      "text": "大したことはしていないからな\n荷物を運んだだけだ\nしかし速度が重要だった",
+      "operator": "REWRITE",
+      "family": "ending-insistence-16+punctuation-linebreak-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-16",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 11
+          },
+          "from": "ない",
+          "to": "ないからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 11,
+            "end": 12
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 21,
+            "end": 22
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 25,
+            "end": 26
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-2",
+          "sourceSpan": {
+            "start": 34,
+            "end": 35
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-02T08:34:05.035824+00:00",
+  "method": "Exact full-source search of repository source/test/docs/artifacts including first exposed holdout; excludes dependencies/generated runtime. Not a semantic near-duplicate guarantee.",
+  "heldoutFileSha256": "3ddcad8069eb8a60343ffab099047fdcafbb96fdb4ccd415d9254f699ba7197b",
+  "cases": [
+    {
+      "id": "F01",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F02",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F03",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F04",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F05",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F06",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F07",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F08",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F09",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F10",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F11",
+      "exactSourcePriorHits": []
+    },
+    {
+      "id": "F12",
+      "exactSourcePriorHits": []
+    }
+  ]
+}

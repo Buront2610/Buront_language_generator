@@ -1,0 +1,300 @@
+{
+  "baselineCommit": "c7631aeab30d962ef0ccb55c1e97f289da47e632",
+  "baselineTreeEquivalentTo": "f4147c7",
+  "previousEvaluation": {
+    "date": "2026-10-02",
+    "sourceInputsSha256": "aa0b0fd1dc4af1f45b2ab1f751c1baa9d6ae68d6a79bfa584dbc0d13264f0bb9",
+    "datasetId": "bd298f18d096233609ee2a826b22d2082aaf89922b6edecc91c52ab83bda3bc2",
+    "seed": "literary-style-eval-20261002"
+  },
+  "allPrior22DisplayedTextOrderExact": true,
+  "keyEngineHashesMatchPrior": true,
+  "checks": [
+    {
+      "id": "N01",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N05",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N06",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N07",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N08",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N09",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "B01",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "intensities": [
+        {
+          "intensity": 2,
+          "exactDisplayedTextsInOrder": true
+        },
+        {
+          "intensity": 3,
+          "exactDisplayedTextsInOrder": true
+        }
+      ]
+    }
+  ]
+}

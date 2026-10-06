@@ -1,0 +1,1548 @@
+[
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-0",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_contrast_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-0",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-0",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-0",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-0",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-reason",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "explicit_reason_shape_missing",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "recognized",
+      "reason": "explicit_source_relation",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "explicit-contrast",
+      "candidateId": null,
+      "planId": null,
+      "stage": "unsupported_form",
+      "reason": "requested_intensity_has_no_registered_form",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "modest-achievement",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "opening_modesty_shape_missing",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "anger-peak",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "deep-sadness",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "construction_diagnostic",
+    "id": "H05",
+    "intensity": 2,
+    "phase": "after",
+    "diagnostic": {
+      "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+      "nodeId": "fact-node-1",
+      "constructionId": "time-expired",
+      "candidateId": null,
+      "planId": null,
+      "stage": "relation_not_recognized",
+      "reason": "no_registered_local_source_binding",
+      "sourceSpan": {
+        "start": 10,
+        "end": 24
+      }
+    }
+  },
+  {
+    "type": "run",
+    "id": "H05",
+    "intensity": 3,
+    "displayedTextOrderChanged": false,
+    "before": {
+      "intensity": 3,
+      "generationMs": 74.027,
+      "selectedCandidateId": "ef8c700e39b1cf0b1f3f757a",
+      "displayedIds": [
+        {
+          "id": "ef8c700e39b1cf0b1f3f757a",
+          "planId": "6f3682caa8b9e0b67f09b3fb"
+        },
+        {
+          "id": "42d1dbd69822fca31a7a48aa",
+          "planId": "9de6f6b6e17e26dc778fc833"
+        },
+        {
+          "id": "95f8db977b1bbee1524033da",
+          "planId": "b6f23d8b04deafe78d885496"
+        }
+      ],
+      "diagnosticCoverage": "baseline-uninstrumented; pre-plan rejection reasons unavailable, not inferred",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "ef8c700e39b1cf0b1f3f757a",
+          "42d1dbd69822fca31a7a48aa",
+          "95f8db977b1bbee1524033da"
+        ],
+        "selectionHash": "77da4cca47d0a4610428a29d03cc2fc2be9adc3bba0887a3172ee78c70ce3650"
+      }
+    },
+    "after": {
+      "intensity": 3,
+      "generationMs": 90.256,
+      "selectedCandidateId": "ef8c700e39b1cf0b1f3f757a",
+      "displayedIds": [
+        {
+          "id": "ef8c700e39b1cf0b1f3f757a",
+          "planId": "7b67b752fadf71a943b0c134"
+        },
+        {
+          "id": "42d1dbd69822fca31a7a48aa",
+          "planId": "9de6f6b6e17e26dc778fc833"
+        },
+        {
+          "id": "95f8db977b1bbee1524033da",
+          "planId": "a23d02fce49e96b4a1881dbb"
+        }
+      ],
+      "diagnosticCoverage": "engine-instrumented construction attempts and candidate outcomes",
+      "fallback": null,
+      "shortfallReason": null,
+      "semanticVerification": {
+        "version": "independent-factual-reparse-v2",
+        "verifiedCount": 4,
+        "selectedIds": [
+          "ef8c700e39b1cf0b1f3f757a",
+          "42d1dbd69822fca31a7a48aa",
+          "95f8db977b1bbee1524033da"
+        ],
+        "selectionHash": "d0a07b94243d0f4acd8576837d1ce1f2226528a74c3b5a24ba3c973d7a86b21a"
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "95f8db977b1bbee1524033da",
+      "planId": "b6f23d8b04deafe78d885496",
+      "text": "このゲームは面白い\nだがアッピルが足りない",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 13
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "このゲームは面白い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "しかし、アピールが足りない",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 10,
+                "end": 13
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 19,
+                "end": 21
+              },
+              "text": "足り",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "ef8c700e39b1cf0b1f3f757a",
+      "planId": "6f3682caa8b9e0b67f09b3fb",
+      "text": "このゲームは面白いからな\nだがアッピルが足りない",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 13
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "このゲームは面白い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "しかし、アピールが足りない",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 10,
+                "end": 13
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 19,
+                "end": 21
+              },
+              "text": "足り",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "42d1dbd69822fca31a7a48aa",
+      "planId": "9de6f6b6e17e26dc778fc833",
+      "text": "このゲームは面白い\nしかしアッピルが足りない",
+      "operator": "REWRITE",
+      "family": "punctuation-linebreak-0+punctuation-comma-0+appiru+punctuation-end-0",
+      "displayedOrdinal": 2,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H05",
+    "intensity": 3,
+    "phase": "before",
+    "candidate": {
+      "id": "d80b31199a4826e72ca62b47",
+      "planId": "3d711597fe5a94bae262ed31",
+      "text": "このゲームは面白いからな\nしかしアッピルが足りない",
+      "operator": "REWRITE",
+      "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+appiru+punctuation-end-0",
+      "displayedOrdinal": null,
+      "isTopSelection": false,
+      "finalStage": "not_selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        }
+      ],
+      "constructionIds": [],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": true,
+      "composition": {
+        "lexicalOnly": true,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H05",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "95f8db977b1bbee1524033da",
+      "planId": "a23d02fce49e96b4a1881dbb",
+      "text": "このゲームは面白い\nだがアッピルが足りない",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 3,
+      "isTopSelection": false,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 13
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "このゲームは面白い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "しかし、アピールが足りない",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 10,
+                "end": 13
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 19,
+                "end": 21
+              },
+              "text": "足り",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 10
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "role": "contrast",
+                "span": {
+                  "start": 10,
+                  "end": 23
+                },
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 5,
+                "span": {
+                  "start": 10,
+                  "end": 13
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 9,
+                "span": {
+                  "start": 19,
+                  "end": 21
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 9,
+                "factId": "fact-1",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  },
+  {
+    "type": "candidate",
+    "id": "H05",
+    "intensity": 3,
+    "phase": "after",
+    "candidate": {
+      "id": "ef8c700e39b1cf0b1f3f757a",
+      "planId": "7b67b752fadf71a943b0c134",
+      "text": "このゲームは面白いからな\nだがアッピルが足りない",
+      "operator": "CONSTRUCTION",
+      "family": "explicit-contrast-frame",
+      "displayedOrdinal": 1,
+      "isTopSelection": true,
+      "finalStage": "selected",
+      "preVerificationStatus": "passed",
+      "verificationStatus": "passed",
+      "scores": {
+        "S": null,
+        "Q": null,
+        "C": 1,
+        "R": 1
+      },
+      "checkCount": 12,
+      "nonPassingChecks": [],
+      "changeCategories": [
+        "person_punctuation",
+        "ending",
+        "lexical",
+        "discourse_marker"
+      ],
+      "edits": [
+        {
+          "kind": "ending",
+          "ruleId": "ending-insistence-18",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 8,
+            "end": 9
+          },
+          "from": "い",
+          "to": "いからな",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-linebreak-0",
+          "constructionId": null,
+          "nodeId": "fact-node-0",
+          "sourceSpan": {
+            "start": 9,
+            "end": 10
+          },
+          "from": "。",
+          "to": "\n",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-comma-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 13,
+            "end": 14
+          },
+          "from": "、",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "lexical",
+          "ruleId": "appiru",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "from": "アピール",
+          "to": "アッピル",
+          "evidenceIds": [
+            "post_01729_3578425f6701ad48_5839"
+          ]
+        },
+        {
+          "kind": "person_punctuation",
+          "ruleId": "punctuation-end-0",
+          "constructionId": null,
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 23,
+            "end": 24
+          },
+          "from": "。",
+          "to": "",
+          "evidenceIds": [
+            "post_00016_82d78e65bd643a54_22"
+          ]
+        },
+        {
+          "kind": "discourse_marker",
+          "ruleId": null,
+          "constructionId": "explicit-contrast",
+          "nodeId": "fact-node-1",
+          "sourceSpan": {
+            "start": 10,
+            "end": 13
+          },
+          "from": "しかし",
+          "to": "だが",
+          "bindings": [
+            {
+              "slot": "antecedent",
+              "span": {
+                "start": 0,
+                "end": 10
+              },
+              "text": "このゲームは面白い。",
+              "tokenIds": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "slot": "contrast",
+              "span": {
+                "start": 10,
+                "end": 23
+              },
+              "text": "しかし、アピールが足りない",
+              "tokenIds": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "slot": "marker",
+              "span": {
+                "start": 10,
+                "end": 13
+              },
+              "text": "しかし",
+              "tokenIds": [
+                5
+              ]
+            },
+            {
+              "slot": "predicate",
+              "span": {
+                "start": 19,
+                "end": 21
+              },
+              "text": "足り",
+              "tokenIds": [
+                9
+              ]
+            }
+          ],
+          "relation": {
+            "version": 1,
+            "kind": "explicit-contrast",
+            "factId": "fact-1",
+            "certainty": "explicit",
+            "clauses": [
+              {
+                "role": "antecedent",
+                "span": {
+                  "start": 0,
+                  "end": 10
+                },
+                "tokenIds": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "role": "contrast",
+                "span": {
+                  "start": 10,
+                  "end": 23
+                },
+                "tokenIds": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ],
+            "evidenceTokens": [
+              {
+                "role": "marker",
+                "tokenId": 5,
+                "span": {
+                  "start": 10,
+                  "end": 13
+                }
+              },
+              {
+                "role": "predicate",
+                "tokenId": 9,
+                "span": {
+                  "start": 19,
+                  "end": 21
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "predicateTokenId": 3,
+                "factId": "fact-0",
+                "polarity": "positive",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "unknown",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              },
+              {
+                "predicateTokenId": 9,
+                "factId": "fact-1",
+                "polarity": "negative",
+                "tense": "nonpast",
+                "realization": "actual",
+                "completion": "not_completed",
+                "voice": "active",
+                "attribution": {
+                  "kind": "narrator",
+                  "speaker": null
+                },
+                "conditional": false,
+                "speculative": false,
+                "prospective": false,
+                "ambiguous": false,
+                "nonDeclarative": false,
+                "reportedContent": false
+              }
+            ],
+            "provenance": {
+              "inputHash": "5b23f5baec53582ba1b4bdde849300bec91ae9c7eb766d2f66179247c835ef43",
+              "parserVersion": "spacy=3.8.16/ginza=5.2.1/ja-ginza=5.2.0/SudachiPy=0.6.11/SudachiDict-core=20260723/rapidfuzz=3.14.6"
+            }
+          },
+          "operation": {
+            "kind": "replace"
+          },
+          "preservedFeatures": {
+            "polarity": "negative",
+            "tense": "nonpast",
+            "realization": "actual",
+            "completion": "not_completed",
+            "attribution": {
+              "kind": "narrator",
+              "speaker": null
+            },
+            "voice": "active"
+          },
+          "evidenceIds": [
+            "post_01674_cb7c3a70cfcf77ea_5601"
+          ]
+        }
+      ],
+      "constructionIds": [
+        "explicit-contrast"
+      ],
+      "lexicalPermission": [
+        {
+          "ruleId": "appiru",
+          "sourceSpan": {
+            "start": 14,
+            "end": 18
+          },
+          "independentlyPermitted": true
+        }
+      ],
+      "standaloneRewriteProof": null,
+      "composition": {
+        "lexicalOnly": false,
+        "reasonOnly": false,
+        "lexicalAndReason": false,
+        "lexicalInsideReason": false
+      }
+    }
+  }
+]

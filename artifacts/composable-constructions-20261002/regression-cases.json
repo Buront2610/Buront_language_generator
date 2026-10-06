@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "authoredAt": "2026-10-02T08:15:14.752737+00:00",
+  "protocol": "Exact pre-existing 35 cases retained without changes.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "literary-style-eval-20261002",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "N01",
+      "category": "日常の手順",
+      "source": "私は朝七時に起きて、駅まで歩いた。電車は五分遅れていたが、会議には間に合った。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N02",
+      "category": "業務連絡と数値",
+      "source": "明日の会議は午後三時からです。資料を二部ずつ持ってきてください。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N03",
+      "category": "根拠を伴う比較",
+      "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N04",
+      "category": "反論と根拠",
+      "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。まず小さく試すべきだと思う。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N05",
+      "category": "謙遜を伴う達成",
+      "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N06",
+      "category": "感謝と対人関係",
+      "source": "忙しいのに手伝ってくれてありがとう。おかげで予定より早く作業が終わった。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N07",
+      "category": "依頼と提案",
+      "source": "この箱を一緒に運んでもらえますか。重いので、二人で持ったほうが安全です。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N08",
+      "category": "情景描写",
+      "source": "夕方の川沿いは静かだった。水面に街の明かりが映り、遠くで犬が一度だけ鳴いた。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N09",
+      "category": "弱い不満",
+      "source": "店員に二度説明したのに注文が違っていたので、私は少し腹を立てた。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N10",
+      "category": "感情の対象",
+      "source": "私は友人の引っ越しがとても寂しかった。それでも、新しい町で元気に暮らしてほしいと思った。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N11",
+      "category": "条件・否定・推量",
+      "source": "もし明日雨が降ったら、試合は中止になるかもしれない。まだ決まったわけではないので、道具は片付けないでほしい。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N12",
+      "category": "引用を含む会話",
+      "source": "田中は「今回は私の負けだ」と言った。私は「次は一緒に練習しよう」と答えた。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N13",
+      "category": "疑問",
+      "source": "この方法で本当に間に合うのだろうか。途中で失敗したときの手順も確認しておきたい。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N14",
+      "category": "譲歩と評価",
+      "source": "この傘は軽くて丈夫だ。値段は少し高かったが、毎日使うものなので満足している。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N15",
+      "category": "出来事の展開",
+      "source": "帰り道で、子どもが落とした帽子を拾った。追いかけて渡すと、母親が何度も礼を言った。私は軽く会釈して、そのまま駅へ向かった。",
+      "group": "ordinary"
+    },
+    {
+      "id": "N16",
+      "category": "喜びと今後の行動",
+      "source": "試験に合格したと聞いて、とても嬉しかった。今日は家族と夕食を食べて、明日からまた勉強を続けるつもりだ。",
+      "group": "ordinary"
+    },
+    {
+      "id": "P01",
+      "category": "陽性対照・怒り構文",
+      "source": "私の怒りは頂点に達しました。",
+      "group": "positive_control"
+    },
+    {
+      "id": "P02",
+      "category": "陽性対照・悲しみ構文",
+      "source": "私はとても悲しかった。",
+      "group": "positive_control"
+    },
+    {
+      "id": "P03",
+      "category": "陽性対照・時間切れ構文",
+      "source": "もう時間切れでした。",
+      "group": "positive_control"
+    },
+    {
+      "id": "B01",
+      "category": "追加確認・挨拶",
+      "source": "おはよう",
+      "group": "abstention_control"
+    },
+    {
+      "id": "B02",
+      "category": "追加確認・疑問",
+      "source": "明日の集合場所はどこ？",
+      "group": "abstention_control"
+    },
+    {
+      "id": "B03",
+      "category": "追加確認・引用だけ",
+      "source": "「明日は行けません」",
+      "group": "abstention_control"
+    },
+    {
+      "id": "T01",
+      "category": "理由終止・名詞",
+      "source": "今日は休みます。熱があるからです。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T02",
+      "category": "理由終止・動詞",
+      "source": "この道を選んだ。駅まで近いからだ。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T03",
+      "category": "比較と根拠・別内容",
+      "source": "紙より電子版を使うほうが便利だと思う。重い本を運ばずに済み、必要な語も検索できるからだ。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T04",
+      "category": "反対と複数理由・別内容",
+      "source": "その日程には賛成できない。担当者が不在で、確認にも三日かかるからだ。まず予定を確認するべきだと思う。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T05",
+      "category": "謙遜と達成・別内容",
+      "source": "大したことはしていない。なくした鍵を見つけて、閉まっていた扉を開けただけだ。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T06",
+      "category": "譲歩と評価・別内容",
+      "source": "このかばんは小さくて軽い。値段は少し高かったが、毎日持ち歩くものなので満足している。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T07",
+      "category": "因果のない隣接文",
+      "source": "私は手順書を読んだ。隣の部屋では誰かが電話していた。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T08",
+      "category": "引用内部の理由",
+      "source": "田中は「私は休む。熱があるからだ」と言った。私はその理由を確認していない。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T09",
+      "category": "未確定の理由",
+      "source": "この道は近いかもしれない。駅までの距離が短いからだろうか。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T10",
+      "category": "未達の謙遜",
+      "source": "大したことはしていない。故障の原因はまだ見つけていない。機械を動かしたわけでもない。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T11",
+      "category": "他者の謙遜",
+      "source": "田中は大したことはしていないと言った。彼が故障の原因を見つけて、止まっていた機械を動かした。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T12",
+      "category": "逆接と否定評価",
+      "source": "このかばんは小さくて軽い。値段は少し高かったが、使いにくいので満足していない。",
+      "group": "targeted_regression"
+    },
+    {
+      "id": "T13",
+      "category": "追加陽性確認・明示的逆接",
+      "source": "この道は近い。しかし、夜は暗くて歩きにくい。",
+      "group": "targeted_regression",
+      "selectionNote": "Added after inspecting the proposed explicit-connective support, before final outputs. This is a targeted positive diagnostic, not held-out evidence."
+    }
+  ]
+}

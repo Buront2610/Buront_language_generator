@@ -1,0 +1,374 @@
+[
+  {
+    "id": "T13",
+    "group": "targeted_regression",
+    "category": "追加陽性確認・明示的逆接",
+    "source": "この道は近い。しかし、夜は暗くて歩きにくい。",
+    "sourceAnalysisIdentical": true,
+    "results": [
+      {
+        "intensity": 2,
+        "displayedTextOrderChanged": false,
+        "before": {
+          "intensity": 2,
+          "selectedCandidateId": "2101501f630188b611a6944a",
+          "displayed": [
+            {
+              "id": "2101501f630188b611a6944a",
+              "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "80f2ea72e2bc8e6323e0235f",
+              "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "3068b15369b4a4cfc8502bb280c635bc55b1cf1b08ca884904643b4463194b64"
+        },
+        "after": {
+          "intensity": 2,
+          "selectedCandidateId": "2101501f630188b611a6944a",
+          "displayed": [
+            {
+              "id": "2101501f630188b611a6944a",
+              "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "80f2ea72e2bc8e6323e0235f",
+              "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "3068b15369b4a4cfc8502bb280c635bc55b1cf1b08ca884904643b4463194b64"
+        }
+      },
+      {
+        "intensity": 3,
+        "displayedTextOrderChanged": true,
+        "before": {
+          "intensity": 3,
+          "selectedCandidateId": "2101501f630188b611a6944a",
+          "displayed": [
+            {
+              "id": "2101501f630188b611a6944a",
+              "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "80f2ea72e2bc8e6323e0235f",
+              "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": "candidate_shortage",
+          "poolCount": 2,
+          "poolConstructionCount": 0,
+          "verifiedCount": 2,
+          "selectionHash": "3068b15369b4a4cfc8502bb280c635bc55b1cf1b08ca884904643b4463194b64"
+        },
+        "after": {
+          "intensity": 3,
+          "selectedCandidateId": "a565b7de57041be08e5b9da3",
+          "displayed": [
+            {
+              "id": "a565b7de57041be08e5b9da3",
+              "text": "この道は近いからな\nだが夜は暗くて歩きにくい",
+              "operator": "CONSTRUCTION",
+              "family": "explicit-contrast-frame",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "constructionId": "explicit-contrast",
+                  "from": "しかし",
+                  "to": "だが"
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "80f2ea72e2bc8e6323e0235f",
+              "text": "この道は近い\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            },
+            {
+              "id": "2101501f630188b611a6944a",
+              "text": "この道は近いからな\nしかし夜は暗くて歩きにくい",
+              "operator": "REWRITE",
+              "family": "ending-insistence-18+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+              "verificationStatus": "passed",
+              "scores": {
+                "S": null,
+                "Q": null,
+                "C": 1,
+                "R": 1
+              },
+              "novelty": "adaptation",
+              "edits": [
+                {
+                  "ruleId": "ending-insistence-18",
+                  "from": "い",
+                  "to": "いからな"
+                },
+                {
+                  "ruleId": "punctuation-linebreak-0",
+                  "from": "。",
+                  "to": "\n"
+                },
+                {
+                  "ruleId": "punctuation-comma-0",
+                  "from": "、",
+                  "to": ""
+                },
+                {
+                  "ruleId": "punctuation-end-0",
+                  "from": "。",
+                  "to": ""
+                }
+              ],
+              "checkCount": 12,
+              "nonPassingChecks": []
+            }
+          ],
+          "fallback": null,
+          "shortfallReason": null,
+          "poolCount": 4,
+          "poolConstructionCount": 2,
+          "verifiedCount": 4,
+          "selectionHash": "b47a57d5e4247dd4d81e9343990bff58943fc6323736c3cd946851db309ab063"
+        }
+      }
+    ]
+  }
+]

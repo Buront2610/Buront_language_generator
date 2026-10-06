@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "N15",
+    "group": "ordinary",
+    "source": "帰り道で、子どもが落とした帽子を拾った。追いかけて渡すと、母親が何度も礼を言った。私は軽く会釈して、そのまま駅へ向かった。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "a637e3ef0fcce325fd1ec72e",
+        "displayed": [
+          {
+            "id": "a637e3ef0fcce325fd1ec72e",
+            "text": "帰り道で子どもが落とした帽子を拾ったからな\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-linebreak-0+narrator-watashi+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "6a148a586e45cad3772a05f1",
+            "text": "帰り道で子どもが落とした帽子を拾った\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-linebreak-0+narrator-watashi+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "7b94f735f263e42411ab7640f14bccc3eb187e73ec3f1b3e7eab6f3a7ce9a345"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "a637e3ef0fcce325fd1ec72e",
+        "displayed": [
+          {
+            "id": "a637e3ef0fcce325fd1ec72e",
+            "text": "帰り道で子どもが落とした帽子を拾ったからな\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+ending-insistence-21+punctuation-linebreak-0+punctuation-comma-0+punctuation-linebreak-0+narrator-watashi+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "ending-insistence-21",
+                "from": "た",
+                "to": "たからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "6a148a586e45cad3772a05f1",
+            "text": "帰り道で子どもが落とした帽子を拾った\n追いかけて渡すと母親が何度も礼を言った\n俺は軽く会釈してそのまま駅へ向かった",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-linebreak-0+narrator-watashi+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "7b94f735f263e42411ab7640f14bccc3eb187e73ec3f1b3e7eab6f3a7ce9a345"
+      }
+    ]
+  },
+  {
+    "id": "N16",
+    "group": "ordinary",
+    "source": "試験に合格したと聞いて、とても嬉しかった。今日は家族と夕食を食べて、明日からまた勉強を続けるつもりだ。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "cd0a70d23ade238e0d143512",
+        "displayed": [
+          {
+            "id": "cd0a70d23ade238e0d143512",
+            "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "ending-insistence-17",
+                "from": "かった",
+                "to": "かったからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "d3056dd70ea796918b53d47b",
+            "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "0b12a10f133d59cc29297e0c25fb443710033cc2ed78cee4846fe20a7887c963"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "cd0a70d23ade238e0d143512",
+        "displayed": [
+          {
+            "id": "cd0a70d23ade238e0d143512",
+            "text": "試験に合格したと聞いてとても嬉しかったからな\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+ending-insistence-17+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "ending-insistence-17",
+                "from": "かった",
+                "to": "かったからな"
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "d3056dd70ea796918b53d47b",
+            "text": "試験に合格したと聞いてとても嬉しかった\n今日は家族と夕食を食べて明日からまた勉強を続けるつもりだ",
+            "operator": "REWRITE",
+            "family": "punctuation-comma-0+punctuation-linebreak-0+punctuation-comma-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-comma-0",
+                "from": "、",
+                "to": ""
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 0,
+        "verifiedCount": 2,
+        "selectionHash": "0b12a10f133d59cc29297e0c25fb443710033cc2ed78cee4846fe20a7887c963"
+      }
+    ]
+  },
+  {
+    "id": "P01",
+    "group": "positive_control",
+    "source": "私の怒りは頂点に達しました。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "3f76d87f08c2d1e674b484bb",
+        "displayed": [
+          {
+            "id": "3f76d87f08c2d1e674b484bb",
+            "text": "俺の怒りは有頂天になった",
+            "operator": "CONSTRUCTION",
+            "family": "anger-maximum",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "anger-peak",
+                "from": "怒りは頂点に達しました",
+                "to": "怒りは有頂天になった"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "296416952c99a9787ae35e56",
+            "text": "俺の怒りは頂点に達しました",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 1,
+        "verifiedCount": 2,
+        "selectionHash": "6192eaa0765be19b416652e4b98fcb20ca84311a5a759b6b232029b2d14aac31"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "3f76d87f08c2d1e674b484bb",
+        "displayed": [
+          {
+            "id": "3f76d87f08c2d1e674b484bb",
+            "text": "俺の怒りは有頂天になった",
+            "operator": "CONSTRUCTION",
+            "family": "anger-maximum",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "anger-peak",
+                "from": "怒りは頂点に達しました",
+                "to": "怒りは有頂天になった"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "296416952c99a9787ae35e56",
+            "text": "俺の怒りは頂点に達しました",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": "candidate_shortage",
+        "poolCount": 2,
+        "poolConstructionCount": 1,
+        "verifiedCount": 2,
+        "selectionHash": "6192eaa0765be19b416652e4b98fcb20ca84311a5a759b6b232029b2d14aac31"
+      }
+    ]
+  },
+  {
+    "id": "P02",
+    "group": "positive_control",
+    "source": "私はとても悲しかった。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "3c809ad1b279242106671df4",
+        "displayed": [
+          {
+            "id": "3c809ad1b279242106671df4",
+            "text": "俺は深い悲しみに包まれた",
+            "operator": "CONSTRUCTION",
+            "family": "sadness-high",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "deep-sadness",
+                "from": "とても悲しかった",
+                "to": "深い悲しみに包まれた"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "8ca381302ea85c4952cdb820",
+            "text": "俺はとても悲しかったからな",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+ending-insistence-17+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-17",
+                "from": "かった",
+                "to": "かったからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "5fb16c77b62d34f98e15ef65",
+            "text": "俺はとても悲しかった",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 3,
+        "poolConstructionCount": 1,
+        "verifiedCount": 3,
+        "selectionHash": "3aae3b56d85fa4890b62a8eb6e2f5ac30907acd1578d973dec38cbe778a41760"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "3c809ad1b279242106671df4",
+        "displayed": [
+          {
+            "id": "3c809ad1b279242106671df4",
+            "text": "俺は深い悲しみに包まれた",
+            "operator": "CONSTRUCTION",
+            "family": "sadness-high",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "deep-sadness",
+                "from": "とても悲しかった",
+                "to": "深い悲しみに包まれた"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "8ca381302ea85c4952cdb820",
+            "text": "俺はとても悲しかったからな",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+ending-insistence-17+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "ending-insistence-17",
+                "from": "かった",
+                "to": "かったからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "5fb16c77b62d34f98e15ef65",
+            "text": "俺はとても悲しかった",
+            "operator": "REWRITE",
+            "family": "narrator-watashi+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "narrator-watashi",
+                "from": "私",
+                "to": "俺"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 3,
+        "poolConstructionCount": 1,
+        "verifiedCount": 3,
+        "selectionHash": "3aae3b56d85fa4890b62a8eb6e2f5ac30907acd1578d973dec38cbe778a41760"
+      }
+    ]
+  },
+  {
+    "id": "P03",
+    "group": "positive_control",
+    "source": "もう時間切れでした。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "109fc35360a90424a94bf5a8",
+        "displayed": [
+          {
+            "id": "109fc35360a90424a94bf5a8",
+            "text": "時既に時間切れだった",
+            "operator": "CONSTRUCTION",
+            "family": "already-expired",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "time-expired",
+                "from": "もう時間切れでした",
+                "to": "時既に時間切れだった"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "31282025db3af082855f72d2",
+            "text": "もう時間切れでした",
+            "operator": "REWRITE",
+            "family": "punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "97f376f759e6d1534ccb6001",
+            "text": "もう時間切れだったからな",
+            "operator": "REWRITE",
+            "family": "ending-insistence-9+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-9",
+                "from": "でした",
+                "to": "だったからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 4,
+        "poolConstructionCount": 1,
+        "verifiedCount": 4,
+        "selectionHash": "2eec1983589a3303a604e38b9010c7d49a939616b4d462ffd408548116a248bf"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "109fc35360a90424a94bf5a8",
+        "displayed": [
+          {
+            "id": "109fc35360a90424a94bf5a8",
+            "text": "時既に時間切れだった",
+            "operator": "CONSTRUCTION",
+            "family": "already-expired",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "time-expired",
+                "from": "もう時間切れでした",
+                "to": "時既に時間切れだった"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "31282025db3af082855f72d2",
+            "text": "もう時間切れでした",
+            "operator": "REWRITE",
+            "family": "punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "97f376f759e6d1534ccb6001",
+            "text": "もう時間切れだったからな",
+            "operator": "REWRITE",
+            "family": "ending-insistence-9+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "ending-insistence-9",
+                "from": "でした",
+                "to": "だったからな"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 4,
+        "poolConstructionCount": 1,
+        "verifiedCount": 4,
+        "selectionHash": "2eec1983589a3303a604e38b9010c7d49a939616b4d462ffd408548116a248bf"
+      }
+    ]
+  },
+  {
+    "id": "B01",
+    "group": "abstention_control",
+    "source": "おはよう",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": null,
+        "displayed": [],
+        "fallback": {
+          "text": "おはよう",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "poolCount": 0,
+        "poolConstructionCount": 0,
+        "verifiedCount": 0,
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": null,
+        "displayed": [],
+        "fallback": {
+          "text": "おはよう",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "poolCount": 0,
+        "poolConstructionCount": 0,
+        "verifiedCount": 0,
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  {
+    "id": "B02",
+    "group": "abstention_control",
+    "source": "明日の集合場所はどこ？",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": null,
+        "displayed": [],
+        "fallback": {
+          "text": "明日の集合場所はどこ？",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "poolCount": 0,
+        "poolConstructionCount": 0,
+        "verifiedCount": 0,
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": null,
+        "displayed": [],
+        "fallback": {
+          "text": "明日の集合場所はどこ？",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "poolCount": 0,
+        "poolConstructionCount": 0,
+        "verifiedCount": 0,
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  {
+    "id": "B03",
+    "group": "abstention_control",
+    "source": "「明日は行けません」",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": null,
+        "displayed": [],
+        "fallback": {
+          "text": "「明日は行けません」",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "poolCount": 0,
+        "poolConstructionCount": 0,
+        "verifiedCount": 0,
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": null,
+        "displayed": [],
+        "fallback": {
+          "text": "「明日は行けません」",
+          "reason": "unsupported_relation"
+        },
+        "shortfallReason": "unsupported_relation",
+        "poolCount": 0,
+        "poolConstructionCount": 0,
+        "verifiedCount": 0,
+        "selectionHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  {
+    "id": "T01",
+    "group": "targeted_regression",
+    "source": "今日は休みます。熱があるからです。",
+    "results": [
+      {
+        "intensity": 2,
+        "selectedCandidateId": "f27e0f4b82ac265846a729d1",
+        "displayed": [
+          {
+            "id": "f27e0f4b82ac265846a729d1",
+            "text": "今日は休みます\n何故なら熱があるからです",
+            "operator": "CONSTRUCTION",
+            "family": "explicit-reason-frame",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "explicit-reason",
+                "from": "熱があるからです",
+                "to": "何故なら熱があるからです"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "d08ad30acb17f65c465dcc9e",
+            "text": "今日は休みます\n熱があるからだ",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "ending-plain-10",
+                "from": "です",
+                "to": "だ"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "47f7fcb0e9a8a00ab81585b4",
+            "text": "今日は休みます\n熱があるからです",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 3,
+        "poolConstructionCount": 1,
+        "verifiedCount": 3,
+        "selectionHash": "4eb6f2f49bba7accba9d5c853dfcac55cd8295e539c5c7e1455f75b0ca56cfd5"
+      },
+      {
+        "intensity": 3,
+        "selectedCandidateId": "f27e0f4b82ac265846a729d1",
+        "displayed": [
+          {
+            "id": "f27e0f4b82ac265846a729d1",
+            "text": "今日は休みます\n何故なら熱があるからです",
+            "operator": "CONSTRUCTION",
+            "family": "explicit-reason-frame",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "constructionId": "explicit-reason",
+                "from": "熱があるからです",
+                "to": "何故なら熱があるからです"
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "d08ad30acb17f65c465dcc9e",
+            "text": "今日は休みます\n熱があるからだ",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+ending-plain-10+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "ending-plain-10",
+                "from": "です",
+                "to": "だ"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          },
+          {
+            "id": "47f7fcb0e9a8a00ab81585b4",
+            "text": "今日は休みます\n熱があるからです",
+            "operator": "REWRITE",
+            "family": "punctuation-linebreak-0+punctuation-end-0",
+            "verificationStatus": "passed",
+            "scores": {
+              "S": null,
+              "Q": null,
+              "C": 1,
+              "R": 1
+            },
+            "novelty": "adaptation",
+            "edits": [
+              {
+                "ruleId": "punctuation-linebreak-0",
+                "from": "。",
+                "to": "\n"
+              },
+              {
+                "ruleId": "punctuation-end-0",
+                "from": "。",
+                "to": ""
+              }
+            ],
+            "checkCount": 12,
+            "nonPassingChecks": []
+          }
+        ],
+        "fallback": null,
+        "shortfallReason": null,
+        "poolCount": 3,
+        "poolConstructionCount": 1,
+        "verifiedCount": 3,
+        "selectionHash": "4eb6f2f49bba7accba9d5c853dfcac55cd8295e539c5c7e1455f75b0ca56cfd5"
+      }
+    ]
+  }
+]
