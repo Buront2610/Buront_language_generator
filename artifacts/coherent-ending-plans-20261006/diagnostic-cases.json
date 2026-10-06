@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "protocol": "12 exposed ending diagnostics authored during this implementation: 4 exact sources from selection-eval-20261006/diagnose.cjs and 8 purposeful scope, inflection and overlap controls. Never a holdout or human quality test.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "literary-style-eval-20261002",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "D01",
+      "currentRole": "exposed-diagnostic",
+      "category": "Original diagnostic: explicit reason",
+      "source": "急行を使った。移動の速度が必要だからです。"
+    },
+    {
+      "id": "D02",
+      "currentRole": "exposed-diagnostic",
+      "category": "Original diagnostic: four polite clauses",
+      "source": "荷物を確認しました。予定を変更します。準備は十分です。今日は早く出発します。"
+    },
+    {
+      "id": "D03",
+      "currentRole": "exposed-diagnostic",
+      "category": "Original diagnostic: narrator and lexeme",
+      "source": "私は予約を確認しました。会場は静かです。道具は貴重です。全員で準備しています。"
+    },
+    {
+      "id": "D04",
+      "currentRole": "exposed-diagnostic",
+      "category": "Original diagnostic: composed reason and tails",
+      "source": "この方法を選びました。作業の速度が重要だからです。手順を確認しました。準備は十分です。"
+    },
+    {
+      "id": "D05",
+      "currentRole": "exposed-diagnostic",
+      "category": "Negative and progressive controls",
+      "source": "荷物を確認しませんでした。予定を変更しません。準備をしていません。昨日は作業をしていませんでした。"
+    },
+    {
+      "id": "D06",
+      "currentRole": "exposed-diagnostic",
+      "category": "Copula and adjective controls including unsupported past polite adjective",
+      "source": "会場は静かです。道具は新しいです。昨日は寒かったです。準備は十分でした。"
+    },
+    {
+      "id": "D07",
+      "currentRole": "exposed-diagnostic",
+      "category": "Quoted and unsupported tails beside permitted tails",
+      "source": "担当者は「予定を変更します」と言いました。私は予約を確認しました。今日は本を読みます。道具は新しいです。"
+    },
+    {
+      "id": "D08",
+      "currentRole": "exposed-diagnostic",
+      "category": "Construction replacement overlapping tail sites",
+      "source": "私の怒りが頂点に達しました。私はとても悲しいです。すでに時間切れです。荷物を確認しました。"
+    },
+    {
+      "id": "D09",
+      "currentRole": "exposed-diagnostic",
+      "category": "Longest lexical replacement overlapping tail",
+      "source": "この装備は最強です。準備は十分です。私は道具を確認しました。会場は静かです。"
+    },
+    {
+      "id": "D10",
+      "currentRole": "exposed-diagnostic",
+      "category": "Registered irregular past verbs",
+      "source": "私は友人を助けました。私は大丈夫だと言いました。私は疲れました。作業は終わりました。"
+    },
+    {
+      "id": "D11",
+      "currentRole": "exposed-diagnostic",
+      "category": "Protected and uncertain tails preserve control",
+      "source": "「準備は十分です」と聞きました。予定を変更するかもしれません。予約を確認してください。今日は本を読みます。"
+    },
+    {
+      "id": "D12",
+      "currentRole": "exposed-diagnostic",
+      "category": "Plain clauses and polite tail sites with insistence budget",
+      "source": "私は予約を確認した。会場は静かだ。道具は貴重です。全員で準備しています。"
+    }
+  ]
+}

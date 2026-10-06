@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import type { SourceDocument, Span, ProtectedValue } from '../contracts';
-import { quantities } from './quantities';
+import { quantities, protectedValueRole } from './quantities';
 export const hash = (value: unknown) => createHash('sha256').update(typeof value === 'string' ? value : JSON.stringify(value)).digest('hex');
 // BMP strings already use identical scalar/UTF-16 offsets. Avoid rebuilding a
 // complete scalar array for every small edit/validation slice of long Japanese
@@ -45,7 +45,7 @@ function extractProtectedValues(raw: string, utf16ToScalar: Map<number, number>)
     const span = { start: utf16ToScalar.get(match.index!)!, end: utf16ToScalar.get(match.index! + match[0].length)! };
     if (protectedValues.some(value => overlaps(value.span, span))) continue;
     const suffix = raw.slice(match.index! + match[0].length);
-    const role = /^(から|より)/u.exec(suffix)?.[1] ?? (/^(を|に|が|は|で)/u.exec(suffix)?.[1] ?? 'unknown');
+    const role = protectedValueRole(suffix);
     protectedValues.push({ id: `pv-${span.start}`, kind, raw: match[0], span, role });
   }
   const existing = [...protectedValues];

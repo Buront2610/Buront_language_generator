@@ -6,6 +6,14 @@ const number = '[+＋\\-－−]?[0-9０-９]+(?:[,，][0-9０-９]{3})*(?:[.．]
 const unit = '(?:時間|か月|ヶ月|[%％円年月日時分秒個枚人回点件歳台度℃]|kg|km|cm|mm)?';
 const atom = `${number}${unit}`;
 const comparator: Record<string, NonNullable<ProtectedValue['comparator']>> = { '以上': 'ge', '以下': 'le', '未満': 'lt', '超': 'gt', '>': 'gt', '<': 'lt', '>=': 'ge', '<=': 'le', '≧': 'ge', '≦': 'le', '≥': 'ge', '≤': 'le' };
+// A terminal polite copula is not the case particle で. Require a closing
+// boundary: e.g. 500円ですしを買う can instead contain で + すし and must
+// retain the conservative particle observation. This is a literal role cue,
+// not a general grammatical analysis or permission to rewrite a value.
+export function protectedValueRole(suffix: string): string {
+  if (/^で(?:す|した)(?=[。！？!?」』\s]|$)/u.test(suffix)) return 'unknown';
+  return /^(から|より|を|に|が|は|で)/u.exec(suffix)?.[1] ?? 'unknown';
+}
 export function quantities(raw: string, toSpan: (start: number, end: number) => Span): ProtectedValue[] {
   const pattern = new RegExp(`(?:[<>＜＞]=?|[≧≦≥≤])?${atom}(?:[〜～~]${atom})?(?:以上|以下|未満|超)?`, 'gu');
   const values: ProtectedValue[] = [];
@@ -13,7 +21,7 @@ export function quantities(raw: string, toSpan: (start: number, end: number) => 
     const span = toSpan(match.index!, match.index! + match[0].length), normalized = match[0].normalize('NFKC').replaceAll('−', '-');
     const prefix = /^(>=|<=|>|<|≧|≦|≥|≤)/u.exec(normalized)?.[1];
     const suffix = /(以上|以下|未満|超)$/u.exec(normalized)?.[1];
-    const role = /^(から|より|を|に|が|は|で)/u.exec(raw.slice(match.index! + match[0].length))?.[1] ?? 'unknown';
+    const role = protectedValueRole(raw.slice(match.index! + match[0].length));
     const parts = [...match[0].matchAll(new RegExp(atom, 'gu'))];
     const parse = (text: string) => {
       const value = /^([+-]?)([0-9,]+(?:\.[0-9]+)?)(.*)$/u.exec(text.normalize('NFKC').replaceAll('−', '-'))!;

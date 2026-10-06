@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "sealedAt": "2026-10-06T00:32:57.055233+00:00",
+  "count": 24,
+  "inputsFile": "/workspace/shared/selection-eval-20261006/sealed/heldout-cases.json",
+  "inputsSha256": "66998333241c6ea6264b07c71bdaa6c9e39da5c7a1b5d8345db34f324a217ca0",
+  "metricsFile": "/workspace/shared/selection-eval-20261006/sealed/metrics-protocol.json",
+  "metricsSha256": "74b6dfefdb7c95a361f388f35fe294a416341d14ab773355dae7848a76545746",
+  "distinctnessFile": "/workspace/shared/selection-eval-20261006/sealed/distinctness.json",
+  "distinctnessSha256": "0ba91de92755d1d0ffb1afa3777363dc7b8789ecdac1cc398a188f19101d3dae",
+  "generatorRunsBeforeSeal": 0,
+  "disclosedToImplementationAgentBeforeFreeze": false
+}

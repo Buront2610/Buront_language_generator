@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "protocol": "All 79 inputs were exposed in previous work and are regression, including the former heldout set. Original source texts/settings are unchanged.",
+  "settings": {
+    "task": "rewrite",
+    "contextMode": "faithful",
+    "noveltyMode": "blend",
+    "intensities": [
+      2,
+      3
+    ],
+    "series": "all",
+    "backend": "structured",
+    "clientRevision": 0,
+    "seed": "literary-style-eval-20261002",
+    "experimentalOperators": false
+  },
+  "cases": [
+    {
+      "id": "regression:N01",
+      "category": "日常の手順",
+      "source": "私は朝七時に起きて、駅まで歩いた。電車は五分遅れていたが、会議には間に合った。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N02",
+      "category": "業務連絡と数値",
+      "source": "明日の会議は午後三時からです。資料を二部ずつ持ってきてください。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N03",
+      "category": "根拠を伴う比較",
+      "source": "車より電車で行くほうがよいと思う。駐車場を探す必要がなく、到着時刻も読みやすいからだ。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N04",
+      "category": "反論と根拠",
+      "source": "その案には賛成できない。費用が高いだけでなく、準備に一週間もかかるからだ。まず小さく試すべきだと思う。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N05",
+      "category": "謙遜を伴う達成",
+      "source": "大したことはしていない。故障の原因を見つけて、止まっていた機械を動かしただけだ。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N06",
+      "category": "感謝と対人関係",
+      "source": "忙しいのに手伝ってくれてありがとう。おかげで予定より早く作業が終わった。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N07",
+      "category": "依頼と提案",
+      "source": "この箱を一緒に運んでもらえますか。重いので、二人で持ったほうが安全です。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N08",
+      "category": "情景描写",
+      "source": "夕方の川沿いは静かだった。水面に街の明かりが映り、遠くで犬が一度だけ鳴いた。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N09",
+      "category": "弱い不満",
+      "source": "店員に二度説明したのに注文が違っていたので、私は少し腹を立てた。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N10",
+      "category": "感情の対象",
+      "source": "私は友人の引っ越しがとても寂しかった。それでも、新しい町で元気に暮らしてほしいと思った。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N11",
+      "category": "条件・否定・推量",
+      "source": "もし明日雨が降ったら、試合は中止になるかもしれない。まだ決まったわけではないので、道具は片付けないでほしい。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N12",
+      "category": "引用を含む会話",
+      "source": "田中は「今回は私の負けだ」と言った。私は「次は一緒に練習しよう」と答えた。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N13",
+      "category": "疑問",
+      "source": "この方法で本当に間に合うのだろうか。途中で失敗したときの手順も確認しておきたい。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N14",
+      "category": "譲歩と評価",
+      "source": "この傘は軽くて丈夫だ。値段は少し高かったが、毎日使うものなので満足している。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N15",
+      "category": "出来事の展開",
+      "source": "帰り道で、子どもが落とした帽子を拾った。追いかけて渡すと、母親が何度も礼を言った。私は軽く会釈して、そのまま駅へ向かった。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:N16",
+      "category": "喜びと今後の行動",
+      "source": "試験に合格したと聞いて、とても嬉しかった。今日は家族と夕食を食べて、明日からまた勉強を続けるつもりだ。",
+      "group": "ordinary",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:P01",
+      "category": "陽性対照・怒り構文",
+      "source": "私の怒りは頂点に達しました。",
+      "group": "positive_control",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:P02",
+      "category": "陽性対照・悲しみ構文",
+      "source": "私はとても悲しかった。",
+      "group": "positive_control",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:P03",
+      "category": "陽性対照・時間切れ構文",
+      "source": "もう時間切れでした。",
+      "group": "positive_control",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:B01",
+      "category": "追加確認・挨拶",
+      "source": "おはよう",
+      "group": "abstention_control",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:B02",
+      "category": "追加確認・疑問",
+      "source": "明日の集合場所はどこ？",
+      "group": "abstention_control",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:B03",
+      "category": "追加確認・引用だけ",
+      "source": "「明日は行けません」",
+      "group": "abstention_control",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T01",
+      "category": "理由終止・名詞",
+      "source": "今日は休みます。熱があるからです。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T02",
+      "category": "理由終止・動詞",
+      "source": "この道を選んだ。駅まで近いからだ。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T03",
+      "category": "比較と根拠・別内容",
+      "source": "紙より電子版を使うほうが便利だと思う。重い本を運ばずに済み、必要な語も検索できるからだ。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T04",
+      "category": "反対と複数理由・別内容",
+      "source": "その日程には賛成できない。担当者が不在で、確認にも三日かかるからだ。まず予定を確認するべきだと思う。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T05",
+      "category": "謙遜と達成・別内容",
+      "source": "大したことはしていない。なくした鍵を見つけて、閉まっていた扉を開けただけだ。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T06",
+      "category": "譲歩と評価・別内容",
+      "source": "このかばんは小さくて軽い。値段は少し高かったが、毎日持ち歩くものなので満足している。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T07",
+      "category": "因果のない隣接文",
+      "source": "私は手順書を読んだ。隣の部屋では誰かが電話していた。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T08",
+      "category": "引用内部の理由",
+      "source": "田中は「私は休む。熱があるからだ」と言った。私はその理由を確認していない。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T09",
+      "category": "未確定の理由",
+      "source": "この道は近いかもしれない。駅までの距離が短いからだろうか。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T10",
+      "category": "未達の謙遜",
+      "source": "大したことはしていない。故障の原因はまだ見つけていない。機械を動かしたわけでもない。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T11",
+      "category": "他者の謙遜",
+      "source": "田中は大したことはしていないと言った。彼が故障の原因を見つけて、止まっていた機械を動かした。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T12",
+      "category": "逆接と否定評価",
+      "source": "このかばんは小さくて軽い。値段は少し高かったが、使いにくいので満足していない。",
+      "group": "targeted_regression",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "regression:T13",
+      "category": "追加陽性確認・明示的逆接",
+      "source": "この道は近い。しかし、夜は暗くて歩きにくい。",
+      "group": "targeted_regression",
+      "selectionNote": "Added after inspecting the proposed explicit-connective support, before final outputs. This is a targeted positive diagnostic, not held-out evidence.",
+      "currentRole": "regression",
+      "origin": "existing-35"
+    },
+    {
+      "id": "controlled:C01",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / plain",
+      "source": "私はこの方法を選んだ。速度が重要だからだ。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "plain",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C02",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / polite",
+      "source": "私はこの方法を選んだ。速度が重要だからです。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "polite",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C03",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / past plain",
+      "source": "私はこの方法を選んだ。速度が重要だからだった。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "past-plain",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C04",
+      "group": "controlled_diagnostic",
+      "category": "reason lexeme / past polite",
+      "source": "私はこの方法を選んだ。速度が重要だからでした。",
+      "contrastSet": "reason-inflection",
+      "contrastVariant": "past-polite",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C05",
+      "group": "controlled_diagnostic",
+      "category": "standalone permitted lexical edit",
+      "source": "速度が重要だ。",
+      "contrastSet": "lexical-ablation",
+      "contrastVariant": "lexical-only",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C06",
+      "group": "controlled_diagnostic",
+      "category": "same reason without lexical trigger",
+      "source": "私はこの方法を選んだ。時間が重要だからだ。",
+      "contrastSet": "lexical-ablation",
+      "contrastVariant": "reason-only",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C07",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / た",
+      "source": "大したことはしていない。荷物を届けただけだ。",
+      "contrastSet": "modesty-inflection",
+      "contrastVariant": "ta",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C08",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / だ",
+      "source": "大したことはしていない。荷物を運んだだけだ。",
+      "contrastSet": "modesty-inflection",
+      "contrastVariant": "da",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C09",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / repaired た",
+      "source": "大したことはしていない。機械を直しただけだ。",
+      "contrastSet": "modesty-lexeme",
+      "contrastVariant": "repair",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C10",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / open た",
+      "source": "大したことはしていない。扉を開けただけだ。",
+      "contrastSet": "modesty-lexeme",
+      "contrastVariant": "open",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C11",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / absent past",
+      "source": "大したことはしていない。荷物を運ぶだけだ。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "future",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C12",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / negation",
+      "source": "大したことはしていない。荷物を運んだわけではない。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "negated",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C13",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / attributed",
+      "source": "田中は「大したことはしていない。荷物を運んだだけだ」と言った。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "quoted",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C14",
+      "group": "controlled_diagnostic",
+      "category": "limited deed / negative other clause",
+      "source": "大したことはしていない。機械が壊れないように、荷物を運んだだけだ。",
+      "contrastSet": "modesty-scope",
+      "contrastVariant": "embedded-negative",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C15",
+      "group": "controlled_diagnostic",
+      "category": "contrast / lexical composition",
+      "source": "この方法は便利だ。しかし、速度が不足している。",
+      "contrastSet": "contrast-composition",
+      "contrastVariant": "lexical",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C16",
+      "group": "controlled_diagnostic",
+      "category": "contrast / compound connective",
+      "source": "この方法は便利だ。しかしながら、速度が不足している。",
+      "contrastSet": "contrast-composition",
+      "contrastVariant": "compound",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C17",
+      "group": "controlled_diagnostic",
+      "category": "temporal から / plain",
+      "source": "会議は明日だ。開始は三時からだ。",
+      "contrastSet": "kara-relation",
+      "contrastVariant": "temporal",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C18",
+      "group": "controlled_diagnostic",
+      "category": "reason / nonassertive",
+      "source": "この方法がよいかもしれない。速度が重要だからだろうか。",
+      "contrastSet": "reason-scope",
+      "contrastVariant": "question",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C19",
+      "group": "controlled_diagnostic",
+      "category": "reason / quotation",
+      "source": "田中は「この方法を選んだ。速度が重要だからだ」と言った。",
+      "contrastSet": "reason-scope",
+      "contrastVariant": "quoted",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "controlled:C20",
+      "group": "controlled_diagnostic",
+      "category": "multiple constructions and lexical",
+      "source": "大したことはしていない。荷物を運んだだけだ。しかし、速度が重要だった。",
+      "contrastSet": "multi-construction",
+      "contrastVariant": "modesty+contrast",
+      "currentRole": "regression",
+      "origin": "previously-controlled-20"
+    },
+    {
+      "id": "exposed:H01",
+      "group": "held_out",
+      "category": "new reason topic with lexical edit",
+      "source": "手作業より自動処理を選んだ。処理の速度が十分だからです。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H02",
+      "group": "held_out",
+      "category": "past copular reason in narrative",
+      "source": "昨年は小さな会場を予約した。参加者が少なかったからだった。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H03",
+      "group": "held_out",
+      "category": "new compound modest achievement",
+      "source": "大したことはしていない。書類を調べて、箱を隣の部屋へ運んだだけだ。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H04",
+      "group": "held_out",
+      "category": "new limited achievement lexeme",
+      "source": "大したことはしていない。散らかった棚を整理しただけだ。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H05",
+      "group": "held_out",
+      "category": "new contrast with lexical trigger",
+      "source": "このゲームは面白い。しかし、アピールが足りない。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H06",
+      "group": "held_out",
+      "category": "mixed relation paragraph",
+      "source": "この橋は短い。しかし、道幅は狭い。私は遠回りした。荷物が重かったからだ。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H07",
+      "group": "held_out",
+      "category": "lexical trigger inside quotation",
+      "source": "私は「速度が重要だ」と書いた。翌朝、その紙を机に置いた。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H08",
+      "group": "held_out",
+      "category": "reason has temporal origin",
+      "source": "出発は金曜日だ。集合は駅からだ。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H09",
+      "group": "held_out",
+      "category": "unrealized modest deed",
+      "source": "大したことはしていない。壊れた時計を直すつもりだっただけだ。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H10",
+      "group": "held_out",
+      "category": "quoted achievement and narrator contrast",
+      "source": "鈴木は「荷物を運んだだけだ」と話した。しかし、私はその場にいなかった。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H11",
+      "group": "held_out",
+      "category": "ordinary fresh narrative",
+      "source": "昼休みに庭へ出た。風が弱く、木の葉がゆっくり揺れていた。私はベンチで弁当を食べた。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "exposed:H12",
+      "group": "held_out",
+      "category": "ordinary fresh request",
+      "source": "明日の午後までに資料を確認してもらえますか。疑問点があれば、担当者に聞いてください。",
+      "currentRole": "regression",
+      "origin": "previously-exposed-12"
+    },
+    {
+      "id": "heldout:F01",
+      "group": "final_held_out",
+      "category": "new lexical trigger inside reason",
+      "source": "私はその展示を選んだ。写真のアピールが強いからだ。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F02",
+      "group": "final_held_out",
+      "category": "new reason topic with polite copula",
+      "source": "急行を使った。移動の速度が必要だからです。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F03",
+      "group": "final_held_out",
+      "category": "new voiced-past limited deed",
+      "source": "大したことはしていない。倉庫から道具を外へ運んだだけだ。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F04",
+      "group": "final_held_out",
+      "category": "new completed deed and object",
+      "source": "大したことはしていない。余った板で小さな棚を作っただけだ。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F05",
+      "group": "final_held_out",
+      "category": "new negative premise",
+      "source": "今日は窓を開けない。外の空気が暖かくないからだ。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F06",
+      "group": "final_held_out",
+      "category": "fresh attributed contrast",
+      "source": "佐藤は「この方法は簡単だ」と言った。しかし、私はまだ試していない。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F07",
+      "group": "final_held_out",
+      "category": "fresh protected value and contrast",
+      "source": "この便の送料は500円だ。しかし、到着まで三日かかる。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F08",
+      "group": "final_held_out",
+      "category": "reason expression confined to quotation",
+      "source": "私は「準備を急ごう。速度が重要だからだ」と書き残した。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F09",
+      "group": "final_held_out",
+      "category": "ordinary new thanks",
+      "source": "遅い時間まで待ってくれてありがとう。忘れ物を届けてもらえて助かった。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F10",
+      "group": "final_held_out",
+      "category": "ordinary new conditional uncertainty",
+      "source": "もし風が強くなったら、船は出ないかもしれない。今のところ予定は変わっていない。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F11",
+      "group": "final_held_out",
+      "category": "ordinary new narrative",
+      "source": "売店で切符を買った。ホームには人が少なかった。私は端の椅子に座って本を開いた。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    },
+    {
+      "id": "heldout:F12",
+      "group": "final_held_out",
+      "category": "temporal source with first person",
+      "source": "私は午後に会場へ行く。受付は二時からです。",
+      "currentRole": "regression",
+      "origin": "previously-heldout-12-now-regression"
+    }
+  ]
+}

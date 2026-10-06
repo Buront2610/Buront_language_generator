@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-06T00:50:24.300Z",
+  "scope": "Compact full-candidate before/after ending-policy evaluation; objective finite-coverage audit, not human quality.",
+  "allComparisonsReadbackVerified": true,
+  "currentImplementationMatchesCodeFreeze": true,
+  "frozenImplementationFilesChecked": 130,
+  "testedAfterSourceHash": "767344f780e9d906a76189416075557fc835a9af3018d6ff107e28141b845120",
+  "fileCountExcludingIndex": 33,
+  "fileCountIncludingIndex": 34,
+  "totalBytesExcludingIndex": 553003,
+  "totalBytesIncludingIndex": 561334,
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 8602,
+      "sha256": "9677b0d6d4bd8da5e678ea9f93fc29732bf43cd4e21359c2d11d692d1df58e7b"
+    },
+    {
+      "file": "asset-replay.json",
+      "bytes": 362,
+      "sha256": "5d936b0fd7959ee77971a47450188df930d13202c8e5ebbea479b158a7d89c72"
+    },
+    {
+      "file": "code-freeze.json",
+      "bytes": 15349,
+      "sha256": "1c9ae64fc781fb84e650ea2441316ec13ca966e47c1a23cb746ba491986276ca"
+    },
+    {
+      "file": "compact-readback.json",
+      "bytes": 2560,
+      "sha256": "d04aba95e5ce33ec866bb2f02c1bb5cd1769fc6cd663cf6a24051c496bc2fd41"
+    },
+    {
+      "file": "diagnostic-cases.json",
+      "bytes": 3995,
+      "sha256": "48b87293ff5cb9eaff05f41e514e3edb513cb81552d72e13c0b78678ff02c848"
+    },
+    {
+      "file": "diagnostic-comparison.json.gz",
+      "bytes": 35343,
+      "sha256": "6532c0006bef6d27344c07351d384f7e87cf12742784507e0286b340e7abbc8a"
+    },
+    {
+      "file": "diagnostic-summary.json",
+      "bytes": 41007,
+      "sha256": "4d612bf6e12cf83d94dfbcafc9e9f5599d07ac9b4ae424620825883670d24921"
+    },
+    {
+      "file": "heldout-clock-attestation.json",
+      "bytes": 1472,
+      "sha256": "020ad30f9d5b4c63a1cb9c01061a3ca3e10f4f1dcc1f1a11c8460d9e83e4f197"
+    },
+    {
+      "file": "heldout-ending-cases.json",
+      "bytes": 4778,
+      "sha256": "ed162ed4555faba64eaac033c296f279e22f2661f0f8139d80974b77700dab13"
+    },
+    {
+      "file": "heldout-ending-comparison.json.gz",
+      "bytes": 30108,
+      "sha256": "697706a17cc62e3bab125a294c0bc95524a521e852e890c84312a99a848960f6"
+    },
+    {
+      "file": "heldout-ending-protocol.json",
+      "bytes": 1209,
+      "sha256": "1ef9039ebcdacc4daf0b48ce64993b5d9db34b7eb7d1b09fe76f43722c72769d"
+    },
+    {
+      "file": "heldout-ending-seal.json",
+      "bytes": 1995,
+      "sha256": "cf9b8618aaaa7afa553194266ba884da6f5b70ff535391226caef5d7087c2fa3"
+    },
+    {
+      "file": "heldout-ending-selection-metrics.json.gz",
+      "bytes": 5849,
+      "sha256": "01ab001c1dbe5f3f7e901418665ac6b0aff460b90607709b80760c2fc01db654"
+    },
+    {
+      "file": "heldout-ending-summary.json",
+      "bytes": 41269,
+      "sha256": "7aec8cf74e8d630370d9cd573793e76f3a0f7e1cd0c30c6228f7f13f87887250"
+    },
+    {
+      "file": "heldout-execution-verification.json",
+      "bytes": 2173,
+      "sha256": "49b0de2b8d0e4225a690cd6a3b9e3f9414e8f761ec2c2802cd83d18a91d25d34"
+    },
+    {
+      "file": "heldout-safety-review.json",
+      "bytes": 53865,
+      "sha256": "a6f035b327505fc0f7f29a73e9dbab615c2fbde5959ea83ec3a57c383693e30b"
+    },
+    {
+      "file": "heldout-selection-cases.json",
+      "bytes": 6539,
+      "sha256": "66998333241c6ea6264b07c71bdaa6c9e39da5c7a1b5d8345db34f324a217ca0"
+    },
+    {
+      "file": "heldout-selection-comparison.json.gz",
+      "bytes": 38731,
+      "sha256": "8af781c1f5cac7b7546ef960a70366fba66620a65c001b186f6bcd9216e35186"
+    },
+    {
+      "file": "heldout-selection-distinctness.json",
+      "bytes": 1172,
+      "sha256": "0ba91de92755d1d0ffb1afa3777363dc7b8789ecdac1cc398a188f19101d3dae"
+    },
+    {
+      "file": "heldout-selection-protocol.json",
+      "bytes": 1690,
+      "sha256": "74b6dfefdb7c95a361f388f35fe294a416341d14ab773355dae7848a76545746"
+    },
+    {
+      "file": "heldout-selection-seal.json",
+      "bytes": 712,
+      "sha256": "00900631dd2332d20af59dc2dee4fbe3c2fca56b77ddac2173d83cd3c6f95ffc"
+    },
+    {
+      "file": "heldout-selection-selection-metrics.json.gz",
+      "bytes": 7173,
+      "sha256": "203c7fd638108c694e1dc33bceb85c6174afc24fe23a7c524aec558236eac47a"
+    },
+    {
+      "file": "heldout-selection-summary.json",
+      "bytes": 41334,
+      "sha256": "8474553125d0cda31058e31eef4a34aa8846c5193b052b2435c1cc9b8d427848"
+    },
+    {
+      "file": "near-limit-api.json",
+      "bytes": 22449,
+      "sha256": "a79407b094e2cf85c9b4c5159cf2f81fe9e982ba003639f1fffcc14e6032a750"
+    },
+    {
+      "file": "regression-cases.json",
+      "bytes": 26402,
+      "sha256": "8d00cc006dd3485707876ca38da5f70557a965d6c6c4e901b966d6e72909349b"
+    },
+    {
+      "file": "regression-comparison.json.gz",
+      "bytes": 81852,
+      "sha256": "907f83cac8e41011d2a87c56828f15de36614378795a30868a26dba277ad24de"
+    },
+    {
+      "file": "regression-lineage.json",
+      "bytes": 1525,
+      "sha256": "69e2f48146cc97bc930bba55b71b9a75ba50846c95950705c4ada7b53a29bfde"
+    },
+    {
+      "file": "regression-summary.json",
+      "bytes": 40859,
+      "sha256": "e1b75f0b6865df86397e42462df7a78ae1ace0a4814a12551b3b51b5136daf73"
+    },
+    {
+      "file": "review-detail.json.gz",
+      "bytes": 5512,
+      "sha256": "dbf523866d4fdcd460cf77a9bfdfd33d7a3df61cdbc5f122ec384db57fa2ae8d"
+    },
+    {
+      "file": "review-summary.json",
+      "bytes": 7307,
+      "sha256": "477c116c9553d85aa887464831c3523f55d52e4ab85ef24efe0c4c4ba86db845"
+    },
+    {
+      "file": "review-summary.md",
+      "bytes": 2343,
+      "sha256": "8e80f61d56d65c6e36000972fc993c6ccd36ee4bb2b7de9ec3e9bf8505846ab0"
+    },
+    {
+      "file": "verification-logs.json.gz",
+      "bytes": 15355,
+      "sha256": "b4adfff59a8c58f74ae85144a4137f6e2f1367743f2897be76ee808400cf4ef0"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 2112,
+      "sha256": "b05271313559d6e99893852c8a56bac4345b6a48a976775a358540d896e6ba49"
+    }
+  ],
+  "evaluationTools": [
+    {
+      "file": "scripts/evaluate-coherent-ending-plans.cjs",
+      "bytes": 18619,
+      "sha256": "17fb9b7c147d9c5d57bfa7817cbc7c124f4f50626a37013ea2a101b2368a4db4"
+    },
+    {
+      "file": "scripts/verify-coherent-ending-evaluation.cjs",
+      "bytes": 5805,
+      "sha256": "4b87159115728797126bdfce914fee862838be851860a7156903aec6101ae335"
+    },
+    {
+      "file": "scripts/recreate-composition-evaluation-assets.cjs",
+      "bytes": 1964,
+      "sha256": "0f6bac3f816e3a6038eee44050905c823c68f4f6b4bcaedf92148fe78ad54b8f"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "diagnostic-comparison.json.gz",
+      "cases": 12,
+      "before": {
+        "requests": 24,
+        "candidates": 96,
+        "displayed": 68,
+        "partialCandidates": 53,
+        "partialSelected": 39,
+        "partialTop": 17
+      },
+      "after": {
+        "requests": 24,
+        "candidates": 98,
+        "displayed": 68,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      }
+    },
+    {
+      "file": "heldout-ending-comparison.json.gz",
+      "cases": 12,
+      "before": {
+        "requests": 24,
+        "candidates": 82,
+        "displayed": 62,
+        "partialCandidates": 27,
+        "partialSelected": 15,
+        "partialTop": 6
+      },
+      "after": {
+        "requests": 24,
+        "candidates": 82,
+        "displayed": 66,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      }
+    },
+    {
+      "file": "heldout-selection-comparison.json.gz",
+      "cases": 24,
+      "before": {
+        "requests": 48,
+        "candidates": 156,
+        "displayed": 112,
+        "partialCandidates": 17,
+        "partialSelected": 7,
+        "partialTop": 4
+      },
+      "after": {
+        "requests": 48,
+        "candidates": 156,
+        "displayed": 112,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      }
+    },
+    {
+      "file": "regression-comparison.json.gz",
+      "cases": 79,
+      "before": {
+        "requests": 158,
+        "candidates": 425,
+        "displayed": 359,
+        "partialCandidates": 8,
+        "partialSelected": 5,
+        "partialTop": 4
+      },
+      "after": {
+        "requests": 158,
+        "candidates": 434,
+        "displayed": 359,
+        "partialCandidates": 0,
+        "partialSelected": 0,
+        "partialTop": 0
+      }
+    }
+  ]
+}

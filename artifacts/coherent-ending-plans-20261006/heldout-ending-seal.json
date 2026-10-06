@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "sealedAt": "2026-10-06T00:33:28Z",
+  "timestampSource": "Conversation current_time_reminder; executor wall clock has approximately +09:00 offset.",
+  "count": 12,
+  "inputsFile": "/workspace/shared/selection-eval-20261006/sealed/ending-heldout-cases.json",
+  "inputsSha256": "ed162ed4555faba64eaac033c296f279e22f2661f0f8139d80974b77700dab13",
+  "metricsFile": "/workspace/shared/selection-eval-20261006/sealed/ending-metrics-protocol.json",
+  "metricsSha256": "1ef9039ebcdacc4daf0b48ce64993b5d9db34b7eb7d1b09fe76f43722c72769d",
+  "oldCaseFiles": [
+    {
+      "path": "/workspace/shared/Buront_language_generator/artifacts/composable-constructions-20261002/controlled-cases.json",
+      "sha256": "3882b2c111d951d7b847b696bc0b9ccabdbb2c62e4157c32598a5abebfd6e1d5"
+    },
+    {
+      "path": "/workspace/shared/Buront_language_generator/artifacts/composable-constructions-20261002/exposed-cases.json",
+      "sha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+    },
+    {
+      "path": "/workspace/shared/Buront_language_generator/artifacts/composable-constructions-20261002/heldout-cases.json",
+      "sha256": "3ddcad8069eb8a60343ffab099047fdcafbb96fdb4ccd415d9254f699ba7197b"
+    },
+    {
+      "path": "/workspace/shared/Buront_language_generator/artifacts/composable-constructions-20261002/initial-heldout/heldout-cases.json",
+      "sha256": "898773c94ab4b0d22bf14c6cb8457badddccb38d2196ecfaa1ce608db2f32b69"
+    },
+    {
+      "path": "/workspace/shared/Buront_language_generator/artifacts/composable-constructions-20261002/regression-cases.json",
+      "sha256": "fad4884e18244e282ab7a3b7659a836daf12b2c399a4dea0e4f61d97398277b8"
+    },
+    {
+      "path": "/workspace/shared/selection-eval-20261006/sealed/heldout-cases.json",
+      "sha256": "66998333241c6ea6264b07c71bdaa6c9e39da5c7a1b5d8345db34f324a217ca0"
+    }
+  ],
+  "fullTextMatches": [],
+  "generatorRunsBeforeSeal": 0,
+  "disclosedToImplementationAgentBeforeFreeze": false
+}
