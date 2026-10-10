@@ -14,6 +14,7 @@ export function lockedEvidenceCompatible(plan: QuotePlan | undefined, lockedNode
     ...plan.nodes.filter(node => locked.has(node.id)).flatMap(node => node.evidenceIds),
     ...(plan.rewrite?.edits ?? []).filter(edit => locked.has(edit.nodeId)).flatMap(edit => edit.evidenceIds),
     ...(plan.construction?.edits ?? []).filter(edit => locked.has(edit.nodeId)).flatMap(edit => edit.evidenceIds),
+    ...(plan.structural?.lexicalEdits ?? []).filter(edit => locked.has(edit.nodeId)).flatMap(edit => edit.evidenceIds),
     ...(plan.construction?.lexicalEdits ?? []).filter(edit => locked.has(edit.nodeId)).flatMap(edit => edit.evidenceIds),
   ]);
   return [...ids].every(id => {

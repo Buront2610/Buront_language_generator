@@ -184,6 +184,9 @@
     "clientRevision": {
       "minimum": 0,
       "type": "integer"
+    },
+    "experimentalStructural": {
+      "type": "boolean"
     }
   }
 }

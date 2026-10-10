@@ -1,6 +1,7 @@
 import type { Analysis, GenerationResult, QuotePlan } from '../contracts';
 import { validateRequest } from '../contracts';
 import type { Assets } from './assets';
+import { structuralGrammarVersion } from './structural';
 import { generate } from './engine';
 import { hash } from './source';
 import { finishSemanticVerification } from './semantic';
@@ -10,6 +11,7 @@ import { finishSemanticVerification } from './semantic';
 export function replayGeneration(manifest: Record<string, any>, analysis: Analysis, assets: Assets, depth = 0): GenerationResult {
   if (depth >= 20) throw new Error('REPLAY_DEPTH_LIMIT');
   validateRequest(manifest.request);
+  if (manifest.request.experimentalStructural && (manifest.schemaVersion !== 2 || manifest.structuralGrammarVersion !== structuralGrammarVersion) || !manifest.request.experimentalStructural && manifest.schemaVersion !== 1) throw new Error('REPLAY_SCHEMA_OR_GRAMMAR_MISMATCH');
   if (manifest.datasetId !== assets.datasetId || manifest.inputHash !== hash(manifest.request.source)) throw new Error('REPLAY_ASSET_OR_INPUT_MISMATCH');
   if (manifest.parserVersion !== analysis.parserVersion) throw new Error('REPLAY_PARSER_MISMATCH');
   if (manifest.engineVersion !== assets.manifest.engine?.sourceHash) throw new Error('REPLAY_ENGINE_MISMATCH');

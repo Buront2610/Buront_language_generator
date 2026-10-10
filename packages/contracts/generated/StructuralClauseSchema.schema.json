@@ -1,0 +1,419 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "nodeId",
+    "sourceSpan",
+    "slots",
+    "predicates"
+  ],
+  "properties": {
+    "nodeId": {
+      "type": "string"
+    },
+    "sourceSpan": {
+      "additionalProperties": false,
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "end": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      }
+    },
+    "slots": {
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "sourceSpan",
+          "tokenIds",
+          "factIds",
+          "protectedValueIds"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "role": {
+            "anyOf": [
+              {
+                "const": "agent",
+                "type": "string"
+              },
+              {
+                "const": "patient",
+                "type": "string"
+              },
+              {
+                "const": "recipient",
+                "type": "string"
+              },
+              {
+                "const": "location",
+                "type": "string"
+              },
+              {
+                "const": "predicate",
+                "type": "string"
+              },
+              {
+                "const": "operator",
+                "type": "string"
+              },
+              {
+                "const": "case",
+                "type": "string"
+              },
+              {
+                "const": "adjunct",
+                "type": "string"
+              },
+              {
+                "const": "punctuation",
+                "type": "string"
+              },
+              {
+                "const": "gap",
+                "type": "string"
+              }
+            ]
+          },
+          "sourceSpan": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "end": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            }
+          },
+          "tokenIds": {
+            "type": "array",
+            "items": {
+              "minimum": 0,
+              "type": "integer"
+            }
+          },
+          "factIds": {
+            "maxItems": 12000,
+            "type": "array",
+            "items": {
+              "maxLength": 12000,
+              "type": "string"
+            }
+          },
+          "protectedValueIds": {
+            "maxItems": 12000,
+            "type": "array",
+            "items": {
+              "maxLength": 12000,
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "predicates": {
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "sourceSpan",
+          "predicateSpan",
+          "predicateLemma",
+          "arguments",
+          "polarity",
+          "realization",
+          "completion",
+          "tense",
+          "voice",
+          "attribution",
+          "protectedValueIds",
+          "resolution"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceSpan": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "end": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            }
+          },
+          "predicateSpan": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "start": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "end": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            }
+          },
+          "predicateLemma": {
+            "type": "string"
+          },
+          "arguments": {
+            "type": "array",
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "required": [
+                "role",
+                "entityId",
+                "text",
+                "span"
+              ],
+              "properties": {
+                "role": {
+                  "anyOf": [
+                    {
+                      "const": "agent",
+                      "type": "string"
+                    },
+                    {
+                      "const": "patient",
+                      "type": "string"
+                    },
+                    {
+                      "const": "recipient",
+                      "type": "string"
+                    },
+                    {
+                      "const": "location",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "entityId": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                },
+                "span": {
+                  "additionalProperties": false,
+                  "type": "object",
+                  "required": [
+                    "start",
+                    "end"
+                  ],
+                  "properties": {
+                    "start": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "end": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "polarity": {
+            "anyOf": [
+              {
+                "const": "positive",
+                "type": "string"
+              },
+              {
+                "const": "negative",
+                "type": "string"
+              },
+              {
+                "const": "unknown",
+                "type": "string"
+              }
+            ]
+          },
+          "realization": {
+            "anyOf": [
+              {
+                "const": "actual",
+                "type": "string"
+              },
+              {
+                "const": "prospective",
+                "type": "string"
+              },
+              {
+                "const": "hypothetical",
+                "type": "string"
+              },
+              {
+                "const": "unknown",
+                "type": "string"
+              }
+            ]
+          },
+          "completion": {
+            "anyOf": [
+              {
+                "const": "completed",
+                "type": "string"
+              },
+              {
+                "const": "ongoing",
+                "type": "string"
+              },
+              {
+                "const": "not_completed",
+                "type": "string"
+              },
+              {
+                "const": "unknown",
+                "type": "string"
+              }
+            ]
+          },
+          "tense": {
+            "anyOf": [
+              {
+                "const": "past",
+                "type": "string"
+              },
+              {
+                "const": "nonpast",
+                "type": "string"
+              },
+              {
+                "const": "unknown",
+                "type": "string"
+              }
+            ]
+          },
+          "voice": {
+            "anyOf": [
+              {
+                "const": "active",
+                "type": "string"
+              },
+              {
+                "const": "passive",
+                "type": "string"
+              },
+              {
+                "const": "unknown",
+                "type": "string"
+              }
+            ]
+          },
+          "attribution": {
+            "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "kind",
+              "speaker"
+            ],
+            "properties": {
+              "kind": {
+                "anyOf": [
+                  {
+                    "const": "narrator",
+                    "type": "string"
+                  },
+                  {
+                    "const": "quotation",
+                    "type": "string"
+                  },
+                  {
+                    "const": "hearsay",
+                    "type": "string"
+                  }
+                ]
+              },
+              "speaker": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          },
+          "protectedValueIds": {
+            "maxItems": 12000,
+            "type": "array",
+            "items": {
+              "maxLength": 12000,
+              "type": "string"
+            }
+          },
+          "resolution": {
+            "anyOf": [
+              {
+                "const": "resolved",
+                "type": "string"
+              },
+              {
+                "const": "partial",
+                "type": "string"
+              },
+              {
+                "const": "opaque",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

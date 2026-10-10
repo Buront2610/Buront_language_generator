@@ -1,0 +1,1667 @@
+{
+  "engineSourceHash": "043c6c5cde2e724b4b70ebc94bb019db95d5c19a58630cc5c96f771535f61412",
+  "parser": "Live local GiNZA, fixed dependencies",
+  "seed": "structural-slot-acceptance-v1",
+  "quality": "No human or LLM quality ratings; S/Q remain null",
+  "examples": [
+    {
+      "source": "私は作業を続けた。速度が十分だったからだ。",
+      "label": "development example",
+      "defaultSelected": {
+        "text": "俺は作業を続けた\n何故なら速度が十分だったからだ",
+        "operator": "CONSTRUCTION",
+        "realizationIds": [],
+        "lexicalRules": [],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalSelected": {
+        "text": "速さとスピードが十分だったから、俺は作業を続けた\n",
+        "operator": "STRUCTURAL",
+        "realizationIds": [
+          "reason-claim"
+        ],
+        "lexicalRules": [
+          "narrator-watashi",
+          "punctuation-linebreak-0",
+          "velocity-doubling"
+        ],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-structural",
+            "status": "pass"
+          },
+          {
+            "code": "S-structural-projection",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalDisplayed": [
+        {
+          "text": "速さとスピードが十分だったから、俺は作業を続けた\n",
+          "operator": "STRUCTURAL",
+          "realizationIds": [
+            "reason-claim"
+          ],
+          "lexicalRules": [
+            "narrator-watashi",
+            "punctuation-linebreak-0",
+            "velocity-doubling"
+          ],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-structural",
+              "status": "pass"
+            },
+            {
+              "code": "S-structural-projection",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "俺は作業を続けた\n何故なら速度が十分だったからだ",
+          "operator": "CONSTRUCTION",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "俺は作業を続けた\n速度が十分だったからだ",
+          "operator": "REWRITE",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        }
+      ]
+    },
+    {
+      "source": "私は検査を中止した。配管が凍結していなかったからだ。",
+      "label": "development example",
+      "defaultSelected": {
+        "text": "俺は検査を中止したからな\n何故なら配管が凍結していなかったからだ",
+        "operator": "CONSTRUCTION",
+        "realizationIds": [],
+        "lexicalRules": [],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalSelected": {
+        "text": "配管が凍結していなかったから、俺は検査を中止した\n",
+        "operator": "STRUCTURAL",
+        "realizationIds": [
+          "reason-claim"
+        ],
+        "lexicalRules": [
+          "narrator-watashi",
+          "punctuation-linebreak-0"
+        ],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-structural",
+            "status": "pass"
+          },
+          {
+            "code": "S-structural-projection",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalDisplayed": [
+        {
+          "text": "配管が凍結していなかったから、俺は検査を中止した\n",
+          "operator": "STRUCTURAL",
+          "realizationIds": [
+            "reason-claim"
+          ],
+          "lexicalRules": [
+            "narrator-watashi",
+            "punctuation-linebreak-0"
+          ],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-structural",
+              "status": "pass"
+            },
+            {
+              "code": "S-structural-projection",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "俺は検査を中止したからな\n何故なら配管が凍結していなかったからだ",
+          "operator": "CONSTRUCTION",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "俺は検査を中止した\n配管が凍結していなかったからだ",
+          "operator": "REWRITE",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        }
+      ]
+    },
+    {
+      "source": "農学者は苗を植え替える。根が容器からはみ出すからだ。",
+      "label": "exposed regression after first independent evaluation",
+      "defaultSelected": {
+        "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+        "operator": "REWRITE",
+        "realizationIds": [],
+        "lexicalRules": [],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-rewrite",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-rewrite",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalSelected": {
+        "text": "根が容器からはみ出すから、農学者は苗を植え替える\n",
+        "operator": "STRUCTURAL",
+        "realizationIds": [
+          "reason-claim"
+        ],
+        "lexicalRules": [
+          "punctuation-linebreak-0"
+        ],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-structural",
+            "status": "pass"
+          },
+          {
+            "code": "S-structural-projection",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalDisplayed": [
+        {
+          "text": "根が容器からはみ出すから、農学者は苗を植え替える\n",
+          "operator": "STRUCTURAL",
+          "realizationIds": [
+            "reason-claim"
+          ],
+          "lexicalRules": [
+            "punctuation-linebreak-0"
+          ],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-structural",
+              "status": "pass"
+            },
+            {
+              "code": "S-structural-projection",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "operator": "REWRITE",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "農学者は苗を植え替える\n根が容器からはみ出すからだ",
+          "operator": "REWRITE",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        }
+      ]
+    },
+    {
+      "source": "私はアピールした。司会者が発言を求めたからだ。",
+      "label": "exposed regression after first independent evaluation",
+      "defaultSelected": {
+        "text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+        "operator": "CONSTRUCTION",
+        "realizationIds": [],
+        "lexicalRules": [],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalSelected": {
+        "text": "司会者が発言を求めたから、俺はアッピルした\n",
+        "operator": "STRUCTURAL",
+        "realizationIds": [
+          "reason-claim"
+        ],
+        "lexicalRules": [
+          "narrator-watashi",
+          "appiru",
+          "punctuation-linebreak-0"
+        ],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-structural",
+            "status": "pass"
+          },
+          {
+            "code": "S-structural-projection",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalDisplayed": [
+        {
+          "text": "司会者が発言を求めたから、俺はアッピルした\n",
+          "operator": "STRUCTURAL",
+          "realizationIds": [
+            "reason-claim"
+          ],
+          "lexicalRules": [
+            "narrator-watashi",
+            "appiru",
+            "punctuation-linebreak-0"
+          ],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-structural",
+              "status": "pass"
+            },
+            {
+              "code": "S-structural-projection",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "俺はアッピルした\n何故なら司会者が発言を求めたからだ",
+          "operator": "CONSTRUCTION",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "俺はアッピルしたからな\n司会者が発言を求めたからだ",
+          "operator": "REWRITE",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        }
+      ]
+    },
+    {
+      "source": "配達員は鉱石を運ばない。学芸員が倉庫を開けないからだ。",
+      "label": "exposed parser limitation retained",
+      "defaultSelected": {
+        "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+        "operator": "CONSTRUCTION",
+        "realizationIds": [],
+        "lexicalRules": [],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalSelected": {
+        "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+        "operator": "STRUCTURAL",
+        "realizationIds": [
+          "claim-reason"
+        ],
+        "lexicalRules": [
+          "ending-insistence-16",
+          "punctuation-linebreak-0",
+          "punctuation-end-0"
+        ],
+        "verificationStatus": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-structural",
+            "status": "pass"
+          },
+          {
+            "code": "S-structural-projection",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "scores": {
+          "S": null,
+          "Q": null,
+          "C": 1,
+          "R": 1
+        }
+      },
+      "experimentalDisplayed": [
+        {
+          "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "operator": "STRUCTURAL",
+          "realizationIds": [
+            "claim-reason"
+          ],
+          "lexicalRules": [
+            "ending-insistence-16",
+            "punctuation-linebreak-0",
+            "punctuation-end-0"
+          ],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-structural",
+              "status": "pass"
+            },
+            {
+              "code": "S-structural-projection",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "配達員は鉱石を運ばない\n学芸員が倉庫を開けないからだ",
+          "operator": "REWRITE",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-rewrite",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": "配達員は鉱石を運ばない\n何故なら学芸員が倉庫を開けないからだ",
+          "operator": "CONSTRUCTION",
+          "realizationIds": [],
+          "lexicalRules": [],
+          "verificationStatus": "passed",
+          "checks": [
+            {
+              "code": "V-span",
+              "status": "pass"
+            },
+            {
+              "code": "V-coverage",
+              "status": "pass"
+            },
+            {
+              "code": "V-plan",
+              "status": "pass"
+            },
+            {
+              "code": "V-quantity",
+              "status": "pass"
+            },
+            {
+              "code": "V-roles",
+              "status": "pass"
+            },
+            {
+              "code": "V-polarity",
+              "status": "pass"
+            },
+            {
+              "code": "V-temporal",
+              "status": "pass"
+            },
+            {
+              "code": "V-attribution",
+              "status": "pass"
+            },
+            {
+              "code": "V-rhetoric",
+              "status": "pass"
+            },
+            {
+              "code": "V-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-bounded-construction",
+              "status": "pass"
+            },
+            {
+              "code": "S-realization",
+              "status": "pass"
+            }
+          ],
+          "scores": {
+            "S": null,
+            "Q": null,
+            "C": 1,
+            "R": 1
+          }
+        }
+      ]
+    }
+  ]
+}

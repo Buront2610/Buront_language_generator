@@ -1,0 +1,4129 @@
+{
+  "evaluation_kind": "exposed-input regression after initial withheld-source run; not new blind evaluation",
+  "authorship": "assistant-authored source-only engineering challenges, not human/natural-data samples or training teachers",
+  "selection": "All40 in unchanged original order; actual displayed top3 and first displayed/fallback, no invented target output",
+  "rows": [
+    {
+      "id": "basic-01",
+      "group": "basic",
+      "source": "陶芸家は釉薬を薄めた。噴霧器が詰まったからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めた\n噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めたからな\n噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "噴霧器が詰まったから、陶芸家は釉薬を薄めた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "噴霧器が詰まったから、陶芸家は釉薬を薄めた。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めた\n何故なら噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めた\n噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めた\n噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めたからな\n噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "噴霧器が詰まったから、陶芸家は釉薬を薄めた\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "噴霧器が詰まったから、陶芸家は釉薬を薄めた\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "陶芸家は釉薬を薄めた\n噴霧器が詰まったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-02",
+      "group": "basic",
+      "source": "測量士は三脚を畳む。突風が強まるからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳む\n突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳むからな\n突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "突風が強まるから、測量士は三脚を畳む。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "突風が強まるから、測量士は三脚を畳む。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳む\n突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳む\n突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳むからな\n突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "突風が強まるから、測量士は三脚を畳む\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "突風が強まるから、測量士は三脚を畳む\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "測量士は三脚を畳む\n突風が強まるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-03",
+      "group": "basic",
+      "source": "配達員は鉱石を運ばない。学芸員が倉庫を開けないからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "配達員は鉱石を運ばない\n学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "配達員は鉱石を運ばないからな\n学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-16",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "配達員は鉱石を運ばない\n学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "配達員は鉱石を運ばない\n何故なら学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "配達員は鉱石を運ばない\n学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "配達員は鉱石を運ばないからな\n学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-16",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "配達員は鉱石を運ばない\n学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "配達員は鉱石を運ばない\n何故なら学芸員が倉庫を開けないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-04",
+      "group": "basic",
+      "source": "時計職人は歯車を磨かなかった。照明が故障したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "時計職人は歯車を磨かなかった\n照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "時計職人は歯車を磨かなかったからな\n照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "照明が故障したから、時計職人は歯車を磨かなかった\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "照明が故障したから、時計職人は歯車を磨かなかった\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "時計職人は歯車を磨かなかった\n何故なら照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "時計職人は歯車を磨かなかった\n照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "時計職人は歯車を磨かなかった\n照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "時計職人は歯車を磨かなかったからな\n照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "照明が故障したから、時計職人は歯車を磨かなかった\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "照明が故障したから、時計職人は歯車を磨かなかった\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "時計職人は歯車を磨かなかった\n照明が故障したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-05",
+      "group": "basic",
+      "source": "養蜂家は巣箱を移しました。水位が上がったからです。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n水位が上がったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "水位が上がったから、養蜂家は巣箱を移しました\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "水位が上がったから、養蜂家は巣箱を移しました\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n水位が上がったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "水位が上がったから、養蜂家は巣箱を移しました\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "水位が上がったから、養蜂家は巣箱を移しました\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "養蜂家は巣箱を移しました\n水位が上がったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-06",
+      "group": "basic",
+      "source": "調律師は音叉を鳴らします。助手が周波数を調べるからです。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n助手が周波数を調べるからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n助手が周波数を調べるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "助手が周波数を調べるから、調律師は音叉を鳴らします。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "助手が周波数を調べるから、調律師は音叉を鳴らします。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n助手が周波数を調べるからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n助手が周波数を調べるからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n助手が周波数を調べるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "助手が周波数を調べるから、調律師は音叉を鳴らします。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "助手が周波数を調べるから、調律師は音叉を鳴らします。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調律師は音叉を鳴らします\n助手が周波数を調べるからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-07",
+      "group": "basic",
+      "source": "司書は拓本を複写しません。収蔵庫の湿度が高いからです。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "司書は拓本を複写しません\n何故なら収蔵庫の湿度が高いからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "司書は拓本を複写しません\n何故なら収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しないからな\n収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しません\n収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "収蔵庫の湿度が高いから、司書は拓本を複写しません\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 13,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "収蔵庫の湿度が高いから、司書は拓本を複写しません\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "司書は拓本を複写しない\n何故なら収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しません\n収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "司書は拓本を複写しません\n何故なら収蔵庫の湿度が高いからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "司書は拓本を複写しません\n何故なら収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しないからな\n収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しません\n収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "収蔵庫の湿度が高いから、司書は拓本を複写しません。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 13,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "収蔵庫の湿度が高いから、司書は拓本を複写しません。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しないからな\n何故なら収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "司書は拓本を複写しません\n収蔵庫の湿度が高いからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-08",
+      "group": "basic",
+      "source": "水先案内人は帆を下ろしませんでした。灯台の信号が見えなかったからです。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n灯台の信号が見えなかったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "灯台の信号が見えなかったから、水先案内人は帆を下ろしませんでした\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "灯台の信号が見えなかったから、水先案内人は帆を下ろしませんでした\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n灯台の信号が見えなかったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "灯台の信号が見えなかったから、水先案内人は帆を下ろしませんでした。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "灯台の信号が見えなかったから、水先案内人は帆を下ろしませんでした。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "水先案内人は帆を下ろしませんでした\n灯台の信号が見えなかったからです",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-09",
+      "group": "basic",
+      "source": "染織家は糸を洗った。顔料が残っていたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗ったからな\n顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗った\n顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "顔料が残っていたから、染織家は糸を洗った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "顔料が残っていたから、染織家は糸を洗った。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗った\n顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗ったからな\n顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗った\n顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "顔料が残っていたから、染織家は糸を洗った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "顔料が残っていたから、染織家は糸を洗った。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗ったからな\n何故なら顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "染織家は糸を洗った\n顔料が残っていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-10",
+      "group": "basic",
+      "source": "潜水士は採泥器を引き上げた。記録係が合図したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げた\n記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げたからな\n記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "記録係が合図したから、潜水士は採泥器を引き上げた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "記録係が合図したから、潜水士は採泥器を引き上げた。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げた\n何故なら記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げた\n記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げた\n記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げたからな\n記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "記録係が合図したから、潜水士は採泥器を引き上げた\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "記録係が合図したから、潜水士は採泥器を引き上げた\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "潜水士は採泥器を引き上げた\n記録係が合図したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-11",
+      "group": "basic",
+      "source": "農学者は苗を植え替える。根が容器からはみ出すからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "農学者は苗を植え替える\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "農学者は苗を植え替える\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "農学者は苗を植え替える\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "根が容器からはみ出すから、農学者は苗を植え替える\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "根が容器からはみ出すから、農学者は苗を植え替える\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "農学者は苗を植え替える\n根が容器からはみ出すからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-12",
+      "group": "basic",
+      "source": "製本師は見返しを貼らない。糊が乾いていないからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "製本師は見返しを貼らない\n糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "製本師は見返しを貼らないからな\n糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "糊が乾いていないから、製本師は見返しを貼らない\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "糊が乾いていないから、製本師は見返しを貼らない\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "製本師は見返しを貼らない\n何故なら糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "製本師は見返しを貼らない\n糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "製本師は見返しを貼らない\n糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "製本師は見返しを貼らないからな\n糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "糊が乾いていないから、製本師は見返しを貼らない\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "糊が乾いていないから、製本師は見返しを貼らない\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "製本師は見返しを貼らない\n糊が乾いていないからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-01",
+      "group": "operator",
+      "source": "漁師は浮標を回収する予定だ。気象台が荒天を予測したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "漁師は浮標を回収する予定だからな\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "漁師は浮標を回収する予定だからな\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "漁師は浮標を回収する予定だからな\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "漁師は浮標を回収する予定だからな\n気象台が荒天を予測したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-02",
+      "group": "operator",
+      "source": "修復師は顔料を調合できる。助手が分光器を校正したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "修復師は顔料を調合できる\n助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "助手が分光器を校正したから、修復師は顔料を調合できる\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "助手が分光器を校正したから、修復師は顔料を調合できる\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "修復師は顔料を調合できる\n助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "修復師は顔料を調合できる\n助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "助手が分光器を校正したから、修復師は顔料を調合できる\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "助手が分光器を校正したから、修復師は顔料を調合できる\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "修復師は顔料を調合できる\n助手が分光器を校正したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-03",
+      "group": "operator",
+      "source": "登山家は稜線を越えなければならない。山小屋が谷の向こうにあるからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-04",
+      "group": "operator",
+      "source": "観測員は偏光板を交換したかもしれない。画像の明るさが変わったからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-05",
+      "group": "operator",
+      "source": "植木職人は接ぎ木を終えたはずだ。作業灯が消えたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-06",
+      "group": "operator",
+      "source": "標本は運搬係に運ばれた。研究員が台車を手配したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれた\n研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれたからな\n研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "研究員が台車を手配したから、標本は運搬係に運ばれた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "研究員が台車を手配したから、標本は運搬係に運ばれた。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれた\n何故なら研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれた\n研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれた\n研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれたからな\n研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "研究員が台車を手配したから、標本は運搬係に運ばれた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "研究員が台車を手配したから、標本は運搬係に運ばれた。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "標本は運搬係に運ばれた\n研究員が台車を手配したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-07",
+      "group": "operator",
+      "source": "館長は助手に収蔵箱を開けさせた。検査員が点検を求めたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせたからな\n検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "検査員が点検を求めたから、館長は助手に収蔵箱を開けさせた\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "検査員が点検を求めたから、館長は助手に収蔵箱を開けさせた\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせたからな\n検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "検査員が点検を求めたから、館長は助手に収蔵箱を開けさせた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "検査員が点検を求めたから、館長は助手に収蔵箱を開けさせた。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせたからな\n何故なら検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "館長は助手に収蔵箱を開けさせた\n検査員が点検を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-08",
+      "group": "operator",
+      "source": "琥珀は割れていない。梱包材が衝撃を吸収したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "琥珀は割れていない\n何故なら梱包材が衝撃を吸収したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "琥珀は割れていない\n何故なら梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていないからな\n梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていない\n梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "梱包材が衝撃を吸収したから、琥珀は割れていない\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "梱包材が衝撃を吸収したから、琥珀は割れていない\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "琥珀は割れていないからな\n何故なら梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていない\n梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "琥珀は割れていない\n何故なら梱包材が衝撃を吸収したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "琥珀は割れていない\n何故なら梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていないからな\n梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていない\n梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "梱包材が衝撃を吸収したから、琥珀は割れていない。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "梱包材が衝撃を吸収したから、琥珀は割れていない。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていないからな\n何故なら梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "琥珀は割れていない\n梱包材が衝撃を吸収したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "payload-01",
+      "group": "payload",
+      "source": "実習生は試験管を17本洗った。指導員が17本の再検査を求めたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗った\n指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗ったからな\n指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "指導員が17本の再検査を求めたから、実習生は試験管を17本洗った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "指導員が17本の再検査を求めたから、実習生は試験管を17本洗った。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗った\n何故なら指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗った\n指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗った\n指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗ったからな\n指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "指導員が17本の再検査を求めたから、実習生は試験管を17本洗った\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "指導員が17本の再検査を求めたから、実習生は試験管を17本洗った\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "実習生は試験管を17本洗った\n指導員が17本の再検査を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "payload-02",
+      "group": "payload",
+      "source": "技師は「運転停止」と表示した。回転数が毎分2400回を超えたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は「運転停止」と表示した\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は「運転停止」と表示した\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は「運転停止」と表示した\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は「運転停止」と表示した\n回転数が毎分2400回を超えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "payload-03",
+      "group": "payload",
+      "source": "翻訳者は「火曜日に戻る」と書いた。編集者が帰宅日を尋ねたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いた\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いた\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いた\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "翻訳者は「火曜日に戻る」と書いた\n編集者が帰宅日を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "payload-04",
+      "group": "payload",
+      "source": "調査員は🧭を3個しまった。船長が「出港延期」と告げたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調査員は🧭を3個しまった\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調査員は🧭を3個しまった\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調査員は🧭を3個しまった\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "調査員は🧭を3個しまった\n船長が「出港延期」と告げたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-01",
+      "group": "composition",
+      "source": "私はアピールした。司会者が発言を求めたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルした\n司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルした\n何故なら司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "司会者が発言を求めたから、私はアピールした。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "司会者が発言を求めたから、私はアピールした。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルした\n何故なら司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルしたからな\n司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルした\n司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルした\n何故なら司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "司会者が発言を求めたから、俺はアッピルした\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "司会者が発言を求めたから、俺はアッピルした\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "narrator-watashi",
+                "appiru",
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "俺はアッピルした\n何故なら司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアッピルしたからな\n司会者が発言を求めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-02",
+      "group": "composition",
+      "source": "僕は助言した。弟子が装置の速度を尋ねたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 8,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアドバイスを助言した\n弟子が装置の速度を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアドバイスを助言した\n弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "弟子が装置の速度を尋ねたから、僕は助言した。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 17,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "弟子が装置の速度を尋ねたから、僕は助言した。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアドバイスを助言した\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺は助言したからな\n弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 8,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアドバイスを助言した\n弟子が装置の速度を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアドバイスを助言した\n弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "弟子が装置の速さとスピードを尋ねたから、俺はアドバイスを助言した\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 17,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "弟子が装置の速さとスピードを尋ねたから、俺はアドバイスを助言した\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "narrator-boku",
+                "advice-doubling",
+                "punctuation-linebreak-0",
+                "velocity-doubling"
+              ]
+            },
+            {
+              "text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "俺はアドバイスを助言した\n弟子が装置の速度を尋ねたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-03",
+      "group": "composition",
+      "source": "技工士は型を冷やした。鋳型が熱かったからだ。園芸家は鉢を運んだ。苗が届いたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やした\n鋳型が熱かったからだ\n園芸家は鉢を運んだ\n苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やしたからな\n鋳型が熱かったからだ\n園芸家は鉢を運んだ\n苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "鋳型が熱かったから、技工士は型を冷やした。苗が届いたから、園芸家は鉢を運んだ。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "鋳型が熱かったから、技工士は型を冷やした。苗が届いたから、園芸家は鉢を運んだ。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim",
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やした\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やした\n鋳型が熱かったからだ\n園芸家は鉢を運んだ\n苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やした\n鋳型が熱かったからだ\n園芸家は鉢を運んだ\n苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やしたからな\n鋳型が熱かったからだ\n園芸家は鉢を運んだ\n苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "鋳型が熱かったから、技工士は型を冷やした。苗が届いたから、園芸家は鉢を運んだ。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "鋳型が熱かったから、技工士は型を冷やした。苗が届いたから、園芸家は鉢を運んだ。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim",
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技工士は型を冷やした\n鋳型が熱かったからだ\n園芸家は鉢を運んだ\n苗が届いたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-04",
+      "group": "composition",
+      "source": "整備士は弁を閉めない。圧力が上がっていないからだ。記録係は報告書を送った。主任が確認を終えたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めない\n圧力が上がっていないからだ\n記録係は報告書を送った\n主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めないからな\n圧力が上がっていないからだ\n記録係は報告書を送った\n主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "圧力が上がっていないから、整備士は弁を閉めない。主任が確認を終えたから、記録係は報告書を送った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "圧力が上がっていないから、整備士は弁を閉めない。主任が確認を終えたから、記録係は報告書を送った。",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim",
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めない\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めない\n圧力が上がっていないからだ\n記録係は報告書を送った\n主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めない\n圧力が上がっていないからだ\n記録係は報告書を送った\n主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めないからな\n圧力が上がっていないからだ\n記録係は報告書を送った\n主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "圧力が上がっていないから、整備士は弁を閉めない\n主任が確認を終えたから、記録係は報告書を送った\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "圧力が上がっていないから、整備士は弁を閉めない\n主任が確認を終えたから、記録係は報告書を送った\n",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "reason-claim",
+                "reason-claim"
+              ],
+              "structural_lexical_rule_ids": [
+                "punctuation-linebreak-0",
+                "punctuation-linebreak-0"
+              ]
+            },
+            {
+              "text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "整備士は弁を閉めない\n圧力が上がっていないからだ\n記録係は報告書を送った\n主任が確認を終えたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-01",
+      "group": "anaphora",
+      "source": "学芸員は古文書を閉じた。その紙が破れかけていたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "学芸員は古文書を閉じた\nその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "学芸員は古文書を閉じたからな\nその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-21",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "学芸員は古文書を閉じた\nその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "学芸員は古文書を閉じた\n何故ならその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "学芸員は古文書を閉じた\nその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "学芸員は古文書を閉じたからな\nその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-21",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "学芸員は古文書を閉じた\nその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "学芸員は古文書を閉じた\n何故ならその紙が破れかけていたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-02",
+      "group": "anaphora",
+      "source": "村人は水門を開いた。それが必要だったからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "村人は水門を開いた\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "村人は水門を開いた\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "村人は水門を開いた\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "村人は水門を開いた\nそれが必要だったからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-03",
+      "group": "anaphora",
+      "source": "運転手は橋を渡らなかった。この件を監督が止めたからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "運転手は橋を渡らなかった\nこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "運転手は橋を渡らなかったからな\nこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-21",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "運転手は橋を渡らなかった\nこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "運転手は橋を渡らなかった\n何故ならこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "運転手は橋を渡らなかった\nこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "運転手は橋を渡らなかったからな\nこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-21",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "運転手は橋を渡らなかった\nこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "運転手は橋を渡らなかった\n何故ならこの件を監督が止めたからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-04",
+      "group": "anaphora",
+      "source": "技師は試験を終えた。前者の工程が完了したからだ。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は試験を終えた\n前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は試験を終えたからな\n前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-21",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "技師は試験を終えた\n前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は試験を終えた\n何故なら前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は試験を終えた\n前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は試験を終えたからな\n前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "displayed_top3": [
+            {
+              "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [
+                "claim-reason"
+              ],
+              "structural_lexical_rule_ids": [
+                "ending-insistence-21",
+                "punctuation-linebreak-0",
+                "punctuation-end-0"
+              ]
+            },
+            {
+              "text": "技師は試験を終えた\n前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "技師は試験を終えた\n何故なら前者の工程が完了したからだ",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-01",
+      "group": "control",
+      "source": "写植工は活字を並べた。庭師は種を蒔いた。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "写植工は活字を並べた\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "写植工は活字を並べた\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "写植工は活字を並べた\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "写植工は活字を並べた\n庭師は種を蒔いた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-02",
+      "group": "control",
+      "source": "笛の音が聞こえた。鐘の音も聞こえた。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "笛の音が聞こえたからな\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "笛の音が聞こえたからな\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "笛の音が聞こえたからな\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "笛の音が聞こえたからな\n鐘の音も聞こえた",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-03",
+      "group": "control",
+      "source": "探検家は洞窟から出た。案内人は港から来た。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "探検家は洞窟から出た\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "探検家は洞窟から出た\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "探検家は洞窟から出た\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "探検家は洞窟から出た\n案内人は港から来た",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-04",
+      "group": "control",
+      "source": "採集者は「蝶が飛んだからだ」と記録した。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録した",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録した",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録した",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "採集者は「蝶が飛んだからだ」と記録した",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-05",
+      "group": "control",
+      "source": "雨が降ったら、配達員は軒下に入る。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "雨が降ったら、配達員は軒下に入る",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "雨が降ったら、配達員は軒下に入る",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "雨が降ったら、配達員は軒下に入る",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "雨が降ったら、配達員は軒下に入る",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-06",
+      "group": "control",
+      "source": "なぜ整備士は計器を外したのか。故障したからだろうか。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "displayed_top3": [
+            {
+              "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-07",
+      "group": "control",
+      "source": "巫女は灯りを消した。眠るからではない。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "巫女は灯りを消したからな\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "巫女は灯りを消した\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "巫女は灯りを消したからな\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "巫女は灯りを消した\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "巫女は灯りを消したからな\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "巫女は灯りを消した\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "巫女は灯りを消したからな\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "巫女は灯りを消した\n眠るからではない",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-08",
+      "group": "control",
+      "source": "彫刻家は石を磨いた。弟子は「師匠が頼んだからだ」と言った。",
+      "authorship": "assistant-authored source-only challenge",
+      "methods": {
+        "main": {
+          "selected_text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "彫刻家は石を磨いた\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "initial_on": {
+          "selected_text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "彫刻家は石を磨いた\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_off": {
+          "selected_text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "彫刻家は石を磨いた\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        },
+        "final_on": {
+          "selected_text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "displayed_top3": [
+            {
+              "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            },
+            {
+              "text": "彫刻家は石を磨いた\n弟子は「師匠が頼んだからだ」と言った",
+              "verificationStatus": "passed",
+              "structural_realizations": [],
+              "structural_lexical_rule_ids": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

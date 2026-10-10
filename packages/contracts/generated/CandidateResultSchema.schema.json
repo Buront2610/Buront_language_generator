@@ -1510,6 +1510,949 @@
             }
           }
         },
+        "structural": {
+          "additionalProperties": false,
+          "type": "object",
+          "required": [
+            "version",
+            "grammarVersion",
+            "authoring",
+            "seriesId",
+            "intensity",
+            "clauses",
+            "bindings",
+            "sourceOrder",
+            "emissionOrder",
+            "lexicalEdits"
+          ],
+          "properties": {
+            "version": {
+              "const": 1,
+              "type": "number"
+            },
+            "grammarVersion": {
+              "const": "explicit-reason-slots-v1",
+              "type": "string"
+            },
+            "authoring": {
+              "const": "handwritten-source-projection",
+              "type": "string"
+            },
+            "seriesId": {
+              "type": "string"
+            },
+            "intensity": {
+              "minimum": 2,
+              "maximum": 3,
+              "type": "integer"
+            },
+            "clauses": {
+              "type": "array",
+              "items": {
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                  "nodeId",
+                  "sourceSpan",
+                  "slots",
+                  "predicates"
+                ],
+                "properties": {
+                  "nodeId": {
+                    "type": "string"
+                  },
+                  "sourceSpan": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "properties": {
+                      "start": {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "end": {
+                        "minimum": 0,
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "slots": {
+                    "type": "array",
+                    "items": {
+                      "additionalProperties": false,
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "role",
+                        "sourceSpan",
+                        "tokenIds",
+                        "factIds",
+                        "protectedValueIds"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "role": {
+                          "anyOf": [
+                            {
+                              "const": "agent",
+                              "type": "string"
+                            },
+                            {
+                              "const": "patient",
+                              "type": "string"
+                            },
+                            {
+                              "const": "recipient",
+                              "type": "string"
+                            },
+                            {
+                              "const": "location",
+                              "type": "string"
+                            },
+                            {
+                              "const": "predicate",
+                              "type": "string"
+                            },
+                            {
+                              "const": "operator",
+                              "type": "string"
+                            },
+                            {
+                              "const": "case",
+                              "type": "string"
+                            },
+                            {
+                              "const": "adjunct",
+                              "type": "string"
+                            },
+                            {
+                              "const": "punctuation",
+                              "type": "string"
+                            },
+                            {
+                              "const": "gap",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "sourceSpan": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "start",
+                            "end"
+                          ],
+                          "properties": {
+                            "start": {
+                              "minimum": 0,
+                              "type": "integer"
+                            },
+                            "end": {
+                              "minimum": 0,
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "tokenIds": {
+                          "type": "array",
+                          "items": {
+                            "minimum": 0,
+                            "type": "integer"
+                          }
+                        },
+                        "factIds": {
+                          "maxItems": 12000,
+                          "type": "array",
+                          "items": {
+                            "maxLength": 12000,
+                            "type": "string"
+                          }
+                        },
+                        "protectedValueIds": {
+                          "maxItems": 12000,
+                          "type": "array",
+                          "items": {
+                            "maxLength": 12000,
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "predicates": {
+                    "type": "array",
+                    "items": {
+                      "additionalProperties": false,
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "sourceSpan",
+                        "predicateSpan",
+                        "predicateLemma",
+                        "arguments",
+                        "polarity",
+                        "realization",
+                        "completion",
+                        "tense",
+                        "voice",
+                        "attribution",
+                        "protectedValueIds",
+                        "resolution"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "sourceSpan": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "start",
+                            "end"
+                          ],
+                          "properties": {
+                            "start": {
+                              "minimum": 0,
+                              "type": "integer"
+                            },
+                            "end": {
+                              "minimum": 0,
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "predicateSpan": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "start",
+                            "end"
+                          ],
+                          "properties": {
+                            "start": {
+                              "minimum": 0,
+                              "type": "integer"
+                            },
+                            "end": {
+                              "minimum": 0,
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "predicateLemma": {
+                          "type": "string"
+                        },
+                        "arguments": {
+                          "type": "array",
+                          "items": {
+                            "additionalProperties": false,
+                            "type": "object",
+                            "required": [
+                              "role",
+                              "entityId",
+                              "text",
+                              "span"
+                            ],
+                            "properties": {
+                              "role": {
+                                "anyOf": [
+                                  {
+                                    "const": "agent",
+                                    "type": "string"
+                                  },
+                                  {
+                                    "const": "patient",
+                                    "type": "string"
+                                  },
+                                  {
+                                    "const": "recipient",
+                                    "type": "string"
+                                  },
+                                  {
+                                    "const": "location",
+                                    "type": "string"
+                                  }
+                                ]
+                              },
+                              "entityId": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "text": {
+                                "type": "string"
+                              },
+                              "span": {
+                                "additionalProperties": false,
+                                "type": "object",
+                                "required": [
+                                  "start",
+                                  "end"
+                                ],
+                                "properties": {
+                                  "start": {
+                                    "minimum": 0,
+                                    "type": "integer"
+                                  },
+                                  "end": {
+                                    "minimum": 0,
+                                    "type": "integer"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "polarity": {
+                          "anyOf": [
+                            {
+                              "const": "positive",
+                              "type": "string"
+                            },
+                            {
+                              "const": "negative",
+                              "type": "string"
+                            },
+                            {
+                              "const": "unknown",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "realization": {
+                          "anyOf": [
+                            {
+                              "const": "actual",
+                              "type": "string"
+                            },
+                            {
+                              "const": "prospective",
+                              "type": "string"
+                            },
+                            {
+                              "const": "hypothetical",
+                              "type": "string"
+                            },
+                            {
+                              "const": "unknown",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "completion": {
+                          "anyOf": [
+                            {
+                              "const": "completed",
+                              "type": "string"
+                            },
+                            {
+                              "const": "ongoing",
+                              "type": "string"
+                            },
+                            {
+                              "const": "not_completed",
+                              "type": "string"
+                            },
+                            {
+                              "const": "unknown",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "tense": {
+                          "anyOf": [
+                            {
+                              "const": "past",
+                              "type": "string"
+                            },
+                            {
+                              "const": "nonpast",
+                              "type": "string"
+                            },
+                            {
+                              "const": "unknown",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "voice": {
+                          "anyOf": [
+                            {
+                              "const": "active",
+                              "type": "string"
+                            },
+                            {
+                              "const": "passive",
+                              "type": "string"
+                            },
+                            {
+                              "const": "unknown",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "attribution": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "kind",
+                            "speaker"
+                          ],
+                          "properties": {
+                            "kind": {
+                              "anyOf": [
+                                {
+                                  "const": "narrator",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "quotation",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "hearsay",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "speaker": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "protectedValueIds": {
+                          "maxItems": 12000,
+                          "type": "array",
+                          "items": {
+                            "maxLength": 12000,
+                            "type": "string"
+                          }
+                        },
+                        "resolution": {
+                          "anyOf": [
+                            {
+                              "const": "resolved",
+                              "type": "string"
+                            },
+                            {
+                              "const": "partial",
+                              "type": "string"
+                            },
+                            {
+                              "const": "opaque",
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                  "id",
+                  "kind",
+                  "claimNodeId",
+                  "reasonNodeId",
+                  "relation",
+                  "realizationId",
+                  "evidenceIds"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "const": "explicit-reason",
+                    "type": "string"
+                  },
+                  "claimNodeId": {
+                    "type": "string"
+                  },
+                  "reasonNodeId": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "required": [
+                      "version",
+                      "kind",
+                      "factId",
+                      "clauses",
+                      "evidenceTokens",
+                      "conditions",
+                      "certainty",
+                      "provenance"
+                    ],
+                    "properties": {
+                      "version": {
+                        "const": 1,
+                        "type": "number"
+                      },
+                      "kind": {
+                        "anyOf": [
+                          {
+                            "const": "explicit-reason",
+                            "type": "string"
+                          },
+                          {
+                            "const": "explicit-contrast",
+                            "type": "string"
+                          },
+                          {
+                            "const": "modest-achievement",
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "factId": {
+                        "type": "string"
+                      },
+                      "clauses": {
+                        "type": "array",
+                        "items": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "role",
+                            "span",
+                            "tokenIds"
+                          ],
+                          "properties": {
+                            "role": {
+                              "anyOf": [
+                                {
+                                  "const": "claim",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "reason",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "antecedent",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "contrast",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "modesty",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "achievement",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "span": {
+                              "additionalProperties": false,
+                              "type": "object",
+                              "required": [
+                                "start",
+                                "end"
+                              ],
+                              "properties": {
+                                "start": {
+                                  "minimum": 0,
+                                  "type": "integer"
+                                },
+                                "end": {
+                                  "minimum": 0,
+                                  "type": "integer"
+                                }
+                              }
+                            },
+                            "tokenIds": {
+                              "type": "array",
+                              "items": {
+                                "minimum": 0,
+                                "type": "integer"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "evidenceTokens": {
+                        "type": "array",
+                        "items": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "role",
+                            "tokenId",
+                            "span"
+                          ],
+                          "properties": {
+                            "role": {
+                              "anyOf": [
+                                {
+                                  "const": "predicate",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "marker",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "past",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "limit",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "copula",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "tokenId": {
+                              "minimum": 0,
+                              "type": "integer"
+                            },
+                            "span": {
+                              "additionalProperties": false,
+                              "type": "object",
+                              "required": [
+                                "start",
+                                "end"
+                              ],
+                              "properties": {
+                                "start": {
+                                  "minimum": 0,
+                                  "type": "integer"
+                                },
+                                "end": {
+                                  "minimum": 0,
+                                  "type": "integer"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "conditions": {
+                        "type": "array",
+                        "items": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "required": [
+                            "predicateTokenId",
+                            "factId",
+                            "polarity",
+                            "tense",
+                            "realization",
+                            "completion",
+                            "voice",
+                            "attribution",
+                            "conditional",
+                            "speculative",
+                            "prospective",
+                            "ambiguous",
+                            "nonDeclarative",
+                            "reportedContent"
+                          ],
+                          "properties": {
+                            "predicateTokenId": {
+                              "minimum": 0,
+                              "type": "integer"
+                            },
+                            "factId": {
+                              "type": "string"
+                            },
+                            "polarity": {
+                              "anyOf": [
+                                {
+                                  "const": "positive",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "negative",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "unknown",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "tense": {
+                              "anyOf": [
+                                {
+                                  "const": "past",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "nonpast",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "unknown",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "realization": {
+                              "anyOf": [
+                                {
+                                  "const": "actual",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "prospective",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "hypothetical",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "unknown",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "completion": {
+                              "anyOf": [
+                                {
+                                  "const": "completed",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "ongoing",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "not_completed",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "unknown",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "voice": {
+                              "anyOf": [
+                                {
+                                  "const": "active",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "passive",
+                                  "type": "string"
+                                },
+                                {
+                                  "const": "unknown",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "attribution": {
+                              "additionalProperties": false,
+                              "type": "object",
+                              "required": [
+                                "kind",
+                                "speaker"
+                              ],
+                              "properties": {
+                                "kind": {
+                                  "anyOf": [
+                                    {
+                                      "const": "narrator",
+                                      "type": "string"
+                                    },
+                                    {
+                                      "const": "quotation",
+                                      "type": "string"
+                                    },
+                                    {
+                                      "const": "hearsay",
+                                      "type": "string"
+                                    }
+                                  ]
+                                },
+                                "speaker": {
+                                  "anyOf": [
+                                    {
+                                      "type": "string"
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "conditional": {
+                              "type": "boolean"
+                            },
+                            "speculative": {
+                              "type": "boolean"
+                            },
+                            "prospective": {
+                              "type": "boolean"
+                            },
+                            "ambiguous": {
+                              "type": "boolean"
+                            },
+                            "nonDeclarative": {
+                              "type": "boolean"
+                            },
+                            "reportedContent": {
+                              "type": "boolean"
+                            }
+                          }
+                        }
+                      },
+                      "certainty": {
+                        "const": "explicit",
+                        "type": "string"
+                      },
+                      "provenance": {
+                        "additionalProperties": false,
+                        "type": "object",
+                        "required": [
+                          "inputHash",
+                          "parserVersion"
+                        ],
+                        "properties": {
+                          "inputHash": {
+                            "type": "string"
+                          },
+                          "parserVersion": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "realizationId": {
+                    "anyOf": [
+                      {
+                        "const": "claim-reason",
+                        "type": "string"
+                      },
+                      {
+                        "const": "reason-claim",
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "evidenceIds": {
+                    "maxItems": 12000,
+                    "type": "array",
+                    "items": {
+                      "maxLength": 12000,
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "sourceOrder": {
+              "maxItems": 12000,
+              "type": "array",
+              "items": {
+                "maxLength": 12000,
+                "type": "string"
+              }
+            },
+            "emissionOrder": {
+              "maxItems": 12000,
+              "type": "array",
+              "items": {
+                "maxLength": 12000,
+                "type": "string"
+              }
+            },
+            "lexicalEdits": {
+              "maxItems": 12000,
+              "type": "array",
+              "items": {
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                  "nodeId",
+                  "sourceSpan",
+                  "ruleId",
+                  "from",
+                  "to",
+                  "evidenceIds"
+                ],
+                "properties": {
+                  "nodeId": {
+                    "type": "string"
+                  },
+                  "sourceSpan": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "properties": {
+                      "start": {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "end": {
+                        "minimum": 0,
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "ruleId": {
+                    "type": "string"
+                  },
+                  "from": {
+                    "type": "string"
+                  },
+                  "to": {
+                    "type": "string"
+                  },
+                  "evidenceIds": {
+                    "maxItems": 12000,
+                    "type": "array",
+                    "items": {
+                      "maxLength": 12000,
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "mainOperator": {
           "type": "string"
         },

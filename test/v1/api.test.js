@@ -212,3 +212,34 @@ test('A3 HTTP body dictionary requests remain reviewable and unapplied', async (
     assert.ok(job.result.reviewCandidates.every(c=>c.verificationStatus==='needs_review'&&!c.text.includes(to)));
   }
 });
+
+
+test('experimental structural API reaches display, signed regeneration and replay without enabling the default path', async () => {
+  const source = '私は作業を続けた。速度が十分だったからだ。';
+  const malformed = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: { ...request(source), experimentalStructural: 'true' } });
+  assert.equal(malformed.statusCode, 400);
+  const capability = (await app.inject({ url: '/api/v1/capabilities', headers })).json();
+  assert.equal(capability.experimentalStructural.enabledByDefault, false);
+  const accepted = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: { ...request(source), experimentalStructural: true } });
+  assert.equal(accepted.statusCode, 202, accepted.body);
+  const job = await poll(accepted.json().jobId); assert.equal(job.state, 'completed', JSON.stringify(job));
+  const candidate = job.result.candidates.find(candidate => candidate.plan.structural?.bindings.some(binding => binding.realizationId === 'reason-claim'));
+  assert.ok(candidate); assert.ok(candidate.text.indexOf('から、') < candidate.text.indexOf('作業を続けた'));
+  assert.ok(candidate.checks.some(check => check.code === 'S-structural-projection' && check.status === 'pass'));
+  assert.equal(candidate.scores.S, null); assert.equal(candidate.scores.Q, null);
+  assert.equal(job.result.replayManifest.schemaVersion, 2);
+  const regenerated = await app.inject({ method: 'POST', url: '/api/v1/regenerations', headers, payload: { analysisId: job.result.analysisId, candidateId: candidate.id, lockedNodeIds: candidate.plan.nodes.map(node => node.id), operator: 'STRUCTURAL', seed: 'structural-locked', clientRevision: 8 } });
+  assert.equal(regenerated.statusCode, 202, regenerated.body);
+  const locked = await poll(regenerated.json().jobId); assert.equal(locked.state, 'completed', JSON.stringify(locked));
+  assert.ok(locked.result.candidates.length);
+  assert.ok(locked.result.candidates.every(item => item.text === candidate.text));
+  const { replayGeneration } = require('../../dist/packages/core/replay');
+  const { finishSemanticVerification } = require('../../dist/packages/core/semantic');
+  const analysis = await coordinator.python.analyze(source);
+  const replayed = finishSemanticVerification(replayGeneration(locked.result.replayManifest, analysis, coordinator.assets), {});
+  assert.deepEqual(replayed.candidates, locked.result.candidates);
+  const off = await app.inject({ method: 'POST', url: '/api/v1/generations', headers, payload: request(source) });
+  assert.equal(off.statusCode, 202);
+  const normal = await poll(off.json().jobId); assert.equal(normal.state, 'completed');
+  assert.ok(normal.result.candidates.every(item => !item.plan.structural));
+});

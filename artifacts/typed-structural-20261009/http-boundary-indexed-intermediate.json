@@ -1,0 +1,188 @@
+{
+  "sourceHash": "7bc4ca259d3cd4cf22cd33eec2d49cec8097aed2473e0b437b7ff687b971a4fb",
+  "inputScalars": 4998,
+  "pairs": 238,
+  "transport": "real localhost HTTP via fetch",
+  "runtime": "v24.19.0",
+  "nodeOptions": null,
+  "admission": 202,
+  "state": "completed",
+  "elapsedMs": 23497,
+  "jobElapsedMs": 23336,
+  "selected": [
+    {
+      "operator": "STRUCTURAL",
+      "bindings": 238,
+      "chars": 4760,
+      "status": "passed",
+      "checks": [
+        {
+          "code": "V-span",
+          "status": "pass"
+        },
+        {
+          "code": "V-coverage",
+          "status": "pass"
+        },
+        {
+          "code": "V-plan",
+          "status": "pass"
+        },
+        {
+          "code": "V-quantity",
+          "status": "pass"
+        },
+        {
+          "code": "V-roles",
+          "status": "pass"
+        },
+        {
+          "code": "V-polarity",
+          "status": "pass"
+        },
+        {
+          "code": "V-temporal",
+          "status": "pass"
+        },
+        {
+          "code": "V-attribution",
+          "status": "pass"
+        },
+        {
+          "code": "V-rhetoric",
+          "status": "pass"
+        },
+        {
+          "code": "V-structural",
+          "status": "pass"
+        },
+        {
+          "code": "S-structural-projection",
+          "status": "pass"
+        },
+        {
+          "code": "S-realization",
+          "status": "pass"
+        }
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "operator": "CONSTRUCTION",
+      "chars": 5949,
+      "status": "passed",
+      "checks": [
+        {
+          "code": "V-span",
+          "status": "pass"
+        },
+        {
+          "code": "V-coverage",
+          "status": "pass"
+        },
+        {
+          "code": "V-plan",
+          "status": "pass"
+        },
+        {
+          "code": "V-quantity",
+          "status": "pass"
+        },
+        {
+          "code": "V-roles",
+          "status": "pass"
+        },
+        {
+          "code": "V-polarity",
+          "status": "pass"
+        },
+        {
+          "code": "V-temporal",
+          "status": "pass"
+        },
+        {
+          "code": "V-attribution",
+          "status": "pass"
+        },
+        {
+          "code": "V-rhetoric",
+          "status": "pass"
+        },
+        {
+          "code": "V-construction",
+          "status": "pass"
+        },
+        {
+          "code": "S-bounded-construction",
+          "status": "pass"
+        },
+        {
+          "code": "S-realization",
+          "status": "pass"
+        }
+      ],
+      "S": null,
+      "Q": null
+    },
+    {
+      "operator": "REWRITE",
+      "chars": 4997,
+      "status": "passed",
+      "checks": [
+        {
+          "code": "V-span",
+          "status": "pass"
+        },
+        {
+          "code": "V-coverage",
+          "status": "pass"
+        },
+        {
+          "code": "V-plan",
+          "status": "pass"
+        },
+        {
+          "code": "V-quantity",
+          "status": "pass"
+        },
+        {
+          "code": "V-roles",
+          "status": "pass"
+        },
+        {
+          "code": "V-polarity",
+          "status": "pass"
+        },
+        {
+          "code": "V-temporal",
+          "status": "pass"
+        },
+        {
+          "code": "V-attribution",
+          "status": "pass"
+        },
+        {
+          "code": "V-rhetoric",
+          "status": "pass"
+        },
+        {
+          "code": "V-rewrite",
+          "status": "pass"
+        },
+        {
+          "code": "S-bounded-rewrite",
+          "status": "pass"
+        },
+        {
+          "code": "S-realization",
+          "status": "pass"
+        }
+      ],
+      "S": null,
+      "Q": null
+    }
+  ],
+  "generated": 9,
+  "structuralProjectionIndependent": true
+}

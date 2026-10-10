@@ -1,0 +1,25 @@
+{
+  "scope": "Web source and built artifacts; build-info.sourceHash covers engine/server, not UI.",
+  "files": [
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "032dab14d8efc35f20082f02841a1ab39ead614b9016464fb886d3f13c062d14"
+    },
+    {
+      "path": "apps/web/src/style.css",
+      "sha256": "61a8f0a8a3536f26ad4ae5426d8c7ee37b6c7d287d97cade963befc1fddb73d5"
+    },
+    {
+      "path": "apps/web/dist/index.html",
+      "sha256": "4ab805ae306426a210c1e97a902ec952762b15c50f9c65ff1bc8464ef74a94c0"
+    },
+    {
+      "path": "apps/web/dist/assets/index-BwmQRala.css",
+      "sha256": "a753669f9644663b22e54e6df8b1a6e956a1af159a83a2e30c4ada52a2c9e61f"
+    },
+    {
+      "path": "apps/web/dist/assets/index-DEW9-L81.js",
+      "sha256": "021ef2602b3b834fd17fe88fd4d67dd0d24ceab92a47e66957fbf52e7f59bceb"
+    }
+  ]
+}
