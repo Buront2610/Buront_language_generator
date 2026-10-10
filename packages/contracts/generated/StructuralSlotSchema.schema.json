@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "id",
+    "role",
+    "sourceSpan",
+    "tokenIds",
+    "factIds",
+    "protectedValueIds"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "role": {
+      "anyOf": [
+        {
+          "const": "agent",
+          "type": "string"
+        },
+        {
+          "const": "patient",
+          "type": "string"
+        },
+        {
+          "const": "recipient",
+          "type": "string"
+        },
+        {
+          "const": "location",
+          "type": "string"
+        },
+        {
+          "const": "predicate",
+          "type": "string"
+        },
+        {
+          "const": "operator",
+          "type": "string"
+        },
+        {
+          "const": "case",
+          "type": "string"
+        },
+        {
+          "const": "adjunct",
+          "type": "string"
+        },
+        {
+          "const": "punctuation",
+          "type": "string"
+        },
+        {
+          "const": "gap",
+          "type": "string"
+        }
+      ]
+    },
+    "sourceSpan": {
+      "additionalProperties": false,
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "end": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      }
+    },
+    "tokenIds": {
+      "type": "array",
+      "items": {
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "factIds": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "maxLength": 12000,
+        "type": "string"
+      }
+    },
+    "protectedValueIds": {
+      "maxItems": 12000,
+      "type": "array",
+      "items": {
+        "maxLength": 12000,
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "baseCommit": "4d918a56fba7e77c06788baa1cd33817086b5a12",
+  "branch": "codex/typed-structural-generation",
+  "engineSourceHash": "043c6c5cde2e724b4b70ebc94bb019db95d5c19a58630cc5c96f771535f61412",
+  "commands": [
+    {
+      "command": "npm test",
+      "status": "passed",
+      "tests": 320,
+      "failures": 0,
+      "log": "npm-test-final.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "status": "passed",
+      "log": "typecheck-final.log"
+    },
+    {
+      "command": "npm run diagnose",
+      "status": "passed",
+      "log": "diagnose-final.log"
+    },
+    {
+      "command": "git diff --check",
+      "status": "passed"
+    }
+  ],
+  "httpBoundary": {
+    "sourceHash": "043c6c5cde2e724b4b70ebc94bb019db95d5c19a58630cc5c96f771535f61412",
+    "inputScalars": 4998,
+    "pairs": 238,
+    "transport": "real localhost HTTP via fetch",
+    "runtime": "v24.19.0",
+    "nodeOptions": null,
+    "admission": 202,
+    "state": "completed",
+    "elapsedMs": 24439,
+    "jobElapsedMs": 24267,
+    "selected": [
+      {
+        "operator": "STRUCTURAL",
+        "bindings": 238,
+        "chars": 4760,
+        "status": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-structural",
+            "status": "pass"
+          },
+          {
+            "code": "S-structural-projection",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "S": null,
+        "Q": null
+      },
+      {
+        "operator": "CONSTRUCTION",
+        "chars": 5952,
+        "status": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-construction",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "S": null,
+        "Q": null
+      },
+      {
+        "operator": "REWRITE",
+        "chars": 4997,
+        "status": "passed",
+        "checks": [
+          {
+            "code": "V-span",
+            "status": "pass"
+          },
+          {
+            "code": "V-coverage",
+            "status": "pass"
+          },
+          {
+            "code": "V-plan",
+            "status": "pass"
+          },
+          {
+            "code": "V-quantity",
+            "status": "pass"
+          },
+          {
+            "code": "V-roles",
+            "status": "pass"
+          },
+          {
+            "code": "V-polarity",
+            "status": "pass"
+          },
+          {
+            "code": "V-temporal",
+            "status": "pass"
+          },
+          {
+            "code": "V-attribution",
+            "status": "pass"
+          },
+          {
+            "code": "V-rhetoric",
+            "status": "pass"
+          },
+          {
+            "code": "V-rewrite",
+            "status": "pass"
+          },
+          {
+            "code": "S-bounded-rewrite",
+            "status": "pass"
+          },
+          {
+            "code": "S-realization",
+            "status": "pass"
+          }
+        ],
+        "S": null,
+        "Q": null
+      }
+    ],
+    "generated": 9,
+    "structuralProjectionIndependent": true
+  },
+  "ui": {
+    "buildAndTypecheck": "passed",
+    "sourceReview": "completed",
+    "realInteractionAndVisualQA": "not_performed",
+    "blockers": [
+      "Installed Chromium: socket() Operation not permitted, both ordinary and approved escalated test launch",
+      "Cloud CUA browser: net::ERR_CONNECTION_REFUSED for local dev server; independently confirmed by parent"
+    ],
+    "published": false
+  },
+  "quality": {
+    "S": null,
+    "Q": null,
+    "humanRatings": false,
+    "LLMQualityJudge": false,
+    "syntheticTrainingPairs": false
+  },
+  "notes": "Independent initial frozen-input evaluation and exposed regression are recorded separately; see implementation document and independent acceptance reports."
+}

@@ -6,6 +6,7 @@ export const generationCapabilities = () => ({
   pipeline: 'bounded-attested-adaptation-v2',
   finiteRewrite: true,
   registeredConstruction: true,
+  experimentalStructural: { supported: true, enabledByDefault: false, requestField: 'experimentalStructural', grammarVersion: 'explicit-reason-slots-v1', scope: 'explicit-claim-reason-source-projection', learnedGrammar: false },
   creativeGeneration: false,
   generationModes: { canonical: true, blend: true, invent: false },
   tasks: { rewrite: true, quote: false },

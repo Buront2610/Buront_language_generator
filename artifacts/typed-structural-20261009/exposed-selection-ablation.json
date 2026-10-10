@@ -1,0 +1,86 @@
+{
+  "interpretation": "Post-exposure regression diagnostic; no quality ratings. Same candidate pool, changed-fingerprint-only versus explicit Boolean composition presentation tie-break.",
+  "results": [
+    {
+      "source": "私はアピールした。司会者が発言を求めたからだ。",
+      "diversityOnly": [
+        {
+          "text": "司会者が発言を求めたから、私はアピールした。",
+          "operator": "STRUCTURAL",
+          "lexical": []
+        },
+        {
+          "text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+          "operator": "CONSTRUCTION"
+        },
+        {
+          "text": "俺はアッピルした\n司会者が発言を求めたからだ",
+          "operator": "REWRITE"
+        }
+      ],
+      "booleanCoverage": [
+        {
+          "text": "司会者が発言を求めたから、俺はアッピルした\n",
+          "operator": "STRUCTURAL",
+          "lexical": [
+            "narrator-watashi",
+            "appiru",
+            "punctuation-linebreak-0"
+          ]
+        },
+        {
+          "text": "俺はアッピルした\n何故なら司会者が発言を求めたからだ",
+          "operator": "CONSTRUCTION"
+        },
+        {
+          "text": "俺はアッピルしたからな\n司会者が発言を求めたからだ",
+          "operator": "REWRITE"
+        }
+      ]
+    },
+    {
+      "source": "僕は助言した。弟子が装置の速度を尋ねたからだ。",
+      "diversityOnly": [
+        {
+          "text": "弟子が装置の速度を尋ねたから、僕は助言した。",
+          "operator": "STRUCTURAL",
+          "lexical": []
+        },
+        {
+          "text": "俺はアドバイスを助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+          "operator": "CONSTRUCTION"
+        },
+        {
+          "text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+          "operator": "STRUCTURAL",
+          "lexical": [
+            "narrator-boku",
+            "ending-insistence-12",
+            "punctuation-linebreak-0",
+            "velocity-doubling",
+            "punctuation-end-0"
+          ]
+        }
+      ],
+      "booleanCoverage": [
+        {
+          "text": "弟子が装置の速さとスピードを尋ねたから、俺は助言した\n",
+          "operator": "STRUCTURAL",
+          "lexical": [
+            "narrator-boku",
+            "punctuation-linebreak-0",
+            "velocity-doubling"
+          ]
+        },
+        {
+          "text": "俺はアドバイスを助言した\n何故なら弟子が装置の速度を尋ねたからだ",
+          "operator": "CONSTRUCTION"
+        },
+        {
+          "text": "俺は助言したからな\n弟子が装置の速さとスピードを尋ねたからだ",
+          "operator": "REWRITE"
+        }
+      ]
+    }
+  ]
+}

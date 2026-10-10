@@ -5,6 +5,7 @@ import { frameRhetoric } from './series';
 import { validateRewrite } from './rewrite-validation';
 import { validateRhetoric } from './rhetoric-validation';
 import { constructionRegistry, validateConstruction } from './constructions';
+import { validateStructural } from './structural';
 import { outputFeatures, featureVersion } from './output-features';
 export { featureVersion, outputFeatures } from './output-features';
 export type HistoryEntry = { text: string; rhetoric: string; family: string; mapping: string; task: string; series: string; mode: string };
@@ -12,7 +13,7 @@ export const grams = (text: string, n = 3) => { const chars = [...text.normalize
 export function similarity(a: string, b: string) { const left = grams(a), right = grams(b); return 2 * [...left].filter(item => right.has(item)).length / Math.max(1, left.size + right.size); }
 export const structure = (text: string) => text.normalize('NFKC').replace(/[+\-]?\d+(?:\.\d+)?/gu, '<NUM>').replace(/[\p{Script=Han}\p{Script=Katakana}ー]+/gu, '<TERM>').replace(/<TERM>(?:<TERM>)+/gu, '<TERM>');
 export function rhetoricalCore(candidate: Pick<Candidate, 'plan'>): string {
-  if (candidate.plan.rewrite || candidate.plan.construction) return candidate.plan.nodes.map(node => node.text).join('');
+  if (candidate.plan.rewrite || candidate.plan.construction || candidate.plan.structural) return candidate.plan.nodes.map(node => node.text).join('');
   const surface = candidate.plan.surface, main = candidate.plan.nodes.find(node => node.id === 'main-quote');
   try { if (surface && main?.text === frameRhetoric(surface.coreText, surface.constructionId)) return surface.coreText; } catch { /* Unknown frames cannot supply a trusted novelty core. */ }
   return candidate.plan.nodes.filter(node => node.type === 'RhetoricalClause').map(node => node.text).join('').replace(/^たとえるなら[、,]/u, '');
@@ -26,10 +27,10 @@ export function evaluateNovelty(candidate: Candidate, assets: Assets, retrieval:
   const maxStructure = Math.max(0, ...comparisons.map(item => item.structureScore));
   const concept = history.length ? history.some(item => item.family === candidate.plan.family && item.mapping === hash(candidate.plan.mapping)) ? 1 : 0 : null;
   const exact = records.some(item => item.text.normalize('NFKC').replace(/\s/gu, '') === rhetoric.normalize('NFKC').replace(/\s/gu, ''));
-  return { classification: candidate.plan.rewrite || candidate.plan.construction ? 'adaptation' : !rhetoric ? 'undetermined' : exact || maxText > 0.95 ? 'known_quote' : maxText > 0.72 || maxStructure > 0.86 || concept === 1 ? 'adaptation' : 'candidate_novel',
+  return { classification: candidate.plan.rewrite || candidate.plan.construction || candidate.plan.structural ? 'adaptation' : !rhetoric ? 'undetermined' : exact || maxText > 0.95 ? 'known_quote' : maxText > 0.72 || maxStructure > 0.86 || concept === 1 ? 'adaptation' : 'candidate_novel',
     text: 1 - maxText, structure: 1 - maxStructure, concept: concept === null ? null : 1 - concept,
     nearestIds: comparisons.sort((a, b) => Math.max(b.textScore, b.structureScore) - Math.max(a.textScore, a.structureScore)).slice(0, 3).map(item => item.id),
-    datasetId: assets.datasetId, historySnapshot: hash(history), window: `${candidate.plan.rewrite || candidate.plan.construction ? '出典付き構文の応用。入力語の違いを新作性の根拠にはしない。' : ''}原ログ・語録の近傍30件と保存履歴${history.length}件。概念比較は保存履歴内のみ（原ログの概念注釈は未整備）。世界全体の新規性ではない。` };
+    datasetId: assets.datasetId, historySnapshot: hash(history), window: `${candidate.plan.structural ? '原文節の射影と手書き因果文法。出典は合成した語句・接頭辞の用例に限り、句順変更自体の学習や出典を示さない。入力語の違いを新作性の根拠にはしない。' : candidate.plan.rewrite || candidate.plan.construction ? '出典付き構文の応用。入力語の違いを新作性の根拠にはしない。' : ''}原ログ・語録の近傍30件と保存履歴${history.length}件。概念比較は保存履歴内のみ（原ログの概念注釈は未整備）。世界全体の新規性ではない。` };
 }
 export const features = (candidate: { text: string }): Record<string, number> => outputFeatures(candidate.text);
 export type Evaluator = { schemaVersion: 1; featureVersion: string; dimension: 'S' | 'Q'; coefficients: Record<string, number>; intercept: number; trainingManifest: Record<string, unknown>; personal: boolean };
@@ -40,6 +41,10 @@ export function score(candidate: Candidate, evaluator?: Evaluator) {
   return Object.entries(evaluator.coefficients).reduce((sum, [name, coefficient]) => sum + (values[name] || 0) * coefficient, evaluator.intercept);
 }
 export function ruleQuality(ir: DocumentIR, plan: QuotePlan): { C: number | null; R: number } {
+  if (plan.structural) {
+    const valid = validateStructural(ir, plan), length = [...plan.nodes.map(node => node.text).join('')].length;
+    return { C: valid ? 1 : 0, R: valid && length <= Math.max(100, ir.source.scalarToUtf16.length * 2) ? 1 : 0 };
+  }
   if (plan.construction) {
     const valid = !plan.rewrite && validateConstruction(ir, plan), length = [...plan.nodes.map(node => node.text).join('')].length;
     return { C: valid ? 1 : 0, R: valid && length <= Math.max(100, ir.source.scalarToUtf16.length * 2) ? 1 : 0 };
@@ -66,6 +71,13 @@ const constructionFamilies = new Map<string, string>(constructionRegistry.map(it
 const cosmeticRule = (id: string) => /^(?:punctuation-|narrator-)/u.test(id);
 export function diversityProfile(candidate: Candidate) {
   const plan = candidate.plan;
+  if (plan.structural) {
+    const lexical = plan.structural.lexicalEdits.filter(edit => !cosmeticRule(edit.ruleId) && diversityText(edit.from) !== diversityText(edit.to));
+    return { family: plan.family, operators: ['STRUCTURAL', ...(lexical.some(edit => !edit.ruleId.startsWith('ending-')) ? ['BODY_REWRITE'] : [])].join('+'),
+      changed: [...plan.structural.bindings.map(binding => `${binding.kind}:${binding.realizationId}:source[${binding.claimNodeId},${binding.reasonNodeId}]:emit[${(binding.realizationId === 'reason-claim' ? [binding.reasonNodeId, binding.claimNodeId] : [binding.claimNodeId, binding.reasonNodeId]).join(',')}]`), ...lexical.map(edit => `${edit.ruleId}:${diversityText(edit.to)}`)].sort().join('|'),
+      whole: diversityText(candidate.text) };
+  }
+
   const edits = plan.construction?.edits ?? plan.rewrite?.edits;
   const lexical = plan.construction?.lexicalEdits ?? [];
   const substantive = [...(edits ?? []), ...lexical].filter(edit => diversityText(edit.from) !== diversityText(edit.to));
@@ -97,7 +109,10 @@ export function select(candidates: Candidate[], noveltyMode: string, seed = ''):
     remaining = remaining.filter(candidate => !current.includes(candidate)); level++;
   }
   // This is an explicit presentation preference, not an assertion of quality.
-  const transformation = (candidate: Candidate) => candidate.plan.construction ? 2 : candidate.plan.rewrite?.edits.some(edit => !edit.ruleId.startsWith('ending-') && !cosmeticRule(edit.ruleId)) ? 1 : 0;
+  // In experimental structural ties, show the movement+lexical composition
+  // when available; this is a Boolean operation-coverage choice, not an edit
+  // count reward or a learned style/fluency score.
+  const transformation = (candidate: Candidate) => candidate.plan.structural?.bindings.some(binding => binding.realizationId === 'reason-claim') ? candidate.plan.structural.lexicalEdits.some(edit => !cosmeticRule(edit.ruleId) && !edit.ruleId.startsWith('ending-') && diversityText(edit.from) !== diversityText(edit.to)) ? 4 : 3 : candidate.plan.construction || candidate.plan.structural ? 2 : candidate.plan.rewrite?.edits.some(edit => !edit.ruleId.startsWith('ending-') && !cosmeticRule(edit.ruleId)) ? 1 : 0;
   const profiles = new Map(usable.map(candidate => [candidate, diversityProfile(candidate)]));
   const selected: Candidate[] = [];
   const distance = (value: string, previous: string[]) => previous.length ? 1 - Math.max(...previous.map(other => similarity(value, other))) : 1;

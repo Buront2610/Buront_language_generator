@@ -1,0 +1,1334 @@
+{
+  "authorship": "assistant-authored source-only engineering challenges, not human/natural-data samples or training teachers",
+  "selection": "All 40 inputs in their prespecified original order; no omitted copies/failures; no target gold text",
+  "rows": [
+    {
+      "id": "basic-01",
+      "group": "basic",
+      "source": "陶芸家は釉薬を薄めた。噴霧器が詰まったからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "陶芸家は釉薬を薄めたからな\n何故なら噴霧器が詰まったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "噴霧器が詰まったから、陶芸家は釉薬を薄めた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-02",
+      "group": "basic",
+      "source": "測量士は三脚を畳む。突風が強まるからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "測量士は三脚を畳むからな\n何故なら突風が強まるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "突風が強まるから、測量士は三脚を畳む。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-03",
+      "group": "basic",
+      "source": "配達員は鉱石を運ばない。学芸員が倉庫を開けないからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "配達員は鉱石を運ばないからな\n何故なら学芸員が倉庫を開けないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "claim-reason"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-04",
+      "group": "basic",
+      "source": "時計職人は歯車を磨かなかった。照明が故障したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "時計職人は歯車を磨かなかったからな\n何故なら照明が故障したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "照明が故障したから、時計職人は歯車を磨かなかった\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-05",
+      "group": "basic",
+      "source": "養蜂家は巣箱を移しました。水位が上がったからです。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "養蜂家は巣箱を移しました\n何故なら水位が上がったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "水位が上がったから、養蜂家は巣箱を移しました\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-06",
+      "group": "basic",
+      "source": "調律師は音叉を鳴らします。助手が周波数を調べるからです。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "調律師は音叉を鳴らします\n何故なら助手が周波数を調べるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "助手が周波数を調べるから、調律師は音叉を鳴らします。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-07",
+      "group": "basic",
+      "source": "司書は拓本を複写しません。収蔵庫の湿度が高いからです。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "司書は拓本を複写しません\n何故なら収蔵庫の湿度が高いからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "司書は拓本を複写しません\n何故なら収蔵庫の湿度が高いからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "収蔵庫の湿度が高いから、司書は拓本を複写しません\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 13,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-08",
+      "group": "basic",
+      "source": "水先案内人は帆を下ろしませんでした。灯台の信号が見えなかったからです。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "水先案内人は帆を下ろしませんでした\n何故なら灯台の信号が見えなかったからです",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "灯台の信号が見えなかったから、水先案内人は帆を下ろしませんでした\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-09",
+      "group": "basic",
+      "source": "染織家は糸を洗った。顔料が残っていたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "染織家は糸を洗った\n何故なら顔料が残っていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "顔料が残っていたから、染織家は糸を洗った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-10",
+      "group": "basic",
+      "source": "潜水士は採泥器を引き上げた。記録係が合図したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "潜水士は採泥器を引き上げたからな\n何故なら記録係が合図したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "記録係が合図したから、潜水士は採泥器を引き上げた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basic-11",
+      "group": "basic",
+      "source": "農学者は苗を植え替える。根が容器からはみ出すからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "農学者は苗を植え替えるからな\n根が容器からはみ出すからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "basic-12",
+      "group": "basic",
+      "source": "製本師は見返しを貼らない。糊が乾いていないからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "製本師は見返しを貼らないからな\n何故なら糊が乾いていないからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "糊が乾いていないから、製本師は見返しを貼らない\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-01",
+      "group": "operator",
+      "source": "漁師は浮標を回収する予定だ。気象台が荒天を予測したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "漁師は浮標を回収する予定だ\n気象台が荒天を予測したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "operator-02",
+      "group": "operator",
+      "source": "修復師は顔料を調合できる。助手が分光器を校正したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "修復師は顔料を調合できる\n何故なら助手が分光器を校正したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "助手が分光器を校正したから、修復師は顔料を調合できる\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 6,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-03",
+      "group": "operator",
+      "source": "登山家は稜線を越えなければならない。山小屋が谷の向こうにあるからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "登山家は稜線を越えなければならない\n山小屋が谷の向こうにあるからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "operator-04",
+      "group": "operator",
+      "source": "観測員は偏光板を交換したかもしれない。画像の明るさが変わったからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "観測員は偏光板を交換したかもしれない\n画像の明るさが変わったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "operator-05",
+      "group": "operator",
+      "source": "植木職人は接ぎ木を終えたはずだ。作業灯が消えたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "植木職人は接ぎ木を終えたはずだ\n作業灯が消えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "operator-06",
+      "group": "operator",
+      "source": "標本は運搬係に運ばれた。研究員が台車を手配したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "標本は運搬係に運ばれたからな\n何故なら研究員が台車を手配したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "研究員が台車を手配したから、標本は運搬係に運ばれた。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-07",
+      "group": "operator",
+      "source": "館長は助手に収蔵箱を開けさせた。検査員が点検を求めたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "館長は助手に収蔵箱を開けさせた\n何故なら検査員が点検を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "検査員が点検を求めたから、館長は助手に収蔵箱を開けさせた\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "operator-08",
+      "group": "operator",
+      "source": "琥珀は割れていない。梱包材が衝撃を吸収したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "琥珀は割れていない\n何故なら梱包材が衝撃を吸収したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "琥珀は割れていない\n何故なら梱包材が衝撃を吸収したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "梱包材が衝撃を吸収したから、琥珀は割れていない\n",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "payload-01",
+      "group": "payload",
+      "source": "実習生は試験管を17本洗った。指導員が17本の再検査を求めたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "実習生は試験管を17本洗ったからな\n何故なら指導員が17本の再検査を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "指導員が17本の再検査を求めたから、実習生は試験管を17本洗った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "payload-02",
+      "group": "payload",
+      "source": "技師は「運転停止」と表示した。回転数が毎分2400回を超えたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "技師は「運転停止」と表示したからな\n回転数が毎分2400回を超えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "payload-03",
+      "group": "payload",
+      "source": "翻訳者は「火曜日に戻る」と書いた。編集者が帰宅日を尋ねたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "翻訳者は「火曜日に戻る」と書いたからな\n編集者が帰宅日を尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "payload-04",
+      "group": "payload",
+      "source": "調査員は🧭を3個しまった。船長が「出港延期」と告げたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "調査員は🧭を3個しまったからな\n船長が「出港延期」と告げたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "composition-01",
+      "group": "composition",
+      "source": "私はアピールした。司会者が発言を求めたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "俺はアッピルしたからな\n何故なら司会者が発言を求めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "司会者が発言を求めたから、私はアピールした。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-02",
+      "group": "composition",
+      "source": "僕は助言した。弟子が装置の速度を尋ねたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 8,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "俺は助言したからな\n何故なら弟子が装置の速さとスピードを尋ねたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 8,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "弟子が装置の速度を尋ねたから、僕は助言した。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 17,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-03",
+      "group": "composition",
+      "source": "技工士は型を冷やした。鋳型が熱かったからだ。園芸家は鉢を運んだ。苗が届いたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "技工士は型を冷やしたからな\n何故なら鋳型が熱かったからだ\n園芸家は鉢を運んだ\n何故なら苗が届いたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "鋳型が熱かったから、技工士は型を冷やした。苗が届いたから、園芸家は鉢を運んだ。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim",
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "composition-04",
+      "group": "composition",
+      "source": "整備士は弁を閉めない。圧力が上がっていないからだ。記録係は報告書を送った。主任が確認を終えたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "整備士は弁を閉めないからな\n何故なら圧力が上がっていないからだ\n記録係は報告書を送った\n何故なら主任が確認を終えたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "圧力が上がっていないから、整備士は弁を閉めない。主任が確認を終えたから、記録係は報告書を送った。",
+          "selection": "first_displayed",
+          "candidate_pool_N": 9,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "reason-claim",
+            "reason-claim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-01",
+      "group": "anaphora",
+      "source": "学芸員は古文書を閉じた。その紙が破れかけていたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "学芸員は古文書を閉じたからな\n何故ならその紙が破れかけていたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "claim-reason"
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-02",
+      "group": "anaphora",
+      "source": "村人は水門を開いた。それが必要だったからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "村人は水門を開いたからな\nそれが必要だったからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "anaphora-03",
+      "group": "anaphora",
+      "source": "運転手は橋を渡らなかった。この件を監督が止めたからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "運転手は橋を渡らなかったからな\n何故ならこの件を監督が止めたからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "claim-reason"
+          ]
+        }
+      }
+    },
+    {
+      "id": "anaphora-04",
+      "group": "anaphora",
+      "source": "技師は試験を終えた。前者の工程が完了したからだ。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 4,
+          "displayed_N": 3,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "技師は試験を終えたからな\n何故なら前者の工程が完了したからだ",
+          "selection": "first_displayed",
+          "candidate_pool_N": 7,
+          "displayed_N": 3,
+          "is_structural": true,
+          "selected_realizations": [
+            "claim-reason"
+          ]
+        }
+      }
+    },
+    {
+      "id": "control-01",
+      "group": "control",
+      "source": "写植工は活字を並べた。庭師は種を蒔いた。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "写植工は活字を並べたからな\n庭師は種を蒔いた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-02",
+      "group": "control",
+      "source": "笛の音が聞こえた。鐘の音も聞こえた。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "笛の音が聞こえた\n鐘の音も聞こえた",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-03",
+      "group": "control",
+      "source": "探検家は洞窟から出た。案内人は港から来た。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "探検家は洞窟から出たからな\n案内人は港から来た",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-04",
+      "group": "control",
+      "source": "採集者は「蝶が飛んだからだ」と記録した。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "採集者は「蝶が飛んだからだ」と記録したからな",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-05",
+      "group": "control",
+      "source": "雨が降ったら、配達員は軒下に入る。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "雨が降ったら、配達員は軒下に入る",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-06",
+      "group": "control",
+      "source": "なぜ整備士は計器を外したのか。故障したからだろうか。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "なぜ整備士は計器を外したのか\n故障したからだろうか",
+          "selection": "first_displayed",
+          "candidate_pool_N": 1,
+          "displayed_N": 1,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-07",
+      "group": "control",
+      "source": "巫女は灯りを消した。眠るからではない。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "巫女は灯りを消したからな\n眠るからではない",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    },
+    {
+      "id": "control-08",
+      "group": "control",
+      "source": "彫刻家は石を磨いた。弟子は「師匠が頼んだからだ」と言った。",
+      "authorship": "assistant-authored challenge source",
+      "methods": {
+        "main": {
+          "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "off": {
+          "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        },
+        "on": {
+          "text": "彫刻家は石を磨いたからな\n弟子は「師匠が頼んだからだ」と言った",
+          "selection": "first_displayed",
+          "candidate_pool_N": 2,
+          "displayed_N": 2,
+          "is_structural": false,
+          "selected_realizations": []
+        }
+      }
+    }
+  ]
+}

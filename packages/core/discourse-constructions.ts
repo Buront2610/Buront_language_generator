@@ -20,7 +20,7 @@ export const discourseConstructionRegistry = [
 const binding = (slot: ConstructionBinding['slot'], span: Span, ir: DocumentIR): ConstructionBinding => ({ slot, span: { ...span }, text: slice(ir.source.raw, span), tokenIds: ir.tokens.filter(token => span.start <= token.span.start && token.span.end <= span.end).map(token => token.id) });
 const inSpan = (inner: Span, outer: Span) => outer.start <= inner.start && inner.end <= outer.end;
 const spanKey = (span: Span) => `${span.start}:${span.end}`;
-type DiscourseContext = { byStart: Map<number, { sentence: Span; index: number; scopes: PropositionScope[] }>; factsByPredicate: Map<string, Fact> };
+type DiscourseContext = { morphologicalReasonMarker: boolean; byStart: Map<number, { sentence: Span; index: number; scopes: PropositionScope[] }>; factsByPredicate: Map<string, Fact> };
 const factFor = (context: DiscourseContext, scope: PropositionScope) => context.factsByPredicate.get(spanKey(scope.predicate.span));
 const sentenceScopes = (context: DiscourseContext, span: Span) => context.byStart.get(span.start)?.scopes ?? [];
 const rootIn = (context: DiscourseContext, span: Span) => sentenceScopes(context, span).find(scope => scope.predicate.dep === 'ROOT');
@@ -82,8 +82,8 @@ function relation(ir: DocumentIR, context: DiscourseContext, kind: RecognizedDis
 // Recognition contains only source relations and grammatical evidence. In
 // particular, intensity, series and the registered output wording do not decide
 // whether a relation exists. These caller-owned indexes are rebuilt for proof.
-export function createDiscourseRecognizer(ir: DocumentIR, scopes: PropositionScope[], onDiagnostic?: DiscourseRecognitionObserver): (node: PlanNode) => RecognizedDiscourseRelation[] {
-  const context: DiscourseContext = { byStart: new Map(ir.sentences.map((sentence, index) => [sentence.start, { sentence, index, scopes: [] }])), factsByPredicate: new Map(ir.facts.map(fact => [spanKey(fact.predicateSpan), fact])) };
+export function createDiscourseRecognizer(ir: DocumentIR, scopes: PropositionScope[], onDiagnostic?: DiscourseRecognitionObserver, options: { morphologicalReasonMarker?: boolean } = {}): (node: PlanNode) => RecognizedDiscourseRelation[] {
+  const context: DiscourseContext = { morphologicalReasonMarker: options.morphologicalReasonMarker === true, byStart: new Map(ir.sentences.map((sentence, index) => [sentence.start, { sentence, index, scopes: [] }])), factsByPredicate: new Map(ir.facts.map(fact => [spanKey(fact.predicateSpan), fact])) };
   let index = 0;
   for (const scope of scopes) {
     while (index < ir.sentences.length - 1 && scope.predicate.span.start >= ir.sentences[index].end) index++;
@@ -119,7 +119,14 @@ function recognizeDiscourseForNode(ir: DocumentIR, node: PlanNode, context: Disc
   else if (!safeCopiedSentence(ir, previous, context, true) || !safeCopiedSentence(ir, sentence, context)
     || fact.realization !== 'actual' || fact.polarity === 'unknown') report('explicit-reason', 'scope_blocked', 'unsafe_reason_context');
   else {
-    const marker = root.children.find(token => token.text === 'から' && token.pos === 'SCONJ' && token.dep === 'mark');
+    const marker = root.children.find(token => token.text === 'から' && (token.pos === 'SCONJ' && token.dep === 'mark'
+      // GiNZA's coarse UD tags can nominalize a finite verb while the Japanese
+      // tag/inflection still identifies a terminal verb + conjunction. This
+      // narrow alternative is opt-in for structural projection only; original
+      // tokens are never retagged and default constructions remain unchanged.
+      || context.morphologicalReasonMarker && token.pos === 'ADP' && token.dep === 'case' && token.tag === '助詞-接続助詞'
+        && /^(?:NOUN|PROPN)$/u.test(root.predicate.pos) && root.predicate.tag === '動詞-一般'
+        && root.predicate.morphology.some(value => /^Inflection=[^;]+;終止形-/u.test(value)))) ;
     const copula = root.children.find(token => token.span.end === body.end && ['だ', 'です'].includes(token.text) && ['cop', 'aux'].includes(token.dep));
     if (marker && copula && marker.span.end === copula.span.start) accept(relation(ir, context, 'explicit-reason', fact,
       [{ role: 'claim', span: previous }, { role: 'reason', span: body }],
